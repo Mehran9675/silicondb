@@ -2,7 +2,7 @@
 
 A mobile app with the specifications of processing chips — CPUs, GPUs, APUs, SoCs,
 TPUs/NPUs and other AI accelerators, microcontrollers, DSPs and FPGAs — from every
-manufacturer, from the Intel 8008 (1972) to today. Built in Go with
+manufacturer and every era. Built in Go with
 [giode](https://github.com/mehran9675/giode) and packaged with the
 [giode CLI](https://github.com/mehran9675/giode-cli).
 
@@ -56,17 +56,22 @@ giode doctor                 # what each target needs
 giode run android            # build, install and launch on a connected phone
 giode build android          # dist/android/Silicon DB.apk
 giode build ios              # on macOS, with a provisioning profile in giode.toml
-giode build web              # dist/web
 giode run                    # on this computer
 ```
 
 ### Releases
 
 Publishing a GitHub release runs [`.github/workflows/release.yml`](.github/workflows/release.yml),
-which builds the Android APK, the Windows executable and the web build with the release's
-version and attaches them to the release. Nothing is built on ordinary pushes. To sign the
-APK with your own key, add the `ANDROID_KEYSTORE_BASE64` and `ANDROID_KEYSTORE_PASS`
-repository secrets (create the keystore with `giode keystore`).
+which builds the Android APK and the iOS IPA with the release's version and attaches them to
+the release. Nothing is built on ordinary pushes. Signing uses repository secrets:
+
+| Secret | For |
+| --- | --- |
+| `ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASS` | A release-signed APK (create the keystore with `giode keystore`). Without them the APK uses a debug key and can't update an earlier install. |
+| `IOS_CERTIFICATE_BASE64`, `IOS_CERTIFICATE_PASS` | The Apple distribution certificate, exported as .p12. |
+| `IOS_PROFILE_BASE64` | The provisioning profile for `com.mehran9675.silicondb`. Without these the iOS build is skipped. |
+
+Encode a file for a secret with `base64 -i file | pbcopy` (macOS) or `base64 -w0 file` (Linux).
 
 The app icon is drawn by `go run ./cmd/icongen`, which writes `assets/icon.png`.
 

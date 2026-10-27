@@ -8,9 +8,29 @@
       "family": "Z8",
       "released": "1979",
       "specs": {
+        "microarchitecture": "Z8",
         "isa": "Z8",
-        "data_width_bits": 8
-      }
+        "market": "Embedded",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "data_width_bits": 8,
+        "base_clock_mhz": 8,
+        "sram_kb": 0.125,
+        "voltage_v": 5,
+        "gpio_pins": 32,
+        "timers": "2× 8-bit with 6-bit prescalers",
+        "interfaces": [
+          "UART"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "flash_kb",
+        "eeprom_kb",
+        "adc",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "zilog-z8f6421",
@@ -18,12 +38,31 @@
       "family": "Z8 Encore!",
       "released": "2002",
       "specs": {
+        "microarchitecture": "eZ8",
         "isa": "eZ8",
+        "market": "Embedded",
+        "package": "44-pin LQFP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 20,
         "flash_kb": 64,
-        "sram_kb": 4
-      }
+        "sram_kb": 4,
+        "mips": 10,
+        "voltage_v": 3.3,
+        "gpio_pins": 31,
+        "adc": "10-bit, 8 channels",
+        "timers": "3× 16-bit",
+        "interfaces": [
+          "2× UART (IrDA)",
+          "I2C",
+          "SPI"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "zilog-ez80f91",
@@ -31,14 +70,35 @@
       "family": "eZ80 Acclaim!",
       "released": "2004",
       "specs": {
+        "microarchitecture": "eZ80",
         "isa": "eZ80",
+        "market": "Embedded",
+        "package": "144-pin LQFP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 50,
         "flash_kb": 256,
+        "sram_kb": 16,
+        "mips": 50,
+        "voltage_v": 3.3,
         "connectivity": [
           "Ethernet"
+        ],
+        "gpio_pins": 32,
+        "timers": "4× 16-bit",
+        "interfaces": [
+          "Ethernet MAC (10/100)",
+          "2× UART (IrDA)",
+          "I2C",
+          "SPI"
         ]
-      }
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "adc",
+        "dac"
+      ]
     }
   ]
 }

@@ -10,19 +10,41 @@
       "specs": {
         "microarchitecture": "ARM1176JZF-S",
         "isa": "ARMv6",
-        "market": "Single-board computer",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 1,
+        "core_config": "1x ARM1176JZF-S @ 700 MHz",
         "base_clock_mhz": 700,
         "l1_cache_kb": 32,
         "l2_cache_kb": 128,
         "gpu": "VideoCore IV",
+        "gpu_cores": 12,
         "gpu_clock_mhz": 250,
         "graphics_api": [
           "OpenGL ES 2.0",
           "OpenVG"
+        ],
+        "memory_type": "LPDDR2 (PoP)",
+        "max_memory_mb": 512,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 3.2,
+        "fp32_tflops": 0.024,
+        "connectivity": [
+          "USB 2.0 OTG"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "broadcom-bcm2836",
@@ -32,18 +54,41 @@
       "specs": {
         "microarchitecture": "Cortex-A7",
         "isa": "ARMv7-A",
-        "market": "Single-board computer",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 4,
+        "core_config": "4x Cortex-A7 @ 900 MHz",
         "base_clock_mhz": 900,
+        "l1_cache_kb": 128,
         "l2_cache_kb": 512,
         "gpu": "VideoCore IV",
+        "gpu_cores": 12,
         "gpu_clock_mhz": 250,
         "graphics_api": [
           "OpenGL ES 2.0",
           "OpenVG"
+        ],
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 3.2,
+        "fp32_tflops": 0.024,
+        "connectivity": [
+          "USB 2.0 OTG"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "broadcom-bcm2837",
@@ -53,17 +98,41 @@
       "specs": {
         "microarchitecture": "Cortex-A53",
         "isa": "ARMv8-A",
-        "market": "Single-board computer",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 4,
+        "core_config": "4x Cortex-A53 @ 1.2 GHz",
         "base_clock_mhz": 1200,
+        "l1_cache_kb": 256,
         "l2_cache_kb": 512,
         "gpu": "VideoCore IV",
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 300,
         "graphics_api": [
           "OpenGL ES 2.0",
           "OpenVG"
+        ],
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 3.6,
+        "fp32_tflops": 0.029,
+        "connectivity": [
+          "USB 2.0 OTG"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "broadcom-bcm2837b0",
@@ -73,17 +142,41 @@
       "specs": {
         "microarchitecture": "Cortex-A53",
         "isa": "ARMv8-A",
-        "market": "Single-board computer",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 4,
+        "core_config": "4x Cortex-A53 @ 1.4 GHz",
         "base_clock_mhz": 1400,
+        "l1_cache_kb": 256,
         "l2_cache_kb": 512,
         "gpu": "VideoCore IV",
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 300,
         "graphics_api": [
           "OpenGL ES 2.0",
           "OpenVG"
+        ],
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 3.6,
+        "fp32_tflops": 0.029,
+        "connectivity": [
+          "USB 2.0 OTG"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "broadcom-bcm2711",
@@ -93,15 +186,43 @@
       "specs": {
         "microarchitecture": "Cortex-A72",
         "isa": "ARMv8-A",
-        "market": "Single-board computer",
+        "market": "Embedded",
         "process_nm": 28,
+        "foundry": "TSMC",
         "cores": 4,
+        "core_config": "4x Cortex-A72 @ 1.5 GHz",
         "base_clock_mhz": 1500,
+        "l1_cache_kb": 320,
         "l2_cache_kb": 1024,
         "gpu": "VideoCore VI",
+        "gpu_cores": 8,
         "gpu_clock_mhz": 500,
-        "memory_type": "LPDDR4-3200"
-      }
+        "graphics_api": [
+          "OpenGL ES 3.1",
+          "Vulkan 1.2"
+        ],
+        "memory_type": "LPDDR4-3200",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 12.8,
+        "fp32_tflops": 0.032,
+        "connectivity": [
+          "PCIe 2.0 x1",
+          "Gigabit Ethernet",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "broadcom-bcm2710a1",
@@ -111,17 +232,41 @@
       "specs": {
         "microarchitecture": "Cortex-A53",
         "isa": "ARMv8-A",
-        "market": "Single-board computer",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 4,
+        "core_config": "4x Cortex-A53 @ 1.0 GHz",
         "base_clock_mhz": 1000,
+        "l1_cache_kb": 256,
         "l2_cache_kb": 512,
         "gpu": "VideoCore IV",
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 300,
         "graphics_api": [
           "OpenGL ES 2.0",
           "OpenVG"
+        ],
+        "memory_type": "LPDDR2 (in package, RP3A0 SiP)",
+        "max_memory_mb": 512,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 3.6,
+        "fp32_tflops": 0.029,
+        "connectivity": [
+          "USB 2.0 OTG"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "broadcom-bcm2712",
@@ -131,16 +276,42 @@
       "specs": {
         "microarchitecture": "Cortex-A76",
         "isa": "ARMv8.2-A",
-        "market": "Single-board computer",
+        "market": "Embedded",
         "process_nm": 16,
+        "foundry": "TSMC",
         "cores": 4,
+        "core_config": "4x Cortex-A76 @ 2.4 GHz",
         "base_clock_mhz": 2400,
+        "l1_cache_kb": 512,
         "l2_cache_kb": 2048,
         "l3_cache_kb": 2048,
         "gpu": "VideoCore VII",
+        "gpu_cores": 12,
         "gpu_clock_mhz": 800,
-        "memory_type": "LPDDR4X-4267"
-      }
+        "graphics_api": [
+          "OpenGL ES 3.1",
+          "Vulkan 1.3"
+        ],
+        "memory_type": "LPDDR4X-4267",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 17.1,
+        "fp32_tflops": 0.0768,
+        "connectivity": [
+          "PCIe 2.0 x4 (to RP1 I/O chip)",
+          "PCIe 2.0 x1"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     }
   ]
 }

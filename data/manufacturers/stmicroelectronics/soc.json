@@ -11,15 +11,42 @@
         "microarchitecture": "Cortex-A7",
         "isa": "ARMv7-A",
         "market": "Embedded",
+        "process_nm": 40,
+        "package": "LFBGA448 / TFBGA361 / TFBGA257",
         "cores": 2,
-        "core_config": "2x Cortex-A7 + 1x Cortex-M4",
+        "core_config": "2x Cortex-A7 650 MHz + 1x Cortex-M4 209 MHz",
         "base_clock_mhz": 650,
-        "gpu": "Vivante GC Nano",
+        "l2_cache_kb": 256,
+        "gpu": "Vivante GC400T (GC Nano)",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 533,
         "graphics_api": [
           "OpenGL ES 2.0"
         ],
-        "memory_type": "DDR3/LPDDR2/LPDDR3"
-      }
+        "memory_type": "DDR3/LPDDR2/LPDDR3",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 4.3,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "USB 2.0 High Speed",
+          "2× FDCAN",
+          "SDMMC"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     }
   ]
 }

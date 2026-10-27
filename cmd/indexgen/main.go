@@ -25,9 +25,11 @@ import (
 func main() {
 	dir := flag.String("dir", "data", "database directory")
 	check := flag.Bool("check", false, "validate without writing index.json")
+	gaps := flag.Bool("report", false, "list each chip's missing specs instead of writing index.json")
+	prefix := flag.String("only", "", "with -report, only chips whose id starts with this")
 	flag.Parse()
 
-	ix, report, err := build(*dir)
+	ix, report, err := build(*dir, *gaps, *prefix)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "indexgen:", err)
 		os.Exit(1)
@@ -42,6 +44,10 @@ func main() {
 		os.Exit(1)
 	}
 	fmt.Printf("%d manufacturers, %d shards, %d chips\n", len(ix.Manufacturers), report.shards, report.chips)
+	if report.complete != nil {
+		report.complete.print()
+		return
+	}
 	if *check {
 		return
 	}
@@ -65,7 +71,7 @@ func main() {
 	fmt.Println("wrote", out)
 }
 
-func build(dir string) (*model.Index, *report, error) {
+func build(dir string, gaps bool, prefix string) (*model.Index, *report, error) {
 	rep := &report{}
 	schemaRaw, err := os.ReadFile(filepath.Join(dir, "schema.json"))
 	if err != nil {
@@ -74,6 +80,10 @@ func build(dir string) (*model.Index, *report, error) {
 	var schema model.Schema
 	if err := strictDecode(schemaRaw, &schema); err != nil {
 		return nil, nil, fmt.Errorf("schema.json: %w", err)
+	}
+	if gaps {
+		rep.complete = newCompleteness(&schema, prefix)
+		rep.gaps = rep.complete.add
 	}
 	ix := &model.Index{
 		Format:  data.SupportedFormat,

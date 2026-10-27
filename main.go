@@ -1,6 +1,5 @@
 // Command silicondb is Silicon DB: the specifications of processors,
-// graphics chips, SoCs, AI accelerators and other data-processing chips
-// since the Intel 8008.
+// graphics chips, SoCs, AI accelerators and other data-processing chips.
 package main
 
 import (

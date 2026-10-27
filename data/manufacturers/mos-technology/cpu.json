@@ -8,13 +8,35 @@
       "family": "6500",
       "released": "1975",
       "specs": {
+        "microarchitecture": "6502",
         "isa": "6502",
+        "market": "Console",
+        "process_nm": 8000,
+        "foundry": "MOS Technology",
+        "transistors": 3510,
+        "die_size_mm2": 16.6,
+        "package": "28-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 13,
         "base_clock_mhz": 1,
-        "cores": 1,
-        "package": "28-pin DIP"
-      }
+        "max_memory_mb": 0.0078125,
+        "tdp_w": 0.25,
+        "voltage_v": 5,
+        "interface": "6502 bus (13-bit address)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mos-technology-6501",
@@ -22,14 +44,35 @@
       "family": "6500",
       "released": "1975-09",
       "specs": {
+        "microarchitecture": "6502",
         "isa": "6502",
+        "market": "Embedded",
+        "launch_price_usd": 20,
+        "process_nm": 8000,
+        "foundry": "MOS Technology",
+        "transistors": 3510,
+        "die_size_mm2": 16.6,
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
         "base_clock_mhz": 1,
-        "cores": 1,
-        "package": "40-pin DIP",
-        "launch_price_usd": 20
-      }
+        "max_memory_mb": 0.0625,
+        "tdp_w": 0.25,
+        "voltage_v": 5,
+        "interface": "6800-compatible bus"
+      },
+      "na": [
+        "codename",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mos-technology-6502",
@@ -37,16 +80,35 @@
       "family": "6500",
       "released": "1975-09",
       "specs": {
+        "microarchitecture": "6502",
         "isa": "6502",
+        "market": "Desktop",
+        "launch_price_usd": 25,
         "process_nm": 8000,
+        "foundry": "MOS Technology",
         "transistors": 3510,
+        "die_size_mm2": 16.6,
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
         "base_clock_mhz": 1,
-        "cores": 1,
-        "package": "40-pin DIP",
-        "launch_price_usd": 25
-      }
+        "max_memory_mb": 0.0625,
+        "tdp_w": 0.25,
+        "voltage_v": 5,
+        "interface": "6502 bus"
+      },
+      "na": [
+        "codename",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mos-technology-6510",
@@ -54,13 +116,35 @@
       "family": "6500",
       "released": "1982",
       "specs": {
+        "microarchitecture": "6502",
         "isa": "6502",
+        "market": "Desktop",
+        "process_nm": 8000,
+        "foundry": "MOS Technology",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
         "base_clock_mhz": 1,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "6502 bus + 6-bit I/O port"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mos-technology-7501",
@@ -68,11 +152,35 @@
       "family": "6500",
       "released": "1984",
       "specs": {
+        "microarchitecture": "6502",
         "isa": "6502",
+        "market": "Desktop",
+        "foundry": "MOS Technology",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
-        "cores": 1
-      }
+        "base_clock_mhz": 1.76,
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "6502 bus + 7-bit I/O port"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mos-technology-8502",
@@ -80,13 +188,35 @@
       "family": "6500",
       "released": "1985",
       "specs": {
+        "microarchitecture": "6502",
         "isa": "6502",
+        "market": "Desktop",
+        "foundry": "MOS Technology",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
         "base_clock_mhz": 2,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "6502 bus + 7-bit I/O port"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     }
   ]
 }

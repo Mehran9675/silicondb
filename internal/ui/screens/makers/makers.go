@@ -41,7 +41,7 @@ func (s *Screen) content() giode.Element {
 	makers := s.filtered(cat)
 	s.order.Styles(components.SegmentedStyles())
 	children := []giode.Element{
-		components.AppBar(nil, "Manufacturers", fmt.Sprintf("%d companies since 1972", len(cat.Manufacturers))),
+		components.AppBar(nil, "Manufacturers", fmt.Sprintf("%d companies", len(cat.Manufacturers))),
 		s.search.View(),
 		s.order,
 	}

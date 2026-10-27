@@ -9,11 +9,41 @@
       "released": "1995-05",
       "specs": {
         "codename": "NV1",
+        "microarchitecture": "NV1",
         "market": "Consumer",
         "process_nm": 500,
         "foundry": "SGS-Thomson",
+        "tmus": 1,
+        "rops": 1,
+        "graphics_api": [
+          "NVLib",
+          "DirectX 3.0"
+        ],
+        "memory_type": "VRAM / EDO DRAM",
+        "memory_size_mb": 4,
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_bus_bits",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-riva-128",
@@ -22,6 +52,7 @@
       "released": "1997-08",
       "specs": {
         "codename": "NV3",
+        "microarchitecture": "Fahrenheit",
         "market": "Consumer",
         "process_nm": 350,
         "foundry": "SGS-Thomson",
@@ -34,12 +65,28 @@
           "DirectX 5.0",
           "OpenGL 1.1"
         ],
+        "pixel_rate_gpixels": 0.1,
+        "texture_rate_gtexels": 0.1,
         "memory_type": "SGRAM",
         "memory_size_mb": 4,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 100,
         "memory_bandwidth_gbs": 1.6,
         "interface": "AGP 1x / PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-riva-128zx",
@@ -48,10 +95,12 @@
       "released": "1998-02",
       "specs": {
         "codename": "NV3",
+        "microarchitecture": "Fahrenheit",
         "market": "Consumer",
         "process_nm": 350,
         "foundry": "SGS-Thomson",
         "transistors": 3500000,
+        "die_size_mm2": 90,
         "tmus": 1,
         "rops": 1,
         "gpu_clock_mhz": 100,
@@ -59,11 +108,28 @@
           "DirectX 5.0",
           "OpenGL 1.1"
         ],
+        "pixel_rate_gpixels": 0.1,
+        "texture_rate_gtexels": 0.1,
         "memory_type": "SGRAM",
         "memory_size_mb": 8,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 100,
+        "memory_bandwidth_gbs": 1.6,
         "interface": "AGP 2x / PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-riva-tnt",
@@ -72,10 +138,12 @@
       "released": "1998-06",
       "specs": {
         "codename": "NV4",
+        "microarchitecture": "Fahrenheit",
         "market": "Consumer",
         "process_nm": 350,
         "foundry": "TSMC",
         "transistors": 7000000,
+        "die_size_mm2": 90,
         "tmus": 2,
         "rops": 2,
         "gpu_clock_mhz": 90,
@@ -83,12 +151,28 @@
           "DirectX 6.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.18,
+        "texture_rate_gtexels": 0.18,
         "memory_type": "SDRAM",
         "memory_size_mb": 16,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 110,
         "memory_bandwidth_gbs": 1.76,
         "interface": "AGP 2x / PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-riva-tnt2",
@@ -97,10 +181,12 @@
       "released": "1999-03",
       "specs": {
         "codename": "NV5",
+        "microarchitecture": "Fahrenheit",
         "market": "Consumer",
         "process_nm": 250,
         "foundry": "TSMC",
         "transistors": 15000000,
+        "die_size_mm2": 90,
         "tmus": 2,
         "rops": 2,
         "gpu_clock_mhz": 125,
@@ -108,12 +194,28 @@
           "DirectX 6.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.25,
+        "texture_rate_gtexels": 0.25,
         "memory_type": "SDRAM",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 150,
         "memory_bandwidth_gbs": 2.4,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-riva-tnt2-ultra",
@@ -122,10 +224,12 @@
       "released": "1999-03",
       "specs": {
         "codename": "NV5",
+        "microarchitecture": "Fahrenheit",
         "market": "Consumer",
         "process_nm": 250,
         "foundry": "TSMC",
         "transistors": 15000000,
+        "die_size_mm2": 90,
         "tmus": 2,
         "rops": 2,
         "gpu_clock_mhz": 150,
@@ -133,12 +237,28 @@
           "DirectX 6.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.3,
+        "texture_rate_gtexels": 0.3,
         "memory_type": "SDRAM",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 183,
         "memory_bandwidth_gbs": 2.93,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce-256",
@@ -147,9 +267,13 @@
       "released": "1999-10",
       "specs": {
         "codename": "NV10",
+        "microarchitecture": "Celsius",
         "market": "Consumer",
+        "launch_price_usd": 249,
         "process_nm": 220,
         "foundry": "TSMC",
+        "transistors": 17000000,
+        "die_size_mm2": 111,
         "tmus": 4,
         "rops": 4,
         "gpu_clock_mhz": 120,
@@ -157,11 +281,27 @@
           "DirectX 7.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.48,
+        "texture_rate_gtexels": 0.48,
         "memory_type": "SDR / DDR",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 166,
+        "memory_bandwidth_gbs": 2.66,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-quadro",
@@ -170,9 +310,12 @@
       "released": "1999-12",
       "specs": {
         "codename": "NV10GL",
+        "microarchitecture": "Celsius",
         "market": "Workstation",
         "process_nm": 220,
         "foundry": "TSMC",
+        "transistors": 17000000,
+        "die_size_mm2": 111,
         "tmus": 4,
         "rops": 4,
         "gpu_clock_mhz": 135,
@@ -180,9 +323,28 @@
           "DirectX 7.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.54,
+        "texture_rate_gtexels": 0.54,
+        "memory_type": "SDR",
+        "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 166,
+        "memory_bandwidth_gbs": 2.66,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce2-gts",
@@ -191,7 +353,9 @@
       "released": "2000-04",
       "specs": {
         "codename": "NV15",
+        "microarchitecture": "Celsius",
         "market": "Consumer",
+        "launch_price_usd": 349,
         "process_nm": 180,
         "foundry": "TSMC",
         "transistors": 25000000,
@@ -203,12 +367,27 @@
           "DirectX 7.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.8,
+        "texture_rate_gtexels": 1.6,
         "memory_type": "DDR",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 166,
         "memory_bandwidth_gbs": 5.3,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce2-mx",
@@ -217,10 +396,13 @@
       "released": "2000-06",
       "specs": {
         "codename": "NV11",
+        "microarchitecture": "Celsius",
         "market": "Consumer",
+        "launch_price_usd": 119,
         "process_nm": 180,
         "foundry": "TSMC",
         "transistors": 20000000,
+        "die_size_mm2": 64,
         "tmus": 4,
         "rops": 2,
         "gpu_clock_mhz": 175,
@@ -228,12 +410,27 @@
           "DirectX 7.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.35,
+        "texture_rate_gtexels": 0.7,
         "memory_type": "SDR",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 166,
         "memory_bandwidth_gbs": 2.7,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce2-ultra",
@@ -242,7 +439,9 @@
       "released": "2000-08",
       "specs": {
         "codename": "NV15",
+        "microarchitecture": "Celsius",
         "market": "Consumer",
+        "launch_price_usd": 499,
         "process_nm": 180,
         "foundry": "TSMC",
         "transistors": 25000000,
@@ -254,12 +453,27 @@
           "DirectX 7.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 1.0,
+        "texture_rate_gtexels": 2.0,
         "memory_type": "DDR",
         "memory_size_mb": 64,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 230,
         "memory_bandwidth_gbs": 7.36,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce3",
@@ -268,7 +482,9 @@
       "released": "2001-02",
       "specs": {
         "codename": "NV20",
+        "microarchitecture": "Kelvin",
         "market": "Consumer",
+        "launch_price_usd": 499,
         "process_nm": 150,
         "foundry": "TSMC",
         "transistors": 57000000,
@@ -280,12 +496,27 @@
           "DirectX 8.0",
           "OpenGL 1.3"
         ],
+        "pixel_rate_gpixels": 0.8,
+        "texture_rate_gtexels": 1.6,
         "memory_type": "DDR",
         "memory_size_mb": 64,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 230,
         "memory_bandwidth_gbs": 7.36,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce3-ti-500",
@@ -294,7 +525,9 @@
       "released": "2001-10",
       "specs": {
         "codename": "NV20",
+        "microarchitecture": "Kelvin",
         "market": "Consumer",
+        "launch_price_usd": 349,
         "process_nm": 150,
         "foundry": "TSMC",
         "transistors": 57000000,
@@ -306,12 +539,27 @@
           "DirectX 8.0",
           "OpenGL 1.3"
         ],
+        "pixel_rate_gpixels": 0.96,
+        "texture_rate_gtexels": 1.92,
         "memory_type": "DDR",
         "memory_size_mb": 64,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 250,
         "memory_bandwidth_gbs": 8.0,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce4-mx-440",
@@ -320,10 +568,13 @@
       "released": "2002-02",
       "specs": {
         "codename": "NV17",
+        "microarchitecture": "Celsius",
         "market": "Consumer",
+        "launch_price_usd": 149,
         "process_nm": 150,
         "foundry": "TSMC",
         "transistors": 29000000,
+        "die_size_mm2": 65,
         "tmus": 4,
         "rops": 2,
         "gpu_clock_mhz": 270,
@@ -331,12 +582,27 @@
           "DirectX 7.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.54,
+        "texture_rate_gtexels": 1.08,
         "memory_type": "DDR",
         "memory_size_mb": 64,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 200,
         "memory_bandwidth_gbs": 6.4,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce4-ti-4600",
@@ -345,6 +611,7 @@
       "released": "2002-02",
       "specs": {
         "codename": "NV25",
+        "microarchitecture": "Kelvin",
         "market": "Consumer",
         "launch_price_usd": 399,
         "process_nm": 150,
@@ -358,12 +625,27 @@
           "DirectX 8.1",
           "OpenGL 1.3"
         ],
+        "pixel_rate_gpixels": 1.2,
+        "texture_rate_gtexels": 2.4,
         "memory_type": "DDR",
         "memory_size_mb": 128,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 325,
         "memory_bandwidth_gbs": 10.4,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce4-ti-4200",
@@ -372,7 +654,9 @@
       "released": "2002-04",
       "specs": {
         "codename": "NV25",
+        "microarchitecture": "Kelvin",
         "market": "Consumer",
+        "launch_price_usd": 199,
         "process_nm": 150,
         "foundry": "TSMC",
         "transistors": 63000000,
@@ -384,11 +668,27 @@
           "DirectX 8.1",
           "OpenGL 1.3"
         ],
+        "pixel_rate_gpixels": 1.0,
+        "texture_rate_gtexels": 2.0,
         "memory_type": "DDR",
         "memory_size_mb": 64,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 250,
+        "memory_bandwidth_gbs": 8.0,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "nvidia-geforce-fx-5800-ultra",
@@ -411,12 +711,27 @@
           "DirectX 9.0a",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 2.0,
+        "texture_rate_gtexels": 4.0,
         "memory_type": "DDR2",
         "memory_size_mb": 128,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 500,
         "memory_bandwidth_gbs": 16.0,
+        "tdp_w": 75,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-fx-5200",
@@ -427,9 +742,11 @@
         "codename": "NV34",
         "microarchitecture": "Rankine",
         "market": "Consumer",
+        "launch_price_usd": 99,
         "process_nm": 150,
         "foundry": "TSMC",
         "transistors": 45000000,
+        "die_size_mm2": 91,
         "tmus": 4,
         "rops": 4,
         "gpu_clock_mhz": 250,
@@ -437,12 +754,27 @@
           "DirectX 9.0a",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 1.0,
+        "texture_rate_gtexels": 1.0,
         "memory_type": "DDR",
         "memory_size_mb": 128,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 200,
         "memory_bandwidth_gbs": 6.4,
+        "tdp_w": 21,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-fx-5900-ultra",
@@ -465,12 +797,27 @@
           "DirectX 9.0a",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 1.8,
+        "texture_rate_gtexels": 3.6,
         "memory_type": "DDR",
         "memory_size_mb": 256,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 425,
         "memory_bandwidth_gbs": 27.2,
+        "tdp_w": 59,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-fx-5700-ultra",
@@ -481,9 +828,11 @@
         "codename": "NV36",
         "microarchitecture": "Rankine",
         "market": "Consumer",
+        "launch_price_usd": 199,
         "process_nm": 130,
         "foundry": "IBM",
         "transistors": 82000000,
+        "die_size_mm2": 133,
         "tmus": 4,
         "rops": 4,
         "gpu_clock_mhz": 475,
@@ -491,12 +840,27 @@
           "DirectX 9.0a",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 1.9,
+        "texture_rate_gtexels": 1.9,
         "memory_type": "DDR2",
         "memory_size_mb": 128,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 453,
         "memory_bandwidth_gbs": 14.5,
+        "tdp_w": 52,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-fx-5950-ultra",
@@ -507,6 +871,7 @@
         "codename": "NV38",
         "microarchitecture": "Rankine",
         "market": "Consumer",
+        "launch_price_usd": 499,
         "process_nm": 130,
         "foundry": "TSMC",
         "transistors": 135000000,
@@ -518,12 +883,27 @@
           "DirectX 9.0a",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 1.9,
+        "texture_rate_gtexels": 3.8,
         "memory_type": "DDR",
         "memory_size_mb": 256,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 475,
         "memory_bandwidth_gbs": 30.4,
+        "tdp_w": 74,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-6800-ultra",
@@ -547,12 +927,27 @@
           "DirectX 9.0c",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 6.4,
+        "texture_rate_gtexels": 6.4,
         "memory_type": "GDDR3",
         "memory_size_mb": 256,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 550,
         "memory_bandwidth_gbs": 35.2,
+        "tdp_w": 81,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-6800-gt",
@@ -576,12 +971,27 @@
           "DirectX 9.0c",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 5.6,
+        "texture_rate_gtexels": 5.6,
         "memory_type": "GDDR3",
         "memory_size_mb": 256,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 500,
         "memory_bandwidth_gbs": 32.0,
+        "tdp_w": 67,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-6600-gt",
@@ -605,12 +1015,27 @@
           "DirectX 9.0c",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 2.0,
+        "texture_rate_gtexels": 4.0,
         "memory_type": "GDDR3",
         "memory_size_mb": 128,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 500,
         "memory_bandwidth_gbs": 16.0,
+        "tdp_w": 47,
         "interface": "PCIe 1.0 x16"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-7800-gtx",
@@ -634,12 +1059,27 @@
           "DirectX 9.0c",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 6.88,
+        "texture_rate_gtexels": 10.32,
         "memory_type": "GDDR3",
         "memory_size_mb": 256,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 600,
         "memory_bandwidth_gbs": 38.4,
+        "tdp_w": 86,
         "interface": "PCIe 1.0 x16"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-7900-gtx",
@@ -663,12 +1103,27 @@
           "DirectX 9.0c",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 10.4,
+        "texture_rate_gtexels": 15.6,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 800,
         "memory_bandwidth_gbs": 51.2,
+        "tdp_w": 84,
         "interface": "PCIe 1.0 x16"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-7600-gt",
@@ -692,12 +1147,27 @@
           "DirectX 9.0c",
           "OpenGL 2.1"
         ],
+        "pixel_rate_gpixels": 4.48,
+        "texture_rate_gtexels": 6.72,
         "memory_type": "GDDR3",
         "memory_size_mb": 256,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 700,
         "memory_bandwidth_gbs": 22.4,
+        "tdp_w": 36,
         "interface": "PCIe 1.0 x16"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-8800-gtx",
@@ -713,21 +1183,34 @@
         "foundry": "TSMC",
         "transistors": 681000000,
         "die_size_mm2": 484,
+        "l2_cache_kb": 96,
         "shading_units": 128,
+        "compute_units": 16,
+        "tmus": 32,
         "rops": 24,
         "gpu_clock_mhz": 575,
         "graphics_api": [
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 13.8,
+        "texture_rate_gtexels": 18.4,
         "memory_type": "GDDR3",
         "memory_size_mb": 768,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 900,
         "memory_bandwidth_gbs": 86.4,
         "fp32_tflops": 0.346,
         "tdp_w": 155,
         "interface": "PCIe 1.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-8600-gts",
@@ -738,11 +1221,14 @@
         "codename": "G84",
         "microarchitecture": "Tesla",
         "market": "Consumer",
+        "launch_price_usd": 199,
         "process_nm": 80,
         "foundry": "TSMC",
         "transistors": 289000000,
         "die_size_mm2": 169,
+        "l2_cache_kb": 32,
         "shading_units": 32,
+        "compute_units": 4,
         "tmus": 16,
         "rops": 8,
         "gpu_clock_mhz": 675,
@@ -750,14 +1236,24 @@
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 5.4,
+        "texture_rate_gtexels": 10.8,
         "memory_type": "GDDR3",
         "memory_size_mb": 256,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1000,
         "memory_bandwidth_gbs": 32.0,
         "fp32_tflops": 0.093,
         "tdp_w": 71,
         "interface": "PCIe 1.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-8800-ultra",
@@ -773,21 +1269,34 @@
         "foundry": "TSMC",
         "transistors": 681000000,
         "die_size_mm2": 484,
+        "l2_cache_kb": 96,
         "shading_units": 128,
+        "compute_units": 16,
+        "tmus": 32,
         "rops": 24,
         "gpu_clock_mhz": 612,
         "graphics_api": [
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 14.69,
+        "texture_rate_gtexels": 19.58,
         "memory_type": "GDDR3",
         "memory_size_mb": 768,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1080,
         "memory_bandwidth_gbs": 103.7,
         "fp32_tflops": 0.384,
         "tdp_w": 175,
         "interface": "PCIe 1.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-8800-gt",
@@ -798,11 +1307,14 @@
         "codename": "G92",
         "microarchitecture": "Tesla",
         "market": "Consumer",
+        "launch_price_usd": 249,
         "process_nm": 65,
         "foundry": "TSMC",
         "transistors": 754000000,
         "die_size_mm2": 324,
+        "l2_cache_kb": 64,
         "shading_units": 112,
+        "compute_units": 14,
         "tmus": 56,
         "rops": 16,
         "gpu_clock_mhz": 600,
@@ -810,14 +1322,24 @@
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 9.6,
+        "texture_rate_gtexels": 33.6,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 900,
         "memory_bandwidth_gbs": 57.6,
         "fp32_tflops": 0.336,
         "tdp_w": 125,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-9600-gt",
@@ -833,7 +1355,9 @@
         "foundry": "TSMC",
         "transistors": 505000000,
         "die_size_mm2": 240,
+        "l2_cache_kb": 64,
         "shading_units": 64,
+        "compute_units": 8,
         "tmus": 32,
         "rops": 16,
         "gpu_clock_mhz": 650,
@@ -841,14 +1365,24 @@
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 10.4,
+        "texture_rate_gtexels": 20.8,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 900,
         "memory_bandwidth_gbs": 57.6,
         "fp32_tflops": 0.208,
         "tdp_w": 95,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-9800-gtx",
@@ -864,7 +1398,9 @@
         "foundry": "TSMC",
         "transistors": 754000000,
         "die_size_mm2": 324,
+        "l2_cache_kb": 64,
         "shading_units": 128,
+        "compute_units": 16,
         "tmus": 64,
         "rops": 16,
         "gpu_clock_mhz": 675,
@@ -872,14 +1408,24 @@
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 10.8,
+        "texture_rate_gtexels": 43.2,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1100,
         "memory_bandwidth_gbs": 70.4,
         "fp32_tflops": 0.432,
         "tdp_w": 140,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-280",
@@ -895,7 +1441,9 @@
         "foundry": "TSMC",
         "transistors": 1400000000,
         "die_size_mm2": 576,
+        "l2_cache_kb": 256,
         "shading_units": 240,
+        "compute_units": 30,
         "tmus": 80,
         "rops": 32,
         "gpu_clock_mhz": 602,
@@ -903,14 +1451,24 @@
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 19.26,
+        "texture_rate_gtexels": 48.16,
         "memory_type": "GDDR3",
         "memory_size_mb": 1024,
         "memory_bus_bits": 512,
+        "memory_clock_mhz": 1107,
         "memory_bandwidth_gbs": 141.7,
+        "fp64_tflops": 0.0778,
         "fp32_tflops": 0.622,
         "tdp_w": 236,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-260",
@@ -926,7 +1484,9 @@
         "foundry": "TSMC",
         "transistors": 1400000000,
         "die_size_mm2": 576,
+        "l2_cache_kb": 224,
         "shading_units": 192,
+        "compute_units": 24,
         "tmus": 64,
         "rops": 28,
         "gpu_clock_mhz": 576,
@@ -934,14 +1494,24 @@
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 16.13,
+        "texture_rate_gtexels": 36.86,
         "memory_type": "GDDR3",
         "memory_size_mb": 896,
         "memory_bus_bits": 448,
+        "memory_clock_mhz": 999,
         "memory_bandwidth_gbs": 111.9,
+        "fp64_tflops": 0.0596,
         "fp32_tflops": 0.477,
         "tdp_w": 182,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-quadro-fx-5800",
@@ -952,21 +1522,39 @@
         "codename": "GT200",
         "microarchitecture": "Tesla",
         "market": "Workstation",
+        "launch_price_usd": 3499,
         "process_nm": 65,
         "foundry": "TSMC",
         "transistors": 1400000000,
+        "die_size_mm2": 576,
+        "l2_cache_kb": 256,
         "shading_units": 240,
+        "compute_units": 30,
+        "tmus": 80,
+        "rops": 32,
+        "gpu_clock_mhz": 610,
         "graphics_api": [
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 19.52,
+        "texture_rate_gtexels": 48.8,
         "memory_type": "GDDR3",
         "memory_size_mb": 4096,
         "memory_bus_bits": 512,
+        "memory_clock_mhz": 797,
         "memory_bandwidth_gbs": 102.0,
+        "fp64_tflops": 0.0778,
+        "fp32_tflops": 0.622,
         "tdp_w": 189,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-285",
@@ -982,7 +1570,9 @@
         "foundry": "TSMC",
         "transistors": 1400000000,
         "die_size_mm2": 470,
+        "l2_cache_kb": 256,
         "shading_units": 240,
+        "compute_units": 30,
         "tmus": 80,
         "rops": 32,
         "gpu_clock_mhz": 648,
@@ -990,14 +1580,24 @@
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 20.74,
+        "texture_rate_gtexels": 51.84,
         "memory_type": "GDDR3",
         "memory_size_mb": 1024,
         "memory_bus_bits": 512,
+        "memory_clock_mhz": 1242,
         "memory_bandwidth_gbs": 159.0,
+        "fp64_tflops": 0.0886,
         "fp32_tflops": 0.708,
         "tdp_w": 204,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-480",
@@ -1013,7 +1613,9 @@
         "foundry": "TSMC",
         "transistors": 3000000000,
         "die_size_mm2": 529,
+        "l2_cache_kb": 768,
         "shading_units": 480,
+        "compute_units": 15,
         "tmus": 60,
         "rops": 48,
         "gpu_clock_mhz": 700,
@@ -1021,14 +1623,24 @@
           "DirectX 11",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 33.6,
+        "texture_rate_gtexels": 42.0,
         "memory_type": "GDDR5",
         "memory_size_mb": 1536,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 924,
         "memory_bandwidth_gbs": 177.4,
+        "fp64_tflops": 0.168,
         "fp32_tflops": 1.345,
         "tdp_w": 250,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-470",
@@ -1044,7 +1656,9 @@
         "foundry": "TSMC",
         "transistors": 3000000000,
         "die_size_mm2": 529,
+        "l2_cache_kb": 640,
         "shading_units": 448,
+        "compute_units": 14,
         "tmus": 56,
         "rops": 40,
         "gpu_clock_mhz": 607,
@@ -1052,14 +1666,24 @@
           "DirectX 11",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 24.28,
+        "texture_rate_gtexels": 33.99,
         "memory_type": "GDDR5",
         "memory_size_mb": 1280,
         "memory_bus_bits": 320,
+        "memory_clock_mhz": 837,
         "memory_bandwidth_gbs": 133.9,
+        "fp64_tflops": 0.136,
         "fp32_tflops": 1.089,
         "tdp_w": 215,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-460",
@@ -1075,7 +1699,9 @@
         "foundry": "TSMC",
         "transistors": 1950000000,
         "die_size_mm2": 332,
+        "l2_cache_kb": 512,
         "shading_units": 336,
+        "compute_units": 7,
         "tmus": 56,
         "rops": 32,
         "gpu_clock_mhz": 675,
@@ -1083,14 +1709,24 @@
           "DirectX 11",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 21.6,
+        "texture_rate_gtexels": 37.8,
         "memory_type": "GDDR5",
         "memory_size_mb": 1024,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 900,
         "memory_bandwidth_gbs": 115.2,
+        "fp64_tflops": 0.0756,
         "fp32_tflops": 0.907,
         "tdp_w": 160,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-580",
@@ -1106,7 +1742,9 @@
         "foundry": "TSMC",
         "transistors": 3000000000,
         "die_size_mm2": 520,
+        "l2_cache_kb": 768,
         "shading_units": 512,
+        "compute_units": 16,
         "tmus": 64,
         "rops": 48,
         "gpu_clock_mhz": 772,
@@ -1114,14 +1752,24 @@
           "DirectX 11",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 37.06,
+        "texture_rate_gtexels": 49.41,
         "memory_type": "GDDR5",
         "memory_size_mb": 1536,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1002,
         "memory_bandwidth_gbs": 192.4,
+        "fp64_tflops": 0.198,
         "fp32_tflops": 1.581,
         "tdp_w": 244,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-quadro-6000",
@@ -1132,21 +1780,39 @@
         "codename": "GF100",
         "microarchitecture": "Fermi",
         "market": "Workstation",
+        "launch_price_usd": 4999,
         "process_nm": 40,
         "foundry": "TSMC",
         "transistors": 3000000000,
+        "die_size_mm2": 529,
+        "l2_cache_kb": 768,
         "shading_units": 448,
+        "compute_units": 14,
+        "tmus": 56,
+        "rops": 48,
+        "gpu_clock_mhz": 574,
         "graphics_api": [
           "DirectX 11",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 27.55,
+        "texture_rate_gtexels": 32.14,
         "memory_type": "GDDR5",
         "memory_size_mb": 6144,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 750,
         "memory_bandwidth_gbs": 144.0,
+        "fp64_tflops": 0.514,
+        "fp32_tflops": 1.028,
         "tdp_w": 204,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-560-ti",
@@ -1162,7 +1828,9 @@
         "foundry": "TSMC",
         "transistors": 1950000000,
         "die_size_mm2": 332,
+        "l2_cache_kb": 512,
         "shading_units": 384,
+        "compute_units": 8,
         "tmus": 64,
         "rops": 32,
         "gpu_clock_mhz": 822,
@@ -1170,14 +1838,24 @@
           "DirectX 11",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 26.3,
+        "texture_rate_gtexels": 52.61,
         "memory_type": "GDDR5",
         "memory_size_mb": 1024,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1002,
         "memory_bandwidth_gbs": 128.3,
+        "fp64_tflops": 0.105,
         "fp32_tflops": 1.263,
         "tdp_w": 170,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-680",
@@ -1193,7 +1871,9 @@
         "foundry": "TSMC",
         "transistors": 3540000000,
         "die_size_mm2": 294,
+        "l2_cache_kb": 512,
         "shading_units": 1536,
+        "compute_units": 8,
         "tmus": 128,
         "rops": 32,
         "gpu_clock_mhz": 1006,
@@ -1203,14 +1883,23 @@
           "OpenGL 4.6",
           "Vulkan 1.2"
         ],
+        "pixel_rate_gpixels": 33.86,
+        "texture_rate_gtexels": 135.42,
         "memory_type": "GDDR5",
         "memory_size_mb": 2048,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1502,
         "memory_bandwidth_gbs": 192.3,
+        "fp64_tflops": 0.135,
         "fp32_tflops": 3.25,
         "tdp_w": 195,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-660",
@@ -1226,7 +1915,9 @@
         "foundry": "TSMC",
         "transistors": 2540000000,
         "die_size_mm2": 221,
+        "l2_cache_kb": 384,
         "shading_units": 960,
+        "compute_units": 5,
         "tmus": 80,
         "rops": 24,
         "gpu_clock_mhz": 980,
@@ -1236,14 +1927,23 @@
           "OpenGL 4.6",
           "Vulkan 1.2"
         ],
+        "pixel_rate_gpixels": 24.79,
+        "texture_rate_gtexels": 82.64,
         "memory_type": "GDDR5",
         "memory_size_mb": 2048,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1502,
         "memory_bandwidth_gbs": 144.2,
+        "fp64_tflops": 0.0826,
         "fp32_tflops": 1.983,
         "tdp_w": 140,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-titan",
@@ -1259,7 +1959,9 @@
         "foundry": "TSMC",
         "transistors": 7080000000,
         "die_size_mm2": 561,
+        "l2_cache_kb": 1536,
         "shading_units": 2688,
+        "compute_units": 14,
         "tmus": 224,
         "rops": 48,
         "gpu_clock_mhz": 837,
@@ -1269,14 +1971,23 @@
           "OpenGL 4.6",
           "Vulkan 1.2"
         ],
+        "pixel_rate_gpixels": 42.05,
+        "texture_rate_gtexels": 196.22,
         "memory_type": "GDDR5",
         "memory_size_mb": 6144,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1502,
         "memory_bandwidth_gbs": 288.4,
+        "fp64_tflops": 1.57,
         "fp32_tflops": 4.709,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-780",
@@ -1292,7 +2003,9 @@
         "foundry": "TSMC",
         "transistors": 7080000000,
         "die_size_mm2": 561,
+        "l2_cache_kb": 1536,
         "shading_units": 2304,
+        "compute_units": 12,
         "tmus": 192,
         "rops": 48,
         "gpu_clock_mhz": 863,
@@ -1302,14 +2015,23 @@
           "OpenGL 4.6",
           "Vulkan 1.2"
         ],
+        "pixel_rate_gpixels": 43.2,
+        "texture_rate_gtexels": 172.8,
         "memory_type": "GDDR5",
         "memory_size_mb": 3072,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1502,
         "memory_bandwidth_gbs": 288.4,
+        "fp64_tflops": 0.173,
         "fp32_tflops": 4.147,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-770",
@@ -1325,7 +2047,9 @@
         "foundry": "TSMC",
         "transistors": 3540000000,
         "die_size_mm2": 294,
+        "l2_cache_kb": 512,
         "shading_units": 1536,
+        "compute_units": 8,
         "tmus": 128,
         "rops": 32,
         "gpu_clock_mhz": 1046,
@@ -1335,14 +2059,23 @@
           "OpenGL 4.6",
           "Vulkan 1.2"
         ],
+        "pixel_rate_gpixels": 34.72,
+        "texture_rate_gtexels": 138.88,
         "memory_type": "GDDR5",
         "memory_size_mb": 2048,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1752,
         "memory_bandwidth_gbs": 224.3,
+        "fp64_tflops": 0.139,
         "fp32_tflops": 3.333,
         "tdp_w": 230,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-quadro-k6000",
@@ -1353,11 +2086,14 @@
         "codename": "GK110",
         "microarchitecture": "Kepler",
         "market": "Workstation",
+        "launch_price_usd": 5265,
         "process_nm": 28,
         "foundry": "TSMC",
         "transistors": 7080000000,
         "die_size_mm2": 561,
+        "l2_cache_kb": 1536,
         "shading_units": 2880,
+        "compute_units": 15,
         "tmus": 240,
         "rops": 48,
         "gpu_clock_mhz": 797,
@@ -1367,14 +2103,23 @@
           "OpenGL 4.6",
           "Vulkan 1.2"
         ],
+        "pixel_rate_gpixels": 43.3,
+        "texture_rate_gtexels": 216.48,
         "memory_type": "GDDR5",
         "memory_size_mb": 12288,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1500,
         "memory_bandwidth_gbs": 288.0,
+        "fp64_tflops": 1.732,
         "fp32_tflops": 5.196,
         "tdp_w": 225,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-780-ti",
@@ -1390,7 +2135,9 @@
         "foundry": "TSMC",
         "transistors": 7080000000,
         "die_size_mm2": 561,
+        "l2_cache_kb": 1536,
         "shading_units": 2880,
+        "compute_units": 15,
         "tmus": 240,
         "rops": 48,
         "gpu_clock_mhz": 875,
@@ -1400,14 +2147,23 @@
           "OpenGL 4.6",
           "Vulkan 1.2"
         ],
+        "pixel_rate_gpixels": 44.54,
+        "texture_rate_gtexels": 222.72,
         "memory_type": "GDDR5",
         "memory_size_mb": 3072,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 336.0,
+        "fp64_tflops": 0.223,
         "fp32_tflops": 5.345,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-titan-black",
@@ -1423,7 +2179,9 @@
         "foundry": "TSMC",
         "transistors": 7080000000,
         "die_size_mm2": 561,
+        "l2_cache_kb": 1536,
         "shading_units": 2880,
+        "compute_units": 15,
         "tmus": 240,
         "rops": 48,
         "gpu_clock_mhz": 889,
@@ -1433,14 +2191,23 @@
           "OpenGL 4.6",
           "Vulkan 1.2"
         ],
+        "pixel_rate_gpixels": 47.04,
+        "texture_rate_gtexels": 235.2,
         "memory_type": "GDDR5",
         "memory_size_mb": 6144,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 336.0,
+        "fp64_tflops": 1.882,
         "fp32_tflops": 5.645,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-750-ti",
@@ -1456,7 +2223,9 @@
         "foundry": "TSMC",
         "transistors": 1870000000,
         "die_size_mm2": 148,
+        "l2_cache_kb": 2048,
         "shading_units": 640,
+        "compute_units": 5,
         "tmus": 40,
         "rops": 16,
         "gpu_clock_mhz": 1020,
@@ -1466,14 +2235,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 17.36,
+        "texture_rate_gtexels": 43.4,
         "memory_type": "GDDR5",
         "memory_size_mb": 2048,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1350,
         "memory_bandwidth_gbs": 86.4,
+        "fp64_tflops": 0.0434,
         "fp32_tflops": 1.389,
         "tdp_w": 60,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-980",
@@ -1489,7 +2267,9 @@
         "foundry": "TSMC",
         "transistors": 5200000000,
         "die_size_mm2": 398,
+        "l2_cache_kb": 2048,
         "shading_units": 2048,
+        "compute_units": 16,
         "tmus": 128,
         "rops": 64,
         "gpu_clock_mhz": 1126,
@@ -1499,14 +2279,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 77.82,
+        "texture_rate_gtexels": 155.65,
         "memory_type": "GDDR5",
         "memory_size_mb": 4096,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1753,
         "memory_bandwidth_gbs": 224.4,
+        "fp64_tflops": 0.156,
         "fp32_tflops": 4.981,
         "tdp_w": 165,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-970",
@@ -1522,7 +2311,9 @@
         "foundry": "TSMC",
         "transistors": 5200000000,
         "die_size_mm2": 398,
+        "l2_cache_kb": 1792,
         "shading_units": 1664,
+        "compute_units": 13,
         "tmus": 104,
         "rops": 56,
         "gpu_clock_mhz": 1050,
@@ -1532,14 +2323,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 65.97,
+        "texture_rate_gtexels": 122.51,
         "memory_type": "GDDR5",
         "memory_size_mb": 4096,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1753,
         "memory_bandwidth_gbs": 224.4,
+        "fp64_tflops": 0.122,
         "fp32_tflops": 3.92,
         "tdp_w": 145,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-960",
@@ -1555,7 +2355,9 @@
         "foundry": "TSMC",
         "transistors": 2940000000,
         "die_size_mm2": 228,
+        "l2_cache_kb": 1024,
         "shading_units": 1024,
+        "compute_units": 8,
         "tmus": 64,
         "rops": 32,
         "gpu_clock_mhz": 1127,
@@ -1565,14 +2367,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 37.7,
+        "texture_rate_gtexels": 75.39,
         "memory_type": "GDDR5",
         "memory_size_mb": 2048,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1753,
         "memory_bandwidth_gbs": 112.2,
+        "fp64_tflops": 0.0754,
         "fp32_tflops": 2.413,
         "tdp_w": 120,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-titan-x",
@@ -1588,7 +2399,9 @@
         "foundry": "TSMC",
         "transistors": 8000000000,
         "die_size_mm2": 601,
+        "l2_cache_kb": 3072,
         "shading_units": 3072,
+        "compute_units": 24,
         "tmus": 192,
         "rops": 96,
         "gpu_clock_mhz": 1000,
@@ -1598,14 +2411,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 103.2,
+        "texture_rate_gtexels": 206.4,
         "memory_type": "GDDR5",
         "memory_size_mb": 12288,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1753,
         "memory_bandwidth_gbs": 336.5,
+        "fp64_tflops": 0.206,
         "fp32_tflops": 6.605,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-980-ti",
@@ -1621,7 +2443,9 @@
         "foundry": "TSMC",
         "transistors": 8000000000,
         "die_size_mm2": 601,
+        "l2_cache_kb": 3072,
         "shading_units": 2816,
+        "compute_units": 22,
         "tmus": 176,
         "rops": 96,
         "gpu_clock_mhz": 1000,
@@ -1631,14 +2455,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 103.2,
+        "texture_rate_gtexels": 189.2,
         "memory_type": "GDDR5",
         "memory_size_mb": 6144,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1753,
         "memory_bandwidth_gbs": 336.5,
+        "fp64_tflops": 0.189,
         "fp32_tflops": 6.054,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-1080",
@@ -1654,7 +2487,9 @@
         "foundry": "TSMC",
         "transistors": 7200000000,
         "die_size_mm2": 314,
+        "l2_cache_kb": 2048,
         "shading_units": 2560,
+        "compute_units": 20,
         "tmus": 160,
         "rops": 64,
         "gpu_clock_mhz": 1607,
@@ -1664,14 +2499,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 110.91,
+        "texture_rate_gtexels": 277.28,
         "memory_type": "GDDR5X",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1250,
         "memory_bandwidth_gbs": 320.0,
+        "fp64_tflops": 0.277,
         "fp32_tflops": 8.873,
+        "fp16_tflops": 0.139,
         "tdp_w": 180,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-1070",
@@ -1687,7 +2531,9 @@
         "foundry": "TSMC",
         "transistors": 7200000000,
         "die_size_mm2": 314,
+        "l2_cache_kb": 2048,
         "shading_units": 1920,
+        "compute_units": 15,
         "tmus": 120,
         "rops": 64,
         "gpu_clock_mhz": 1506,
@@ -1697,14 +2543,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 107.71,
+        "texture_rate_gtexels": 201.96,
         "memory_type": "GDDR5",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 256.0,
+        "fp64_tflops": 0.202,
         "fp32_tflops": 6.463,
+        "fp16_tflops": 0.101,
         "tdp_w": 150,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-1060-6gb",
@@ -1720,7 +2575,9 @@
         "foundry": "TSMC",
         "transistors": 4400000000,
         "die_size_mm2": 200,
+        "l2_cache_kb": 1536,
         "shading_units": 1280,
+        "compute_units": 10,
         "tmus": 80,
         "rops": 48,
         "gpu_clock_mhz": 1506,
@@ -1730,14 +2587,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 81.98,
+        "texture_rate_gtexels": 136.64,
         "memory_type": "GDDR5",
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 192.0,
+        "fp64_tflops": 0.137,
         "fp32_tflops": 4.372,
+        "fp16_tflops": 0.0683,
         "tdp_w": 120,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-titan-x-pascal",
@@ -1753,7 +2619,9 @@
         "foundry": "TSMC",
         "transistors": 12000000000,
         "die_size_mm2": 471,
+        "l2_cache_kb": 3072,
         "shading_units": 3584,
+        "compute_units": 28,
         "tmus": 224,
         "rops": 96,
         "gpu_clock_mhz": 1417,
@@ -1763,14 +2631,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 146.98,
+        "texture_rate_gtexels": 342.94,
         "memory_type": "GDDR5X",
         "memory_size_mb": 12288,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1250,
         "memory_bandwidth_gbs": 480.0,
+        "fp64_tflops": 0.343,
         "fp32_tflops": 10.974,
+        "fp16_tflops": 0.171,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-1050-ti",
@@ -1786,7 +2663,9 @@
         "foundry": "Samsung",
         "transistors": 3300000000,
         "die_size_mm2": 132,
+        "l2_cache_kb": 1024,
         "shading_units": 768,
+        "compute_units": 6,
         "tmus": 48,
         "rops": 32,
         "gpu_clock_mhz": 1290,
@@ -1796,14 +2675,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 44.54,
+        "texture_rate_gtexels": 66.82,
         "memory_type": "GDDR5",
         "memory_size_mb": 4096,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 112.0,
+        "fp64_tflops": 0.0668,
         "fp32_tflops": 2.138,
+        "fp16_tflops": 0.0334,
         "tdp_w": 75,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-1080-ti",
@@ -1819,7 +2707,9 @@
         "foundry": "TSMC",
         "transistors": 12000000000,
         "die_size_mm2": 471,
+        "l2_cache_kb": 2816,
         "shading_units": 3584,
+        "compute_units": 28,
         "tmus": 224,
         "rops": 88,
         "gpu_clock_mhz": 1480,
@@ -1829,14 +2719,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 139.22,
+        "texture_rate_gtexels": 354.37,
         "memory_type": "GDDR5X",
         "memory_size_mb": 11264,
         "memory_bus_bits": 352,
+        "memory_clock_mhz": 1375,
         "memory_bandwidth_gbs": 484.0,
+        "fp64_tflops": 0.354,
         "fp32_tflops": 11.34,
+        "fp16_tflops": 0.177,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-titan-xp",
@@ -1852,7 +2751,9 @@
         "foundry": "TSMC",
         "transistors": 12000000000,
         "die_size_mm2": 471,
+        "l2_cache_kb": 3072,
         "shading_units": 3840,
+        "compute_units": 30,
         "tmus": 240,
         "rops": 96,
         "gpu_clock_mhz": 1405,
@@ -1862,14 +2763,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 151.87,
+        "texture_rate_gtexels": 379.68,
         "memory_type": "GDDR5X",
         "memory_size_mb": 12288,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1426,
         "memory_bandwidth_gbs": 547.7,
+        "fp64_tflops": 0.38,
         "fp32_tflops": 12.15,
+        "fp16_tflops": 0.19,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-gt-1030",
@@ -1885,7 +2795,9 @@
         "foundry": "Samsung",
         "transistors": 1800000000,
         "die_size_mm2": 74,
+        "l2_cache_kb": 512,
         "shading_units": 384,
+        "compute_units": 3,
         "tmus": 24,
         "rops": 16,
         "gpu_clock_mhz": 1228,
@@ -1895,14 +2807,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 23.49,
+        "texture_rate_gtexels": 35.23,
         "memory_type": "GDDR5",
         "memory_size_mb": 2048,
         "memory_bus_bits": 64,
+        "memory_clock_mhz": 1500,
         "memory_bandwidth_gbs": 48.0,
+        "fp64_tflops": 0.0352,
         "fp32_tflops": 1.127,
+        "fp16_tflops": 0.0176,
         "tdp_w": 30,
         "interface": "PCIe 3.0 x4"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-titan-v",
@@ -1918,7 +2839,9 @@
         "foundry": "TSMC",
         "transistors": 21100000000,
         "die_size_mm2": 815,
+        "l2_cache_kb": 4608,
         "shading_units": 5120,
+        "compute_units": 80,
         "tmus": 320,
         "rops": 96,
         "tensor_cores": 640,
@@ -1929,14 +2852,22 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 139.68,
+        "texture_rate_gtexels": 465.6,
         "memory_type": "HBM2",
         "memory_size_mb": 12288,
         "memory_bus_bits": 3072,
+        "memory_clock_mhz": 850,
         "memory_bandwidth_gbs": 652.8,
+        "fp64_tflops": 7.449,
         "fp32_tflops": 14.899,
+        "fp16_tflops": 29.798,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-quadro-gv100",
@@ -1952,7 +2883,9 @@
         "foundry": "TSMC",
         "transistors": 21100000000,
         "die_size_mm2": 815,
+        "l2_cache_kb": 6144,
         "shading_units": 5120,
+        "compute_units": 80,
         "tmus": 320,
         "rops": 128,
         "tensor_cores": 640,
@@ -1963,14 +2896,22 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 208.26,
+        "texture_rate_gtexels": 520.64,
         "memory_type": "HBM2",
         "memory_size_mb": 32768,
         "memory_bus_bits": 4096,
+        "memory_clock_mhz": 850,
         "memory_bandwidth_gbs": 870.0,
+        "fp64_tflops": 8.33,
         "fp32_tflops": 16.66,
+        "fp16_tflops": 33.32,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-rtx-2080-ti",
@@ -1986,7 +2927,9 @@
         "foundry": "TSMC",
         "transistors": 18600000000,
         "die_size_mm2": 754,
+        "l2_cache_kb": 5632,
         "shading_units": 4352,
+        "compute_units": 68,
         "tmus": 272,
         "rops": 88,
         "tensor_cores": 544,
@@ -1998,11 +2941,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 135.96,
+        "texture_rate_gtexels": 420.24,
         "memory_type": "GDDR6",
         "memory_size_mb": 11264,
         "memory_bus_bits": 352,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 616.0,
+        "fp64_tflops": 0.42,
         "fp32_tflops": 13.448,
+        "fp16_tflops": 26.896,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
       }
@@ -2021,7 +2969,9 @@
         "foundry": "TSMC",
         "transistors": 13600000000,
         "die_size_mm2": 545,
+        "l2_cache_kb": 4096,
         "shading_units": 2944,
+        "compute_units": 46,
         "tmus": 184,
         "rops": 64,
         "tensor_cores": 368,
@@ -2033,11 +2983,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 109.44,
+        "texture_rate_gtexels": 314.64,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "fp64_tflops": 0.315,
         "fp32_tflops": 10.068,
+        "fp16_tflops": 20.136,
         "tdp_w": 215,
         "interface": "PCIe 3.0 x16"
       }
@@ -2056,7 +3011,9 @@
         "foundry": "TSMC",
         "transistors": 18600000000,
         "die_size_mm2": 754,
+        "l2_cache_kb": 6144,
         "shading_units": 4608,
+        "compute_units": 72,
         "tmus": 288,
         "rops": 96,
         "tensor_cores": 576,
@@ -2068,11 +3025,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 169.92,
+        "texture_rate_gtexels": 509.76,
         "memory_type": "GDDR6",
         "memory_size_mb": 49152,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 672.0,
+        "fp64_tflops": 0.51,
         "fp32_tflops": 16.312,
+        "fp16_tflops": 32.624,
         "tdp_w": 260,
         "interface": "PCIe 3.0 x16"
       }
@@ -2091,7 +3053,9 @@
         "foundry": "TSMC",
         "transistors": 10800000000,
         "die_size_mm2": 445,
+        "l2_cache_kb": 4096,
         "shading_units": 2304,
+        "compute_units": 36,
         "tmus": 144,
         "rops": 64,
         "tensor_cores": 288,
@@ -2103,11 +3067,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 103.68,
+        "texture_rate_gtexels": 233.28,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "fp64_tflops": 0.233,
         "fp32_tflops": 7.465,
+        "fp16_tflops": 14.93,
         "tdp_w": 175,
         "interface": "PCIe 3.0 x16"
       }
@@ -2126,7 +3095,9 @@
         "foundry": "TSMC",
         "transistors": 18600000000,
         "die_size_mm2": 754,
+        "l2_cache_kb": 6144,
         "shading_units": 4608,
+        "compute_units": 72,
         "tmus": 288,
         "rops": 96,
         "tensor_cores": 576,
@@ -2138,11 +3109,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 169.92,
+        "texture_rate_gtexels": 509.76,
         "memory_type": "GDDR6",
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 672.0,
+        "fp64_tflops": 0.51,
         "fp32_tflops": 16.312,
+        "fp16_tflops": 32.624,
         "tdp_w": 280,
         "interface": "PCIe 3.0 x16"
       }
@@ -2161,7 +3137,9 @@
         "foundry": "TSMC",
         "transistors": 10800000000,
         "die_size_mm2": 445,
+        "l2_cache_kb": 3072,
         "shading_units": 1920,
+        "compute_units": 30,
         "tmus": 120,
         "rops": 48,
         "tensor_cores": 240,
@@ -2173,11 +3151,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 80.64,
+        "texture_rate_gtexels": 201.6,
         "memory_type": "GDDR6",
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 336.0,
+        "fp64_tflops": 0.202,
         "fp32_tflops": 6.451,
+        "fp16_tflops": 12.902,
         "tdp_w": 160,
         "interface": "PCIe 3.0 x16"
       }
@@ -2196,7 +3179,9 @@
         "foundry": "TSMC",
         "transistors": 6600000000,
         "die_size_mm2": 284,
+        "l2_cache_kb": 1536,
         "shading_units": 1536,
+        "compute_units": 24,
         "tmus": 96,
         "rops": 48,
         "gpu_clock_mhz": 1500,
@@ -2206,14 +3191,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 84.96,
+        "texture_rate_gtexels": 169.92,
         "memory_type": "GDDR6",
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1500,
         "memory_bandwidth_gbs": 288.0,
+        "fp64_tflops": 0.17,
         "fp32_tflops": 5.437,
+        "fp16_tflops": 10.874,
         "tdp_w": 120,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-1660",
@@ -2229,7 +3223,9 @@
         "foundry": "TSMC",
         "transistors": 6600000000,
         "die_size_mm2": 284,
+        "l2_cache_kb": 1536,
         "shading_units": 1408,
+        "compute_units": 22,
         "tmus": 88,
         "rops": 48,
         "gpu_clock_mhz": 1530,
@@ -2239,14 +3235,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 85.68,
+        "texture_rate_gtexels": 157.08,
         "memory_type": "GDDR5",
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 192.0,
+        "fp64_tflops": 0.157,
         "fp32_tflops": 5.027,
+        "fp16_tflops": 10.054,
         "tdp_w": 120,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-gtx-1650",
@@ -2262,7 +3267,9 @@
         "foundry": "TSMC",
         "transistors": 4700000000,
         "die_size_mm2": 200,
+        "l2_cache_kb": 1024,
         "shading_units": 896,
+        "compute_units": 14,
         "tmus": 56,
         "rops": 32,
         "gpu_clock_mhz": 1485,
@@ -2272,14 +3279,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 53.28,
+        "texture_rate_gtexels": 93.24,
         "memory_type": "GDDR5",
         "memory_size_mb": 4096,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 128.0,
+        "fp64_tflops": 0.0932,
         "fp32_tflops": 2.984,
+        "fp16_tflops": 5.968,
         "tdp_w": 75,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-rtx-2060-super",
@@ -2295,7 +3311,9 @@
         "foundry": "TSMC",
         "transistors": 10800000000,
         "die_size_mm2": 445,
+        "l2_cache_kb": 4096,
         "shading_units": 2176,
+        "compute_units": 34,
         "tmus": 136,
         "rops": 64,
         "tensor_cores": 272,
@@ -2307,11 +3325,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 105.6,
+        "texture_rate_gtexels": 224.4,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "fp64_tflops": 0.224,
         "fp32_tflops": 7.181,
+        "fp16_tflops": 14.362,
         "tdp_w": 175,
         "interface": "PCIe 3.0 x16"
       }
@@ -2330,7 +3353,9 @@
         "foundry": "TSMC",
         "transistors": 13600000000,
         "die_size_mm2": 545,
+        "l2_cache_kb": 4096,
         "shading_units": 3072,
+        "compute_units": 48,
         "tmus": 192,
         "rops": 64,
         "tensor_cores": 384,
@@ -2342,11 +3367,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 116.16,
+        "texture_rate_gtexels": 348.48,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1938,
         "memory_bandwidth_gbs": 496.0,
+        "fp64_tflops": 0.348,
         "fp32_tflops": 11.151,
+        "fp16_tflops": 22.302,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
       }
@@ -2365,7 +3395,9 @@
         "foundry": "TSMC",
         "transistors": 6600000000,
         "die_size_mm2": 284,
+        "l2_cache_kb": 1536,
         "shading_units": 1408,
+        "compute_units": 22,
         "tmus": 88,
         "rops": 48,
         "gpu_clock_mhz": 1530,
@@ -2375,14 +3407,23 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 85.68,
+        "texture_rate_gtexels": 157.08,
         "memory_type": "GDDR6",
         "memory_size_mb": 6144,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 336.0,
+        "fp64_tflops": 0.157,
         "fp32_tflops": 5.027,
+        "fp16_tflops": 10.054,
         "tdp_w": 125,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "nvidia-geforce-rtx-3080",
@@ -2398,7 +3439,9 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l2_cache_kb": 5120,
         "shading_units": 8704,
+        "compute_units": 68,
         "tmus": 272,
         "rops": 96,
         "tensor_cores": 272,
@@ -2410,11 +3453,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 164.16,
+        "texture_rate_gtexels": 465.12,
         "memory_type": "GDDR6X",
         "memory_size_mb": 10240,
         "memory_bus_bits": 320,
+        "memory_clock_mhz": 1188,
         "memory_bandwidth_gbs": 760.0,
+        "fp64_tflops": 0.465,
         "fp32_tflops": 29.768,
+        "fp16_tflops": 29.768,
         "tdp_w": 320,
         "interface": "PCIe 4.0 x16"
       }
@@ -2433,7 +3481,9 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l2_cache_kb": 6144,
         "shading_units": 10496,
+        "compute_units": 82,
         "tmus": 328,
         "rops": 112,
         "tensor_cores": 328,
@@ -2445,11 +3495,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 189.84,
+        "texture_rate_gtexels": 555.96,
         "memory_type": "GDDR6X",
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1219,
         "memory_bandwidth_gbs": 936.0,
+        "fp64_tflops": 0.556,
         "fp32_tflops": 35.581,
+        "fp16_tflops": 35.581,
         "tdp_w": 350,
         "interface": "PCIe 4.0 x16"
       }
@@ -2468,7 +3523,9 @@
         "foundry": "Samsung",
         "transistors": 17400000000,
         "die_size_mm2": 392,
+        "l2_cache_kb": 4096,
         "shading_units": 5888,
+        "compute_units": 46,
         "tmus": 184,
         "rops": 96,
         "tensor_cores": 184,
@@ -2480,11 +3537,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 165.6,
+        "texture_rate_gtexels": 317.4,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "fp64_tflops": 0.317,
         "fp32_tflops": 20.314,
+        "fp16_tflops": 20.314,
         "tdp_w": 220,
         "interface": "PCIe 4.0 x16"
       }
@@ -2503,7 +3565,9 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l2_cache_kb": 6144,
         "shading_units": 10752,
+        "compute_units": 84,
         "tmus": 336,
         "rops": 112,
         "tensor_cores": 336,
@@ -2515,11 +3579,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 201.6,
+        "texture_rate_gtexels": 604.8,
         "memory_type": "GDDR6",
         "memory_size_mb": 49152,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 768.0,
+        "fp64_tflops": 0.605,
         "fp32_tflops": 38.707,
+        "fp16_tflops": 38.707,
         "tdp_w": 300,
         "interface": "PCIe 4.0 x16"
       }
@@ -2538,7 +3607,9 @@
         "foundry": "Samsung",
         "transistors": 17400000000,
         "die_size_mm2": 392,
+        "l2_cache_kb": 4096,
         "shading_units": 4864,
+        "compute_units": 38,
         "tmus": 152,
         "rops": 80,
         "tensor_cores": 152,
@@ -2550,11 +3621,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 133.2,
+        "texture_rate_gtexels": 253.08,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "fp64_tflops": 0.253,
         "fp32_tflops": 16.197,
+        "fp16_tflops": 16.197,
         "tdp_w": 200,
         "interface": "PCIe 4.0 x16"
       }
@@ -2573,7 +3649,9 @@
         "foundry": "Samsung",
         "transistors": 12000000000,
         "die_size_mm2": 276,
+        "l2_cache_kb": 3072,
         "shading_units": 3584,
+        "compute_units": 28,
         "tmus": 112,
         "rops": 48,
         "tensor_cores": 112,
@@ -2585,11 +3663,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 85.3,
+        "texture_rate_gtexels": 199.02,
         "memory_type": "GDDR6",
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1875,
         "memory_bandwidth_gbs": 360.0,
+        "fp64_tflops": 0.199,
         "fp32_tflops": 12.738,
+        "fp16_tflops": 12.738,
         "tdp_w": 170,
         "interface": "PCIe 4.0 x16"
       }
@@ -2608,7 +3691,9 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l2_cache_kb": 6144,
         "shading_units": 10240,
+        "compute_units": 80,
         "tmus": 320,
         "rops": 112,
         "tensor_cores": 320,
@@ -2620,11 +3705,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 186.48,
+        "texture_rate_gtexels": 532.8,
         "memory_type": "GDDR6X",
         "memory_size_mb": 12288,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1188,
         "memory_bandwidth_gbs": 912.0,
+        "fp64_tflops": 0.533,
         "fp32_tflops": 34.099,
+        "fp16_tflops": 34.099,
         "tdp_w": 350,
         "interface": "PCIe 4.0 x16"
       }
@@ -2643,7 +3733,9 @@
         "foundry": "Samsung",
         "transistors": 12000000000,
         "die_size_mm2": 276,
+        "l2_cache_kb": 2048,
         "shading_units": 2560,
+        "compute_units": 20,
         "tmus": 80,
         "rops": 32,
         "tensor_cores": 80,
@@ -2655,11 +3747,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 56.86,
+        "texture_rate_gtexels": 142.16,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 224.0,
+        "fp64_tflops": 0.142,
         "fp32_tflops": 9.098,
+        "fp16_tflops": 9.098,
         "tdp_w": 130,
         "interface": "PCIe 4.0 x8"
       }
@@ -2678,7 +3775,9 @@
         "foundry": "Samsung",
         "transistors": 28300000000,
         "die_size_mm2": 628,
+        "l2_cache_kb": 6144,
         "shading_units": 10752,
+        "compute_units": 84,
         "tmus": 336,
         "rops": 112,
         "tensor_cores": 336,
@@ -2690,11 +3789,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 208.32,
+        "texture_rate_gtexels": 624.96,
         "memory_type": "GDDR6X",
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 1008.0,
+        "fp64_tflops": 0.625,
         "fp32_tflops": 39.997,
+        "fp16_tflops": 39.997,
         "tdp_w": 450,
         "interface": "PCIe 4.0 x16"
       }
@@ -2713,7 +3817,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 76300000000,
         "die_size_mm2": 609,
+        "l2_cache_kb": 73728,
         "shading_units": 16384,
+        "compute_units": 128,
         "tmus": 512,
         "rops": 176,
         "tensor_cores": 512,
@@ -2725,11 +3831,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 443.52,
+        "texture_rate_gtexels": 1290.24,
         "memory_type": "GDDR6X",
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 1008.0,
+        "fp64_tflops": 1.29,
         "fp32_tflops": 82.575,
+        "fp16_tflops": 82.575,
         "tdp_w": 450,
         "interface": "PCIe 4.0 x16"
       }
@@ -2748,7 +3859,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 45900000000,
         "die_size_mm2": 379,
+        "l2_cache_kb": 65536,
         "shading_units": 9728,
+        "compute_units": 76,
         "tmus": 304,
         "rops": 112,
         "tensor_cores": 304,
@@ -2760,11 +3873,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 280.56,
+        "texture_rate_gtexels": 761.52,
         "memory_type": "GDDR6X",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1400,
         "memory_bandwidth_gbs": 716.8,
+        "fp64_tflops": 0.762,
         "fp32_tflops": 48.737,
+        "fp16_tflops": 48.737,
         "tdp_w": 320,
         "interface": "PCIe 4.0 x16"
       }
@@ -2783,7 +3901,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 76300000000,
         "die_size_mm2": 609,
+        "l2_cache_kb": 98304,
         "shading_units": 18176,
+        "compute_units": 142,
         "tmus": 568,
         "rops": 192,
         "tensor_cores": 568,
@@ -2795,11 +3915,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 480.96,
+        "texture_rate_gtexels": 1422.84,
         "memory_type": "GDDR6",
         "memory_size_mb": 49152,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 2500,
         "memory_bandwidth_gbs": 960.0,
+        "fp64_tflops": 1.423,
         "fp32_tflops": 91.062,
+        "fp16_tflops": 91.062,
         "tdp_w": 300,
         "interface": "PCIe 4.0 x16"
       }
@@ -2818,7 +3943,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 35800000000,
         "die_size_mm2": 295,
+        "l2_cache_kb": 49152,
         "shading_units": 7680,
+        "compute_units": 60,
         "tmus": 240,
         "rops": 80,
         "tensor_cores": 240,
@@ -2830,11 +3957,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 208.8,
+        "texture_rate_gtexels": 626.4,
         "memory_type": "GDDR6X",
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 504.0,
+        "fp64_tflops": 0.626,
         "fp32_tflops": 40.09,
+        "fp16_tflops": 40.09,
         "tdp_w": 285,
         "interface": "PCIe 4.0 x16"
       }
@@ -2853,7 +3985,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 35800000000,
         "die_size_mm2": 295,
+        "l2_cache_kb": 36864,
         "shading_units": 5888,
+        "compute_units": 46,
         "tmus": 184,
         "rops": 64,
         "tensor_cores": 184,
@@ -2865,11 +3999,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 158.4,
+        "texture_rate_gtexels": 455.4,
         "memory_type": "GDDR6X",
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 504.0,
+        "fp64_tflops": 0.455,
         "fp32_tflops": 29.146,
+        "fp16_tflops": 29.146,
         "tdp_w": 200,
         "interface": "PCIe 4.0 x16"
       }
@@ -2888,7 +4027,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 22900000000,
         "die_size_mm2": 188,
+        "l2_cache_kb": 32768,
         "shading_units": 4352,
+        "compute_units": 34,
         "tmus": 136,
         "rops": 48,
         "tensor_cores": 136,
@@ -2900,11 +4041,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 121.68,
+        "texture_rate_gtexels": 344.76,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 2250,
         "memory_bandwidth_gbs": 288.0,
+        "fp64_tflops": 0.345,
         "fp32_tflops": 22.065,
+        "fp16_tflops": 22.065,
         "tdp_w": 160,
         "interface": "PCIe 4.0 x8"
       }
@@ -2923,8 +4069,11 @@
         "foundry": "TSMC (4N)",
         "transistors": 18900000000,
         "die_size_mm2": 159,
+        "l2_cache_kb": 24576,
         "shading_units": 3072,
+        "compute_units": 24,
         "tmus": 96,
+        "rops": 32,
         "tensor_cores": 96,
         "rt_cores": 24,
         "gpu_clock_mhz": 1830,
@@ -2934,11 +4083,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 78.72,
+        "texture_rate_gtexels": 236.16,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 2125,
         "memory_bandwidth_gbs": 272.0,
+        "fp64_tflops": 0.236,
         "fp32_tflops": 15.114,
+        "fp16_tflops": 15.114,
         "tdp_w": 115,
         "interface": "PCIe 4.0 x8"
       }
@@ -2957,7 +4111,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 35800000000,
         "die_size_mm2": 295,
+        "l2_cache_kb": 49152,
         "shading_units": 7168,
+        "compute_units": 56,
         "tmus": 224,
         "rops": 80,
         "tensor_cores": 224,
@@ -2969,11 +4125,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 198.0,
+        "texture_rate_gtexels": 554.4,
         "memory_type": "GDDR6X",
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1312,
         "memory_bandwidth_gbs": 504.0,
+        "fp64_tflops": 0.554,
         "fp32_tflops": 35.482,
+        "fp16_tflops": 35.482,
         "tdp_w": 220,
         "interface": "PCIe 4.0 x16"
       }
@@ -2992,7 +4153,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 45900000000,
         "die_size_mm2": 379,
+        "l2_cache_kb": 65536,
         "shading_units": 10240,
+        "compute_units": 80,
         "tmus": 320,
         "rops": 112,
         "tensor_cores": 320,
@@ -3004,11 +4167,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 285.6,
+        "texture_rate_gtexels": 816.0,
         "memory_type": "GDDR6X",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1438,
         "memory_bandwidth_gbs": 736.0,
+        "fp64_tflops": 0.816,
         "fp32_tflops": 52.224,
+        "fp16_tflops": 52.224,
         "tdp_w": 320,
         "interface": "PCIe 4.0 x16"
       }
@@ -3027,7 +4195,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 92200000000,
         "die_size_mm2": 750,
+        "l2_cache_kb": 98304,
         "shading_units": 21760,
+        "compute_units": 170,
         "tmus": 680,
         "rops": 176,
         "tensor_cores": 680,
@@ -3039,11 +4209,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 423.63,
+        "texture_rate_gtexels": 1636.76,
         "memory_type": "GDDR7",
         "memory_size_mb": 32768,
         "memory_bus_bits": 512,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 1792.0,
+        "fp64_tflops": 1.637,
         "fp32_tflops": 104.753,
+        "fp16_tflops": 104.753,
         "tdp_w": 575,
         "interface": "PCIe 5.0 x16"
       }
@@ -3062,7 +4237,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 45600000000,
         "die_size_mm2": 378,
+        "l2_cache_kb": 65536,
         "shading_units": 10752,
+        "compute_units": 84,
         "tmus": 336,
         "rops": 112,
         "tensor_cores": 336,
@@ -3074,11 +4251,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 293.1,
+        "texture_rate_gtexels": 879.31,
         "memory_type": "GDDR7",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1875,
         "memory_bandwidth_gbs": 960.0,
+        "fp64_tflops": 0.879,
         "fp32_tflops": 56.276,
+        "fp16_tflops": 56.276,
         "tdp_w": 360,
         "interface": "PCIe 5.0 x16"
       }
@@ -3097,7 +4279,9 @@
         "foundry": "TSMC (4N)",
         "transistors": 45600000000,
         "die_size_mm2": 378,
+        "l2_cache_kb": 65536,
         "shading_units": 8960,
+        "compute_units": 70,
         "tmus": 280,
         "rops": 96,
         "tensor_cores": 280,
@@ -3109,11 +4293,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 235.39,
+        "texture_rate_gtexels": 686.56,
         "memory_type": "GDDR7",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 896.0,
+        "fp64_tflops": 0.687,
         "fp32_tflops": 43.94,
+        "fp16_tflops": 43.94,
         "tdp_w": 300,
         "interface": "PCIe 5.0 x16"
       }
@@ -3132,8 +4321,11 @@
         "foundry": "TSMC (4N)",
         "transistors": 31100000000,
         "die_size_mm2": 263,
+        "l2_cache_kb": 49152,
         "shading_units": 6144,
+        "compute_units": 48,
         "tmus": 192,
+        "rops": 64,
         "tensor_cores": 192,
         "rt_cores": 48,
         "gpu_clock_mhz": 2325,
@@ -3143,11 +4335,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 160.77,
+        "texture_rate_gtexels": 482.3,
         "memory_type": "GDDR7",
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 672.0,
+        "fp64_tflops": 0.482,
         "fp32_tflops": 30.867,
+        "fp16_tflops": 30.867,
         "tdp_w": 250,
         "interface": "PCIe 5.0 x16"
       }
@@ -3165,21 +4362,36 @@
         "foundry": "TSMC (4N)",
         "transistors": 92200000000,
         "die_size_mm2": 750,
+        "l2_cache_kb": 131072,
         "shading_units": 24064,
+        "compute_units": 188,
+        "tmus": 752,
+        "rops": 192,
         "tensor_cores": 752,
         "rt_cores": 188,
+        "gpu_clock_mhz": 1590,
+        "gpu_boost_clock_mhz": 2617,
         "graphics_api": [
           "DirectX 12 Ultimate",
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 502.46,
+        "texture_rate_gtexels": 1967.98,
         "memory_type": "GDDR7",
         "memory_size_mb": 98304,
         "memory_bus_bits": 512,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 1792.0,
+        "fp64_tflops": 1.968,
+        "fp32_tflops": 125.951,
+        "fp16_tflops": 125.951,
         "tdp_w": 600,
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "launch_price_usd"
+      ]
     },
     {
       "id": "nvidia-geforce-rtx-5060-ti",
@@ -3195,8 +4407,11 @@
         "foundry": "TSMC (4N)",
         "transistors": 21900000000,
         "die_size_mm2": 181,
+        "l2_cache_kb": 32768,
         "shading_units": 4608,
+        "compute_units": 36,
         "tmus": 144,
+        "rops": 48,
         "tensor_cores": 144,
         "rt_cores": 36,
         "gpu_clock_mhz": 2407,
@@ -3206,11 +4421,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 123.46,
+        "texture_rate_gtexels": 370.37,
         "memory_type": "GDDR7",
         "memory_size_mb": 16384,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "fp64_tflops": 0.37,
         "fp32_tflops": 23.704,
+        "fp16_tflops": 23.704,
         "tdp_w": 180,
         "interface": "PCIe 5.0 x8"
       }
@@ -3229,8 +4449,11 @@
         "foundry": "TSMC (4N)",
         "transistors": 21900000000,
         "die_size_mm2": 181,
+        "l2_cache_kb": 32768,
         "shading_units": 3840,
+        "compute_units": 30,
         "tmus": 120,
+        "rops": 48,
         "tensor_cores": 120,
         "rt_cores": 30,
         "gpu_clock_mhz": 2280,
@@ -3240,11 +4463,16 @@
           "OpenGL 4.6",
           "Vulkan 1.3"
         ],
+        "pixel_rate_gpixels": 119.86,
+        "texture_rate_gtexels": 299.64,
         "memory_type": "GDDR7",
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
+        "fp64_tflops": 0.3,
         "fp32_tflops": 19.177,
+        "fp16_tflops": 19.177,
         "tdp_w": 145,
         "interface": "PCIe 5.0 x8"
       }

@@ -16,7 +16,9 @@
         "foundry": "TSMC",
         "transistors": 700000000,
         "die_size_mm2": 420,
+        "l2_cache_kb": 256,
         "shading_units": 320,
+        "compute_units": 4,
         "tmus": 16,
         "rops": 16,
         "gpu_clock_mhz": 742,
@@ -24,13 +26,24 @@
           "DirectX 10.0",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 11.87,
+        "texture_rate_gtexels": 11.87,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 512,
+        "memory_clock_mhz": 828,
         "memory_bandwidth_gbs": 105.6,
         "fp32_tflops": 0.475,
-        "tdp_w": 215
-      }
+        "tdp_w": 215,
+        "interface": "PCIe 1.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "amd-radeon-hd-3870",
@@ -41,11 +54,14 @@
         "codename": "RV670",
         "microarchitecture": "TeraScale",
         "market": "Desktop",
+        "launch_price_usd": 219,
         "process_nm": 55,
         "foundry": "TSMC",
         "transistors": 666000000,
         "die_size_mm2": 192,
+        "l2_cache_kb": 256,
         "shading_units": 320,
+        "compute_units": 4,
         "tmus": 16,
         "rops": 16,
         "gpu_clock_mhz": 775,
@@ -53,13 +69,24 @@
           "DirectX 10.1",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 12.4,
+        "texture_rate_gtexels": 12.4,
         "memory_type": "GDDR4",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1126,
         "memory_bandwidth_gbs": 72,
+        "fp64_tflops": 0.099,
         "fp32_tflops": 0.496,
-        "tdp_w": 106
-      }
+        "tdp_w": 106,
+        "interface": "PCIe 2.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "amd-radeon-hd-4850",
@@ -75,7 +102,9 @@
         "foundry": "TSMC",
         "transistors": 956000000,
         "die_size_mm2": 256,
+        "l2_cache_kb": 256,
         "shading_units": 800,
+        "compute_units": 10,
         "tmus": 40,
         "rops": 16,
         "gpu_clock_mhz": 625,
@@ -83,13 +112,24 @@
           "DirectX 10.1",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 10.0,
+        "texture_rate_gtexels": 25.0,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 993,
         "memory_bandwidth_gbs": 63.6,
+        "fp64_tflops": 0.2,
         "fp32_tflops": 1.0,
-        "tdp_w": 110
-      }
+        "tdp_w": 110,
+        "interface": "PCIe 2.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "amd-radeon-hd-4870",
@@ -105,7 +145,9 @@
         "foundry": "TSMC",
         "transistors": 956000000,
         "die_size_mm2": 256,
+        "l2_cache_kb": 256,
         "shading_units": 800,
+        "compute_units": 10,
         "tmus": 40,
         "rops": 16,
         "gpu_clock_mhz": 750,
@@ -113,14 +155,24 @@
           "DirectX 10.1",
           "OpenGL 3.3"
         ],
+        "pixel_rate_gpixels": 12.0,
+        "texture_rate_gtexels": 30.0,
         "memory_type": "GDDR5",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 900,
         "memory_bandwidth_gbs": 115.2,
         "fp64_tflops": 0.24,
         "fp32_tflops": 1.2,
-        "tdp_w": 150
-      }
+        "tdp_w": 150,
+        "interface": "PCIe 2.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "amd-radeon-hd-5870",
@@ -136,22 +188,34 @@
         "foundry": "TSMC",
         "transistors": 2154000000,
         "die_size_mm2": 334,
+        "l2_cache_kb": 512,
         "shading_units": 1600,
+        "compute_units": 20,
         "tmus": 80,
         "rops": 32,
         "gpu_clock_mhz": 850,
         "graphics_api": [
           "DirectX 11",
-          "OpenGL 4.x"
+          "OpenGL 4.4"
         ],
+        "pixel_rate_gpixels": 27.2,
+        "texture_rate_gtexels": 68.0,
         "memory_type": "GDDR5",
         "memory_size_mb": 1024,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1200,
         "memory_bandwidth_gbs": 153.6,
         "fp64_tflops": 0.544,
         "fp32_tflops": 2.72,
-        "tdp_w": 188
-      }
+        "tdp_w": 188,
+        "interface": "PCIe 2.1 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "amd-radeon-hd-5770",
@@ -167,21 +231,34 @@
         "foundry": "TSMC",
         "transistors": 1040000000,
         "die_size_mm2": 166,
+        "l2_cache_kb": 512,
         "shading_units": 800,
+        "compute_units": 10,
         "tmus": 40,
         "rops": 16,
         "gpu_clock_mhz": 850,
         "graphics_api": [
           "DirectX 11",
-          "OpenGL 4.x"
+          "OpenGL 4.4"
         ],
+        "pixel_rate_gpixels": 13.6,
+        "texture_rate_gtexels": 34.0,
         "memory_type": "GDDR5",
         "memory_size_mb": 1024,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1200,
         "memory_bandwidth_gbs": 76.8,
         "fp32_tflops": 1.36,
-        "tdp_w": 108
-      }
+        "tdp_w": 108,
+        "interface": "PCIe 2.1 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "amd-radeon-hd-6870",
@@ -197,21 +274,34 @@
         "foundry": "TSMC",
         "transistors": 1700000000,
         "die_size_mm2": 255,
+        "l2_cache_kb": 512,
         "shading_units": 1120,
+        "compute_units": 14,
         "tmus": 56,
         "rops": 32,
         "gpu_clock_mhz": 900,
         "graphics_api": [
           "DirectX 11",
-          "OpenGL 4.x"
+          "OpenGL 4.4"
         ],
+        "pixel_rate_gpixels": 28.8,
+        "texture_rate_gtexels": 50.4,
         "memory_type": "GDDR5",
         "memory_size_mb": 1024,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1050,
         "memory_bandwidth_gbs": 134.4,
         "fp32_tflops": 2.016,
-        "tdp_w": 151
-      }
+        "tdp_w": 151,
+        "interface": "PCIe 2.1 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "amd-radeon-hd-6970",
@@ -227,22 +317,34 @@
         "foundry": "TSMC",
         "transistors": 2640000000,
         "die_size_mm2": 389,
+        "l2_cache_kb": 512,
         "shading_units": 1536,
+        "compute_units": 24,
         "tmus": 96,
         "rops": 32,
         "gpu_clock_mhz": 880,
         "graphics_api": [
           "DirectX 11",
-          "OpenGL 4.x"
+          "OpenGL 4.4"
         ],
+        "pixel_rate_gpixels": 28.16,
+        "texture_rate_gtexels": 84.48,
         "memory_type": "GDDR5",
         "memory_size_mb": 2048,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1375,
         "memory_bandwidth_gbs": 176,
         "fp64_tflops": 0.676,
         "fp32_tflops": 2.703,
-        "tdp_w": 250
-      }
+        "tdp_w": 250,
+        "interface": "PCIe 2.1 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "amd-radeon-hd-7970",
@@ -258,6 +360,7 @@
         "foundry": "TSMC",
         "transistors": 4310000000,
         "die_size_mm2": 352,
+        "l2_cache_kb": 768,
         "shading_units": 2048,
         "compute_units": 32,
         "tmus": 128,
@@ -268,14 +371,24 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 29.6,
+        "texture_rate_gtexels": 118.4,
         "memory_type": "GDDR5",
         "memory_size_mb": 3072,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1375,
         "memory_bandwidth_gbs": 264,
         "fp64_tflops": 0.947,
         "fp32_tflops": 3.789,
-        "tdp_w": 250
-      }
+        "fp16_tflops": 3.789,
+        "tdp_w": 250,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-radeon-hd-7850",
@@ -291,6 +404,7 @@
         "foundry": "TSMC",
         "transistors": 2800000000,
         "die_size_mm2": 212,
+        "l2_cache_kb": 512,
         "shading_units": 1024,
         "compute_units": 16,
         "tmus": 64,
@@ -301,13 +415,24 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 27.52,
+        "texture_rate_gtexels": 55.04,
         "memory_type": "GDDR5",
         "memory_size_mb": 2048,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1200,
         "memory_bandwidth_gbs": 153.6,
+        "fp64_tflops": 0.11,
         "fp32_tflops": 1.761,
-        "tdp_w": 130
-      }
+        "fp16_tflops": 1.761,
+        "tdp_w": 130,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-radeon-r9-280x",
@@ -323,6 +448,7 @@
         "foundry": "TSMC",
         "transistors": 4310000000,
         "die_size_mm2": 352,
+        "l2_cache_kb": 768,
         "shading_units": 2048,
         "compute_units": 32,
         "tmus": 128,
@@ -334,13 +460,23 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 32.0,
+        "texture_rate_gtexels": 128.0,
         "memory_type": "GDDR5",
         "memory_size_mb": 3072,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 1500,
         "memory_bandwidth_gbs": 288,
+        "fp64_tflops": 1.024,
         "fp32_tflops": 4.096,
-        "tdp_w": 250
-      }
+        "fp16_tflops": 4.096,
+        "tdp_w": 250,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "amd-radeon-r9-290x",
@@ -356,23 +492,35 @@
         "foundry": "TSMC",
         "transistors": 6200000000,
         "die_size_mm2": 438,
+        "l2_cache_kb": 1024,
         "shading_units": 2816,
         "compute_units": 44,
         "tmus": 176,
         "rops": 64,
-        "gpu_boost_clock_mhz": 1000,
+        "gpu_clock_mhz": 1000,
         "graphics_api": [
           "DirectX 12",
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 64.0,
+        "texture_rate_gtexels": 176.0,
         "memory_type": "GDDR5",
         "memory_size_mb": 4096,
         "memory_bus_bits": 512,
+        "memory_clock_mhz": 1250,
         "memory_bandwidth_gbs": 320,
+        "fp64_tflops": 0.704,
         "fp32_tflops": 5.632,
-        "tdp_w": 290
-      }
+        "fp16_tflops": 5.632,
+        "tdp_w": 290,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-radeon-r9-390x",
@@ -388,23 +536,35 @@
         "foundry": "TSMC",
         "transistors": 6200000000,
         "die_size_mm2": 438,
+        "l2_cache_kb": 1024,
         "shading_units": 2816,
         "compute_units": 44,
         "tmus": 176,
         "rops": 64,
-        "gpu_boost_clock_mhz": 1050,
+        "gpu_clock_mhz": 1050,
         "graphics_api": [
           "DirectX 12",
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 67.2,
+        "texture_rate_gtexels": 184.8,
         "memory_type": "GDDR5",
         "memory_size_mb": 8192,
         "memory_bus_bits": 512,
+        "memory_clock_mhz": 1500,
         "memory_bandwidth_gbs": 384,
+        "fp64_tflops": 0.739,
         "fp32_tflops": 5.914,
-        "tdp_w": 275
-      }
+        "fp16_tflops": 5.914,
+        "tdp_w": 275,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-radeon-r9-fury-x",
@@ -420,24 +580,35 @@
         "foundry": "TSMC",
         "transistors": 8900000000,
         "die_size_mm2": 596,
+        "l2_cache_kb": 2048,
         "shading_units": 4096,
         "compute_units": 64,
         "tmus": 256,
         "rops": 64,
-        "gpu_boost_clock_mhz": 1050,
+        "gpu_clock_mhz": 1050,
         "graphics_api": [
           "DirectX 12",
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 67.2,
+        "texture_rate_gtexels": 268.8,
         "memory_type": "HBM",
         "memory_size_mb": 4096,
         "memory_bus_bits": 4096,
+        "memory_clock_mhz": 500,
         "memory_bandwidth_gbs": 512,
         "fp64_tflops": 0.538,
         "fp32_tflops": 8.602,
-        "tdp_w": 275
-      }
+        "fp16_tflops": 8.602,
+        "tdp_w": 275,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-radeon-rx-480",
@@ -453,6 +624,7 @@
         "foundry": "GlobalFoundries",
         "transistors": 5700000000,
         "die_size_mm2": 232,
+        "l2_cache_kb": 2048,
         "shading_units": 2304,
         "compute_units": 36,
         "tmus": 144,
@@ -464,13 +636,23 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 40.51,
+        "texture_rate_gtexels": 182.3,
         "memory_type": "GDDR5",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 256,
+        "fp64_tflops": 0.365,
         "fp32_tflops": 5.834,
-        "tdp_w": 150
-      }
+        "fp16_tflops": 5.834,
+        "tdp_w": 150,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-580",
@@ -486,6 +668,7 @@
         "foundry": "GlobalFoundries",
         "transistors": 5700000000,
         "die_size_mm2": 232,
+        "l2_cache_kb": 2048,
         "shading_units": 2304,
         "compute_units": 36,
         "tmus": 144,
@@ -497,13 +680,23 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 42.88,
+        "texture_rate_gtexels": 192.96,
         "memory_type": "GDDR5",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 256,
+        "fp64_tflops": 0.386,
         "fp32_tflops": 6.175,
-        "tdp_w": 185
-      }
+        "fp16_tflops": 6.175,
+        "tdp_w": 185,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-vega-64",
@@ -519,6 +712,7 @@
         "foundry": "GlobalFoundries",
         "transistors": 12500000000,
         "die_size_mm2": 486,
+        "l2_cache_kb": 4096,
         "shading_units": 4096,
         "compute_units": 64,
         "tmus": 256,
@@ -530,14 +724,23 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 98.94,
+        "texture_rate_gtexels": 395.8,
         "memory_type": "HBM2",
         "memory_size_mb": 8192,
         "memory_bus_bits": 2048,
+        "memory_clock_mhz": 945,
         "memory_bandwidth_gbs": 483.8,
+        "fp64_tflops": 0.791,
         "fp32_tflops": 12.66,
         "fp16_tflops": 25.3,
-        "tdp_w": 295
-      }
+        "tdp_w": 295,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-vega-56",
@@ -553,6 +756,7 @@
         "foundry": "GlobalFoundries",
         "transistors": 12500000000,
         "die_size_mm2": 486,
+        "l2_cache_kb": 4096,
         "shading_units": 3584,
         "compute_units": 56,
         "tmus": 224,
@@ -564,14 +768,23 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 94.14,
+        "texture_rate_gtexels": 329.5,
         "memory_type": "HBM2",
         "memory_size_mb": 8192,
         "memory_bus_bits": 2048,
+        "memory_clock_mhz": 800,
         "memory_bandwidth_gbs": 409.6,
+        "fp64_tflops": 0.659,
         "fp32_tflops": 10.54,
         "fp16_tflops": 21.1,
-        "tdp_w": 210
-      }
+        "tdp_w": 210,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "amd-radeon-vii",
@@ -587,6 +800,7 @@
         "foundry": "TSMC",
         "transistors": 13230000000,
         "die_size_mm2": 331,
+        "l2_cache_kb": 4096,
         "shading_units": 3840,
         "compute_units": 60,
         "tmus": 240,
@@ -598,15 +812,23 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 112.0,
+        "texture_rate_gtexels": 420.0,
         "memory_type": "HBM2",
         "memory_size_mb": 16384,
         "memory_bus_bits": 4096,
+        "memory_clock_mhz": 1000,
         "memory_bandwidth_gbs": 1024,
         "fp64_tflops": 3.36,
         "fp32_tflops": 13.44,
         "fp16_tflops": 26.88,
-        "tdp_w": 300
-      }
+        "tdp_w": 300,
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-5700-xt",
@@ -622,6 +844,7 @@
         "foundry": "TSMC",
         "transistors": 10300000000,
         "die_size_mm2": 251,
+        "l2_cache_kb": 4096,
         "shading_units": 2560,
         "compute_units": 40,
         "tmus": 160,
@@ -633,13 +856,23 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 121.9,
+        "texture_rate_gtexels": 304.8,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448,
+        "fp64_tflops": 0.61,
         "fp32_tflops": 9.754,
-        "tdp_w": 225
-      }
+        "fp16_tflops": 19.51,
+        "tdp_w": 225,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-5500-xt",
@@ -655,6 +888,7 @@
         "foundry": "TSMC",
         "transistors": 6400000000,
         "die_size_mm2": 158,
+        "l2_cache_kb": 2048,
         "shading_units": 1408,
         "compute_units": 22,
         "tmus": 88,
@@ -666,13 +900,23 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
+        "pixel_rate_gpixels": 59.04,
+        "texture_rate_gtexels": 162.4,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 224,
+        "fp64_tflops": 0.325,
         "fp32_tflops": 5.196,
-        "tdp_w": 130
-      }
+        "fp16_tflops": 10.39,
+        "tdp_w": 130,
+        "interface": "PCIe 4.0 x8"
+      },
+      "na": [
+        "tensor_cores",
+        "rt_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-6800-xt",
@@ -688,6 +932,8 @@
         "foundry": "TSMC",
         "transistors": 26800000000,
         "die_size_mm2": 520,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 131072,
         "shading_units": 4608,
         "compute_units": 72,
         "tmus": 288,
@@ -700,14 +946,22 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 131072,
+        "pixel_rate_gpixels": 288.0,
+        "texture_rate_gtexels": 648.0,
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 512,
+        "fp64_tflops": 1.296,
         "fp32_tflops": 20.74,
-        "tdp_w": 300
-      }
+        "fp16_tflops": 41.47,
+        "tdp_w": 300,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "tensor_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-6900-xt",
@@ -723,6 +977,8 @@
         "foundry": "TSMC",
         "transistors": 26800000000,
         "die_size_mm2": 520,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 131072,
         "shading_units": 5120,
         "compute_units": 80,
         "tmus": 320,
@@ -735,14 +991,22 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 131072,
+        "pixel_rate_gpixels": 288.0,
+        "texture_rate_gtexels": 720.0,
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 512,
+        "fp64_tflops": 1.44,
         "fp32_tflops": 23.04,
-        "tdp_w": 300
-      }
+        "fp16_tflops": 46.08,
+        "tdp_w": 300,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "tensor_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-6700-xt",
@@ -758,6 +1022,8 @@
         "foundry": "TSMC",
         "transistors": 17200000000,
         "die_size_mm2": 335,
+        "l2_cache_kb": 3072,
+        "l3_cache_kb": 98304,
         "shading_units": 2560,
         "compute_units": 40,
         "tmus": 160,
@@ -770,14 +1036,22 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 98304,
+        "pixel_rate_gpixels": 165.2,
+        "texture_rate_gtexels": 413.0,
         "memory_type": "GDDR6",
         "memory_size_mb": 12288,
         "memory_bus_bits": 192,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 384,
+        "fp64_tflops": 0.826,
         "fp32_tflops": 13.21,
-        "tdp_w": 230
-      }
+        "fp16_tflops": 26.43,
+        "tdp_w": 230,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "tensor_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-6600",
@@ -793,6 +1067,8 @@
         "foundry": "TSMC",
         "transistors": 11060000000,
         "die_size_mm2": 237,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 32768,
         "shading_units": 1792,
         "compute_units": 28,
         "tmus": 112,
@@ -805,14 +1081,22 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 32768,
+        "pixel_rate_gpixels": 159.4,
+        "texture_rate_gtexels": 279.0,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 224,
+        "fp64_tflops": 0.558,
         "fp32_tflops": 8.93,
-        "tdp_w": 132
-      }
+        "fp16_tflops": 17.86,
+        "tdp_w": 132,
+        "interface": "PCIe 4.0 x8"
+      },
+      "na": [
+        "tensor_cores"
+      ]
     },
     {
       "id": "amd-radeon-rx-7900-xtx",
@@ -828,6 +1112,8 @@
         "foundry": "TSMC",
         "transistors": 57700000000,
         "die_size_mm2": 529,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 98304,
         "shading_units": 6144,
         "compute_units": 96,
         "tmus": 384,
@@ -841,13 +1127,18 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 98304,
+        "pixel_rate_gpixels": 480.0,
+        "texture_rate_gtexels": 960.0,
         "memory_type": "GDDR6",
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
+        "memory_clock_mhz": 2500,
         "memory_bandwidth_gbs": 960,
+        "fp64_tflops": 1.92,
         "fp32_tflops": 61.4,
-        "tdp_w": 355
+        "fp16_tflops": 122.8,
+        "tdp_w": 355,
+        "interface": "PCIe 4.0 x16"
       }
     },
     {
@@ -864,6 +1155,8 @@
         "foundry": "TSMC",
         "transistors": 57700000000,
         "die_size_mm2": 529,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 81920,
         "shading_units": 5376,
         "compute_units": 84,
         "tmus": 336,
@@ -877,13 +1170,18 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 81920,
+        "pixel_rate_gpixels": 460.8,
+        "texture_rate_gtexels": 806.4,
         "memory_type": "GDDR6",
         "memory_size_mb": 20480,
         "memory_bus_bits": 320,
+        "memory_clock_mhz": 2500,
         "memory_bandwidth_gbs": 800,
+        "fp64_tflops": 1.613,
         "fp32_tflops": 51.6,
-        "tdp_w": 315
+        "fp16_tflops": 103.2,
+        "tdp_w": 315,
+        "interface": "PCIe 4.0 x16"
       }
     },
     {
@@ -900,6 +1198,8 @@
         "foundry": "TSMC",
         "transistors": 13300000000,
         "die_size_mm2": 204,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 32768,
         "shading_units": 2048,
         "compute_units": 32,
         "tmus": 128,
@@ -913,13 +1213,18 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 32768,
+        "pixel_rate_gpixels": 169.9,
+        "texture_rate_gtexels": 339.8,
         "memory_type": "GDDR6",
         "memory_size_mb": 8192,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 2250,
         "memory_bandwidth_gbs": 288,
+        "fp64_tflops": 0.68,
         "fp32_tflops": 21.75,
-        "tdp_w": 165
+        "fp16_tflops": 43.5,
+        "tdp_w": 165,
+        "interface": "PCIe 4.0 x8"
       }
     },
     {
@@ -936,6 +1241,8 @@
         "foundry": "TSMC",
         "transistors": 28100000000,
         "die_size_mm2": 346,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 65536,
         "shading_units": 3840,
         "compute_units": 60,
         "tmus": 240,
@@ -949,13 +1256,18 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 65536,
+        "pixel_rate_gpixels": 233.3,
+        "texture_rate_gtexels": 583.2,
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 2438,
         "memory_bandwidth_gbs": 624,
+        "fp64_tflops": 1.166,
         "fp32_tflops": 37.3,
-        "tdp_w": 263
+        "fp16_tflops": 74.65,
+        "tdp_w": 263,
+        "interface": "PCIe 4.0 x16"
       }
     },
     {
@@ -972,6 +1284,8 @@
         "foundry": "TSMC",
         "transistors": 53900000000,
         "die_size_mm2": 357,
+        "l2_cache_kb": 8192,
+        "l3_cache_kb": 65536,
         "shading_units": 4096,
         "compute_units": 64,
         "tmus": 256,
@@ -985,13 +1299,18 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 65536,
+        "pixel_rate_gpixels": 380.2,
+        "texture_rate_gtexels": 760.3,
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 2518,
         "memory_bandwidth_gbs": 640,
+        "fp64_tflops": 1.521,
         "fp32_tflops": 48.66,
-        "tdp_w": 304
+        "fp16_tflops": 97.32,
+        "tdp_w": 304,
+        "interface": "PCIe 5.0 x16"
       }
     },
     {
@@ -1008,6 +1327,8 @@
         "foundry": "TSMC",
         "transistors": 53900000000,
         "die_size_mm2": 357,
+        "l2_cache_kb": 8192,
+        "l3_cache_kb": 65536,
         "shading_units": 3584,
         "compute_units": 56,
         "tmus": 224,
@@ -1021,13 +1342,18 @@
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 65536,
+        "pixel_rate_gpixels": 322.6,
+        "texture_rate_gtexels": 564.5,
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 2518,
         "memory_bandwidth_gbs": 640,
+        "fp64_tflops": 1.129,
         "fp32_tflops": 36.13,
-        "tdp_w": 220
+        "fp16_tflops": 72.26,
+        "tdp_w": 220,
+        "interface": "PCIe 5.0 x16"
       }
     },
     {
@@ -1044,25 +1370,33 @@
         "foundry": "TSMC",
         "transistors": 29700000000,
         "die_size_mm2": 199,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 32768,
         "shading_units": 2048,
         "compute_units": 32,
         "tmus": 128,
         "rops": 64,
         "tensor_cores": 64,
         "rt_cores": 32,
+        "gpu_clock_mhz": 1700,
         "gpu_boost_clock_mhz": 3130,
         "graphics_api": [
           "DirectX 12 Ultimate",
           "Vulkan",
           "OpenGL 4.6"
         ],
-        "l3_cache_kb": 32768,
+        "pixel_rate_gpixels": 200.3,
+        "texture_rate_gtexels": 400.6,
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 2518,
         "memory_bandwidth_gbs": 320,
+        "fp64_tflops": 0.801,
         "fp32_tflops": 25.6,
-        "tdp_w": 160
+        "fp16_tflops": 51.28,
+        "tdp_w": 160,
+        "interface": "PCIe 5.0 x16"
       }
     }
   ]

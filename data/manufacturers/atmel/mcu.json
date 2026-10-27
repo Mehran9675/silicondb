@@ -8,13 +8,29 @@
       "family": "AT89 (8051)",
       "released": "1993",
       "specs": {
+        "microarchitecture": "MCS-51 (12-clock)",
         "isa": "MCS-51",
+        "market": "Embedded",
+        "package": "40-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 24,
         "flash_kb": 4,
         "sram_kb": 0.125,
-        "package": "40-pin DIP"
-      }
+        "mips": 2,
+        "voltage_v": 5,
+        "gpio_pins": 32,
+        "timers": "2× 16-bit",
+        "interfaces": [
+          "UART"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "adc",
+        "dac"
+      ]
     },
     {
       "id": "atmel-at90s8515",
@@ -22,13 +38,30 @@
       "family": "AVR (classic)",
       "released": "1997",
       "specs": {
+        "microarchitecture": "AVR",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "40-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 8,
         "flash_kb": 8,
         "sram_kb": 0.5,
-        "package": "40-pin DIP"
-      }
+        "eeprom_kb": 0.5,
+        "mips": 8,
+        "voltage_v": 5,
+        "gpio_pins": 32,
+        "timers": "1× 8-bit, 1× 16-bit, watchdog",
+        "interfaces": [
+          "UART",
+          "SPI"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "adc",
+        "dac"
+      ]
     },
     {
       "id": "atmel-atmega8",
@@ -36,13 +69,31 @@
       "family": "megaAVR",
       "released": "2002",
       "specs": {
+        "microarchitecture": "AVR",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "28-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 16,
         "flash_kb": 8,
         "sram_kb": 1,
-        "package": "28-pin DIP"
-      }
+        "eeprom_kb": 0.5,
+        "mips": 16,
+        "voltage_v": 5,
+        "gpio_pins": 23,
+        "adc": "10-bit, 6 channels (8 in TQFP/QFN)",
+        "timers": "2× 8-bit, 1× 16-bit, watchdog",
+        "interfaces": [
+          "USART",
+          "SPI",
+          "TWI (I²C)"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "atmel-atmega2560",
@@ -50,13 +101,31 @@
       "family": "megaAVR",
       "released": "2005",
       "specs": {
+        "microarchitecture": "AVR",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "100-pin TQFP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 16,
         "flash_kb": 256,
         "sram_kb": 8,
-        "package": "100-pin TQFP"
-      }
+        "eeprom_kb": 4,
+        "mips": 16,
+        "voltage_v": 5,
+        "gpio_pins": 86,
+        "adc": "10-bit, 16 channels",
+        "timers": "2× 8-bit, 4× 16-bit, watchdog",
+        "interfaces": [
+          "4× USART",
+          "SPI",
+          "TWI (I²C)"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "atmel-attiny85",
@@ -64,13 +133,29 @@
       "family": "tinyAVR",
       "released": "2005",
       "specs": {
+        "microarchitecture": "AVR",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "8-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 20,
         "flash_kb": 8,
         "sram_kb": 0.5,
-        "package": "8-pin DIP"
-      }
+        "eeprom_kb": 0.5,
+        "mips": 20,
+        "voltage_v": 5,
+        "gpio_pins": 6,
+        "adc": "10-bit, 4 channels",
+        "timers": "2× 8-bit, watchdog",
+        "interfaces": [
+          "USI (SPI/I²C)"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "atmel-atxmega128a1",
@@ -78,12 +163,33 @@
       "family": "XMEGA",
       "released": "2008",
       "specs": {
+        "microarchitecture": "AVR XMEGA",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "100-pin TQFP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 32,
         "flash_kb": 128,
-        "sram_kb": 8
-      }
+        "sram_kb": 8,
+        "eeprom_kb": 2,
+        "mips": 32,
+        "voltage_v": 3.3,
+        "gpio_pins": 78,
+        "adc": "2× 12-bit, 16 channels, 2 Msps",
+        "dac": "2× 12-bit, 2 channels each",
+        "timers": "8× 16-bit, RTC, watchdog",
+        "interfaces": [
+          "8× USART",
+          "4× SPI",
+          "4× TWI (I²C)",
+          "EBI",
+          "IrDA"
+        ]
+      },
+      "na": [
+        "process_nm"
+      ]
     },
     {
       "id": "atmel-atmega32u4",
@@ -91,15 +197,35 @@
       "family": "megaAVR",
       "released": "2008",
       "specs": {
+        "microarchitecture": "AVR",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "44-pin TQFP / QFN",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 16,
         "flash_kb": 32,
         "sram_kb": 2.5,
+        "eeprom_kb": 1,
+        "mips": 16,
+        "voltage_v": 5,
         "connectivity": [
           "USB 2.0 Full Speed"
+        ],
+        "gpio_pins": 26,
+        "adc": "10-bit, 12 channels",
+        "timers": "1× 8-bit, 2× 16-bit, 1× 10-bit high-speed, watchdog",
+        "interfaces": [
+          "USB 2.0 Full Speed",
+          "USART",
+          "SPI",
+          "TWI (I²C)"
         ]
-      }
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "atmel-atmega328p",
@@ -107,13 +233,31 @@
       "family": "megaAVR",
       "released": "2009",
       "specs": {
+        "microarchitecture": "AVR",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "28-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 20,
         "flash_kb": 32,
         "sram_kb": 2,
-        "package": "28-pin DIP"
-      }
+        "eeprom_kb": 1,
+        "mips": 20,
+        "voltage_v": 5,
+        "gpio_pins": 23,
+        "adc": "10-bit, 6 channels (8 in TQFP/QFN)",
+        "timers": "2× 8-bit, 1× 16-bit, watchdog",
+        "interfaces": [
+          "USART",
+          "SPI",
+          "TWI (I²C)"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "atmel-sam3x8e",
@@ -123,11 +267,36 @@
       "specs": {
         "microarchitecture": "Cortex-M3",
         "isa": "ARMv7-M",
+        "market": "Embedded",
+        "package": "144-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 84,
         "flash_kb": 512,
-        "sram_kb": 96
-      }
+        "sram_kb": 96,
+        "mips": 105,
+        "voltage_v": 3.3,
+        "gpio_pins": 103,
+        "adc": "12-bit, 16 channels, 1 Msps",
+        "dac": "12-bit, 2 channels",
+        "timers": "9× 32-bit (3 TC blocks), 8-ch 16-bit PWM, RTT, RTC, watchdog",
+        "interfaces": [
+          "USB 2.0 High Speed OTG",
+          "10/100 Ethernet",
+          "2× CAN",
+          "4× USART",
+          "UART",
+          "SPI",
+          "2× TWI (I²C)",
+          "HSMCI (SD/MMC)",
+          "SSC (I²S)",
+          "SMC"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb"
+      ]
     },
     {
       "id": "atmel-samd21g18a",
@@ -137,11 +306,29 @@
       "specs": {
         "microarchitecture": "Cortex-M0+",
         "isa": "ARMv6-M",
+        "market": "Embedded",
+        "package": "48-pin TQFP / QFN",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 48,
         "flash_kb": 256,
-        "sram_kb": 32
-      }
+        "sram_kb": 32,
+        "mips": 45,
+        "voltage_v": 3.3,
+        "gpio_pins": 38,
+        "adc": "12-bit, 14 channels, 350 ksps",
+        "dac": "10-bit, 1 channel",
+        "timers": "3× 24/16-bit TCC, 3× 16-bit TC, RTC, watchdog",
+        "interfaces": [
+          "USB 2.0 Full Speed",
+          "6× SERCOM (USART/SPI/I²C)",
+          "I²S"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb"
+      ]
     },
     {
       "id": "atmel-atsame70q21",
@@ -151,11 +338,38 @@
       "specs": {
         "microarchitecture": "Cortex-M7",
         "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "package": "144-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 300,
         "flash_kb": 2048,
-        "sram_kb": 384
-      }
+        "sram_kb": 384,
+        "mips": 642,
+        "voltage_v": 3.3,
+        "gpio_pins": 114,
+        "adc": "2× 12-bit AFE, 24 channels, 2 Msps",
+        "dac": "12-bit, 2 channels",
+        "timers": "12× 16-bit (4 TC blocks), 2× 4-ch PWM, RTT, RTC, watchdog",
+        "interfaces": [
+          "USB 2.0 High Speed",
+          "10/100 Ethernet",
+          "2× CAN FD",
+          "3× USART",
+          "5× UART",
+          "2× SPI",
+          "QSPI",
+          "3× TWIHS (I²C)",
+          "HSMCI (SD/MMC)",
+          "2× I²S",
+          "ISI (camera)",
+          "EBI"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb"
+      ]
     }
   ]
 }

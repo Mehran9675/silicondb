@@ -8,13 +8,36 @@
       "family": "Tegra",
       "released": "2008-02",
       "specs": {
+        "microarchitecture": "ARM11",
         "isa": "ARMv6",
         "market": "Mobile",
         "process_nm": 65,
+        "foundry": "TSMC",
         "cores": 1,
         "core_config": "1x ARM11 MPCore",
-        "boost_clock_mhz": 600
-      }
+        "boost_clock_mhz": 600,
+        "l2_cache_kb": 256,
+        "gpu": "ULP GeForce",
+        "memory_type": "LPDDR / DDR"
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "max_memory_mb",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "nvidia-tegra-2",
@@ -23,18 +46,35 @@
       "released": "2010-01",
       "specs": {
         "codename": "T20",
+        "microarchitecture": "Cortex-A9",
         "isa": "ARMv7-A",
         "market": "Mobile",
         "process_nm": 40,
         "foundry": "TSMC",
+        "die_size_mm2": 49,
         "cores": 2,
         "core_config": "2x Cortex-A9",
         "boost_clock_mhz": 1000,
+        "l2_cache_kb": 1024,
         "gpu": "ULP GeForce",
         "gpu_cores": 8,
+        "gpu_clock_mhz": 333,
         "memory_type": "LPDDR2 / DDR2",
-        "memory_bus_bits": 32
-      }
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 2.67,
+        "fp32_tflops": 0.0053
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "nvidia-tegra-3",
@@ -43,19 +83,35 @@
       "released": "2011-11",
       "specs": {
         "codename": "Kal-El",
+        "microarchitecture": "Cortex-A9",
         "isa": "ARMv7-A",
         "market": "Mobile",
         "process_nm": 40,
         "foundry": "TSMC",
+        "die_size_mm2": 80,
         "cores": 5,
         "core_config": "4x Cortex-A9 + 1x Cortex-A9 companion",
+        "base_clock_mhz": 1300,
         "boost_clock_mhz": 1400,
+        "l2_cache_kb": 1024,
         "gpu": "ULP GeForce",
         "gpu_cores": 12,
         "gpu_clock_mhz": 520,
         "memory_type": "LPDDR2 / DDR3L",
-        "memory_bus_bits": 32
-      }
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 6.4,
+        "fp32_tflops": 0.0125
+      },
+      "na": [
+        "transistors",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "nvidia-tegra-4",
@@ -64,17 +120,35 @@
       "released": "2013-01",
       "specs": {
         "codename": "Wayne",
+        "microarchitecture": "Cortex-A15",
         "isa": "ARMv7-A",
         "market": "Mobile",
         "process_nm": 28,
         "foundry": "TSMC",
+        "die_size_mm2": 80,
         "cores": 5,
         "core_config": "4x Cortex-A15 + 1x Cortex-A15 companion",
         "boost_clock_mhz": 1900,
+        "l2_cache_kb": 2048,
         "gpu": "ULP GeForce",
         "gpu_cores": 72,
-        "memory_type": "LPDDR3 / DDR3L"
-      }
+        "gpu_clock_mhz": 672,
+        "memory_type": "LPDDR3 / DDR3L",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 14.9,
+        "fp32_tflops": 0.0968
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "nvidia-tegra-k1",
@@ -83,6 +157,7 @@
       "released": "2014-01",
       "specs": {
         "codename": "Logan",
+        "microarchitecture": "Cortex-A15",
         "isa": "ARMv7-A",
         "market": "Mobile",
         "process_nm": 28,
@@ -90,10 +165,27 @@
         "cores": 5,
         "core_config": "4x Cortex-A15 + 1x Cortex-A15 companion",
         "boost_clock_mhz": 2300,
+        "l2_cache_kb": 2048,
         "gpu": "Kepler",
         "gpu_cores": 192,
+        "gpu_clock_mhz": 950,
+        "memory_type": "LPDDR3 / DDR3L",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 17.0,
         "fp32_tflops": 0.365
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "nvidia-tegra-k1-64",
@@ -102,6 +194,7 @@
       "released": "2014-08",
       "specs": {
         "codename": "Logan",
+        "microarchitecture": "Denver",
         "isa": "ARMv8-A",
         "market": "Mobile",
         "process_nm": 28,
@@ -109,9 +202,27 @@
         "cores": 2,
         "core_config": "2x Denver",
         "boost_clock_mhz": 2500,
+        "l2_cache_kb": 2048,
         "gpu": "Kepler",
-        "gpu_cores": 192
-      }
+        "gpu_cores": 192,
+        "gpu_clock_mhz": 950,
+        "memory_type": "LPDDR3 / DDR3L",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 17.0,
+        "fp32_tflops": 0.365
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "nvidia-tegra-x1",
@@ -120,21 +231,36 @@
       "released": "2015-01",
       "specs": {
         "codename": "Erista",
+        "microarchitecture": "Cortex-A57 + Cortex-A53",
         "isa": "ARMv8-A",
-        "market": "Mobile / Embedded",
+        "market": "Mobile",
         "process_nm": 20,
         "foundry": "TSMC",
+        "die_size_mm2": 118,
         "cores": 8,
         "core_config": "4x Cortex-A57 + 4x Cortex-A53",
+        "boost_clock_mhz": 1900,
+        "l2_cache_kb": 2560,
         "gpu": "Maxwell",
         "gpu_cores": 256,
         "gpu_clock_mhz": 1000,
         "memory_type": "LPDDR4",
+        "max_memory_mb": 4096,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 25.6,
         "fp32_tflops": 0.512,
-        "fp16_tflops": 1.024
-      }
+        "fp16_tflops": 1.024,
+        "tdp_w": 10
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "nvidia-tegra-parker",
@@ -143,17 +269,36 @@
       "released": "2016-08",
       "specs": {
         "codename": "Parker",
+        "microarchitecture": "Denver 2 + Cortex-A57",
         "isa": "ARMv8-A",
-        "market": "Automotive / Embedded",
+        "market": "Automotive",
         "process_nm": 16,
         "foundry": "TSMC",
         "cores": 6,
         "core_config": "2x Denver 2 + 4x Cortex-A57",
+        "boost_clock_mhz": 2000,
+        "l2_cache_kb": 4096,
         "gpu": "Pascal",
         "gpu_cores": 256,
+        "gpu_clock_mhz": 1300,
         "memory_type": "LPDDR4",
-        "memory_bus_bits": 128
-      }
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 59.7,
+        "fp32_tflops": 0.666,
+        "fp16_tflops": 1.331,
+        "tdp_w": 15
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "nvidia-xavier",
@@ -162,8 +307,9 @@
       "released": "2018",
       "specs": {
         "codename": "Xavier",
+        "microarchitecture": "Carmel",
         "isa": "ARMv8.2-A",
-        "market": "Automotive / Embedded",
+        "market": "Automotive",
         "process_nm": 12,
         "foundry": "TSMC",
         "transistors": 9000000000,
@@ -171,15 +317,29 @@
         "cores": 8,
         "core_config": "8x Carmel",
         "boost_clock_mhz": 2265,
+        "l2_cache_kb": 8192,
+        "l3_cache_kb": 4096,
         "gpu": "Volta",
         "gpu_cores": 512,
         "tensor_cores": 64,
+        "gpu_clock_mhz": 1377,
         "memory_type": "LPDDR4x",
+        "max_memory_mb": 32768,
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 137.0,
+        "fp32_tflops": 1.41,
         "int8_tops": 32.0,
-        "tdp_w": 30
-      }
+        "npu_tops": 11.4,
+        "tdp_w": 30,
+        "connectivity": [
+          "Gigabit Ethernet"
+        ]
+      },
+      "na": [
+        "base_clock_mhz",
+        "slc_kb",
+        "modem"
+      ]
     },
     {
       "id": "nvidia-orin",
@@ -188,22 +348,39 @@
       "released": "2022-03",
       "specs": {
         "codename": "Orin",
+        "microarchitecture": "Cortex-A78AE",
         "isa": "ARMv8.2-A",
-        "market": "Automotive / Embedded",
+        "market": "Automotive",
         "process_nm": 8,
         "foundry": "Samsung",
         "transistors": 17000000000,
         "cores": 12,
         "core_config": "12x Cortex-A78AE",
         "boost_clock_mhz": 2200,
+        "l2_cache_kb": 3072,
+        "l3_cache_kb": 6144,
+        "slc_kb": 4096,
         "gpu": "Ampere",
         "gpu_cores": 2048,
         "tensor_cores": 64,
+        "gpu_clock_mhz": 1300,
         "memory_type": "LPDDR5",
+        "max_memory_mb": 65536,
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 204.8,
-        "tdp_w": 60
-      }
+        "fp32_tflops": 5.325,
+        "npu_tops": 52.5,
+        "tdp_w": 60,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "4x 10 Gigabit Ethernet"
+        ]
+      },
+      "na": [
+        "die_size_mm2",
+        "base_clock_mhz",
+        "modem"
+      ]
     },
     {
       "id": "nvidia-thor",
@@ -212,22 +389,39 @@
       "released": "2025-08",
       "specs": {
         "codename": "Thor",
+        "microarchitecture": "Neoverse V3AE",
         "isa": "ARMv9.2-A",
-        "market": "Automotive / Robotics",
+        "market": "Automotive",
         "process_nm": 4,
-        "foundry": "TSMC",
+        "foundry": "TSMC (4N)",
         "cores": 14,
         "core_config": "14x Neoverse V3AE",
         "boost_clock_mhz": 2600,
+        "l2_cache_kb": 14336,
+        "l3_cache_kb": 16384,
         "gpu": "Blackwell",
         "gpu_cores": 2560,
         "tensor_cores": 96,
+        "gpu_clock_mhz": 1575,
         "memory_type": "LPDDR5X",
         "memory_size_mb": 131072,
+        "max_memory_mb": 131072,
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 273.0,
-        "tdp_w": 130
-      }
+        "fp32_tflops": 8.064,
+        "tdp_w": 130,
+        "connectivity": [
+          "4x 25 Gigabit Ethernet"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "npu_tops",
+        "modem"
+      ]
     }
   ]
 }

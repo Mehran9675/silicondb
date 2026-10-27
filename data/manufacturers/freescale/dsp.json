@@ -9,10 +9,31 @@
       "released": "2008",
       "specs": {
         "microarchitecture": "SC3850",
+        "isa": "StarCore",
+        "market": "Embedded",
         "process_nm": 45,
+        "package": "783-ball FC-BGA",
         "cores": 6,
-        "base_clock_mhz": 1000
-      }
+        "data_width_bits": 16,
+        "address_width_bits": 32,
+        "base_clock_mhz": 1000,
+        "sram_kb": 1056,
+        "mmacs": 48000,
+        "voltage_v": 1.0,
+        "interfaces": [
+          "DDR2/DDR3",
+          "PCIe",
+          "Serial RapidIO",
+          "2× Gigabit Ethernet",
+          "MAPLE-B baseband accelerator"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mips",
+        "mflops",
+        "tdp_w"
+      ]
     }
   ]
 }

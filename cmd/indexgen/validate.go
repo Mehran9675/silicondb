@@ -17,6 +17,10 @@ var (
 type report struct {
 	errors, warnings []string
 	shards, chips    int
+	// gaps, when set, is called for every chip so -report can list
+	// missing specs.
+	gaps     func(id, category string, specs map[string]json.RawMessage, na []string)
+	complete *completeness
 }
 
 func (r *report) errorf(format string, a ...any) {
@@ -37,6 +41,7 @@ type rawShard struct {
 		Family   string                     `json:"family"`
 		Released string                     `json:"released"`
 		Specs    map[string]json.RawMessage `json:"specs"`
+		NA       []string                   `json:"na"`
 	} `json:"chips"`
 }
 
@@ -77,6 +82,14 @@ func validateShard(rel string, b []byte, maker, cat string, schema *model.Schema
 		}
 		if !datePattern.MatchString(c.Released) {
 			rep.errorf("%s: released %q isn't YYYY, YYYY-MM or YYYY-MM-DD", where, c.Released)
+		}
+		for _, k := range c.NA {
+			if _, ok := c.Specs[k]; ok {
+				rep.errorf("%s: %q is both a spec and listed in na", where, k)
+			}
+		}
+		if rep.gaps != nil {
+			rep.gaps(c.ID, cat, c.Specs, c.NA)
 		}
 		for k, v := range c.Specs {
 			if schema.Field(k) == nil {

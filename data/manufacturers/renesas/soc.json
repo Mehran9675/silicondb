@@ -8,16 +8,43 @@
       "family": "R-Car Gen3",
       "released": "2016",
       "specs": {
+        "codename": "R8A7795",
+        "microarchitecture": "Cortex-A57 / Cortex-A53",
         "isa": "ARMv8-A",
         "market": "Automotive",
         "process_nm": 16,
         "foundry": "TSMC",
         "cores": 8,
-        "core_config": "4x Cortex-A57 + 4x Cortex-A53 + 1x Cortex-R7",
+        "core_config": "4x Cortex-A57 @ 1.5 GHz + 4x Cortex-A53 @ 1.2 GHz + 1x Cortex-R7 @ 800 MHz",
         "base_clock_mhz": 1500,
+        "l2_cache_kb": 2560,
         "gpu": "PowerVR GX6650",
-        "memory_type": "LPDDR4"
-      }
+        "gpu_cores": 6,
+        "gpu_clock_mhz": 600,
+        "memory_type": "LPDDR4",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 51.2,
+        "fp32_tflops": 0.23,
+        "connectivity": [
+          "Gigabit Ethernet AVB",
+          "2x PCIe 2.0",
+          "USB 3.0",
+          "3x USB 2.0",
+          "2x CAN FD",
+          "SATA 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "renesas-r-car-v4h",
@@ -25,13 +52,41 @@
       "family": "R-Car Gen4",
       "released": "2022",
       "specs": {
+        "codename": "R8A779G0",
         "microarchitecture": "Cortex-A76",
         "isa": "ARMv8.2-A",
-        "market": "Automotive (ADAS)",
+        "market": "Automotive",
         "process_nm": 7,
+        "foundry": "TSMC",
         "cores": 4,
-        "npu_tops": 34
-      }
+        "core_config": "4x Cortex-A76 @ 1.8 GHz + 3x Cortex-R52 @ 1.4 GHz",
+        "base_clock_mhz": 1800,
+        "l2_cache_kb": 1024,
+        "l3_cache_kb": 2048,
+        "gpu": "PowerVR AXM-8-256",
+        "gpu_clock_mhz": 600,
+        "memory_type": "LPDDR4X-4266",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "fp32_tflops": 0.15,
+        "npu_tops": 34,
+        "connectivity": [
+          "PCIe 4.0 (2x2)",
+          "Gigabit Ethernet (TSN)",
+          "CAN FD",
+          "MIPI CSI-2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "slc_kb",
+        "gpu_cores",
+        "tdp_w",
+        "modem"
+      ]
     }
   ]
 }

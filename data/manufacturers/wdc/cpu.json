@@ -8,12 +8,35 @@
       "family": "65C02",
       "released": "1983",
       "specs": {
+        "microarchitecture": "65C02",
         "isa": "65C02",
+        "market": "Desktop",
+        "foundry": "GTE, Rockwell, NCR",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "base_clock_mhz": 1,
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "6502 bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "wdc-65c816",
@@ -21,12 +44,35 @@
       "family": "65C816",
       "released": "1985",
       "specs": {
+        "microarchitecture": "65C816",
         "isa": "65C816",
+        "market": "Desktop",
+        "foundry": "GTE",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 24,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "base_clock_mhz": 2.8,
+        "max_memory_mb": 16,
+        "voltage_v": 5,
+        "interface": "6502-style bus (8-bit data, multiplexed bank address)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     }
   ]
 }

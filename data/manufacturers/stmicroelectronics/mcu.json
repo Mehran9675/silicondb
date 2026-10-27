@@ -10,12 +10,31 @@
       "specs": {
         "microarchitecture": "Cortex-M3",
         "isa": "ARMv7-M",
+        "market": "Embedded",
+        "process_nm": 180,
+        "package": "LQFP48",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 72,
         "flash_kb": 64,
         "sram_kb": 20,
-        "package": "LQFP48"
-      }
+        "mips": 90,
+        "voltage_v": 3.3,
+        "gpio_pins": 37,
+        "adc": "2× 12-bit, 10 channels, 1 Msps",
+        "timers": "4× 16-bit (1 advanced-control), 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 Full Speed",
+          "CAN",
+          "3× USART",
+          "2× SPI",
+          "2× I²C"
+        ]
+      },
+      "na": [
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32f103ze",
@@ -25,12 +44,34 @@
       "specs": {
         "microarchitecture": "Cortex-M3",
         "isa": "ARMv7-M",
+        "market": "Embedded",
+        "process_nm": 180,
+        "package": "LQFP144",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 72,
         "flash_kb": 512,
         "sram_kb": 64,
-        "package": "LQFP144"
-      }
+        "mips": 90,
+        "voltage_v": 3.3,
+        "gpio_pins": 112,
+        "adc": "3× 12-bit, 21 channels, 1 Msps",
+        "dac": "2× 12-bit",
+        "timers": "8× 16-bit (2 advanced-control, 4 general-purpose, 2 basic), 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 Full Speed",
+          "CAN",
+          "3× USART",
+          "2× UART",
+          "3× SPI (2× I²S)",
+          "2× I²C",
+          "SDIO",
+          "FSMC"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm8s208rb",
@@ -38,12 +79,32 @@
       "family": "STM8S",
       "released": "2008",
       "specs": {
+        "microarchitecture": "STM8",
         "isa": "STM8",
+        "market": "Embedded",
+        "process_nm": 130,
+        "package": "LQFP64",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 24,
         "flash_kb": 128,
-        "sram_kb": 6
-      }
+        "sram_kb": 6,
+        "eeprom_kb": 2,
+        "mips": 20,
+        "voltage_v": 5,
+        "gpio_pins": 52,
+        "adc": "10-bit, 16 channels",
+        "timers": "1× 16-bit advanced-control, 2× 16-bit general-purpose, 1× 8-bit basic, 2× watchdog",
+        "interfaces": [
+          "2× UART",
+          "SPI",
+          "I²C",
+          "beCAN"
+        ]
+      },
+      "na": [
+        "dac"
+      ]
     },
     {
       "id": "stmicroelectronics-stm8s103f3",
@@ -51,13 +112,31 @@
       "family": "STM8S",
       "released": "2009",
       "specs": {
+        "microarchitecture": "STM8",
         "isa": "STM8",
+        "market": "Embedded",
+        "process_nm": 130,
+        "package": "TSSOP20",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 16,
         "flash_kb": 8,
         "sram_kb": 1,
-        "package": "TSSOP20"
-      }
+        "eeprom_kb": 0.625,
+        "mips": 13,
+        "voltage_v": 5,
+        "gpio_pins": 16,
+        "adc": "10-bit, 5 channels",
+        "timers": "1× 16-bit advanced-control, 1× 16-bit general-purpose, 1× 8-bit basic, 2× watchdog",
+        "interfaces": [
+          "UART",
+          "SPI",
+          "I²C"
+        ]
+      },
+      "na": [
+        "dac"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32f407vg",
@@ -67,12 +146,37 @@
       "specs": {
         "microarchitecture": "Cortex-M4F",
         "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "LQFP100",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 168,
         "flash_kb": 1024,
         "sram_kb": 192,
-        "process_nm": 90
-      }
+        "mips": 210,
+        "voltage_v": 3.3,
+        "gpio_pins": 82,
+        "adc": "3× 12-bit, 16 channels, 2.4 Msps",
+        "dac": "2× 12-bit",
+        "timers": "12× 16-bit, 2× 32-bit, 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 OTG FS",
+          "USB 2.0 OTG HS",
+          "10/100 Ethernet",
+          "2× CAN",
+          "4× USART",
+          "2× UART",
+          "3× SPI (2× I²S)",
+          "3× I²C",
+          "SDIO",
+          "DCMI (camera)",
+          "FSMC"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32f051r8",
@@ -82,11 +186,31 @@
       "specs": {
         "microarchitecture": "Cortex-M0",
         "isa": "ARMv6-M",
+        "market": "Embedded",
+        "process_nm": 180,
+        "package": "LQFP64",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 48,
         "flash_kb": 64,
-        "sram_kb": 8
-      }
+        "sram_kb": 8,
+        "mips": 43,
+        "voltage_v": 3.3,
+        "gpio_pins": 55,
+        "adc": "12-bit, 16 channels, 1 Msps",
+        "dac": "12-bit, 1 channel",
+        "timers": "1× 32-bit, 7× 16-bit (1 advanced-control), 2× watchdog, SysTick",
+        "interfaces": [
+          "2× USART",
+          "2× SPI (1× I²S)",
+          "2× I²C",
+          "HDMI-CEC",
+          "Touch sensing"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32f429zi",
@@ -96,11 +220,39 @@
       "specs": {
         "microarchitecture": "Cortex-M4F",
         "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "LQFP144",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 180,
         "flash_kb": 2048,
-        "sram_kb": 256
-      }
+        "sram_kb": 256,
+        "mips": 225,
+        "voltage_v": 3.3,
+        "gpio_pins": 114,
+        "adc": "3× 12-bit, 24 channels, 2.4 Msps",
+        "dac": "2× 12-bit",
+        "timers": "12× 16-bit, 2× 32-bit, 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 OTG FS",
+          "USB 2.0 OTG HS",
+          "10/100 Ethernet",
+          "2× CAN",
+          "4× USART",
+          "4× UART",
+          "6× SPI (2× I²S)",
+          "3× I²C",
+          "SAI",
+          "SDIO",
+          "DCMI (camera)",
+          "FMC",
+          "LCD-TFT"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32f746ng",
@@ -110,11 +262,42 @@
       "specs": {
         "microarchitecture": "Cortex-M7",
         "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "TFBGA216",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 216,
         "flash_kb": 1024,
-        "sram_kb": 320
-      }
+        "sram_kb": 320,
+        "mips": 462,
+        "voltage_v": 3.3,
+        "gpio_pins": 168,
+        "adc": "3× 12-bit, 24 channels, 2.4 Msps",
+        "dac": "2× 12-bit",
+        "timers": "13× 16-bit, 2× 32-bit, 1× low-power, 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 OTG FS",
+          "USB 2.0 OTG HS",
+          "10/100 Ethernet",
+          "2× CAN",
+          "4× USART",
+          "4× UART",
+          "6× SPI (3× I²S)",
+          "4× I²C",
+          "2× SAI",
+          "SPDIF-RX",
+          "SDMMC",
+          "HDMI-CEC",
+          "DCMI (camera)",
+          "FMC",
+          "Quad-SPI",
+          "LCD-TFT"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32l476rg",
@@ -124,11 +307,37 @@
       "specs": {
         "microarchitecture": "Cortex-M4F",
         "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "LQFP64",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 80,
         "flash_kb": 1024,
-        "sram_kb": 128
-      }
+        "sram_kb": 128,
+        "mips": 100,
+        "voltage_v": 3.3,
+        "gpio_pins": 51,
+        "adc": "3× 12-bit, 16 channels, 5 Msps",
+        "dac": "2× 12-bit",
+        "timers": "2× 32-bit, 9× 16-bit, 2× low-power 16-bit, 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 OTG FS",
+          "CAN",
+          "3× USART",
+          "2× UART",
+          "LPUART",
+          "3× SPI",
+          "3× I²C",
+          "2× SAI",
+          "SDMMC",
+          "SWPMI",
+          "Quad-SPI"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32h743zi",
@@ -138,12 +347,43 @@
       "specs": {
         "microarchitecture": "Cortex-M7",
         "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 40,
+        "package": "LQFP144",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 400,
         "flash_kb": 2048,
         "sram_kb": 1024,
-        "process_nm": 40
-      }
+        "mips": 856,
+        "voltage_v": 3.3,
+        "gpio_pins": 114,
+        "adc": "3× 16-bit, 3.6 Msps",
+        "dac": "2× 12-bit",
+        "timers": "2× 32-bit, 12× 16-bit, 1× high-resolution, 5× low-power, 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 OTG FS",
+          "USB 2.0 OTG HS",
+          "10/100 Ethernet",
+          "2× FDCAN",
+          "4× USART",
+          "4× UART",
+          "LPUART",
+          "6× SPI (3× I²S)",
+          "4× I²C",
+          "4× SAI",
+          "SPDIF-RX",
+          "2× SDMMC",
+          "HDMI-CEC",
+          "DCMI (camera)",
+          "FMC",
+          "Quad-SPI",
+          "LCD-TFT"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32g071rb",
@@ -153,11 +393,32 @@
       "specs": {
         "microarchitecture": "Cortex-M0+",
         "isa": "ARMv6-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "LQFP64",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 64,
         "flash_kb": 128,
-        "sram_kb": 36
-      }
+        "sram_kb": 36,
+        "mips": 59,
+        "voltage_v": 3.3,
+        "gpio_pins": 60,
+        "adc": "12-bit, 16 channels, 2.5 Msps",
+        "dac": "2× 12-bit",
+        "timers": "1× 32-bit, 8× 16-bit (1 advanced-control), 2× low-power, 2× watchdog, SysTick",
+        "interfaces": [
+          "4× USART",
+          "LPUART",
+          "2× SPI (1× I²S)",
+          "2× I²C",
+          "2× USB Type-C PD (UCPD)",
+          "HDMI-CEC"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32g474re",
@@ -167,11 +428,36 @@
       "specs": {
         "microarchitecture": "Cortex-M4F",
         "isa": "ARMv7E-M",
+        "market": "Industrial",
+        "process_nm": 90,
+        "package": "LQFP64",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 170,
         "flash_kb": 512,
-        "sram_kb": 128
-      }
+        "sram_kb": 128,
+        "mips": 213,
+        "voltage_v": 3.3,
+        "gpio_pins": 52,
+        "adc": "5× 12-bit, 4 Msps",
+        "dac": "7× 12-bit (3 external, 4 internal)",
+        "timers": "2× 32-bit, 10× 16-bit (3 advanced-control), 1× high-resolution (184 ps), 1× low-power, 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 Full Speed",
+          "USB Type-C PD (UCPD)",
+          "3× FDCAN",
+          "3× USART",
+          "2× UART",
+          "LPUART",
+          "4× SPI (2× I²S)",
+          "4× I²C",
+          "SAI",
+          "Quad-SPI"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32wb55rg",
@@ -181,17 +467,39 @@
       "specs": {
         "microarchitecture": "Cortex-M4F",
         "isa": "ARMv7E-M",
-        "data_width_bits": 32,
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "VFQFPN68",
         "cores": 2,
         "core_config": "1x Cortex-M4F 64 MHz + 1x Cortex-M0+ (radio)",
+        "data_width_bits": 32,
         "base_clock_mhz": 64,
         "flash_kb": 1024,
         "sram_kb": 256,
+        "mips": 80,
+        "voltage_v": 3.3,
         "connectivity": [
           "Bluetooth 5 LE",
           "IEEE 802.15.4 (Thread/Zigbee)"
+        ],
+        "gpio_pins": 49,
+        "adc": "12-bit, 19 channels, 4.26 Msps",
+        "timers": "1× 32-bit, 3× 16-bit (1 advanced-control), 2× low-power 16-bit, 2× watchdog, RTC",
+        "interfaces": [
+          "USB 2.0 Full Speed",
+          "USART",
+          "LPUART",
+          "2× SPI",
+          "2× I²C",
+          "SAI",
+          "Quad-SPI",
+          "Touch sensing"
         ]
-      }
+      },
+      "na": [
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32u575zi",
@@ -201,12 +509,39 @@
       "specs": {
         "microarchitecture": "Cortex-M33",
         "isa": "ARMv8-M",
+        "market": "Embedded",
+        "process_nm": 40,
+        "package": "LQFP144",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 160,
         "flash_kb": 2048,
         "sram_kb": 786,
-        "process_nm": 40
-      }
+        "mips": 240,
+        "voltage_v": 3.3,
+        "gpio_pins": 110,
+        "adc": "1× 14-bit 2.5 Msps, 1× 12-bit 2.5 Msps",
+        "dac": "2× 12-bit",
+        "timers": "4× 32-bit, 7× 16-bit (2 advanced-control), 4× low-power 16-bit, 2× watchdog, 2× SysTick",
+        "interfaces": [
+          "USB 2.0 OTG FS",
+          "USB Type-C PD (UCPD)",
+          "FDCAN",
+          "3× USART",
+          "2× UART",
+          "LPUART",
+          "3× SPI",
+          "4× I²C",
+          "2× SAI",
+          "2× SDMMC",
+          "2× OCTOSPI",
+          "FMC",
+          "DCMI (camera)"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32c011f6",
@@ -216,11 +551,29 @@
       "specs": {
         "microarchitecture": "Cortex-M0+",
         "isa": "ARMv6-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "TSSOP20",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 48,
         "flash_kb": 32,
-        "sram_kb": 6
-      }
+        "sram_kb": 6,
+        "mips": 44,
+        "voltage_v": 3.3,
+        "gpio_pins": 18,
+        "adc": "12-bit, 2.5 Msps",
+        "timers": "5× 16-bit (1 advanced-control), 2× watchdog, SysTick",
+        "interfaces": [
+          "2× USART",
+          "SPI/I²S",
+          "I²C"
+        ]
+      },
+      "na": [
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "stmicroelectronics-stm32n657",
@@ -230,13 +583,45 @@
       "specs": {
         "microarchitecture": "Cortex-M55",
         "isa": "ARMv8.1-M",
+        "market": "Embedded",
+        "process_nm": 16,
+        "package": "VFBGA264",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 800,
+        "sram_kb": 4300,
         "npu_tops": 0.6,
+        "voltage_v": 3.3,
         "instruction_sets": [
           "Helium (MVE)"
+        ],
+        "gpio_pins": 142,
+        "adc": "2× 12-bit, 5 Msps",
+        "timers": "4× 32-bit, 14× 16-bit, 5× low-power, 2× watchdog",
+        "interfaces": [
+          "2× USB 2.0 HS OTG",
+          "Gigabit Ethernet (TSN)",
+          "3× FDCAN",
+          "MIPI CSI-2",
+          "5× USART",
+          "5× UART",
+          "LPUART",
+          "6× SPI",
+          "4× I²C",
+          "2× I3C",
+          "2× SAI",
+          "2× SDMMC",
+          "3× XSPI",
+          "FMC",
+          "LCD-TFT"
         ]
-      }
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     }
   ]
 }

@@ -8,6 +8,9 @@ type Schema struct {
 	Categories []Category          `json:"categories"`
 	Groups     []Group             `json:"groups"`
 	Highlights map[string][]string `json:"highlights"`
+	// Expected lists, per category, the specs a complete entry has
+	// where they apply. Only the data tools use it.
+	Expected map[string][]string `json:"expected,omitempty"`
 
 	fields map[string]*Field
 }
