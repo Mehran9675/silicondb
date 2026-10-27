@@ -6,22 +6,41 @@
       "id": "via-cyrix-iii",
       "name": "Cyrix III",
       "family": "Cyrix III",
-      "released": "2000-02",
+      "released": "2000-06",
       "specs": {
         "codename": "Samuel",
+        "microarchitecture": "C5A (WinChip-derived)",
         "isa": "x86",
+        "market": "Desktop",
         "process_nm": 180,
+        "foundry": "TSMC",
         "transistors": 11300000,
         "die_size_mm2": 75,
-        "data_width_bits": 32,
-        "cores": 1,
-        "l1_cache_kb": 128,
+        "package": "370-pin CPGA",
         "socket": "Socket 370",
+        "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 533,
+        "l1_cache_kb": 128,
+        "max_memory_mb": 4096,
+        "voltage_v": 1.9,
+        "interface": "FSB 133 MHz (GTL+)",
         "instruction_sets": [
+          "x87",
           "MMX",
           "3DNow!"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "via-c3",
@@ -30,20 +49,38 @@
       "released": "2001",
       "specs": {
         "codename": "Samuel 2",
+        "microarchitecture": "C5B",
         "isa": "x86",
+        "market": "Desktop",
         "process_nm": 150,
+        "foundry": "TSMC",
         "transistors": 15200000,
         "die_size_mm2": 52,
-        "data_width_bits": 32,
+        "package": "370-pin CPGA",
+        "socket": "Socket 370",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 800,
         "l1_cache_kb": 128,
         "l2_cache_kb": 64,
-        "socket": "Socket 370",
+        "max_memory_mb": 4096,
+        "voltage_v": 1.6,
+        "interface": "FSB 133 MHz (GTL+)",
         "instruction_sets": [
+          "x87",
           "MMX",
           "3DNow!"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "via-c3-nehemiah",
@@ -52,18 +89,39 @@
       "released": "2003-01",
       "specs": {
         "codename": "Nehemiah",
+        "microarchitecture": "C5XL",
         "isa": "x86",
+        "market": "Desktop",
         "process_nm": 130,
+        "foundry": "TSMC",
         "die_size_mm2": 52,
-        "data_width_bits": 32,
+        "package": "370-pin CPGA",
+        "socket": "Socket 370",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 1000,
         "l1_cache_kb": 128,
         "l2_cache_kb": 64,
+        "max_memory_mb": 4096,
+        "voltage_v": 1.25,
+        "interface": "FSB 133 MHz (GTL+)",
         "instruction_sets": [
+          "x87",
           "MMX",
-          "SSE"
+          "SSE",
+          "PadLock RNG"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "via-c7",
@@ -72,22 +130,41 @@
       "released": "2005-05",
       "specs": {
         "codename": "Esther",
+        "microarchitecture": "C5J",
         "isa": "x86",
-        "foundry": "IBM",
+        "market": "Embedded",
         "process_nm": 90,
+        "foundry": "IBM",
         "die_size_mm2": 30,
-        "data_width_bits": 32,
-        "boost_clock_mhz": 2000,
+        "package": "NanoBGA2 (21×21 mm)",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 2000,
         "l1_cache_kb": 128,
         "l2_cache_kb": 128,
+        "max_memory_mb": 4096,
+        "tdp_w": 20,
+        "voltage_v": 1.15,
+        "interface": "V4 bus 800 MT/s",
         "instruction_sets": [
+          "x87",
           "MMX",
           "SSE",
           "SSE2",
-          "SSE3"
+          "SSE3",
+          "PadLock (AES, SHA, RNG, PMM)"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "via-nano",
@@ -98,24 +175,42 @@
         "codename": "Isaiah",
         "microarchitecture": "Isaiah",
         "isa": "x86-64",
-        "foundry": "Fujitsu",
+        "market": "Embedded",
         "process_nm": 65,
+        "foundry": "Fujitsu",
         "transistors": 94000000,
         "die_size_mm2": 63,
-        "data_width_bits": 64,
-        "boost_clock_mhz": 1800,
+        "package": "NanoBGA2 (21×21 mm)",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 36,
+        "base_clock_mhz": 1800,
         "l1_cache_kb": 128,
         "l2_cache_kb": 1024,
+        "max_memory_mb": 65536,
         "tdp_w": 25,
+        "interface": "V4 bus 800 MT/s",
         "instruction_sets": [
+          "x87",
           "MMX",
           "SSE",
           "SSE2",
           "SSE3",
-          "SSSE3"
+          "SSSE3",
+          "x86-64",
+          "VT-x",
+          "PadLock (AES, SHA, RNG, PMM)"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "voltage_v"
+      ]
     },
     {
       "id": "via-nano-x2",
@@ -125,20 +220,44 @@
       "specs": {
         "microarchitecture": "Isaiah",
         "isa": "x86-64",
-        "foundry": "TSMC",
+        "market": "Embedded",
         "process_nm": 40,
-        "data_width_bits": 64,
+        "foundry": "TSMC",
+        "package": "NanoBGA2 (21×21 mm)",
         "cores": 2,
+        "threads": 2,
+        "data_width_bits": 64,
+        "address_width_bits": 36,
+        "base_clock_mhz": 1600,
+        "l1_cache_kb": 256,
         "l2_cache_kb": 2048,
+        "max_memory_mb": 65536,
+        "interface": "V4 bus 1066 MT/s",
         "instruction_sets": [
+          "x87",
           "MMX",
           "SSE",
           "SSE2",
           "SSE3",
           "SSSE3",
-          "SSE4.1"
+          "SSE4.1",
+          "x86-64",
+          "VT-x",
+          "PadLock (AES, SHA, RNG, PMM)"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "via-quadcore",
@@ -148,21 +267,44 @@
       "specs": {
         "microarchitecture": "Isaiah",
         "isa": "x86-64",
+        "market": "Desktop",
         "process_nm": 40,
-        "data_width_bits": 64,
-        "base_clock_mhz": 1200,
+        "foundry": "TSMC",
+        "package": "NanoBGA2 (21×21 mm), 2-die MCM",
         "cores": 4,
+        "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 36,
+        "base_clock_mhz": 1200,
+        "boost_clock_mhz": 1466,
+        "l1_cache_kb": 512,
         "l2_cache_kb": 4096,
+        "max_memory_mb": 65536,
         "tdp_w": 27.5,
+        "interface": "V4 bus 1333 MT/s",
         "instruction_sets": [
+          "x87",
           "MMX",
           "SSE",
           "SSE2",
           "SSE3",
           "SSSE3",
-          "SSE4.1"
+          "SSE4.1",
+          "x86-64",
+          "VT-x",
+          "PadLock (AES, SHA, RNG, PMM)"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "l3_cache_kb",
+        "memory_type",
+        "voltage_v"
+      ]
     }
   ]
 }

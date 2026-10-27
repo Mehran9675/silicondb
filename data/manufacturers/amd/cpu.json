@@ -8,13 +8,35 @@
       "family": "Am9080",
       "released": "1975",
       "specs": {
+        "microarchitecture": "8080 (reverse-engineered clone)",
         "isa": "8080",
+        "market": "Embedded",
+        "process_nm": 6000,
+        "foundry": "AMD",
+        "transistors": 4500,
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
         "base_clock_mhz": 2,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "max_memory_mb": 0.0625,
+        "tdp_w": 1.5,
+        "voltage_v": 5,
+        "interface": "8080 bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "instruction_sets"
+      ]
     },
     {
       "id": "amd-am2901",
@@ -23,9 +45,34 @@
       "released": "1975",
       "specs": {
         "microarchitecture": "4-bit bit-slice",
+        "market": "Embedded",
+        "foundry": "AMD",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 4,
-        "package": "40-pin DIP"
-      }
+        "base_clock_mhz": 10,
+        "voltage_v": 5
+      },
+      "na": [
+        "codename",
+        "isa",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "address_width_bits",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "tdp_w",
+        "interface",
+        "instruction_sets"
+      ]
     },
     {
       "id": "amd-am286",
@@ -33,13 +80,35 @@
       "family": "Am286",
       "released": "1982",
       "specs": {
+        "microarchitecture": "80286",
         "isa": "x86-16",
+        "market": "Desktop",
+        "process_nm": 1500,
+        "foundry": "AMD",
         "transistors": 134000,
+        "package": "68-pin PLCC",
+        "socket": "PLCC-68",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
         "address_width_bits": 24,
         "base_clock_mhz": 20,
-        "cores": 1
-      }
+        "max_memory_mb": 16,
+        "voltage_v": 5,
+        "interface": "80286 bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "amd-am386dx-40",
@@ -47,12 +116,35 @@
       "family": "Am386",
       "released": "1991-03",
       "specs": {
+        "microarchitecture": "80386",
         "isa": "x86",
+        "market": "Desktop",
+        "process_nm": 800,
+        "foundry": "AMD",
+        "transistors": 275000,
+        "package": "132-pin CPGA / PQFP",
+        "socket": "PGA-132",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 40,
-        "cores": 1
-      }
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "80386 bus (40 MHz)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "amd-am486dx2-66",
@@ -60,16 +152,37 @@
       "family": "Am486",
       "released": "1993",
       "specs": {
+        "microarchitecture": "80486",
         "isa": "x86",
+        "market": "Desktop",
+        "process_nm": 700,
+        "foundry": "AMD",
+        "transistors": 1200000,
+        "package": "168-pin PGA",
+        "socket": "Socket 3",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 66,
-        "cores": 1,
         "l1_cache_kb": 8,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "FSB 33 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "amd-am486dx4-100",
@@ -77,17 +190,37 @@
       "family": "Am486",
       "released": "1994",
       "specs": {
+        "microarchitecture": "80486",
         "isa": "x86",
+        "market": "Desktop",
+        "process_nm": 500,
+        "foundry": "AMD",
+        "transistors": 1600000,
+        "package": "168-pin PGA",
+        "socket": "Socket 3",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 100,
-        "cores": 1,
         "l1_cache_kb": 8,
+        "max_memory_mb": 4096,
         "voltage_v": 3.3,
+        "interface": "FSB 33 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "amd-am5x86-p75",
@@ -95,18 +228,37 @@
       "family": "Am5x86",
       "released": "1995-11",
       "specs": {
+        "codename": "X5",
+        "microarchitecture": "Am486 (enhanced)",
         "isa": "x86",
+        "market": "Desktop",
         "process_nm": 350,
+        "foundry": "AMD",
+        "transistors": 1600000,
+        "die_size_mm2": 43,
+        "package": "168-pin PGA",
         "socket": "Socket 3",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 133,
-        "cores": 1,
         "l1_cache_kb": 16,
+        "max_memory_mb": 4096,
+        "voltage_v": 3.45,
+        "interface": "FSB 33 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "amd-k5-pr166",
@@ -117,16 +269,34 @@
         "codename": "5k86",
         "microarchitecture": "K5",
         "isa": "x86",
+        "market": "Desktop",
         "process_nm": 350,
+        "foundry": "AMD",
         "transistors": 4300000,
+        "die_size_mm2": 181,
+        "package": "296-pin CPGA",
         "socket": "Socket 7",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 116.7,
         "l1_cache_kb": 24,
+        "max_memory_mb": 4096,
+        "voltage_v": 3.52,
+        "interface": "FSB 66 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "amd-k6-233",
@@ -134,20 +304,38 @@
       "family": "K6",
       "released": "1997-04-02",
       "specs": {
+        "codename": "Model 6",
         "microarchitecture": "K6",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 476,
         "process_nm": 350,
+        "foundry": "AMD",
         "transistors": 8800000,
         "die_size_mm2": 162,
+        "package": "321-pin CPGA",
         "socket": "Socket 7",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 233,
         "l1_cache_kb": 64,
+        "max_memory_mb": 4096,
+        "tdp_w": 28.3,
+        "voltage_v": 3.2,
+        "interface": "FSB 66 MHz",
         "instruction_sets": [
           "x87",
           "MMX"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-k6-2-300",
@@ -158,19 +346,36 @@
         "codename": "Chomper",
         "microarchitecture": "K6",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 281,
         "process_nm": 250,
+        "foundry": "AMD",
         "transistors": 9300000,
         "die_size_mm2": 81,
+        "package": "321-pin CPGA",
         "socket": "Super Socket 7",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 300,
         "l1_cache_kb": 64,
+        "max_memory_mb": 4096,
+        "tdp_w": 17.2,
+        "voltage_v": 2.2,
+        "interface": "FSB 100 MHz",
         "instruction_sets": [
           "x87",
           "MMX",
           "3DNow!"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-k6-iii-450",
@@ -181,20 +386,36 @@
         "codename": "Sharptooth",
         "microarchitecture": "K6",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 476,
         "process_nm": 250,
+        "foundry": "AMD",
         "transistors": 21300000,
         "die_size_mm2": 118,
+        "package": "321-pin CPGA",
         "socket": "Super Socket 7",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 450,
         "l1_cache_kb": 64,
         "l2_cache_kb": 256,
+        "max_memory_mb": 4096,
+        "tdp_w": 29.1,
+        "voltage_v": 2.4,
+        "interface": "FSB 100 MHz",
         "instruction_sets": [
           "x87",
           "MMX",
           "3DNow!"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-athlon-600",
@@ -205,20 +426,37 @@
         "codename": "Argon",
         "microarchitecture": "K7",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 615,
         "process_nm": 250,
+        "foundry": "AMD",
         "transistors": 22000000,
         "die_size_mm2": 184,
+        "package": "Slot A cartridge (SECC)",
         "socket": "Slot A",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 36,
         "base_clock_mhz": 600,
         "l1_cache_kb": 128,
         "l2_cache_kb": 512,
+        "max_memory_mb": 65536,
+        "tdp_w": 45,
+        "voltage_v": 1.6,
+        "interface": "EV6 bus 200 MT/s",
         "instruction_sets": [
           "x87",
           "MMX",
-          "3DNow!"
+          "3DNow!",
+          "Enhanced 3DNow!"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-athlon-1000",
@@ -229,19 +467,37 @@
         "codename": "Orion",
         "microarchitecture": "K7",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 1299,
         "process_nm": 180,
+        "foundry": "AMD",
         "transistors": 22000000,
+        "die_size_mm2": 102,
+        "package": "Slot A cartridge (SECC)",
         "socket": "Slot A",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 36,
         "base_clock_mhz": 1000,
         "l1_cache_kb": 128,
         "l2_cache_kb": 512,
+        "max_memory_mb": 65536,
+        "tdp_w": 65,
+        "voltage_v": 1.8,
+        "interface": "EV6 bus 200 MT/s",
         "instruction_sets": [
           "x87",
           "MMX",
-          "3DNow!"
+          "3DNow!",
+          "Enhanced 3DNow!"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-duron-600",
@@ -252,20 +508,37 @@
         "codename": "Spitfire",
         "microarchitecture": "K7",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 112,
         "process_nm": 180,
+        "foundry": "AMD",
         "transistors": 25000000,
         "die_size_mm2": 100,
+        "package": "462-pin CPGA",
         "socket": "Socket A",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 36,
         "base_clock_mhz": 600,
         "l1_cache_kb": 128,
         "l2_cache_kb": 64,
+        "max_memory_mb": 65536,
+        "tdp_w": 27.4,
+        "voltage_v": 1.5,
+        "interface": "EV6 bus 200 MT/s",
         "instruction_sets": [
           "x87",
           "MMX",
-          "3DNow!"
+          "3DNow!",
+          "Enhanced 3DNow!"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-athlon-1400",
@@ -276,20 +549,37 @@
         "codename": "Thunderbird",
         "microarchitecture": "K7",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 253,
         "process_nm": 180,
+        "foundry": "AMD",
         "transistors": 37000000,
         "die_size_mm2": 120,
+        "package": "462-pin CPGA",
         "socket": "Socket A",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 36,
         "base_clock_mhz": 1400,
         "l1_cache_kb": 128,
         "l2_cache_kb": 256,
+        "max_memory_mb": 65536,
+        "tdp_w": 72,
+        "voltage_v": 1.75,
+        "interface": "EV6 bus 266 MT/s",
         "instruction_sets": [
           "x87",
           "MMX",
-          "3DNow!"
+          "3DNow!",
+          "Enhanced 3DNow!"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-athlon-xp-1800-plus",
@@ -300,21 +590,37 @@
         "codename": "Palomino",
         "microarchitecture": "K7",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 252,
         "process_nm": 180,
+        "foundry": "AMD",
         "transistors": 37500000,
         "die_size_mm2": 128,
+        "package": "462-pin OPGA",
         "socket": "Socket A",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 36,
         "base_clock_mhz": 1533,
         "l1_cache_kb": 128,
         "l2_cache_kb": 256,
+        "max_memory_mb": 65536,
+        "tdp_w": 66,
+        "voltage_v": 1.75,
+        "interface": "EV6 bus 266 MT/s",
         "instruction_sets": [
           "x87",
           "MMX",
           "3DNow!",
           "SSE"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-opteron-244",
@@ -326,22 +632,39 @@
         "microarchitecture": "K8",
         "isa": "x86-64",
         "market": "Server",
+        "launch_price_usd": 794,
         "process_nm": 130,
+        "foundry": "AMD",
         "transistors": 105900000,
         "die_size_mm2": 193,
+        "package": "940-pin µPGA",
         "socket": "Socket 940",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
         "base_clock_mhz": 1800,
         "l1_cache_kb": 128,
         "l2_cache_kb": 1024,
+        "memory_type": "DDR (registered)",
+        "max_memory_mb": 16384,
+        "memory_channels": 2,
         "tdp_w": 89,
+        "voltage_v": 1.55,
+        "interface": "HyperTransport 1.0 (3 links, 1600 MT/s)",
         "instruction_sets": [
+          "x87",
           "MMX",
           "3DNow!",
           "SSE",
-          "SSE2"
+          "SSE2",
+          "AMD64"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-athlon-xp-3200-plus",
@@ -352,21 +675,37 @@
         "codename": "Barton",
         "microarchitecture": "K7",
         "isa": "x86",
+        "market": "Desktop",
+        "launch_price_usd": 464,
         "process_nm": 130,
+        "foundry": "AMD",
         "transistors": 54300000,
         "die_size_mm2": 101,
+        "package": "462-pin OPGA",
         "socket": "Socket A",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 36,
         "base_clock_mhz": 2200,
         "l1_cache_kb": 128,
         "l2_cache_kb": 512,
+        "max_memory_mb": 65536,
+        "tdp_w": 76.8,
+        "voltage_v": 1.65,
+        "interface": "EV6 bus 400 MT/s",
         "instruction_sets": [
           "x87",
           "MMX",
           "3DNow!",
           "SSE"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "amd-athlon-64-3200-plus",
@@ -377,22 +716,40 @@
         "codename": "ClawHammer",
         "microarchitecture": "K8",
         "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 417,
         "process_nm": 130,
+        "foundry": "AMD",
         "transistors": 105900000,
         "die_size_mm2": 193,
+        "package": "754-pin µPGA",
         "socket": "Socket 754",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
         "base_clock_mhz": 2000,
         "l1_cache_kb": 128,
         "l2_cache_kb": 1024,
+        "memory_type": "DDR",
+        "max_memory_mb": 4096,
+        "memory_channels": 1,
         "tdp_w": 89,
+        "voltage_v": 1.5,
+        "interface": "HyperTransport 1.0 (1600 MT/s)",
         "instruction_sets": [
+          "x87",
           "MMX",
           "3DNow!",
           "SSE",
-          "SSE2"
+          "SSE2",
+          "AMD64"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-athlon-64-fx-51",
@@ -403,23 +760,40 @@
         "codename": "SledgeHammer",
         "microarchitecture": "K8",
         "isa": "x86-64",
+        "market": "Desktop",
         "launch_price_usd": 733,
         "process_nm": 130,
+        "foundry": "AMD",
         "transistors": 105900000,
         "die_size_mm2": 193,
+        "package": "940-pin µPGA",
         "socket": "Socket 940",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
         "base_clock_mhz": 2200,
         "l1_cache_kb": 128,
         "l2_cache_kb": 1024,
+        "memory_type": "DDR (registered)",
+        "max_memory_mb": 4096,
+        "memory_channels": 2,
         "tdp_w": 89,
+        "voltage_v": 1.5,
+        "interface": "HyperTransport 1.0 (1600 MT/s)",
         "instruction_sets": [
+          "x87",
           "MMX",
           "3DNow!",
           "SSE",
-          "SSE2"
+          "SSE2",
+          "AMD64"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-sempron-3100-plus",
@@ -430,14 +804,39 @@
         "codename": "Paris",
         "microarchitecture": "K8",
         "isa": "x86",
+        "market": "Desktop",
         "process_nm": 130,
+        "foundry": "AMD",
+        "die_size_mm2": 118,
+        "package": "754-pin µPGA",
         "socket": "Socket 754",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 40,
         "base_clock_mhz": 1800,
         "l1_cache_kb": 128,
         "l2_cache_kb": 256,
-        "tdp_w": 62
-      }
+        "memory_type": "DDR",
+        "max_memory_mb": 4096,
+        "memory_channels": 1,
+        "tdp_w": 62,
+        "voltage_v": 1.4,
+        "interface": "HyperTransport 1.0 (1600 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-athlon-64-fx-55",
@@ -448,15 +847,40 @@
         "codename": "ClawHammer",
         "microarchitecture": "K8",
         "isa": "x86-64",
+        "market": "Desktop",
         "launch_price_usd": 827,
         "process_nm": 130,
+        "foundry": "AMD",
+        "transistors": 105900000,
+        "die_size_mm2": 193,
+        "package": "939-pin µPGA",
         "socket": "Socket 939",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
         "base_clock_mhz": 2600,
         "l1_cache_kb": 128,
         "l2_cache_kb": 1024,
-        "tdp_w": 104
-      }
+        "memory_type": "DDR",
+        "max_memory_mb": 4096,
+        "memory_channels": 2,
+        "tdp_w": 104,
+        "voltage_v": 1.5,
+        "interface": "HyperTransport 1.0 (2000 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "AMD64"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-opteron-875",
@@ -468,15 +892,40 @@
         "microarchitecture": "K8",
         "isa": "x86-64",
         "market": "Server",
+        "launch_price_usd": 2649,
         "process_nm": 90,
+        "foundry": "AMD",
+        "transistors": 233200000,
+        "die_size_mm2": 199,
+        "package": "940-pin µPGA",
         "socket": "Socket 940",
         "cores": 2,
         "threads": 2,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
         "base_clock_mhz": 2200,
         "l1_cache_kb": 256,
         "l2_cache_kb": 2048,
-        "tdp_w": 95
-      }
+        "memory_type": "DDR (registered)",
+        "max_memory_mb": 16384,
+        "memory_channels": 2,
+        "tdp_w": 95,
+        "voltage_v": 1.35,
+        "interface": "HyperTransport 1.0 (3 links, 2000 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "AMD64",
+          "SSE3"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-athlon-64-x2-4800-plus",
@@ -487,17 +936,27 @@
         "codename": "Toledo",
         "microarchitecture": "K8",
         "isa": "x86-64",
+        "market": "Desktop",
         "launch_price_usd": 1001,
         "process_nm": 90,
+        "foundry": "AMD",
         "transistors": 233200000,
         "die_size_mm2": 199,
+        "package": "939-pin µPGA",
         "socket": "Socket 939",
         "cores": 2,
         "threads": 2,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
         "base_clock_mhz": 2400,
         "l1_cache_kb": 256,
         "l2_cache_kb": 2048,
+        "memory_type": "DDR",
+        "max_memory_mb": 4096,
+        "memory_channels": 2,
         "tdp_w": 110,
+        "voltage_v": 1.35,
+        "interface": "HyperTransport 1.0 (2000 MT/s)",
         "instruction_sets": [
           "MMX",
           "3DNow!",
@@ -505,7 +964,11 @@
           "SSE2",
           "SSE3"
         ]
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-athlon-64-fx-62",
@@ -516,17 +979,42 @@
         "codename": "Windsor",
         "microarchitecture": "K8",
         "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 1031,
         "process_nm": 90,
+        "foundry": "AMD",
+        "transistors": 227400000,
+        "die_size_mm2": 230,
+        "package": "940-pin µPGA",
         "socket": "AM2",
         "cores": 2,
         "threads": 2,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
         "base_clock_mhz": 2800,
         "l1_cache_kb": 256,
         "l2_cache_kb": 2048,
         "memory_type": "DDR2",
+        "max_memory_mb": 8192,
         "memory_channels": 2,
-        "tdp_w": 125
-      }
+        "tdp_w": 125,
+        "voltage_v": 1.35,
+        "interface": "HyperTransport 1.0 (2000 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "AMD64",
+          "SSE3",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-opteron-2350",
@@ -538,18 +1026,42 @@
         "microarchitecture": "K10",
         "isa": "x86-64",
         "market": "Server",
+        "launch_price_usd": 389,
         "process_nm": 65,
+        "foundry": "AMD",
         "transistors": 463000000,
         "die_size_mm2": 283,
+        "package": "1207-pin LGA",
         "socket": "Socket F",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2000,
         "l1_cache_kb": 512,
         "l2_cache_kb": 2048,
         "l3_cache_kb": 2048,
-        "tdp_w": 95
-      }
+        "memory_type": "DDR2 (registered)",
+        "max_memory_mb": 65536,
+        "memory_channels": 2,
+        "tdp_w": 95,
+        "voltage_v": 1.2,
+        "interface": "HyperTransport 1.0 (3 links, 2000 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSE4a",
+          "AMD64",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-phenom-x4-9600",
@@ -560,18 +1072,43 @@
         "codename": "Agena",
         "microarchitecture": "K10",
         "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 283,
         "process_nm": 65,
+        "foundry": "AMD",
         "transistors": 450000000,
         "die_size_mm2": 285,
+        "package": "940-pin µPGA",
         "socket": "AM2+",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2300,
         "l1_cache_kb": 512,
         "l2_cache_kb": 2048,
         "l3_cache_kb": 2048,
-        "tdp_w": 95
-      }
+        "memory_type": "DDR2",
+        "max_memory_mb": 8192,
+        "memory_channels": 2,
+        "tdp_w": 95,
+        "voltage_v": 1.25,
+        "interface": "HyperTransport 3.0 (3600 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSE4a",
+          "AMD64",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-phenom-ii-x4-940-black-edition",
@@ -582,18 +1119,43 @@
         "codename": "Deneb",
         "microarchitecture": "K10",
         "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 275,
         "process_nm": 45,
+        "foundry": "AMD",
         "transistors": 758000000,
         "die_size_mm2": 258,
+        "package": "940-pin µPGA",
         "socket": "AM2+",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3000,
         "l1_cache_kb": 512,
         "l2_cache_kb": 2048,
         "l3_cache_kb": 6144,
-        "tdp_w": 125
-      }
+        "memory_type": "DDR2",
+        "max_memory_mb": 8192,
+        "memory_channels": 2,
+        "tdp_w": 125,
+        "voltage_v": 1.35,
+        "interface": "HyperTransport 3.0 (3600 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSE4a",
+          "AMD64",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-opteron-2435",
@@ -605,17 +1167,42 @@
         "microarchitecture": "K10",
         "isa": "x86-64",
         "market": "Server",
+        "launch_price_usd": 989,
         "process_nm": 45,
+        "foundry": "AMD",
         "transistors": 904000000,
         "die_size_mm2": 346,
+        "package": "1207-pin LGA",
         "socket": "Socket F",
         "cores": 6,
         "threads": 6,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2600,
         "l1_cache_kb": 768,
         "l2_cache_kb": 3072,
-        "l3_cache_kb": 6144
-      }
+        "l3_cache_kb": 6144,
+        "memory_type": "DDR2 (registered)",
+        "max_memory_mb": 65536,
+        "memory_channels": 2,
+        "tdp_w": 115,
+        "voltage_v": 1.3,
+        "interface": "HyperTransport 3.0 (3 links, 4800 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSE4a",
+          "AMD64",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-athlon-ii-x4-620",
@@ -626,18 +1213,43 @@
         "codename": "Propus",
         "microarchitecture": "K10",
         "isa": "x86-64",
+        "market": "Desktop",
         "launch_price_usd": 99,
         "process_nm": 45,
+        "foundry": "AMD",
         "transistors": 300000000,
         "die_size_mm2": 169,
+        "package": "938-pin µPGA",
         "socket": "AM3",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2600,
         "l1_cache_kb": 512,
         "l2_cache_kb": 2048,
-        "tdp_w": 95
-      }
+        "memory_type": "DDR2 / DDR3",
+        "max_memory_mb": 16384,
+        "memory_channels": 2,
+        "tdp_w": 95,
+        "voltage_v": 1.4,
+        "interface": "HyperTransport 3.0 (4000 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSE4a",
+          "AMD64",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "amd-opteron-6174",
@@ -649,18 +1261,42 @@
         "microarchitecture": "K10",
         "isa": "x86-64",
         "market": "Server",
+        "launch_price_usd": 1165,
         "process_nm": 45,
+        "foundry": "AMD",
         "transistors": 1808000000,
+        "die_size_mm2": 692,
+        "package": "1944-pin LGA",
         "socket": "G34",
         "cores": 12,
         "threads": 12,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2200,
         "l1_cache_kb": 1536,
         "l2_cache_kb": 6144,
         "l3_cache_kb": 12288,
         "memory_type": "DDR3",
-        "memory_channels": 4
-      }
+        "max_memory_mb": 196608,
+        "memory_channels": 4,
+        "tdp_w": 115,
+        "voltage_v": 1.2,
+        "interface": "HyperTransport 3.0 (4 links, 6400 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSE4a",
+          "AMD64",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz"
+      ]
     },
     {
       "id": "amd-phenom-ii-x6-1090t-black-edition",
@@ -671,19 +1307,40 @@
         "codename": "Thuban",
         "microarchitecture": "K10",
         "isa": "x86-64",
+        "market": "Desktop",
         "launch_price_usd": 295,
         "process_nm": 45,
+        "foundry": "AMD",
         "transistors": 904000000,
         "die_size_mm2": 346,
+        "package": "938-pin µPGA",
         "socket": "AM3",
         "cores": 6,
         "threads": 6,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3200,
         "boost_clock_mhz": 3600,
         "l1_cache_kb": 768,
         "l2_cache_kb": 3072,
         "l3_cache_kb": 6144,
-        "tdp_w": 125
+        "memory_type": "DDR2 / DDR3",
+        "max_memory_mb": 16384,
+        "memory_channels": 2,
+        "tdp_w": 125,
+        "voltage_v": 1.35,
+        "interface": "HyperTransport 3.0 (4000 MT/s)",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "3DNow!",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSE4a",
+          "AMD64",
+          "AMD-V"
+        ]
       }
     },
     {
@@ -695,28 +1352,44 @@
         "codename": "Zambezi",
         "microarchitecture": "Bulldozer",
         "isa": "x86-64",
+        "market": "Desktop",
         "launch_price_usd": 245,
         "process_nm": 32,
         "foundry": "GlobalFoundries",
         "transistors": 1200000000,
         "die_size_mm2": 315,
+        "package": "942-pin µPGA",
         "socket": "AM3+",
         "cores": 8,
         "threads": 8,
         "core_config": "4 modules x 2 cores",
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3600,
         "boost_clock_mhz": 4200,
+        "l1_cache_kb": 384,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 8192,
         "memory_type": "DDR3",
+        "max_memory_mb": 32768,
         "memory_channels": 2,
         "tdp_w": 125,
+        "voltage_v": 1.35,
+        "interface": "HyperTransport 3.1 (5200 MT/s)",
         "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
           "SSE4.2",
+          "SSE4a",
           "AVX",
           "AES",
           "FMA4",
-          "XOP"
+          "XOP",
+          "AMD-V"
         ]
       }
     },
@@ -730,18 +1403,44 @@
         "microarchitecture": "Bulldozer",
         "isa": "x86-64",
         "market": "Server",
+        "launch_price_usd": 788,
         "process_nm": 32,
         "foundry": "GlobalFoundries",
+        "transistors": 2400000000,
+        "die_size_mm2": 630,
+        "package": "1944-pin LGA",
         "socket": "G34",
         "cores": 16,
         "threads": 16,
+        "core_config": "8 modules x 2 cores",
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2300,
         "boost_clock_mhz": 3200,
+        "l1_cache_kb": 768,
         "l2_cache_kb": 16384,
         "l3_cache_kb": 16384,
-        "memory_type": "DDR3",
+        "memory_type": "DDR3 (registered)",
+        "max_memory_mb": 393216,
         "memory_channels": 4,
-        "tdp_w": 115
+        "tdp_w": 115,
+        "voltage_v": 1.2,
+        "interface": "HyperTransport 3.0 (4 links, 6400 MT/s)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AES",
+          "FMA4",
+          "XOP",
+          "AMD-V"
+        ]
       }
     },
     {
@@ -753,29 +1452,48 @@
         "codename": "Vishera",
         "microarchitecture": "Piledriver",
         "isa": "x86-64",
+        "market": "Desktop",
         "launch_price_usd": 195,
         "process_nm": 32,
         "foundry": "GlobalFoundries",
         "transistors": 1200000000,
         "die_size_mm2": 315,
+        "package": "942-pin µPGA",
         "socket": "AM3+",
         "cores": 8,
         "threads": 8,
         "core_config": "4 modules x 2 cores",
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4000,
         "boost_clock_mhz": 4200,
+        "l1_cache_kb": 384,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 8192,
         "memory_type": "DDR3",
+        "max_memory_mb": 32768,
         "memory_channels": 2,
         "tdp_w": 125,
+        "voltage_v": 1.35,
+        "interface": "HyperTransport 3.1 (5200 MT/s)",
         "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
           "SSE4.2",
+          "SSE4a",
           "AVX",
           "AES",
-          "FMA3",
           "FMA4",
-          "XOP"
+          "XOP",
+          "AMD-V",
+          "FMA3",
+          "F16C",
+          "BMI1",
+          "TBM"
         ]
       }
     },
@@ -788,16 +1506,49 @@
         "codename": "Vishera",
         "microarchitecture": "Piledriver",
         "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 920,
         "process_nm": 32,
         "foundry": "GlobalFoundries",
+        "transistors": 1200000000,
+        "die_size_mm2": 315,
+        "package": "942-pin µPGA",
         "socket": "AM3+",
         "cores": 8,
         "threads": 8,
+        "core_config": "4 modules x 2 cores",
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4700,
         "boost_clock_mhz": 5000,
+        "l1_cache_kb": 384,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 8192,
-        "tdp_w": 220
+        "memory_type": "DDR3",
+        "max_memory_mb": 32768,
+        "memory_channels": 2,
+        "tdp_w": 220,
+        "voltage_v": 1.5,
+        "interface": "HyperTransport 3.1 (5200 MT/s)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AES",
+          "FMA4",
+          "XOP",
+          "AMD-V",
+          "FMA3",
+          "F16C",
+          "BMI1",
+          "TBM"
+        ]
       }
     },
     {
@@ -813,20 +1564,48 @@
         "launch_price_usd": 499,
         "process_nm": 14,
         "foundry": "GlobalFoundries",
+        "transistors": 4800000000,
+        "die_size_mm2": 213,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 8,
         "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3600,
         "boost_clock_mhz": 4000,
         "l1_cache_kb": 768,
         "l2_cache_kb": 4096,
         "l3_cache_kb": 16384,
         "memory_type": "DDR4",
+        "max_memory_mb": 65536,
         "memory_channels": 2,
         "tdp_w": 95,
-        "transistors": 4800000000,
-        "die_size_mm2": 213
-      }
+        "interface": "PCIe 3.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-5-1600",
@@ -841,18 +1620,48 @@
         "launch_price_usd": 219,
         "process_nm": 14,
         "foundry": "GlobalFoundries",
+        "transistors": 4800000000,
+        "die_size_mm2": 213,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 6,
         "threads": 12,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3200,
         "boost_clock_mhz": 3600,
         "l1_cache_kb": 576,
         "l2_cache_kb": 3072,
         "l3_cache_kb": 16384,
         "memory_type": "DDR4",
+        "max_memory_mb": 65536,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 3.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-epyc-7601",
@@ -867,20 +1676,48 @@
         "launch_price_usd": 4200,
         "process_nm": 14,
         "foundry": "GlobalFoundries",
+        "transistors": 19200000000,
+        "die_size_mm2": 852,
+        "package": "4094-pin LGA",
         "socket": "SP3",
         "cores": 32,
         "threads": 64,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2200,
         "boost_clock_mhz": 3200,
         "l1_cache_kb": 3072,
         "l2_cache_kb": 16384,
         "l3_cache_kb": 65536,
         "memory_type": "DDR4",
+        "max_memory_mb": 2097152,
         "memory_channels": 8,
         "tdp_w": 180,
+        "interface": "PCIe 3.0 (128 lanes)",
         "pcie_lanes": 128,
-        "transistors": 19200000000
-      }
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-3-1300x",
@@ -895,18 +1732,48 @@
         "launch_price_usd": 129,
         "process_nm": 14,
         "foundry": "GlobalFoundries",
+        "transistors": 4800000000,
+        "die_size_mm2": 213,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3500,
         "boost_clock_mhz": 3700,
         "l1_cache_kb": 384,
         "l2_cache_kb": 2048,
         "l3_cache_kb": 8192,
         "memory_type": "DDR4",
+        "max_memory_mb": 65536,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 3.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-threadripper-1950x",
@@ -917,23 +1784,52 @@
         "codename": "Whitehaven",
         "microarchitecture": "Zen",
         "isa": "x86-64",
-        "market": "HEDT",
+        "market": "Desktop",
         "launch_price_usd": 999,
         "process_nm": 14,
         "foundry": "GlobalFoundries",
+        "transistors": 9600000000,
+        "die_size_mm2": 426,
+        "package": "4094-pin LGA",
         "socket": "TR4",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3400,
         "boost_clock_mhz": 4000,
         "l1_cache_kb": 1536,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 32768,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 4,
         "tdp_w": 180,
-        "pcie_lanes": 64
-      }
+        "interface": "PCIe 3.0 (64 lanes)",
+        "pcie_lanes": 64,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-7-2700x",
@@ -948,20 +1844,48 @@
         "launch_price_usd": 329,
         "process_nm": 12,
         "foundry": "GlobalFoundries",
+        "transistors": 4800000000,
+        "die_size_mm2": 213,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 8,
         "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3700,
         "boost_clock_mhz": 4300,
         "l1_cache_kb": 768,
         "l2_cache_kb": 4096,
         "l3_cache_kb": 16384,
         "memory_type": "DDR4",
+        "max_memory_mb": 65536,
         "memory_channels": 2,
         "tdp_w": 105,
-        "transistors": 4800000000,
-        "die_size_mm2": 213
-      }
+        "interface": "PCIe 3.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-5-2600",
@@ -976,18 +1900,48 @@
         "launch_price_usd": 199,
         "process_nm": 12,
         "foundry": "GlobalFoundries",
+        "transistors": 4800000000,
+        "die_size_mm2": 213,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 6,
         "threads": 12,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3400,
         "boost_clock_mhz": 3900,
         "l1_cache_kb": 576,
         "l2_cache_kb": 3072,
         "l3_cache_kb": 16384,
         "memory_type": "DDR4",
+        "max_memory_mb": 65536,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 3.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-threadripper-2990wx",
@@ -998,23 +1952,52 @@
         "codename": "Colfax",
         "microarchitecture": "Zen+",
         "isa": "x86-64",
-        "market": "HEDT",
+        "market": "Desktop",
         "launch_price_usd": 1799,
         "process_nm": 12,
         "foundry": "GlobalFoundries",
+        "transistors": 19200000000,
+        "die_size_mm2": 852,
+        "package": "4094-pin LGA",
         "socket": "TR4",
         "cores": 32,
         "threads": 64,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3000,
         "boost_clock_mhz": 4200,
         "l1_cache_kb": 3072,
         "l2_cache_kb": 16384,
         "l3_cache_kb": 65536,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 4,
         "tdp_w": 250,
-        "pcie_lanes": 64
-      }
+        "interface": "PCIe 3.0 (64 lanes)",
+        "pcie_lanes": 64,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-3900x",
@@ -1029,19 +2012,48 @@
         "launch_price_usd": 499,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 9890000000,
+        "die_size_mm2": 273,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 12,
         "threads": 24,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3800,
         "boost_clock_mhz": 4600,
         "l1_cache_kb": 768,
         "l2_cache_kb": 6144,
         "l3_cache_kb": 65536,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
         "tdp_w": 105,
-        "transistors": 9890000000
-      }
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-7-3700x",
@@ -1056,18 +2068,48 @@
         "launch_price_usd": 329,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 5990000000,
+        "die_size_mm2": 199,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 8,
         "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3600,
         "boost_clock_mhz": 4400,
         "l1_cache_kb": 512,
         "l2_cache_kb": 4096,
         "l3_cache_kb": 32768,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-5-3600",
@@ -1082,18 +2124,48 @@
         "launch_price_usd": 199,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 5990000000,
+        "die_size_mm2": 199,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 6,
         "threads": 12,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3600,
         "boost_clock_mhz": 4200,
         "l1_cache_kb": 384,
         "l2_cache_kb": 3072,
         "l3_cache_kb": 32768,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-epyc-7742",
@@ -1108,20 +2180,48 @@
         "launch_price_usd": 6950,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 39540000000,
+        "die_size_mm2": 1008,
+        "package": "4094-pin LGA",
         "socket": "SP3",
         "cores": 64,
         "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2250,
         "boost_clock_mhz": 3400,
         "l1_cache_kb": 4096,
         "l2_cache_kb": 32768,
         "l3_cache_kb": 262144,
         "memory_type": "DDR4",
+        "max_memory_mb": 4194304,
         "memory_channels": 8,
         "tdp_w": 225,
+        "interface": "PCIe 4.0 (128 lanes)",
         "pcie_lanes": 128,
-        "transistors": 39540000000
-      }
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-3950x",
@@ -1136,18 +2236,48 @@
         "launch_price_usd": 749,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 9890000000,
+        "die_size_mm2": 273,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3500,
         "boost_clock_mhz": 4700,
         "l1_cache_kb": 1024,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 65536,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 105
-      }
+        "tdp_w": 105,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-threadripper-3990x",
@@ -1158,22 +2288,52 @@
         "codename": "Castle Peak",
         "microarchitecture": "Zen 2",
         "isa": "x86-64",
-        "market": "HEDT",
+        "market": "Desktop",
         "launch_price_usd": 3990,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 39540000000,
+        "die_size_mm2": 1008,
+        "package": "4094-pin LGA",
         "socket": "sTRX4",
         "cores": 64,
         "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2900,
         "boost_clock_mhz": 4300,
         "l1_cache_kb": 4096,
         "l2_cache_kb": 32768,
         "l3_cache_kb": 262144,
         "memory_type": "DDR4",
+        "max_memory_mb": 262144,
         "memory_channels": 4,
-        "tdp_w": 280
-      }
+        "tdp_w": 280,
+        "interface": "PCIe 4.0 (88 lanes)",
+        "pcie_lanes": 88,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-3-3300x",
@@ -1188,18 +2348,48 @@
         "launch_price_usd": 120,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 5990000000,
+        "die_size_mm2": 199,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 4,
         "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3800,
         "boost_clock_mhz": 4300,
         "l1_cache_kb": 256,
         "l2_cache_kb": 2048,
         "l3_cache_kb": 16384,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-5950x",
@@ -1214,18 +2404,48 @@
         "launch_price_usd": 799,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 10390000000,
+        "die_size_mm2": 286,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3400,
         "boost_clock_mhz": 4900,
         "l1_cache_kb": 1024,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 65536,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 105
-      }
+        "tdp_w": 105,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-5900x",
@@ -1240,18 +2460,48 @@
         "launch_price_usd": 549,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 10390000000,
+        "die_size_mm2": 286,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 12,
         "threads": 24,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3700,
         "boost_clock_mhz": 4800,
         "l1_cache_kb": 768,
         "l2_cache_kb": 6144,
         "l3_cache_kb": 65536,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 105
-      }
+        "tdp_w": 105,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-7-5800x",
@@ -1266,18 +2516,48 @@
         "launch_price_usd": 449,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 6240000000,
+        "die_size_mm2": 206,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 8,
         "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3800,
         "boost_clock_mhz": 4700,
         "l1_cache_kb": 512,
         "l2_cache_kb": 4096,
         "l3_cache_kb": 32768,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 105
-      }
+        "tdp_w": 105,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-5-5600x",
@@ -1292,18 +2572,48 @@
         "launch_price_usd": 299,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 6240000000,
+        "die_size_mm2": 206,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 6,
         "threads": 12,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3700,
         "boost_clock_mhz": 4600,
         "l1_cache_kb": 384,
         "l2_cache_kb": 3072,
         "l3_cache_kb": 32768,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-epyc-7763",
@@ -1318,19 +2628,48 @@
         "launch_price_usd": 7890,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 41540000000,
+        "die_size_mm2": 1062,
+        "package": "4094-pin LGA",
         "socket": "SP3",
         "cores": 64,
         "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2450,
         "boost_clock_mhz": 3500,
         "l1_cache_kb": 4096,
         "l2_cache_kb": 32768,
         "l3_cache_kb": 262144,
         "memory_type": "DDR4",
+        "max_memory_mb": 4194304,
         "memory_channels": 8,
         "tdp_w": 280,
-        "pcie_lanes": 128
-      }
+        "interface": "PCIe 4.0 (128 lanes)",
+        "pcie_lanes": 128,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-threadripper-pro-5995wx",
@@ -1345,19 +2684,48 @@
         "launch_price_usd": 6499,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 41540000000,
+        "die_size_mm2": 1062,
+        "package": "4094-pin LGA",
         "socket": "sWRX8",
         "cores": 64,
         "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2700,
         "boost_clock_mhz": 4500,
         "l1_cache_kb": 4096,
         "l2_cache_kb": 32768,
         "l3_cache_kb": 262144,
         "memory_type": "DDR4",
+        "max_memory_mb": 2097152,
         "memory_channels": 8,
         "tdp_w": 280,
-        "pcie_lanes": 128
-      }
+        "interface": "PCIe 4.0 (128 lanes)",
+        "pcie_lanes": 128,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-epyc-7773x",
@@ -1372,19 +2740,48 @@
         "launch_price_usd": 8800,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 79140000000,
+        "die_size_mm2": 1062,
+        "package": "4094-pin LGA",
         "socket": "SP3",
         "cores": 64,
         "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2200,
         "boost_clock_mhz": 3500,
         "l1_cache_kb": 4096,
         "l2_cache_kb": 32768,
         "l3_cache_kb": 786432,
         "memory_type": "DDR4",
+        "max_memory_mb": 4194304,
         "memory_channels": 8,
         "tdp_w": 280,
-        "pcie_lanes": 128
-      }
+        "interface": "PCIe 4.0 (128 lanes)",
+        "pcie_lanes": 128,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-7-5800x3d",
@@ -1399,18 +2796,48 @@
         "launch_price_usd": 449,
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 10940000000,
+        "die_size_mm2": 206,
+        "package": "1331-pin µOPGA",
         "socket": "AM4",
         "cores": 8,
         "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3400,
         "boost_clock_mhz": 4500,
         "l1_cache_kb": 512,
         "l2_cache_kb": 4096,
         "l3_cache_kb": 98304,
         "memory_type": "DDR4",
+        "max_memory_mb": 131072,
         "memory_channels": 2,
-        "tdp_w": 105
-      }
+        "tdp_w": 105,
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-7950x",
@@ -1425,18 +2852,51 @@
         "launch_price_usd": 699,
         "process_nm": 5,
         "foundry": "TSMC",
+        "transistors": 16540000000,
+        "die_size_mm2": 264,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4500,
         "boost_clock_mhz": 5700,
         "l1_cache_kb": 1024,
         "l2_cache_kb": 16384,
         "l3_cache_kb": 65536,
         "memory_type": "DDR5",
+        "max_memory_mb": 196608,
         "memory_channels": 2,
-        "tdp_w": 170
-      }
+        "tdp_w": 170,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-7900x",
@@ -1451,18 +2911,51 @@
         "launch_price_usd": 549,
         "process_nm": 5,
         "foundry": "TSMC",
+        "transistors": 16540000000,
+        "die_size_mm2": 264,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 12,
         "threads": 24,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4700,
         "boost_clock_mhz": 5600,
         "l1_cache_kb": 768,
         "l2_cache_kb": 12288,
         "l3_cache_kb": 65536,
         "memory_type": "DDR5",
+        "max_memory_mb": 196608,
         "memory_channels": 2,
-        "tdp_w": 170
-      }
+        "tdp_w": 170,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-5-7600x",
@@ -1477,18 +2970,51 @@
         "launch_price_usd": 299,
         "process_nm": 5,
         "foundry": "TSMC",
+        "transistors": 9970000000,
+        "die_size_mm2": 193,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 6,
         "threads": 12,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4700,
         "boost_clock_mhz": 5300,
         "l1_cache_kb": 384,
         "l2_cache_kb": 6144,
         "l3_cache_kb": 32768,
         "memory_type": "DDR5",
+        "max_memory_mb": 196608,
         "memory_channels": 2,
-        "tdp_w": 105
-      }
+        "tdp_w": 105,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-epyc-9654",
@@ -1503,19 +3029,51 @@
         "launch_price_usd": 11805,
         "process_nm": 5,
         "foundry": "TSMC",
+        "transistors": 90000000000,
+        "die_size_mm2": 1249,
+        "package": "6096-pin LGA",
         "socket": "SP5",
         "cores": 96,
         "threads": 192,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2400,
         "boost_clock_mhz": 3700,
         "l1_cache_kb": 6144,
         "l2_cache_kb": 98304,
         "l3_cache_kb": 393216,
         "memory_type": "DDR5",
+        "max_memory_mb": 6291456,
         "memory_channels": 12,
         "tdp_w": 360,
-        "pcie_lanes": 128
-      }
+        "interface": "PCIe 5.0 (128 lanes)",
+        "pcie_lanes": 128,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-7950x3d",
@@ -1530,18 +3088,51 @@
         "launch_price_usd": 699,
         "process_nm": 5,
         "foundry": "TSMC",
+        "transistors": 21240000000,
+        "die_size_mm2": 264,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4200,
         "boost_clock_mhz": 5700,
         "l1_cache_kb": 1024,
         "l2_cache_kb": 16384,
         "l3_cache_kb": 131072,
         "memory_type": "DDR5",
+        "max_memory_mb": 196608,
         "memory_channels": 2,
-        "tdp_w": 120
-      }
+        "tdp_w": 120,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-7-7800x3d",
@@ -1556,18 +3147,51 @@
         "launch_price_usd": 449,
         "process_nm": 5,
         "foundry": "TSMC",
+        "transistors": 14670000000,
+        "die_size_mm2": 193,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 8,
         "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4200,
         "boost_clock_mhz": 5000,
         "l1_cache_kb": 512,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 98304,
         "memory_type": "DDR5",
+        "max_memory_mb": 196608,
         "memory_channels": 2,
-        "tdp_w": 120
-      }
+        "tdp_w": 120,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-epyc-9754",
@@ -1582,19 +3206,51 @@
         "launch_price_usd": 11900,
         "process_nm": 5,
         "foundry": "TSMC",
+        "transistors": 82000000000,
+        "die_size_mm2": 981,
+        "package": "6096-pin LGA",
         "socket": "SP5",
         "cores": 128,
         "threads": 256,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2250,
         "boost_clock_mhz": 3100,
         "l1_cache_kb": 8192,
         "l2_cache_kb": 131072,
         "l3_cache_kb": 262144,
         "memory_type": "DDR5",
+        "max_memory_mb": 6291456,
         "memory_channels": 12,
         "tdp_w": 360,
-        "pcie_lanes": 128
-      }
+        "interface": "PCIe 5.0 (128 lanes)",
+        "pcie_lanes": 128,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-threadripper-7980x",
@@ -1605,22 +3261,55 @@
         "codename": "Storm Peak",
         "microarchitecture": "Zen 4",
         "isa": "x86-64",
-        "market": "HEDT",
+        "market": "Desktop",
         "launch_price_usd": 4999,
         "process_nm": 5,
         "foundry": "TSMC",
+        "package": "4844-pin LGA",
         "socket": "sTR5",
         "cores": 64,
         "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3200,
         "boost_clock_mhz": 5100,
         "l1_cache_kb": 4096,
         "l2_cache_kb": 65536,
         "l3_cache_kb": 262144,
         "memory_type": "DDR5",
+        "max_memory_mb": 1048576,
         "memory_channels": 4,
-        "tdp_w": 350
-      }
+        "tdp_w": 350,
+        "interface": "PCIe 5.0 / 4.0 (92 lanes)",
+        "pcie_lanes": 92,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-7-9700x",
@@ -1635,18 +3324,51 @@
         "launch_price_usd": 359,
         "process_nm": 4,
         "foundry": "TSMC",
+        "transistors": 11715000000,
+        "die_size_mm2": 193,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 8,
         "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3800,
         "boost_clock_mhz": 5500,
         "l1_cache_kb": 640,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 32768,
         "memory_type": "DDR5",
+        "max_memory_mb": 262144,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-5-9600x",
@@ -1661,18 +3383,51 @@
         "launch_price_usd": 279,
         "process_nm": 4,
         "foundry": "TSMC",
+        "transistors": 11715000000,
+        "die_size_mm2": 193,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 6,
         "threads": 12,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3900,
         "boost_clock_mhz": 5400,
         "l1_cache_kb": 480,
         "l2_cache_kb": 6144,
         "l3_cache_kb": 32768,
         "memory_type": "DDR5",
+        "max_memory_mb": 262144,
         "memory_channels": 2,
-        "tdp_w": 65
-      }
+        "tdp_w": 65,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-9950x",
@@ -1687,18 +3442,51 @@
         "launch_price_usd": 649,
         "process_nm": 4,
         "foundry": "TSMC",
+        "transistors": 20030000000,
+        "die_size_mm2": 263,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4300,
         "boost_clock_mhz": 5700,
         "l1_cache_kb": 1280,
         "l2_cache_kb": 16384,
         "l3_cache_kb": 65536,
         "memory_type": "DDR5",
+        "max_memory_mb": 262144,
         "memory_channels": 2,
-        "tdp_w": 170
-      }
+        "tdp_w": 170,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-epyc-9755",
@@ -1713,19 +3501,51 @@
         "launch_price_usd": 12984,
         "process_nm": 4,
         "foundry": "TSMC",
+        "transistors": 150000000000,
+        "package": "6096-pin LGA",
         "socket": "SP5",
         "cores": 128,
         "threads": 256,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2700,
         "boost_clock_mhz": 4100,
         "l1_cache_kb": 10240,
         "l2_cache_kb": 131072,
         "l3_cache_kb": 524288,
         "memory_type": "DDR5",
+        "max_memory_mb": 6291456,
         "memory_channels": 12,
         "tdp_w": 500,
-        "pcie_lanes": 128
-      }
+        "interface": "PCIe 5.0 (128 lanes)",
+        "pcie_lanes": 128,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "die_size_mm2",
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-epyc-9965",
@@ -1740,19 +3560,51 @@
         "launch_price_usd": 14813,
         "process_nm": 3,
         "foundry": "TSMC",
+        "package": "6096-pin LGA",
         "socket": "SP5",
         "cores": 192,
         "threads": 384,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2250,
         "boost_clock_mhz": 3700,
         "l1_cache_kb": 15360,
         "l2_cache_kb": 196608,
         "l3_cache_kb": 393216,
         "memory_type": "DDR5",
+        "max_memory_mb": 6291456,
         "memory_channels": 12,
         "tdp_w": 500,
-        "pcie_lanes": 128
-      }
+        "interface": "PCIe 5.0 (128 lanes)",
+        "pcie_lanes": 128,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-7-9800x3d",
@@ -1767,18 +3619,51 @@
         "launch_price_usd": 479,
         "process_nm": 4,
         "foundry": "TSMC",
+        "die_size_mm2": 193,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 8,
         "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4700,
         "boost_clock_mhz": 5200,
         "l1_cache_kb": 640,
         "l2_cache_kb": 8192,
         "l3_cache_kb": 98304,
         "memory_type": "DDR5",
+        "max_memory_mb": 262144,
         "memory_channels": 2,
-        "tdp_w": 120
-      }
+        "tdp_w": 120,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-9-9950x3d",
@@ -1793,18 +3678,51 @@
         "launch_price_usd": 699,
         "process_nm": 4,
         "foundry": "TSMC",
+        "die_size_mm2": 263,
+        "package": "1718-pin LGA",
         "socket": "AM5",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 4300,
         "boost_clock_mhz": 5700,
         "l1_cache_kb": 1280,
         "l2_cache_kb": 16384,
         "l3_cache_kb": 131072,
         "memory_type": "DDR5",
+        "max_memory_mb": 262144,
         "memory_channels": 2,
-        "tdp_w": 170
-      }
+        "tdp_w": 170,
+        "interface": "PCIe 5.0 (28 lanes)",
+        "pcie_lanes": 28,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "voltage_v"
+      ]
     },
     {
       "id": "amd-ryzen-threadripper-9980x",
@@ -1815,22 +3733,55 @@
         "codename": "Shimada Peak",
         "microarchitecture": "Zen 5",
         "isa": "x86-64",
-        "market": "HEDT",
+        "market": "Desktop",
         "launch_price_usd": 4999,
         "process_nm": 4,
         "foundry": "TSMC",
+        "package": "4844-pin LGA",
         "socket": "sTR5",
         "cores": 64,
         "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 3200,
         "boost_clock_mhz": 5400,
         "l1_cache_kb": 5120,
         "l2_cache_kb": 65536,
         "l3_cache_kb": 262144,
         "memory_type": "DDR5",
+        "max_memory_mb": 1048576,
         "memory_channels": 4,
-        "tdp_w": 350
-      }
+        "tdp_w": 350,
+        "interface": "PCIe 5.0 / 4.0 (92 lanes)",
+        "pcie_lanes": 92,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "SSE4a",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "F16C",
+          "AES",
+          "SHA",
+          "BMI1",
+          "BMI2",
+          "AMD-V",
+          "AVX-512",
+          "AVX-512 BF16",
+          "AVX-512 VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v"
+      ]
     }
   ]
 }

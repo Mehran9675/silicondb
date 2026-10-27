@@ -8,13 +8,35 @@
       "family": "Cx486",
       "released": "1992",
       "specs": {
+        "microarchitecture": "Cx486SLC",
         "isa": "x86",
+        "market": "Desktop",
+        "foundry": "Texas Instruments / SGS-Thomson",
+        "package": "100-pin PQFP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
         "address_width_bits": 24,
         "base_clock_mhz": 25,
-        "cores": 1,
-        "l1_cache_kb": 1
-      }
+        "l1_cache_kb": 1,
+        "max_memory_mb": 16,
+        "voltage_v": 5,
+        "interface": "80386SX bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "cyrix-cx486dlc",
@@ -22,13 +44,35 @@
       "family": "Cx486",
       "released": "1992",
       "specs": {
+        "microarchitecture": "Cx486DLC",
         "isa": "x86",
+        "market": "Desktop",
+        "foundry": "Texas Instruments / SGS-Thomson",
+        "package": "132-pin CPGA",
+        "socket": "PGA-132",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 33,
-        "cores": 1,
-        "l1_cache_kb": 1
-      }
+        "l1_cache_kb": 1,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "80386DX bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "cyrix-cx486dx",
@@ -36,16 +80,37 @@
       "family": "Cx486",
       "released": "1993",
       "specs": {
+        "microarchitecture": "Cx486",
         "isa": "x86",
+        "market": "Desktop",
+        "foundry": "SGS-Thomson",
+        "package": "168-pin PGA",
+        "socket": "Socket 1",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 40,
-        "cores": 1,
         "l1_cache_kb": 8,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "FSB 40 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "cyrix-cx486dx2",
@@ -53,16 +118,37 @@
       "family": "Cx486",
       "released": "1994",
       "specs": {
+        "microarchitecture": "Cx486",
         "isa": "x86",
+        "market": "Desktop",
+        "foundry": "SGS-Thomson",
+        "package": "168-pin PGA",
+        "socket": "Socket 3",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 80,
-        "cores": 1,
         "l1_cache_kb": 8,
+        "max_memory_mb": 4096,
+        "voltage_v": 4,
+        "interface": "FSB 40 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "cyrix-5x86",
@@ -71,18 +157,36 @@
       "released": "1995-08",
       "specs": {
         "codename": "M1sc",
+        "microarchitecture": "M1sc",
         "isa": "x86",
+        "market": "Desktop",
         "process_nm": 650,
+        "foundry": "IBM / SGS-Thomson",
         "transistors": 2000000,
+        "die_size_mm2": 144,
+        "package": "168-pin PGA",
+        "socket": "Socket 3",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 120,
-        "cores": 1,
         "l1_cache_kb": 16,
+        "max_memory_mb": 4096,
+        "voltage_v": 3.45,
+        "interface": "FSB 40 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "cyrix-6x86l",
@@ -90,16 +194,37 @@
       "family": "6x86",
       "released": "1996",
       "specs": {
+        "codename": "M1L",
+        "microarchitecture": "M1",
         "isa": "x86",
+        "market": "Desktop",
+        "process_nm": 350,
+        "foundry": "IBM / SGS-Thomson",
+        "transistors": 3000000,
+        "package": "296-pin CPGA",
+        "socket": "Socket 7",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 64,
         "address_width_bits": 32,
-        "cores": 1,
+        "base_clock_mhz": 150,
         "l1_cache_kb": 16,
-        "socket": "Socket 7",
+        "max_memory_mb": 4096,
+        "voltage_v": 2.8,
+        "interface": "FSB 75 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "cyrix-6x86",
@@ -108,17 +233,36 @@
       "released": "1996-02",
       "specs": {
         "codename": "M1",
+        "microarchitecture": "M1",
         "isa": "x86",
+        "market": "Desktop",
+        "process_nm": 650,
+        "foundry": "IBM / SGS-Thomson",
         "transistors": 3000000,
+        "die_size_mm2": 394,
+        "package": "296-pin CPGA",
+        "socket": "Socket 7",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 64,
         "address_width_bits": 32,
-        "cores": 1,
+        "base_clock_mhz": 150,
         "l1_cache_kb": 16,
-        "socket": "Socket 7",
+        "max_memory_mb": 4096,
+        "voltage_v": 3.52,
+        "interface": "FSB 75 MHz",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "cyrix-mediagx",
@@ -126,16 +270,37 @@
       "family": "MediaGX",
       "released": "1997-02",
       "specs": {
+        "microarchitecture": "MediaGX (Cx5x86-derived)",
         "isa": "x86",
+        "market": "Desktop",
+        "foundry": "National Semiconductor",
         "transistors": 2400000,
-        "data_width_bits": 32,
-        "base_clock_mhz": 133,
+        "package": "352-pin BGA",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 133,
         "l1_cache_kb": 16,
+        "memory_type": "EDO DRAM",
+        "max_memory_mb": 128,
+        "voltage_v": 3.3,
+        "interface": "PCI (with Cx5510 companion)",
         "instruction_sets": [
           "x87"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "tdp_w"
+      ]
     },
     {
       "id": "cyrix-6x86mx",
@@ -144,20 +309,37 @@
       "released": "1997-05",
       "specs": {
         "codename": "M2",
+        "microarchitecture": "M2",
         "isa": "x86",
+        "market": "Desktop",
         "process_nm": 350,
+        "foundry": "IBM",
         "transistors": 6500000,
         "die_size_mm2": 197,
+        "package": "296-pin CPGA",
+        "socket": "Socket 7",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 64,
         "address_width_bits": 32,
-        "cores": 1,
+        "base_clock_mhz": 166,
         "l1_cache_kb": 64,
-        "socket": "Socket 7",
+        "max_memory_mb": 4096,
+        "voltage_v": 2.9,
+        "interface": "FSB 66 MHz",
         "instruction_sets": [
           "x87",
           "MMX"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "cyrix-mii",
@@ -166,18 +348,37 @@
       "released": "1998",
       "specs": {
         "codename": "M2",
+        "microarchitecture": "M2",
         "isa": "x86",
+        "market": "Desktop",
+        "process_nm": 350,
+        "foundry": "IBM / National Semiconductor",
         "transistors": 6500000,
+        "die_size_mm2": 197,
+        "package": "296-pin CPGA",
+        "socket": "Socket 7",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 64,
         "address_width_bits": 32,
-        "cores": 1,
+        "base_clock_mhz": 233,
         "l1_cache_kb": 64,
-        "socket": "Socket 7",
+        "max_memory_mb": 4096,
+        "voltage_v": 2.9,
+        "interface": "FSB 66 MHz",
         "instruction_sets": [
           "x87",
           "MMX"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     }
   ]
 }
