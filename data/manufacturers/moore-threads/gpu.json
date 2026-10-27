@@ -1,0 +1,65 @@
+{
+  "manufacturer": "moore-threads",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "moore-threads-mtt-s3000",
+      "name": "MTT S3000",
+      "family": "MTT S",
+      "released": "2022-11",
+      "specs": {
+        "microarchitecture": "MUSA Chunxiao",
+        "market": "Data center",
+        "shading_units": 4096,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 32768,
+        "fp32_tflops": 15.2,
+        "interface": "PCIe 5.0 x16"
+      }
+    },
+    {
+      "id": "moore-threads-mtt-s80",
+      "name": "MTT S80",
+      "family": "MTT S",
+      "released": "2022-11",
+      "specs": {
+        "microarchitecture": "MUSA Chunxiao",
+        "market": "Consumer",
+        "shading_units": 4096,
+        "gpu_clock_mhz": 1800,
+        "graphics_api": [
+          "DirectX 11",
+          "OpenGL 4.1",
+          "Vulkan 1.2"
+        ],
+        "memory_type": "GDDR6",
+        "memory_size_mb": 16384,
+        "memory_bus_bits": 256,
+        "memory_bandwidth_gbs": 448.0,
+        "fp32_tflops": 14.4,
+        "tdp_w": 255,
+        "interface": "PCIe 5.0 x16"
+      }
+    },
+    {
+      "id": "moore-threads-mtt-s4000",
+      "name": "MTT S4000",
+      "family": "MTT S",
+      "released": "2023-12",
+      "specs": {
+        "microarchitecture": "MUSA Quyuan",
+        "market": "Data center",
+        "shading_units": 8192,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 49152,
+        "memory_bandwidth_gbs": 768.0,
+        "fp32_tflops": 25.0,
+        "fp16_tflops": 100.0,
+        "bf16_tflops": 100.0,
+        "int8_tops": 200.0,
+        "tdp_w": 450,
+        "interface": "PCIe 5.0 x16"
+      }
+    }
+  ]
+}

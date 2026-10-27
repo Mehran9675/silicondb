@@ -1,0 +1,458 @@
+{
+  "manufacturer": "ati",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "ati-mach8",
+      "name": "Mach8",
+      "family": "Mach",
+      "released": "1991",
+      "specs": {
+        "market": "Desktop",
+        "interface": "ISA / MCA"
+      }
+    },
+    {
+      "id": "ati-mach32",
+      "name": "Mach32",
+      "family": "Mach",
+      "released": "1992",
+      "specs": {
+        "market": "Desktop",
+        "interface": "ISA / EISA / VLB / PCI / MCA"
+      }
+    },
+    {
+      "id": "ati-mach64",
+      "name": "Mach64",
+      "family": "Mach",
+      "released": "1994",
+      "specs": {
+        "market": "Desktop",
+        "memory_bus_bits": 64,
+        "interface": "ISA / VLB / PCI"
+      }
+    },
+    {
+      "id": "ati-3d-rage",
+      "name": "3D Rage",
+      "family": "Rage",
+      "released": "1996-04",
+      "specs": {
+        "codename": "Mach64 GT",
+        "market": "Desktop",
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "ati-rage-pro",
+      "name": "Rage Pro",
+      "family": "Rage",
+      "released": "1997",
+      "specs": {
+        "market": "Desktop",
+        "memory_bus_bits": 64,
+        "interface": "AGP / PCI"
+      }
+    },
+    {
+      "id": "ati-rage-128-gl",
+      "name": "Rage 128 GL",
+      "family": "Rage 128",
+      "released": "1998-08",
+      "specs": {
+        "market": "Desktop",
+        "process_nm": 250,
+        "tmus": 2,
+        "rops": 2,
+        "memory_bus_bits": 128,
+        "interface": "AGP 2x / PCI",
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ]
+      }
+    },
+    {
+      "id": "ati-rage-128-pro",
+      "name": "Rage 128 Pro",
+      "family": "Rage 128",
+      "released": "1999-08",
+      "specs": {
+        "market": "Desktop",
+        "process_nm": 250,
+        "tmus": 2,
+        "rops": 2,
+        "memory_bus_bits": 128,
+        "interface": "AGP 4x / PCI",
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ]
+      }
+    },
+    {
+      "id": "ati-radeon-ddr",
+      "name": "Radeon DDR",
+      "family": "Radeon 7000",
+      "released": "2000-04",
+      "specs": {
+        "codename": "R100",
+        "market": "Desktop",
+        "process_nm": 180,
+        "transistors": 30000000,
+        "tmus": 6,
+        "rops": 2,
+        "gpu_clock_mhz": 183,
+        "graphics_api": [
+          "DirectX 7.0",
+          "OpenGL 1.3"
+        ],
+        "memory_type": "DDR",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 183,
+        "memory_bandwidth_gbs": 5.86,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "ati-radeon-8500",
+      "name": "Radeon 8500",
+      "family": "Radeon 8000",
+      "released": "2001-08-14",
+      "specs": {
+        "codename": "R200",
+        "market": "Desktop",
+        "launch_price_usd": 299,
+        "process_nm": 150,
+        "transistors": 60000000,
+        "tmus": 8,
+        "rops": 4,
+        "gpu_clock_mhz": 275,
+        "graphics_api": [
+          "DirectX 8.1",
+          "OpenGL 1.4"
+        ],
+        "memory_type": "DDR",
+        "memory_size_mb": 64,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 275,
+        "memory_bandwidth_gbs": 8.8,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "ati-radeon-7500",
+      "name": "Radeon 7500",
+      "family": "Radeon 7000",
+      "released": "2001-08-14",
+      "specs": {
+        "codename": "RV200",
+        "market": "Desktop",
+        "process_nm": 150,
+        "tmus": 6,
+        "rops": 2,
+        "gpu_clock_mhz": 290,
+        "graphics_api": [
+          "DirectX 7.0",
+          "OpenGL 1.3"
+        ],
+        "memory_type": "DDR",
+        "memory_size_mb": 64,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 230,
+        "memory_bandwidth_gbs": 7.36,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "ati-flipper-gamecube",
+      "name": "Flipper (GameCube)",
+      "family": "Console",
+      "released": "2001-09-14",
+      "specs": {
+        "market": "Console",
+        "process_nm": 180,
+        "foundry": "NEC",
+        "transistors": 51000000,
+        "tmus": 4,
+        "rops": 4,
+        "gpu_clock_mhz": 162,
+        "sram_kb": 3072,
+        "memory_type": "1T-SRAM"
+      }
+    },
+    {
+      "id": "ati-radeon-9700-pro",
+      "name": "Radeon 9700 Pro",
+      "family": "Radeon 9000",
+      "released": "2002-08",
+      "specs": {
+        "codename": "R300",
+        "market": "Desktop",
+        "launch_price_usd": 399,
+        "process_nm": 150,
+        "foundry": "TSMC",
+        "transistors": 107000000,
+        "die_size_mm2": 215,
+        "tmus": 8,
+        "rops": 8,
+        "gpu_clock_mhz": 325,
+        "graphics_api": [
+          "DirectX 9.0",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "DDR",
+        "memory_size_mb": 128,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 310,
+        "memory_bandwidth_gbs": 19.8,
+        "interface": "AGP 8x"
+      }
+    },
+    {
+      "id": "ati-radeon-9800-pro",
+      "name": "Radeon 9800 Pro",
+      "family": "Radeon 9000",
+      "released": "2003-03",
+      "specs": {
+        "codename": "R350",
+        "market": "Desktop",
+        "launch_price_usd": 399,
+        "process_nm": 150,
+        "foundry": "TSMC",
+        "tmus": 8,
+        "rops": 8,
+        "gpu_clock_mhz": 380,
+        "graphics_api": [
+          "DirectX 9.0",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "DDR",
+        "memory_size_mb": 128,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 340,
+        "memory_bandwidth_gbs": 21.8,
+        "interface": "AGP 8x"
+      }
+    },
+    {
+      "id": "ati-radeon-9600-xt",
+      "name": "Radeon 9600 XT",
+      "family": "Radeon 9000",
+      "released": "2003-10",
+      "specs": {
+        "codename": "RV360",
+        "market": "Desktop",
+        "process_nm": 130,
+        "foundry": "TSMC",
+        "transistors": 75000000,
+        "tmus": 4,
+        "rops": 4,
+        "gpu_clock_mhz": 500,
+        "graphics_api": [
+          "DirectX 9.0",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "DDR",
+        "memory_size_mb": 128,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 300,
+        "memory_bandwidth_gbs": 9.6,
+        "interface": "AGP 8x"
+      }
+    },
+    {
+      "id": "ati-radeon-x800-xt-platinum-edition",
+      "name": "Radeon X800 XT Platinum Edition",
+      "family": "Radeon X800",
+      "released": "2004-05-04",
+      "specs": {
+        "codename": "R420",
+        "market": "Desktop",
+        "launch_price_usd": 499,
+        "process_nm": 130,
+        "foundry": "TSMC",
+        "transistors": 160000000,
+        "die_size_mm2": 281,
+        "tmus": 16,
+        "rops": 16,
+        "gpu_clock_mhz": 520,
+        "graphics_api": [
+          "DirectX 9.0b",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "GDDR3",
+        "memory_size_mb": 256,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 560,
+        "memory_bandwidth_gbs": 35.84,
+        "interface": "AGP 8x"
+      }
+    },
+    {
+      "id": "ati-radeon-x850-xt-platinum-edition",
+      "name": "Radeon X850 XT Platinum Edition",
+      "family": "Radeon X800",
+      "released": "2004-12-01",
+      "specs": {
+        "codename": "R480",
+        "market": "Desktop",
+        "launch_price_usd": 549,
+        "process_nm": 130,
+        "foundry": "TSMC",
+        "tmus": 16,
+        "rops": 16,
+        "gpu_clock_mhz": 540,
+        "graphics_api": [
+          "DirectX 9.0b",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "GDDR3",
+        "memory_size_mb": 256,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 590,
+        "memory_bandwidth_gbs": 37.76,
+        "interface": "PCIe x16"
+      }
+    },
+    {
+      "id": "ati-radeon-x1800-xt",
+      "name": "Radeon X1800 XT",
+      "family": "Radeon X1000",
+      "released": "2005-10-05",
+      "specs": {
+        "codename": "R520",
+        "market": "Desktop",
+        "launch_price_usd": 549,
+        "process_nm": 90,
+        "foundry": "TSMC",
+        "transistors": 321000000,
+        "die_size_mm2": 288,
+        "tmus": 16,
+        "rops": 16,
+        "gpu_clock_mhz": 625,
+        "graphics_api": [
+          "DirectX 9.0c",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "GDDR3",
+        "memory_size_mb": 512,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 750,
+        "memory_bandwidth_gbs": 48,
+        "interface": "PCIe x16"
+      }
+    },
+    {
+      "id": "ati-xenos-xbox-360",
+      "name": "Xenos (Xbox 360)",
+      "family": "Console",
+      "released": "2005-11-22",
+      "specs": {
+        "codename": "C1",
+        "market": "Console",
+        "process_nm": 90,
+        "foundry": "TSMC",
+        "transistors": 232000000,
+        "shading_units": 48,
+        "tmus": 16,
+        "rops": 8,
+        "gpu_clock_mhz": 500,
+        "sram_kb": 10240,
+        "memory_type": "GDDR3",
+        "memory_size_mb": 512,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 22.4,
+        "fp32_tflops": 0.24
+      }
+    },
+    {
+      "id": "ati-radeon-x1900-xtx",
+      "name": "Radeon X1900 XTX",
+      "family": "Radeon X1000",
+      "released": "2006-01-24",
+      "specs": {
+        "codename": "R580",
+        "market": "Desktop",
+        "launch_price_usd": 649,
+        "process_nm": 90,
+        "foundry": "TSMC",
+        "transistors": 384000000,
+        "die_size_mm2": 352,
+        "shading_units": 48,
+        "tmus": 16,
+        "rops": 16,
+        "gpu_clock_mhz": 650,
+        "graphics_api": [
+          "DirectX 9.0c",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "GDDR3",
+        "memory_size_mb": 512,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 775,
+        "memory_bandwidth_gbs": 49.6,
+        "interface": "PCIe x16"
+      }
+    },
+    {
+      "id": "ati-radeon-x1950-xtx",
+      "name": "Radeon X1950 XTX",
+      "family": "Radeon X1000",
+      "released": "2006-08-23",
+      "specs": {
+        "codename": "R580+",
+        "market": "Desktop",
+        "launch_price_usd": 449,
+        "process_nm": 90,
+        "foundry": "TSMC",
+        "transistors": 384000000,
+        "shading_units": 48,
+        "tmus": 16,
+        "rops": 16,
+        "gpu_clock_mhz": 650,
+        "graphics_api": [
+          "DirectX 9.0c",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "GDDR4",
+        "memory_size_mb": 512,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 1000,
+        "memory_bandwidth_gbs": 64,
+        "interface": "PCIe x16"
+      }
+    },
+    {
+      "id": "ati-radeon-x1950-pro",
+      "name": "Radeon X1950 Pro",
+      "family": "Radeon X1000",
+      "released": "2006-10-17",
+      "specs": {
+        "codename": "RV570",
+        "market": "Desktop",
+        "launch_price_usd": 199,
+        "process_nm": 80,
+        "foundry": "TSMC",
+        "transistors": 330000000,
+        "die_size_mm2": 230,
+        "shading_units": 36,
+        "tmus": 12,
+        "rops": 12,
+        "gpu_clock_mhz": 575,
+        "graphics_api": [
+          "DirectX 9.0c",
+          "OpenGL 2.0"
+        ],
+        "memory_type": "GDDR3",
+        "memory_size_mb": 256,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 690,
+        "memory_bandwidth_gbs": 44.2,
+        "interface": "PCIe x16 / AGP 8x"
+      }
+    }
+  ]
+}

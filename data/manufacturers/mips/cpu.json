@@ -1,0 +1,121 @@
+{
+  "manufacturer": "mips",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "mips-r2000",
+      "name": "R2000",
+      "family": "R2000",
+      "released": "1986-01",
+      "specs": {
+        "isa": "MIPS I",
+        "process_nm": 2000,
+        "transistors": 110000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 16.67,
+        "cores": 1
+      }
+    },
+    {
+      "id": "mips-r3000",
+      "name": "R3000",
+      "family": "R3000",
+      "released": "1988-06",
+      "specs": {
+        "isa": "MIPS I",
+        "process_nm": 1200,
+        "transistors": 115000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "mips-r4000",
+      "name": "R4000",
+      "family": "R4000",
+      "released": "1991-10",
+      "specs": {
+        "isa": "MIPS III",
+        "process_nm": 1000,
+        "transistors": 1350000,
+        "die_size_mm2": 213,
+        "data_width_bits": 64,
+        "base_clock_mhz": 100,
+        "cores": 1,
+        "l1_cache_kb": 16
+      }
+    },
+    {
+      "id": "mips-r4400",
+      "name": "R4400",
+      "family": "R4000",
+      "released": "1992-11",
+      "specs": {
+        "isa": "MIPS III",
+        "process_nm": 600,
+        "transistors": 2300000,
+        "die_size_mm2": 186,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 32
+      }
+    },
+    {
+      "id": "mips-r8000",
+      "name": "R8000",
+      "family": "R8000",
+      "released": "1994-06",
+      "specs": {
+        "isa": "MIPS IV",
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 32
+      }
+    },
+    {
+      "id": "mips-r10000",
+      "name": "R10000",
+      "family": "R10000",
+      "released": "1996-01",
+      "specs": {
+        "codename": "T5",
+        "isa": "MIPS IV",
+        "process_nm": 350,
+        "transistors": 6800000,
+        "die_size_mm2": 298,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 64
+      }
+    },
+    {
+      "id": "mips-r12000",
+      "name": "R12000",
+      "family": "R10000",
+      "released": "1998-11",
+      "specs": {
+        "isa": "MIPS IV",
+        "process_nm": 250,
+        "transistors": 7150000,
+        "die_size_mm2": 204,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 64
+      }
+    },
+    {
+      "id": "mips-r14000",
+      "name": "R14000",
+      "family": "R10000",
+      "released": "2001-07",
+      "specs": {
+        "isa": "MIPS IV",
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 64
+      }
+    }
+  ]
+}

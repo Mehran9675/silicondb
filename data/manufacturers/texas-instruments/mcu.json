@@ -1,0 +1,84 @@
+{
+  "manufacturer": "texas-instruments",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "texas-instruments-tms1000",
+      "name": "TMS1000",
+      "family": "TMS1000",
+      "released": "1974",
+      "specs": {
+        "data_width_bits": 4,
+        "sram_kb": 0.03125,
+        "package": "28-pin DIP"
+      }
+    },
+    {
+      "id": "texas-instruments-tms320f28335",
+      "name": "TMS320F28335",
+      "family": "C2000 Delfino",
+      "released": "2008",
+      "specs": {
+        "isa": "C28x",
+        "data_width_bits": 32,
+        "base_clock_mhz": 150,
+        "flash_kb": 512,
+        "sram_kb": 68
+      }
+    },
+    {
+      "id": "texas-instruments-msp430g2553",
+      "name": "MSP430G2553",
+      "family": "MSP430",
+      "released": "2011",
+      "specs": {
+        "isa": "MSP430",
+        "data_width_bits": 16,
+        "base_clock_mhz": 16,
+        "flash_kb": 16,
+        "sram_kb": 0.5
+      }
+    },
+    {
+      "id": "texas-instruments-tm4c123gh6pm",
+      "name": "TM4C123GH6PM",
+      "family": "Tiva C",
+      "released": "2013",
+      "specs": {
+        "isa": "ARMv7E-M",
+        "microarchitecture": "Cortex-M4F",
+        "data_width_bits": 32,
+        "base_clock_mhz": 80,
+        "flash_kb": 256,
+        "sram_kb": 32
+      }
+    },
+    {
+      "id": "texas-instruments-msp430fr5969",
+      "name": "MSP430FR5969",
+      "family": "MSP430 FRAM",
+      "released": "2014",
+      "specs": {
+        "isa": "MSP430X",
+        "data_width_bits": 16,
+        "base_clock_mhz": 16,
+        "flash_kb": 64,
+        "sram_kb": 2
+      }
+    },
+    {
+      "id": "texas-instruments-mspm0g3507",
+      "name": "MSPM0G3507",
+      "family": "MSPM0",
+      "released": "2023",
+      "specs": {
+        "isa": "ARMv6-M",
+        "microarchitecture": "Cortex-M0+",
+        "data_width_bits": 32,
+        "base_clock_mhz": 80,
+        "flash_kb": 128,
+        "sram_kb": 32
+      }
+    }
+  ]
+}

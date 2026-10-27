@@ -1,0 +1,146 @@
+{
+  "manufacturer": "broadcom",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "broadcom-bcm2835",
+      "name": "BCM2835",
+      "family": "Raspberry Pi SoC",
+      "released": "2012-02",
+      "specs": {
+        "microarchitecture": "ARM1176JZF-S",
+        "isa": "ARMv6",
+        "market": "Single-board computer",
+        "process_nm": 40,
+        "cores": 1,
+        "base_clock_mhz": 700,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 128,
+        "gpu": "VideoCore IV",
+        "gpu_clock_mhz": 250,
+        "graphics_api": [
+          "OpenGL ES 2.0",
+          "OpenVG"
+        ]
+      }
+    },
+    {
+      "id": "broadcom-bcm2836",
+      "name": "BCM2836",
+      "family": "Raspberry Pi SoC",
+      "released": "2015-02",
+      "specs": {
+        "microarchitecture": "Cortex-A7",
+        "isa": "ARMv7-A",
+        "market": "Single-board computer",
+        "process_nm": 40,
+        "cores": 4,
+        "base_clock_mhz": 900,
+        "l2_cache_kb": 512,
+        "gpu": "VideoCore IV",
+        "gpu_clock_mhz": 250,
+        "graphics_api": [
+          "OpenGL ES 2.0",
+          "OpenVG"
+        ]
+      }
+    },
+    {
+      "id": "broadcom-bcm2837",
+      "name": "BCM2837",
+      "family": "Raspberry Pi SoC",
+      "released": "2016-02",
+      "specs": {
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Single-board computer",
+        "process_nm": 40,
+        "cores": 4,
+        "base_clock_mhz": 1200,
+        "l2_cache_kb": 512,
+        "gpu": "VideoCore IV",
+        "graphics_api": [
+          "OpenGL ES 2.0",
+          "OpenVG"
+        ]
+      }
+    },
+    {
+      "id": "broadcom-bcm2837b0",
+      "name": "BCM2837B0",
+      "family": "Raspberry Pi SoC",
+      "released": "2018-03",
+      "specs": {
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Single-board computer",
+        "process_nm": 40,
+        "cores": 4,
+        "base_clock_mhz": 1400,
+        "l2_cache_kb": 512,
+        "gpu": "VideoCore IV",
+        "graphics_api": [
+          "OpenGL ES 2.0",
+          "OpenVG"
+        ]
+      }
+    },
+    {
+      "id": "broadcom-bcm2711",
+      "name": "BCM2711",
+      "family": "Raspberry Pi SoC",
+      "released": "2019-06",
+      "specs": {
+        "microarchitecture": "Cortex-A72",
+        "isa": "ARMv8-A",
+        "market": "Single-board computer",
+        "process_nm": 28,
+        "cores": 4,
+        "base_clock_mhz": 1500,
+        "l2_cache_kb": 1024,
+        "gpu": "VideoCore VI",
+        "gpu_clock_mhz": 500,
+        "memory_type": "LPDDR4-3200"
+      }
+    },
+    {
+      "id": "broadcom-bcm2710a1",
+      "name": "BCM2710A1",
+      "family": "Raspberry Pi SoC",
+      "released": "2021-10",
+      "specs": {
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Single-board computer",
+        "process_nm": 40,
+        "cores": 4,
+        "base_clock_mhz": 1000,
+        "l2_cache_kb": 512,
+        "gpu": "VideoCore IV",
+        "graphics_api": [
+          "OpenGL ES 2.0",
+          "OpenVG"
+        ]
+      }
+    },
+    {
+      "id": "broadcom-bcm2712",
+      "name": "BCM2712",
+      "family": "Raspberry Pi SoC",
+      "released": "2023-10",
+      "specs": {
+        "microarchitecture": "Cortex-A76",
+        "isa": "ARMv8.2-A",
+        "market": "Single-board computer",
+        "process_nm": 16,
+        "cores": 4,
+        "base_clock_mhz": 2400,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 2048,
+        "gpu": "VideoCore VII",
+        "gpu_clock_mhz": 800,
+        "memory_type": "LPDDR4X-4267"
+      }
+    }
+  ]
+}

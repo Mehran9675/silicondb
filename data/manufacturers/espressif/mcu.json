@@ -1,0 +1,190 @@
+{
+  "manufacturer": "espressif",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "espressif-esp8266ex",
+      "name": "ESP8266EX",
+      "family": "ESP8266",
+      "released": "2014-08",
+      "specs": {
+        "microarchitecture": "Tensilica L106",
+        "isa": "Xtensa",
+        "data_width_bits": 32,
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "cores": 1,
+        "base_clock_mhz": 80,
+        "boost_clock_mhz": 160,
+        "connectivity": [
+          "Wi-Fi 4 (802.11 b/g/n)"
+        ],
+        "package": "QFN32"
+      }
+    },
+    {
+      "id": "espressif-esp32",
+      "name": "ESP32",
+      "family": "ESP32",
+      "released": "2016-09",
+      "specs": {
+        "microarchitecture": "Tensilica Xtensa LX6",
+        "isa": "Xtensa",
+        "data_width_bits": 32,
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "cores": 2,
+        "base_clock_mhz": 240,
+        "sram_kb": 520,
+        "connectivity": [
+          "Wi-Fi 4 (802.11 b/g/n)",
+          "Bluetooth 4.2 BR/EDR",
+          "Bluetooth LE"
+        ]
+      }
+    },
+    {
+      "id": "espressif-esp32-s2",
+      "name": "ESP32-S2",
+      "family": "ESP32-S",
+      "released": "2020",
+      "specs": {
+        "microarchitecture": "Tensilica Xtensa LX7",
+        "isa": "Xtensa",
+        "data_width_bits": 32,
+        "cores": 1,
+        "base_clock_mhz": 240,
+        "sram_kb": 320,
+        "connectivity": [
+          "Wi-Fi 4 (802.11 b/g/n)",
+          "USB 1.1 OTG"
+        ]
+      }
+    },
+    {
+      "id": "espressif-esp32-c3",
+      "name": "ESP32-C3",
+      "family": "ESP32-C",
+      "released": "2020-11",
+      "specs": {
+        "isa": "RISC-V (RV32IMC)",
+        "data_width_bits": 32,
+        "cores": 1,
+        "base_clock_mhz": 160,
+        "sram_kb": 400,
+        "connectivity": [
+          "Wi-Fi 4 (802.11 b/g/n)",
+          "Bluetooth 5 LE"
+        ]
+      }
+    },
+    {
+      "id": "espressif-esp32-s3",
+      "name": "ESP32-S3",
+      "family": "ESP32-S",
+      "released": "2020-12",
+      "specs": {
+        "microarchitecture": "Tensilica Xtensa LX7",
+        "isa": "Xtensa",
+        "data_width_bits": 32,
+        "cores": 2,
+        "base_clock_mhz": 240,
+        "sram_kb": 512,
+        "connectivity": [
+          "Wi-Fi 4 (802.11 b/g/n)",
+          "Bluetooth 5 LE",
+          "USB 1.1 OTG"
+        ]
+      }
+    },
+    {
+      "id": "espressif-esp32-c2",
+      "name": "ESP32-C2",
+      "family": "ESP32-C",
+      "released": "2022",
+      "specs": {
+        "isa": "RISC-V (RV32IMC)",
+        "data_width_bits": 32,
+        "cores": 1,
+        "base_clock_mhz": 120,
+        "sram_kb": 272,
+        "connectivity": [
+          "Wi-Fi 4 (802.11 b/g/n)",
+          "Bluetooth 5 LE"
+        ]
+      }
+    },
+    {
+      "id": "espressif-esp32-c6",
+      "name": "ESP32-C6",
+      "family": "ESP32-C",
+      "released": "2023",
+      "specs": {
+        "isa": "RISC-V (RV32IMAC)",
+        "data_width_bits": 32,
+        "cores": 2,
+        "core_config": "1x HP RISC-V 160 MHz + 1x LP RISC-V 20 MHz",
+        "base_clock_mhz": 160,
+        "sram_kb": 512,
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax, 2.4 GHz)",
+          "Bluetooth 5 LE",
+          "IEEE 802.15.4 (Thread/Zigbee)"
+        ]
+      }
+    },
+    {
+      "id": "espressif-esp32-h2",
+      "name": "ESP32-H2",
+      "family": "ESP32-H",
+      "released": "2023",
+      "specs": {
+        "isa": "RISC-V (RV32IMAC)",
+        "data_width_bits": 32,
+        "cores": 1,
+        "base_clock_mhz": 96,
+        "sram_kb": 320,
+        "connectivity": [
+          "Bluetooth 5 LE",
+          "IEEE 802.15.4 (Thread/Zigbee)"
+        ]
+      }
+    },
+    {
+      "id": "espressif-esp32-p4",
+      "name": "ESP32-P4",
+      "family": "ESP32-P",
+      "released": "2024",
+      "specs": {
+        "isa": "RISC-V (RV32IMAFC)",
+        "data_width_bits": 32,
+        "cores": 3,
+        "core_config": "2x HP RISC-V 400 MHz + 1x LP RISC-V",
+        "base_clock_mhz": 400,
+        "sram_kb": 768,
+        "connectivity": [
+          "USB 2.0 High Speed OTG",
+          "Ethernet",
+          "MIPI CSI",
+          "MIPI DSI"
+        ]
+      }
+    },
+    {
+      "id": "espressif-esp32-c5",
+      "name": "ESP32-C5",
+      "family": "ESP32-C",
+      "released": "2025",
+      "specs": {
+        "isa": "RISC-V (RV32IMAC)",
+        "data_width_bits": 32,
+        "base_clock_mhz": 240,
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax, 2.4/5 GHz)",
+          "Bluetooth 5 LE",
+          "IEEE 802.15.4 (Thread/Zigbee)"
+        ]
+      }
+    }
+  ]
+}

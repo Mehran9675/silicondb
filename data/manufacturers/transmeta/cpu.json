@@ -1,0 +1,112 @@
+{
+  "manufacturer": "transmeta",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "transmeta-tm5600",
+      "name": "Crusoe TM5600",
+      "family": "Crusoe",
+      "released": "2000",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 180,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 512,
+        "instruction_sets": [
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "transmeta-tm3120",
+      "name": "Crusoe TM3120",
+      "family": "Crusoe",
+      "released": "2000-01",
+      "specs": {
+        "isa": "x86",
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 96
+      }
+    },
+    {
+      "id": "transmeta-tm5400",
+      "name": "Crusoe TM5400",
+      "family": "Crusoe",
+      "released": "2000-01",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 180,
+        "data_width_bits": 32,
+        "boost_clock_mhz": 700,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 256,
+        "instruction_sets": [
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "transmeta-tm5800",
+      "name": "Crusoe TM5800",
+      "family": "Crusoe",
+      "released": "2001",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 130,
+        "data_width_bits": 32,
+        "boost_clock_mhz": 1000,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 512,
+        "instruction_sets": [
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "transmeta-tm8800",
+      "name": "Efficeon TM8800",
+      "family": "Efficeon",
+      "released": "2004",
+      "specs": {
+        "isa": "x86",
+        "foundry": "Fujitsu",
+        "process_nm": 90,
+        "data_width_bits": 32,
+        "boost_clock_mhz": 1700,
+        "cores": 1,
+        "l1_cache_kb": 192,
+        "l2_cache_kb": 1024,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    },
+    {
+      "id": "transmeta-tm8600",
+      "name": "Efficeon TM8600",
+      "family": "Efficeon",
+      "released": "2004-01",
+      "specs": {
+        "isa": "x86",
+        "foundry": "TSMC",
+        "process_nm": 130,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 192,
+        "l2_cache_kb": 1024,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    }
+  ]
+}

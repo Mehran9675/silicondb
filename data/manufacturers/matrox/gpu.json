@@ -1,0 +1,174 @@
+{
+  "manufacturer": "matrox",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "matrox-millennium",
+      "name": "Millennium",
+      "family": "Millennium",
+      "released": "1995",
+      "specs": {
+        "codename": "MGA-2064W",
+        "market": "Consumer",
+        "memory_type": "WRAM",
+        "memory_bus_bits": 64,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "matrox-mystique",
+      "name": "Mystique",
+      "family": "Mystique",
+      "released": "1996",
+      "specs": {
+        "codename": "MGA-1064SG",
+        "market": "Consumer",
+        "memory_type": "SGRAM",
+        "memory_bus_bits": 64,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "matrox-millennium-ii",
+      "name": "Millennium II",
+      "family": "Millennium",
+      "released": "1996",
+      "specs": {
+        "codename": "MGA-2164W",
+        "market": "Consumer",
+        "memory_type": "WRAM",
+        "memory_bus_bits": 64,
+        "interface": "PCI / AGP"
+      }
+    },
+    {
+      "id": "matrox-g200",
+      "name": "G200",
+      "family": "G200",
+      "released": "1998-06",
+      "specs": {
+        "codename": "MGA-G200",
+        "market": "Consumer",
+        "process_nm": 350,
+        "gpu_clock_mhz": 84,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.1"
+        ],
+        "memory_type": "SGRAM",
+        "memory_size_mb": 8,
+        "memory_bus_bits": 64,
+        "interface": "AGP 2x"
+      }
+    },
+    {
+      "id": "matrox-g400",
+      "name": "G400",
+      "family": "G400",
+      "released": "1999-05",
+      "specs": {
+        "codename": "MGA-G400",
+        "market": "Consumer",
+        "process_nm": 250,
+        "tmus": 2,
+        "rops": 2,
+        "gpu_clock_mhz": 125,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ],
+        "memory_type": "SGRAM / SDRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "matrox-g400-max",
+      "name": "G400 MAX",
+      "family": "G400",
+      "released": "1999-09",
+      "specs": {
+        "codename": "MGA-G400",
+        "market": "Consumer",
+        "process_nm": 250,
+        "tmus": 2,
+        "rops": 2,
+        "gpu_clock_mhz": 150,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ],
+        "memory_type": "SGRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "matrox-g450",
+      "name": "G450",
+      "family": "G450",
+      "released": "2000",
+      "specs": {
+        "codename": "MGA-G450",
+        "market": "Consumer",
+        "process_nm": 180,
+        "tmus": 2,
+        "rops": 2,
+        "gpu_clock_mhz": 125,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ],
+        "memory_type": "DDR SDRAM",
+        "memory_bus_bits": 64,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "matrox-g550",
+      "name": "G550",
+      "family": "G550",
+      "released": "2001",
+      "specs": {
+        "codename": "MGA-G550",
+        "market": "Consumer",
+        "process_nm": 180,
+        "tmus": 2,
+        "rops": 2,
+        "gpu_clock_mhz": 125,
+        "memory_type": "DDR SDRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 64,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "matrox-parhelia-512",
+      "name": "Parhelia-512",
+      "family": "Parhelia",
+      "released": "2002-06",
+      "specs": {
+        "codename": "Parhelia-512",
+        "market": "Consumer",
+        "launch_price_usd": 399,
+        "process_nm": 150,
+        "foundry": "UMC",
+        "transistors": 80000000,
+        "tmus": 16,
+        "rops": 4,
+        "gpu_clock_mhz": 220,
+        "graphics_api": [
+          "DirectX 8.1",
+          "OpenGL 1.3"
+        ],
+        "memory_type": "DDR SDRAM",
+        "memory_size_mb": 128,
+        "memory_bus_bits": 256,
+        "memory_bandwidth_gbs": 17.6,
+        "interface": "AGP 4x"
+      }
+    }
+  ]
+}

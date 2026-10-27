@@ -1,0 +1,36 @@
+{
+  "manufacturer": "motorola",
+  "category": "dsp",
+  "chips": [
+    {
+      "id": "motorola-dsp56000",
+      "name": "DSP56000",
+      "family": "DSP56000",
+      "released": "1986",
+      "specs": {
+        "data_width_bits": 24,
+        "cores": 1
+      }
+    },
+    {
+      "id": "motorola-dsp56001",
+      "name": "DSP56001",
+      "family": "DSP56000",
+      "released": "1987",
+      "specs": {
+        "data_width_bits": 24,
+        "cores": 1
+      }
+    },
+    {
+      "id": "motorola-dsp96002",
+      "name": "DSP96002",
+      "family": "DSP96000",
+      "released": "1989",
+      "specs": {
+        "data_width_bits": 32,
+        "cores": 1
+      }
+    }
+  ]
+}

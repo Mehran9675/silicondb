@@ -1,0 +1,168 @@
+{
+  "manufacturer": "via",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "via-cyrix-iii",
+      "name": "Cyrix III",
+      "family": "Cyrix III",
+      "released": "2000-02",
+      "specs": {
+        "codename": "Samuel",
+        "isa": "x86",
+        "process_nm": 180,
+        "transistors": 11300000,
+        "die_size_mm2": 75,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "socket": "Socket 370",
+        "instruction_sets": [
+          "MMX",
+          "3DNow!"
+        ]
+      }
+    },
+    {
+      "id": "via-c3",
+      "name": "C3",
+      "family": "C3",
+      "released": "2001",
+      "specs": {
+        "codename": "Samuel 2",
+        "isa": "x86",
+        "process_nm": 150,
+        "transistors": 15200000,
+        "die_size_mm2": 52,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 64,
+        "socket": "Socket 370",
+        "instruction_sets": [
+          "MMX",
+          "3DNow!"
+        ]
+      }
+    },
+    {
+      "id": "via-c3-nehemiah",
+      "name": "C3 (Nehemiah)",
+      "family": "C3",
+      "released": "2003-01",
+      "specs": {
+        "codename": "Nehemiah",
+        "isa": "x86",
+        "process_nm": 130,
+        "die_size_mm2": 52,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 64,
+        "instruction_sets": [
+          "MMX",
+          "SSE"
+        ]
+      }
+    },
+    {
+      "id": "via-c7",
+      "name": "C7",
+      "family": "C7",
+      "released": "2005-05",
+      "specs": {
+        "codename": "Esther",
+        "isa": "x86",
+        "foundry": "IBM",
+        "process_nm": 90,
+        "die_size_mm2": 30,
+        "data_width_bits": 32,
+        "boost_clock_mhz": 2000,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 128,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3"
+        ]
+      }
+    },
+    {
+      "id": "via-nano",
+      "name": "Nano",
+      "family": "Nano",
+      "released": "2008-05",
+      "specs": {
+        "codename": "Isaiah",
+        "microarchitecture": "Isaiah",
+        "isa": "x86-64",
+        "foundry": "Fujitsu",
+        "process_nm": 65,
+        "transistors": 94000000,
+        "die_size_mm2": 63,
+        "data_width_bits": 64,
+        "boost_clock_mhz": 1800,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 1024,
+        "tdp_w": 25,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3"
+        ]
+      }
+    },
+    {
+      "id": "via-nano-x2",
+      "name": "Nano X2",
+      "family": "Nano",
+      "released": "2011-01",
+      "specs": {
+        "microarchitecture": "Isaiah",
+        "isa": "x86-64",
+        "foundry": "TSMC",
+        "process_nm": 40,
+        "data_width_bits": 64,
+        "cores": 2,
+        "l2_cache_kb": 2048,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1"
+        ]
+      }
+    },
+    {
+      "id": "via-quadcore",
+      "name": "QuadCore",
+      "family": "Nano",
+      "released": "2011-05",
+      "specs": {
+        "microarchitecture": "Isaiah",
+        "isa": "x86-64",
+        "process_nm": 40,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1200,
+        "cores": 4,
+        "l2_cache_kb": 4096,
+        "tdp_w": 27.5,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1"
+        ]
+      }
+    }
+  ]
+}

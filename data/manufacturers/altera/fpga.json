@@ -1,0 +1,305 @@
+{
+  "manufacturer": "altera",
+  "category": "fpga",
+  "chips": [
+    {
+      "id": "altera-epf81500",
+      "name": "EPF81500",
+      "family": "FLEX 8000",
+      "released": "1992",
+      "specs": {
+        "logic_elements": 1296
+      }
+    },
+    {
+      "id": "altera-epf10k100",
+      "name": "EPF10K100",
+      "family": "FLEX 10K",
+      "released": "1995",
+      "specs": {
+        "logic_elements": 4992,
+        "block_ram_kb": 3
+      }
+    },
+    {
+      "id": "altera-ep20k1500e",
+      "name": "EP20K1500E",
+      "family": "APEX 20KE",
+      "released": "1999",
+      "specs": {
+        "process_nm": 180,
+        "logic_elements": 51840,
+        "block_ram_kb": 54
+      }
+    },
+    {
+      "id": "altera-ep1s80",
+      "name": "EP1S80",
+      "family": "Stratix",
+      "released": "2002",
+      "specs": {
+        "process_nm": 130,
+        "logic_elements": 79040,
+        "dsp_slices": 22,
+        "block_ram_kb": 906,
+        "io_pins": 1238
+      }
+    },
+    {
+      "id": "altera-ep1c20",
+      "name": "EP1C20",
+      "family": "Cyclone",
+      "released": "2002",
+      "specs": {
+        "process_nm": 130,
+        "logic_elements": 20060,
+        "block_ram_kb": 36,
+        "io_pins": 301
+      }
+    },
+    {
+      "id": "altera-ep2s180",
+      "name": "EP2S180",
+      "family": "Stratix II",
+      "released": "2004",
+      "specs": {
+        "process_nm": 90,
+        "logic_elements": 179400,
+        "dsp_slices": 96,
+        "block_ram_kb": 1145,
+        "io_pins": 1170
+      }
+    },
+    {
+      "id": "altera-ep2c70",
+      "name": "EP2C70",
+      "family": "Cyclone II",
+      "released": "2004",
+      "specs": {
+        "process_nm": 90,
+        "logic_elements": 68416,
+        "block_ram_kb": 140,
+        "io_pins": 622
+      }
+    },
+    {
+      "id": "altera-max-ii-epm2210",
+      "name": "EPM2210",
+      "family": "MAX II",
+      "released": "2004",
+      "specs": {
+        "process_nm": 180,
+        "logic_elements": 2210
+      }
+    },
+    {
+      "id": "altera-ep3sl340",
+      "name": "EP3SL340",
+      "family": "Stratix III",
+      "released": "2006",
+      "specs": {
+        "process_nm": 65,
+        "logic_elements": 337500
+      }
+    },
+    {
+      "id": "altera-ep3c120",
+      "name": "EP3C120",
+      "family": "Cyclone III",
+      "released": "2007",
+      "specs": {
+        "process_nm": 65,
+        "logic_elements": 119088,
+        "block_ram_kb": 486,
+        "io_pins": 531
+      }
+    },
+    {
+      "id": "altera-ep1agx90",
+      "name": "EP1AGX90",
+      "family": "Arria GX",
+      "released": "2007",
+      "specs": {
+        "process_nm": 90,
+        "logic_elements": 90220
+      }
+    },
+    {
+      "id": "altera-ep4se820",
+      "name": "EP4SE820",
+      "family": "Stratix IV",
+      "released": "2008",
+      "specs": {
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "logic_elements": 813050
+      }
+    },
+    {
+      "id": "altera-ep4ce115",
+      "name": "EP4CE115",
+      "family": "Cyclone IV E",
+      "released": "2009",
+      "specs": {
+        "process_nm": 60,
+        "foundry": "TSMC",
+        "logic_elements": 114480,
+        "block_ram_kb": 486,
+        "io_pins": 528
+      }
+    },
+    {
+      "id": "altera-ep2agx260",
+      "name": "EP2AGX260",
+      "family": "Arria II GX",
+      "released": "2009",
+      "specs": {
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "logic_elements": 256500
+      }
+    },
+    {
+      "id": "altera-5sgxab",
+      "name": "5SGXAB",
+      "family": "Stratix V",
+      "released": "2010",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "logic_elements": 952000
+      }
+    },
+    {
+      "id": "altera-5csema5",
+      "name": "5CSEMA5",
+      "family": "Cyclone V SoC",
+      "released": "2011",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "logic_elements": 85000,
+        "dsp_slices": 87,
+        "block_ram_kb": 556,
+        "cores": 2,
+        "microarchitecture": "Arm Cortex-A9 (HPS)"
+      }
+    },
+    {
+      "id": "altera-10m50",
+      "name": "10M50",
+      "family": "MAX 10",
+      "released": "2014",
+      "specs": {
+        "process_nm": 55,
+        "foundry": "TSMC",
+        "logic_elements": 50000,
+        "block_ram_kb": 204
+      }
+    },
+    {
+      "id": "altera-10ax115",
+      "name": "10AX115",
+      "family": "Arria 10 GX",
+      "released": "2014",
+      "specs": {
+        "process_nm": 20,
+        "foundry": "TSMC",
+        "logic_elements": 1150000,
+        "dsp_slices": 1518,
+        "block_ram_kb": 6782,
+        "transceivers": 96
+      }
+    },
+    {
+      "id": "altera-1sg280",
+      "name": "GX 2800 (1SG280)",
+      "family": "Stratix 10 GX",
+      "released": "2016",
+      "specs": {
+        "process_nm": 14,
+        "foundry": "Intel",
+        "logic_elements": 2753000,
+        "dsp_slices": 5760,
+        "transceivers": 96
+      }
+    },
+    {
+      "id": "altera-10cx220",
+      "name": "10CX220",
+      "family": "Cyclone 10 GX",
+      "released": "2017",
+      "specs": {
+        "process_nm": 20,
+        "foundry": "TSMC",
+        "logic_elements": 220000,
+        "dsp_slices": 192,
+        "transceivers": 12
+      }
+    },
+    {
+      "id": "altera-10cl120",
+      "name": "10CL120",
+      "family": "Cyclone 10 LP",
+      "released": "2017",
+      "specs": {
+        "process_nm": 60,
+        "foundry": "TSMC",
+        "logic_elements": 120000
+      }
+    },
+    {
+      "id": "altera-agilex-7-f",
+      "name": "Agilex 7 F-Series",
+      "family": "Agilex 7",
+      "released": "2019",
+      "specs": {
+        "process_nm": 10,
+        "foundry": "Intel"
+      }
+    },
+    {
+      "id": "altera-stratix-10-gx-10m",
+      "name": "GX 10M",
+      "family": "Stratix 10 GX",
+      "released": "2019-11",
+      "specs": {
+        "process_nm": 14,
+        "foundry": "Intel",
+        "logic_elements": 10200000
+      }
+    },
+    {
+      "id": "altera-agilex-7-m",
+      "name": "Agilex 7 M-Series",
+      "family": "Agilex 7",
+      "released": "2022",
+      "specs": {
+        "process_nm": 7,
+        "foundry": "Intel",
+        "memory_type": "HBM2e"
+      }
+    },
+    {
+      "id": "altera-agilex-5",
+      "name": "Agilex 5 E-Series",
+      "family": "Agilex 5",
+      "released": "2024",
+      "specs": {
+        "process_nm": 7,
+        "foundry": "Intel",
+        "microarchitecture": "Arm Cortex-A76 + Cortex-A55 (HPS)"
+      }
+    },
+    {
+      "id": "altera-agilex-3",
+      "name": "Agilex 3",
+      "family": "Agilex 3",
+      "released": "2025",
+      "specs": {
+        "process_nm": 7,
+        "foundry": "Intel"
+      }
+    }
+  ]
+}

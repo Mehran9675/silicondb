@@ -1,0 +1,43 @@
+{
+  "manufacturer": "tesla",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "tesla-fsd-hw3",
+      "name": "FSD Chip (HW3)",
+      "family": "Full Self-Driving",
+      "released": "2019-04",
+      "specs": {
+        "market": "Automotive",
+        "process_nm": 14,
+        "foundry": "Samsung",
+        "transistors": 6000000000,
+        "die_size_mm2": 260,
+        "microarchitecture": "Cortex-A72",
+        "isa": "ARMv8-A",
+        "cores": 12,
+        "base_clock_mhz": 2200,
+        "gpu": "Mali-G71 MP12",
+        "gpu_clock_mhz": 1000,
+        "memory_type": "LPDDR4-4266",
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 68,
+        "npu_tops": 73.7,
+        "tdp_w": 36
+      }
+    },
+    {
+      "id": "tesla-ai4",
+      "name": "AI4 (HW4)",
+      "family": "Full Self-Driving",
+      "released": "2023-02",
+      "specs": {
+        "market": "Automotive",
+        "process_nm": 7,
+        "foundry": "Samsung",
+        "cores": 20,
+        "memory_type": "GDDR6"
+      }
+    }
+  ]
+}

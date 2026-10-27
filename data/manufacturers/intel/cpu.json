@@ -1,0 +1,3393 @@
+{
+  "manufacturer": "intel",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "intel-8008",
+      "name": "8008",
+      "family": "MCS-8",
+      "released": "1972-04",
+      "specs": {
+        "isa": "8008",
+        "process_nm": 10000,
+        "transistors": 3500,
+        "data_width_bits": 8,
+        "address_width_bits": 14,
+        "base_clock_mhz": 0.5,
+        "cores": 1,
+        "package": "18-pin DIP"
+      }
+    },
+    {
+      "id": "intel-8080",
+      "name": "8080",
+      "family": "MCS-80",
+      "released": "1974-04",
+      "specs": {
+        "isa": "8080",
+        "process_nm": 6000,
+        "transistors": 4500,
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 2,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "intel-8085",
+      "name": "8085",
+      "family": "MCS-85",
+      "released": "1976-03",
+      "specs": {
+        "isa": "8085",
+        "process_nm": 3000,
+        "transistors": 6500,
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 3,
+        "cores": 1,
+        "package": "40-pin DIP",
+        "voltage_v": 5
+      }
+    },
+    {
+      "id": "intel-8086",
+      "name": "8086",
+      "family": "x86",
+      "released": "1978-06",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 3000,
+        "transistors": 29000,
+        "data_width_bits": 16,
+        "address_width_bits": 20,
+        "base_clock_mhz": 5,
+        "cores": 1,
+        "package": "40-pin DIP",
+        "voltage_v": 5
+      }
+    },
+    {
+      "id": "intel-8088",
+      "name": "8088",
+      "family": "x86",
+      "released": "1979-07",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 3000,
+        "transistors": 29000,
+        "data_width_bits": 8,
+        "address_width_bits": 20,
+        "base_clock_mhz": 5,
+        "cores": 1,
+        "package": "40-pin DIP",
+        "voltage_v": 5
+      }
+    },
+    {
+      "id": "intel-80186",
+      "name": "80186",
+      "family": "x86",
+      "released": "1982",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 3000,
+        "transistors": 55000,
+        "data_width_bits": 16,
+        "address_width_bits": 20,
+        "base_clock_mhz": 6,
+        "cores": 1,
+        "package": "68-pin PLCC"
+      }
+    },
+    {
+      "id": "intel-80286",
+      "name": "80286",
+      "family": "x86",
+      "released": "1982-02",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 1500,
+        "transistors": 134000,
+        "data_width_bits": 16,
+        "address_width_bits": 24,
+        "base_clock_mhz": 6,
+        "cores": 1
+      }
+    },
+    {
+      "id": "intel-80386dx",
+      "name": "386DX",
+      "family": "386",
+      "released": "1985-10",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 1500,
+        "transistors": 275000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 12,
+        "cores": 1,
+        "package": "132-pin PGA"
+      }
+    },
+    {
+      "id": "intel-80960kb",
+      "name": "80960KB",
+      "family": "i960",
+      "released": "1988",
+      "specs": {
+        "isa": "i960",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "intel-80386sx",
+      "name": "386SX",
+      "family": "386",
+      "released": "1988-06",
+      "specs": {
+        "isa": "x86",
+        "transistors": 275000,
+        "data_width_bits": 16,
+        "address_width_bits": 24,
+        "base_clock_mhz": 16,
+        "cores": 1
+      }
+    },
+    {
+      "id": "intel-i860xr",
+      "name": "i860 XR",
+      "family": "i860",
+      "released": "1989",
+      "specs": {
+        "isa": "i860",
+        "process_nm": 1000,
+        "transistors": 1000000,
+        "base_clock_mhz": 25,
+        "cores": 1,
+        "l1_cache_kb": 12
+      }
+    },
+    {
+      "id": "intel-i486dx",
+      "name": "486DX",
+      "family": "486",
+      "released": "1989-04",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 1000,
+        "transistors": 1180235,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 25,
+        "cores": 1,
+        "l1_cache_kb": 8,
+        "package": "168-pin PGA",
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "intel-i486sx",
+      "name": "486SX",
+      "family": "486",
+      "released": "1991-04",
+      "specs": {
+        "isa": "x86",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 20,
+        "cores": 1,
+        "l1_cache_kb": 8
+      }
+    },
+    {
+      "id": "intel-i486dx2",
+      "name": "486DX2",
+      "family": "486",
+      "released": "1992-03",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 800,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 50,
+        "cores": 1,
+        "l1_cache_kb": 8,
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-60",
+      "name": "Pentium 60",
+      "family": "Pentium",
+      "released": "1993-03-22",
+      "specs": {
+        "codename": "P5",
+        "microarchitecture": "P5",
+        "isa": "x86",
+        "process_nm": 800,
+        "transistors": 3100000,
+        "die_size_mm2": 294,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "base_clock_mhz": 60,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "socket": "Socket 4",
+        "voltage_v": 5,
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "intel-i486dx4",
+      "name": "486DX4",
+      "family": "486",
+      "released": "1994-03",
+      "specs": {
+        "isa": "x86",
+        "process_nm": 600,
+        "transistors": 1600000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 75,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "voltage_v": 3.3,
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-100",
+      "name": "Pentium 100",
+      "family": "Pentium",
+      "released": "1994-03-07",
+      "specs": {
+        "codename": "P54C",
+        "microarchitecture": "P5",
+        "isa": "x86",
+        "process_nm": 600,
+        "transistors": 3200000,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "base_clock_mhz": 100,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "socket": "Socket 5",
+        "voltage_v": 3.3,
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-pro-200",
+      "name": "Pentium Pro 200",
+      "family": "Pentium Pro",
+      "released": "1995-11-01",
+      "specs": {
+        "codename": "P6",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 350,
+        "transistors": 5500000,
+        "data_width_bits": 64,
+        "address_width_bits": 36,
+        "base_clock_mhz": 200,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "l2_cache_kb": 256,
+        "socket": "Socket 8",
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-200",
+      "name": "Pentium 200",
+      "family": "Pentium",
+      "released": "1996-06",
+      "specs": {
+        "codename": "P54CS",
+        "microarchitecture": "P5",
+        "isa": "x86",
+        "process_nm": 350,
+        "transistors": 3300000,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "base_clock_mhz": 200,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "socket": "Socket 7",
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-mmx-200",
+      "name": "Pentium MMX 200",
+      "family": "Pentium",
+      "released": "1997-01-08",
+      "specs": {
+        "codename": "P55C",
+        "microarchitecture": "P5",
+        "isa": "x86",
+        "process_nm": 350,
+        "transistors": 4500000,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "base_clock_mhz": 200,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "socket": "Socket 7",
+        "instruction_sets": [
+          "x87",
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-ii-300",
+      "name": "Pentium II 300",
+      "family": "Pentium II",
+      "released": "1997-05-07",
+      "specs": {
+        "codename": "Klamath",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 350,
+        "transistors": 7500000,
+        "base_clock_mhz": 300,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 512,
+        "socket": "Slot 1",
+        "instruction_sets": [
+          "x87",
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-celeron-266",
+      "name": "Celeron 266",
+      "family": "Celeron",
+      "released": "1998-04-15",
+      "specs": {
+        "codename": "Covington",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 250,
+        "transistors": 7500000,
+        "base_clock_mhz": 266,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "socket": "Slot 1",
+        "instruction_sets": [
+          "x87",
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-ii-xeon-400",
+      "name": "Pentium II Xeon 400",
+      "family": "Xeon",
+      "released": "1998-06-29",
+      "specs": {
+        "codename": "Drake",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 250,
+        "base_clock_mhz": 400,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 512,
+        "socket": "Slot 2",
+        "instruction_sets": [
+          "x87",
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-ii-450",
+      "name": "Pentium II 450",
+      "family": "Pentium II",
+      "released": "1998-08-24",
+      "specs": {
+        "codename": "Deschutes",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 250,
+        "transistors": 7500000,
+        "base_clock_mhz": 450,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 512,
+        "socket": "Slot 1",
+        "instruction_sets": [
+          "x87",
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-celeron-300a",
+      "name": "Celeron 300A",
+      "family": "Celeron",
+      "released": "1998-08-24",
+      "specs": {
+        "codename": "Mendocino",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 250,
+        "transistors": 19000000,
+        "base_clock_mhz": 300,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 128,
+        "socket": "Slot 1",
+        "instruction_sets": [
+          "x87",
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-iii-500",
+      "name": "Pentium III 500",
+      "family": "Pentium III",
+      "released": "1999-02-26",
+      "specs": {
+        "codename": "Katmai",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 250,
+        "transistors": 9500000,
+        "base_clock_mhz": 500,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 512,
+        "socket": "Slot 1",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "SSE"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-iii-1000",
+      "name": "Pentium III 1000",
+      "family": "Pentium III",
+      "released": "2000-03-08",
+      "specs": {
+        "codename": "Coppermine",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 180,
+        "transistors": 28100000,
+        "base_clock_mhz": 1000,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 256,
+        "socket": "Slot 1 / Socket 370",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "SSE"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-4-1500",
+      "name": "Pentium 4 1.5",
+      "family": "Pentium 4",
+      "released": "2000-11-20",
+      "specs": {
+        "codename": "Willamette",
+        "microarchitecture": "NetBurst",
+        "isa": "x86",
+        "process_nm": 180,
+        "transistors": 42000000,
+        "die_size_mm2": 217,
+        "base_clock_mhz": 1500,
+        "cores": 1,
+        "l2_cache_kb": 256,
+        "socket": "Socket 423",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    },
+    {
+      "id": "intel-xeon-foster-1700",
+      "name": "Xeon 1.7",
+      "family": "Xeon",
+      "released": "2001-05-21",
+      "specs": {
+        "codename": "Foster",
+        "microarchitecture": "NetBurst",
+        "isa": "x86",
+        "process_nm": 180,
+        "base_clock_mhz": 1700,
+        "cores": 1,
+        "l2_cache_kb": 256,
+        "socket": "Socket 603",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    },
+    {
+      "id": "intel-itanium-800",
+      "name": "Itanium 800",
+      "family": "Itanium",
+      "released": "2001-05-29",
+      "specs": {
+        "codename": "Merced",
+        "microarchitecture": "Itanium",
+        "isa": "IA-64",
+        "process_nm": 180,
+        "data_width_bits": 64,
+        "base_clock_mhz": 800,
+        "cores": 1,
+        "l3_cache_kb": 4096
+      }
+    },
+    {
+      "id": "intel-pentium-iii-s-1400",
+      "name": "Pentium III-S 1.4",
+      "family": "Pentium III",
+      "released": "2002",
+      "specs": {
+        "codename": "Tualatin",
+        "microarchitecture": "P6",
+        "isa": "x86",
+        "process_nm": 130,
+        "base_clock_mhz": 1400,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 512,
+        "socket": "Socket 370",
+        "instruction_sets": [
+          "x87",
+          "MMX",
+          "SSE"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-4-2200",
+      "name": "Pentium 4 2.2",
+      "family": "Pentium 4",
+      "released": "2002-01-07",
+      "specs": {
+        "codename": "Northwood",
+        "microarchitecture": "NetBurst",
+        "isa": "x86",
+        "process_nm": 130,
+        "transistors": 55000000,
+        "die_size_mm2": 146,
+        "base_clock_mhz": 2200,
+        "cores": 1,
+        "l2_cache_kb": 512,
+        "socket": "Socket 478",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    },
+    {
+      "id": "intel-itanium-2-1000",
+      "name": "Itanium 2 1.0",
+      "family": "Itanium",
+      "released": "2002-07-08",
+      "specs": {
+        "codename": "McKinley",
+        "microarchitecture": "Itanium 2",
+        "isa": "IA-64",
+        "process_nm": 180,
+        "transistors": 221000000,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1000,
+        "cores": 1,
+        "l3_cache_kb": 3072,
+        "tdp_w": 130
+      }
+    },
+    {
+      "id": "intel-pentium-4-3060",
+      "name": "Pentium 4 3.06 HT",
+      "family": "Pentium 4",
+      "released": "2002-11-14",
+      "specs": {
+        "codename": "Northwood",
+        "microarchitecture": "NetBurst",
+        "isa": "x86",
+        "process_nm": 130,
+        "transistors": 55000000,
+        "base_clock_mhz": 3060,
+        "cores": 1,
+        "threads": 2,
+        "l2_cache_kb": 512,
+        "socket": "Socket 478",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-m-1600",
+      "name": "Pentium M 1.6",
+      "family": "Pentium M",
+      "released": "2003-03-12",
+      "specs": {
+        "codename": "Banias",
+        "microarchitecture": "Pentium M",
+        "isa": "x86",
+        "process_nm": 130,
+        "transistors": 77000000,
+        "base_clock_mhz": 1600,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 1024,
+        "tdp_w": 24.5,
+        "market": "Mobile",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-4-ee-3200",
+      "name": "Pentium 4 Extreme Edition 3.2",
+      "family": "Pentium 4",
+      "released": "2003-11-03",
+      "specs": {
+        "codename": "Gallatin",
+        "microarchitecture": "NetBurst",
+        "isa": "x86",
+        "process_nm": 130,
+        "transistors": 178000000,
+        "base_clock_mhz": 3200,
+        "cores": 1,
+        "threads": 2,
+        "l2_cache_kb": 512,
+        "l3_cache_kb": 2048,
+        "socket": "Socket 478",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-m-755",
+      "name": "Pentium M 755",
+      "family": "Pentium M",
+      "released": "2004-05-10",
+      "specs": {
+        "codename": "Dothan",
+        "microarchitecture": "Pentium M",
+        "isa": "x86",
+        "process_nm": 90,
+        "transistors": 140000000,
+        "base_clock_mhz": 2000,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 2048,
+        "tdp_w": 21,
+        "market": "Mobile",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-4-560",
+      "name": "Pentium 4 560",
+      "family": "Pentium 4",
+      "released": "2004-06",
+      "specs": {
+        "codename": "Prescott",
+        "microarchitecture": "NetBurst",
+        "isa": "x86",
+        "process_nm": 90,
+        "transistors": 125000000,
+        "die_size_mm2": 112,
+        "base_clock_mhz": 3600,
+        "cores": 1,
+        "threads": 2,
+        "l2_cache_kb": 1024,
+        "tdp_w": 115,
+        "socket": "LGA 775",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-4-670",
+      "name": "Pentium 4 670",
+      "family": "Pentium 4",
+      "released": "2005-02",
+      "specs": {
+        "codename": "Prescott-2M",
+        "microarchitecture": "NetBurst",
+        "isa": "x86-64",
+        "process_nm": 90,
+        "transistors": 169000000,
+        "base_clock_mhz": 3800,
+        "cores": 1,
+        "threads": 2,
+        "l2_cache_kb": 2048,
+        "tdp_w": 115,
+        "socket": "LGA 775",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "EM64T"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-ee-840",
+      "name": "Pentium Extreme Edition 840",
+      "family": "Pentium D",
+      "released": "2005-04",
+      "specs": {
+        "codename": "Smithfield",
+        "microarchitecture": "NetBurst",
+        "isa": "x86-64",
+        "process_nm": 90,
+        "transistors": 230000000,
+        "base_clock_mhz": 3200,
+        "cores": 2,
+        "threads": 4,
+        "l2_cache_kb": 2048,
+        "tdp_w": 130,
+        "socket": "LGA 775",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "EM64T"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-d-820",
+      "name": "Pentium D 820",
+      "family": "Pentium D",
+      "released": "2005-05-26",
+      "specs": {
+        "codename": "Smithfield",
+        "microarchitecture": "NetBurst",
+        "isa": "x86-64",
+        "process_nm": 90,
+        "transistors": 230000000,
+        "base_clock_mhz": 2800,
+        "cores": 2,
+        "threads": 2,
+        "l2_cache_kb": 2048,
+        "tdp_w": 95,
+        "socket": "LGA 775",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "EM64T"
+        ]
+      }
+    },
+    {
+      "id": "intel-pentium-d-950",
+      "name": "Pentium D 950",
+      "family": "Pentium D",
+      "released": "2006-01",
+      "specs": {
+        "codename": "Presler",
+        "microarchitecture": "NetBurst",
+        "isa": "x86-64",
+        "process_nm": 65,
+        "transistors": 376000000,
+        "base_clock_mhz": 3400,
+        "cores": 2,
+        "threads": 2,
+        "l2_cache_kb": 4096,
+        "tdp_w": 95,
+        "socket": "LGA 775",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "EM64T"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-duo-t2600",
+      "name": "Core Duo T2600",
+      "family": "Core Duo",
+      "released": "2006-01-05",
+      "specs": {
+        "codename": "Yonah",
+        "microarchitecture": "Enhanced Pentium M",
+        "isa": "x86",
+        "process_nm": 65,
+        "transistors": 151000000,
+        "base_clock_mhz": 2160,
+        "cores": 2,
+        "threads": 2,
+        "l2_cache_kb": 2048,
+        "tdp_w": 31,
+        "market": "Mobile",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3"
+        ]
+      }
+    },
+    {
+      "id": "intel-xeon-5160",
+      "name": "Xeon 5160",
+      "family": "Xeon",
+      "released": "2006-06-26",
+      "specs": {
+        "codename": "Woodcrest",
+        "microarchitecture": "Core",
+        "isa": "x86-64",
+        "process_nm": 65,
+        "base_clock_mhz": 3000,
+        "cores": 2,
+        "threads": 2,
+        "l2_cache_kb": 4096,
+        "tdp_w": 80,
+        "socket": "LGA 771",
+        "launch_price_usd": 851,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-itanium-2-9050",
+      "name": "Itanium 2 9050",
+      "family": "Itanium",
+      "released": "2006-07-18",
+      "specs": {
+        "codename": "Montecito",
+        "microarchitecture": "Itanium 2",
+        "isa": "IA-64",
+        "process_nm": 90,
+        "transistors": 1720000000,
+        "base_clock_mhz": 1600,
+        "cores": 2,
+        "threads": 4,
+        "l3_cache_kb": 24576,
+        "tdp_w": 104,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-2-duo-e6600",
+      "name": "Core 2 Duo E6600",
+      "family": "Core 2",
+      "released": "2006-07-27",
+      "specs": {
+        "codename": "Conroe",
+        "microarchitecture": "Core",
+        "isa": "x86-64",
+        "process_nm": 65,
+        "transistors": 291000000,
+        "die_size_mm2": 143,
+        "base_clock_mhz": 2400,
+        "cores": 2,
+        "threads": 2,
+        "l2_cache_kb": 4096,
+        "tdp_w": 65,
+        "socket": "LGA 775",
+        "launch_price_usd": 316,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "EM64T"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-2-duo-t7200",
+      "name": "Core 2 Duo T7200",
+      "family": "Core 2",
+      "released": "2006-07-27",
+      "specs": {
+        "codename": "Merom",
+        "microarchitecture": "Core",
+        "isa": "x86-64",
+        "process_nm": 65,
+        "transistors": 291000000,
+        "base_clock_mhz": 2000,
+        "cores": 2,
+        "threads": 2,
+        "l2_cache_kb": 4096,
+        "tdp_w": 34,
+        "market": "Mobile",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "EM64T"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-2-extreme-x6800",
+      "name": "Core 2 Extreme X6800",
+      "family": "Core 2",
+      "released": "2006-07-27",
+      "specs": {
+        "codename": "Conroe",
+        "microarchitecture": "Core",
+        "isa": "x86-64",
+        "process_nm": 65,
+        "transistors": 291000000,
+        "base_clock_mhz": 2930,
+        "cores": 2,
+        "threads": 2,
+        "l2_cache_kb": 4096,
+        "tdp_w": 75,
+        "socket": "LGA 775",
+        "launch_price_usd": 999
+      }
+    },
+    {
+      "id": "intel-core-2-extreme-qx6700",
+      "name": "Core 2 Extreme QX6700",
+      "family": "Core 2",
+      "released": "2006-11-02",
+      "specs": {
+        "codename": "Kentsfield",
+        "microarchitecture": "Core",
+        "isa": "x86-64",
+        "process_nm": 65,
+        "transistors": 582000000,
+        "base_clock_mhz": 2660,
+        "cores": 4,
+        "threads": 4,
+        "l2_cache_kb": 8192,
+        "tdp_w": 130,
+        "socket": "LGA 775",
+        "launch_price_usd": 999
+      }
+    },
+    {
+      "id": "intel-core-2-quad-q6600",
+      "name": "Core 2 Quad Q6600",
+      "family": "Core 2",
+      "released": "2007-01-08",
+      "specs": {
+        "codename": "Kentsfield",
+        "microarchitecture": "Core",
+        "isa": "x86-64",
+        "process_nm": 65,
+        "transistors": 582000000,
+        "base_clock_mhz": 2400,
+        "cores": 4,
+        "threads": 4,
+        "l2_cache_kb": 8192,
+        "tdp_w": 105,
+        "socket": "LGA 775",
+        "launch_price_usd": 851
+      }
+    },
+    {
+      "id": "intel-core-2-extreme-qx9650",
+      "name": "Core 2 Extreme QX9650",
+      "family": "Core 2",
+      "released": "2007-11-12",
+      "specs": {
+        "codename": "Yorkfield",
+        "microarchitecture": "Penryn",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "transistors": 820000000,
+        "base_clock_mhz": 3000,
+        "cores": 4,
+        "threads": 4,
+        "l2_cache_kb": 12288,
+        "tdp_w": 130,
+        "socket": "LGA 775",
+        "launch_price_usd": 999,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "EM64T"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-2-duo-e8400",
+      "name": "Core 2 Duo E8400",
+      "family": "Core 2",
+      "released": "2008-01-20",
+      "specs": {
+        "codename": "Wolfdale",
+        "microarchitecture": "Penryn",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "transistors": 410000000,
+        "die_size_mm2": 107,
+        "base_clock_mhz": 3000,
+        "cores": 2,
+        "threads": 2,
+        "l2_cache_kb": 6144,
+        "tdp_w": 65,
+        "socket": "LGA 775",
+        "launch_price_usd": 183,
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "EM64T"
+        ]
+      }
+    },
+    {
+      "id": "intel-atom-z530",
+      "name": "Atom Z530",
+      "family": "Atom",
+      "released": "2008-04-02",
+      "specs": {
+        "codename": "Silverthorne",
+        "microarchitecture": "Bonnell",
+        "isa": "x86",
+        "process_nm": 45,
+        "transistors": 47000000,
+        "base_clock_mhz": 1600,
+        "cores": 1,
+        "threads": 2,
+        "l2_cache_kb": 512,
+        "tdp_w": 2,
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "intel-atom-n270",
+      "name": "Atom N270",
+      "family": "Atom",
+      "released": "2008-06-03",
+      "specs": {
+        "codename": "Diamondville",
+        "microarchitecture": "Bonnell",
+        "isa": "x86",
+        "process_nm": 45,
+        "transistors": 47000000,
+        "base_clock_mhz": 1600,
+        "cores": 1,
+        "threads": 2,
+        "l2_cache_kb": 512,
+        "tdp_w": 2.5,
+        "launch_price_usd": 44,
+        "market": "Netbook"
+      }
+    },
+    {
+      "id": "intel-core-2-quad-q9650",
+      "name": "Core 2 Quad Q9650",
+      "family": "Core 2",
+      "released": "2008-08-10",
+      "specs": {
+        "codename": "Yorkfield",
+        "microarchitecture": "Penryn",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "transistors": 820000000,
+        "base_clock_mhz": 3000,
+        "cores": 4,
+        "threads": 4,
+        "l2_cache_kb": 12288,
+        "tdp_w": 95,
+        "socket": "LGA 775",
+        "launch_price_usd": 530
+      }
+    },
+    {
+      "id": "intel-core-i7-920",
+      "name": "Core i7-920",
+      "family": "Core i7",
+      "released": "2008-11-17",
+      "specs": {
+        "codename": "Bloomfield",
+        "microarchitecture": "Nehalem",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 2660,
+        "boost_clock_mhz": 2930,
+        "l3_cache_kb": 8192,
+        "tdp_w": 130,
+        "socket": "LGA 1366",
+        "launch_price_usd": 284,
+        "transistors": 731000000,
+        "die_size_mm2": 263,
+        "l2_cache_kb": 1024,
+        "memory_type": "DDR3",
+        "memory_channels": 3
+      }
+    },
+    {
+      "id": "intel-core-i7-965",
+      "name": "Core i7-965 Extreme Edition",
+      "family": "Core i7",
+      "released": "2008-11-17",
+      "specs": {
+        "codename": "Bloomfield",
+        "microarchitecture": "Nehalem",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3200,
+        "boost_clock_mhz": 3460,
+        "l3_cache_kb": 8192,
+        "tdp_w": 130,
+        "socket": "LGA 1366",
+        "launch_price_usd": 999,
+        "transistors": 731000000,
+        "memory_type": "DDR3",
+        "memory_channels": 3
+      }
+    },
+    {
+      "id": "intel-xeon-x5570",
+      "name": "Xeon X5570",
+      "family": "Xeon",
+      "released": "2009-03-30",
+      "specs": {
+        "codename": "Gainestown",
+        "microarchitecture": "Nehalem",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 2930,
+        "boost_clock_mhz": 3330,
+        "l3_cache_kb": 8192,
+        "tdp_w": 95,
+        "socket": "LGA 1366",
+        "launch_price_usd": 1386,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-i5-750",
+      "name": "Core i5-750",
+      "family": "Core i5",
+      "released": "2009-09-08",
+      "specs": {
+        "codename": "Lynnfield",
+        "microarchitecture": "Nehalem",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 2660,
+        "boost_clock_mhz": 3200,
+        "l3_cache_kb": 8192,
+        "tdp_w": 95,
+        "socket": "LGA 1156",
+        "launch_price_usd": 196,
+        "transistors": 774000000,
+        "die_size_mm2": 296
+      }
+    },
+    {
+      "id": "intel-core-i7-870",
+      "name": "Core i7-870",
+      "family": "Core i7",
+      "released": "2009-09-08",
+      "specs": {
+        "codename": "Lynnfield",
+        "microarchitecture": "Nehalem",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 2930,
+        "boost_clock_mhz": 3600,
+        "l3_cache_kb": 8192,
+        "tdp_w": 95,
+        "socket": "LGA 1156",
+        "launch_price_usd": 562,
+        "transistors": 774000000,
+        "die_size_mm2": 296
+      }
+    },
+    {
+      "id": "intel-core-i3-530",
+      "name": "Core i3-530",
+      "family": "Core i3",
+      "released": "2010-01-07",
+      "specs": {
+        "codename": "Clarkdale",
+        "microarchitecture": "Westmere",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 2,
+        "threads": 4,
+        "base_clock_mhz": 2930,
+        "l3_cache_kb": 4096,
+        "tdp_w": 73,
+        "socket": "LGA 1156",
+        "launch_price_usd": 113
+      }
+    },
+    {
+      "id": "intel-itanium-9350",
+      "name": "Itanium 9350",
+      "family": "Itanium",
+      "released": "2010-02-08",
+      "specs": {
+        "codename": "Tukwila",
+        "microarchitecture": "Tukwila",
+        "isa": "IA-64",
+        "process_nm": 65,
+        "transistors": 2000000000,
+        "base_clock_mhz": 1730,
+        "boost_clock_mhz": 1860,
+        "cores": 4,
+        "threads": 8,
+        "l3_cache_kb": 24576,
+        "tdp_w": 185,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-i7-980x",
+      "name": "Core i7-980X",
+      "family": "Core i7",
+      "released": "2010-03-16",
+      "specs": {
+        "codename": "Gulftown",
+        "microarchitecture": "Westmere",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 3330,
+        "boost_clock_mhz": 3600,
+        "l3_cache_kb": 12288,
+        "tdp_w": 130,
+        "socket": "LGA 1366",
+        "launch_price_usd": 999,
+        "transistors": 1170000000,
+        "die_size_mm2": 248
+      }
+    },
+    {
+      "id": "intel-xeon-x5680",
+      "name": "Xeon X5680",
+      "family": "Xeon",
+      "released": "2010-03-16",
+      "specs": {
+        "codename": "Westmere-EP",
+        "microarchitecture": "Westmere",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 3330,
+        "boost_clock_mhz": 3600,
+        "l3_cache_kb": 12288,
+        "tdp_w": 130,
+        "socket": "LGA 1366",
+        "launch_price_usd": 1663,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-atom-d525",
+      "name": "Atom D525",
+      "family": "Atom",
+      "released": "2010-06",
+      "specs": {
+        "codename": "Pineview",
+        "microarchitecture": "Bonnell",
+        "isa": "x86-64",
+        "process_nm": 45,
+        "cores": 2,
+        "threads": 4,
+        "base_clock_mhz": 1800,
+        "tdp_w": 13,
+        "l2_cache_kb": 1024
+      }
+    },
+    {
+      "id": "intel-core-i7-2600k",
+      "name": "Core i7-2600K",
+      "family": "Core i7",
+      "released": "2011-01-09",
+      "specs": {
+        "codename": "Sandy Bridge",
+        "microarchitecture": "Sandy Bridge",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3400,
+        "boost_clock_mhz": 3800,
+        "l3_cache_kb": 8192,
+        "tdp_w": 95,
+        "socket": "LGA 1155",
+        "launch_price_usd": 317,
+        "transistors": 1160000000,
+        "die_size_mm2": 216,
+        "gpu": "HD Graphics 3000",
+        "instruction_sets": [
+          "SSE4.2",
+          "AVX",
+          "AES-NI"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-i5-2500k",
+      "name": "Core i5-2500K",
+      "family": "Core i5",
+      "released": "2011-01-09",
+      "specs": {
+        "codename": "Sandy Bridge",
+        "microarchitecture": "Sandy Bridge",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 3300,
+        "boost_clock_mhz": 3700,
+        "l3_cache_kb": 6144,
+        "tdp_w": 95,
+        "socket": "LGA 1155",
+        "launch_price_usd": 216,
+        "gpu": "HD Graphics 3000",
+        "instruction_sets": [
+          "SSE4.2",
+          "AVX",
+          "AES-NI"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-i5-2400",
+      "name": "Core i5-2400",
+      "family": "Core i5",
+      "released": "2011-01-09",
+      "specs": {
+        "codename": "Sandy Bridge",
+        "microarchitecture": "Sandy Bridge",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 3100,
+        "boost_clock_mhz": 3400,
+        "l3_cache_kb": 6144,
+        "tdp_w": 95,
+        "socket": "LGA 1155",
+        "launch_price_usd": 184,
+        "gpu": "HD Graphics 2000"
+      }
+    },
+    {
+      "id": "intel-core-i3-2100",
+      "name": "Core i3-2100",
+      "family": "Core i3",
+      "released": "2011-02-20",
+      "specs": {
+        "codename": "Sandy Bridge",
+        "microarchitecture": "Sandy Bridge",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 2,
+        "threads": 4,
+        "base_clock_mhz": 3100,
+        "l3_cache_kb": 3072,
+        "tdp_w": 65,
+        "socket": "LGA 1155",
+        "launch_price_usd": 117,
+        "gpu": "HD Graphics 2000"
+      }
+    },
+    {
+      "id": "intel-xeon-e7-8870",
+      "name": "Xeon E7-8870",
+      "family": "Xeon",
+      "released": "2011-04-05",
+      "specs": {
+        "codename": "Westmere-EX",
+        "microarchitecture": "Westmere",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 10,
+        "threads": 20,
+        "base_clock_mhz": 2400,
+        "boost_clock_mhz": 2800,
+        "l3_cache_kb": 30720,
+        "tdp_w": 130,
+        "socket": "LGA 1567",
+        "launch_price_usd": 4616,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-i7-3960x",
+      "name": "Core i7-3960X",
+      "family": "Core i7",
+      "released": "2011-11-14",
+      "specs": {
+        "codename": "Sandy Bridge-E",
+        "microarchitecture": "Sandy Bridge",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 3300,
+        "boost_clock_mhz": 3900,
+        "l3_cache_kb": 15360,
+        "tdp_w": 130,
+        "socket": "LGA 2011",
+        "launch_price_usd": 999,
+        "transistors": 2270000000,
+        "die_size_mm2": 435,
+        "memory_channels": 4
+      }
+    },
+    {
+      "id": "intel-xeon-e5-2690",
+      "name": "Xeon E5-2690",
+      "family": "Xeon",
+      "released": "2012-03-06",
+      "specs": {
+        "codename": "Sandy Bridge-EP",
+        "microarchitecture": "Sandy Bridge",
+        "isa": "x86-64",
+        "process_nm": 32,
+        "cores": 8,
+        "threads": 16,
+        "base_clock_mhz": 2900,
+        "boost_clock_mhz": 3800,
+        "l3_cache_kb": 20480,
+        "tdp_w": 135,
+        "socket": "LGA 2011",
+        "launch_price_usd": 2057,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-i7-3770k",
+      "name": "Core i7-3770K",
+      "family": "Core i7",
+      "released": "2012-04-23",
+      "specs": {
+        "codename": "Ivy Bridge",
+        "microarchitecture": "Ivy Bridge",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 3900,
+        "l3_cache_kb": 8192,
+        "tdp_w": 77,
+        "socket": "LGA 1155",
+        "launch_price_usd": 313,
+        "transistors": 1400000000,
+        "die_size_mm2": 160,
+        "gpu": "HD Graphics 4000"
+      }
+    },
+    {
+      "id": "intel-core-i5-3570k",
+      "name": "Core i5-3570K",
+      "family": "Core i5",
+      "released": "2012-04-23",
+      "specs": {
+        "codename": "Ivy Bridge",
+        "microarchitecture": "Ivy Bridge",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 3400,
+        "boost_clock_mhz": 3800,
+        "l3_cache_kb": 6144,
+        "tdp_w": 77,
+        "socket": "LGA 1155",
+        "launch_price_usd": 212,
+        "gpu": "HD Graphics 4000"
+      }
+    },
+    {
+      "id": "intel-itanium-9560",
+      "name": "Itanium 9560",
+      "family": "Itanium",
+      "released": "2012-11-08",
+      "specs": {
+        "codename": "Poulson",
+        "microarchitecture": "Poulson",
+        "isa": "IA-64",
+        "process_nm": 32,
+        "transistors": 3100000000,
+        "base_clock_mhz": 2530,
+        "cores": 8,
+        "threads": 16,
+        "l3_cache_kb": 32768,
+        "tdp_w": 170,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-xeon-phi-5110p",
+      "name": "Xeon Phi 5110P",
+      "family": "Xeon Phi",
+      "released": "2012-11-12",
+      "specs": {
+        "codename": "Knights Corner",
+        "microarchitecture": "Knights Corner",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 60,
+        "threads": 240,
+        "base_clock_mhz": 1053,
+        "memory_type": "GDDR5",
+        "memory_size_mb": 8192,
+        "tdp_w": 225,
+        "fp64_tflops": 1.01,
+        "interface": "PCIe 2.0 x16",
+        "market": "HPC"
+      }
+    },
+    {
+      "id": "intel-core-i7-4770k",
+      "name": "Core i7-4770K",
+      "family": "Core i7",
+      "released": "2013-06-04",
+      "specs": {
+        "codename": "Haswell",
+        "microarchitecture": "Haswell",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 3900,
+        "l3_cache_kb": 8192,
+        "tdp_w": 84,
+        "socket": "LGA 1150",
+        "launch_price_usd": 339,
+        "transistors": 1400000000,
+        "die_size_mm2": 177,
+        "gpu": "HD Graphics 4600",
+        "instruction_sets": [
+          "SSE4.2",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "AES-NI"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-i5-4670k",
+      "name": "Core i5-4670K",
+      "family": "Core i5",
+      "released": "2013-06-04",
+      "specs": {
+        "codename": "Haswell",
+        "microarchitecture": "Haswell",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 3400,
+        "boost_clock_mhz": 3800,
+        "l3_cache_kb": 6144,
+        "tdp_w": 84,
+        "socket": "LGA 1150",
+        "launch_price_usd": 242,
+        "gpu": "HD Graphics 4600"
+      }
+    },
+    {
+      "id": "intel-core-i7-4960x",
+      "name": "Core i7-4960X",
+      "family": "Core i7",
+      "released": "2013-09-10",
+      "specs": {
+        "codename": "Ivy Bridge-E",
+        "microarchitecture": "Ivy Bridge",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 3600,
+        "boost_clock_mhz": 4000,
+        "l3_cache_kb": 15360,
+        "tdp_w": 130,
+        "socket": "LGA 2011",
+        "launch_price_usd": 990
+      }
+    },
+    {
+      "id": "intel-xeon-e5-2697-v2",
+      "name": "Xeon E5-2697 v2",
+      "family": "Xeon",
+      "released": "2013-09-10",
+      "specs": {
+        "codename": "Ivy Bridge-EP",
+        "microarchitecture": "Ivy Bridge",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 12,
+        "threads": 24,
+        "base_clock_mhz": 2700,
+        "boost_clock_mhz": 3500,
+        "l3_cache_kb": 30720,
+        "tdp_w": 130,
+        "socket": "LGA 2011",
+        "launch_price_usd": 2614,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-i7-4790k",
+      "name": "Core i7-4790K",
+      "family": "Core i7",
+      "released": "2014-06-02",
+      "specs": {
+        "codename": "Devil's Canyon",
+        "microarchitecture": "Haswell",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 4000,
+        "boost_clock_mhz": 4400,
+        "l3_cache_kb": 8192,
+        "tdp_w": 88,
+        "socket": "LGA 1150",
+        "launch_price_usd": 339,
+        "gpu": "HD Graphics 4600"
+      }
+    },
+    {
+      "id": "intel-pentium-g3258",
+      "name": "Pentium G3258",
+      "family": "Pentium",
+      "released": "2014-06-02",
+      "specs": {
+        "codename": "Haswell",
+        "microarchitecture": "Haswell",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 2,
+        "threads": 2,
+        "base_clock_mhz": 3200,
+        "l3_cache_kb": 3072,
+        "tdp_w": 53,
+        "socket": "LGA 1150",
+        "launch_price_usd": 72
+      }
+    },
+    {
+      "id": "intel-core-i7-5960x",
+      "name": "Core i7-5960X",
+      "family": "Core i7",
+      "released": "2014-08-29",
+      "specs": {
+        "codename": "Haswell-E",
+        "microarchitecture": "Haswell",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 8,
+        "threads": 16,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 3500,
+        "l3_cache_kb": 20480,
+        "tdp_w": 140,
+        "socket": "LGA 2011-3",
+        "launch_price_usd": 999,
+        "transistors": 2600000000,
+        "die_size_mm2": 356,
+        "memory_type": "DDR4",
+        "memory_channels": 4
+      }
+    },
+    {
+      "id": "intel-core-i7-5820k",
+      "name": "Core i7-5820K",
+      "family": "Core i7",
+      "released": "2014-08-29",
+      "specs": {
+        "codename": "Haswell-E",
+        "microarchitecture": "Haswell",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 3300,
+        "boost_clock_mhz": 3600,
+        "l3_cache_kb": 15360,
+        "tdp_w": 140,
+        "socket": "LGA 2011-3",
+        "launch_price_usd": 389,
+        "memory_type": "DDR4",
+        "memory_channels": 4
+      }
+    },
+    {
+      "id": "intel-xeon-e5-2699-v3",
+      "name": "Xeon E5-2699 v3",
+      "family": "Xeon",
+      "released": "2014-09-08",
+      "specs": {
+        "codename": "Haswell-EP",
+        "microarchitecture": "Haswell",
+        "isa": "x86-64",
+        "process_nm": 22,
+        "cores": 18,
+        "threads": 36,
+        "base_clock_mhz": 2300,
+        "boost_clock_mhz": 3600,
+        "l3_cache_kb": 46080,
+        "tdp_w": 145,
+        "socket": "LGA 2011-3",
+        "launch_price_usd": 4115,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-i7-5775c",
+      "name": "Core i7-5775C",
+      "family": "Core i7",
+      "released": "2015-06-02",
+      "specs": {
+        "codename": "Broadwell",
+        "microarchitecture": "Broadwell",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3300,
+        "boost_clock_mhz": 3700,
+        "l3_cache_kb": 6144,
+        "tdp_w": 65,
+        "socket": "LGA 1150",
+        "launch_price_usd": 366,
+        "gpu": "Iris Pro Graphics 6200"
+      }
+    },
+    {
+      "id": "intel-core-i7-6700k",
+      "name": "Core i7-6700K",
+      "family": "Core i7",
+      "released": "2015-08-05",
+      "specs": {
+        "codename": "Skylake",
+        "microarchitecture": "Skylake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 4000,
+        "boost_clock_mhz": 4200,
+        "l3_cache_kb": 8192,
+        "tdp_w": 91,
+        "socket": "LGA 1151",
+        "launch_price_usd": 339,
+        "gpu": "HD Graphics 530",
+        "memory_type": "DDR4 / DDR3L"
+      }
+    },
+    {
+      "id": "intel-core-i5-6600k",
+      "name": "Core i5-6600K",
+      "family": "Core i5",
+      "released": "2015-08-05",
+      "specs": {
+        "codename": "Skylake",
+        "microarchitecture": "Skylake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 3900,
+        "l3_cache_kb": 6144,
+        "tdp_w": 91,
+        "socket": "LGA 1151",
+        "launch_price_usd": 243,
+        "gpu": "HD Graphics 530"
+      }
+    },
+    {
+      "id": "intel-xeon-e5-2699-v4",
+      "name": "Xeon E5-2699 v4",
+      "family": "Xeon",
+      "released": "2016-03-31",
+      "specs": {
+        "codename": "Broadwell-EP",
+        "microarchitecture": "Broadwell",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 22,
+        "threads": 44,
+        "base_clock_mhz": 2200,
+        "boost_clock_mhz": 3600,
+        "l3_cache_kb": 56320,
+        "tdp_w": 145,
+        "socket": "LGA 2011-3",
+        "launch_price_usd": 4115,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-i7-6950x",
+      "name": "Core i7-6950X",
+      "family": "Core i7",
+      "released": "2016-05-30",
+      "specs": {
+        "codename": "Broadwell-E",
+        "microarchitecture": "Broadwell",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 10,
+        "threads": 20,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 3500,
+        "l3_cache_kb": 25600,
+        "tdp_w": 140,
+        "socket": "LGA 2011-3",
+        "launch_price_usd": 1723
+      }
+    },
+    {
+      "id": "intel-xeon-phi-7290",
+      "name": "Xeon Phi 7290",
+      "family": "Xeon Phi",
+      "released": "2016-06-20",
+      "specs": {
+        "codename": "Knights Landing",
+        "microarchitecture": "Knights Landing",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 72,
+        "threads": 288,
+        "base_clock_mhz": 1500,
+        "boost_clock_mhz": 1700,
+        "memory_type": "MCDRAM + DDR4",
+        "memory_size_mb": 16384,
+        "tdp_w": 245,
+        "launch_price_usd": 6254,
+        "market": "HPC",
+        "instruction_sets": [
+          "AVX-512"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-i7-7700k",
+      "name": "Core i7-7700K",
+      "family": "Core i7",
+      "released": "2017-01-03",
+      "specs": {
+        "codename": "Kaby Lake",
+        "microarchitecture": "Kaby Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 4200,
+        "boost_clock_mhz": 4500,
+        "l3_cache_kb": 8192,
+        "tdp_w": 91,
+        "socket": "LGA 1151",
+        "launch_price_usd": 339,
+        "gpu": "HD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-core-i5-7600k",
+      "name": "Core i5-7600K",
+      "family": "Core i5",
+      "released": "2017-01-03",
+      "specs": {
+        "codename": "Kaby Lake",
+        "microarchitecture": "Kaby Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 3800,
+        "boost_clock_mhz": 4200,
+        "l3_cache_kb": 6144,
+        "tdp_w": 91,
+        "socket": "LGA 1151",
+        "launch_price_usd": 242,
+        "gpu": "HD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-itanium-9760",
+      "name": "Itanium 9760",
+      "family": "Itanium",
+      "released": "2017-05-11",
+      "specs": {
+        "codename": "Kittson",
+        "microarchitecture": "Poulson",
+        "isa": "IA-64",
+        "process_nm": 32,
+        "base_clock_mhz": 2660,
+        "cores": 8,
+        "threads": 16,
+        "l3_cache_kb": 32768,
+        "tdp_w": 170,
+        "market": "Server"
+      }
+    },
+    {
+      "id": "intel-core-i9-7900x",
+      "name": "Core i9-7900X",
+      "family": "Core i9",
+      "released": "2017-06-26",
+      "specs": {
+        "codename": "Skylake-X",
+        "microarchitecture": "Skylake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 10,
+        "threads": 20,
+        "base_clock_mhz": 3300,
+        "boost_clock_mhz": 4300,
+        "l3_cache_kb": 14080,
+        "tdp_w": 140,
+        "socket": "LGA 2066",
+        "launch_price_usd": 999,
+        "instruction_sets": [
+          "AVX2",
+          "AVX-512"
+        ]
+      }
+    },
+    {
+      "id": "intel-xeon-platinum-8180",
+      "name": "Xeon Platinum 8180",
+      "family": "Xeon Scalable",
+      "released": "2017-07-11",
+      "specs": {
+        "codename": "Skylake-SP",
+        "microarchitecture": "Skylake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 28,
+        "threads": 56,
+        "base_clock_mhz": 2500,
+        "boost_clock_mhz": 3800,
+        "l3_cache_kb": 39424,
+        "tdp_w": 205,
+        "socket": "LGA 3647",
+        "launch_price_usd": 10009,
+        "market": "Server",
+        "memory_channels": 6,
+        "instruction_sets": [
+          "AVX2",
+          "AVX-512"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-i9-7980xe",
+      "name": "Core i9-7980XE",
+      "family": "Core i9",
+      "released": "2017-09-25",
+      "specs": {
+        "codename": "Skylake-X",
+        "microarchitecture": "Skylake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 18,
+        "threads": 36,
+        "base_clock_mhz": 2600,
+        "boost_clock_mhz": 4200,
+        "l3_cache_kb": 25344,
+        "tdp_w": 165,
+        "socket": "LGA 2066",
+        "launch_price_usd": 1999,
+        "instruction_sets": [
+          "AVX2",
+          "AVX-512"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-i7-8700k",
+      "name": "Core i7-8700K",
+      "family": "Core i7",
+      "released": "2017-10-05",
+      "specs": {
+        "codename": "Coffee Lake",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 3700,
+        "boost_clock_mhz": 4700,
+        "l3_cache_kb": 12288,
+        "tdp_w": 95,
+        "socket": "LGA 1151",
+        "launch_price_usd": 359,
+        "gpu": "UHD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-core-i5-8400",
+      "name": "Core i5-8400",
+      "family": "Core i5",
+      "released": "2017-10-05",
+      "specs": {
+        "codename": "Coffee Lake",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 6,
+        "threads": 6,
+        "base_clock_mhz": 2800,
+        "boost_clock_mhz": 4000,
+        "l3_cache_kb": 9216,
+        "tdp_w": 65,
+        "socket": "LGA 1151",
+        "launch_price_usd": 182,
+        "gpu": "UHD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-core-i3-8100",
+      "name": "Core i3-8100",
+      "family": "Core i3",
+      "released": "2017-10-05",
+      "specs": {
+        "codename": "Coffee Lake",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 3600,
+        "l3_cache_kb": 6144,
+        "tdp_w": 65,
+        "socket": "LGA 1151",
+        "launch_price_usd": 117,
+        "gpu": "UHD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-pentium-gold-g5400",
+      "name": "Pentium Gold G5400",
+      "family": "Pentium Gold",
+      "released": "2018-04-03",
+      "specs": {
+        "codename": "Coffee Lake",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 2,
+        "threads": 4,
+        "base_clock_mhz": 3700,
+        "l3_cache_kb": 4096,
+        "tdp_w": 54,
+        "socket": "LGA 1151",
+        "launch_price_usd": 64,
+        "gpu": "UHD Graphics 610"
+      }
+    },
+    {
+      "id": "intel-core-i9-8950hk",
+      "name": "Core i9-8950HK",
+      "family": "Core i9",
+      "released": "2018-04-03",
+      "specs": {
+        "codename": "Coffee Lake-H",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 2900,
+        "boost_clock_mhz": 4800,
+        "l3_cache_kb": 12288,
+        "tdp_w": 45,
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "intel-core-i7-8086k",
+      "name": "Core i7-8086K",
+      "family": "Core i7",
+      "released": "2018-06-08",
+      "specs": {
+        "codename": "Coffee Lake",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 4000,
+        "boost_clock_mhz": 5000,
+        "l3_cache_kb": 12288,
+        "tdp_w": 95,
+        "socket": "LGA 1151",
+        "launch_price_usd": 425
+      }
+    },
+    {
+      "id": "intel-core-i9-9900k",
+      "name": "Core i9-9900K",
+      "family": "Core i9",
+      "released": "2018-10-19",
+      "specs": {
+        "codename": "Coffee Lake-R",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 8,
+        "threads": 16,
+        "base_clock_mhz": 3600,
+        "boost_clock_mhz": 5000,
+        "l3_cache_kb": 16384,
+        "tdp_w": 95,
+        "socket": "LGA 1151",
+        "launch_price_usd": 488,
+        "gpu": "UHD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-core-i7-9700k",
+      "name": "Core i7-9700K",
+      "family": "Core i7",
+      "released": "2018-10-19",
+      "specs": {
+        "codename": "Coffee Lake-R",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 8,
+        "threads": 8,
+        "base_clock_mhz": 3600,
+        "boost_clock_mhz": 4900,
+        "l3_cache_kb": 12288,
+        "tdp_w": 95,
+        "socket": "LGA 1151",
+        "launch_price_usd": 374
+      }
+    },
+    {
+      "id": "intel-core-i5-9600k",
+      "name": "Core i5-9600K",
+      "family": "Core i5",
+      "released": "2018-10-19",
+      "specs": {
+        "codename": "Coffee Lake-R",
+        "microarchitecture": "Coffee Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 6,
+        "threads": 6,
+        "base_clock_mhz": 3700,
+        "boost_clock_mhz": 4600,
+        "l3_cache_kb": 9216,
+        "tdp_w": 95,
+        "socket": "LGA 1151",
+        "launch_price_usd": 262
+      }
+    },
+    {
+      "id": "intel-core-i9-9980xe",
+      "name": "Core i9-9980XE",
+      "family": "Core i9",
+      "released": "2018-11",
+      "specs": {
+        "codename": "Skylake-X",
+        "microarchitecture": "Skylake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 18,
+        "threads": 36,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 4400,
+        "l3_cache_kb": 25344,
+        "tdp_w": 165,
+        "socket": "LGA 2066",
+        "launch_price_usd": 1979
+      }
+    },
+    {
+      "id": "intel-xeon-w-3175x",
+      "name": "Xeon W-3175X",
+      "family": "Xeon W",
+      "released": "2019-01-30",
+      "specs": {
+        "codename": "Skylake-SP",
+        "microarchitecture": "Skylake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 28,
+        "threads": 56,
+        "base_clock_mhz": 3100,
+        "boost_clock_mhz": 4300,
+        "l3_cache_kb": 39424,
+        "tdp_w": 255,
+        "socket": "LGA 3647",
+        "launch_price_usd": 2999,
+        "market": "Workstation"
+      }
+    },
+    {
+      "id": "intel-xeon-platinum-8280",
+      "name": "Xeon Platinum 8280",
+      "family": "Xeon Scalable",
+      "released": "2019-04-02",
+      "specs": {
+        "codename": "Cascade Lake",
+        "microarchitecture": "Cascade Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 28,
+        "threads": 56,
+        "base_clock_mhz": 2700,
+        "boost_clock_mhz": 4000,
+        "l3_cache_kb": 39424,
+        "tdp_w": 205,
+        "socket": "LGA 3647",
+        "launch_price_usd": 10009,
+        "market": "Server",
+        "memory_channels": 6
+      }
+    },
+    {
+      "id": "intel-xeon-platinum-9282",
+      "name": "Xeon Platinum 9282",
+      "family": "Xeon Scalable",
+      "released": "2019-04-02",
+      "specs": {
+        "codename": "Cascade Lake-AP",
+        "microarchitecture": "Cascade Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 56,
+        "threads": 112,
+        "base_clock_mhz": 2600,
+        "boost_clock_mhz": 3800,
+        "l3_cache_kb": 78848,
+        "tdp_w": 400,
+        "socket": "BGA 5903",
+        "market": "Server",
+        "memory_channels": 12
+      }
+    },
+    {
+      "id": "intel-core-i7-1065g7",
+      "name": "Core i7-1065G7",
+      "family": "Core i7",
+      "released": "2019-08-01",
+      "specs": {
+        "codename": "Ice Lake",
+        "microarchitecture": "Sunny Cove",
+        "isa": "x86-64",
+        "process_nm": 10,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 1300,
+        "boost_clock_mhz": 3900,
+        "l3_cache_kb": 8192,
+        "tdp_w": 15,
+        "market": "Mobile",
+        "gpu": "Iris Plus Graphics G7"
+      }
+    },
+    {
+      "id": "intel-core-i9-10980xe",
+      "name": "Core i9-10980XE",
+      "family": "Core i9",
+      "released": "2019-11-25",
+      "specs": {
+        "codename": "Cascade Lake-X",
+        "microarchitecture": "Cascade Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 18,
+        "threads": 36,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 4600,
+        "l3_cache_kb": 25344,
+        "tdp_w": 165,
+        "socket": "LGA 2066",
+        "launch_price_usd": 979
+      }
+    },
+    {
+      "id": "intel-core-i3-10100",
+      "name": "Core i3-10100",
+      "family": "Core i3",
+      "released": "2020-04-30",
+      "specs": {
+        "codename": "Comet Lake",
+        "microarchitecture": "Comet Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3600,
+        "boost_clock_mhz": 4300,
+        "l3_cache_kb": 6144,
+        "tdp_w": 65,
+        "socket": "LGA 1200",
+        "launch_price_usd": 122,
+        "gpu": "UHD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-core-i9-10900k",
+      "name": "Core i9-10900K",
+      "family": "Core i9",
+      "released": "2020-05-20",
+      "specs": {
+        "codename": "Comet Lake",
+        "microarchitecture": "Comet Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 10,
+        "threads": 20,
+        "base_clock_mhz": 3700,
+        "boost_clock_mhz": 5300,
+        "l3_cache_kb": 20480,
+        "tdp_w": 125,
+        "socket": "LGA 1200",
+        "launch_price_usd": 488,
+        "gpu": "UHD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-core-i7-10700k",
+      "name": "Core i7-10700K",
+      "family": "Core i7",
+      "released": "2020-05-20",
+      "specs": {
+        "codename": "Comet Lake",
+        "microarchitecture": "Comet Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 8,
+        "threads": 16,
+        "base_clock_mhz": 3800,
+        "boost_clock_mhz": 5100,
+        "l3_cache_kb": 16384,
+        "tdp_w": 125,
+        "socket": "LGA 1200",
+        "launch_price_usd": 374,
+        "gpu": "UHD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-core-i5-10400",
+      "name": "Core i5-10400",
+      "family": "Core i5",
+      "released": "2020-05-20",
+      "specs": {
+        "codename": "Comet Lake",
+        "microarchitecture": "Comet Lake",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 2900,
+        "boost_clock_mhz": 4300,
+        "l3_cache_kb": 12288,
+        "tdp_w": 65,
+        "socket": "LGA 1200",
+        "launch_price_usd": 182,
+        "gpu": "UHD Graphics 630"
+      }
+    },
+    {
+      "id": "intel-core-i7-1185g7",
+      "name": "Core i7-1185G7",
+      "family": "Core i7",
+      "released": "2020-09-02",
+      "specs": {
+        "codename": "Tiger Lake",
+        "microarchitecture": "Willow Cove",
+        "isa": "x86-64",
+        "process_nm": 10,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 4800,
+        "l3_cache_kb": 12288,
+        "tdp_w": 28,
+        "market": "Mobile",
+        "gpu": "Iris Xe Graphics (96 EU)"
+      }
+    },
+    {
+      "id": "intel-core-i9-11900k",
+      "name": "Core i9-11900K",
+      "family": "Core i9",
+      "released": "2021-03-30",
+      "specs": {
+        "codename": "Rocket Lake",
+        "microarchitecture": "Cypress Cove",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 8,
+        "threads": 16,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 5300,
+        "l3_cache_kb": 16384,
+        "tdp_w": 125,
+        "socket": "LGA 1200",
+        "launch_price_usd": 539,
+        "gpu": "UHD Graphics 750",
+        "instruction_sets": [
+          "AVX2",
+          "AVX-512"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-i7-11700k",
+      "name": "Core i7-11700K",
+      "family": "Core i7",
+      "released": "2021-03-30",
+      "specs": {
+        "codename": "Rocket Lake",
+        "microarchitecture": "Cypress Cove",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 8,
+        "threads": 16,
+        "base_clock_mhz": 3600,
+        "boost_clock_mhz": 5000,
+        "l3_cache_kb": 16384,
+        "tdp_w": 125,
+        "socket": "LGA 1200",
+        "launch_price_usd": 399,
+        "gpu": "UHD Graphics 750"
+      }
+    },
+    {
+      "id": "intel-core-i5-11600k",
+      "name": "Core i5-11600K",
+      "family": "Core i5",
+      "released": "2021-03-30",
+      "specs": {
+        "codename": "Rocket Lake",
+        "microarchitecture": "Cypress Cove",
+        "isa": "x86-64",
+        "process_nm": 14,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 3900,
+        "boost_clock_mhz": 4900,
+        "l3_cache_kb": 12288,
+        "tdp_w": 125,
+        "socket": "LGA 1200",
+        "launch_price_usd": 262,
+        "gpu": "UHD Graphics 750"
+      }
+    },
+    {
+      "id": "intel-xeon-platinum-8380",
+      "name": "Xeon Platinum 8380",
+      "family": "Xeon Scalable",
+      "released": "2021-04-06",
+      "specs": {
+        "codename": "Ice Lake-SP",
+        "microarchitecture": "Sunny Cove",
+        "isa": "x86-64",
+        "process_nm": 10,
+        "cores": 40,
+        "threads": 80,
+        "base_clock_mhz": 2300,
+        "boost_clock_mhz": 3400,
+        "l3_cache_kb": 61440,
+        "tdp_w": 270,
+        "socket": "LGA 4189",
+        "launch_price_usd": 8666,
+        "market": "Server",
+        "memory_channels": 8
+      }
+    },
+    {
+      "id": "intel-core-i9-12900k",
+      "name": "Core i9-12900K",
+      "family": "Core i9",
+      "released": "2021-11-04",
+      "specs": {
+        "codename": "Alder Lake",
+        "microarchitecture": "Golden Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 16,
+        "threads": 24,
+        "base_clock_mhz": 3200,
+        "boost_clock_mhz": 5200,
+        "l3_cache_kb": 30720,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 589,
+        "performance_cores": 8,
+        "efficiency_cores": 8,
+        "l2_cache_kb": 14336,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770",
+        "memory_type": "DDR5 / DDR4"
+      }
+    },
+    {
+      "id": "intel-core-i7-12700k",
+      "name": "Core i7-12700K",
+      "family": "Core i7",
+      "released": "2021-11-04",
+      "specs": {
+        "codename": "Alder Lake",
+        "microarchitecture": "Golden Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 12,
+        "threads": 20,
+        "base_clock_mhz": 3600,
+        "boost_clock_mhz": 5000,
+        "l3_cache_kb": 25600,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 409,
+        "performance_cores": 8,
+        "efficiency_cores": 4,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770"
+      }
+    },
+    {
+      "id": "intel-core-i5-12600k",
+      "name": "Core i5-12600K",
+      "family": "Core i5",
+      "released": "2021-11-04",
+      "specs": {
+        "codename": "Alder Lake",
+        "microarchitecture": "Golden Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 10,
+        "threads": 16,
+        "base_clock_mhz": 3700,
+        "boost_clock_mhz": 4900,
+        "l3_cache_kb": 20480,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 289,
+        "performance_cores": 6,
+        "efficiency_cores": 4,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770"
+      }
+    },
+    {
+      "id": "intel-core-i5-12400",
+      "name": "Core i5-12400",
+      "family": "Core i5",
+      "released": "2022-01-04",
+      "specs": {
+        "codename": "Alder Lake",
+        "microarchitecture": "Golden Cove",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 6,
+        "threads": 12,
+        "base_clock_mhz": 2500,
+        "boost_clock_mhz": 4400,
+        "l3_cache_kb": 18432,
+        "tdp_w": 65,
+        "socket": "LGA 1700",
+        "launch_price_usd": 192,
+        "performance_cores": 6,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 730"
+      }
+    },
+    {
+      "id": "intel-core-i3-12100",
+      "name": "Core i3-12100",
+      "family": "Core i3",
+      "released": "2022-01-04",
+      "specs": {
+        "codename": "Alder Lake",
+        "microarchitecture": "Golden Cove",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3300,
+        "boost_clock_mhz": 4300,
+        "l3_cache_kb": 12288,
+        "tdp_w": 60,
+        "socket": "LGA 1700",
+        "launch_price_usd": 122,
+        "performance_cores": 4,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 730"
+      }
+    },
+    {
+      "id": "intel-core-i9-12900ks",
+      "name": "Core i9-12900KS",
+      "family": "Core i9",
+      "released": "2022-04-05",
+      "specs": {
+        "codename": "Alder Lake",
+        "microarchitecture": "Golden Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 16,
+        "threads": 24,
+        "base_clock_mhz": 3400,
+        "boost_clock_mhz": 5500,
+        "l3_cache_kb": 30720,
+        "tdp_w": 150,
+        "socket": "LGA 1700",
+        "launch_price_usd": 739,
+        "performance_cores": 8,
+        "efficiency_cores": 8,
+        "foundry": "Intel"
+      }
+    },
+    {
+      "id": "intel-core-i9-13900k",
+      "name": "Core i9-13900K",
+      "family": "Core i9",
+      "released": "2022-10-20",
+      "specs": {
+        "codename": "Raptor Lake",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 24,
+        "threads": 32,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 5800,
+        "l3_cache_kb": 36864,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 589,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "l2_cache_kb": 32768,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770"
+      }
+    },
+    {
+      "id": "intel-core-i7-13700k",
+      "name": "Core i7-13700K",
+      "family": "Core i7",
+      "released": "2022-10-20",
+      "specs": {
+        "codename": "Raptor Lake",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 16,
+        "threads": 24,
+        "base_clock_mhz": 3400,
+        "boost_clock_mhz": 5400,
+        "l3_cache_kb": 30720,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 409,
+        "performance_cores": 8,
+        "efficiency_cores": 8,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770"
+      }
+    },
+    {
+      "id": "intel-core-i5-13600k",
+      "name": "Core i5-13600K",
+      "family": "Core i5",
+      "released": "2022-10-20",
+      "specs": {
+        "codename": "Raptor Lake",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 14,
+        "threads": 20,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 5100,
+        "l3_cache_kb": 24576,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 319,
+        "performance_cores": 6,
+        "efficiency_cores": 8,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770"
+      }
+    },
+    {
+      "id": "intel-core-i9-13980hx",
+      "name": "Core i9-13980HX",
+      "family": "Core i9",
+      "released": "2023-01-03",
+      "specs": {
+        "codename": "Raptor Lake-HX",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 24,
+        "threads": 32,
+        "base_clock_mhz": 2200,
+        "boost_clock_mhz": 5600,
+        "l3_cache_kb": 36864,
+        "tdp_w": 55,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "foundry": "Intel",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "intel-n100",
+      "name": "N100",
+      "family": "Intel Processor N",
+      "released": "2023-01-03",
+      "specs": {
+        "codename": "Alder Lake-N",
+        "microarchitecture": "Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "cores": 4,
+        "threads": 4,
+        "efficiency_cores": 4,
+        "boost_clock_mhz": 3400,
+        "l3_cache_kb": 6144,
+        "tdp_w": 6,
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "intel-xeon-platinum-8490h",
+      "name": "Xeon Platinum 8490H",
+      "family": "Xeon Scalable",
+      "released": "2023-01-10",
+      "specs": {
+        "codename": "Sapphire Rapids",
+        "microarchitecture": "Golden Cove",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 60,
+        "threads": 120,
+        "base_clock_mhz": 1900,
+        "boost_clock_mhz": 3500,
+        "l3_cache_kb": 115200,
+        "tdp_w": 350,
+        "socket": "LGA 4677",
+        "launch_price_usd": 17000,
+        "market": "Server",
+        "memory_type": "DDR5",
+        "memory_channels": 8,
+        "foundry": "Intel",
+        "instruction_sets": [
+          "AVX-512",
+          "AMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-xeon-platinum-8480-plus",
+      "name": "Xeon Platinum 8480+",
+      "family": "Xeon Scalable",
+      "released": "2023-01-10",
+      "specs": {
+        "codename": "Sapphire Rapids",
+        "microarchitecture": "Golden Cove",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 56,
+        "threads": 112,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 3800,
+        "l3_cache_kb": 107520,
+        "tdp_w": 350,
+        "socket": "LGA 4677",
+        "launch_price_usd": 10710,
+        "market": "Server",
+        "memory_type": "DDR5",
+        "memory_channels": 8,
+        "foundry": "Intel",
+        "instruction_sets": [
+          "AVX-512",
+          "AMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-xeon-max-9480",
+      "name": "Xeon Max 9480",
+      "family": "Xeon Max",
+      "released": "2023-01-10",
+      "specs": {
+        "codename": "Sapphire Rapids HBM",
+        "microarchitecture": "Golden Cove",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 56,
+        "threads": 112,
+        "base_clock_mhz": 1900,
+        "boost_clock_mhz": 3500,
+        "l3_cache_kb": 115200,
+        "tdp_w": 350,
+        "socket": "LGA 4677",
+        "launch_price_usd": 12980,
+        "market": "HPC",
+        "memory_type": "HBM2e + DDR5",
+        "memory_size_mb": 65536,
+        "foundry": "Intel",
+        "instruction_sets": [
+          "AVX-512",
+          "AMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-i9-13900ks",
+      "name": "Core i9-13900KS",
+      "family": "Core i9",
+      "released": "2023-01-12",
+      "specs": {
+        "codename": "Raptor Lake",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 24,
+        "threads": 32,
+        "base_clock_mhz": 3200,
+        "boost_clock_mhz": 6000,
+        "l3_cache_kb": 36864,
+        "tdp_w": 150,
+        "socket": "LGA 1700",
+        "launch_price_usd": 699,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "foundry": "Intel"
+      }
+    },
+    {
+      "id": "intel-xeon-w9-3495x",
+      "name": "Xeon w9-3495X",
+      "family": "Xeon W",
+      "released": "2023-02-15",
+      "specs": {
+        "codename": "Sapphire Rapids",
+        "microarchitecture": "Golden Cove",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 56,
+        "threads": 112,
+        "base_clock_mhz": 1900,
+        "boost_clock_mhz": 4800,
+        "l3_cache_kb": 107520,
+        "tdp_w": 350,
+        "socket": "LGA 4677",
+        "launch_price_usd": 5889,
+        "market": "Workstation",
+        "foundry": "Intel"
+      }
+    },
+    {
+      "id": "intel-core-i9-14900k",
+      "name": "Core i9-14900K",
+      "family": "Core i9",
+      "released": "2023-10-17",
+      "specs": {
+        "codename": "Raptor Lake Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 24,
+        "threads": 32,
+        "base_clock_mhz": 3200,
+        "boost_clock_mhz": 6000,
+        "l3_cache_kb": 36864,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 589,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "l2_cache_kb": 32768,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770"
+      }
+    },
+    {
+      "id": "intel-core-i7-14700k",
+      "name": "Core i7-14700K",
+      "family": "Core i7",
+      "released": "2023-10-17",
+      "specs": {
+        "codename": "Raptor Lake Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 20,
+        "threads": 28,
+        "base_clock_mhz": 3400,
+        "boost_clock_mhz": 5600,
+        "l3_cache_kb": 33792,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 409,
+        "performance_cores": 8,
+        "efficiency_cores": 12,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770"
+      }
+    },
+    {
+      "id": "intel-core-i5-14600k",
+      "name": "Core i5-14600K",
+      "family": "Core i5",
+      "released": "2023-10-17",
+      "specs": {
+        "codename": "Raptor Lake Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 14,
+        "threads": 20,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 5300,
+        "l3_cache_kb": 24576,
+        "tdp_w": 125,
+        "socket": "LGA 1700",
+        "launch_price_usd": 319,
+        "performance_cores": 6,
+        "efficiency_cores": 8,
+        "foundry": "Intel",
+        "gpu": "UHD Graphics 770"
+      }
+    },
+    {
+      "id": "intel-core-ultra-7-155h",
+      "name": "Core Ultra 7 155H",
+      "family": "Core Ultra 7",
+      "released": "2023-12-14",
+      "specs": {
+        "codename": "Meteor Lake",
+        "microarchitecture": "Redwood Cove + Crestmont",
+        "isa": "x86-64",
+        "process_nm": 4,
+        "cores": 16,
+        "threads": 22,
+        "base_clock_mhz": 1400,
+        "boost_clock_mhz": 4800,
+        "l3_cache_kb": 24576,
+        "tdp_w": 28,
+        "performance_cores": 6,
+        "efficiency_cores": 10,
+        "foundry": "Intel",
+        "market": "Mobile",
+        "gpu": "Arc Graphics (8 Xe cores)",
+        "npu_tops": 11
+      }
+    },
+    {
+      "id": "intel-core-ultra-9-185h",
+      "name": "Core Ultra 9 185H",
+      "family": "Core Ultra 9",
+      "released": "2023-12-14",
+      "specs": {
+        "codename": "Meteor Lake",
+        "microarchitecture": "Redwood Cove + Crestmont",
+        "isa": "x86-64",
+        "process_nm": 4,
+        "cores": 16,
+        "threads": 22,
+        "base_clock_mhz": 2300,
+        "boost_clock_mhz": 5100,
+        "l3_cache_kb": 24576,
+        "tdp_w": 45,
+        "performance_cores": 6,
+        "efficiency_cores": 10,
+        "foundry": "Intel",
+        "market": "Mobile",
+        "gpu": "Arc Graphics (8 Xe cores)"
+      }
+    },
+    {
+      "id": "intel-xeon-platinum-8592-plus",
+      "name": "Xeon Platinum 8592+",
+      "family": "Xeon Scalable",
+      "released": "2023-12-14",
+      "specs": {
+        "codename": "Emerald Rapids",
+        "microarchitecture": "Raptor Cove",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 64,
+        "threads": 128,
+        "base_clock_mhz": 1900,
+        "boost_clock_mhz": 3900,
+        "l3_cache_kb": 327680,
+        "tdp_w": 350,
+        "socket": "LGA 4677",
+        "launch_price_usd": 11600,
+        "market": "Server",
+        "memory_type": "DDR5",
+        "memory_channels": 8,
+        "foundry": "Intel"
+      }
+    },
+    {
+      "id": "intel-core-i9-14900hx",
+      "name": "Core i9-14900HX",
+      "family": "Core i9",
+      "released": "2024-01-08",
+      "specs": {
+        "codename": "Raptor Lake-HX Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 24,
+        "threads": 32,
+        "base_clock_mhz": 2200,
+        "boost_clock_mhz": 5800,
+        "l3_cache_kb": 36864,
+        "tdp_w": 55,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "foundry": "Intel",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "intel-core-i9-14900ks",
+      "name": "Core i9-14900KS",
+      "family": "Core i9",
+      "released": "2024-03-14",
+      "specs": {
+        "codename": "Raptor Lake Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "process_nm": 7,
+        "cores": 24,
+        "threads": 32,
+        "base_clock_mhz": 3200,
+        "boost_clock_mhz": 6200,
+        "l3_cache_kb": 36864,
+        "tdp_w": 150,
+        "socket": "LGA 1700",
+        "launch_price_usd": 689,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "foundry": "Intel"
+      }
+    },
+    {
+      "id": "intel-xeon-6780e",
+      "name": "Xeon 6780E",
+      "family": "Xeon 6",
+      "released": "2024-06-04",
+      "specs": {
+        "codename": "Sierra Forest",
+        "microarchitecture": "Crestmont",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 144,
+        "threads": 144,
+        "base_clock_mhz": 2200,
+        "boost_clock_mhz": 3000,
+        "l3_cache_kb": 110592,
+        "tdp_w": 330,
+        "socket": "LGA 4710",
+        "launch_price_usd": 11350,
+        "efficiency_cores": 144,
+        "market": "Server",
+        "foundry": "Intel"
+      }
+    },
+    {
+      "id": "intel-core-ultra-7-258v",
+      "name": "Core Ultra 7 258V",
+      "family": "Core Ultra 7",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Lunar Lake",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 8,
+        "threads": 8,
+        "base_clock_mhz": 2200,
+        "boost_clock_mhz": 4800,
+        "l3_cache_kb": 12288,
+        "tdp_w": 17,
+        "performance_cores": 4,
+        "efficiency_cores": 4,
+        "foundry": "TSMC",
+        "market": "Mobile",
+        "gpu": "Arc 140V (8 Xe2 cores)",
+        "npu_tops": 47,
+        "memory_type": "LPDDR5X (on-package)",
+        "memory_size_mb": 32768
+      }
+    },
+    {
+      "id": "intel-core-ultra-9-288v",
+      "name": "Core Ultra 9 288V",
+      "family": "Core Ultra 9",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Lunar Lake",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 8,
+        "threads": 8,
+        "base_clock_mhz": 3300,
+        "boost_clock_mhz": 5100,
+        "l3_cache_kb": 12288,
+        "tdp_w": 30,
+        "performance_cores": 4,
+        "efficiency_cores": 4,
+        "foundry": "TSMC",
+        "market": "Mobile",
+        "gpu": "Arc 140V (8 Xe2 cores)",
+        "npu_tops": 48,
+        "memory_type": "LPDDR5X (on-package)",
+        "memory_size_mb": 32768
+      }
+    },
+    {
+      "id": "intel-xeon-6980p",
+      "name": "Xeon 6980P",
+      "family": "Xeon 6",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Granite Rapids",
+        "microarchitecture": "Redwood Cove",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 128,
+        "threads": 256,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 3900,
+        "l3_cache_kb": 516096,
+        "tdp_w": 500,
+        "socket": "LGA 7529",
+        "launch_price_usd": 17800,
+        "market": "Server",
+        "memory_type": "DDR5 / MRDIMM",
+        "memory_channels": 12,
+        "foundry": "Intel",
+        "instruction_sets": [
+          "AVX-512",
+          "AMX"
+        ]
+      }
+    },
+    {
+      "id": "intel-core-ultra-9-285k",
+      "name": "Core Ultra 9 285K",
+      "family": "Core Ultra 9",
+      "released": "2024-10-24",
+      "specs": {
+        "codename": "Arrow Lake-S",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 24,
+        "threads": 24,
+        "base_clock_mhz": 3700,
+        "boost_clock_mhz": 5700,
+        "l3_cache_kb": 36864,
+        "tdp_w": 125,
+        "socket": "LGA 1851",
+        "launch_price_usd": 589,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "foundry": "TSMC",
+        "npu_tops": 13,
+        "memory_type": "DDR5"
+      }
+    },
+    {
+      "id": "intel-core-ultra-7-265k",
+      "name": "Core Ultra 7 265K",
+      "family": "Core Ultra 7",
+      "released": "2024-10-24",
+      "specs": {
+        "codename": "Arrow Lake-S",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 20,
+        "threads": 20,
+        "base_clock_mhz": 3900,
+        "boost_clock_mhz": 5500,
+        "l3_cache_kb": 30720,
+        "tdp_w": 125,
+        "socket": "LGA 1851",
+        "launch_price_usd": 394,
+        "performance_cores": 8,
+        "efficiency_cores": 12,
+        "foundry": "TSMC",
+        "memory_type": "DDR5"
+      }
+    },
+    {
+      "id": "intel-core-ultra-5-245k",
+      "name": "Core Ultra 5 245K",
+      "family": "Core Ultra 5",
+      "released": "2024-10-24",
+      "specs": {
+        "codename": "Arrow Lake-S",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 14,
+        "threads": 14,
+        "base_clock_mhz": 4200,
+        "boost_clock_mhz": 5200,
+        "l3_cache_kb": 24576,
+        "tdp_w": 125,
+        "socket": "LGA 1851",
+        "launch_price_usd": 309,
+        "performance_cores": 6,
+        "efficiency_cores": 8,
+        "foundry": "TSMC",
+        "memory_type": "DDR5"
+      }
+    },
+    {
+      "id": "intel-core-ultra-9-275hx",
+      "name": "Core Ultra 9 275HX",
+      "family": "Core Ultra 9",
+      "released": "2025-01",
+      "specs": {
+        "codename": "Arrow Lake-HX",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 24,
+        "threads": 24,
+        "boost_clock_mhz": 5400,
+        "l3_cache_kb": 36864,
+        "tdp_w": 55,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "foundry": "TSMC",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "intel-xeon-6787p",
+      "name": "Xeon 6787P",
+      "family": "Xeon 6",
+      "released": "2025-02-24",
+      "specs": {
+        "codename": "Granite Rapids-SP",
+        "microarchitecture": "Redwood Cove",
+        "isa": "x86-64",
+        "process_nm": 3,
+        "cores": 86,
+        "threads": 172,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 3800,
+        "l3_cache_kb": 344064,
+        "tdp_w": 350,
+        "market": "Server",
+        "foundry": "Intel"
+      }
+    },
+    {
+      "id": "intel-core-ultra-x9-388h",
+      "name": "Core Ultra X9 388H",
+      "family": "Core Ultra X9",
+      "released": "2026-01-05",
+      "specs": {
+        "codename": "Panther Lake",
+        "microarchitecture": "Cougar Cove + Darkmont",
+        "isa": "x86-64",
+        "process_nm": 1.8,
+        "foundry": "Intel",
+        "cores": 16,
+        "performance_cores": 4,
+        "threads": 16,
+        "boost_clock_mhz": 5100,
+        "market": "Mobile",
+        "gpu": "Arc B390 (12 Xe3 cores)",
+        "npu_tops": 50
+      }
+    }
+  ]
+}

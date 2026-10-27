@@ -1,0 +1,183 @@
+{
+  "manufacturer": "cyrix",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "cyrix-cx486slc",
+      "name": "Cx486SLC",
+      "family": "Cx486",
+      "released": "1992",
+      "specs": {
+        "isa": "x86",
+        "data_width_bits": 16,
+        "address_width_bits": 24,
+        "base_clock_mhz": 25,
+        "cores": 1,
+        "l1_cache_kb": 1
+      }
+    },
+    {
+      "id": "cyrix-cx486dlc",
+      "name": "Cx486DLC",
+      "family": "Cx486",
+      "released": "1992",
+      "specs": {
+        "isa": "x86",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 33,
+        "cores": 1,
+        "l1_cache_kb": 1
+      }
+    },
+    {
+      "id": "cyrix-cx486dx",
+      "name": "Cx486DX",
+      "family": "Cx486",
+      "released": "1993",
+      "specs": {
+        "isa": "x86",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 40,
+        "cores": 1,
+        "l1_cache_kb": 8,
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "cyrix-cx486dx2",
+      "name": "Cx486DX2",
+      "family": "Cx486",
+      "released": "1994",
+      "specs": {
+        "isa": "x86",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 80,
+        "cores": 1,
+        "l1_cache_kb": 8,
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "cyrix-5x86",
+      "name": "5x86",
+      "family": "5x86",
+      "released": "1995-08",
+      "specs": {
+        "codename": "M1sc",
+        "isa": "x86",
+        "process_nm": 650,
+        "transistors": 2000000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 120,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "cyrix-6x86l",
+      "name": "6x86L",
+      "family": "6x86",
+      "released": "1996",
+      "specs": {
+        "isa": "x86",
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "socket": "Socket 7",
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "cyrix-6x86",
+      "name": "6x86",
+      "family": "6x86",
+      "released": "1996-02",
+      "specs": {
+        "codename": "M1",
+        "isa": "x86",
+        "transistors": 3000000,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "socket": "Socket 7",
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "cyrix-mediagx",
+      "name": "MediaGX",
+      "family": "MediaGX",
+      "released": "1997-02",
+      "specs": {
+        "isa": "x86",
+        "transistors": 2400000,
+        "data_width_bits": 32,
+        "base_clock_mhz": 133,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "instruction_sets": [
+          "x87"
+        ]
+      }
+    },
+    {
+      "id": "cyrix-6x86mx",
+      "name": "6x86MX",
+      "family": "6x86",
+      "released": "1997-05",
+      "specs": {
+        "codename": "M2",
+        "isa": "x86",
+        "process_nm": 350,
+        "transistors": 6500000,
+        "die_size_mm2": 197,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "socket": "Socket 7",
+        "instruction_sets": [
+          "x87",
+          "MMX"
+        ]
+      }
+    },
+    {
+      "id": "cyrix-mii",
+      "name": "MII",
+      "family": "6x86",
+      "released": "1998",
+      "specs": {
+        "codename": "M2",
+        "isa": "x86",
+        "transistors": 6500000,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "socket": "Socket 7",
+        "instruction_sets": [
+          "x87",
+          "MMX"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "manufacturer": "wdc",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "wdc-65c02",
+      "name": "65C02",
+      "family": "65C02",
+      "released": "1983",
+      "specs": {
+        "isa": "65C02",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "wdc-65c816",
+      "name": "65C816",
+      "family": "65C816",
+      "released": "1985",
+      "specs": {
+        "isa": "65C816",
+        "data_width_bits": 8,
+        "address_width_bits": 24,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    }
+  ]
+}

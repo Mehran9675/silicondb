@@ -1,0 +1,37 @@
+{
+  "manufacturer": "renesas",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "renesas-r-car-h3",
+      "name": "R-Car H3",
+      "family": "R-Car Gen3",
+      "released": "2016",
+      "specs": {
+        "isa": "ARMv8-A",
+        "market": "Automotive",
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "4x Cortex-A57 + 4x Cortex-A53 + 1x Cortex-R7",
+        "base_clock_mhz": 1500,
+        "gpu": "PowerVR GX6650",
+        "memory_type": "LPDDR4"
+      }
+    },
+    {
+      "id": "renesas-r-car-v4h",
+      "name": "R-Car V4H",
+      "family": "R-Car Gen4",
+      "released": "2022",
+      "specs": {
+        "microarchitecture": "Cortex-A76",
+        "isa": "ARMv8.2-A",
+        "market": "Automotive (ADAS)",
+        "process_nm": 7,
+        "cores": 4,
+        "npu_tops": 34
+      }
+    }
+  ]
+}

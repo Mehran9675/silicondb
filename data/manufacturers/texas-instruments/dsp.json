@@ -1,0 +1,119 @@
+{
+  "manufacturer": "texas-instruments",
+  "category": "dsp",
+  "chips": [
+    {
+      "id": "texas-instruments-tms32010",
+      "name": "TMS32010",
+      "family": "TMS320C1x",
+      "released": "1983",
+      "specs": {
+        "data_width_bits": 16,
+        "base_clock_mhz": 20,
+        "mips": 5
+      }
+    },
+    {
+      "id": "texas-instruments-tms32020",
+      "name": "TMS32020",
+      "family": "TMS320C2x",
+      "released": "1985",
+      "specs": {
+        "data_width_bits": 16,
+        "base_clock_mhz": 20,
+        "mips": 5
+      }
+    },
+    {
+      "id": "texas-instruments-tms320c25",
+      "name": "TMS320C25",
+      "family": "TMS320C2x",
+      "released": "1986",
+      "specs": {
+        "data_width_bits": 16,
+        "base_clock_mhz": 40,
+        "mips": 10
+      }
+    },
+    {
+      "id": "texas-instruments-tms320c30",
+      "name": "TMS320C30",
+      "family": "TMS320C3x",
+      "released": "1988",
+      "specs": {
+        "data_width_bits": 32,
+        "base_clock_mhz": 33,
+        "fp32_tflops": 3.3e-05
+      }
+    },
+    {
+      "id": "texas-instruments-tms320c40",
+      "name": "TMS320C40",
+      "family": "TMS320C4x",
+      "released": "1991",
+      "specs": {
+        "data_width_bits": 32
+      }
+    },
+    {
+      "id": "texas-instruments-tms320c6201",
+      "name": "TMS320C6201",
+      "family": "TMS320C62x",
+      "released": "1997",
+      "specs": {
+        "data_width_bits": 32,
+        "base_clock_mhz": 200,
+        "mips": 1600
+      }
+    },
+    {
+      "id": "texas-instruments-tms320c6701",
+      "name": "TMS320C6701",
+      "family": "TMS320C67x",
+      "released": "1998",
+      "specs": {
+        "data_width_bits": 32,
+        "base_clock_mhz": 167,
+        "fp32_tflops": 0.001
+      }
+    },
+    {
+      "id": "texas-instruments-tms320c6416",
+      "name": "TMS320C6416",
+      "family": "TMS320C64x",
+      "released": "2001",
+      "specs": {
+        "data_width_bits": 32,
+        "base_clock_mhz": 600,
+        "mips": 4800,
+        "l2_cache_kb": 1024
+      }
+    },
+    {
+      "id": "texas-instruments-tms320c6455",
+      "name": "TMS320C6455",
+      "family": "TMS320C64x+",
+      "released": "2005",
+      "specs": {
+        "data_width_bits": 32,
+        "process_nm": 90,
+        "base_clock_mhz": 1200,
+        "mips": 9600,
+        "l2_cache_kb": 2048
+      }
+    },
+    {
+      "id": "texas-instruments-tms320c6678",
+      "name": "TMS320C6678",
+      "family": "TMS320C66x",
+      "released": "2010-11",
+      "specs": {
+        "data_width_bits": 32,
+        "process_nm": 40,
+        "cores": 8,
+        "base_clock_mhz": 1250,
+        "l2_cache_kb": 4096
+      }
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "manufacturer": "nvidia",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "nvidia-tegra-apx-2500",
+      "name": "Tegra APX 2500",
+      "family": "Tegra",
+      "released": "2008-02",
+      "specs": {
+        "isa": "ARMv6",
+        "market": "Mobile",
+        "process_nm": 65,
+        "cores": 1,
+        "core_config": "1x ARM11 MPCore",
+        "boost_clock_mhz": 600
+      }
+    },
+    {
+      "id": "nvidia-tegra-2",
+      "name": "Tegra 2 (T20)",
+      "family": "Tegra",
+      "released": "2010-01",
+      "specs": {
+        "codename": "T20",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "cores": 2,
+        "core_config": "2x Cortex-A9",
+        "boost_clock_mhz": 1000,
+        "gpu": "ULP GeForce",
+        "gpu_cores": 8,
+        "memory_type": "LPDDR2 / DDR2",
+        "memory_bus_bits": 32
+      }
+    },
+    {
+      "id": "nvidia-tegra-3",
+      "name": "Tegra 3 (T30)",
+      "family": "Tegra",
+      "released": "2011-11",
+      "specs": {
+        "codename": "Kal-El",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "cores": 5,
+        "core_config": "4x Cortex-A9 + 1x Cortex-A9 companion",
+        "boost_clock_mhz": 1400,
+        "gpu": "ULP GeForce",
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 520,
+        "memory_type": "LPDDR2 / DDR3L",
+        "memory_bus_bits": 32
+      }
+    },
+    {
+      "id": "nvidia-tegra-4",
+      "name": "Tegra 4 (T114)",
+      "family": "Tegra",
+      "released": "2013-01",
+      "specs": {
+        "codename": "Wayne",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 5,
+        "core_config": "4x Cortex-A15 + 1x Cortex-A15 companion",
+        "boost_clock_mhz": 1900,
+        "gpu": "ULP GeForce",
+        "gpu_cores": 72,
+        "memory_type": "LPDDR3 / DDR3L"
+      }
+    },
+    {
+      "id": "nvidia-tegra-k1",
+      "name": "Tegra K1 (32-bit)",
+      "family": "Tegra",
+      "released": "2014-01",
+      "specs": {
+        "codename": "Logan",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 5,
+        "core_config": "4x Cortex-A15 + 1x Cortex-A15 companion",
+        "boost_clock_mhz": 2300,
+        "gpu": "Kepler",
+        "gpu_cores": 192,
+        "fp32_tflops": 0.365
+      }
+    },
+    {
+      "id": "nvidia-tegra-k1-64",
+      "name": "Tegra K1 (64-bit)",
+      "family": "Tegra",
+      "released": "2014-08",
+      "specs": {
+        "codename": "Logan",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 2,
+        "core_config": "2x Denver",
+        "boost_clock_mhz": 2500,
+        "gpu": "Kepler",
+        "gpu_cores": 192
+      }
+    },
+    {
+      "id": "nvidia-tegra-x1",
+      "name": "Tegra X1",
+      "family": "Tegra",
+      "released": "2015-01",
+      "specs": {
+        "codename": "Erista",
+        "isa": "ARMv8-A",
+        "market": "Mobile / Embedded",
+        "process_nm": 20,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "4x Cortex-A57 + 4x Cortex-A53",
+        "gpu": "Maxwell",
+        "gpu_cores": 256,
+        "gpu_clock_mhz": 1000,
+        "memory_type": "LPDDR4",
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 25.6,
+        "fp32_tflops": 0.512,
+        "fp16_tflops": 1.024
+      }
+    },
+    {
+      "id": "nvidia-tegra-parker",
+      "name": "Tegra X2 (Parker)",
+      "family": "Tegra",
+      "released": "2016-08",
+      "specs": {
+        "codename": "Parker",
+        "isa": "ARMv8-A",
+        "market": "Automotive / Embedded",
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "cores": 6,
+        "core_config": "2x Denver 2 + 4x Cortex-A57",
+        "gpu": "Pascal",
+        "gpu_cores": 256,
+        "memory_type": "LPDDR4",
+        "memory_bus_bits": 128
+      }
+    },
+    {
+      "id": "nvidia-xavier",
+      "name": "Xavier",
+      "family": "Tegra",
+      "released": "2018",
+      "specs": {
+        "codename": "Xavier",
+        "isa": "ARMv8.2-A",
+        "market": "Automotive / Embedded",
+        "process_nm": 12,
+        "foundry": "TSMC",
+        "transistors": 9000000000,
+        "die_size_mm2": 350,
+        "cores": 8,
+        "core_config": "8x Carmel",
+        "boost_clock_mhz": 2265,
+        "gpu": "Volta",
+        "gpu_cores": 512,
+        "tensor_cores": 64,
+        "memory_type": "LPDDR4x",
+        "memory_bus_bits": 256,
+        "memory_bandwidth_gbs": 137.0,
+        "int8_tops": 32.0,
+        "tdp_w": 30
+      }
+    },
+    {
+      "id": "nvidia-orin",
+      "name": "Orin",
+      "family": "Tegra",
+      "released": "2022-03",
+      "specs": {
+        "codename": "Orin",
+        "isa": "ARMv8.2-A",
+        "market": "Automotive / Embedded",
+        "process_nm": 8,
+        "foundry": "Samsung",
+        "transistors": 17000000000,
+        "cores": 12,
+        "core_config": "12x Cortex-A78AE",
+        "boost_clock_mhz": 2200,
+        "gpu": "Ampere",
+        "gpu_cores": 2048,
+        "tensor_cores": 64,
+        "memory_type": "LPDDR5",
+        "memory_bus_bits": 256,
+        "memory_bandwidth_gbs": 204.8,
+        "tdp_w": 60
+      }
+    },
+    {
+      "id": "nvidia-thor",
+      "name": "Thor",
+      "family": "Tegra",
+      "released": "2025-08",
+      "specs": {
+        "codename": "Thor",
+        "isa": "ARMv9.2-A",
+        "market": "Automotive / Robotics",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 14,
+        "core_config": "14x Neoverse V3AE",
+        "boost_clock_mhz": 2600,
+        "gpu": "Blackwell",
+        "gpu_cores": 2560,
+        "tensor_cores": 96,
+        "memory_type": "LPDDR5X",
+        "memory_size_mb": 131072,
+        "memory_bus_bits": 256,
+        "memory_bandwidth_gbs": 273.0,
+        "tdp_w": 130
+      }
+    }
+  ]
+}

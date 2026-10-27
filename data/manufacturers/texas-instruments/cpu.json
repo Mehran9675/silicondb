@@ -1,0 +1,58 @@
+{
+  "manufacturer": "texas-instruments",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "texas-instruments-tms9980a",
+      "name": "TMS9980A",
+      "family": "TMS9900",
+      "released": "1976",
+      "specs": {
+        "isa": "TMS9900",
+        "data_width_bits": 8,
+        "address_width_bits": 14,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "texas-instruments-tms9900",
+      "name": "TMS9900",
+      "family": "TMS9900",
+      "released": "1976-06",
+      "specs": {
+        "isa": "TMS9900",
+        "transistors": 8000,
+        "data_width_bits": 16,
+        "address_width_bits": 16,
+        "base_clock_mhz": 3,
+        "cores": 1,
+        "package": "64-pin DIP"
+      }
+    },
+    {
+      "id": "texas-instruments-tms9995",
+      "name": "TMS9995",
+      "family": "TMS9900",
+      "released": "1981",
+      "specs": {
+        "isa": "TMS9900",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "texas-instruments-tms99105a",
+      "name": "TMS99105A",
+      "family": "TMS99000",
+      "released": "1981",
+      "specs": {
+        "isa": "TMS99000",
+        "data_width_bits": 16,
+        "cores": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "manufacturer": "nec",
+  "category": "dsp",
+  "chips": [
+    {
+      "id": "nec-upd7720",
+      "name": "μPD7720",
+      "family": "μPD77xx",
+      "released": "1980",
+      "specs": {
+        "data_width_bits": 16
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "manufacturer": "imagination",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "imagination-powervr-pcx1",
+      "name": "PowerVR PCX1",
+      "family": "PowerVR Series1",
+      "released": "1996",
+      "specs": {
+        "codename": "PCX1",
+        "microarchitecture": "PowerVR Series1",
+        "market": "Consumer",
+        "process_nm": 500,
+        "foundry": "NEC",
+        "gpu_clock_mhz": 60,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "imagination-powervr-pcx2",
+      "name": "PowerVR PCX2",
+      "family": "PowerVR Series1",
+      "released": "1997",
+      "specs": {
+        "codename": "PCX2",
+        "microarchitecture": "PowerVR Series1",
+        "market": "Consumer",
+        "process_nm": 350,
+        "foundry": "NEC",
+        "gpu_clock_mhz": 66,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "imagination-powervr-clx2",
+      "name": "PowerVR CLX2",
+      "family": "PowerVR Series2",
+      "released": "1998-11",
+      "specs": {
+        "codename": "CLX2",
+        "microarchitecture": "PowerVR Series2",
+        "market": "Console",
+        "process_nm": 250,
+        "foundry": "NEC",
+        "gpu_clock_mhz": 100
+      }
+    },
+    {
+      "id": "imagination-neon-250",
+      "name": "Neon 250",
+      "family": "PowerVR Series2",
+      "released": "1999-11",
+      "specs": {
+        "codename": "PMX1",
+        "microarchitecture": "PowerVR Series2",
+        "market": "Consumer",
+        "process_nm": 250,
+        "foundry": "NEC",
+        "gpu_clock_mhz": 125,
+        "memory_type": "SDRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "interface": "AGP 2x / PCI"
+      }
+    },
+    {
+      "id": "imagination-kyro",
+      "name": "Kyro",
+      "family": "Kyro",
+      "released": "2000",
+      "specs": {
+        "codename": "STG4000",
+        "microarchitecture": "PowerVR Series3",
+        "market": "Consumer",
+        "process_nm": 250,
+        "foundry": "STMicroelectronics",
+        "tmus": 2,
+        "rops": 2,
+        "gpu_clock_mhz": 115,
+        "memory_type": "SDRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "imagination-kyro-ii",
+      "name": "Kyro II",
+      "family": "Kyro",
+      "released": "2001-03",
+      "specs": {
+        "codename": "STG4500",
+        "microarchitecture": "PowerVR Series3",
+        "market": "Consumer",
+        "process_nm": 180,
+        "foundry": "STMicroelectronics",
+        "transistors": 15000000,
+        "tmus": 2,
+        "rops": 2,
+        "gpu_clock_mhz": 175,
+        "memory_type": "SDRAM",
+        "memory_size_mb": 64,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 2.8,
+        "interface": "AGP 4x"
+      }
+    }
+  ]
+}

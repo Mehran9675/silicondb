@@ -1,0 +1,158 @@
+{
+  "manufacturer": "nxp",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "nxp-imx6quad",
+      "name": "i.MX 6Quad",
+      "family": "i.MX 6",
+      "released": "2012",
+      "specs": {
+        "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Embedded / automotive",
+        "process_nm": 40,
+        "cores": 4,
+        "base_clock_mhz": 1200,
+        "l2_cache_kb": 1024,
+        "gpu": "Vivante GC2000",
+        "memory_type": "DDR3/LPDDR2"
+      }
+    },
+    {
+      "id": "nxp-imx7dual",
+      "name": "i.MX 7Dual",
+      "family": "i.MX 7",
+      "released": "2015",
+      "specs": {
+        "microarchitecture": "Cortex-A7",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
+        "process_nm": 28,
+        "cores": 2,
+        "core_config": "2x Cortex-A7 + 1x Cortex-M4",
+        "base_clock_mhz": 1000,
+        "memory_type": "DDR3L/LPDDR2/LPDDR3"
+      }
+    },
+    {
+      "id": "nxp-imx8quadmax",
+      "name": "i.MX 8QuadMax",
+      "family": "i.MX 8",
+      "released": "2017",
+      "specs": {
+        "isa": "ARMv8-A",
+        "market": "Automotive / embedded",
+        "process_nm": 28,
+        "cores": 6,
+        "core_config": "2x Cortex-A72 + 4x Cortex-A53 + 2x Cortex-M4F",
+        "gpu": "2x Vivante GC7000XSVX",
+        "memory_type": "LPDDR4"
+      }
+    },
+    {
+      "id": "nxp-imx8mquad",
+      "name": "i.MX 8M Quad",
+      "family": "i.MX 8M",
+      "released": "2018",
+      "specs": {
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Embedded / multimedia",
+        "process_nm": 28,
+        "cores": 4,
+        "core_config": "4x Cortex-A53 + 1x Cortex-M4",
+        "base_clock_mhz": 1500,
+        "gpu": "Vivante GC7000Lite",
+        "memory_type": "LPDDR4/DDR4/DDR3L"
+      }
+    },
+    {
+      "id": "nxp-imx8mmini",
+      "name": "i.MX 8M Mini",
+      "family": "i.MX 8M",
+      "released": "2018",
+      "specs": {
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Embedded",
+        "process_nm": 14,
+        "foundry": "Samsung",
+        "cores": 4,
+        "core_config": "4x Cortex-A53 + 1x Cortex-M4",
+        "base_clock_mhz": 1800,
+        "memory_type": "LPDDR4/DDR4/DDR3L"
+      }
+    },
+    {
+      "id": "nxp-imx8mnano",
+      "name": "i.MX 8M Nano",
+      "family": "i.MX 8M",
+      "released": "2019",
+      "specs": {
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Embedded",
+        "process_nm": 14,
+        "foundry": "Samsung",
+        "cores": 4,
+        "core_config": "4x Cortex-A53 + 1x Cortex-M7",
+        "base_clock_mhz": 1500,
+        "memory_type": "LPDDR4/DDR4/DDR3L"
+      }
+    },
+    {
+      "id": "nxp-imx8mplus",
+      "name": "i.MX 8M Plus",
+      "family": "i.MX 8M",
+      "released": "2020",
+      "specs": {
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Embedded / edge AI",
+        "process_nm": 14,
+        "foundry": "Samsung",
+        "cores": 4,
+        "core_config": "4x Cortex-A53 + 1x Cortex-M7",
+        "base_clock_mhz": 1800,
+        "npu_tops": 2.3,
+        "memory_type": "LPDDR4/DDR4"
+      }
+    },
+    {
+      "id": "nxp-imx93",
+      "name": "i.MX 93",
+      "family": "i.MX 9",
+      "released": "2022",
+      "specs": {
+        "microarchitecture": "Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Embedded / edge AI",
+        "process_nm": 16,
+        "cores": 2,
+        "core_config": "2x Cortex-A55 + 1x Cortex-M33 + Ethos-U65",
+        "base_clock_mhz": 1700,
+        "npu_tops": 0.5,
+        "memory_type": "LPDDR4X/LPDDR4"
+      }
+    },
+    {
+      "id": "nxp-imx95",
+      "name": "i.MX 95",
+      "family": "i.MX 9",
+      "released": "2024",
+      "specs": {
+        "microarchitecture": "Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Automotive / industrial",
+        "process_nm": 16,
+        "cores": 6,
+        "core_config": "6x Cortex-A55 + 1x Cortex-M7 + 1x Cortex-M33",
+        "base_clock_mhz": 2000,
+        "npu_tops": 2,
+        "gpu": "Arm Mali-G310",
+        "memory_type": "LPDDR5/LPDDR4X"
+      }
+    }
+  ]
+}

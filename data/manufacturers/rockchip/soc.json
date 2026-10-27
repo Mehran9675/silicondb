@@ -1,0 +1,134 @@
+{
+  "manufacturer": "rockchip",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "rockchip-rk3066",
+      "name": "RK3066",
+      "family": "RK30",
+      "released": "2012",
+      "specs": {
+        "process_nm": 40,
+        "cores": 2,
+        "microarchitecture": "Cortex-A9",
+        "boost_clock_mhz": 1600,
+        "gpu": "Mali-400 MP4",
+        "isa": "ARMv7-A",
+        "market": "Tablet / TV box"
+      }
+    },
+    {
+      "id": "rockchip-rk3188",
+      "name": "RK3188",
+      "family": "RK31",
+      "released": "2013",
+      "specs": {
+        "process_nm": 28,
+        "cores": 4,
+        "microarchitecture": "Cortex-A9",
+        "boost_clock_mhz": 1800,
+        "gpu": "Mali-400 MP4",
+        "isa": "ARMv7-A",
+        "market": "Tablet / TV box"
+      }
+    },
+    {
+      "id": "rockchip-rk3288",
+      "name": "RK3288",
+      "family": "RK32",
+      "released": "2014",
+      "specs": {
+        "process_nm": 28,
+        "cores": 4,
+        "microarchitecture": "Cortex-A17",
+        "boost_clock_mhz": 1800,
+        "gpu": "Mali-T764 MP4",
+        "isa": "ARMv7-A",
+        "market": "Tablet / Chromebook / SBC"
+      }
+    },
+    {
+      "id": "rockchip-rk3399",
+      "name": "RK3399",
+      "family": "RK33",
+      "released": "2016",
+      "specs": {
+        "process_nm": 28,
+        "cores": 6,
+        "core_config": "2x Cortex-A72 @ 1.8 GHz + 4x Cortex-A53 @ 1.4 GHz",
+        "microarchitecture": "Cortex-A72 / Cortex-A53",
+        "boost_clock_mhz": 1800,
+        "gpu": "Mali-T860 MP4",
+        "memory_type": "LPDDR4 / DDR3",
+        "isa": "ARMv8-A",
+        "market": "Tablet / Chromebook / SBC"
+      }
+    },
+    {
+      "id": "rockchip-rk3328",
+      "name": "RK3328",
+      "family": "RK33",
+      "released": "2017",
+      "specs": {
+        "process_nm": 28,
+        "cores": 4,
+        "microarchitecture": "Cortex-A53",
+        "gpu": "Mali-450 MP2",
+        "isa": "ARMv8-A",
+        "market": "TV box / SBC"
+      }
+    },
+    {
+      "id": "rockchip-rk3566",
+      "name": "RK3566",
+      "family": "RK35",
+      "released": "2021",
+      "specs": {
+        "process_nm": 22,
+        "cores": 4,
+        "microarchitecture": "Cortex-A55",
+        "boost_clock_mhz": 1800,
+        "gpu": "Mali-G52 2EE",
+        "npu_tops": 0.8,
+        "isa": "ARMv8.2-A",
+        "market": "Tablet / SBC"
+      }
+    },
+    {
+      "id": "rockchip-rk3588",
+      "name": "RK3588",
+      "family": "RK35",
+      "released": "2022",
+      "specs": {
+        "process_nm": 8,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Cortex-A76 @ 2.4 GHz + 4x Cortex-A55 @ 1.8 GHz",
+        "microarchitecture": "Cortex-A76 / Cortex-A55",
+        "boost_clock_mhz": 2400,
+        "gpu": "Mali-G610 MP4",
+        "npu_tops": 6,
+        "memory_type": "LPDDR4X / LPDDR5",
+        "isa": "ARMv8.2-A",
+        "market": "SBC / Edge / Tablet"
+      }
+    },
+    {
+      "id": "rockchip-rk3576",
+      "name": "RK3576",
+      "family": "RK35",
+      "released": "2024",
+      "specs": {
+        "process_nm": 8,
+        "cores": 8,
+        "core_config": "4x Cortex-A72 @ 2.2 GHz + 4x Cortex-A53 @ 1.8 GHz",
+        "microarchitecture": "Cortex-A72 / Cortex-A53",
+        "boost_clock_mhz": 2200,
+        "gpu": "Mali-G52 MC3",
+        "npu_tops": 6,
+        "isa": "ARMv8-A",
+        "market": "SBC / Edge"
+      }
+    }
+  ]
+}

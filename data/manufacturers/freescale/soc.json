@@ -1,0 +1,152 @@
+{
+  "manufacturer": "freescale",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "freescale-imx31",
+      "name": "i.MX31",
+      "family": "i.MX",
+      "released": "2005",
+      "specs": {
+        "isa": "ARMv6",
+        "microarchitecture": "ARM1136JF-S",
+        "process_nm": 90,
+        "cores": 1,
+        "boost_clock_mhz": 532
+      }
+    },
+    {
+      "id": "freescale-mpc8548e",
+      "name": "PowerQUICC III MPC8548E",
+      "family": "PowerQUICC III",
+      "released": "2005",
+      "specs": {
+        "isa": "PowerPC",
+        "microarchitecture": "e500",
+        "process_nm": 90,
+        "cores": 1,
+        "boost_clock_mhz": 1333,
+        "l2_cache_kb": 512
+      }
+    },
+    {
+      "id": "freescale-imx51",
+      "name": "i.MX51",
+      "family": "i.MX",
+      "released": "2009",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A8",
+        "process_nm": 65,
+        "cores": 1,
+        "boost_clock_mhz": 800
+      }
+    },
+    {
+      "id": "freescale-p4080",
+      "name": "QorIQ P4080",
+      "family": "QorIQ",
+      "released": "2009",
+      "specs": {
+        "isa": "PowerPC",
+        "microarchitecture": "e500mc",
+        "process_nm": 45,
+        "cores": 8,
+        "boost_clock_mhz": 1500,
+        "l2_cache_kb": 1024,
+        "l3_cache_kb": 2048
+      }
+    },
+    {
+      "id": "freescale-imx53",
+      "name": "i.MX53",
+      "family": "i.MX",
+      "released": "2011",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A8",
+        "process_nm": 45,
+        "cores": 1,
+        "boost_clock_mhz": 1000
+      }
+    },
+    {
+      "id": "freescale-imx6solo",
+      "name": "i.MX 6Solo",
+      "family": "i.MX 6",
+      "released": "2012",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A9",
+        "process_nm": 40,
+        "cores": 1,
+        "boost_clock_mhz": 1000,
+        "l2_cache_kb": 512,
+        "gpu": "Vivante GC880"
+      }
+    },
+    {
+      "id": "freescale-imx6duallite",
+      "name": "i.MX 6DualLite",
+      "family": "i.MX 6",
+      "released": "2012",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A9",
+        "process_nm": 40,
+        "cores": 2,
+        "boost_clock_mhz": 1000,
+        "l2_cache_kb": 512,
+        "gpu": "Vivante GC880"
+      }
+    },
+    {
+      "id": "freescale-imx6dual",
+      "name": "i.MX 6Dual",
+      "family": "i.MX 6",
+      "released": "2012",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A9",
+        "process_nm": 40,
+        "cores": 2,
+        "boost_clock_mhz": 1200,
+        "l2_cache_kb": 1024,
+        "gpu": "Vivante GC2000"
+      }
+    },
+    {
+      "id": "freescale-imx6quad",
+      "name": "i.MX 6Quad",
+      "family": "i.MX 6",
+      "released": "2012",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A9",
+        "process_nm": 40,
+        "cores": 4,
+        "boost_clock_mhz": 1200,
+        "l2_cache_kb": 1024,
+        "gpu": "Vivante GC2000"
+      }
+    },
+    {
+      "id": "freescale-t4240",
+      "name": "QorIQ T4240",
+      "family": "QorIQ",
+      "released": "2012",
+      "specs": {
+        "isa": "Power ISA v2.06",
+        "microarchitecture": "e6500",
+        "process_nm": 28,
+        "cores": 12,
+        "threads": 24,
+        "boost_clock_mhz": 1800,
+        "l2_cache_kb": 6144,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    }
+  ]
+}

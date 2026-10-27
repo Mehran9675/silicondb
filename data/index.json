@@ -1,0 +1,1286 @@
+{
+  "format": 1,
+  "updated": "2026-10-27",
+  "schema": {
+    "path": "schema.json",
+    "rev": "e2aa9ff325e28eba"
+  },
+  "manufacturers": [
+    {
+      "id": "3dfx",
+      "name": "3dfx Interactive",
+      "country": "United States",
+      "founded": 1994,
+      "defunct": 2002,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/3dfx/gpu.json",
+          "category": "gpu",
+          "count": 9,
+          "rev": "83d4c31bd925eef4"
+        }
+      ]
+    },
+    {
+      "id": "3dlabs",
+      "name": "3Dlabs",
+      "country": "United Kingdom",
+      "founded": 1994,
+      "defunct": 2006,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/3dlabs/gpu.json",
+          "category": "gpu",
+          "count": 8,
+          "rev": "c2eb1a4bb1b1cc37"
+        }
+      ]
+    },
+    {
+      "id": "acorn",
+      "name": "Acorn Computers",
+      "country": "United Kingdom",
+      "founded": 1978,
+      "defunct": 2000,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/acorn/cpu.json",
+          "category": "cpu",
+          "count": 3,
+          "rev": "231eb4d9fd8455bb"
+        }
+      ]
+    },
+    {
+      "id": "allwinner",
+      "name": "Allwinner Technology",
+      "country": "China",
+      "founded": 2007,
+      "defunct": 0,
+      "website": "https://www.allwinnertech.com",
+      "shards": [
+        {
+          "path": "manufacturers/allwinner/soc.json",
+          "category": "soc",
+          "count": 7,
+          "rev": "d6087fa5c7855eb1"
+        }
+      ]
+    },
+    {
+      "id": "altera",
+      "name": "Altera",
+      "country": "United States",
+      "founded": 1983,
+      "defunct": 0,
+      "website": "https://www.altera.com",
+      "shards": [
+        {
+          "path": "manufacturers/altera/fpga.json",
+          "category": "fpga",
+          "count": 26,
+          "rev": "d07f38c66872d4c4"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon Web Services",
+      "country": "United States",
+      "founded": 2006,
+      "defunct": 0,
+      "website": "https://aws.amazon.com",
+      "shards": [
+        {
+          "path": "manufacturers/amazon/ai.json",
+          "category": "ai",
+          "count": 5,
+          "rev": "6c6376fac22bdc96"
+        },
+        {
+          "path": "manufacturers/amazon/cpu.json",
+          "category": "cpu",
+          "count": 5,
+          "rev": "9bc52e1a81f01179"
+        }
+      ]
+    },
+    {
+      "id": "amd",
+      "name": "AMD",
+      "country": "United States",
+      "founded": 1969,
+      "defunct": 0,
+      "website": "https://www.amd.com",
+      "shards": [
+        {
+          "path": "manufacturers/amd/ai.json",
+          "category": "ai",
+          "count": 14,
+          "rev": "da531bf63195aa0e"
+        },
+        {
+          "path": "manufacturers/amd/apu.json",
+          "category": "apu",
+          "count": 26,
+          "rev": "38f5d80c893529b0"
+        },
+        {
+          "path": "manufacturers/amd/cpu.json",
+          "category": "cpu",
+          "count": 75,
+          "rev": "b4e0f2020fe39deb"
+        },
+        {
+          "path": "manufacturers/amd/gpu.json",
+          "category": "gpu",
+          "count": 32,
+          "rev": "0b05afb908cd7952"
+        }
+      ]
+    },
+    {
+      "id": "ampere",
+      "name": "Ampere Computing",
+      "country": "United States",
+      "founded": 2017,
+      "defunct": 0,
+      "website": "https://amperecomputing.com",
+      "shards": [
+        {
+          "path": "manufacturers/ampere/cpu.json",
+          "category": "cpu",
+          "count": 5,
+          "rev": "5afb96141eb96a1e"
+        }
+      ]
+    },
+    {
+      "id": "analog-devices",
+      "name": "Analog Devices",
+      "country": "United States",
+      "founded": 1965,
+      "defunct": 0,
+      "website": "https://www.analog.com",
+      "shards": [
+        {
+          "path": "manufacturers/analog-devices/dsp.json",
+          "category": "dsp",
+          "count": 4,
+          "rev": "c6bc2a305303b87d"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "country": "United States",
+      "founded": 1976,
+      "defunct": 0,
+      "website": "https://www.apple.com",
+      "shards": [
+        {
+          "path": "manufacturers/apple/soc.json",
+          "category": "soc",
+          "count": 48,
+          "rev": "7fb39bc3a2cd90ba"
+        }
+      ]
+    },
+    {
+      "id": "ati",
+      "name": "ATI Technologies",
+      "country": "Canada",
+      "founded": 1985,
+      "defunct": 2006,
+      "website": "https://www.amd.com",
+      "shards": [
+        {
+          "path": "manufacturers/ati/gpu.json",
+          "category": "gpu",
+          "count": 21,
+          "rev": "2f0617aa19a8dac8"
+        }
+      ]
+    },
+    {
+      "id": "atmel",
+      "name": "Atmel",
+      "country": "United States",
+      "founded": 1984,
+      "defunct": 2016,
+      "website": "https://www.microchip.com",
+      "shards": [
+        {
+          "path": "manufacturers/atmel/mcu.json",
+          "category": "mcu",
+          "count": 11,
+          "rev": "71ed4edb28e97c01"
+        }
+      ]
+    },
+    {
+      "id": "broadcom",
+      "name": "Broadcom",
+      "country": "United States",
+      "founded": 1991,
+      "defunct": 0,
+      "website": "https://www.broadcom.com",
+      "shards": [
+        {
+          "path": "manufacturers/broadcom/soc.json",
+          "category": "soc",
+          "count": 7,
+          "rev": "eb7830d393b67dcc"
+        }
+      ]
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras Systems",
+      "country": "United States",
+      "founded": 2015,
+      "defunct": 0,
+      "website": "https://www.cerebras.ai",
+      "shards": [
+        {
+          "path": "manufacturers/cerebras/ai.json",
+          "category": "ai",
+          "count": 3,
+          "rev": "990a3f0eef5a0757"
+        }
+      ]
+    },
+    {
+      "id": "cyrix",
+      "name": "Cyrix",
+      "country": "United States",
+      "founded": 1988,
+      "defunct": 1999,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/cyrix/cpu.json",
+          "category": "cpu",
+          "count": 10,
+          "rev": "f31f013fc4716bd8"
+        }
+      ]
+    },
+    {
+      "id": "dec",
+      "name": "Digital Equipment Corporation",
+      "country": "United States",
+      "founded": 1957,
+      "defunct": 1998,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/dec/cpu.json",
+          "category": "cpu",
+          "count": 15,
+          "rev": "013586fe159f6384"
+        }
+      ]
+    },
+    {
+      "id": "espressif",
+      "name": "Espressif Systems",
+      "country": "China",
+      "founded": 2008,
+      "defunct": 0,
+      "website": "https://www.espressif.com",
+      "shards": [
+        {
+          "path": "manufacturers/espressif/mcu.json",
+          "category": "mcu",
+          "count": 10,
+          "rev": "7c92860af1da027f"
+        }
+      ]
+    },
+    {
+      "id": "fairchild",
+      "name": "Fairchild Semiconductor",
+      "country": "United States",
+      "founded": 1957,
+      "defunct": 2016,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/fairchild/cpu.json",
+          "category": "cpu",
+          "count": 3,
+          "rev": "1b5807559efba02d"
+        },
+        {
+          "path": "manufacturers/fairchild/mcu.json",
+          "category": "mcu",
+          "count": 1,
+          "rev": "7e1b80fa4046e077"
+        }
+      ]
+    },
+    {
+      "id": "freescale",
+      "name": "Freescale Semiconductor",
+      "country": "United States",
+      "founded": 2004,
+      "defunct": 2015,
+      "website": "https://www.nxp.com",
+      "shards": [
+        {
+          "path": "manufacturers/freescale/cpu.json",
+          "category": "cpu",
+          "count": 8,
+          "rev": "9b953e1dda067b78"
+        },
+        {
+          "path": "manufacturers/freescale/dsp.json",
+          "category": "dsp",
+          "count": 1,
+          "rev": "49a531267271475a"
+        },
+        {
+          "path": "manufacturers/freescale/mcu.json",
+          "category": "mcu",
+          "count": 5,
+          "rev": "ac5dff68917841bf"
+        },
+        {
+          "path": "manufacturers/freescale/soc.json",
+          "category": "soc",
+          "count": 10,
+          "rev": "f13239758c0c59ce"
+        }
+      ]
+    },
+    {
+      "id": "fujitsu",
+      "name": "Fujitsu",
+      "country": "Japan",
+      "founded": 1935,
+      "defunct": 0,
+      "website": "https://www.fujitsu.com",
+      "shards": [
+        {
+          "path": "manufacturers/fujitsu/cpu.json",
+          "category": "cpu",
+          "count": 10,
+          "rev": "57136725d5495377"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google",
+      "country": "United States",
+      "founded": 1998,
+      "defunct": 0,
+      "website": "https://www.google.com",
+      "shards": [
+        {
+          "path": "manufacturers/google/ai.json",
+          "category": "ai",
+          "count": 9,
+          "rev": "67313b305b48275c"
+        },
+        {
+          "path": "manufacturers/google/soc.json",
+          "category": "soc",
+          "count": 5,
+          "rev": "48fac7a034b0d12f"
+        }
+      ]
+    },
+    {
+      "id": "graphcore",
+      "name": "Graphcore",
+      "country": "United Kingdom",
+      "founded": 2016,
+      "defunct": 0,
+      "website": "https://www.graphcore.ai",
+      "shards": [
+        {
+          "path": "manufacturers/graphcore/ai.json",
+          "category": "ai",
+          "count": 3,
+          "rev": "4b78d651ed8bcda9"
+        }
+      ]
+    },
+    {
+      "id": "groq",
+      "name": "Groq",
+      "country": "United States",
+      "founded": 2016,
+      "defunct": 0,
+      "website": "https://groq.com",
+      "shards": [
+        {
+          "path": "manufacturers/groq/ai.json",
+          "category": "ai",
+          "count": 1,
+          "rev": "42e3dc45e8717cfe"
+        }
+      ]
+    },
+    {
+      "id": "hp",
+      "name": "Hewlett-Packard",
+      "country": "United States",
+      "founded": 1939,
+      "defunct": 0,
+      "website": "https://www.hp.com",
+      "shards": [
+        {
+          "path": "manufacturers/hp/cpu.json",
+          "category": "cpu",
+          "count": 12,
+          "rev": "35bd38cb61a3eb96"
+        }
+      ]
+    },
+    {
+      "id": "hisilicon",
+      "name": "HiSilicon",
+      "country": "China",
+      "founded": 2004,
+      "defunct": 0,
+      "website": "https://www.hisilicon.com",
+      "shards": [
+        {
+          "path": "manufacturers/hisilicon/ai.json",
+          "category": "ai",
+          "count": 3,
+          "rev": "d16eb0636d26eb01"
+        },
+        {
+          "path": "manufacturers/hisilicon/soc.json",
+          "category": "soc",
+          "count": 11,
+          "rev": "980ee959318b5218"
+        }
+      ]
+    },
+    {
+      "id": "hitachi",
+      "name": "Hitachi",
+      "country": "Japan",
+      "founded": 1910,
+      "defunct": 2003,
+      "website": "https://www.hitachi.com",
+      "shards": [
+        {
+          "path": "manufacturers/hitachi/cpu.json",
+          "category": "cpu",
+          "count": 5,
+          "rev": "ccedd020c182a244"
+        }
+      ]
+    },
+    {
+      "id": "huawei",
+      "name": "Huawei",
+      "country": "China",
+      "founded": 1987,
+      "defunct": 0,
+      "website": "https://www.huawei.com",
+      "shards": [
+        {
+          "path": "manufacturers/huawei/cpu.json",
+          "category": "cpu",
+          "count": 3,
+          "rev": "9cec417e243087fb"
+        }
+      ]
+    },
+    {
+      "id": "ibm",
+      "name": "IBM",
+      "country": "United States",
+      "founded": 1911,
+      "defunct": 0,
+      "website": "https://www.ibm.com",
+      "shards": [
+        {
+          "path": "manufacturers/ibm/ai.json",
+          "category": "ai",
+          "count": 3,
+          "rev": "69cd43a251400163"
+        },
+        {
+          "path": "manufacturers/ibm/cpu.json",
+          "category": "cpu",
+          "count": 33,
+          "rev": "3cf68f3955353139"
+        }
+      ]
+    },
+    {
+      "id": "imagination",
+      "name": "Imagination Technologies",
+      "country": "United Kingdom",
+      "founded": 1985,
+      "defunct": 0,
+      "website": "https://www.imaginationtech.com",
+      "shards": [
+        {
+          "path": "manufacturers/imagination/gpu.json",
+          "category": "gpu",
+          "count": 6,
+          "rev": "bc36360ad468d315"
+        }
+      ]
+    },
+    {
+      "id": "inmos",
+      "name": "Inmos",
+      "country": "United Kingdom",
+      "founded": 1978,
+      "defunct": 1989,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/inmos/cpu.json",
+          "category": "cpu",
+          "count": 3,
+          "rev": "f5462331dd11728c"
+        }
+      ]
+    },
+    {
+      "id": "intel",
+      "name": "Intel",
+      "country": "United States",
+      "founded": 1968,
+      "defunct": 0,
+      "website": "https://www.intel.com",
+      "shards": [
+        {
+          "path": "manufacturers/intel/ai.json",
+          "category": "ai",
+          "count": 5,
+          "rev": "08f4853045f45b30"
+        },
+        {
+          "path": "manufacturers/intel/cpu.json",
+          "category": "cpu",
+          "count": 155,
+          "rev": "389fc53f5d6ba7a3"
+        },
+        {
+          "path": "manufacturers/intel/gpu.json",
+          "category": "gpu",
+          "count": 11,
+          "rev": "7fd268a8260677e2"
+        },
+        {
+          "path": "manufacturers/intel/mcu.json",
+          "category": "mcu",
+          "count": 3,
+          "rev": "a77ccc166b296129"
+        },
+        {
+          "path": "manufacturers/intel/soc.json",
+          "category": "soc",
+          "count": 4,
+          "rev": "bda54abf7836ee73"
+        }
+      ]
+    },
+    {
+      "id": "lattice",
+      "name": "Lattice Semiconductor",
+      "country": "United States",
+      "founded": 1983,
+      "defunct": 0,
+      "website": "https://www.latticesemi.com",
+      "shards": [
+        {
+          "path": "manufacturers/lattice/fpga.json",
+          "category": "fpga",
+          "count": 8,
+          "rev": "dd667fe955808f54"
+        }
+      ]
+    },
+    {
+      "id": "loongson",
+      "name": "Loongson Technology",
+      "country": "China",
+      "founded": 2010,
+      "defunct": 0,
+      "website": "https://www.loongson.cn",
+      "shards": [
+        {
+          "path": "manufacturers/loongson/cpu.json",
+          "category": "cpu",
+          "count": 10,
+          "rev": "0829df12f1fc2b56"
+        }
+      ]
+    },
+    {
+      "id": "matrox",
+      "name": "Matrox",
+      "country": "Canada",
+      "founded": 1976,
+      "defunct": 0,
+      "website": "https://www.matrox.com",
+      "shards": [
+        {
+          "path": "manufacturers/matrox/gpu.json",
+          "category": "gpu",
+          "count": 9,
+          "rev": "ae44a8ccfb859d7b"
+        }
+      ]
+    },
+    {
+      "id": "mediatek",
+      "name": "MediaTek",
+      "country": "Taiwan",
+      "founded": 1997,
+      "defunct": 0,
+      "website": "https://www.mediatek.com",
+      "shards": [
+        {
+          "path": "manufacturers/mediatek/soc.json",
+          "category": "soc",
+          "count": 19,
+          "rev": "f33841aa89adf681"
+        }
+      ]
+    },
+    {
+      "id": "microchip",
+      "name": "Microchip Technology",
+      "country": "United States",
+      "founded": 1987,
+      "defunct": 0,
+      "website": "https://www.microchip.com",
+      "shards": [
+        {
+          "path": "manufacturers/microchip/mcu.json",
+          "category": "mcu",
+          "count": 15,
+          "rev": "2e77601cc143dd7d"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft",
+      "country": "United States",
+      "founded": 1975,
+      "defunct": 0,
+      "website": "https://www.microsoft.com",
+      "shards": [
+        {
+          "path": "manufacturers/microsoft/ai.json",
+          "category": "ai",
+          "count": 1,
+          "rev": "a027b85b89b9d38f"
+        },
+        {
+          "path": "manufacturers/microsoft/cpu.json",
+          "category": "cpu",
+          "count": 2,
+          "rev": "40d4714dd553ed3f"
+        }
+      ]
+    },
+    {
+      "id": "mips",
+      "name": "MIPS Technologies",
+      "country": "United States",
+      "founded": 1984,
+      "defunct": 0,
+      "website": "https://mips.com",
+      "shards": [
+        {
+          "path": "manufacturers/mips/cpu.json",
+          "category": "cpu",
+          "count": 8,
+          "rev": "018c2338b93ff2aa"
+        }
+      ]
+    },
+    {
+      "id": "moore-threads",
+      "name": "Moore Threads",
+      "country": "China",
+      "founded": 2020,
+      "defunct": 0,
+      "website": "https://www.mthreads.com",
+      "shards": [
+        {
+          "path": "manufacturers/moore-threads/gpu.json",
+          "category": "gpu",
+          "count": 3,
+          "rev": "470abe2ec5419d02"
+        }
+      ]
+    },
+    {
+      "id": "mos-technology",
+      "name": "MOS Technology",
+      "country": "United States",
+      "founded": 1969,
+      "defunct": 1994,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/mos-technology/cpu.json",
+          "category": "cpu",
+          "count": 6,
+          "rev": "e83f534c18f7c312"
+        }
+      ]
+    },
+    {
+      "id": "motorola",
+      "name": "Motorola",
+      "country": "United States",
+      "founded": 1928,
+      "defunct": 2004,
+      "website": "https://www.motorola.com",
+      "shards": [
+        {
+          "path": "manufacturers/motorola/cpu.json",
+          "category": "cpu",
+          "count": 16,
+          "rev": "9b4af6641dce6559"
+        },
+        {
+          "path": "manufacturers/motorola/dsp.json",
+          "category": "dsp",
+          "count": 3,
+          "rev": "b35df1865233ef93"
+        },
+        {
+          "path": "manufacturers/motorola/mcu.json",
+          "category": "mcu",
+          "count": 5,
+          "rev": "0f2e13a73b215676"
+        }
+      ]
+    },
+    {
+      "id": "national-semiconductor",
+      "name": "National Semiconductor",
+      "country": "United States",
+      "founded": 1959,
+      "defunct": 2011,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/national-semiconductor/cpu.json",
+          "category": "cpu",
+          "count": 7,
+          "rev": "386230136498c604"
+        }
+      ]
+    },
+    {
+      "id": "nec",
+      "name": "NEC",
+      "country": "Japan",
+      "founded": 1899,
+      "defunct": 0,
+      "website": "https://www.nec.com",
+      "shards": [
+        {
+          "path": "manufacturers/nec/cpu.json",
+          "category": "cpu",
+          "count": 6,
+          "rev": "8afafffa7e2e29c1"
+        },
+        {
+          "path": "manufacturers/nec/dsp.json",
+          "category": "dsp",
+          "count": 1,
+          "rev": "d348de72580a0380"
+        },
+        {
+          "path": "manufacturers/nec/gpu.json",
+          "category": "gpu",
+          "count": 1,
+          "rev": "4d00c714c08f57f4"
+        }
+      ]
+    },
+    {
+      "id": "nexgen",
+      "name": "NexGen",
+      "country": "United States",
+      "founded": 1986,
+      "defunct": 1996,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/nexgen/cpu.json",
+          "category": "cpu",
+          "count": 1,
+          "rev": "6143595f5f09a349"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "country": "United States",
+      "founded": 1993,
+      "defunct": 0,
+      "website": "https://www.nvidia.com",
+      "shards": [
+        {
+          "path": "manufacturers/nvidia/ai.json",
+          "category": "ai",
+          "count": 21,
+          "rev": "760935dd28dcae8e"
+        },
+        {
+          "path": "manufacturers/nvidia/cpu.json",
+          "category": "cpu",
+          "count": 2,
+          "rev": "ee7123e236cf53c6"
+        },
+        {
+          "path": "manufacturers/nvidia/gpu.json",
+          "category": "gpu",
+          "count": 104,
+          "rev": "74170eb262ecf4d4"
+        },
+        {
+          "path": "manufacturers/nvidia/soc.json",
+          "category": "soc",
+          "count": 11,
+          "rev": "0022fdf9605fe5b2"
+        }
+      ]
+    },
+    {
+      "id": "nxp",
+      "name": "NXP Semiconductors",
+      "country": "Netherlands",
+      "founded": 2006,
+      "defunct": 0,
+      "website": "https://www.nxp.com",
+      "shards": [
+        {
+          "path": "manufacturers/nxp/mcu.json",
+          "category": "mcu",
+          "count": 6,
+          "rev": "e9c19cf5e022d6cb"
+        },
+        {
+          "path": "manufacturers/nxp/soc.json",
+          "category": "soc",
+          "count": 9,
+          "rev": "55fa888dd1b3fe40"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "name": "Oracle",
+      "country": "United States",
+      "founded": 1977,
+      "defunct": 0,
+      "website": "https://www.oracle.com",
+      "shards": [
+        {
+          "path": "manufacturers/oracle/cpu.json",
+          "category": "cpu",
+          "count": 8,
+          "rev": "a51293d973f31ad6"
+        }
+      ]
+    },
+    {
+      "id": "qualcomm",
+      "name": "Qualcomm",
+      "country": "United States",
+      "founded": 1985,
+      "defunct": 0,
+      "website": "https://www.qualcomm.com",
+      "shards": [
+        {
+          "path": "manufacturers/qualcomm/ai.json",
+          "category": "ai",
+          "count": 2,
+          "rev": "23c3de8a0da9cc41"
+        },
+        {
+          "path": "manufacturers/qualcomm/soc.json",
+          "category": "soc",
+          "count": 41,
+          "rev": "b52f6ba7942a2276"
+        }
+      ]
+    },
+    {
+      "id": "raspberry-pi",
+      "name": "Raspberry Pi",
+      "country": "United Kingdom",
+      "founded": 2012,
+      "defunct": 0,
+      "website": "https://www.raspberrypi.com",
+      "shards": [
+        {
+          "path": "manufacturers/raspberry-pi/mcu.json",
+          "category": "mcu",
+          "count": 2,
+          "rev": "83934988824caeca"
+        }
+      ]
+    },
+    {
+      "id": "rca",
+      "name": "RCA",
+      "country": "United States",
+      "founded": 1919,
+      "defunct": 1986,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/rca/cpu.json",
+          "category": "cpu",
+          "count": 2,
+          "rev": "31c8843a2ab7d0c1"
+        }
+      ]
+    },
+    {
+      "id": "renesas",
+      "name": "Renesas Electronics",
+      "country": "Japan",
+      "founded": 2002,
+      "defunct": 0,
+      "website": "https://www.renesas.com",
+      "shards": [
+        {
+          "path": "manufacturers/renesas/mcu.json",
+          "category": "mcu",
+          "count": 6,
+          "rev": "875a33a57a4d563e"
+        },
+        {
+          "path": "manufacturers/renesas/soc.json",
+          "category": "soc",
+          "count": 2,
+          "rev": "dd4006f25a7e2480"
+        }
+      ]
+    },
+    {
+      "id": "rockchip",
+      "name": "Rockchip",
+      "country": "China",
+      "founded": 2001,
+      "defunct": 0,
+      "website": "https://www.rock-chips.com",
+      "shards": [
+        {
+          "path": "manufacturers/rockchip/soc.json",
+          "category": "soc",
+          "count": 8,
+          "rev": "6234b36f663c5469"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "name": "S3 Graphics",
+      "country": "United States",
+      "founded": 1989,
+      "defunct": 2011,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/s3/gpu.json",
+          "category": "gpu",
+          "count": 14,
+          "rev": "dd6d433031b40b9e"
+        }
+      ]
+    },
+    {
+      "id": "sambanova",
+      "name": "SambaNova Systems",
+      "country": "United States",
+      "founded": 2017,
+      "defunct": 0,
+      "website": "https://sambanova.ai",
+      "shards": [
+        {
+          "path": "manufacturers/sambanova/ai.json",
+          "category": "ai",
+          "count": 3,
+          "rev": "adea1ade7f732a2a"
+        }
+      ]
+    },
+    {
+      "id": "samsung",
+      "name": "Samsung Electronics",
+      "country": "South Korea",
+      "founded": 1969,
+      "defunct": 0,
+      "website": "https://semiconductor.samsung.com",
+      "shards": [
+        {
+          "path": "manufacturers/samsung/soc.json",
+          "category": "soc",
+          "count": 23,
+          "rev": "9ec21f6f25049f36"
+        }
+      ]
+    },
+    {
+      "id": "sifive",
+      "name": "SiFive",
+      "country": "United States",
+      "founded": 2015,
+      "defunct": 0,
+      "website": "https://www.sifive.com",
+      "shards": [
+        {
+          "path": "manufacturers/sifive/cpu.json",
+          "category": "cpu",
+          "count": 2,
+          "rev": "b1153a95e2c30a4b"
+        },
+        {
+          "path": "manufacturers/sifive/mcu.json",
+          "category": "mcu",
+          "count": 1,
+          "rev": "db199d40654e862d"
+        }
+      ]
+    },
+    {
+      "id": "signetics",
+      "name": "Signetics",
+      "country": "United States",
+      "founded": 1961,
+      "defunct": 1975,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/signetics/cpu.json",
+          "category": "cpu",
+          "count": 1,
+          "rev": "332e42d9642b40b5"
+        }
+      ]
+    },
+    {
+      "id": "stmicroelectronics",
+      "name": "STMicroelectronics",
+      "country": "Switzerland",
+      "founded": 1987,
+      "defunct": 0,
+      "website": "https://www.st.com",
+      "shards": [
+        {
+          "path": "manufacturers/stmicroelectronics/mcu.json",
+          "category": "mcu",
+          "count": 16,
+          "rev": "c94dddea39a13f97"
+        },
+        {
+          "path": "manufacturers/stmicroelectronics/soc.json",
+          "category": "soc",
+          "count": 1,
+          "rev": "20329dc638ae9764"
+        }
+      ]
+    },
+    {
+      "id": "sun",
+      "name": "Sun Microsystems",
+      "country": "United States",
+      "founded": 1982,
+      "defunct": 2010,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/sun/cpu.json",
+          "category": "cpu",
+          "count": 15,
+          "rev": "9648baac58fc571d"
+        }
+      ]
+    },
+    {
+      "id": "tenstorrent",
+      "name": "Tenstorrent",
+      "country": "Canada",
+      "founded": 2016,
+      "defunct": 0,
+      "website": "https://tenstorrent.com",
+      "shards": [
+        {
+          "path": "manufacturers/tenstorrent/ai.json",
+          "category": "ai",
+          "count": 6,
+          "rev": "1248a1981c9f1d3d"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "country": "United States",
+      "founded": 2003,
+      "defunct": 0,
+      "website": "https://www.tesla.com",
+      "shards": [
+        {
+          "path": "manufacturers/tesla/ai.json",
+          "category": "ai",
+          "count": 1,
+          "rev": "8d9807da419c4701"
+        },
+        {
+          "path": "manufacturers/tesla/soc.json",
+          "category": "soc",
+          "count": 2,
+          "rev": "1ea192dbe80adc5f"
+        }
+      ]
+    },
+    {
+      "id": "texas-instruments",
+      "name": "Texas Instruments",
+      "country": "United States",
+      "founded": 1930,
+      "defunct": 0,
+      "website": "https://www.ti.com",
+      "shards": [
+        {
+          "path": "manufacturers/texas-instruments/cpu.json",
+          "category": "cpu",
+          "count": 4,
+          "rev": "8d4389da5aa1bbcc"
+        },
+        {
+          "path": "manufacturers/texas-instruments/dsp.json",
+          "category": "dsp",
+          "count": 10,
+          "rev": "aee74d7b5a025e43"
+        },
+        {
+          "path": "manufacturers/texas-instruments/gpu.json",
+          "category": "gpu",
+          "count": 2,
+          "rev": "5f18ac8a9e251391"
+        },
+        {
+          "path": "manufacturers/texas-instruments/mcu.json",
+          "category": "mcu",
+          "count": 6,
+          "rev": "74463e9207bf71a6"
+        },
+        {
+          "path": "manufacturers/texas-instruments/soc.json",
+          "category": "soc",
+          "count": 12,
+          "rev": "c7b1da7968050ba4"
+        }
+      ]
+    },
+    {
+      "id": "transmeta",
+      "name": "Transmeta",
+      "country": "United States",
+      "founded": 1995,
+      "defunct": 2009,
+      "website": "",
+      "shards": [
+        {
+          "path": "manufacturers/transmeta/cpu.json",
+          "category": "cpu",
+          "count": 6,
+          "rev": "247ae5062194a2f2"
+        }
+      ]
+    },
+    {
+      "id": "via",
+      "name": "VIA Technologies",
+      "country": "Taiwan",
+      "founded": 1987,
+      "defunct": 0,
+      "website": "https://www.via.com.tw",
+      "shards": [
+        {
+          "path": "manufacturers/via/cpu.json",
+          "category": "cpu",
+          "count": 7,
+          "rev": "4713748a40d05a9d"
+        }
+      ]
+    },
+    {
+      "id": "wdc",
+      "name": "Western Design Center",
+      "country": "United States",
+      "founded": 1978,
+      "defunct": 0,
+      "website": "https://www.westerndesigncenter.com",
+      "shards": [
+        {
+          "path": "manufacturers/wdc/cpu.json",
+          "category": "cpu",
+          "count": 2,
+          "rev": "dd44c1263d20022d"
+        }
+      ]
+    },
+    {
+      "id": "xilinx",
+      "name": "Xilinx",
+      "country": "United States",
+      "founded": 1984,
+      "defunct": 2022,
+      "website": "https://www.xilinx.com",
+      "shards": [
+        {
+          "path": "manufacturers/xilinx/fpga.json",
+          "category": "fpga",
+          "count": 26,
+          "rev": "77d270de5221468b"
+        }
+      ]
+    },
+    {
+      "id": "zilog",
+      "name": "Zilog",
+      "country": "United States",
+      "founded": 1974,
+      "defunct": 0,
+      "website": "https://www.zilog.com",
+      "shards": [
+        {
+          "path": "manufacturers/zilog/cpu.json",
+          "category": "cpu",
+          "count": 6,
+          "rev": "c3d9edb6939b5570"
+        },
+        {
+          "path": "manufacturers/zilog/mcu.json",
+          "category": "mcu",
+          "count": 3,
+          "rev": "ac45b93a5e04418e"
+        }
+      ]
+    }
+  ]
+}

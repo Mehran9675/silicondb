@@ -1,0 +1,76 @@
+{
+  "manufacturer": "freescale",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "freescale-mpc5554",
+      "name": "MPC5554",
+      "family": "MPC55xx",
+      "released": "2004",
+      "specs": {
+        "isa": "PowerPC",
+        "microarchitecture": "e200z6",
+        "data_width_bits": 32,
+        "base_clock_mhz": 132,
+        "flash_kb": 2048,
+        "sram_kb": 64
+      }
+    },
+    {
+      "id": "freescale-mk60dn512",
+      "name": "Kinetis K60 MK60DN512",
+      "family": "Kinetis K",
+      "released": "2010",
+      "specs": {
+        "isa": "ARMv7E-M",
+        "microarchitecture": "Cortex-M4",
+        "data_width_bits": 32,
+        "base_clock_mhz": 100,
+        "flash_kb": 512,
+        "sram_kb": 128
+      }
+    },
+    {
+      "id": "freescale-mk20dx256",
+      "name": "Kinetis K20 MK20DX256",
+      "family": "Kinetis K",
+      "released": "2012",
+      "specs": {
+        "isa": "ARMv7E-M",
+        "microarchitecture": "Cortex-M4",
+        "data_width_bits": 32,
+        "base_clock_mhz": 72,
+        "flash_kb": 256,
+        "sram_kb": 64
+      }
+    },
+    {
+      "id": "freescale-mkl25z128",
+      "name": "Kinetis KL25Z MKL25Z128",
+      "family": "Kinetis L",
+      "released": "2012",
+      "specs": {
+        "isa": "ARMv6-M",
+        "microarchitecture": "Cortex-M0+",
+        "data_width_bits": 32,
+        "base_clock_mhz": 48,
+        "flash_kb": 128,
+        "sram_kb": 16
+      }
+    },
+    {
+      "id": "freescale-mk64fn1m0",
+      "name": "Kinetis K64 MK64FN1M0",
+      "family": "Kinetis K",
+      "released": "2014",
+      "specs": {
+        "isa": "ARMv7E-M",
+        "microarchitecture": "Cortex-M4F",
+        "data_width_bits": 32,
+        "base_clock_mhz": 120,
+        "flash_kb": 1024,
+        "sram_kb": 256
+      }
+    }
+  ]
+}

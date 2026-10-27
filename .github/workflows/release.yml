@@ -1,0 +1,86 @@
+# Builds Silicon DB when a release is published and attaches the builds
+# to it. Nothing runs on pushes or pull requests.
+#
+# Optional repository secrets for a signed Android release (without them
+# the APK is signed with a throwaway debug key, which can't update a
+# previously installed copy):
+#   ANDROID_KEYSTORE_BASE64   base64 of the keystore made by `giode keystore`
+#   ANDROID_KEYSTORE_PASS     its password
+name: Release build
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: ${{ matrix.target }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [android, windows, web]
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TAG: ${{ github.event.release.tag_name }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - uses: actions/setup-java@v4
+        if: matrix.target == 'android'
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Install the giode CLI
+        run: go install github.com/mehran9675/giode-cli/cmd/giode@latest
+
+      - name: Set the version from the release tag
+        run: |
+          version="${TAG#v}"
+          sed -i "s/^version = .*/version = \"${version}\"/" giode.toml
+          sed -i "s/^build = .*/build = ${{ github.run_number }}/" giode.toml
+          sed -i "s/^var Version = .*/var Version = \"${version}\"/" internal/config/config.go
+
+      - name: Check the data
+        run: go run ./cmd/indexgen -check
+
+      - name: Build Android
+        if: matrix.target == 'android'
+        env:
+          KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          GIODE_KEYSTORE_PASS: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+        run: |
+          if [ -n "$KEYSTORE" ]; then
+            echo "$KEYSTORE" | base64 -d > release.keystore
+            sed -i 's/^\[android\]$/[android]\nkeystore = "release.keystore"/' giode.toml
+            giode build -release android
+          else
+            giode build android
+          fi
+          mkdir -p out
+          cp dist/android/*.apk "out/SiliconDB-${TAG}.apk"
+
+      - name: Build Windows
+        if: matrix.target == 'windows'
+        run: |
+          giode build windows
+          mkdir -p out
+          cp dist/windows/*.exe "out/SiliconDB-${TAG}-windows.exe"
+
+      - name: Build web
+        if: matrix.target == 'web'
+        run: |
+          giode build web
+          mkdir -p out
+          (cd dist/web && zip -r "../../out/SiliconDB-${TAG}-web.zip" .)
+
+      - name: Attach to the release
+        run: gh release upload "$TAG" out/* --clobber

@@ -1,0 +1,48 @@
+{
+  "manufacturer": "inmos",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "inmos-t414",
+      "name": "T414",
+      "family": "Transputer",
+      "released": "1985-09",
+      "specs": {
+        "isa": "Transputer",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 20,
+        "cores": 1,
+        "sram_kb": 2
+      }
+    },
+    {
+      "id": "inmos-t212",
+      "name": "T212",
+      "family": "Transputer",
+      "released": "1986",
+      "specs": {
+        "isa": "Transputer",
+        "data_width_bits": 16,
+        "address_width_bits": 16,
+        "base_clock_mhz": 20,
+        "cores": 1,
+        "sram_kb": 2
+      }
+    },
+    {
+      "id": "inmos-t800",
+      "name": "T800",
+      "family": "Transputer",
+      "released": "1987",
+      "specs": {
+        "isa": "Transputer",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 20,
+        "cores": 1,
+        "sram_kb": 4
+      }
+    }
+  ]
+}

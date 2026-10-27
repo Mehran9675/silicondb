@@ -1,0 +1,19 @@
+{
+  "manufacturer": "signetics",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "signetics-2650",
+      "name": "2650",
+      "family": "2650",
+      "released": "1975-07",
+      "specs": {
+        "isa": "2650",
+        "data_width_bits": 8,
+        "address_width_bits": 15,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    }
+  ]
+}

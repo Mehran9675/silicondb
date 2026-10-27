@@ -1,0 +1,36 @@
+{
+  "manufacturer": "qualcomm",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "qualcomm-cloud-ai-100-standard",
+      "name": "Cloud AI 100 Standard",
+      "family": "Cloud AI 100",
+      "released": "2020-09",
+      "specs": {
+        "process_nm": 7,
+        "int8_tops": 350,
+        "memory_type": "LPDDR4X",
+        "memory_size_mb": 16384,
+        "tdp_w": 75,
+        "interface": "PCIe 4.0 x8",
+        "market": "Data center inference"
+      }
+    },
+    {
+      "id": "qualcomm-cloud-ai-100-ultra",
+      "name": "Cloud AI 100 Ultra",
+      "family": "Cloud AI 100",
+      "released": "2023-11",
+      "specs": {
+        "process_nm": 7,
+        "int8_tops": 870,
+        "memory_type": "LPDDR4X",
+        "memory_size_mb": 131072,
+        "tdp_w": 150,
+        "interface": "PCIe 4.0 x16",
+        "market": "Data center inference"
+      }
+    }
+  ]
+}

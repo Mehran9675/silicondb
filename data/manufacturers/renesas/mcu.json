@@ -1,0 +1,94 @@
+{
+  "manufacturer": "renesas",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "renesas-rx62n",
+      "name": "RX62N",
+      "family": "RX600",
+      "released": "2010",
+      "specs": {
+        "isa": "RX",
+        "data_width_bits": 32,
+        "base_clock_mhz": 100,
+        "flash_kb": 512,
+        "sram_kb": 96,
+        "connectivity": [
+          "Ethernet",
+          "USB 2.0 Full Speed",
+          "CAN"
+        ]
+      }
+    },
+    {
+      "id": "renesas-rl78-g13",
+      "name": "RL78/G13",
+      "family": "RL78",
+      "released": "2011",
+      "specs": {
+        "isa": "RL78",
+        "data_width_bits": 16,
+        "base_clock_mhz": 32
+      }
+    },
+    {
+      "id": "renesas-rx65n",
+      "name": "RX65N",
+      "family": "RX600",
+      "released": "2017",
+      "specs": {
+        "isa": "RXv2",
+        "data_width_bits": 32,
+        "base_clock_mhz": 120,
+        "flash_kb": 2048,
+        "sram_kb": 640
+      }
+    },
+    {
+      "id": "renesas-ra4m1",
+      "name": "RA4M1",
+      "family": "RA4",
+      "released": "2019-10",
+      "specs": {
+        "microarchitecture": "Cortex-M4F",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 48,
+        "flash_kb": 256,
+        "sram_kb": 32
+      }
+    },
+    {
+      "id": "renesas-ra6m5",
+      "name": "RA6M5",
+      "family": "RA6",
+      "released": "2020",
+      "specs": {
+        "microarchitecture": "Cortex-M33",
+        "isa": "ARMv8-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 200,
+        "flash_kb": 2048,
+        "sram_kb": 512
+      }
+    },
+    {
+      "id": "renesas-ra8m1",
+      "name": "RA8M1",
+      "family": "RA8",
+      "released": "2023-10",
+      "specs": {
+        "microarchitecture": "Cortex-M85",
+        "isa": "ARMv8.1-M",
+        "data_width_bits": 32,
+        "process_nm": 22,
+        "base_clock_mhz": 480,
+        "flash_kb": 2048,
+        "sram_kb": 1024,
+        "instruction_sets": [
+          "Helium (MVE)"
+        ]
+      }
+    }
+  ]
+}

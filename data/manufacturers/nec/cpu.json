@@ -1,0 +1,87 @@
+{
+  "manufacturer": "nec",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "nec-v20",
+      "name": "V20",
+      "family": "V-series",
+      "released": "1984",
+      "specs": {
+        "codename": "μPD70108",
+        "isa": "x86",
+        "data_width_bits": 8,
+        "address_width_bits": 20,
+        "base_clock_mhz": 10,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "nec-v30",
+      "name": "V30",
+      "family": "V-series",
+      "released": "1984",
+      "specs": {
+        "codename": "μPD70116",
+        "isa": "x86",
+        "data_width_bits": 16,
+        "address_width_bits": 20,
+        "base_clock_mhz": 10,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "nec-v60",
+      "name": "V60",
+      "family": "V-series",
+      "released": "1986",
+      "specs": {
+        "codename": "μPD70616",
+        "isa": "V60",
+        "data_width_bits": 32,
+        "address_width_bits": 24,
+        "cores": 1
+      }
+    },
+    {
+      "id": "nec-v70",
+      "name": "V70",
+      "family": "V-series",
+      "released": "1987",
+      "specs": {
+        "codename": "μPD70632",
+        "isa": "V60",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "nec-v810",
+      "name": "V810",
+      "family": "V800",
+      "released": "1994",
+      "specs": {
+        "isa": "V810",
+        "data_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "nec-vr4300",
+      "name": "VR4300",
+      "family": "VR",
+      "released": "1995",
+      "specs": {
+        "isa": "MIPS III",
+        "process_nm": 350,
+        "die_size_mm2": 45,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 24
+      }
+    }
+  ]
+}

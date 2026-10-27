@@ -1,0 +1,139 @@
+{
+  "manufacturer": "google",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "google-tpu-v1",
+      "name": "TPU v1",
+      "family": "TPU",
+      "released": "2015",
+      "specs": {
+        "process_nm": 28,
+        "die_size_mm2": 331,
+        "base_clock_mhz": 700,
+        "int8_tops": 92,
+        "memory_type": "DDR3",
+        "memory_size_mb": 8192,
+        "memory_bandwidth_gbs": 34,
+        "sram_kb": 28672,
+        "tdp_w": 75,
+        "interface": "PCIe 3.0 x16",
+        "market": "Data center inference"
+      }
+    },
+    {
+      "id": "google-tpu-v2",
+      "name": "TPU v2",
+      "family": "TPU",
+      "released": "2017-05",
+      "specs": {
+        "process_nm": 16,
+        "base_clock_mhz": 700,
+        "bf16_tflops": 45,
+        "memory_type": "HBM",
+        "memory_size_mb": 16384,
+        "memory_bandwidth_gbs": 600,
+        "market": "Data center training"
+      }
+    },
+    {
+      "id": "google-tpu-v3",
+      "name": "TPU v3",
+      "family": "TPU",
+      "released": "2018-05",
+      "specs": {
+        "process_nm": 16,
+        "base_clock_mhz": 940,
+        "bf16_tflops": 123,
+        "memory_type": "HBM",
+        "memory_size_mb": 32768,
+        "memory_bandwidth_gbs": 900,
+        "market": "Data center training"
+      }
+    },
+    {
+      "id": "google-edge-tpu",
+      "name": "Edge TPU",
+      "family": "Edge TPU",
+      "released": "2019-03",
+      "specs": {
+        "int8_tops": 4,
+        "tdp_w": 2,
+        "market": "Edge inference"
+      }
+    },
+    {
+      "id": "google-tpu-v4",
+      "name": "TPU v4",
+      "family": "TPU",
+      "released": "2021-05",
+      "specs": {
+        "process_nm": 7,
+        "base_clock_mhz": 1050,
+        "bf16_tflops": 275,
+        "int8_tops": 275,
+        "memory_type": "HBM2",
+        "memory_size_mb": 32768,
+        "memory_bandwidth_gbs": 1200,
+        "market": "Data center training"
+      }
+    },
+    {
+      "id": "google-tpu-v5e",
+      "name": "TPU v5e",
+      "family": "TPU",
+      "released": "2023-08",
+      "specs": {
+        "bf16_tflops": 197,
+        "int8_tops": 394,
+        "memory_type": "HBM2",
+        "memory_size_mb": 16384,
+        "memory_bandwidth_gbs": 819,
+        "market": "Data center inference / training"
+      }
+    },
+    {
+      "id": "google-tpu-v5p",
+      "name": "TPU v5p",
+      "family": "TPU",
+      "released": "2023-12",
+      "specs": {
+        "bf16_tflops": 459,
+        "int8_tops": 918,
+        "memory_type": "HBM2e",
+        "memory_size_mb": 97280,
+        "memory_bandwidth_gbs": 2765,
+        "market": "Data center training"
+      }
+    },
+    {
+      "id": "google-tpu-v6e",
+      "name": "TPU v6e",
+      "family": "TPU",
+      "released": "2024-12",
+      "specs": {
+        "codename": "Trillium",
+        "bf16_tflops": 918,
+        "int8_tops": 1836,
+        "memory_type": "HBM",
+        "memory_size_mb": 32768,
+        "memory_bandwidth_gbs": 1640,
+        "market": "Data center inference / training"
+      }
+    },
+    {
+      "id": "google-tpu-v7",
+      "name": "TPU v7",
+      "family": "TPU",
+      "released": "2025-11",
+      "specs": {
+        "codename": "Ironwood",
+        "fp8_tflops": 4614,
+        "memory_type": "HBM3E",
+        "memory_size_mb": 196608,
+        "memory_bandwidth_gbs": 7370,
+        "market": "Data center inference / training"
+      }
+    }
+  ]
+}

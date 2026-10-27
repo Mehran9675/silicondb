@@ -1,0 +1,44 @@
+{
+  "manufacturer": "zilog",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "zilog-z8601",
+      "name": "Z8601",
+      "family": "Z8",
+      "released": "1979",
+      "specs": {
+        "isa": "Z8",
+        "data_width_bits": 8
+      }
+    },
+    {
+      "id": "zilog-z8f6421",
+      "name": "Z8 Encore! Z8F6421",
+      "family": "Z8 Encore!",
+      "released": "2002",
+      "specs": {
+        "isa": "eZ8",
+        "data_width_bits": 8,
+        "base_clock_mhz": 20,
+        "flash_kb": 64,
+        "sram_kb": 4
+      }
+    },
+    {
+      "id": "zilog-ez80f91",
+      "name": "eZ80F91",
+      "family": "eZ80 Acclaim!",
+      "released": "2004",
+      "specs": {
+        "isa": "eZ80",
+        "data_width_bits": 8,
+        "base_clock_mhz": 50,
+        "flash_kb": 256,
+        "connectivity": [
+          "Ethernet"
+        ]
+      }
+    }
+  ]
+}

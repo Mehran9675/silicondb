@@ -1,0 +1,53 @@
+{
+  "manufacturer": "hisilicon",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "hisilicon-ascend-310",
+      "name": "Ascend 310",
+      "family": "Ascend",
+      "released": "2018-10",
+      "specs": {
+        "codename": "Ascend-Mini",
+        "process_nm": 12,
+        "microarchitecture": "Da Vinci",
+        "fp16_tflops": 8,
+        "int8_tops": 16,
+        "tdp_w": 8,
+        "market": "Edge inference"
+      }
+    },
+    {
+      "id": "hisilicon-ascend-910",
+      "name": "Ascend 910",
+      "family": "Ascend",
+      "released": "2019-08",
+      "specs": {
+        "codename": "Ascend-Max",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "microarchitecture": "Da Vinci",
+        "fp16_tflops": 256,
+        "int8_tops": 512,
+        "memory_type": "HBM2",
+        "memory_size_mb": 32768,
+        "tdp_w": 310,
+        "market": "Data center training"
+      }
+    },
+    {
+      "id": "hisilicon-ascend-910b",
+      "name": "Ascend 910B",
+      "family": "Ascend",
+      "released": "2023",
+      "specs": {
+        "process_nm": 7,
+        "foundry": "SMIC",
+        "microarchitecture": "Da Vinci",
+        "memory_type": "HBM2e",
+        "memory_size_mb": 65536,
+        "market": "Data center training"
+      }
+    }
+  ]
+}

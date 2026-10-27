@@ -1,0 +1,24 @@
+{
+  "manufacturer": "microsoft",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "microsoft-maia-100",
+      "name": "Maia 100",
+      "family": "Maia",
+      "released": "2023-11",
+      "specs": {
+        "market": "Datacenter",
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "transistors": 105000000000,
+        "die_size_mm2": 820,
+        "memory_type": "HBM2e",
+        "memory_size_mb": 65536,
+        "memory_bandwidth_gbs": 1800,
+        "bf16_tflops": 800,
+        "tdp_w": 700
+      }
+    }
+  ]
+}

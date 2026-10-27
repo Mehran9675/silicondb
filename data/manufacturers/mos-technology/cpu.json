@@ -1,0 +1,92 @@
+{
+  "manufacturer": "mos-technology",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "mos-technology-6507",
+      "name": "6507",
+      "family": "6500",
+      "released": "1975",
+      "specs": {
+        "isa": "6502",
+        "data_width_bits": 8,
+        "address_width_bits": 13,
+        "base_clock_mhz": 1,
+        "cores": 1,
+        "package": "28-pin DIP"
+      }
+    },
+    {
+      "id": "mos-technology-6501",
+      "name": "6501",
+      "family": "6500",
+      "released": "1975-09",
+      "specs": {
+        "isa": "6502",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 1,
+        "cores": 1,
+        "package": "40-pin DIP",
+        "launch_price_usd": 20
+      }
+    },
+    {
+      "id": "mos-technology-6502",
+      "name": "6502",
+      "family": "6500",
+      "released": "1975-09",
+      "specs": {
+        "isa": "6502",
+        "process_nm": 8000,
+        "transistors": 3510,
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 1,
+        "cores": 1,
+        "package": "40-pin DIP",
+        "launch_price_usd": 25
+      }
+    },
+    {
+      "id": "mos-technology-6510",
+      "name": "6510",
+      "family": "6500",
+      "released": "1982",
+      "specs": {
+        "isa": "6502",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 1,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "mos-technology-7501",
+      "name": "7501",
+      "family": "6500",
+      "released": "1984",
+      "specs": {
+        "isa": "6502",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "cores": 1
+      }
+    },
+    {
+      "id": "mos-technology-8502",
+      "name": "8502",
+      "family": "6500",
+      "released": "1985",
+      "specs": {
+        "isa": "6502",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 2,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    }
+  ]
+}

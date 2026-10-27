@@ -1,0 +1,136 @@
+{
+  "manufacturer": "3dlabs",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "3dlabs-glint-300sx",
+      "name": "GLINT 300SX",
+      "family": "GLINT",
+      "released": "1994",
+      "specs": {
+        "market": "Workstation",
+        "graphics_api": [
+          "OpenGL"
+        ],
+        "memory_type": "VRAM",
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "3dlabs-glint-500tx",
+      "name": "GLINT 500TX",
+      "family": "GLINT",
+      "released": "1995",
+      "specs": {
+        "market": "Workstation",
+        "graphics_api": [
+          "OpenGL"
+        ],
+        "memory_type": "VRAM",
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "3dlabs-permedia",
+      "name": "Permedia",
+      "family": "Permedia",
+      "released": "1996",
+      "specs": {
+        "market": "Consumer",
+        "graphics_api": [
+          "Direct3D",
+          "OpenGL"
+        ],
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "3dlabs-glint-mx",
+      "name": "GLINT MX",
+      "family": "GLINT",
+      "released": "1997",
+      "specs": {
+        "market": "Workstation",
+        "graphics_api": [
+          "OpenGL"
+        ],
+        "interface": "PCI / AGP"
+      }
+    },
+    {
+      "id": "3dlabs-permedia-2",
+      "name": "Permedia 2",
+      "family": "Permedia",
+      "released": "1997",
+      "specs": {
+        "market": "Consumer",
+        "process_nm": 350,
+        "gpu_clock_mhz": 83,
+        "graphics_api": [
+          "DirectX 5.0",
+          "OpenGL 1.1"
+        ],
+        "memory_type": "SGRAM",
+        "memory_size_mb": 8,
+        "memory_bus_bits": 64,
+        "interface": "AGP 1x / PCI"
+      }
+    },
+    {
+      "id": "3dlabs-permedia-3",
+      "name": "Permedia 3",
+      "family": "Permedia",
+      "released": "1999",
+      "specs": {
+        "market": "Consumer",
+        "gpu_clock_mhz": 110,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ],
+        "memory_type": "SGRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "3dlabs-wildcat-vp970",
+      "name": "Wildcat VP970",
+      "family": "Wildcat VP",
+      "released": "2002-05",
+      "specs": {
+        "codename": "P10",
+        "market": "Workstation",
+        "process_nm": 130,
+        "transistors": 76000000,
+        "graphics_api": [
+          "OpenGL 1.3",
+          "DirectX 9.0"
+        ],
+        "memory_type": "DDR SDRAM",
+        "memory_size_mb": 128,
+        "memory_bus_bits": 256,
+        "interface": "AGP 8x"
+      }
+    },
+    {
+      "id": "3dlabs-wildcat-realizm-200",
+      "name": "Wildcat Realizm 200",
+      "family": "Wildcat Realizm",
+      "released": "2004",
+      "specs": {
+        "codename": "P20",
+        "market": "Workstation",
+        "process_nm": 130,
+        "graphics_api": [
+          "OpenGL 2.0"
+        ],
+        "memory_type": "GDDR3",
+        "memory_size_mb": 512,
+        "memory_bus_bits": 256,
+        "interface": "AGP 8x"
+      }
+    }
+  ]
+}

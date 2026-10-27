@@ -1,0 +1,15 @@
+{
+  "manufacturer": "nec",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "nec-upd7220",
+      "name": "μPD7220",
+      "family": "GDC",
+      "released": "1982",
+      "specs": {
+        "package": "40-pin DIP"
+      }
+    }
+  ]
+}

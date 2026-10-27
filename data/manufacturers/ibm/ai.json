@@ -1,0 +1,47 @@
+{
+  "manufacturer": "ibm",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "ibm-truenorth",
+      "name": "TrueNorth",
+      "family": "Neuromorphic",
+      "released": "2014-08",
+      "specs": {
+        "foundry": "Samsung",
+        "process_nm": 28,
+        "transistors": 5400000000,
+        "cores": 4096
+      }
+    },
+    {
+      "id": "ibm-northpole",
+      "name": "NorthPole",
+      "family": "Neuromorphic",
+      "released": "2023-10",
+      "specs": {
+        "process_nm": 12,
+        "transistors": 22000000000,
+        "die_size_mm2": 800,
+        "cores": 256
+      }
+    },
+    {
+      "id": "ibm-spyre",
+      "name": "Spyre",
+      "family": "AIU",
+      "released": "2025-10",
+      "specs": {
+        "codename": "AIU",
+        "foundry": "Samsung",
+        "process_nm": 5,
+        "transistors": 25600000000,
+        "cores": 32,
+        "memory_type": "LPDDR5",
+        "memory_size_mb": 131072,
+        "tdp_w": 75,
+        "interface": "PCIe"
+      }
+    }
+  ]
+}

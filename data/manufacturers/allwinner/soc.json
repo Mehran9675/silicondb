@@ -1,0 +1,108 @@
+{
+  "manufacturer": "allwinner",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "allwinner-a10",
+      "name": "A10",
+      "family": "A-series",
+      "released": "2011",
+      "specs": {
+        "process_nm": 55,
+        "cores": 1,
+        "microarchitecture": "Cortex-A8",
+        "boost_clock_mhz": 1000,
+        "gpu": "Mali-400 MP1",
+        "isa": "ARMv7-A",
+        "market": "Tablet / SBC"
+      }
+    },
+    {
+      "id": "allwinner-a31",
+      "name": "A31",
+      "family": "A-series",
+      "released": "2012-12",
+      "specs": {
+        "process_nm": 40,
+        "cores": 4,
+        "microarchitecture": "Cortex-A7",
+        "gpu": "PowerVR SGX544MP2",
+        "isa": "ARMv7-A",
+        "market": "Tablet"
+      }
+    },
+    {
+      "id": "allwinner-a20",
+      "name": "A20",
+      "family": "A-series",
+      "released": "2013",
+      "specs": {
+        "process_nm": 40,
+        "cores": 2,
+        "microarchitecture": "Cortex-A7",
+        "boost_clock_mhz": 1000,
+        "gpu": "Mali-400 MP2",
+        "isa": "ARMv7-A",
+        "market": "Tablet / SBC"
+      }
+    },
+    {
+      "id": "allwinner-h3",
+      "name": "H3",
+      "family": "H-series",
+      "released": "2014-12",
+      "specs": {
+        "process_nm": 40,
+        "cores": 4,
+        "microarchitecture": "Cortex-A7",
+        "gpu": "Mali-400 MP2",
+        "isa": "ARMv7-A",
+        "market": "TV box / SBC"
+      }
+    },
+    {
+      "id": "allwinner-a64",
+      "name": "A64",
+      "family": "A-series",
+      "released": "2015",
+      "specs": {
+        "process_nm": 40,
+        "cores": 4,
+        "microarchitecture": "Cortex-A53",
+        "boost_clock_mhz": 1200,
+        "gpu": "Mali-400 MP2",
+        "isa": "ARMv8-A",
+        "market": "Tablet / SBC"
+      }
+    },
+    {
+      "id": "allwinner-h6",
+      "name": "H6",
+      "family": "H-series",
+      "released": "2017",
+      "specs": {
+        "process_nm": 28,
+        "cores": 4,
+        "microarchitecture": "Cortex-A53",
+        "boost_clock_mhz": 1800,
+        "gpu": "Mali-T720 MP2",
+        "isa": "ARMv8-A",
+        "market": "TV box / SBC"
+      }
+    },
+    {
+      "id": "allwinner-h616",
+      "name": "H616",
+      "family": "H-series",
+      "released": "2020",
+      "specs": {
+        "process_nm": 28,
+        "cores": 4,
+        "microarchitecture": "Cortex-A53",
+        "gpu": "Mali-G31 MP2",
+        "isa": "ARMv8-A",
+        "market": "TV box / SBC"
+      }
+    }
+  ]
+}

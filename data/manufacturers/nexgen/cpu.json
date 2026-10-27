@@ -1,0 +1,21 @@
+{
+  "manufacturer": "nexgen",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "nexgen-nx586",
+      "name": "Nx586",
+      "family": "Nx586",
+      "released": "1994-03",
+      "specs": {
+        "isa": "x86",
+        "foundry": "IBM",
+        "process_nm": 500,
+        "transistors": 3500000,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 32
+      }
+    }
+  ]
+}
