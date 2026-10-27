@@ -8,22 +8,39 @@
       "family": "Grace",
       "released": "2023",
       "specs": {
+        "codename": "Grace",
         "microarchitecture": "Neoverse V2",
         "isa": "ARMv9.0-A",
         "market": "Server",
         "process_nm": 4,
         "foundry": "TSMC (4N)",
+        "package": "BGA (Grace module with LPDDR5X)",
         "cores": 72,
         "threads": 72,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 3100,
+        "l1_cache_kb": 9216,
+        "l2_cache_kb": 73728,
         "l3_cache_kb": 119808,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 491520,
         "memory_bandwidth_gbs": 500.0,
+        "tdp_w": 250,
+        "interface": "NVLink-C2C, PCIe 5.0",
         "instruction_sets": [
           "SVE2",
           "NEON"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v"
+      ]
     },
     {
       "id": "nvidia-grace-cpu-superchip",
@@ -31,23 +48,39 @@
       "family": "Grace",
       "released": "2023",
       "specs": {
+        "codename": "Grace",
         "microarchitecture": "Neoverse V2",
         "isa": "ARMv9.0-A",
         "market": "Server",
         "process_nm": 4,
         "foundry": "TSMC (4N)",
+        "package": "Superchip module (2x Grace + LPDDR5X)",
         "cores": 144,
         "threads": 144,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 3100,
+        "l1_cache_kb": 18432,
+        "l2_cache_kb": 147456,
         "l3_cache_kb": 233472,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 983040,
         "memory_bandwidth_gbs": 1000.0,
         "tdp_w": 500,
+        "interface": "NVLink-C2C, PCIe 5.0",
         "instruction_sets": [
           "SVE2",
           "NEON"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v"
+      ]
     }
   ]
 }

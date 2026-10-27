@@ -15,15 +15,29 @@
         "foundry": "TSMC",
         "transistors": 681000000,
         "die_size_mm2": 484,
+        "cores": 128,
+        "l2_cache_kb": 96,
         "shading_units": 128,
+        "compute_units": 16,
+        "gpu_clock_mhz": 575,
         "memory_type": "GDDR3",
         "memory_size_mb": 1536,
         "memory_bus_bits": 384,
         "memory_bandwidth_gbs": 76.8,
+        "sram_kb": 96,
         "fp32_tflops": 0.346,
         "tdp_w": 171,
         "interface": "PCIe 1.0 x16"
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "nvidia-tesla-c1060",
@@ -38,16 +52,29 @@
         "foundry": "TSMC",
         "transistors": 1400000000,
         "die_size_mm2": 576,
+        "cores": 240,
+        "l2_cache_kb": 256,
         "shading_units": 240,
+        "compute_units": 30,
+        "gpu_clock_mhz": 602,
         "memory_type": "GDDR3",
         "memory_size_mb": 4096,
         "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 102.0,
+        "sram_kb": 256,
         "fp64_tflops": 0.078,
         "fp32_tflops": 0.622,
         "tdp_w": 188,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "tensor_cores",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "nvidia-tesla-c2050",
@@ -62,16 +89,29 @@
         "foundry": "TSMC",
         "transistors": 3000000000,
         "die_size_mm2": 529,
+        "cores": 448,
+        "l2_cache_kb": 768,
         "shading_units": 448,
+        "compute_units": 14,
+        "gpu_clock_mhz": 575,
         "memory_type": "GDDR5",
         "memory_size_mb": 3072,
         "memory_bus_bits": 384,
         "memory_bandwidth_gbs": 144.0,
+        "sram_kb": 768,
         "fp64_tflops": 0.515,
         "fp32_tflops": 1.03,
         "tdp_w": 238,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "tensor_cores",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "nvidia-tesla-k20x",
@@ -86,17 +126,29 @@
         "foundry": "TSMC",
         "transistors": 7080000000,
         "die_size_mm2": 561,
+        "cores": 2688,
+        "l2_cache_kb": 1536,
         "shading_units": 2688,
+        "compute_units": 14,
         "gpu_clock_mhz": 732,
         "memory_type": "GDDR5",
         "memory_size_mb": 6144,
         "memory_bus_bits": 384,
         "memory_bandwidth_gbs": 250.0,
+        "sram_kb": 1536,
         "fp64_tflops": 1.31,
         "fp32_tflops": 3.95,
         "tdp_w": 235,
         "interface": "PCIe 2.0 x16"
-      }
+      },
+      "na": [
+        "boost_clock_mhz",
+        "tensor_cores",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "nvidia-tesla-k80",
@@ -109,18 +161,31 @@
         "market": "Data center",
         "process_nm": 28,
         "foundry": "TSMC",
+        "transistors": 14200000000,
+        "die_size_mm2": 1122,
+        "cores": 4992,
+        "boost_clock_mhz": 875,
+        "l2_cache_kb": 3072,
         "shading_units": 4992,
+        "compute_units": 26,
         "gpu_clock_mhz": 560,
-        "gpu_boost_clock_mhz": 875,
         "memory_type": "GDDR5",
         "memory_size_mb": 24576,
         "memory_bus_bits": 768,
         "memory_bandwidth_gbs": 480.0,
+        "sram_kb": 3072,
         "fp64_tflops": 2.91,
         "fp32_tflops": 8.73,
         "tdp_w": 300,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "nvidia-tesla-m40",
@@ -135,17 +200,29 @@
         "foundry": "TSMC",
         "transistors": 8000000000,
         "die_size_mm2": 601,
+        "cores": 3072,
+        "boost_clock_mhz": 1112,
+        "l2_cache_kb": 3072,
         "shading_units": 3072,
+        "compute_units": 24,
         "gpu_clock_mhz": 948,
-        "gpu_boost_clock_mhz": 1112,
         "memory_type": "GDDR5",
         "memory_size_mb": 12288,
         "memory_bus_bits": 384,
         "memory_bandwidth_gbs": 288.0,
+        "sram_kb": 3072,
+        "fp64_tflops": 0.213,
         "fp32_tflops": 7.0,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "nvidia-tesla-p100",
@@ -160,19 +237,29 @@
         "foundry": "TSMC",
         "transistors": 15300000000,
         "die_size_mm2": 610,
+        "cores": 3584,
+        "boost_clock_mhz": 1480,
+        "l2_cache_kb": 4096,
         "shading_units": 3584,
+        "compute_units": 56,
         "gpu_clock_mhz": 1328,
-        "gpu_boost_clock_mhz": 1480,
         "memory_type": "HBM2",
         "memory_size_mb": 16384,
         "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 732.0,
+        "sram_kb": 4096,
         "fp64_tflops": 5.3,
         "fp32_tflops": 10.6,
         "fp16_tflops": 21.2,
         "tdp_w": 300,
         "interface": "SXM2 (NVLink)"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "nvidia-tesla-p40",
@@ -187,16 +274,29 @@
         "foundry": "TSMC",
         "transistors": 12000000000,
         "die_size_mm2": 471,
+        "cores": 3840,
+        "boost_clock_mhz": 1531,
+        "l2_cache_kb": 3072,
         "shading_units": 3840,
+        "compute_units": 30,
+        "gpu_clock_mhz": 1303,
         "memory_type": "GDDR5",
         "memory_size_mb": 24576,
         "memory_bus_bits": 384,
         "memory_bandwidth_gbs": 346.0,
+        "sram_kb": 3072,
+        "fp64_tflops": 0.375,
         "fp32_tflops": 12.0,
+        "fp16_tflops": 0.188,
         "int8_tops": 47.0,
         "tdp_w": 250,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "tensor_cores",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "nvidia-tesla-v100",
@@ -211,19 +311,28 @@
         "foundry": "TSMC",
         "transistors": 21100000000,
         "die_size_mm2": 815,
+        "cores": 5120,
+        "boost_clock_mhz": 1530,
+        "l2_cache_kb": 6144,
         "shading_units": 5120,
+        "compute_units": 80,
         "tensor_cores": 640,
-        "gpu_boost_clock_mhz": 1530,
         "memory_type": "HBM2",
         "memory_size_mb": 16384,
         "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 900.0,
+        "sram_kb": 6144,
         "fp64_tflops": 7.8,
         "fp32_tflops": 15.7,
         "fp16_tflops": 125.0,
+        "int8_tops": 62.8,
         "tdp_w": 300,
         "interface": "SXM2 (NVLink)"
-      }
+      },
+      "na": [
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "nvidia-tesla-t4",
@@ -238,18 +347,29 @@
         "foundry": "TSMC",
         "transistors": 13600000000,
         "die_size_mm2": 545,
+        "cores": 2560,
+        "boost_clock_mhz": 1590,
+        "l2_cache_kb": 4096,
         "shading_units": 2560,
+        "compute_units": 40,
         "tensor_cores": 320,
+        "gpu_clock_mhz": 585,
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 320.0,
+        "sram_kb": 4096,
+        "fp64_tflops": 0.254,
         "fp32_tflops": 8.1,
         "fp16_tflops": 65.0,
         "int8_tops": 130.0,
         "tdp_w": 70,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "nvidia-a100-40gb-sxm4",
@@ -264,13 +384,18 @@
         "foundry": "TSMC",
         "transistors": 54200000000,
         "die_size_mm2": 826,
+        "cores": 6912,
+        "boost_clock_mhz": 1410,
+        "l2_cache_kb": 40960,
         "shading_units": 6912,
+        "compute_units": 108,
         "tensor_cores": 432,
-        "gpu_boost_clock_mhz": 1410,
+        "gpu_clock_mhz": 1095,
         "memory_type": "HBM2",
         "memory_size_mb": 40960,
         "memory_bus_bits": 5120,
         "memory_bandwidth_gbs": 1555.0,
+        "sram_kb": 40960,
         "fp64_tflops": 9.7,
         "fp32_tflops": 19.5,
         "fp16_tflops": 312.0,
@@ -278,7 +403,10 @@
         "int8_tops": 624.0,
         "tdp_w": 400,
         "interface": "SXM4 (NVLink 3)"
-      }
+      },
+      "na": [
+        "fp8_tflops"
+      ]
     },
     {
       "id": "nvidia-a100-80gb-sxm4",
@@ -293,13 +421,18 @@
         "foundry": "TSMC",
         "transistors": 54200000000,
         "die_size_mm2": 826,
+        "cores": 6912,
+        "boost_clock_mhz": 1410,
+        "l2_cache_kb": 40960,
         "shading_units": 6912,
+        "compute_units": 108,
         "tensor_cores": 432,
-        "gpu_boost_clock_mhz": 1410,
+        "gpu_clock_mhz": 1275,
         "memory_type": "HBM2e",
         "memory_size_mb": 81920,
         "memory_bus_bits": 5120,
         "memory_bandwidth_gbs": 2039.0,
+        "sram_kb": 40960,
         "fp64_tflops": 9.7,
         "fp32_tflops": 19.5,
         "fp16_tflops": 312.0,
@@ -307,7 +440,10 @@
         "int8_tops": 624.0,
         "tdp_w": 400,
         "interface": "SXM4 (NVLink 3)"
-      }
+      },
+      "na": [
+        "fp8_tflops"
+      ]
     },
     {
       "id": "nvidia-h100-sxm5",
@@ -322,12 +458,18 @@
         "foundry": "TSMC (4N)",
         "transistors": 80000000000,
         "die_size_mm2": 814,
+        "cores": 16896,
+        "boost_clock_mhz": 1980,
+        "l2_cache_kb": 51200,
         "shading_units": 16896,
+        "compute_units": 132,
         "tensor_cores": 528,
+        "gpu_clock_mhz": 1590,
         "memory_type": "HBM3",
         "memory_size_mb": 81920,
         "memory_bus_bits": 5120,
         "memory_bandwidth_gbs": 3350.0,
+        "sram_kb": 51200,
         "fp64_tflops": 34.0,
         "fp32_tflops": 67.0,
         "fp16_tflops": 989.0,
@@ -351,12 +493,18 @@
         "foundry": "TSMC (4N)",
         "transistors": 80000000000,
         "die_size_mm2": 814,
+        "cores": 14592,
+        "boost_clock_mhz": 1755,
+        "l2_cache_kb": 51200,
         "shading_units": 14592,
+        "compute_units": 114,
         "tensor_cores": 456,
+        "gpu_clock_mhz": 1125,
         "memory_type": "HBM2e",
         "memory_size_mb": 81920,
         "memory_bus_bits": 5120,
         "memory_bandwidth_gbs": 2000.0,
+        "sram_kb": 51200,
         "fp64_tflops": 26.0,
         "fp32_tflops": 51.0,
         "fp16_tflops": 756.0,
@@ -379,17 +527,28 @@
         "process_nm": 4,
         "foundry": "TSMC (4N)",
         "cores": 72,
+        "boost_clock_mhz": 1980,
+        "l2_cache_kb": 51200,
+        "compute_units": 132,
         "tensor_cores": 528,
         "memory_type": "HBM3 + LPDDR5X",
         "memory_size_mb": 98304,
+        "memory_bus_bits": 6144,
         "memory_bandwidth_gbs": 4000.0,
+        "sram_kb": 51200,
         "fp64_tflops": 34.0,
         "fp32_tflops": 67.0,
+        "fp16_tflops": 989.0,
         "bf16_tflops": 989.0,
         "fp8_tflops": 1979.0,
         "int8_tops": 1979.0,
+        "tdp_w": 1000,
         "interface": "NVLink-C2C"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2"
+      ]
     },
     {
       "id": "nvidia-l4",
@@ -404,13 +563,20 @@
         "foundry": "TSMC (4N)",
         "transistors": 35800000000,
         "die_size_mm2": 295,
+        "cores": 7424,
+        "boost_clock_mhz": 2040,
+        "l2_cache_kb": 49152,
         "shading_units": 7424,
+        "compute_units": 58,
         "tensor_cores": 240,
         "rt_cores": 60,
+        "gpu_clock_mhz": 795,
         "memory_type": "GDDR6",
         "memory_size_mb": 24576,
         "memory_bus_bits": 192,
         "memory_bandwidth_gbs": 300.0,
+        "sram_kb": 49152,
+        "fp64_tflops": 0.473,
         "fp32_tflops": 30.3,
         "fp16_tflops": 121.0,
         "bf16_tflops": 121.0,
@@ -433,13 +599,20 @@
         "foundry": "TSMC (4N)",
         "transistors": 76300000000,
         "die_size_mm2": 609,
+        "cores": 18176,
+        "boost_clock_mhz": 2520,
+        "l2_cache_kb": 98304,
         "shading_units": 18176,
+        "compute_units": 142,
         "tensor_cores": 568,
         "rt_cores": 142,
+        "gpu_clock_mhz": 1110,
         "memory_type": "GDDR6",
         "memory_size_mb": 49152,
         "memory_bus_bits": 384,
         "memory_bandwidth_gbs": 864.0,
+        "sram_kb": 98304,
+        "fp64_tflops": 1.431,
         "fp32_tflops": 91.6,
         "fp16_tflops": 362.05,
         "bf16_tflops": 362.05,
@@ -462,12 +635,18 @@
         "foundry": "TSMC (4N)",
         "transistors": 80000000000,
         "die_size_mm2": 814,
+        "cores": 16896,
+        "boost_clock_mhz": 1980,
+        "l2_cache_kb": 51200,
         "shading_units": 16896,
+        "compute_units": 132,
         "tensor_cores": 528,
+        "gpu_clock_mhz": 1590,
         "memory_type": "HBM3e",
         "memory_size_mb": 144384,
         "memory_bus_bits": 6144,
         "memory_bandwidth_gbs": 4800.0,
+        "sram_kb": 51200,
         "fp64_tflops": 34.0,
         "fp32_tflops": 67.0,
         "fp16_tflops": 989.0,
@@ -490,17 +669,28 @@
         "process_nm": 4,
         "foundry": "TSMC (4NP)",
         "transistors": 208000000000,
+        "cores": 18944,
+        "boost_clock_mhz": 1965,
+        "l2_cache_kb": 129024,
+        "compute_units": 148,
+        "tensor_cores": 592,
         "memory_type": "HBM3e",
         "memory_size_mb": 196608,
+        "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 8000.0,
-        "fp64_tflops": 40.0,
-        "bf16_tflops": 2250.0,
+        "sram_kb": 129024,
+        "fp64_tflops": 37.0,
+        "fp32_tflops": 75.0,
         "fp16_tflops": 2250.0,
+        "bf16_tflops": 2250.0,
         "fp8_tflops": 4500.0,
         "int8_tops": 4500.0,
         "tdp_w": 1000,
         "interface": "SXM (NVLink 5)"
-      }
+      },
+      "na": [
+        "die_size_mm2"
+      ]
     },
     {
       "id": "nvidia-gb200",
@@ -514,17 +704,28 @@
         "process_nm": 4,
         "foundry": "TSMC (4NP)",
         "cores": 72,
+        "l2_cache_kb": 258048,
+        "compute_units": 296,
+        "tensor_cores": 1184,
         "memory_type": "HBM3e",
         "memory_size_mb": 393216,
+        "memory_bus_bits": 16384,
         "memory_bandwidth_gbs": 16000.0,
+        "sram_kb": 258048,
         "fp64_tflops": 90.0,
-        "bf16_tflops": 5000.0,
+        "fp32_tflops": 160.0,
         "fp16_tflops": 5000.0,
+        "bf16_tflops": 5000.0,
         "fp8_tflops": 10000.0,
         "int8_tops": 10000.0,
         "tdp_w": 2700,
         "interface": "NVLink-C2C / NVLink 5"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz"
+      ]
     },
     {
       "id": "nvidia-b300",
@@ -537,11 +738,29 @@
         "process_nm": 4,
         "foundry": "TSMC (4NP)",
         "transistors": 208000000000,
+        "cores": 20480,
+        "l2_cache_kb": 129024,
+        "compute_units": 160,
+        "tensor_cores": 640,
         "memory_type": "HBM3e",
         "memory_size_mb": 294912,
+        "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 8000.0,
+        "sram_kb": 129024,
+        "fp64_tflops": 1.25,
+        "fp32_tflops": 75.0,
+        "fp16_tflops": 2250.0,
+        "bf16_tflops": 2250.0,
+        "fp8_tflops": 4500.0,
+        "int8_tops": 187.5,
+        "tdp_w": 1100,
         "interface": "SXM (NVLink 5)"
-      }
+      },
+      "na": [
+        "codename",
+        "die_size_mm2",
+        "boost_clock_mhz"
+      ]
     }
   ]
 }

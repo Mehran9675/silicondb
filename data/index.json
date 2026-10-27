@@ -842,25 +842,25 @@
           "path": "manufacturers/nvidia/ai.json",
           "category": "ai",
           "count": 21,
-          "rev": "760935dd28dcae8e"
+          "rev": "6d18f1e52a3928ca"
         },
         {
           "path": "manufacturers/nvidia/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "ee7123e236cf53c6"
+          "rev": "9cdcd03aec5444a3"
         },
         {
           "path": "manufacturers/nvidia/gpu.json",
           "category": "gpu",
           "count": 104,
-          "rev": "74170eb262ecf4d4"
+          "rev": "3cc3144877ddccfa"
         },
         {
           "path": "manufacturers/nvidia/soc.json",
           "category": "soc",
           "count": 11,
-          "rev": "0022fdf9605fe5b2"
+          "rev": "8455962409b4c415"
         }
       ]
     },
