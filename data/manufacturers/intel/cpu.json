@@ -5084,6 +5084,7 @@
         "launch_price_usd": 374,
         "process_nm": 14,
         "foundry": "Intel",
+        "die_size_mm2": 206,
         "package": "FCLGA1200",
         "socket": "LGA 1200",
         "cores": 8,
@@ -5118,7 +5119,6 @@
       },
       "na": [
         "transistors",
-        "die_size_mm2",
         "voltage_v"
       ]
     },

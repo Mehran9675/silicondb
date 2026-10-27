@@ -126,13 +126,13 @@
           "path": "manufacturers/amd/apu.json",
           "category": "apu",
           "count": 26,
-          "rev": "38f5d80c893529b0"
+          "rev": "541dadd9a5ad7a86"
         },
         {
           "path": "manufacturers/amd/cpu.json",
           "category": "cpu",
           "count": 75,
-          "rev": "b4e0f2020fe39deb"
+          "rev": "d91aba74012f8fa8"
         },
         {
           "path": "manufacturers/amd/gpu.json",
@@ -266,7 +266,7 @@
           "path": "manufacturers/cyrix/cpu.json",
           "category": "cpu",
           "count": 10,
-          "rev": "f31f013fc4716bd8"
+          "rev": "34c5109537c75e91"
         }
       ]
     },
@@ -440,7 +440,7 @@
           "path": "manufacturers/hp/cpu.json",
           "category": "cpu",
           "count": 12,
-          "rev": "35bd38cb61a3eb96"
+          "rev": "a52973a2dbd3465a"
         }
       ]
     },
@@ -826,7 +826,7 @@
           "path": "manufacturers/nexgen/cpu.json",
           "category": "cpu",
           "count": 1,
-          "rev": "6143595f5f09a349"
+          "rev": "50162c252fca070e"
         }
       ]
     },
@@ -1208,7 +1208,7 @@
           "path": "manufacturers/transmeta/cpu.json",
           "category": "cpu",
           "count": 6,
-          "rev": "247ae5062194a2f2"
+          "rev": "1395d6df3de5d3f4"
         }
       ]
     },
@@ -1224,7 +1224,7 @@
           "path": "manufacturers/via/cpu.json",
           "category": "cpu",
           "count": 7,
-          "rev": "4713748a40d05a9d"
+          "rev": "dcf9a228e3491ce9"
         }
       ]
     },
