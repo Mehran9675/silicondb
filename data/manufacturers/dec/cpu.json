@@ -1,0 +1,242 @@
+{
+  "manufacturer": "dec",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "dec-t-11",
+      "name": "T-11",
+      "family": "PDP-11",
+      "released": "1981",
+      "specs": {
+        "codename": "DCT11",
+        "isa": "PDP-11",
+        "data_width_bits": 16,
+        "address_width_bits": 16,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "dec-j-11",
+      "name": "J-11",
+      "family": "PDP-11",
+      "released": "1983",
+      "specs": {
+        "isa": "PDP-11",
+        "data_width_bits": 16,
+        "address_width_bits": 22,
+        "cores": 1
+      }
+    },
+    {
+      "id": "dec-microvax-78032",
+      "name": "MicroVAX 78032",
+      "family": "MicroVAX",
+      "released": "1985",
+      "specs": {
+        "isa": "VAX",
+        "transistors": 125000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "dec-cvax-78034",
+      "name": "CVAX 78034",
+      "family": "MicroVAX",
+      "released": "1987",
+      "specs": {
+        "isa": "VAX",
+        "process_nm": 2000,
+        "transistors": 180000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "dec-nvax",
+      "name": "NVAX",
+      "family": "VAX",
+      "released": "1991",
+      "specs": {
+        "isa": "VAX",
+        "process_nm": 750,
+        "transistors": 1300000,
+        "data_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "dec-alpha-21064",
+      "name": "Alpha 21064",
+      "family": "Alpha",
+      "released": "1992-02",
+      "specs": {
+        "codename": "EV4",
+        "isa": "Alpha",
+        "process_nm": 750,
+        "transistors": 1680000,
+        "die_size_mm2": 234,
+        "data_width_bits": 64,
+        "base_clock_mhz": 200,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "tdp_w": 30
+      }
+    },
+    {
+      "id": "dec-alpha-21066",
+      "name": "Alpha 21066",
+      "family": "Alpha",
+      "released": "1993",
+      "specs": {
+        "codename": "LCA4",
+        "isa": "Alpha",
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 16
+      }
+    },
+    {
+      "id": "dec-alpha-21064a",
+      "name": "Alpha 21064A",
+      "family": "Alpha",
+      "released": "1993-10",
+      "specs": {
+        "codename": "EV45",
+        "isa": "Alpha",
+        "process_nm": 500,
+        "transistors": 2850000,
+        "die_size_mm2": 164,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 32
+      }
+    },
+    {
+      "id": "dec-alpha-21164",
+      "name": "Alpha 21164",
+      "family": "Alpha",
+      "released": "1995-01",
+      "specs": {
+        "codename": "EV5",
+        "isa": "Alpha",
+        "process_nm": 500,
+        "transistors": 9300000,
+        "die_size_mm2": 299,
+        "data_width_bits": 64,
+        "base_clock_mhz": 300,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "l2_cache_kb": 96
+      }
+    },
+    {
+      "id": "dec-alpha-21164a",
+      "name": "Alpha 21164A",
+      "family": "Alpha",
+      "released": "1996",
+      "specs": {
+        "codename": "EV56",
+        "isa": "Alpha",
+        "process_nm": 350,
+        "transistors": 9660000,
+        "die_size_mm2": 209,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "l2_cache_kb": 96,
+        "instruction_sets": [
+          "BWX"
+        ]
+      }
+    },
+    {
+      "id": "dec-sa-110",
+      "name": "StrongARM SA-110",
+      "family": "StrongARM",
+      "released": "1996-02",
+      "specs": {
+        "isa": "ARMv4",
+        "process_nm": 350,
+        "transistors": 2500000,
+        "die_size_mm2": 50,
+        "data_width_bits": 32,
+        "base_clock_mhz": 233,
+        "cores": 1,
+        "l1_cache_kb": 32
+      }
+    },
+    {
+      "id": "dec-alpha-21164pc",
+      "name": "Alpha 21164PC",
+      "family": "Alpha",
+      "released": "1997",
+      "specs": {
+        "codename": "PCA56",
+        "isa": "Alpha",
+        "process_nm": 350,
+        "transistors": 3500000,
+        "die_size_mm2": 141,
+        "data_width_bits": 64,
+        "cores": 1,
+        "instruction_sets": [
+          "BWX",
+          "MVI"
+        ]
+      }
+    },
+    {
+      "id": "dec-sa-1100",
+      "name": "StrongARM SA-1100",
+      "family": "StrongARM",
+      "released": "1997",
+      "specs": {
+        "isa": "ARMv4",
+        "process_nm": 350,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 24
+      }
+    },
+    {
+      "id": "dec-alpha-21264",
+      "name": "Alpha 21264",
+      "family": "Alpha",
+      "released": "1998",
+      "specs": {
+        "codename": "EV6",
+        "isa": "Alpha",
+        "process_nm": 350,
+        "transistors": 15200000,
+        "die_size_mm2": 314,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "instruction_sets": [
+          "BWX",
+          "MVI"
+        ]
+      }
+    },
+    {
+      "id": "dec-alpha-21364",
+      "name": "Alpha 21364",
+      "family": "Alpha",
+      "released": "2003-01",
+      "specs": {
+        "codename": "EV7",
+        "isa": "Alpha",
+        "process_nm": 180,
+        "transistors": 152000000,
+        "die_size_mm2": 397,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 1792
+      }
+    }
+  ]
+}

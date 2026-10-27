@@ -1,0 +1,397 @@
+{
+  "manufacturer": "samsung",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "samsung-exynos-3110",
+      "name": "Exynos 3110",
+      "family": "Exynos 3",
+      "released": "2010-06",
+      "specs": {
+        "codename": "Hummingbird",
+        "process_nm": 45,
+        "foundry": "Samsung",
+        "cores": 1,
+        "microarchitecture": "Cortex-A8",
+        "boost_clock_mhz": 1000,
+        "gpu": "PowerVR SGX540",
+        "isa": "ARMv7-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-4210",
+      "name": "Exynos 4210",
+      "family": "Exynos 4",
+      "released": "2011-04",
+      "specs": {
+        "process_nm": 45,
+        "foundry": "Samsung",
+        "cores": 2,
+        "microarchitecture": "Cortex-A9",
+        "boost_clock_mhz": 1200,
+        "gpu": "Mali-400 MP4",
+        "isa": "ARMv7-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-4412",
+      "name": "Exynos 4412",
+      "family": "Exynos 4",
+      "released": "2012-05",
+      "specs": {
+        "process_nm": 32,
+        "foundry": "Samsung",
+        "cores": 4,
+        "microarchitecture": "Cortex-A9",
+        "boost_clock_mhz": 1400,
+        "gpu": "Mali-400 MP4",
+        "isa": "ARMv7-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-5250",
+      "name": "Exynos 5250",
+      "family": "Exynos 5",
+      "released": "2012-10",
+      "specs": {
+        "process_nm": 32,
+        "foundry": "Samsung",
+        "cores": 2,
+        "microarchitecture": "Cortex-A15",
+        "boost_clock_mhz": 1700,
+        "gpu": "Mali-T604 MP4",
+        "memory_type": "LPDDR3",
+        "isa": "ARMv7-A",
+        "market": "Tablet / Laptop"
+      }
+    },
+    {
+      "id": "samsung-exynos-5410",
+      "name": "Exynos 5410",
+      "family": "Exynos 5 Octa",
+      "released": "2013-04",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Cortex-A15 @ 1.6 GHz + 4x Cortex-A7 @ 1.2 GHz",
+        "microarchitecture": "Cortex-A15 / Cortex-A7",
+        "boost_clock_mhz": 1600,
+        "gpu": "PowerVR SGX544MP3",
+        "isa": "ARMv7-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-5420",
+      "name": "Exynos 5420",
+      "family": "Exynos 5 Octa",
+      "released": "2013-09",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Cortex-A15 @ 1.9 GHz + 4x Cortex-A7 @ 1.3 GHz",
+        "microarchitecture": "Cortex-A15 / Cortex-A7",
+        "boost_clock_mhz": 1900,
+        "gpu": "Mali-T628 MP6",
+        "memory_type": "LPDDR3",
+        "isa": "ARMv7-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-5433",
+      "name": "Exynos 5433",
+      "family": "Exynos 5 Octa",
+      "released": "2014-10",
+      "specs": {
+        "process_nm": 20,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Cortex-A57 @ 1.9 GHz + 4x Cortex-A53 @ 1.3 GHz",
+        "microarchitecture": "Cortex-A57 / Cortex-A53",
+        "boost_clock_mhz": 1900,
+        "gpu": "Mali-T760 MP6",
+        "isa": "ARMv8-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-7420",
+      "name": "Exynos 7420",
+      "family": "Exynos 7 Octa",
+      "released": "2015-04",
+      "specs": {
+        "process_nm": 14,
+        "foundry": "Samsung",
+        "die_size_mm2": 78,
+        "cores": 8,
+        "core_config": "4x Cortex-A57 @ 2.1 GHz + 4x Cortex-A53 @ 1.5 GHz",
+        "microarchitecture": "Cortex-A57 / Cortex-A53",
+        "boost_clock_mhz": 2100,
+        "gpu": "Mali-T760 MP8",
+        "memory_type": "LPDDR4",
+        "isa": "ARMv8-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-8890",
+      "name": "Exynos 8890",
+      "family": "Exynos 8 Octa",
+      "released": "2016-03",
+      "specs": {
+        "process_nm": 14,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Exynos M1 @ 2.3 GHz + 4x Cortex-A53 @ 1.6 GHz",
+        "microarchitecture": "Mongoose (M1) / Cortex-A53",
+        "boost_clock_mhz": 2600,
+        "gpu": "Mali-T880 MP12",
+        "memory_type": "LPDDR4",
+        "isa": "ARMv8-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-8895",
+      "name": "Exynos 8895",
+      "family": "Exynos 9",
+      "released": "2017-04",
+      "specs": {
+        "process_nm": 10,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Exynos M2 @ 2.31 GHz + 4x Cortex-A53 @ 1.69 GHz",
+        "microarchitecture": "Mongoose (M2) / Cortex-A53",
+        "boost_clock_mhz": 2314,
+        "gpu": "Mali-G71 MP20",
+        "memory_type": "LPDDR4X",
+        "isa": "ARMv8-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-9810",
+      "name": "Exynos 9810",
+      "family": "Exynos 9",
+      "released": "2018-03",
+      "specs": {
+        "process_nm": 10,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Exynos M3 @ 2.9 GHz + 4x Cortex-A55 @ 1.9 GHz",
+        "microarchitecture": "Meerkat (M3) / Cortex-A55",
+        "boost_clock_mhz": 2900,
+        "gpu": "Mali-G72 MP18",
+        "memory_type": "LPDDR4X",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-9820",
+      "name": "Exynos 9820",
+      "family": "Exynos 9",
+      "released": "2019-03",
+      "specs": {
+        "process_nm": 8,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "2x Exynos M4 @ 2.73 GHz + 2x Cortex-A75 @ 2.31 GHz + 4x Cortex-A55 @ 1.95 GHz",
+        "microarchitecture": "Cheetah (M4) / Cortex-A75 / Cortex-A55",
+        "boost_clock_mhz": 2730,
+        "gpu": "Mali-G76 MP12",
+        "memory_type": "LPDDR4X",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-990",
+      "name": "Exynos 990",
+      "family": "Exynos 9",
+      "released": "2020-03",
+      "specs": {
+        "process_nm": 7,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "2x Exynos M5 @ 2.73 GHz + 2x Cortex-A76 @ 2.5 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "microarchitecture": "Lion (M5) / Cortex-A76 / Cortex-A55",
+        "boost_clock_mhz": 2730,
+        "gpu": "Mali-G77 MP11",
+        "memory_type": "LPDDR5",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-1080",
+      "name": "Exynos 1080",
+      "family": "Exynos 1000",
+      "released": "2020-11",
+      "specs": {
+        "process_nm": 5,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "1x Cortex-A78 @ 2.8 GHz + 3x Cortex-A78 @ 2.6 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2800,
+        "gpu": "Mali-G78 MP10",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-2100",
+      "name": "Exynos 2100",
+      "family": "Exynos 2000",
+      "released": "2021-01",
+      "specs": {
+        "process_nm": 5,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "1x Cortex-X1 @ 2.9 GHz + 3x Cortex-A78 @ 2.8 GHz + 4x Cortex-A55 @ 2.2 GHz",
+        "boost_clock_mhz": 2900,
+        "gpu": "Mali-G78 MP14",
+        "npu_tops": 26,
+        "memory_type": "LPDDR5",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-2200",
+      "name": "Exynos 2200",
+      "family": "Exynos 2000",
+      "released": "2022-01",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "1x Cortex-X2 @ 2.8 GHz + 3x Cortex-A710 @ 2.52 GHz + 4x Cortex-A510 @ 1.82 GHz",
+        "boost_clock_mhz": 2800,
+        "gpu": "Xclipse 920 (AMD RDNA 2)",
+        "memory_type": "LPDDR5",
+        "isa": "ARMv9-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-1280",
+      "name": "Exynos 1280",
+      "family": "Exynos 1000",
+      "released": "2022-03",
+      "specs": {
+        "process_nm": 5,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "2x Cortex-A78 @ 2.4 GHz + 6x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2400,
+        "gpu": "Mali-G68 MP4",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-1380",
+      "name": "Exynos 1380",
+      "family": "Exynos 1000",
+      "released": "2023-03",
+      "specs": {
+        "process_nm": 5,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Cortex-A78 @ 2.4 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2400,
+        "gpu": "Mali-G68 MP5",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-2400",
+      "name": "Exynos 2400",
+      "family": "Exynos 2000",
+      "released": "2024-01",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 10,
+        "core_config": "1x Cortex-X4 @ 3.21 GHz + 2x Cortex-A720 @ 2.9 GHz + 3x Cortex-A720 @ 2.6 GHz + 4x Cortex-A520 @ 1.95 GHz",
+        "boost_clock_mhz": 3210,
+        "gpu": "Xclipse 940 (AMD RDNA 3)",
+        "memory_type": "LPDDR5X",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-1480",
+      "name": "Exynos 1480",
+      "family": "Exynos 1000",
+      "released": "2024-03",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "4x Cortex-A78 @ 2.75 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2750,
+        "gpu": "Xclipse 530 (AMD RDNA 3)",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-1580",
+      "name": "Exynos 1580",
+      "family": "Exynos 1000",
+      "released": "2025-03",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "1x Cortex-A720 @ 2.9 GHz + 3x Cortex-A720 @ 2.6 GHz + 4x Cortex-A520 @ 1.95 GHz",
+        "boost_clock_mhz": 2900,
+        "gpu": "Xclipse 540",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-2500",
+      "name": "Exynos 2500",
+      "family": "Exynos 2000",
+      "released": "2025-07",
+      "specs": {
+        "process_nm": 3,
+        "foundry": "Samsung",
+        "cores": 10,
+        "core_config": "1x Cortex-X925 @ 3.3 GHz + 2x Cortex-A725 @ 2.74 GHz + 5x Cortex-A725 @ 2.36 GHz + 2x Cortex-A520 @ 1.8 GHz",
+        "boost_clock_mhz": 3300,
+        "gpu": "Xclipse 950",
+        "memory_type": "LPDDR5X",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "samsung-exynos-2600",
+      "name": "Exynos 2600",
+      "family": "Exynos 2000",
+      "released": "2026-02",
+      "specs": {
+        "process_nm": 2,
+        "foundry": "Samsung",
+        "cores": 10,
+        "boost_clock_mhz": 3800,
+        "gpu": "Xclipse 960",
+        "memory_type": "LPDDR5X",
+        "market": "Mobile"
+      }
+    }
+  ]
+}

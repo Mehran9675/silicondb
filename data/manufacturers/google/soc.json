@@ -1,0 +1,91 @@
+{
+  "manufacturer": "google",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "google-tensor-g1",
+      "name": "Tensor",
+      "family": "Tensor",
+      "released": "2021-10",
+      "specs": {
+        "process_nm": 5,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "2x Cortex-X1 @ 2.8 GHz + 2x Cortex-A76 @ 2.25 GHz + 4x Cortex-A55 @ 1.8 GHz",
+        "boost_clock_mhz": 2800,
+        "gpu": "Mali-G78 MP20",
+        "memory_type": "LPDDR5",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "google-tensor-g2",
+      "name": "Tensor G2",
+      "family": "Tensor",
+      "released": "2022-10",
+      "specs": {
+        "process_nm": 5,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "2x Cortex-X1 @ 2.85 GHz + 2x Cortex-A78 @ 2.35 GHz + 4x Cortex-A55 @ 1.8 GHz",
+        "boost_clock_mhz": 2850,
+        "gpu": "Mali-G710 MP7",
+        "memory_type": "LPDDR5",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "google-tensor-g3",
+      "name": "Tensor G3",
+      "family": "Tensor",
+      "released": "2023-10",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 9,
+        "core_config": "1x Cortex-X3 @ 2.91 GHz + 4x Cortex-A715 @ 2.37 GHz + 4x Cortex-A510 @ 1.7 GHz",
+        "boost_clock_mhz": 2910,
+        "gpu": "Mali-G715 MC7",
+        "memory_type": "LPDDR5X",
+        "isa": "ARMv9-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "google-tensor-g4",
+      "name": "Tensor G4",
+      "family": "Tensor",
+      "released": "2024-08",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "1x Cortex-X4 @ 3.1 GHz + 3x Cortex-A720 @ 2.6 GHz + 4x Cortex-A520 @ 1.92 GHz",
+        "boost_clock_mhz": 3100,
+        "gpu": "Mali-G715 MC7",
+        "memory_type": "LPDDR5X",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "google-tensor-g5",
+      "name": "Tensor G5",
+      "family": "Tensor",
+      "released": "2025-08",
+      "specs": {
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X4 @ 3.78 GHz + 5x Cortex-A725 @ 3.05 GHz + 2x Cortex-A520 @ 2.25 GHz",
+        "boost_clock_mhz": 3780,
+        "gpu": "PowerVR DXT-48-1536",
+        "memory_type": "LPDDR5X",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile"
+      }
+    }
+  ]
+}

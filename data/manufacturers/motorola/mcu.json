@@ -1,0 +1,66 @@
+{
+  "manufacturer": "motorola",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "motorola-mc6801",
+      "name": "MC6801",
+      "family": "6801",
+      "released": "1978",
+      "specs": {
+        "isa": "6800",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "sram_kb": 0.125
+      }
+    },
+    {
+      "id": "motorola-mc6805p2",
+      "name": "MC6805P2",
+      "family": "6805",
+      "released": "1979",
+      "specs": {
+        "isa": "6805",
+        "data_width_bits": 8
+      }
+    },
+    {
+      "id": "motorola-mc68hc11a8",
+      "name": "MC68HC11A8",
+      "family": "68HC11",
+      "released": "1985",
+      "specs": {
+        "isa": "68HC11",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 2,
+        "sram_kb": 0.25
+      }
+    },
+    {
+      "id": "motorola-mc68332",
+      "name": "MC68332",
+      "family": "683xx",
+      "released": "1989",
+      "specs": {
+        "isa": "68k (CPU32)",
+        "data_width_bits": 32,
+        "base_clock_mhz": 16.78,
+        "sram_kb": 2
+      }
+    },
+    {
+      "id": "motorola-mc68hc912b32",
+      "name": "MC68HC912B32",
+      "family": "68HC12",
+      "released": "1996",
+      "specs": {
+        "isa": "CPU12",
+        "data_width_bits": 16,
+        "base_clock_mhz": 8,
+        "flash_kb": 32,
+        "sram_kb": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "manufacturer": "motorola",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "motorola-6800",
+      "name": "6800",
+      "family": "6800",
+      "released": "1974",
+      "specs": {
+        "isa": "6800",
+        "transistors": 4100,
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 1,
+        "cores": 1,
+        "package": "40-pin DIP",
+        "launch_price_usd": 360
+      }
+    },
+    {
+      "id": "motorola-6809",
+      "name": "6809",
+      "family": "6809",
+      "released": "1978",
+      "specs": {
+        "isa": "6809",
+        "transistors": 9000,
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 1,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    },
+    {
+      "id": "motorola-68000",
+      "name": "68000",
+      "family": "68000",
+      "released": "1979-09",
+      "specs": {
+        "isa": "68k",
+        "process_nm": 3500,
+        "transistors": 68000,
+        "data_width_bits": 16,
+        "address_width_bits": 24,
+        "base_clock_mhz": 8,
+        "cores": 1,
+        "package": "64-pin DIP"
+      }
+    },
+    {
+      "id": "motorola-68008",
+      "name": "68008",
+      "family": "68000",
+      "released": "1982",
+      "specs": {
+        "isa": "68k",
+        "data_width_bits": 8,
+        "address_width_bits": 20,
+        "base_clock_mhz": 8,
+        "cores": 1,
+        "package": "48-pin DIP"
+      }
+    },
+    {
+      "id": "motorola-68010",
+      "name": "68010",
+      "family": "68000",
+      "released": "1982",
+      "specs": {
+        "isa": "68k",
+        "data_width_bits": 16,
+        "address_width_bits": 24,
+        "base_clock_mhz": 8,
+        "cores": 1,
+        "package": "64-pin DIP"
+      }
+    },
+    {
+      "id": "motorola-68020",
+      "name": "68020",
+      "family": "68000",
+      "released": "1984-06",
+      "specs": {
+        "isa": "68k",
+        "process_nm": 2000,
+        "transistors": 190000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 16,
+        "cores": 1,
+        "l1_cache_kb": 0.25,
+        "package": "114-pin PGA"
+      }
+    },
+    {
+      "id": "motorola-68030",
+      "name": "68030",
+      "family": "68000",
+      "released": "1987",
+      "specs": {
+        "isa": "68k",
+        "transistors": 273000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 20,
+        "cores": 1,
+        "l1_cache_kb": 0.5,
+        "package": "128-pin PGA"
+      }
+    },
+    {
+      "id": "motorola-88100",
+      "name": "88100",
+      "family": "88000",
+      "released": "1988",
+      "specs": {
+        "isa": "88000",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "motorola-68040",
+      "name": "68040",
+      "family": "68000",
+      "released": "1990-01",
+      "specs": {
+        "isa": "68k",
+        "transistors": 1200000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 25,
+        "cores": 1,
+        "l1_cache_kb": 8,
+        "package": "179-pin PGA"
+      }
+    },
+    {
+      "id": "motorola-88110",
+      "name": "88110",
+      "family": "88000",
+      "released": "1991",
+      "specs": {
+        "isa": "88000",
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "motorola-ppc601",
+      "name": "PowerPC 601",
+      "family": "PowerPC 600",
+      "released": "1993",
+      "specs": {
+        "isa": "PowerPC",
+        "foundry": "IBM",
+        "process_nm": 600,
+        "transistors": 2800000,
+        "die_size_mm2": 121,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 66,
+        "cores": 1,
+        "l1_cache_kb": 32
+      }
+    },
+    {
+      "id": "motorola-ppc603",
+      "name": "PowerPC 603",
+      "family": "PowerPC 600",
+      "released": "1994",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 500,
+        "transistors": 1600000,
+        "die_size_mm2": 85,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 16
+      }
+    },
+    {
+      "id": "motorola-ppc604",
+      "name": "PowerPC 604",
+      "family": "PowerPC 600",
+      "released": "1994",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 500,
+        "transistors": 3600000,
+        "die_size_mm2": 196,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 32
+      }
+    },
+    {
+      "id": "motorola-68060",
+      "name": "68060",
+      "family": "68000",
+      "released": "1994-04",
+      "specs": {
+        "isa": "68k",
+        "process_nm": 600,
+        "transistors": 2500000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 50,
+        "cores": 1,
+        "l1_cache_kb": 16,
+        "package": "206-pin PGA"
+      }
+    },
+    {
+      "id": "motorola-ppc603e",
+      "name": "PowerPC 603e",
+      "family": "PowerPC 600",
+      "released": "1995",
+      "specs": {
+        "isa": "PowerPC",
+        "transistors": 2600000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 32
+      }
+    },
+    {
+      "id": "motorola-ppc604e",
+      "name": "PowerPC 604e",
+      "family": "PowerPC 600",
+      "released": "1996",
+      "specs": {
+        "isa": "PowerPC",
+        "transistors": 5100000,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 64
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "manufacturer": "groq",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "groq-groqchip",
+      "name": "GroqChip LPU",
+      "family": "LPU",
+      "released": "2020",
+      "specs": {
+        "codename": "TSP",
+        "market": "Datacenter inference",
+        "process_nm": 14,
+        "foundry": "GlobalFoundries",
+        "transistors": 26800000000,
+        "die_size_mm2": 725,
+        "base_clock_mhz": 900,
+        "sram_kb": 235520,
+        "memory_bandwidth_gbs": 80000,
+        "fp16_tflops": 188,
+        "int8_tops": 750,
+        "interface": "PCIe 4.0 x16"
+      }
+    }
+  ]
+}

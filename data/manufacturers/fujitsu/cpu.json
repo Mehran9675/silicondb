@@ -1,0 +1,203 @@
+{
+  "manufacturer": "fujitsu",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "fujitsu-sparc64-v",
+      "name": "SPARC64 V",
+      "family": "SPARC64",
+      "released": "2001",
+      "specs": {
+        "isa": "SPARC V9",
+        "process_nm": 130,
+        "transistors": 191000000,
+        "die_size_mm2": 290,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 256,
+        "l2_cache_kb": 2048
+      }
+    },
+    {
+      "id": "fujitsu-sparc64-vi",
+      "name": "SPARC64 VI",
+      "family": "SPARC64",
+      "released": "2007-04",
+      "specs": {
+        "codename": "Olympus-C",
+        "isa": "SPARC V9",
+        "process_nm": 90,
+        "transistors": 540000000,
+        "die_size_mm2": 421,
+        "data_width_bits": 64,
+        "base_clock_mhz": 2400,
+        "cores": 2,
+        "threads": 4,
+        "l2_cache_kb": 6144
+      }
+    },
+    {
+      "id": "fujitsu-sparc64-vii",
+      "name": "SPARC64 VII",
+      "family": "SPARC64",
+      "released": "2008-07",
+      "specs": {
+        "codename": "Jupiter",
+        "isa": "SPARC V9",
+        "process_nm": 65,
+        "transistors": 600000000,
+        "die_size_mm2": 445,
+        "data_width_bits": 64,
+        "cores": 4,
+        "threads": 8,
+        "l2_cache_kb": 6144
+      }
+    },
+    {
+      "id": "fujitsu-sparc64-viiifx",
+      "name": "SPARC64 VIIIfx",
+      "family": "SPARC64",
+      "released": "2009",
+      "specs": {
+        "codename": "Venus",
+        "isa": "SPARC V9",
+        "process_nm": 45,
+        "transistors": 760000000,
+        "die_size_mm2": 513,
+        "data_width_bits": 64,
+        "base_clock_mhz": 2000,
+        "cores": 8,
+        "l2_cache_kb": 6144,
+        "tdp_w": 58,
+        "fp64_tflops": 0.128,
+        "instruction_sets": [
+          "HPC-ACE"
+        ]
+      }
+    },
+    {
+      "id": "fujitsu-sparc64-ixfx",
+      "name": "SPARC64 IXfx",
+      "family": "SPARC64",
+      "released": "2011-11",
+      "specs": {
+        "isa": "SPARC V9",
+        "process_nm": 40,
+        "transistors": 1870000000,
+        "die_size_mm2": 484,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1848,
+        "cores": 16,
+        "l2_cache_kb": 12288,
+        "fp64_tflops": 0.2365,
+        "instruction_sets": [
+          "HPC-ACE"
+        ]
+      }
+    },
+    {
+      "id": "fujitsu-sparc64-x",
+      "name": "SPARC64 X",
+      "family": "SPARC64",
+      "released": "2013-01",
+      "specs": {
+        "codename": "Athena",
+        "isa": "SPARC V9",
+        "process_nm": 28,
+        "transistors": 2950000000,
+        "die_size_mm2": 588,
+        "data_width_bits": 64,
+        "base_clock_mhz": 3000,
+        "cores": 16,
+        "threads": 32,
+        "l2_cache_kb": 24576,
+        "instruction_sets": [
+          "HPC-ACE"
+        ]
+      }
+    },
+    {
+      "id": "fujitsu-sparc64-x-plus",
+      "name": "SPARC64 X+",
+      "family": "SPARC64",
+      "released": "2014",
+      "specs": {
+        "codename": "Athena+",
+        "isa": "SPARC V9",
+        "process_nm": 28,
+        "data_width_bits": 64,
+        "base_clock_mhz": 3700,
+        "cores": 16,
+        "threads": 32,
+        "l2_cache_kb": 24576,
+        "instruction_sets": [
+          "HPC-ACE"
+        ]
+      }
+    },
+    {
+      "id": "fujitsu-sparc64-xifx",
+      "name": "SPARC64 XIfx",
+      "family": "SPARC64",
+      "released": "2015",
+      "specs": {
+        "isa": "SPARC V9",
+        "process_nm": 20,
+        "transistors": 3750000000,
+        "data_width_bits": 64,
+        "base_clock_mhz": 2200,
+        "cores": 34,
+        "core_config": "32 compute + 2 assistant",
+        "l2_cache_kb": 24576,
+        "memory_type": "HMC",
+        "memory_size_mb": 32768,
+        "fp64_tflops": 1.1,
+        "instruction_sets": [
+          "HPC-ACE2"
+        ]
+      }
+    },
+    {
+      "id": "fujitsu-sparc64-xii",
+      "name": "SPARC64 XII",
+      "family": "SPARC64",
+      "released": "2017-04",
+      "specs": {
+        "isa": "SPARC V9",
+        "process_nm": 20,
+        "transistors": 5450000000,
+        "die_size_mm2": 795,
+        "data_width_bits": 64,
+        "base_clock_mhz": 4250,
+        "cores": 12,
+        "threads": 96,
+        "l3_cache_kb": 32768
+      }
+    },
+    {
+      "id": "fujitsu-a64fx",
+      "name": "A64FX",
+      "family": "A64FX",
+      "released": "2019-11",
+      "specs": {
+        "isa": "Armv8.2-A",
+        "foundry": "TSMC",
+        "process_nm": 7,
+        "transistors": 8786000000,
+        "data_width_bits": 64,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 2200,
+        "cores": 52,
+        "core_config": "48 compute + 4 assistant",
+        "l2_cache_kb": 32768,
+        "memory_type": "HBM2",
+        "memory_size_mb": 32768,
+        "memory_bandwidth_gbs": 1024,
+        "fp64_tflops": 3.072,
+        "instruction_sets": [
+          "SVE (512-bit)"
+        ]
+      }
+    }
+  ]
+}

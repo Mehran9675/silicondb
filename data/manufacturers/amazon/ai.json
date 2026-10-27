@@ -1,0 +1,82 @@
+{
+  "manufacturer": "amazon",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "amazon-inferentia",
+      "name": "Inferentia",
+      "family": "Inferentia",
+      "released": "2019-12",
+      "specs": {
+        "market": "Datacenter inference",
+        "cores": 4,
+        "fp16_tflops": 64,
+        "bf16_tflops": 64,
+        "int8_tops": 128
+      }
+    },
+    {
+      "id": "amazon-trainium",
+      "name": "Trainium",
+      "family": "Trainium",
+      "released": "2022-10",
+      "specs": {
+        "market": "Datacenter training",
+        "cores": 2,
+        "memory_type": "HBM2e",
+        "memory_size_mb": 32768,
+        "memory_bandwidth_gbs": 820,
+        "fp32_tflops": 47.5,
+        "fp16_tflops": 190,
+        "bf16_tflops": 190
+      }
+    },
+    {
+      "id": "amazon-inferentia2",
+      "name": "Inferentia2",
+      "family": "Inferentia",
+      "released": "2023-04",
+      "specs": {
+        "market": "Datacenter inference",
+        "cores": 2,
+        "memory_type": "HBM2e",
+        "memory_size_mb": 32768,
+        "memory_bandwidth_gbs": 820,
+        "fp32_tflops": 47.5,
+        "fp16_tflops": 190,
+        "bf16_tflops": 190,
+        "fp8_tflops": 190
+      }
+    },
+    {
+      "id": "amazon-trainium2",
+      "name": "Trainium2",
+      "family": "Trainium",
+      "released": "2024-12",
+      "specs": {
+        "market": "Datacenter training",
+        "cores": 8,
+        "memory_type": "HBM3",
+        "memory_size_mb": 98304,
+        "memory_bandwidth_gbs": 2900,
+        "fp32_tflops": 181,
+        "bf16_tflops": 667,
+        "fp8_tflops": 1299
+      }
+    },
+    {
+      "id": "amazon-trainium3",
+      "name": "Trainium3",
+      "family": "Trainium",
+      "released": "2025-12",
+      "specs": {
+        "market": "Datacenter training",
+        "process_nm": 3,
+        "memory_type": "HBM3e",
+        "memory_size_mb": 147456,
+        "memory_bandwidth_gbs": 4900,
+        "fp8_tflops": 2520
+      }
+    }
+  ]
+}

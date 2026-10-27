@@ -1,0 +1,214 @@
+{
+  "manufacturer": "3dfx",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "3dfx-voodoo-graphics",
+      "name": "Voodoo Graphics",
+      "family": "Voodoo",
+      "released": "1996-10",
+      "specs": {
+        "codename": "SST-1",
+        "market": "Consumer",
+        "process_nm": 500,
+        "tmus": 1,
+        "rops": 1,
+        "gpu_clock_mhz": 50,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "EDO DRAM",
+        "memory_size_mb": 4,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "3dfx-voodoo-rush",
+      "name": "Voodoo Rush",
+      "family": "Voodoo",
+      "released": "1997-08",
+      "specs": {
+        "codename": "SST-96",
+        "market": "Consumer",
+        "process_nm": 500,
+        "tmus": 1,
+        "rops": 1,
+        "gpu_clock_mhz": 50,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "EDO DRAM",
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "3dfx-voodoo2",
+      "name": "Voodoo2",
+      "family": "Voodoo",
+      "released": "1998-02",
+      "specs": {
+        "codename": "SST-2",
+        "market": "Consumer",
+        "process_nm": 350,
+        "tmus": 2,
+        "rops": 1,
+        "gpu_clock_mhz": 90,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "EDO DRAM",
+        "memory_size_mb": 12,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "3dfx-voodoo-banshee",
+      "name": "Voodoo Banshee",
+      "family": "Voodoo",
+      "released": "1998-06",
+      "specs": {
+        "codename": "Banshee",
+        "market": "Consumer",
+        "process_nm": 350,
+        "tmus": 1,
+        "rops": 1,
+        "gpu_clock_mhz": 100,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "SDRAM / SGRAM",
+        "memory_size_mb": 16,
+        "memory_bus_bits": 128,
+        "interface": "AGP 2x / PCI"
+      }
+    },
+    {
+      "id": "3dfx-voodoo3-2000",
+      "name": "Voodoo3 2000",
+      "family": "Voodoo3",
+      "released": "1999-04",
+      "specs": {
+        "codename": "Avenger",
+        "market": "Consumer",
+        "process_nm": 250,
+        "transistors": 8200000,
+        "tmus": 2,
+        "rops": 1,
+        "gpu_clock_mhz": 143,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "SDRAM",
+        "memory_size_mb": 16,
+        "memory_bus_bits": 128,
+        "interface": "AGP 2x / PCI"
+      }
+    },
+    {
+      "id": "3dfx-voodoo3-3000",
+      "name": "Voodoo3 3000",
+      "family": "Voodoo3",
+      "released": "1999-04",
+      "specs": {
+        "codename": "Avenger",
+        "market": "Consumer",
+        "process_nm": 250,
+        "transistors": 8200000,
+        "tmus": 2,
+        "rops": 1,
+        "gpu_clock_mhz": 166,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "SDRAM",
+        "memory_size_mb": 16,
+        "memory_bus_bits": 128,
+        "interface": "AGP 2x / PCI"
+      }
+    },
+    {
+      "id": "3dfx-voodoo3-3500-tv",
+      "name": "Voodoo3 3500 TV",
+      "family": "Voodoo3",
+      "released": "1999-06",
+      "specs": {
+        "codename": "Avenger",
+        "market": "Consumer",
+        "process_nm": 250,
+        "transistors": 8200000,
+        "tmus": 2,
+        "rops": 1,
+        "gpu_clock_mhz": 183,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "SDRAM",
+        "memory_size_mb": 16,
+        "memory_bus_bits": 128,
+        "interface": "AGP 2x"
+      }
+    },
+    {
+      "id": "3dfx-voodoo5-5500",
+      "name": "Voodoo5 5500",
+      "family": "Voodoo5",
+      "released": "2000-06",
+      "specs": {
+        "codename": "2x VSA-100",
+        "market": "Consumer",
+        "process_nm": 250,
+        "transistors": 28000000,
+        "tmus": 4,
+        "rops": 4,
+        "gpu_clock_mhz": 166,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "SDRAM",
+        "memory_size_mb": 64,
+        "interface": "AGP 2x / PCI"
+      }
+    },
+    {
+      "id": "3dfx-voodoo4-4500",
+      "name": "Voodoo4 4500",
+      "family": "Voodoo4",
+      "released": "2000-10",
+      "specs": {
+        "codename": "VSA-100",
+        "market": "Consumer",
+        "process_nm": 250,
+        "transistors": 14000000,
+        "tmus": 2,
+        "rops": 2,
+        "gpu_clock_mhz": 166,
+        "graphics_api": [
+          "Glide",
+          "Direct3D",
+          "OpenGL"
+        ],
+        "memory_type": "SDRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 2.7,
+        "interface": "AGP 2x / PCI"
+      }
+    }
+  ]
+}

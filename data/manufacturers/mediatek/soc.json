@@ -1,0 +1,339 @@
+{
+  "manufacturer": "mediatek",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "mediatek-mt6573",
+      "name": "MT6573",
+      "family": "MT65xx",
+      "released": "2010",
+      "specs": {
+        "process_nm": 65,
+        "foundry": "TSMC",
+        "cores": 1,
+        "microarchitecture": "ARM11",
+        "boost_clock_mhz": 650,
+        "isa": "ARMv6",
+        "modem": "HSPA",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-mt6577",
+      "name": "MT6577",
+      "family": "MT65xx",
+      "released": "2012",
+      "specs": {
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "cores": 2,
+        "microarchitecture": "Cortex-A9",
+        "boost_clock_mhz": 1000,
+        "gpu": "PowerVR SGX531",
+        "isa": "ARMv7-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-mt6589",
+      "name": "MT6589",
+      "family": "MT65xx",
+      "released": "2013-01",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 4,
+        "microarchitecture": "Cortex-A7",
+        "boost_clock_mhz": 1200,
+        "gpu": "PowerVR SGX544",
+        "isa": "ARMv7-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-mt6592",
+      "name": "MT6592",
+      "family": "MT65xx",
+      "released": "2013-11",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 8,
+        "microarchitecture": "Cortex-A7",
+        "boost_clock_mhz": 1700,
+        "gpu": "Mali-450 MP4",
+        "isa": "ARMv7-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-mt6752",
+      "name": "MT6752",
+      "family": "MT67xx",
+      "released": "2014-10",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 8,
+        "microarchitecture": "Cortex-A53",
+        "boost_clock_mhz": 1700,
+        "gpu": "Mali-T760 MP2",
+        "isa": "ARMv8-A",
+        "modem": "LTE Cat 4",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-helio-x10",
+      "name": "Helio X10 (MT6795)",
+      "family": "Helio X",
+      "released": "2015-03",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 8,
+        "microarchitecture": "Cortex-A53",
+        "boost_clock_mhz": 2200,
+        "gpu": "PowerVR G6200",
+        "isa": "ARMv8-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-helio-x20",
+      "name": "Helio X20 (MT6797)",
+      "family": "Helio X",
+      "released": "2016-04",
+      "specs": {
+        "process_nm": 20,
+        "foundry": "TSMC",
+        "cores": 10,
+        "core_config": "2x Cortex-A72 @ 2.3 GHz + 4x Cortex-A53 @ 1.85 GHz + 4x Cortex-A53 @ 1.4 GHz",
+        "microarchitecture": "Cortex-A72 / Cortex-A53",
+        "boost_clock_mhz": 2300,
+        "gpu": "Mali-T880 MP4",
+        "isa": "ARMv8-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-helio-x30",
+      "name": "Helio X30 (MT6799)",
+      "family": "Helio X",
+      "released": "2017-06",
+      "specs": {
+        "process_nm": 10,
+        "foundry": "TSMC",
+        "cores": 10,
+        "core_config": "2x Cortex-A73 @ 2.5 GHz + 4x Cortex-A53 @ 2.2 GHz + 4x Cortex-A35 @ 1.9 GHz",
+        "microarchitecture": "Cortex-A73 / Cortex-A53 / Cortex-A35",
+        "boost_clock_mhz": 2500,
+        "gpu": "PowerVR 7XTP-MT4",
+        "memory_type": "LPDDR4X",
+        "isa": "ARMv8-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-helio-p60",
+      "name": "Helio P60 (MT6771)",
+      "family": "Helio P",
+      "released": "2018-03",
+      "specs": {
+        "process_nm": 12,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "4x Cortex-A73 @ 2.0 GHz + 4x Cortex-A53 @ 2.0 GHz",
+        "microarchitecture": "Cortex-A73 / Cortex-A53",
+        "boost_clock_mhz": 2000,
+        "gpu": "Mali-G72 MP3",
+        "isa": "ARMv8-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-helio-g90t",
+      "name": "Helio G90T",
+      "family": "Helio G",
+      "released": "2019-08",
+      "specs": {
+        "process_nm": 12,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x Cortex-A76 @ 2.05 GHz + 6x Cortex-A55 @ 2.0 GHz",
+        "microarchitecture": "Cortex-A76 / Cortex-A55",
+        "boost_clock_mhz": 2050,
+        "gpu": "Mali-G76 MC4",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-dimensity-1000",
+      "name": "Dimensity 1000",
+      "family": "Dimensity 1000",
+      "released": "2019-11",
+      "specs": {
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "4x Cortex-A77 @ 2.6 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "microarchitecture": "Cortex-A77 / Cortex-A55",
+        "boost_clock_mhz": 2600,
+        "gpu": "Mali-G77 MC9",
+        "modem": "Integrated 5G",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-dimensity-1200",
+      "name": "Dimensity 1200",
+      "family": "Dimensity 1000",
+      "released": "2021-01",
+      "specs": {
+        "process_nm": 6,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-A78 @ 3.0 GHz + 3x Cortex-A78 @ 2.6 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "boost_clock_mhz": 3000,
+        "gpu": "Mali-G77 MC9",
+        "modem": "Integrated 5G",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-dimensity-9000",
+      "name": "Dimensity 9000",
+      "family": "Dimensity 9000",
+      "released": "2021-12",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X2 @ 3.05 GHz + 3x Cortex-A710 @ 2.85 GHz + 4x Cortex-A510 @ 1.8 GHz",
+        "microarchitecture": "Cortex-X2 / Cortex-A710 / Cortex-A510",
+        "boost_clock_mhz": 3050,
+        "l3_cache_kb": 8192,
+        "slc_kb": 6144,
+        "gpu": "Mali-G710 MC10",
+        "memory_type": "LPDDR5X-7500",
+        "modem": "Integrated 5G",
+        "isa": "ARMv9-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-dimensity-8100",
+      "name": "Dimensity 8100",
+      "family": "Dimensity 8000",
+      "released": "2022-03",
+      "specs": {
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "4x Cortex-A78 @ 2.85 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "boost_clock_mhz": 2850,
+        "gpu": "Mali-G610 MC6",
+        "modem": "Integrated 5G",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-helio-g99",
+      "name": "Helio G99",
+      "family": "Helio G",
+      "released": "2022-05",
+      "specs": {
+        "process_nm": 6,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x Cortex-A76 @ 2.2 GHz + 6x Cortex-A55 @ 2.0 GHz",
+        "microarchitecture": "Cortex-A76 / Cortex-A55",
+        "boost_clock_mhz": 2200,
+        "gpu": "Mali-G57 MC2",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-dimensity-9200",
+      "name": "Dimensity 9200",
+      "family": "Dimensity 9000",
+      "released": "2022-11",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X3 @ 3.05 GHz + 3x Cortex-A715 @ 2.85 GHz + 4x Cortex-A510 @ 1.8 GHz",
+        "microarchitecture": "Cortex-X3 / Cortex-A715 / Cortex-A510",
+        "boost_clock_mhz": 3050,
+        "gpu": "Immortalis-G715 MC11",
+        "memory_type": "LPDDR5X",
+        "modem": "Integrated 5G",
+        "isa": "ARMv9-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-dimensity-9300",
+      "name": "Dimensity 9300",
+      "family": "Dimensity 9000",
+      "released": "2023-11",
+      "specs": {
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "transistors": 22700000000,
+        "cores": 8,
+        "core_config": "1x Cortex-X4 @ 3.25 GHz + 3x Cortex-X4 @ 2.85 GHz + 4x Cortex-A720 @ 2.0 GHz",
+        "microarchitecture": "Cortex-X4 / Cortex-A720",
+        "boost_clock_mhz": 3250,
+        "gpu": "Immortalis-G720 MC12",
+        "memory_type": "LPDDR5T-9600",
+        "modem": "Integrated 5G",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-dimensity-9400",
+      "name": "Dimensity 9400",
+      "family": "Dimensity 9000",
+      "released": "2024-10",
+      "specs": {
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X925 @ 3.63 GHz + 3x Cortex-X4 @ 3.3 GHz + 4x Cortex-A720 @ 2.4 GHz",
+        "microarchitecture": "Cortex-X925 / Cortex-X4 / Cortex-A720",
+        "boost_clock_mhz": 3626,
+        "gpu": "Immortalis-G925 MC12",
+        "memory_type": "LPDDR5X-10667",
+        "modem": "Integrated 5G",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile"
+      }
+    },
+    {
+      "id": "mediatek-dimensity-9500",
+      "name": "Dimensity 9500",
+      "family": "Dimensity 9000",
+      "released": "2025-09",
+      "specs": {
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x C1-Ultra @ 4.21 GHz + 3x C1-Premium @ 3.5 GHz + 4x C1-Pro @ 2.7 GHz",
+        "microarchitecture": "C1-Ultra / C1-Premium / C1-Pro",
+        "boost_clock_mhz": 4210,
+        "gpu": "Mali-G1-Ultra MC12",
+        "modem": "Integrated 5G",
+        "market": "Mobile"
+      }
+    }
+  ]
+}

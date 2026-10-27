@@ -1,0 +1,173 @@
+{
+  "manufacturer": "texas-instruments",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "texas-instruments-omap1510",
+      "name": "OMAP1510",
+      "family": "OMAP 1",
+      "released": "2001",
+      "specs": {
+        "isa": "ARMv4T",
+        "microarchitecture": "ARM925T",
+        "cores": 1,
+        "boost_clock_mhz": 175,
+        "core_config": "ARM925T + TMS320C55x"
+      }
+    },
+    {
+      "id": "texas-instruments-omap1710",
+      "name": "OMAP1710",
+      "family": "OMAP 1",
+      "released": "2004",
+      "specs": {
+        "isa": "ARMv5TEJ",
+        "microarchitecture": "ARM926EJ-S",
+        "process_nm": 90,
+        "cores": 1,
+        "boost_clock_mhz": 220
+      }
+    },
+    {
+      "id": "texas-instruments-omap2420",
+      "name": "OMAP2420",
+      "family": "OMAP 2",
+      "released": "2005",
+      "specs": {
+        "isa": "ARMv6",
+        "microarchitecture": "ARM1136J(F)-S",
+        "process_nm": 90,
+        "cores": 1,
+        "boost_clock_mhz": 330,
+        "gpu": "PowerVR MBX"
+      }
+    },
+    {
+      "id": "texas-instruments-dm6446",
+      "name": "DaVinci TMS320DM6446",
+      "family": "DaVinci",
+      "released": "2005",
+      "specs": {
+        "isa": "ARMv5TEJ",
+        "microarchitecture": "ARM926EJ-S",
+        "process_nm": 90,
+        "cores": 1,
+        "boost_clock_mhz": 297,
+        "core_config": "ARM926EJ-S + C64x+ DSP"
+      }
+    },
+    {
+      "id": "texas-instruments-omap3430",
+      "name": "OMAP3430",
+      "family": "OMAP 3",
+      "released": "2008",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A8",
+        "process_nm": 65,
+        "cores": 1,
+        "boost_clock_mhz": 600,
+        "gpu": "PowerVR SGX530"
+      }
+    },
+    {
+      "id": "texas-instruments-omap3630",
+      "name": "OMAP3630",
+      "family": "OMAP 3",
+      "released": "2010",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A8",
+        "process_nm": 45,
+        "cores": 1,
+        "boost_clock_mhz": 1000,
+        "gpu": "PowerVR SGX530"
+      }
+    },
+    {
+      "id": "texas-instruments-omap4430",
+      "name": "OMAP4430",
+      "family": "OMAP 4",
+      "released": "2011",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A9",
+        "process_nm": 45,
+        "cores": 2,
+        "boost_clock_mhz": 1000,
+        "gpu": "PowerVR SGX540",
+        "memory_type": "LPDDR2"
+      }
+    },
+    {
+      "id": "texas-instruments-am3358",
+      "name": "Sitara AM3358",
+      "family": "Sitara AM335x",
+      "released": "2011",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A8",
+        "process_nm": 45,
+        "cores": 1,
+        "boost_clock_mhz": 1000,
+        "gpu": "PowerVR SGX530"
+      }
+    },
+    {
+      "id": "texas-instruments-omap4460",
+      "name": "OMAP4460",
+      "family": "OMAP 4",
+      "released": "2011-11",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A9",
+        "process_nm": 45,
+        "cores": 2,
+        "boost_clock_mhz": 1500,
+        "gpu": "PowerVR SGX540",
+        "memory_type": "LPDDR2"
+      }
+    },
+    {
+      "id": "texas-instruments-omap4470",
+      "name": "OMAP4470",
+      "family": "OMAP 4",
+      "released": "2012",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A9",
+        "process_nm": 45,
+        "cores": 2,
+        "gpu": "PowerVR SGX544",
+        "memory_type": "LPDDR2"
+      }
+    },
+    {
+      "id": "texas-instruments-omap5432",
+      "name": "OMAP5432",
+      "family": "OMAP 5",
+      "released": "2013",
+      "specs": {
+        "isa": "ARMv7-A",
+        "microarchitecture": "Cortex-A15",
+        "process_nm": 28,
+        "cores": 2,
+        "gpu": "PowerVR SGX544-MP2"
+      }
+    },
+    {
+      "id": "texas-instruments-tda4vm",
+      "name": "Jacinto TDA4VM",
+      "family": "Jacinto 7",
+      "released": "2020",
+      "specs": {
+        "isa": "ARMv8-A",
+        "microarchitecture": "Cortex-A72",
+        "process_nm": 16,
+        "cores": 2,
+        "boost_clock_mhz": 2000,
+        "int8_tops": 8
+      }
+    }
+  ]
+}

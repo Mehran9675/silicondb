@@ -1,0 +1,53 @@
+{
+  "manufacturer": "nvidia",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "nvidia-grace",
+      "name": "Grace",
+      "family": "Grace",
+      "released": "2023",
+      "specs": {
+        "microarchitecture": "Neoverse V2",
+        "isa": "ARMv9.0-A",
+        "market": "Server",
+        "process_nm": 4,
+        "foundry": "TSMC (4N)",
+        "cores": 72,
+        "threads": 72,
+        "l3_cache_kb": 119808,
+        "memory_type": "LPDDR5X",
+        "max_memory_mb": 491520,
+        "memory_bandwidth_gbs": 500.0,
+        "instruction_sets": [
+          "SVE2",
+          "NEON"
+        ]
+      }
+    },
+    {
+      "id": "nvidia-grace-cpu-superchip",
+      "name": "Grace CPU Superchip",
+      "family": "Grace",
+      "released": "2023",
+      "specs": {
+        "microarchitecture": "Neoverse V2",
+        "isa": "ARMv9.0-A",
+        "market": "Server",
+        "process_nm": 4,
+        "foundry": "TSMC (4N)",
+        "cores": 144,
+        "threads": 144,
+        "l3_cache_kb": 233472,
+        "memory_type": "LPDDR5X",
+        "max_memory_mb": 983040,
+        "memory_bandwidth_gbs": 1000.0,
+        "tdp_w": 500,
+        "instruction_sets": [
+          "SVE2",
+          "NEON"
+        ]
+      }
+    }
+  ]
+}

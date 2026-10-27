@@ -1,0 +1,242 @@
+{
+  "manufacturer": "stmicroelectronics",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "stmicroelectronics-stm32f103c8",
+      "name": "STM32F103C8",
+      "family": "STM32F1",
+      "released": "2007-06",
+      "specs": {
+        "microarchitecture": "Cortex-M3",
+        "isa": "ARMv7-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 72,
+        "flash_kb": 64,
+        "sram_kb": 20,
+        "package": "LQFP48"
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32f103ze",
+      "name": "STM32F103ZE",
+      "family": "STM32F1",
+      "released": "2007-06",
+      "specs": {
+        "microarchitecture": "Cortex-M3",
+        "isa": "ARMv7-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 72,
+        "flash_kb": 512,
+        "sram_kb": 64,
+        "package": "LQFP144"
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm8s208rb",
+      "name": "STM8S208RB",
+      "family": "STM8S",
+      "released": "2008",
+      "specs": {
+        "isa": "STM8",
+        "data_width_bits": 8,
+        "base_clock_mhz": 24,
+        "flash_kb": 128,
+        "sram_kb": 6
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm8s103f3",
+      "name": "STM8S103F3",
+      "family": "STM8S",
+      "released": "2009",
+      "specs": {
+        "isa": "STM8",
+        "data_width_bits": 8,
+        "base_clock_mhz": 16,
+        "flash_kb": 8,
+        "sram_kb": 1,
+        "package": "TSSOP20"
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32f407vg",
+      "name": "STM32F407VG",
+      "family": "STM32F4",
+      "released": "2011-09",
+      "specs": {
+        "microarchitecture": "Cortex-M4F",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 168,
+        "flash_kb": 1024,
+        "sram_kb": 192,
+        "process_nm": 90
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32f051r8",
+      "name": "STM32F051R8",
+      "family": "STM32F0",
+      "released": "2012",
+      "specs": {
+        "microarchitecture": "Cortex-M0",
+        "isa": "ARMv6-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 48,
+        "flash_kb": 64,
+        "sram_kb": 8
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32f429zi",
+      "name": "STM32F429ZI",
+      "family": "STM32F4",
+      "released": "2013",
+      "specs": {
+        "microarchitecture": "Cortex-M4F",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 180,
+        "flash_kb": 2048,
+        "sram_kb": 256
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32f746ng",
+      "name": "STM32F746NG",
+      "family": "STM32F7",
+      "released": "2014-09",
+      "specs": {
+        "microarchitecture": "Cortex-M7",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 216,
+        "flash_kb": 1024,
+        "sram_kb": 320
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32l476rg",
+      "name": "STM32L476RG",
+      "family": "STM32L4",
+      "released": "2015",
+      "specs": {
+        "microarchitecture": "Cortex-M4F",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 80,
+        "flash_kb": 1024,
+        "sram_kb": 128
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32h743zi",
+      "name": "STM32H743ZI",
+      "family": "STM32H7",
+      "released": "2017",
+      "specs": {
+        "microarchitecture": "Cortex-M7",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 400,
+        "flash_kb": 2048,
+        "sram_kb": 1024,
+        "process_nm": 40
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32g071rb",
+      "name": "STM32G071RB",
+      "family": "STM32G0",
+      "released": "2018-11",
+      "specs": {
+        "microarchitecture": "Cortex-M0+",
+        "isa": "ARMv6-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 64,
+        "flash_kb": 128,
+        "sram_kb": 36
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32g474re",
+      "name": "STM32G474RE",
+      "family": "STM32G4",
+      "released": "2019",
+      "specs": {
+        "microarchitecture": "Cortex-M4F",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 170,
+        "flash_kb": 512,
+        "sram_kb": 128
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32wb55rg",
+      "name": "STM32WB55RG",
+      "family": "STM32WB",
+      "released": "2019",
+      "specs": {
+        "microarchitecture": "Cortex-M4F",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "cores": 2,
+        "core_config": "1x Cortex-M4F 64 MHz + 1x Cortex-M0+ (radio)",
+        "base_clock_mhz": 64,
+        "flash_kb": 1024,
+        "sram_kb": 256,
+        "connectivity": [
+          "Bluetooth 5 LE",
+          "IEEE 802.15.4 (Thread/Zigbee)"
+        ]
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32u575zi",
+      "name": "STM32U575ZI",
+      "family": "STM32U5",
+      "released": "2021",
+      "specs": {
+        "microarchitecture": "Cortex-M33",
+        "isa": "ARMv8-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 160,
+        "flash_kb": 2048,
+        "sram_kb": 786,
+        "process_nm": 40
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32c011f6",
+      "name": "STM32C011F6",
+      "family": "STM32C0",
+      "released": "2023",
+      "specs": {
+        "microarchitecture": "Cortex-M0+",
+        "isa": "ARMv6-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 48,
+        "flash_kb": 32,
+        "sram_kb": 6
+      }
+    },
+    {
+      "id": "stmicroelectronics-stm32n657",
+      "name": "STM32N657",
+      "family": "STM32N6",
+      "released": "2024-12",
+      "specs": {
+        "microarchitecture": "Cortex-M55",
+        "isa": "ARMv8.1-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 800,
+        "npu_tops": 0.6,
+        "instruction_sets": [
+          "Helium (MVE)"
+        ]
+      }
+    }
+  ]
+}

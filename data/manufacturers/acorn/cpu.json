@@ -1,0 +1,54 @@
+{
+  "manufacturer": "acorn",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "acorn-arm1",
+      "name": "ARM1",
+      "family": "ARM",
+      "released": "1985-04",
+      "specs": {
+        "isa": "ARMv1",
+        "foundry": "VLSI Technology",
+        "process_nm": 3000,
+        "transistors": 25000,
+        "data_width_bits": 32,
+        "address_width_bits": 26,
+        "base_clock_mhz": 6,
+        "cores": 1
+      }
+    },
+    {
+      "id": "acorn-arm2",
+      "name": "ARM2",
+      "family": "ARM",
+      "released": "1986",
+      "specs": {
+        "isa": "ARMv2",
+        "foundry": "VLSI Technology",
+        "process_nm": 2000,
+        "transistors": 30000,
+        "data_width_bits": 32,
+        "address_width_bits": 26,
+        "base_clock_mhz": 8,
+        "cores": 1
+      }
+    },
+    {
+      "id": "acorn-arm3",
+      "name": "ARM3",
+      "family": "ARM",
+      "released": "1989",
+      "specs": {
+        "isa": "ARMv2a",
+        "foundry": "VLSI Technology",
+        "transistors": 310000,
+        "data_width_bits": 32,
+        "address_width_bits": 26,
+        "base_clock_mhz": 25,
+        "cores": 1,
+        "l1_cache_kb": 4
+      }
+    }
+  ]
+}

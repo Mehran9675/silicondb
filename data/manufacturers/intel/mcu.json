@@ -1,0 +1,44 @@
+{
+  "manufacturer": "intel",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "intel-8048",
+      "name": "8048",
+      "family": "MCS-48",
+      "released": "1976",
+      "specs": {
+        "data_width_bits": 8,
+        "base_clock_mhz": 6,
+        "sram_kb": 0.0625,
+        "package": "40-pin DIP",
+        "voltage_v": 5
+      }
+    },
+    {
+      "id": "intel-8051",
+      "name": "8051",
+      "family": "MCS-51",
+      "released": "1980",
+      "specs": {
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 12,
+        "sram_kb": 0.125,
+        "package": "40-pin DIP",
+        "voltage_v": 5
+      }
+    },
+    {
+      "id": "intel-8096",
+      "name": "8096",
+      "family": "MCS-96",
+      "released": "1982",
+      "specs": {
+        "data_width_bits": 16,
+        "address_width_bits": 16,
+        "base_clock_mhz": 12
+      }
+    }
+  ]
+}

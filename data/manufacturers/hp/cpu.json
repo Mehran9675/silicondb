@@ -1,0 +1,213 @@
+{
+  "manufacturer": "hp",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "hp-pa-7000",
+      "name": "PA-7000",
+      "family": "PA-RISC",
+      "released": "1991",
+      "specs": {
+        "isa": "PA-RISC 1.1",
+        "data_width_bits": 32,
+        "base_clock_mhz": 66,
+        "cores": 1
+      }
+    },
+    {
+      "id": "hp-pa-7100",
+      "name": "PA-7100",
+      "family": "PA-RISC",
+      "released": "1992",
+      "specs": {
+        "isa": "PA-RISC 1.1",
+        "process_nm": 800,
+        "transistors": 850000,
+        "die_size_mm2": 196,
+        "data_width_bits": 32,
+        "base_clock_mhz": 100,
+        "cores": 1
+      }
+    },
+    {
+      "id": "hp-pa-7100lc",
+      "name": "PA-7100LC",
+      "family": "PA-RISC",
+      "released": "1994",
+      "specs": {
+        "isa": "PA-RISC 1.1",
+        "process_nm": 750,
+        "transistors": 900000,
+        "data_width_bits": 32,
+        "base_clock_mhz": 100,
+        "cores": 1,
+        "l1_cache_kb": 1,
+        "instruction_sets": [
+          "MAX-1"
+        ]
+      }
+    },
+    {
+      "id": "hp-pa-7200",
+      "name": "PA-7200",
+      "family": "PA-RISC",
+      "released": "1994",
+      "specs": {
+        "isa": "PA-RISC 1.1",
+        "process_nm": 550,
+        "transistors": 1260000,
+        "die_size_mm2": 210,
+        "data_width_bits": 32,
+        "base_clock_mhz": 120,
+        "cores": 1
+      }
+    },
+    {
+      "id": "hp-pa-7300lc",
+      "name": "PA-7300LC",
+      "family": "PA-RISC",
+      "released": "1996",
+      "specs": {
+        "isa": "PA-RISC 1.1",
+        "process_nm": 500,
+        "transistors": 9200000,
+        "die_size_mm2": 260,
+        "data_width_bits": 32,
+        "base_clock_mhz": 180,
+        "cores": 1,
+        "l1_cache_kb": 128,
+        "instruction_sets": [
+          "MAX-1"
+        ]
+      }
+    },
+    {
+      "id": "hp-pa-8000",
+      "name": "PA-8000",
+      "family": "PA-RISC",
+      "released": "1996",
+      "specs": {
+        "isa": "PA-RISC 2.0",
+        "process_nm": 500,
+        "transistors": 3800000,
+        "die_size_mm2": 338,
+        "data_width_bits": 64,
+        "base_clock_mhz": 180,
+        "cores": 1,
+        "instruction_sets": [
+          "MAX-2"
+        ]
+      }
+    },
+    {
+      "id": "hp-pa-8200",
+      "name": "PA-8200",
+      "family": "PA-RISC",
+      "released": "1997",
+      "specs": {
+        "isa": "PA-RISC 2.0",
+        "process_nm": 500,
+        "data_width_bits": 64,
+        "base_clock_mhz": 240,
+        "cores": 1,
+        "instruction_sets": [
+          "MAX-2"
+        ]
+      }
+    },
+    {
+      "id": "hp-pa-8500",
+      "name": "PA-8500",
+      "family": "PA-RISC",
+      "released": "1998",
+      "specs": {
+        "isa": "PA-RISC 2.0",
+        "process_nm": 250,
+        "transistors": 140000000,
+        "die_size_mm2": 469,
+        "data_width_bits": 64,
+        "base_clock_mhz": 440,
+        "cores": 1,
+        "l1_cache_kb": 1536,
+        "instruction_sets": [
+          "MAX-2"
+        ]
+      }
+    },
+    {
+      "id": "hp-pa-8600",
+      "name": "PA-8600",
+      "family": "PA-RISC",
+      "released": "2000",
+      "specs": {
+        "isa": "PA-RISC 2.0",
+        "process_nm": 250,
+        "data_width_bits": 64,
+        "base_clock_mhz": 552,
+        "cores": 1,
+        "l1_cache_kb": 1536,
+        "instruction_sets": [
+          "MAX-2"
+        ]
+      }
+    },
+    {
+      "id": "hp-pa-8700",
+      "name": "PA-8700",
+      "family": "PA-RISC",
+      "released": "2001",
+      "specs": {
+        "isa": "PA-RISC 2.0",
+        "process_nm": 180,
+        "transistors": 186000000,
+        "die_size_mm2": 304,
+        "data_width_bits": 64,
+        "base_clock_mhz": 875,
+        "cores": 1,
+        "l1_cache_kb": 2304,
+        "instruction_sets": [
+          "MAX-2"
+        ]
+      }
+    },
+    {
+      "id": "hp-pa-8800",
+      "name": "PA-8800",
+      "family": "PA-RISC",
+      "released": "2004",
+      "specs": {
+        "codename": "Mako",
+        "isa": "PA-RISC 2.0",
+        "process_nm": 130,
+        "transistors": 300000000,
+        "die_size_mm2": 361,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1000,
+        "cores": 2,
+        "l1_cache_kb": 3072,
+        "instruction_sets": [
+          "MAX-2"
+        ]
+      }
+    },
+    {
+      "id": "hp-pa-8900",
+      "name": "PA-8900",
+      "family": "PA-RISC",
+      "released": "2005",
+      "specs": {
+        "codename": "Shortfin",
+        "isa": "PA-RISC 2.0",
+        "process_nm": 130,
+        "transistors": 317000000,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1100,
+        "cores": 2,
+        "l1_cache_kb": 3072,
+        "instruction_sets": [
+          "MAX-2"
+        ]
+      }
+    }
+  ]
+}

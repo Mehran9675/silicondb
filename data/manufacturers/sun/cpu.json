@@ -1,0 +1,257 @@
+{
+  "manufacturer": "sun",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "sun-mb86900",
+      "name": "SPARC MB86900",
+      "family": "SPARC",
+      "released": "1987",
+      "specs": {
+        "isa": "SPARC V7",
+        "foundry": "Fujitsu",
+        "data_width_bits": 32,
+        "base_clock_mhz": 16.67,
+        "cores": 1
+      }
+    },
+    {
+      "id": "sun-supersparc",
+      "name": "SuperSPARC",
+      "family": "SuperSPARC",
+      "released": "1992",
+      "specs": {
+        "codename": "Viking",
+        "isa": "SPARC V8",
+        "foundry": "Texas Instruments",
+        "process_nm": 800,
+        "transistors": 3100000,
+        "die_size_mm2": 256,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 36
+      }
+    },
+    {
+      "id": "sun-microsparc",
+      "name": "microSPARC",
+      "family": "microSPARC",
+      "released": "1992-11",
+      "specs": {
+        "codename": "Tsunami",
+        "isa": "SPARC V8",
+        "foundry": "Texas Instruments",
+        "process_nm": 800,
+        "transistors": 800000,
+        "data_width_bits": 32,
+        "base_clock_mhz": 50,
+        "cores": 1,
+        "l1_cache_kb": 6
+      }
+    },
+    {
+      "id": "sun-microsparc-ii",
+      "name": "microSPARC-II",
+      "family": "microSPARC",
+      "released": "1994",
+      "specs": {
+        "codename": "Swift",
+        "isa": "SPARC V8",
+        "transistors": 2300000,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 24
+      }
+    },
+    {
+      "id": "sun-supersparc-ii",
+      "name": "SuperSPARC-II",
+      "family": "SuperSPARC",
+      "released": "1995",
+      "specs": {
+        "codename": "Voyager",
+        "isa": "SPARC V8",
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 36
+      }
+    },
+    {
+      "id": "sun-ultrasparc",
+      "name": "UltraSPARC",
+      "family": "UltraSPARC",
+      "released": "1995-11",
+      "specs": {
+        "codename": "Spitfire",
+        "isa": "SPARC V9",
+        "process_nm": 470,
+        "transistors": 5200000,
+        "die_size_mm2": 315,
+        "data_width_bits": 64,
+        "base_clock_mhz": 167,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "instruction_sets": [
+          "VIS"
+        ]
+      }
+    },
+    {
+      "id": "sun-ultrasparc-2",
+      "name": "UltraSPARC II",
+      "family": "UltraSPARC",
+      "released": "1997",
+      "specs": {
+        "codename": "Blackbird",
+        "isa": "SPARC V9",
+        "transistors": 5400000,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "instruction_sets": [
+          "VIS"
+        ]
+      }
+    },
+    {
+      "id": "sun-ultrasparc-2i",
+      "name": "UltraSPARC IIi",
+      "family": "UltraSPARC",
+      "released": "1997",
+      "specs": {
+        "codename": "Sabre",
+        "isa": "SPARC V9",
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 32,
+        "instruction_sets": [
+          "VIS"
+        ]
+      }
+    },
+    {
+      "id": "sun-ultrasparc-3",
+      "name": "UltraSPARC III",
+      "family": "UltraSPARC",
+      "released": "2000",
+      "specs": {
+        "codename": "Cheetah",
+        "isa": "SPARC V9",
+        "process_nm": 180,
+        "transistors": 29000000,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 96,
+        "instruction_sets": [
+          "VIS 2"
+        ]
+      }
+    },
+    {
+      "id": "sun-ultrasparc-3i",
+      "name": "UltraSPARC IIIi",
+      "family": "UltraSPARC",
+      "released": "2003",
+      "specs": {
+        "codename": "Jalapeño",
+        "isa": "SPARC V9",
+        "process_nm": 130,
+        "transistors": 87500000,
+        "die_size_mm2": 178,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l2_cache_kb": 1024,
+        "instruction_sets": [
+          "VIS 2"
+        ]
+      }
+    },
+    {
+      "id": "sun-ultrasparc-4",
+      "name": "UltraSPARC IV",
+      "family": "UltraSPARC",
+      "released": "2004-02",
+      "specs": {
+        "codename": "Jaguar",
+        "isa": "SPARC V9",
+        "process_nm": 130,
+        "transistors": 66000000,
+        "data_width_bits": 64,
+        "cores": 2,
+        "instruction_sets": [
+          "VIS 2"
+        ]
+      }
+    },
+    {
+      "id": "sun-ultrasparc-4-plus",
+      "name": "UltraSPARC IV+",
+      "family": "UltraSPARC",
+      "released": "2005-09",
+      "specs": {
+        "codename": "Panther",
+        "isa": "SPARC V9",
+        "process_nm": 90,
+        "transistors": 295000000,
+        "die_size_mm2": 335,
+        "data_width_bits": 64,
+        "cores": 2,
+        "l2_cache_kb": 2048,
+        "instruction_sets": [
+          "VIS 2"
+        ]
+      }
+    },
+    {
+      "id": "sun-ultrasparc-t1",
+      "name": "UltraSPARC T1",
+      "family": "UltraSPARC T",
+      "released": "2005-11",
+      "specs": {
+        "codename": "Niagara",
+        "isa": "SPARC V9",
+        "process_nm": 90,
+        "die_size_mm2": 378,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1200,
+        "cores": 8,
+        "threads": 32,
+        "l2_cache_kb": 3072,
+        "tdp_w": 72
+      }
+    },
+    {
+      "id": "sun-ultrasparc-t2",
+      "name": "UltraSPARC T2",
+      "family": "UltraSPARC T",
+      "released": "2007-10",
+      "specs": {
+        "codename": "Niagara 2",
+        "isa": "SPARC V9",
+        "process_nm": 65,
+        "transistors": 503000000,
+        "die_size_mm2": 342,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1400,
+        "cores": 8,
+        "threads": 64,
+        "l2_cache_kb": 4096
+      }
+    },
+    {
+      "id": "sun-ultrasparc-t2-plus",
+      "name": "UltraSPARC T2 Plus",
+      "family": "UltraSPARC T",
+      "released": "2008-04",
+      "specs": {
+        "codename": "Victoria Falls",
+        "isa": "SPARC V9",
+        "process_nm": 65,
+        "data_width_bits": 64,
+        "cores": 8,
+        "threads": 64,
+        "l2_cache_kb": 4096
+      }
+    }
+  ]
+}

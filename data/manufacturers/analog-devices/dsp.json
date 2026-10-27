@@ -1,0 +1,52 @@
+{
+  "manufacturer": "analog-devices",
+  "category": "dsp",
+  "chips": [
+    {
+      "id": "analog-devices-adsp-2100",
+      "name": "ADSP-2100",
+      "family": "ADSP-21xx",
+      "released": "1986",
+      "specs": {
+        "isa": "ADSP-21xx",
+        "data_width_bits": 16
+      }
+    },
+    {
+      "id": "analog-devices-adsp-21060",
+      "name": "ADSP-21060 SHARC",
+      "family": "SHARC",
+      "released": "1994",
+      "specs": {
+        "isa": "SHARC",
+        "data_width_bits": 32,
+        "base_clock_mhz": 40,
+        "mips": 40,
+        "sram_kb": 512
+      }
+    },
+    {
+      "id": "analog-devices-adsp-bf533",
+      "name": "ADSP-BF533 Blackfin",
+      "family": "Blackfin",
+      "released": "2003",
+      "specs": {
+        "isa": "Blackfin",
+        "data_width_bits": 32,
+        "base_clock_mhz": 600,
+        "sram_kb": 148
+      }
+    },
+    {
+      "id": "analog-devices-adsp-21569",
+      "name": "ADSP-21569 SHARC+",
+      "family": "SHARC+",
+      "released": "2019",
+      "specs": {
+        "isa": "SHARC+",
+        "data_width_bits": 32,
+        "base_clock_mhz": 1000
+      }
+    }
+  ]
+}

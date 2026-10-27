@@ -1,0 +1,26 @@
+{
+  "manufacturer": "tesla",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "tesla-dojo-d1",
+      "name": "Dojo D1",
+      "family": "Dojo",
+      "released": "2021-08",
+      "specs": {
+        "market": "Datacenter training",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "transistors": 50000000000,
+        "die_size_mm2": 645,
+        "cores": 354,
+        "base_clock_mhz": 2000,
+        "sram_kb": 450560,
+        "fp32_tflops": 22.6,
+        "bf16_tflops": 362,
+        "fp8_tflops": 362,
+        "tdp_w": 400
+      }
+    }
+  ]
+}

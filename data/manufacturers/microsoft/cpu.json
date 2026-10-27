@@ -1,0 +1,36 @@
+{
+  "manufacturer": "microsoft",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "microsoft-cobalt-100",
+      "name": "Cobalt 100",
+      "family": "Cobalt",
+      "released": "2023-11",
+      "specs": {
+        "microarchitecture": "Neoverse N2",
+        "isa": "ARMv9.0-A",
+        "market": "Datacenter",
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "cores": 128,
+        "threads": 128
+      }
+    },
+    {
+      "id": "microsoft-cobalt-200",
+      "name": "Cobalt 200",
+      "family": "Cobalt",
+      "released": "2025-11",
+      "specs": {
+        "microarchitecture": "Neoverse V3",
+        "isa": "ARMv9.2-A",
+        "market": "Datacenter",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 132,
+        "threads": 132
+      }
+    }
+  ]
+}

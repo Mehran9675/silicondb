@@ -1,0 +1,102 @@
+{
+  "manufacturer": "lattice",
+  "category": "fpga",
+  "chips": [
+    {
+      "id": "lattice-lfe3-150ea",
+      "name": "LatticeECP3-150EA",
+      "family": "ECP3",
+      "released": "2009",
+      "specs": {
+        "process_nm": 65,
+        "logic_elements": 149000,
+        "dsp_slices": 320,
+        "block_ram_kb": 856,
+        "transceivers": 16
+      }
+    },
+    {
+      "id": "lattice-lcmxo2-7000",
+      "name": "MachXO2-7000",
+      "family": "MachXO2",
+      "released": "2010",
+      "specs": {
+        "process_nm": 65,
+        "logic_elements": 6864,
+        "block_ram_kb": 30
+      }
+    },
+    {
+      "id": "lattice-ice40hx8k",
+      "name": "iCE40HX8K",
+      "family": "iCE40",
+      "released": "2011",
+      "specs": {
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "logic_elements": 7680,
+        "block_ram_kb": 16
+      }
+    },
+    {
+      "id": "lattice-lfe5um-85f",
+      "name": "ECP5 LFE5UM-85F",
+      "family": "ECP5",
+      "released": "2014",
+      "specs": {
+        "process_nm": 40,
+        "logic_elements": 84000,
+        "dsp_slices": 156,
+        "block_ram_kb": 468,
+        "transceivers": 4
+      }
+    },
+    {
+      "id": "lattice-ice40up5k",
+      "name": "iCE40UP5K",
+      "family": "iCE40 UltraPlus",
+      "released": "2016",
+      "specs": {
+        "process_nm": 40,
+        "logic_elements": 5280,
+        "dsp_slices": 8,
+        "block_ram_kb": 15,
+        "sram_kb": 128
+      }
+    },
+    {
+      "id": "lattice-lifcl-40",
+      "name": "CrossLink-NX LIFCL-40",
+      "family": "CrossLink-NX",
+      "released": "2019-12",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "Samsung",
+        "logic_elements": 39000,
+        "dsp_slices": 56,
+        "block_ram_kb": 189
+      }
+    },
+    {
+      "id": "lattice-lfd2nx-40",
+      "name": "Certus-NX LFD2NX-40",
+      "family": "Certus-NX",
+      "released": "2020-06",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "Samsung",
+        "logic_elements": 39000
+      }
+    },
+    {
+      "id": "lattice-avant-e",
+      "name": "Avant-E",
+      "family": "Avant",
+      "released": "2022-12",
+      "specs": {
+        "process_nm": 16,
+        "foundry": "TSMC"
+      }
+    }
+  ]
+}

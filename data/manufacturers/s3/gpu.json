@@ -1,0 +1,226 @@
+{
+  "manufacturer": "s3",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "s3-86c911",
+      "name": "86C911",
+      "family": "S3 911",
+      "released": "1991",
+      "specs": {
+        "market": "Consumer",
+        "memory_type": "VRAM",
+        "memory_size_mb": 1,
+        "interface": "ISA"
+      }
+    },
+    {
+      "id": "s3-trio64",
+      "name": "Trio64",
+      "family": "Trio",
+      "released": "1994",
+      "specs": {
+        "codename": "86C764",
+        "market": "Consumer",
+        "memory_type": "DRAM",
+        "memory_bus_bits": 64,
+        "interface": "PCI / VLB"
+      }
+    },
+    {
+      "id": "s3-trio64v-plus",
+      "name": "Trio64V+",
+      "family": "Trio",
+      "released": "1995",
+      "specs": {
+        "codename": "86C765",
+        "market": "Consumer",
+        "memory_type": "EDO DRAM",
+        "memory_bus_bits": 64,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "s3-virge",
+      "name": "ViRGE",
+      "family": "ViRGE",
+      "released": "1995-11",
+      "specs": {
+        "codename": "86C325",
+        "market": "Consumer",
+        "memory_type": "EDO DRAM",
+        "memory_size_mb": 4,
+        "memory_bus_bits": 64,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "s3-virge-dx",
+      "name": "ViRGE/DX",
+      "family": "ViRGE",
+      "released": "1996",
+      "specs": {
+        "codename": "86C375",
+        "market": "Consumer",
+        "memory_type": "EDO DRAM",
+        "memory_bus_bits": 64,
+        "interface": "PCI"
+      }
+    },
+    {
+      "id": "s3-virge-gx2",
+      "name": "ViRGE/GX2",
+      "family": "ViRGE",
+      "released": "1997",
+      "specs": {
+        "codename": "86C357",
+        "market": "Consumer",
+        "memory_type": "SDRAM / SGRAM",
+        "memory_bus_bits": 64,
+        "interface": "AGP 1x / PCI"
+      }
+    },
+    {
+      "id": "s3-savage3d",
+      "name": "Savage3D",
+      "family": "Savage",
+      "released": "1998-06",
+      "specs": {
+        "codename": "86C390",
+        "market": "Consumer",
+        "process_nm": 250,
+        "tmus": 1,
+        "rops": 1,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.1"
+        ],
+        "memory_type": "SDRAM / SGRAM",
+        "memory_size_mb": 8,
+        "memory_bus_bits": 64,
+        "interface": "AGP 2x"
+      }
+    },
+    {
+      "id": "s3-savage4",
+      "name": "Savage4",
+      "family": "Savage",
+      "released": "1999-02",
+      "specs": {
+        "market": "Consumer",
+        "process_nm": 250,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ],
+        "memory_type": "SDRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 64,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "s3-savage-2000",
+      "name": "Savage 2000",
+      "family": "Savage",
+      "released": "1999-11",
+      "specs": {
+        "market": "Consumer",
+        "process_nm": 180,
+        "tmus": 4,
+        "rops": 2,
+        "graphics_api": [
+          "DirectX 7.0",
+          "OpenGL 1.2"
+        ],
+        "memory_type": "SDRAM / SGRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "interface": "AGP 4x"
+      }
+    },
+    {
+      "id": "s3-deltachrome-s8",
+      "name": "DeltaChrome S8",
+      "family": "Chrome",
+      "released": "2004",
+      "specs": {
+        "market": "Consumer",
+        "process_nm": 130,
+        "tmus": 8,
+        "rops": 8,
+        "graphics_api": [
+          "DirectX 9.0",
+          "OpenGL 1.5"
+        ],
+        "memory_bus_bits": 128,
+        "interface": "AGP 8x"
+      }
+    },
+    {
+      "id": "s3-gammachrome-s18",
+      "name": "GammaChrome S18",
+      "family": "Chrome",
+      "released": "2005",
+      "specs": {
+        "market": "Consumer",
+        "process_nm": 130,
+        "graphics_api": [
+          "DirectX 9.0"
+        ],
+        "memory_bus_bits": 128,
+        "interface": "PCIe 1.0 x16"
+      }
+    },
+    {
+      "id": "s3-chrome-s27",
+      "name": "Chrome S27",
+      "family": "Chrome",
+      "released": "2005-09",
+      "specs": {
+        "market": "Consumer",
+        "process_nm": 90,
+        "foundry": "Fujitsu",
+        "tmus": 8,
+        "rops": 8,
+        "gpu_clock_mhz": 700,
+        "graphics_api": [
+          "DirectX 9.0"
+        ],
+        "memory_type": "GDDR3",
+        "memory_bus_bits": 128,
+        "interface": "PCIe 1.0 x16"
+      }
+    },
+    {
+      "id": "s3-chrome-440-gtx",
+      "name": "Chrome 440 GTX",
+      "family": "Chrome 400",
+      "released": "2008",
+      "specs": {
+        "market": "Consumer",
+        "process_nm": 65,
+        "graphics_api": [
+          "DirectX 10.1"
+        ],
+        "memory_bus_bits": 128,
+        "interface": "PCIe 2.0 x16"
+      }
+    },
+    {
+      "id": "s3-chrome-540-gtx",
+      "name": "Chrome 540 GTX",
+      "family": "Chrome 500",
+      "released": "2009",
+      "specs": {
+        "market": "Consumer",
+        "process_nm": 65,
+        "graphics_api": [
+          "DirectX 10.1"
+        ],
+        "memory_bus_bits": 128,
+        "interface": "PCIe 2.0 x16"
+      }
+    }
+  ]
+}

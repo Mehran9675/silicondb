@@ -1,0 +1,39 @@
+{
+  "manufacturer": "sifive",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "sifive-fu540-c000",
+      "name": "FU540-C000",
+      "family": "Freedom U500",
+      "released": "2018-02",
+      "specs": {
+        "microarchitecture": "U54",
+        "isa": "RISC-V (RV64GC)",
+        "data_width_bits": 64,
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 5,
+        "core_config": "4x U54 + 1x E51",
+        "base_clock_mhz": 1500,
+        "l2_cache_kb": 2048
+      }
+    },
+    {
+      "id": "sifive-fu740-c000",
+      "name": "FU740-C000",
+      "family": "Freedom U700",
+      "released": "2021",
+      "specs": {
+        "microarchitecture": "U74",
+        "isa": "RISC-V (RV64GC)",
+        "data_width_bits": 64,
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "cores": 5,
+        "core_config": "4x U74 + 1x S7",
+        "l2_cache_kb": 2048
+      }
+    }
+  ]
+}

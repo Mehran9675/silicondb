@@ -1,0 +1,18 @@
+{
+  "manufacturer": "freescale",
+  "category": "dsp",
+  "chips": [
+    {
+      "id": "freescale-msc8156",
+      "name": "MSC8156",
+      "family": "StarCore",
+      "released": "2008",
+      "specs": {
+        "microarchitecture": "SC3850",
+        "process_nm": 45,
+        "cores": 6,
+        "base_clock_mhz": 1000
+      }
+    }
+  ]
+}

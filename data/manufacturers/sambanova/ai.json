@@ -1,0 +1,54 @@
+{
+  "manufacturer": "sambanova",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "sambanova-sn10",
+      "name": "SN10",
+      "family": "Reconfigurable Dataflow Unit",
+      "released": "2020-11",
+      "specs": {
+        "codename": "Cardinal",
+        "market": "Datacenter",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "transistors": 40000000000,
+        "sram_kb": 327680,
+        "memory_type": "DDR4"
+      }
+    },
+    {
+      "id": "sambanova-sn30",
+      "name": "SN30",
+      "family": "Reconfigurable Dataflow Unit",
+      "released": "2022-09",
+      "specs": {
+        "market": "Datacenter",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "transistors": 86000000000,
+        "sram_kb": 655360,
+        "bf16_tflops": 688,
+        "memory_type": "DDR4"
+      }
+    },
+    {
+      "id": "sambanova-sn40l",
+      "name": "SN40L",
+      "family": "Reconfigurable Dataflow Unit",
+      "released": "2023-09",
+      "specs": {
+        "market": "Datacenter",
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "transistors": 102000000000,
+        "package": "2 dies (CoWoS)",
+        "cores": 1040,
+        "sram_kb": 532480,
+        "memory_type": "HBM + DDR5",
+        "memory_size_mb": 65536,
+        "bf16_tflops": 638
+      }
+    }
+  ]
+}

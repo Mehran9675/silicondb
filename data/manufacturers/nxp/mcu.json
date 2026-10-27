@@ -1,0 +1,100 @@
+{
+  "manufacturer": "nxp",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "nxp-lpc1768",
+      "name": "LPC1768",
+      "family": "LPC1700",
+      "released": "2009",
+      "specs": {
+        "microarchitecture": "Cortex-M3",
+        "isa": "ARMv7-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 100,
+        "flash_kb": 512,
+        "sram_kb": 64,
+        "connectivity": [
+          "Ethernet",
+          "USB 2.0 Full Speed",
+          "CAN"
+        ]
+      }
+    },
+    {
+      "id": "nxp-lpc1114",
+      "name": "LPC1114",
+      "family": "LPC1100",
+      "released": "2010",
+      "specs": {
+        "microarchitecture": "Cortex-M0",
+        "isa": "ARMv6-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 50,
+        "flash_kb": 32,
+        "sram_kb": 8
+      }
+    },
+    {
+      "id": "nxp-lpc810",
+      "name": "LPC810",
+      "family": "LPC800",
+      "released": "2012-11",
+      "specs": {
+        "microarchitecture": "Cortex-M0+",
+        "isa": "ARMv6-M",
+        "data_width_bits": 32,
+        "base_clock_mhz": 30,
+        "flash_kb": 4,
+        "sram_kb": 1,
+        "package": "8-pin DIP"
+      }
+    },
+    {
+      "id": "nxp-imxrt1062",
+      "name": "i.MX RT1062",
+      "family": "i.MX RT1060",
+      "released": "2018",
+      "specs": {
+        "microarchitecture": "Cortex-M7",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "process_nm": 40,
+        "base_clock_mhz": 600,
+        "sram_kb": 1024
+      }
+    },
+    {
+      "id": "nxp-lpc55s69",
+      "name": "LPC55S69",
+      "family": "LPC5500",
+      "released": "2019",
+      "specs": {
+        "microarchitecture": "Cortex-M33",
+        "isa": "ARMv8-M",
+        "data_width_bits": 32,
+        "process_nm": 40,
+        "cores": 2,
+        "base_clock_mhz": 150,
+        "flash_kb": 640,
+        "sram_kb": 320
+      }
+    },
+    {
+      "id": "nxp-imxrt1176",
+      "name": "i.MX RT1176",
+      "family": "i.MX RT1170",
+      "released": "2020",
+      "specs": {
+        "microarchitecture": "Cortex-M7",
+        "isa": "ARMv7E-M",
+        "data_width_bits": 32,
+        "process_nm": 28,
+        "cores": 2,
+        "core_config": "1x Cortex-M7 1 GHz + 1x Cortex-M4 400 MHz",
+        "base_clock_mhz": 1000,
+        "sram_kb": 2048
+      }
+    }
+  ]
+}

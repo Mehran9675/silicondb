@@ -1,0 +1,72 @@
+{
+  "manufacturer": "hitachi",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "hitachi-hd64180",
+      "name": "HD64180",
+      "family": "HD64180",
+      "released": "1985",
+      "specs": {
+        "isa": "Z80",
+        "data_width_bits": 8,
+        "cores": 1
+      }
+    },
+    {
+      "id": "hitachi-sh7032",
+      "name": "SH-1 SH7032",
+      "family": "SuperH",
+      "released": "1992",
+      "specs": {
+        "isa": "SH-1",
+        "data_width_bits": 32,
+        "base_clock_mhz": 20,
+        "cores": 1,
+        "sram_kb": 8
+      }
+    },
+    {
+      "id": "hitachi-sh7604",
+      "name": "SH-2 SH7604",
+      "family": "SuperH",
+      "released": "1994",
+      "specs": {
+        "isa": "SH-2",
+        "data_width_bits": 32,
+        "base_clock_mhz": 28.6,
+        "cores": 1,
+        "l1_cache_kb": 4
+      }
+    },
+    {
+      "id": "hitachi-sh7708",
+      "name": "SH-3 SH7708",
+      "family": "SuperH",
+      "released": "1995",
+      "specs": {
+        "isa": "SH-3",
+        "data_width_bits": 32,
+        "base_clock_mhz": 60,
+        "cores": 1,
+        "l1_cache_kb": 8
+      }
+    },
+    {
+      "id": "hitachi-sh7750",
+      "name": "SH-4 SH7750",
+      "family": "SuperH",
+      "released": "1998",
+      "specs": {
+        "isa": "SH-4",
+        "process_nm": 250,
+        "data_width_bits": 32,
+        "base_clock_mhz": 200,
+        "cores": 1,
+        "l1_cache_kb": 24,
+        "mips": 360,
+        "fp32_tflops": 0.0014
+      }
+    }
+  ]
+}

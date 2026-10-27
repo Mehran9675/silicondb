@@ -1,0 +1,24 @@
+{
+  "manufacturer": "texas-instruments",
+  "category": "gpu",
+  "chips": [
+    {
+      "id": "texas-instruments-tms34010",
+      "name": "TMS34010",
+      "family": "TIGA",
+      "released": "1986",
+      "specs": {
+        "data_width_bits": 32
+      }
+    },
+    {
+      "id": "texas-instruments-tms34020",
+      "name": "TMS34020",
+      "family": "TIGA",
+      "released": "1988",
+      "specs": {
+        "data_width_bits": 32
+      }
+    }
+  ]
+}

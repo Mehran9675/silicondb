@@ -1,0 +1,62 @@
+{
+  "manufacturer": "huawei",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "huawei-hi1612",
+      "name": "Hi1612",
+      "family": "Kunpeng",
+      "released": "2015",
+      "specs": {
+        "microarchitecture": "Cortex-A57",
+        "isa": "ARMv8-A",
+        "market": "Server",
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "cores": 32,
+        "threads": 32,
+        "base_clock_mhz": 2100
+      }
+    },
+    {
+      "id": "huawei-kunpeng-916",
+      "name": "Kunpeng 916",
+      "family": "Kunpeng",
+      "released": "2016",
+      "specs": {
+        "codename": "Hi1616",
+        "microarchitecture": "Cortex-A72",
+        "isa": "ARMv8-A",
+        "market": "Server",
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "cores": 32,
+        "threads": 32,
+        "base_clock_mhz": 2400,
+        "memory_type": "DDR4",
+        "memory_channels": 4
+      }
+    },
+    {
+      "id": "huawei-kunpeng-920",
+      "name": "Kunpeng 920",
+      "family": "Kunpeng",
+      "released": "2019-01",
+      "specs": {
+        "codename": "Hi1620",
+        "microarchitecture": "TaiShan V110",
+        "isa": "ARMv8.2-A",
+        "market": "Server",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "cores": 64,
+        "threads": 64,
+        "base_clock_mhz": 2600,
+        "l2_cache_kb": 32768,
+        "memory_type": "DDR4-2933",
+        "memory_channels": 8,
+        "pcie_lanes": 40
+      }
+    }
+  ]
+}

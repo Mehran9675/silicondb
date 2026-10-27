@@ -1,0 +1,17 @@
+{
+  "manufacturer": "fairchild",
+  "category": "mcu",
+  "chips": [
+    {
+      "id": "fairchild-3870",
+      "name": "3870",
+      "family": "F8",
+      "released": "1977",
+      "specs": {
+        "isa": "F8",
+        "data_width_bits": 8,
+        "sram_kb": 0.0625
+      }
+    }
+  ]
+}

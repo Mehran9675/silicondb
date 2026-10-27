@@ -1,0 +1,31 @@
+{
+  "manufacturer": "rca",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "rca-cdp1801",
+      "name": "CDP1801",
+      "family": "COSMAC",
+      "released": "1975",
+      "specs": {
+        "isa": "COSMAC",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "core_config": "Two-chip"
+      }
+    },
+    {
+      "id": "rca-cdp1802",
+      "name": "CDP1802",
+      "family": "COSMAC",
+      "released": "1976",
+      "specs": {
+        "isa": "COSMAC",
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "cores": 1,
+        "package": "40-pin DIP"
+      }
+    }
+  ]
+}

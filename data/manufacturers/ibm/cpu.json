@@ -1,0 +1,542 @@
+{
+  "manufacturer": "ibm",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "ibm-romp",
+      "name": "ROMP",
+      "family": "ROMP",
+      "released": "1986-01",
+      "specs": {
+        "isa": "ROMP",
+        "data_width_bits": 32,
+        "base_clock_mhz": 5.88,
+        "cores": 1
+      }
+    },
+    {
+      "id": "ibm-power1",
+      "name": "POWER1",
+      "family": "POWER",
+      "released": "1990-02",
+      "specs": {
+        "codename": "RIOS-1",
+        "isa": "POWER",
+        "data_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "ibm-power2",
+      "name": "POWER2",
+      "family": "POWER",
+      "released": "1993",
+      "specs": {
+        "isa": "POWER2",
+        "data_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "ibm-p2sc",
+      "name": "P2SC",
+      "family": "POWER",
+      "released": "1996",
+      "specs": {
+        "isa": "POWER2",
+        "transistors": 15000000,
+        "die_size_mm2": 335,
+        "data_width_bits": 32,
+        "cores": 1
+      }
+    },
+    {
+      "id": "ibm-ppc750",
+      "name": "PowerPC 750",
+      "family": "PowerPC G3",
+      "released": "1997-11",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 260,
+        "transistors": 6350000,
+        "die_size_mm2": 67,
+        "data_width_bits": 32,
+        "base_clock_mhz": 266,
+        "cores": 1,
+        "l1_cache_kb": 64
+      }
+    },
+    {
+      "id": "ibm-power3",
+      "name": "POWER3",
+      "family": "POWER",
+      "released": "1998",
+      "specs": {
+        "isa": "PowerPC",
+        "transistors": 15000000,
+        "data_width_bits": 64,
+        "base_clock_mhz": 200,
+        "cores": 1,
+        "l1_cache_kb": 96
+      }
+    },
+    {
+      "id": "ibm-ppc750cx",
+      "name": "PowerPC 750CX",
+      "family": "PowerPC G3",
+      "released": "2000",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 180,
+        "transistors": 20000000,
+        "die_size_mm2": 43,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 256
+      }
+    },
+    {
+      "id": "ibm-gekko",
+      "name": "Gekko",
+      "family": "PowerPC G3",
+      "released": "2001-09",
+      "specs": {
+        "isa": "PowerPC",
+        "microarchitecture": "PowerPC 750",
+        "market": "Console (Nintendo GameCube)",
+        "process_nm": 180,
+        "data_width_bits": 32,
+        "base_clock_mhz": 485,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 256
+      }
+    },
+    {
+      "id": "ibm-power4",
+      "name": "POWER4",
+      "family": "POWER",
+      "released": "2001-10",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 180,
+        "transistors": 174000000,
+        "die_size_mm2": 412,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1300,
+        "cores": 2,
+        "l2_cache_kb": 1440
+      }
+    },
+    {
+      "id": "ibm-ppc970",
+      "name": "PowerPC 970",
+      "family": "PowerPC G5",
+      "released": "2003-06",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 130,
+        "transistors": 58000000,
+        "die_size_mm2": 118,
+        "data_width_bits": 64,
+        "base_clock_mhz": 2000,
+        "cores": 1,
+        "l1_cache_kb": 96,
+        "l2_cache_kb": 512,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "ibm-ppc970fx",
+      "name": "PowerPC 970FX",
+      "family": "PowerPC G5",
+      "released": "2004",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 90,
+        "transistors": 58000000,
+        "die_size_mm2": 66,
+        "data_width_bits": 64,
+        "cores": 1,
+        "l1_cache_kb": 96,
+        "l2_cache_kb": 512,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "ibm-power5",
+      "name": "POWER5",
+      "family": "POWER",
+      "released": "2004-05",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 130,
+        "transistors": 276000000,
+        "die_size_mm2": 389,
+        "data_width_bits": 64,
+        "base_clock_mhz": 1900,
+        "cores": 2,
+        "threads": 4,
+        "l2_cache_kb": 1920
+      }
+    },
+    {
+      "id": "ibm-ppc970mp",
+      "name": "PowerPC 970MP",
+      "family": "PowerPC G5",
+      "released": "2005-07",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 90,
+        "transistors": 183000000,
+        "die_size_mm2": 154,
+        "data_width_bits": 64,
+        "base_clock_mhz": 2500,
+        "cores": 2,
+        "l2_cache_kb": 2048,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "ibm-xenon",
+      "name": "Xenon",
+      "family": "Xenon",
+      "released": "2005-11",
+      "specs": {
+        "isa": "PowerPC",
+        "market": "Console (Xbox 360)",
+        "process_nm": 90,
+        "transistors": 165000000,
+        "die_size_mm2": 168,
+        "data_width_bits": 64,
+        "base_clock_mhz": 3200,
+        "cores": 3,
+        "threads": 6,
+        "l2_cache_kb": 1024,
+        "instruction_sets": [
+          "VMX128"
+        ]
+      }
+    },
+    {
+      "id": "ibm-cell-be",
+      "name": "Cell Broadband Engine",
+      "family": "Cell",
+      "released": "2006-11",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 90,
+        "die_size_mm2": 221,
+        "data_width_bits": 64,
+        "base_clock_mhz": 3200,
+        "cores": 9,
+        "threads": 10,
+        "core_config": "1 PPE + 8 SPE",
+        "l2_cache_kb": 512
+      }
+    },
+    {
+      "id": "ibm-broadway",
+      "name": "Broadway",
+      "family": "PowerPC G3",
+      "released": "2006-11",
+      "specs": {
+        "isa": "PowerPC",
+        "microarchitecture": "PowerPC 750",
+        "market": "Console (Nintendo Wii)",
+        "process_nm": 90,
+        "data_width_bits": 32,
+        "base_clock_mhz": 729,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 256
+      }
+    },
+    {
+      "id": "ibm-power6",
+      "name": "POWER6",
+      "family": "POWER",
+      "released": "2007-05",
+      "specs": {
+        "isa": "Power ISA v2.05",
+        "process_nm": 65,
+        "transistors": 790000000,
+        "die_size_mm2": 341,
+        "data_width_bits": 64,
+        "base_clock_mhz": 4700,
+        "cores": 2,
+        "threads": 4,
+        "l2_cache_kb": 8192
+      }
+    },
+    {
+      "id": "ibm-powerxcell-8i",
+      "name": "PowerXCell 8i",
+      "family": "Cell",
+      "released": "2008",
+      "specs": {
+        "isa": "PowerPC",
+        "process_nm": 65,
+        "data_width_bits": 64,
+        "base_clock_mhz": 3200,
+        "cores": 9,
+        "core_config": "1 PPE + 8 SPE",
+        "l2_cache_kb": 512,
+        "fp64_tflops": 0.1024
+      }
+    },
+    {
+      "id": "ibm-z10",
+      "name": "z10",
+      "family": "IBM Z",
+      "released": "2008-02",
+      "specs": {
+        "isa": "z/Architecture",
+        "process_nm": 65,
+        "transistors": 993000000,
+        "die_size_mm2": 454,
+        "data_width_bits": 64,
+        "base_clock_mhz": 4400,
+        "cores": 4
+      }
+    },
+    {
+      "id": "ibm-power7",
+      "name": "POWER7",
+      "family": "POWER",
+      "released": "2010-02",
+      "specs": {
+        "isa": "Power ISA v2.06",
+        "process_nm": 45,
+        "transistors": 1200000000,
+        "die_size_mm2": 567,
+        "data_width_bits": 64,
+        "cores": 8,
+        "threads": 32,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 32768
+      }
+    },
+    {
+      "id": "ibm-z196",
+      "name": "z196",
+      "family": "IBM Z",
+      "released": "2010-07",
+      "specs": {
+        "isa": "z/Architecture",
+        "process_nm": 45,
+        "transistors": 1400000000,
+        "die_size_mm2": 512,
+        "data_width_bits": 64,
+        "base_clock_mhz": 5200,
+        "cores": 4,
+        "l3_cache_kb": 24576
+      }
+    },
+    {
+      "id": "ibm-zec12",
+      "name": "zEC12",
+      "family": "IBM Z",
+      "released": "2012-08",
+      "specs": {
+        "isa": "z/Architecture",
+        "process_nm": 32,
+        "transistors": 2750000000,
+        "die_size_mm2": 597,
+        "data_width_bits": 64,
+        "base_clock_mhz": 5500,
+        "cores": 6,
+        "l3_cache_kb": 49152
+      }
+    },
+    {
+      "id": "ibm-power7-plus",
+      "name": "POWER7+",
+      "family": "POWER",
+      "released": "2012-10",
+      "specs": {
+        "isa": "Power ISA v2.06",
+        "process_nm": 32,
+        "transistors": 2100000000,
+        "die_size_mm2": 567,
+        "data_width_bits": 64,
+        "cores": 8,
+        "threads": 32,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 81920
+      }
+    },
+    {
+      "id": "ibm-espresso",
+      "name": "Espresso",
+      "family": "PowerPC G3",
+      "released": "2012-11",
+      "specs": {
+        "isa": "PowerPC",
+        "microarchitecture": "PowerPC 750",
+        "market": "Console (Nintendo Wii U)",
+        "process_nm": 45,
+        "data_width_bits": 32,
+        "base_clock_mhz": 1243,
+        "cores": 3,
+        "l2_cache_kb": 3072
+      }
+    },
+    {
+      "id": "ibm-power8",
+      "name": "POWER8",
+      "family": "POWER",
+      "released": "2014-06",
+      "specs": {
+        "isa": "Power ISA v2.07",
+        "process_nm": 22,
+        "transistors": 4200000000,
+        "die_size_mm2": 649,
+        "data_width_bits": 64,
+        "cores": 12,
+        "threads": 96,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 98304
+      }
+    },
+    {
+      "id": "ibm-z13",
+      "name": "z13",
+      "family": "IBM Z",
+      "released": "2015-01",
+      "specs": {
+        "isa": "z/Architecture",
+        "process_nm": 22,
+        "transistors": 3990000000,
+        "die_size_mm2": 678,
+        "data_width_bits": 64,
+        "base_clock_mhz": 5000,
+        "cores": 8,
+        "l3_cache_kb": 65536
+      }
+    },
+    {
+      "id": "ibm-z14",
+      "name": "z14",
+      "family": "IBM Z",
+      "released": "2017-07",
+      "specs": {
+        "isa": "z/Architecture",
+        "process_nm": 14,
+        "transistors": 6100000000,
+        "die_size_mm2": 696,
+        "data_width_bits": 64,
+        "base_clock_mhz": 5200,
+        "cores": 10,
+        "l3_cache_kb": 131072
+      }
+    },
+    {
+      "id": "ibm-power9",
+      "name": "POWER9",
+      "family": "POWER",
+      "released": "2017-12",
+      "specs": {
+        "isa": "Power ISA v3.0",
+        "foundry": "GlobalFoundries",
+        "process_nm": 14,
+        "transistors": 8000000000,
+        "die_size_mm2": 695,
+        "data_width_bits": 64,
+        "cores": 24,
+        "threads": 96,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 122880
+      }
+    },
+    {
+      "id": "ibm-z15",
+      "name": "z15",
+      "family": "IBM Z",
+      "released": "2019-09",
+      "specs": {
+        "isa": "z/Architecture",
+        "process_nm": 14,
+        "transistors": 9200000000,
+        "die_size_mm2": 696,
+        "data_width_bits": 64,
+        "base_clock_mhz": 5200,
+        "cores": 12,
+        "l3_cache_kb": 262144
+      }
+    },
+    {
+      "id": "ibm-power10",
+      "name": "POWER10",
+      "family": "POWER",
+      "released": "2021-09",
+      "specs": {
+        "isa": "Power ISA v3.1",
+        "foundry": "Samsung",
+        "process_nm": 7,
+        "transistors": 18000000000,
+        "die_size_mm2": 602,
+        "data_width_bits": 64,
+        "cores": 15,
+        "threads": 120,
+        "l2_cache_kb": 30720,
+        "l3_cache_kb": 122880
+      }
+    },
+    {
+      "id": "ibm-telum",
+      "name": "Telum",
+      "family": "IBM Z",
+      "released": "2022-04",
+      "specs": {
+        "isa": "z/Architecture",
+        "market": "Mainframe (z16)",
+        "foundry": "Samsung",
+        "process_nm": 7,
+        "transistors": 22500000000,
+        "die_size_mm2": 530,
+        "data_width_bits": 64,
+        "base_clock_mhz": 5200,
+        "cores": 8,
+        "l2_cache_kb": 262144
+      }
+    },
+    {
+      "id": "ibm-telum-ii",
+      "name": "Telum II",
+      "family": "IBM Z",
+      "released": "2025-06",
+      "specs": {
+        "isa": "z/Architecture",
+        "market": "Mainframe (z17)",
+        "foundry": "Samsung",
+        "process_nm": 5,
+        "transistors": 43000000000,
+        "die_size_mm2": 600,
+        "data_width_bits": 64,
+        "base_clock_mhz": 5500,
+        "cores": 8,
+        "l2_cache_kb": 368640
+      }
+    },
+    {
+      "id": "ibm-power11",
+      "name": "Power11",
+      "family": "POWER",
+      "released": "2025-07",
+      "specs": {
+        "isa": "Power ISA v3.1",
+        "foundry": "Samsung",
+        "process_nm": 7,
+        "data_width_bits": 64
+      }
+    }
+  ]
+}

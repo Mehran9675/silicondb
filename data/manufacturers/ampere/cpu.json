@@ -1,0 +1,119 @@
+{
+  "manufacturer": "ampere",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "ampere-emag-8180",
+      "name": "eMAG 8180",
+      "family": "eMAG",
+      "released": "2018-09",
+      "specs": {
+        "codename": "Skylark",
+        "microarchitecture": "X-Gene 3",
+        "isa": "ARMv8-A",
+        "market": "Datacenter",
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "cores": 32,
+        "threads": 32,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 3300,
+        "l3_cache_kb": 32768,
+        "memory_type": "DDR4-2667",
+        "memory_channels": 8,
+        "pcie_lanes": 42,
+        "tdp_w": 125
+      }
+    },
+    {
+      "id": "ampere-altra-q80-30",
+      "name": "Altra Q80-30",
+      "family": "Altra",
+      "released": "2020-06",
+      "specs": {
+        "codename": "Quicksilver",
+        "microarchitecture": "Neoverse N1",
+        "isa": "ARMv8.2-A",
+        "market": "Datacenter",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "cores": 80,
+        "threads": 80,
+        "base_clock_mhz": 3000,
+        "l2_cache_kb": 81920,
+        "slc_kb": 32768,
+        "memory_type": "DDR4-3200",
+        "memory_channels": 8,
+        "pcie_lanes": 128,
+        "tdp_w": 250
+      }
+    },
+    {
+      "id": "ampere-altra-q80-33",
+      "name": "Altra Q80-33",
+      "family": "Altra",
+      "released": "2020-06",
+      "specs": {
+        "codename": "Quicksilver",
+        "microarchitecture": "Neoverse N1",
+        "isa": "ARMv8.2-A",
+        "market": "Datacenter",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "cores": 80,
+        "threads": 80,
+        "base_clock_mhz": 3300,
+        "l2_cache_kb": 81920,
+        "slc_kb": 32768,
+        "memory_type": "DDR4-3200",
+        "memory_channels": 8,
+        "pcie_lanes": 128,
+        "tdp_w": 250
+      }
+    },
+    {
+      "id": "ampere-altra-max-m128-30",
+      "name": "Altra Max M128-30",
+      "family": "Altra Max",
+      "released": "2021-09",
+      "specs": {
+        "codename": "Mystique",
+        "microarchitecture": "Neoverse N1",
+        "isa": "ARMv8.2-A",
+        "market": "Datacenter",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "cores": 128,
+        "threads": 128,
+        "base_clock_mhz": 3000,
+        "l2_cache_kb": 131072,
+        "slc_kb": 16384,
+        "memory_type": "DDR4-3200",
+        "memory_channels": 8,
+        "pcie_lanes": 128,
+        "tdp_w": 250
+      }
+    },
+    {
+      "id": "ampere-ampereone-a192-32x",
+      "name": "AmpereOne A192-32X",
+      "family": "AmpereOne",
+      "released": "2023-05",
+      "specs": {
+        "codename": "Siryn",
+        "isa": "ARMv8.6-A",
+        "market": "Datacenter",
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "cores": 192,
+        "threads": 192,
+        "base_clock_mhz": 3200,
+        "l2_cache_kb": 393216,
+        "slc_kb": 65536,
+        "memory_type": "DDR5-4800",
+        "memory_channels": 8,
+        "pcie_lanes": 128
+      }
+    }
+  ]
+}

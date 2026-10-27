@@ -1,0 +1,165 @@
+{
+  "manufacturer": "loongson",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "loongson-godson-1",
+      "name": "Godson-1",
+      "family": "Godson",
+      "released": "2002-08",
+      "specs": {
+        "isa": "MIPS-compatible",
+        "data_width_bits": 32,
+        "process_nm": 180,
+        "cores": 1,
+        "base_clock_mhz": 266
+      }
+    },
+    {
+      "id": "loongson-godson-2e",
+      "name": "Godson-2E",
+      "family": "Godson-2",
+      "released": "2006",
+      "specs": {
+        "isa": "MIPS III",
+        "data_width_bits": 64,
+        "process_nm": 90,
+        "foundry": "STMicroelectronics",
+        "transistors": 47000000,
+        "cores": 1,
+        "base_clock_mhz": 1000
+      }
+    },
+    {
+      "id": "loongson-godson-2f",
+      "name": "Godson-2F",
+      "family": "Godson-2",
+      "released": "2007",
+      "specs": {
+        "isa": "MIPS III",
+        "data_width_bits": 64,
+        "process_nm": 90,
+        "foundry": "STMicroelectronics",
+        "cores": 1
+      }
+    },
+    {
+      "id": "loongson-godson-3a",
+      "name": "Godson-3A (3A1000)",
+      "family": "Loongson 3",
+      "released": "2009",
+      "specs": {
+        "microarchitecture": "GS464",
+        "isa": "MIPS64",
+        "data_width_bits": 64,
+        "process_nm": 65,
+        "foundry": "STMicroelectronics",
+        "transistors": 425000000,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 1000,
+        "tdp_w": 15
+      }
+    },
+    {
+      "id": "loongson-3a3000",
+      "name": "3A3000",
+      "family": "Loongson 3",
+      "released": "2017",
+      "specs": {
+        "microarchitecture": "GS464E",
+        "isa": "MIPS64",
+        "data_width_bits": 64,
+        "process_nm": 28,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 1500,
+        "l3_cache_kb": 8192
+      }
+    },
+    {
+      "id": "loongson-3a4000",
+      "name": "3A4000",
+      "family": "Loongson 3",
+      "released": "2019-12",
+      "specs": {
+        "microarchitecture": "GS464V",
+        "isa": "MIPS64",
+        "data_width_bits": 64,
+        "process_nm": 28,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 1800,
+        "boost_clock_mhz": 2000,
+        "l3_cache_kb": 8192
+      }
+    },
+    {
+      "id": "loongson-3a5000",
+      "name": "3A5000",
+      "family": "Loongson 3",
+      "released": "2021-07",
+      "specs": {
+        "microarchitecture": "LA464",
+        "isa": "LoongArch",
+        "data_width_bits": 64,
+        "process_nm": 12,
+        "cores": 4,
+        "threads": 4,
+        "base_clock_mhz": 2300,
+        "boost_clock_mhz": 2500,
+        "l3_cache_kb": 16384,
+        "memory_type": "DDR4-3200",
+        "memory_channels": 2,
+        "tdp_w": 35
+      }
+    },
+    {
+      "id": "loongson-3c5000",
+      "name": "3C5000",
+      "family": "Loongson 3",
+      "released": "2022-06",
+      "specs": {
+        "microarchitecture": "LA464",
+        "isa": "LoongArch",
+        "data_width_bits": 64,
+        "process_nm": 12,
+        "market": "Server",
+        "cores": 16,
+        "threads": 16
+      }
+    },
+    {
+      "id": "loongson-3a6000",
+      "name": "3A6000",
+      "family": "Loongson 3",
+      "released": "2023-11",
+      "specs": {
+        "microarchitecture": "LA664",
+        "isa": "LoongArch",
+        "data_width_bits": 64,
+        "process_nm": 12,
+        "cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 2500,
+        "l3_cache_kb": 16384,
+        "memory_type": "DDR4-3200",
+        "memory_channels": 2
+      }
+    },
+    {
+      "id": "loongson-3c6000",
+      "name": "3C6000",
+      "family": "Loongson 3",
+      "released": "2025-06",
+      "specs": {
+        "microarchitecture": "LA664",
+        "isa": "LoongArch",
+        "data_width_bits": 64,
+        "market": "Server",
+        "cores": 16,
+        "threads": 32
+      }
+    }
+  ]
+}

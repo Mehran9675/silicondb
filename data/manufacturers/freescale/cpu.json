@@ -1,0 +1,158 @@
+{
+  "manufacturer": "freescale",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "freescale-mpc7400",
+      "name": "PowerPC 7400",
+      "family": "PowerPC G4",
+      "released": "1999-08",
+      "specs": {
+        "microarchitecture": "G4",
+        "isa": "PowerPC",
+        "process_nm": 200,
+        "transistors": 10500000,
+        "die_size_mm2": 83,
+        "data_width_bits": 32,
+        "base_clock_mhz": 350,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "freescale-mpc7410",
+      "name": "PowerPC 7410",
+      "family": "PowerPC G4",
+      "released": "2000",
+      "specs": {
+        "microarchitecture": "G4",
+        "isa": "PowerPC",
+        "process_nm": 180,
+        "transistors": 10500000,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "freescale-mpc7450",
+      "name": "PowerPC 7450",
+      "family": "PowerPC G4",
+      "released": "2001-01",
+      "specs": {
+        "microarchitecture": "G4e",
+        "isa": "PowerPC",
+        "process_nm": 180,
+        "transistors": 33000000,
+        "die_size_mm2": 106,
+        "data_width_bits": 32,
+        "base_clock_mhz": 733,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 256,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "freescale-mpc7455",
+      "name": "PowerPC 7455",
+      "family": "PowerPC G4",
+      "released": "2002-01",
+      "specs": {
+        "microarchitecture": "G4e",
+        "isa": "PowerPC",
+        "process_nm": 180,
+        "data_width_bits": 32,
+        "base_clock_mhz": 1000,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 256,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "freescale-mpc7457",
+      "name": "PowerPC 7457",
+      "family": "PowerPC G4",
+      "released": "2003",
+      "specs": {
+        "microarchitecture": "G4e",
+        "isa": "PowerPC",
+        "process_nm": 130,
+        "transistors": 58000000,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 512,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "freescale-mpc7447a",
+      "name": "PowerPC 7447A",
+      "family": "PowerPC G4",
+      "released": "2004",
+      "specs": {
+        "microarchitecture": "G4e",
+        "isa": "PowerPC",
+        "process_nm": 130,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 512,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "freescale-mpc7448",
+      "name": "PowerPC 7448",
+      "family": "PowerPC G4",
+      "released": "2005",
+      "specs": {
+        "microarchitecture": "e600",
+        "isa": "PowerPC",
+        "process_nm": 90,
+        "data_width_bits": 32,
+        "cores": 1,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 1024,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    },
+    {
+      "id": "freescale-mpc8641d",
+      "name": "MPC8641D",
+      "family": "e600",
+      "released": "2006",
+      "specs": {
+        "microarchitecture": "e600",
+        "isa": "PowerPC",
+        "process_nm": 90,
+        "data_width_bits": 32,
+        "base_clock_mhz": 1500,
+        "cores": 2,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 2048,
+        "instruction_sets": [
+          "AltiVec"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "manufacturer": "xilinx",
+  "category": "fpga",
+  "chips": [
+    {
+      "id": "xilinx-xc2064",
+      "name": "XC2064",
+      "family": "XC2000",
+      "released": "1985-11",
+      "specs": {
+        "logic_elements": 64,
+        "core_config": "64 CLBs",
+        "io_pins": 58
+      }
+    },
+    {
+      "id": "xilinx-xc3090",
+      "name": "XC3090",
+      "family": "XC3000",
+      "released": "1987",
+      "specs": {
+        "logic_elements": 320,
+        "core_config": "320 CLBs",
+        "io_pins": 144
+      }
+    },
+    {
+      "id": "xilinx-xc4010",
+      "name": "XC4010",
+      "family": "XC4000",
+      "released": "1991",
+      "specs": {
+        "logic_elements": 950,
+        "core_config": "400 CLBs",
+        "io_pins": 160
+      }
+    },
+    {
+      "id": "xilinx-xcs40",
+      "name": "XCS40",
+      "family": "Spartan",
+      "released": "1998-01",
+      "specs": {
+        "logic_elements": 1862,
+        "core_config": "784 CLBs",
+        "io_pins": 205
+      }
+    },
+    {
+      "id": "xilinx-xcv1000",
+      "name": "XCV1000",
+      "family": "Virtex",
+      "released": "1998-10",
+      "specs": {
+        "process_nm": 220,
+        "logic_elements": 27648,
+        "block_ram_kb": 16,
+        "io_pins": 512,
+        "voltage_v": 2.5
+      }
+    },
+    {
+      "id": "xilinx-xcv3200e",
+      "name": "XCV3200E",
+      "family": "Virtex-E",
+      "released": "2000",
+      "specs": {
+        "process_nm": 180,
+        "logic_elements": 73008,
+        "block_ram_kb": 104,
+        "io_pins": 804,
+        "voltage_v": 1.8
+      }
+    },
+    {
+      "id": "xilinx-xc2s200",
+      "name": "XC2S200",
+      "family": "Spartan-II",
+      "released": "2000-01",
+      "specs": {
+        "process_nm": 180,
+        "logic_elements": 5292,
+        "block_ram_kb": 7,
+        "io_pins": 284,
+        "voltage_v": 2.5
+      }
+    },
+    {
+      "id": "xilinx-xc2v8000",
+      "name": "XC2V8000",
+      "family": "Virtex-II",
+      "released": "2001",
+      "specs": {
+        "process_nm": 150,
+        "logic_elements": 104832,
+        "block_ram_kb": 378,
+        "io_pins": 1108
+      }
+    },
+    {
+      "id": "xilinx-xc2vp100",
+      "name": "XC2VP100",
+      "family": "Virtex-II Pro",
+      "released": "2002",
+      "specs": {
+        "process_nm": 130,
+        "logic_elements": 99216,
+        "block_ram_kb": 999,
+        "io_pins": 1164,
+        "transceivers": 20,
+        "cores": 2,
+        "core_config": "2x PowerPC 405",
+        "isa": "PowerPC"
+      }
+    },
+    {
+      "id": "xilinx-xc3s5000",
+      "name": "XC3S5000",
+      "family": "Spartan-3",
+      "released": "2003",
+      "specs": {
+        "process_nm": 90,
+        "logic_elements": 74880,
+        "block_ram_kb": 234,
+        "io_pins": 784
+      }
+    },
+    {
+      "id": "xilinx-xc4vlx200",
+      "name": "XC4VLX200",
+      "family": "Virtex-4",
+      "released": "2004",
+      "specs": {
+        "process_nm": 90,
+        "logic_elements": 200448,
+        "dsp_slices": 96,
+        "block_ram_kb": 756,
+        "io_pins": 960
+      }
+    },
+    {
+      "id": "xilinx-xc4vfx140",
+      "name": "XC4VFX140",
+      "family": "Virtex-4",
+      "released": "2005",
+      "specs": {
+        "process_nm": 90,
+        "logic_elements": 142128,
+        "dsp_slices": 192,
+        "block_ram_kb": 1242,
+        "io_pins": 896,
+        "transceivers": 24,
+        "cores": 2,
+        "core_config": "2x PowerPC 405",
+        "isa": "PowerPC"
+      }
+    },
+    {
+      "id": "xilinx-xc5vlx330t",
+      "name": "XC5VLX330T",
+      "family": "Virtex-5",
+      "released": "2007",
+      "specs": {
+        "process_nm": 65,
+        "logic_elements": 331776,
+        "dsp_slices": 192,
+        "block_ram_kb": 1458,
+        "io_pins": 960,
+        "transceivers": 24
+      }
+    },
+    {
+      "id": "xilinx-xc6slx150t",
+      "name": "XC6SLX150T",
+      "family": "Spartan-6",
+      "released": "2009",
+      "specs": {
+        "process_nm": 45,
+        "logic_elements": 147443,
+        "dsp_slices": 180,
+        "block_ram_kb": 603,
+        "io_pins": 540,
+        "transceivers": 8
+      }
+    },
+    {
+      "id": "xilinx-xc6vlx760",
+      "name": "XC6VLX760",
+      "family": "Virtex-6",
+      "released": "2009",
+      "specs": {
+        "process_nm": 40,
+        "logic_elements": 758784,
+        "dsp_slices": 864,
+        "block_ram_kb": 3240,
+        "io_pins": 1200
+      }
+    },
+    {
+      "id": "xilinx-xc7k325t",
+      "name": "XC7K325T",
+      "family": "Kintex-7",
+      "released": "2011",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "logic_elements": 326080,
+        "dsp_slices": 840,
+        "block_ram_kb": 2002.5,
+        "io_pins": 500,
+        "transceivers": 16
+      }
+    },
+    {
+      "id": "xilinx-xc7v2000t",
+      "name": "XC7V2000T",
+      "family": "Virtex-7",
+      "released": "2011-10",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "transistors": 6800000000,
+        "logic_elements": 1954560,
+        "dsp_slices": 2160,
+        "block_ram_kb": 5814,
+        "io_pins": 1200,
+        "transceivers": 36
+      }
+    },
+    {
+      "id": "xilinx-xc7z020",
+      "name": "XC7Z020",
+      "family": "Zynq-7000",
+      "released": "2011-12",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "isa": "ARMv7-A",
+        "cores": 2,
+        "core_config": "2x Cortex-A9",
+        "boost_clock_mhz": 866,
+        "logic_elements": 85000,
+        "dsp_slices": 220,
+        "block_ram_kb": 630
+      }
+    },
+    {
+      "id": "xilinx-xc7a200t",
+      "name": "XC7A200T",
+      "family": "Artix-7",
+      "released": "2012",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "logic_elements": 215360,
+        "dsp_slices": 740,
+        "block_ram_kb": 1642.5,
+        "io_pins": 500,
+        "transceivers": 16
+      }
+    },
+    {
+      "id": "xilinx-xcku115",
+      "name": "XCKU115",
+      "family": "Kintex UltraScale",
+      "released": "2014",
+      "specs": {
+        "process_nm": 20,
+        "foundry": "TSMC",
+        "logic_elements": 1451100,
+        "dsp_slices": 5520,
+        "block_ram_kb": 9720,
+        "io_pins": 832,
+        "transceivers": 64
+      }
+    },
+    {
+      "id": "xilinx-xcvu440",
+      "name": "XCVU440",
+      "family": "Virtex UltraScale",
+      "released": "2015",
+      "specs": {
+        "process_nm": 20,
+        "foundry": "TSMC",
+        "logic_elements": 5540850,
+        "dsp_slices": 2880,
+        "block_ram_kb": 11340,
+        "io_pins": 1456,
+        "transceivers": 48
+      }
+    },
+    {
+      "id": "xilinx-xcvu9p",
+      "name": "XCVU9P",
+      "family": "Virtex UltraScale+",
+      "released": "2016",
+      "specs": {
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "logic_elements": 2586150,
+        "dsp_slices": 6840,
+        "block_ram_kb": 9720,
+        "io_pins": 832,
+        "transceivers": 120
+      }
+    },
+    {
+      "id": "xilinx-xczu9eg",
+      "name": "XCZU9EG",
+      "family": "Zynq UltraScale+ MPSoC",
+      "released": "2016",
+      "specs": {
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "isa": "ARMv8-A",
+        "cores": 4,
+        "core_config": "4x Cortex-A53 + 2x Cortex-R5F",
+        "boost_clock_mhz": 1500,
+        "gpu": "Mali-400 MP2",
+        "logic_elements": 599550,
+        "dsp_slices": 2520,
+        "block_ram_kb": 4104
+      }
+    },
+    {
+      "id": "xilinx-xc7s100",
+      "name": "XC7S100",
+      "family": "Spartan-7",
+      "released": "2017",
+      "specs": {
+        "process_nm": 28,
+        "foundry": "TSMC",
+        "logic_elements": 102400,
+        "dsp_slices": 160,
+        "block_ram_kb": 540,
+        "io_pins": 400
+      }
+    },
+    {
+      "id": "xilinx-xcvc1902",
+      "name": "XCVC1902",
+      "family": "Versal AI Core",
+      "released": "2019-06",
+      "specs": {
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "transistors": 37000000000,
+        "isa": "ARMv8-A",
+        "cores": 2,
+        "core_config": "2x Cortex-A72 + 2x Cortex-R5F + 400 AI Engines",
+        "logic_elements": 1968400,
+        "dsp_slices": 1968,
+        "int8_tops": 133
+      }
+    },
+    {
+      "id": "xilinx-xcvu19p",
+      "name": "XCVU19P",
+      "family": "Virtex UltraScale+",
+      "released": "2019-08",
+      "specs": {
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "transistors": 35000000000,
+        "logic_elements": 8938000,
+        "dsp_slices": 3840,
+        "io_pins": 2072,
+        "transceivers": 80
+      }
+    }
+  ]
+}

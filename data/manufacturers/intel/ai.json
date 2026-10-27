@@ -1,0 +1,92 @@
+{
+  "manufacturer": "intel",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "intel-gaudi",
+      "name": "Gaudi (HL-205)",
+      "family": "Gaudi",
+      "released": "2019-06",
+      "specs": {
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "memory_type": "HBM2",
+        "memory_size_mb": 32768,
+        "memory_bandwidth_gbs": 1000,
+        "connectivity": [
+          "10x 100GbE RoCE v2"
+        ],
+        "interface": "OAM"
+      }
+    },
+    {
+      "id": "intel-nervana-nnp-t-1000",
+      "name": "Nervana NNP-T 1000",
+      "family": "Nervana NNP",
+      "released": "2019-11-12",
+      "specs": {
+        "codename": "Spring Crest",
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "transistors": 27000000000,
+        "tensor_cores": 24,
+        "memory_type": "HBM2",
+        "memory_size_mb": 32768,
+        "market": "Training"
+      }
+    },
+    {
+      "id": "intel-nervana-nnp-i-1000",
+      "name": "Nervana NNP-I 1000",
+      "family": "Nervana NNP",
+      "released": "2019-11-12",
+      "specs": {
+        "codename": "Spring Hill",
+        "process_nm": 10,
+        "foundry": "Intel",
+        "cores": 2,
+        "market": "Inference"
+      }
+    },
+    {
+      "id": "intel-gaudi-2",
+      "name": "Gaudi 2",
+      "family": "Gaudi",
+      "released": "2022-05-10",
+      "specs": {
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "memory_type": "HBM2e",
+        "memory_size_mb": 98304,
+        "memory_bandwidth_gbs": 2450,
+        "sram_kb": 49152,
+        "tdp_w": 600,
+        "connectivity": [
+          "24x 100GbE RoCE v2"
+        ],
+        "interface": "OAM"
+      }
+    },
+    {
+      "id": "intel-gaudi-3",
+      "name": "Gaudi 3",
+      "family": "Gaudi",
+      "released": "2024-04-09",
+      "specs": {
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "memory_type": "HBM2e",
+        "memory_size_mb": 131072,
+        "memory_bandwidth_gbs": 3700,
+        "sram_kb": 98304,
+        "bf16_tflops": 1835,
+        "fp8_tflops": 1835,
+        "tdp_w": 900,
+        "connectivity": [
+          "24x 200GbE RoCE v2"
+        ],
+        "interface": "OAM"
+      }
+    }
+  ]
+}
