@@ -8,12 +8,27 @@
       "family": "PIC16",
       "released": "1993",
       "specs": {
+        "microarchitecture": "PIC mid-range (14-bit core)",
         "isa": "PIC 14-bit",
+        "market": "Embedded",
+        "package": "18-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 10,
         "sram_kb": 0.0352,
-        "package": "18-pin DIP"
-      }
+        "eeprom_kb": 0.0625,
+        "mips": 2.5,
+        "voltage_v": 5,
+        "gpio_pins": 13,
+        "timers": "1× 8-bit (TMR0), watchdog"
+      },
+      "na": [
+        "process_nm",
+        "flash_kb",
+        "adc",
+        "dac",
+        "interfaces"
+      ]
     },
     {
       "id": "microchip-pic16f84",
@@ -21,13 +36,27 @@
       "family": "PIC16",
       "released": "1998",
       "specs": {
+        "microarchitecture": "PIC mid-range (14-bit core)",
         "isa": "PIC 14-bit",
+        "market": "Embedded",
+        "package": "18-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 10,
         "flash_kb": 1.75,
         "sram_kb": 0.0664,
-        "package": "18-pin DIP"
-      }
+        "eeprom_kb": 0.0625,
+        "mips": 2.5,
+        "voltage_v": 5,
+        "gpio_pins": 13,
+        "timers": "1× 8-bit (TMR0), watchdog"
+      },
+      "na": [
+        "process_nm",
+        "adc",
+        "dac",
+        "interfaces"
+      ]
     },
     {
       "id": "microchip-pic16f84a",
@@ -35,13 +64,27 @@
       "family": "PIC16",
       "released": "2001",
       "specs": {
+        "microarchitecture": "PIC mid-range (14-bit core)",
         "isa": "PIC 14-bit",
+        "market": "Embedded",
+        "package": "18-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 20,
         "flash_kb": 1.75,
         "sram_kb": 0.0664,
-        "package": "18-pin DIP"
-      }
+        "eeprom_kb": 0.0625,
+        "mips": 5,
+        "voltage_v": 5,
+        "gpio_pins": 13,
+        "timers": "1× 8-bit (TMR0), watchdog"
+      },
+      "na": [
+        "process_nm",
+        "adc",
+        "dac",
+        "interfaces"
+      ]
     },
     {
       "id": "microchip-pic18f452",
@@ -49,13 +92,31 @@
       "family": "PIC18",
       "released": "2002",
       "specs": {
+        "microarchitecture": "PIC18 (16-bit instruction core)",
         "isa": "PIC18",
+        "market": "Embedded",
+        "package": "40-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 40,
         "flash_kb": 32,
         "sram_kb": 1.5,
-        "package": "40-pin DIP"
-      }
+        "eeprom_kb": 0.25,
+        "mips": 10,
+        "voltage_v": 5,
+        "gpio_pins": 34,
+        "adc": "10-bit, 8 channels",
+        "timers": "1× 8/16-bit, 2× 16-bit, 1× 8-bit, 2× CCP",
+        "interfaces": [
+          "MSSP (SPI/I²C)",
+          "USART",
+          "Parallel Slave Port"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "microchip-pic16f877a",
@@ -63,13 +124,31 @@
       "family": "PIC16",
       "released": "2003",
       "specs": {
+        "microarchitecture": "PIC mid-range (14-bit core)",
         "isa": "PIC 14-bit",
+        "market": "Embedded",
+        "package": "40-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 20,
         "flash_kb": 14,
         "sram_kb": 0.3594,
-        "package": "40-pin DIP"
-      }
+        "eeprom_kb": 0.25,
+        "mips": 5,
+        "voltage_v": 5,
+        "gpio_pins": 33,
+        "adc": "10-bit, 8 channels",
+        "timers": "2× 8-bit, 1× 16-bit, 2× CCP",
+        "interfaces": [
+          "MSSP (SPI/I²C)",
+          "USART",
+          "Parallel Slave Port"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "microchip-pic10f200",
@@ -77,13 +156,27 @@
       "family": "PIC10",
       "released": "2004",
       "specs": {
+        "microarchitecture": "PIC baseline (12-bit core)",
         "isa": "PIC 12-bit",
+        "market": "Embedded",
+        "package": "6-pin SOT-23",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 4,
         "flash_kb": 0.375,
         "sram_kb": 0.0156,
-        "package": "6-pin SOT-23"
-      }
+        "mips": 1,
+        "voltage_v": 5,
+        "gpio_pins": 4,
+        "timers": "1× 8-bit (TMR0), watchdog"
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "adc",
+        "dac",
+        "interfaces"
+      ]
     },
     {
       "id": "microchip-dspic30f4011",
@@ -91,12 +184,32 @@
       "family": "dsPIC30F",
       "released": "2004",
       "specs": {
+        "microarchitecture": "dsPIC30F (16-bit DSC core)",
         "isa": "dsPIC",
+        "market": "Industrial",
+        "package": "40-pin DIP",
+        "cores": 1,
         "data_width_bits": 16,
-        "mips": 30,
+        "base_clock_mhz": 120,
         "flash_kb": 48,
-        "sram_kb": 2
-      }
+        "sram_kb": 2,
+        "eeprom_kb": 1,
+        "mips": 30,
+        "voltage_v": 5,
+        "gpio_pins": 30,
+        "adc": "10-bit, 9 channels, 1 Msps",
+        "timers": "5× 16-bit (2× 32-bit pairs), 6-ch motor control PWM, QEI",
+        "interfaces": [
+          "2× UART",
+          "SPI",
+          "I²C",
+          "CAN"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "microchip-pic18f4550",
@@ -104,16 +217,35 @@
       "family": "PIC18",
       "released": "2004",
       "specs": {
+        "microarchitecture": "PIC18 (16-bit instruction core)",
         "isa": "PIC18",
+        "market": "Embedded",
+        "package": "40-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 48,
         "flash_kb": 32,
         "sram_kb": 2,
+        "eeprom_kb": 0.25,
+        "mips": 12,
+        "voltage_v": 5,
         "connectivity": [
           "USB 2.0 Full Speed"
         ],
-        "package": "40-pin DIP"
-      }
+        "gpio_pins": 35,
+        "adc": "10-bit, 13 channels",
+        "timers": "1× 8/16-bit, 2× 16-bit, 1× 8-bit, 2× CCP",
+        "interfaces": [
+          "USB 2.0 Full Speed",
+          "MSSP (SPI/I²C)",
+          "EUSART",
+          "Streaming Parallel Port"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "dac"
+      ]
     },
     {
       "id": "microchip-dspic33fj128gp706",
@@ -121,12 +253,33 @@
       "family": "dsPIC33F",
       "released": "2006",
       "specs": {
+        "microarchitecture": "dsPIC33F (16-bit DSC core)",
         "isa": "dsPIC",
+        "market": "Embedded",
+        "package": "64-pin TQFP",
+        "cores": 1,
         "data_width_bits": 16,
-        "mips": 40,
+        "base_clock_mhz": 80,
         "flash_kb": 128,
-        "sram_kb": 16
-      }
+        "sram_kb": 16,
+        "mips": 40,
+        "voltage_v": 3.3,
+        "gpio_pins": 53,
+        "adc": "2× 10/12-bit, 18 channels",
+        "timers": "9× 16-bit (up to 4× 32-bit), 8× input capture, 8× output compare/PWM",
+        "interfaces": [
+          "2× UART",
+          "2× SPI",
+          "2× I²C",
+          "2× ECAN",
+          "DCI (codec)"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "microchip-pic32mx360f512l",
@@ -136,11 +289,30 @@
       "specs": {
         "microarchitecture": "MIPS32 M4K",
         "isa": "MIPS32",
+        "market": "Embedded",
+        "package": "100-pin TQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 72,
         "flash_kb": 512,
-        "sram_kb": 32
-      }
+        "sram_kb": 32,
+        "mips": 112,
+        "voltage_v": 3.3,
+        "gpio_pins": 85,
+        "adc": "10-bit, 16 channels, 1 Msps",
+        "timers": "5× 16-bit (up to 2× 32-bit), 5× output compare/PWM",
+        "interfaces": [
+          "2× UART",
+          "2× SPI",
+          "2× I²C",
+          "Parallel Master Port"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "microchip-pic32mx795f512l",
@@ -150,16 +322,38 @@
       "specs": {
         "microarchitecture": "MIPS32 M4K",
         "isa": "MIPS32",
+        "market": "Embedded",
+        "package": "100-pin TQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 80,
         "flash_kb": 512,
         "sram_kb": 128,
+        "mips": 125,
+        "voltage_v": 3.3,
         "connectivity": [
           "USB 2.0 OTG",
           "Ethernet",
           "CAN"
+        ],
+        "gpio_pins": 85,
+        "adc": "10-bit, 16 channels, 1 Msps",
+        "timers": "5× 16-bit (up to 2× 32-bit), 5× output compare/PWM",
+        "interfaces": [
+          "USB 2.0 OTG",
+          "10/100 Ethernet",
+          "2× CAN",
+          "6× UART",
+          "3× SPI",
+          "5× I²C",
+          "Parallel Master Port"
         ]
-      }
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "microchip-pic32mz2048efh144",
@@ -167,13 +361,37 @@
       "family": "PIC32MZ",
       "released": "2015",
       "specs": {
-        "microarchitecture": "MIPS32 M5150",
+        "microarchitecture": "MIPS32 M5150 (microAptiv)",
         "isa": "MIPS32",
+        "market": "Embedded",
+        "package": "144-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 200,
         "flash_kb": 2048,
-        "sram_kb": 512
-      }
+        "sram_kb": 512,
+        "mips": 330,
+        "voltage_v": 3.3,
+        "gpio_pins": 120,
+        "adc": "12-bit, 48 channels, 18 Msps",
+        "timers": "9× 16-bit (up to 4× 32-bit), 9× output compare/PWM",
+        "interfaces": [
+          "USB 2.0 High Speed OTG",
+          "10/100 Ethernet",
+          "2× CAN",
+          "6× UART",
+          "6× SPI/I²S",
+          "5× I²C",
+          "SQI",
+          "EBI",
+          "Parallel Master Port"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "microchip-attiny1616",
@@ -181,12 +399,31 @@
       "family": "tinyAVR 1-series",
       "released": "2017",
       "specs": {
+        "microarchitecture": "AVRxt",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "20-pin SOIC / VQFN",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 20,
         "flash_kb": 16,
-        "sram_kb": 2
-      }
+        "sram_kb": 2,
+        "eeprom_kb": 0.25,
+        "mips": 20,
+        "voltage_v": 5,
+        "gpio_pins": 18,
+        "adc": "2× 10-bit, 12 channels",
+        "dac": "8-bit, 1 channel",
+        "timers": "1× 16-bit TCA, 2× 16-bit TCB, 1× 12-bit TCD, RTC",
+        "interfaces": [
+          "USART",
+          "SPI",
+          "TWI (I²C)"
+        ]
+      },
+      "na": [
+        "process_nm"
+      ]
     },
     {
       "id": "microchip-dspic33ck256mp508",
@@ -194,12 +431,33 @@
       "family": "dsPIC33C",
       "released": "2018",
       "specs": {
+        "microarchitecture": "dsPIC33CK (16-bit DSC core)",
         "isa": "dsPIC",
+        "market": "Industrial",
+        "package": "80-pin TQFP",
+        "cores": 1,
         "data_width_bits": 16,
-        "mips": 100,
+        "base_clock_mhz": 200,
         "flash_kb": 256,
-        "sram_kb": 24
-      }
+        "sram_kb": 24,
+        "mips": 100,
+        "voltage_v": 3.3,
+        "gpio_pins": 69,
+        "adc": "3× 12-bit, 3.5 Msps",
+        "dac": "3× 12-bit (comparator)",
+        "timers": "1× 16-bit, 9× 16/32-bit SCCP/MCCP, 8× high-resolution PWM pairs, QEI",
+        "interfaces": [
+          "3× UART",
+          "3× SPI/I²S",
+          "3× I²C",
+          "2× CAN FD",
+          "2× SENT"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb"
+      ]
     },
     {
       "id": "microchip-avr128da48",
@@ -207,12 +465,31 @@
       "family": "AVR DA",
       "released": "2020",
       "specs": {
+        "microarchitecture": "AVRxt",
         "isa": "AVR",
+        "market": "Embedded",
+        "package": "48-pin TQFP / VQFN",
+        "cores": 1,
         "data_width_bits": 8,
         "base_clock_mhz": 24,
         "flash_kb": 128,
-        "sram_kb": 16
-      }
+        "sram_kb": 16,
+        "eeprom_kb": 0.5,
+        "mips": 24,
+        "voltage_v": 5,
+        "gpio_pins": 41,
+        "adc": "12-bit differential, 18 channels",
+        "dac": "10-bit, 1 channel",
+        "timers": "2× 16-bit TCA, 4× 16-bit TCB, 1× 12-bit TCD, RTC",
+        "interfaces": [
+          "5× USART",
+          "2× SPI",
+          "2× TWI (I²C)"
+        ]
+      },
+      "na": [
+        "process_nm"
+      ]
     }
   ]
 }

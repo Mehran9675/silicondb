@@ -8,12 +8,22 @@
       "family": "ECP3",
       "released": "2009",
       "specs": {
+        "market": "Industrial",
         "process_nm": 65,
+        "foundry": "Fujitsu",
+        "package": "FPBGA1156 / FPBGA672",
+        "memory_type": "DDR3/DDR2/DDR",
         "logic_elements": 149000,
         "dsp_slices": 320,
         "block_ram_kb": 856,
-        "transceivers": 16
-      }
+        "io_pins": 586,
+        "transceivers": 16,
+        "transceiver_gbps": 3.2,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "lattice-lcmxo2-7000",
@@ -21,10 +31,22 @@
       "family": "MachXO2",
       "released": "2010",
       "specs": {
+        "market": "Industrial",
         "process_nm": 65,
+        "foundry": "TSMC",
+        "package": "TQFP144 / FTBGA256 / FPBGA484",
+        "memory_type": "LPDDR/DDR/DDR2",
         "logic_elements": 6864,
-        "block_ram_kb": 30
-      }
+        "block_ram_kb": 30,
+        "io_pins": 334,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "dsp_slices",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "lattice-ice40hx8k",
@@ -32,11 +54,22 @@
       "family": "iCE40",
       "released": "2011",
       "specs": {
+        "market": "Consumer",
         "process_nm": 40,
         "foundry": "TSMC",
+        "package": "CT256 BGA / TQ144 / CB132",
         "logic_elements": 7680,
-        "block_ram_kb": 16
-      }
+        "block_ram_kb": 16,
+        "io_pins": 206,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "dsp_slices",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor",
+        "memory_type"
+      ]
     },
     {
       "id": "lattice-lfe5um-85f",
@@ -44,12 +77,22 @@
       "family": "ECP5",
       "released": "2014",
       "specs": {
+        "market": "Industrial",
         "process_nm": 40,
+        "foundry": "Fujitsu",
+        "package": "CABGA756 / CABGA554 / CABGA381",
+        "memory_type": "DDR3/LPDDR3/DDR2",
         "logic_elements": 84000,
         "dsp_slices": 156,
         "block_ram_kb": 468,
-        "transceivers": 4
-      }
+        "io_pins": 365,
+        "transceivers": 4,
+        "transceiver_gbps": 3.2,
+        "voltage_v": 1.1
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "lattice-ice40up5k",
@@ -57,12 +100,23 @@
       "family": "iCE40 UltraPlus",
       "released": "2016",
       "specs": {
+        "market": "Mobile",
         "process_nm": 40,
+        "foundry": "TSMC",
+        "package": "SG48 QFN / UWG30 WLCSP",
+        "sram_kb": 128,
         "logic_elements": 5280,
         "dsp_slices": 8,
         "block_ram_kb": 15,
-        "sram_kb": 128
-      }
+        "io_pins": 39,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor",
+        "memory_type"
+      ]
     },
     {
       "id": "lattice-lifcl-40",
@@ -70,12 +124,22 @@
       "family": "CrossLink-NX",
       "released": "2019-12",
       "specs": {
+        "market": "Embedded",
         "process_nm": 28,
         "foundry": "Samsung",
+        "package": "CABGA400 / CSBGA289 / WLCSP72",
+        "memory_type": "DDR3/DDR3L/LPDDR2/LPDDR3",
         "logic_elements": 39000,
         "dsp_slices": 56,
-        "block_ram_kb": 189
-      }
+        "block_ram_kb": 189,
+        "io_pins": 192,
+        "transceivers": 1,
+        "transceiver_gbps": 5,
+        "voltage_v": 1.0
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "lattice-lfd2nx-40",
@@ -83,10 +147,22 @@
       "family": "Certus-NX",
       "released": "2020-06",
       "specs": {
+        "market": "Industrial",
         "process_nm": 28,
         "foundry": "Samsung",
-        "logic_elements": 39000
-      }
+        "package": "CABGA256 / CSFBGA121",
+        "memory_type": "DDR3/DDR3L/LPDDR2/LPDDR3",
+        "logic_elements": 39000,
+        "dsp_slices": 56,
+        "block_ram_kb": 189,
+        "io_pins": 157,
+        "transceivers": 1,
+        "transceiver_gbps": 5,
+        "voltage_v": 1.0
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "lattice-avant-e",
@@ -94,9 +170,22 @@
       "family": "Avant",
       "released": "2022-12",
       "specs": {
+        "market": "Industrial",
         "process_nm": 16,
-        "foundry": "TSMC"
-      }
+        "foundry": "TSMC",
+        "package": "LFG676 / LFG1156 FCBGA",
+        "memory_type": "DDR4/LPDDR4",
+        "logic_elements": 637000,
+        "dsp_slices": 1800,
+        "block_ram_kb": 4250,
+        "io_pins": 504,
+        "voltage_v": 0.8
+      },
+      "na": [
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     }
   ]
 }

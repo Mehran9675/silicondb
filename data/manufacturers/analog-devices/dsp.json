@@ -8,9 +8,26 @@
       "family": "ADSP-21xx",
       "released": "1986",
       "specs": {
+        "microarchitecture": "ADSP-2100",
         "isa": "ADSP-21xx",
-        "data_width_bits": 16
-      }
+        "market": "Professional",
+        "process_nm": 1500,
+        "package": "100-pin PGA",
+        "cores": 1,
+        "data_width_bits": 16,
+        "address_width_bits": 14,
+        "base_clock_mhz": 8,
+        "mips": 8,
+        "mmacs": 8,
+        "voltage_v": 5
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "sram_kb",
+        "interfaces",
+        "tdp_w"
+      ]
     },
     {
       "id": "analog-devices-adsp-21060",
@@ -18,12 +35,32 @@
       "family": "SHARC",
       "released": "1994",
       "specs": {
+        "microarchitecture": "SHARC (ADSP-2106x)",
         "isa": "SHARC",
+        "market": "Professional",
+        "process_nm": 500,
+        "package": "240-lead MQFP / 225-ball PBGA",
+        "cores": 1,
         "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 40,
+        "sram_kb": 512,
         "mips": 40,
-        "sram_kb": 512
-      }
+        "mmacs": 40,
+        "mflops": 120,
+        "voltage_v": 5,
+        "interfaces": [
+          "2× serial ports (SPORT)",
+          "6× link ports",
+          "Host port",
+          "Multiprocessor bus",
+          "JTAG"
+        ]
+      },
+      "na": [
+        "transistors",
+        "tdp_w"
+      ]
     },
     {
       "id": "analog-devices-adsp-bf533",
@@ -31,11 +68,33 @@
       "family": "Blackfin",
       "released": "2003",
       "specs": {
+        "microarchitecture": "Blackfin (MSA)",
         "isa": "Blackfin",
+        "market": "Embedded",
+        "process_nm": 130,
+        "package": "160-ball CSP_BGA / 176-lead LQFP",
+        "cores": 1,
         "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 600,
-        "sram_kb": 148
-      }
+        "sram_kb": 148,
+        "mips": 600,
+        "mmacs": 1200,
+        "voltage_v": 1.2,
+        "interfaces": [
+          "PPI (parallel video)",
+          "2× SPORT",
+          "SPI",
+          "UART",
+          "EBIU (SDRAM/async)",
+          "JTAG"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "analog-devices-adsp-21569",
@@ -43,10 +102,38 @@
       "family": "SHARC+",
       "released": "2019",
       "specs": {
+        "microarchitecture": "SHARC+",
         "isa": "SHARC+",
+        "market": "Professional",
+        "package": "196-ball CSP_BGA / 120-lead LQFP_EP",
+        "cores": 1,
         "data_width_bits": 32,
-        "base_clock_mhz": 1000
-      }
+        "address_width_bits": 32,
+        "base_clock_mhz": 1000,
+        "sram_kb": 1664,
+        "mips": 1000,
+        "mmacs": 2000,
+        "mflops": 6000,
+        "voltage_v": 1.1,
+        "interfaces": [
+          "DDR3/DDR3L/LPDDR controller",
+          "8× SPORT (2× DAI)",
+          "S/PDIF",
+          "ASRC",
+          "3× SPI",
+          "Octal SPI",
+          "3× UART",
+          "3× TWI (I²C)",
+          "eMMC/SD",
+          "Link port",
+          "JTAG"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "transistors",
+        "tdp_w"
+      ]
     }
   ]
 }

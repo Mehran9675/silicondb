@@ -10,17 +10,38 @@
       "specs": {
         "microarchitecture": "Tensilica L106",
         "isa": "Xtensa",
-        "data_width_bits": 32,
+        "market": "Consumer",
         "process_nm": 40,
         "foundry": "TSMC",
+        "package": "QFN32",
         "cores": 1,
+        "data_width_bits": 32,
         "base_clock_mhz": 80,
         "boost_clock_mhz": 160,
+        "sram_kb": 160,
+        "voltage_v": 3.3,
         "connectivity": [
           "Wi-Fi 4 (802.11 b/g/n)"
         ],
-        "package": "QFN32"
-      }
+        "gpio_pins": 17,
+        "adc": "10-bit, 1 channel",
+        "timers": "2× hardware timers (FRC1 23-bit, FRC2 32-bit), watchdog",
+        "interfaces": [
+          "2× UART",
+          "HSPI",
+          "I²C (software)",
+          "I²S",
+          "SDIO 2.0 slave",
+          "IR",
+          "PWM"
+        ]
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "espressif-esp32",
@@ -30,18 +51,43 @@
       "specs": {
         "microarchitecture": "Tensilica Xtensa LX6",
         "isa": "Xtensa",
-        "data_width_bits": 32,
+        "market": "Consumer",
         "process_nm": 40,
         "foundry": "TSMC",
+        "package": "QFN48 (6×6 mm)",
         "cores": 2,
+        "data_width_bits": 32,
         "base_clock_mhz": 240,
         "sram_kb": 520,
+        "mips": 600,
+        "voltage_v": 3.3,
         "connectivity": [
           "Wi-Fi 4 (802.11 b/g/n)",
           "Bluetooth 4.2 BR/EDR",
           "Bluetooth LE"
+        ],
+        "gpio_pins": 34,
+        "adc": "2× 12-bit SAR, 18 channels",
+        "dac": "2× 8-bit",
+        "timers": "4× 64-bit general-purpose, 3× watchdog, RTC",
+        "interfaces": [
+          "3× UART",
+          "4× SPI",
+          "2× I²C",
+          "2× I²S",
+          "SD/SDIO host",
+          "SDIO slave",
+          "TWAI (CAN)",
+          "Ethernet MAC",
+          "IR (RMT)",
+          "LED/motor PWM",
+          "10× capacitive touch"
         ]
-      }
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb"
+      ]
     },
     {
       "id": "espressif-esp32-s2",
@@ -51,15 +97,41 @@
       "specs": {
         "microarchitecture": "Tensilica Xtensa LX7",
         "isa": "Xtensa",
-        "data_width_bits": 32,
+        "market": "Consumer",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "package": "QFN56 (7×7 mm)",
         "cores": 1,
+        "data_width_bits": 32,
         "base_clock_mhz": 240,
         "sram_kb": 320,
+        "voltage_v": 3.3,
         "connectivity": [
           "Wi-Fi 4 (802.11 b/g/n)",
           "USB 1.1 OTG"
+        ],
+        "gpio_pins": 43,
+        "adc": "2× 12-bit SAR, 20 channels",
+        "dac": "2× 8-bit",
+        "timers": "4× 64-bit general-purpose, 3× watchdog, RTC",
+        "interfaces": [
+          "USB 1.1 OTG",
+          "2× UART",
+          "4× SPI",
+          "2× I²C",
+          "I²S",
+          "TWAI (CAN)",
+          "LCD/camera",
+          "IR (RMT)",
+          "LED PWM",
+          "14× capacitive touch"
         ]
-      }
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "mips"
+      ]
     },
     {
       "id": "espressif-esp32-c3",
@@ -67,16 +139,41 @@
       "family": "ESP32-C",
       "released": "2020-11",
       "specs": {
+        "microarchitecture": "Espressif RISC-V (single-issue, 4-stage)",
         "isa": "RISC-V (RV32IMC)",
-        "data_width_bits": 32,
+        "market": "Consumer",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "package": "QFN32 (5×5 mm)",
         "cores": 1,
+        "data_width_bits": 32,
         "base_clock_mhz": 160,
         "sram_kb": 400,
+        "voltage_v": 3.3,
         "connectivity": [
           "Wi-Fi 4 (802.11 b/g/n)",
           "Bluetooth 5 LE"
+        ],
+        "gpio_pins": 22,
+        "adc": "2× 12-bit SAR, 6 channels",
+        "timers": "2× 54-bit general-purpose, 3× watchdog, systimer",
+        "interfaces": [
+          "USB Serial/JTAG",
+          "2× UART",
+          "3× SPI",
+          "I²C",
+          "I²S",
+          "TWAI (CAN)",
+          "IR (RMT)",
+          "LED PWM"
         ]
-      }
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "espressif-esp32-s3",
@@ -86,16 +183,44 @@
       "specs": {
         "microarchitecture": "Tensilica Xtensa LX7",
         "isa": "Xtensa",
-        "data_width_bits": 32,
+        "market": "Consumer",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "package": "QFN56 (7×7 mm)",
         "cores": 2,
+        "data_width_bits": 32,
         "base_clock_mhz": 240,
         "sram_kb": 512,
+        "voltage_v": 3.3,
         "connectivity": [
           "Wi-Fi 4 (802.11 b/g/n)",
           "Bluetooth 5 LE",
           "USB 1.1 OTG"
+        ],
+        "gpio_pins": 45,
+        "adc": "2× 12-bit SAR, 20 channels",
+        "timers": "4× 54-bit general-purpose, 3× watchdog, systimer",
+        "interfaces": [
+          "USB 1.1 OTG",
+          "USB Serial/JTAG",
+          "3× UART",
+          "4× SPI",
+          "2× I²C",
+          "2× I²S",
+          "TWAI (CAN)",
+          "SD/MMC host",
+          "LCD/camera",
+          "IR (RMT)",
+          "LED/motor PWM",
+          "14× capacitive touch"
         ]
-      }
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "espressif-esp32-c2",
@@ -103,16 +228,37 @@
       "family": "ESP32-C",
       "released": "2022",
       "specs": {
+        "microarchitecture": "Espressif RISC-V (single-issue, 4-stage)",
         "isa": "RISC-V (RV32IMC)",
-        "data_width_bits": 32,
+        "market": "Consumer",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "package": "QFN24 (4×4 mm)",
         "cores": 1,
+        "data_width_bits": 32,
         "base_clock_mhz": 120,
         "sram_kb": 272,
+        "voltage_v": 3.3,
         "connectivity": [
           "Wi-Fi 4 (802.11 b/g/n)",
           "Bluetooth 5 LE"
+        ],
+        "gpio_pins": 14,
+        "adc": "12-bit SAR, 5 channels",
+        "timers": "1× 54-bit general-purpose, 2× watchdog, systimer",
+        "interfaces": [
+          "2× UART",
+          "3× SPI",
+          "I²C",
+          "LED PWM"
         ]
-      }
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "espressif-esp32-c6",
@@ -120,18 +266,45 @@
       "family": "ESP32-C",
       "released": "2023",
       "specs": {
+        "microarchitecture": "Espressif RISC-V (single-issue, 4-stage)",
         "isa": "RISC-V (RV32IMAC)",
-        "data_width_bits": 32,
+        "market": "Consumer",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "package": "QFN40 (5×5 mm)",
         "cores": 2,
         "core_config": "1x HP RISC-V 160 MHz + 1x LP RISC-V 20 MHz",
+        "data_width_bits": 32,
         "base_clock_mhz": 160,
         "sram_kb": 512,
+        "voltage_v": 3.3,
         "connectivity": [
           "Wi-Fi 6 (802.11ax, 2.4 GHz)",
           "Bluetooth 5 LE",
           "IEEE 802.15.4 (Thread/Zigbee)"
+        ],
+        "gpio_pins": 30,
+        "adc": "12-bit SAR, 7 channels",
+        "timers": "2× 54-bit general-purpose, 3× watchdog, systimer",
+        "interfaces": [
+          "USB Serial/JTAG",
+          "3× UART (1 LP)",
+          "SPI",
+          "2× I²C (1 LP)",
+          "I²S",
+          "2× TWAI (CAN)",
+          "SDIO 2.0 slave",
+          "IR (RMT)",
+          "LED PWM",
+          "MCPWM"
         ]
-      }
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "espressif-esp32-h2",
@@ -139,16 +312,42 @@
       "family": "ESP32-H",
       "released": "2023",
       "specs": {
+        "microarchitecture": "Espressif RISC-V (single-issue, 4-stage)",
         "isa": "RISC-V (RV32IMAC)",
-        "data_width_bits": 32,
+        "market": "Consumer",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "package": "QFN32 (4×4 mm)",
         "cores": 1,
+        "data_width_bits": 32,
         "base_clock_mhz": 96,
         "sram_kb": 320,
+        "voltage_v": 3.3,
         "connectivity": [
           "Bluetooth 5 LE",
           "IEEE 802.15.4 (Thread/Zigbee)"
+        ],
+        "gpio_pins": 19,
+        "adc": "12-bit SAR, 5 channels",
+        "timers": "2× 54-bit general-purpose, 3× watchdog, systimer",
+        "interfaces": [
+          "USB Serial/JTAG",
+          "2× UART",
+          "SPI",
+          "2× I²C",
+          "I²S",
+          "TWAI (CAN)",
+          "IR (RMT)",
+          "LED PWM",
+          "MCPWM"
         ]
-      }
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "espressif-esp32-p4",
@@ -156,19 +355,48 @@
       "family": "ESP32-P",
       "released": "2024",
       "specs": {
+        "microarchitecture": "Espressif RISC-V HP (dual-issue) + LP core",
         "isa": "RISC-V (RV32IMAFC)",
-        "data_width_bits": 32,
+        "market": "Embedded",
+        "package": "QFN104 (10×10 mm)",
         "cores": 3,
         "core_config": "2x HP RISC-V 400 MHz + 1x LP RISC-V",
+        "data_width_bits": 32,
         "base_clock_mhz": 400,
         "sram_kb": 768,
+        "voltage_v": 3.3,
         "connectivity": [
           "USB 2.0 High Speed OTG",
           "Ethernet",
           "MIPI CSI",
           "MIPI DSI"
+        ],
+        "gpio_pins": 55,
+        "adc": "2× 12-bit SAR, 14 channels",
+        "timers": "4× 54-bit general-purpose, 3× watchdog, systimer",
+        "interfaces": [
+          "USB 2.0 HS OTG",
+          "USB 1.1 FS",
+          "Ethernet MAC",
+          "MIPI CSI-2",
+          "MIPI DSI",
+          "5× UART",
+          "SPI",
+          "2× I²C",
+          "3× I²S",
+          "SDIO 3.0 host",
+          "3× TWAI (CAN)",
+          "Parallel LCD/camera",
+          "14× capacitive touch"
         ]
-      }
+      },
+      "na": [
+        "process_nm",
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "espressif-esp32-c5",
@@ -176,15 +404,44 @@
       "family": "ESP32-C",
       "released": "2025",
       "specs": {
+        "microarchitecture": "Espressif RISC-V (single-issue, 4-stage)",
         "isa": "RISC-V (RV32IMAC)",
+        "market": "Consumer",
+        "package": "QFN48 (6×6 mm)",
+        "cores": 2,
+        "core_config": "1x HP RISC-V 240 MHz + 1x LP RISC-V 40 MHz",
         "data_width_bits": 32,
         "base_clock_mhz": 240,
+        "sram_kb": 384,
+        "voltage_v": 3.3,
         "connectivity": [
           "Wi-Fi 6 (802.11ax, 2.4/5 GHz)",
           "Bluetooth 5 LE",
           "IEEE 802.15.4 (Thread/Zigbee)"
+        ],
+        "gpio_pins": 29,
+        "adc": "12-bit SAR, 6 channels",
+        "timers": "2× 54-bit general-purpose, 3× watchdog, systimer",
+        "interfaces": [
+          "USB Serial/JTAG",
+          "3× UART (1 LP)",
+          "SPI",
+          "2× I²C (1 LP)",
+          "I²S",
+          "2× TWAI (CAN)",
+          "SDIO 2.0 slave",
+          "IR (RMT)",
+          "LED PWM",
+          "MCPWM"
         ]
-      }
+      },
+      "na": [
+        "process_nm",
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     }
   ]
 }

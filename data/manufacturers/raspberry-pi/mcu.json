@@ -10,15 +10,34 @@
       "specs": {
         "microarchitecture": "Cortex-M0+",
         "isa": "ARMv6-M",
-        "data_width_bits": 32,
+        "market": "Embedded",
+        "launch_price_usd": 1,
         "process_nm": 40,
         "foundry": "TSMC",
+        "package": "QFN56",
         "cores": 2,
+        "data_width_bits": 32,
         "base_clock_mhz": 133,
         "sram_kb": 264,
-        "package": "QFN56",
-        "launch_price_usd": 1
-      }
+        "voltage_v": 3.3,
+        "gpio_pins": 30,
+        "adc": "12-bit, 4 channels, 500 ksps",
+        "timers": "1× 64-bit µs timer (4 alarms), 8× PWM slices (16 channels), RTC, watchdog",
+        "interfaces": [
+          "USB 1.1 host/device",
+          "2× UART",
+          "2× SPI",
+          "2× I²C",
+          "8× PIO state machines",
+          "QSPI (XIP)"
+        ]
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "raspberry-pi-rp2350",
@@ -28,14 +47,35 @@
       "specs": {
         "microarchitecture": "Cortex-M33 / Hazard3 RISC-V",
         "isa": "ARMv8-M / RV32IMAC",
-        "data_width_bits": 32,
+        "market": "Embedded",
         "process_nm": 40,
         "foundry": "TSMC",
+        "package": "QFN60 (RP2350A) / QFN80 (RP2350B)",
         "cores": 2,
         "core_config": "2x Cortex-M33 or 2x Hazard3 RISC-V (selectable)",
+        "data_width_bits": 32,
         "base_clock_mhz": 150,
-        "sram_kb": 520
-      }
+        "sram_kb": 520,
+        "voltage_v": 3.3,
+        "gpio_pins": 48,
+        "adc": "12-bit, 4 channels (8 on QFN80), 500 ksps",
+        "timers": "2× 64-bit µs timers (4 alarms each), 12× PWM slices (24 channels), AON timer, watchdog",
+        "interfaces": [
+          "USB 1.1 host/device",
+          "2× UART",
+          "2× SPI",
+          "2× I²C",
+          "12× PIO state machines",
+          "HSTX",
+          "QSPI (XIP, 2 chip selects)"
+        ]
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     }
   ]
 }

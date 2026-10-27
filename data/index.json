@@ -170,7 +170,7 @@
           "path": "manufacturers/analog-devices/dsp.json",
           "category": "dsp",
           "count": 4,
-          "rev": "c6bc2a305303b87d"
+          "rev": "6ad329da019809fb"
         }
       ]
     },
@@ -218,7 +218,7 @@
           "path": "manufacturers/atmel/mcu.json",
           "category": "mcu",
           "count": 11,
-          "rev": "71ed4edb28e97c01"
+          "rev": "42e3dfbebf04066f"
         }
       ]
     },
@@ -298,7 +298,7 @@
           "path": "manufacturers/espressif/mcu.json",
           "category": "mcu",
           "count": 10,
-          "rev": "7c92860af1da027f"
+          "rev": "d226878312a700a4"
         }
       ]
     },
@@ -604,7 +604,7 @@
           "path": "manufacturers/lattice/fpga.json",
           "category": "fpga",
           "count": 8,
-          "rev": "dd667fe955808f54"
+          "rev": "9536a80c2a80f287"
         }
       ]
     },
@@ -668,7 +668,7 @@
           "path": "manufacturers/microchip/mcu.json",
           "category": "mcu",
           "count": 15,
-          "rev": "2e77601cc143dd7d"
+          "rev": "28bdc9b117d863fe"
         }
       ]
     },
@@ -936,7 +936,7 @@
           "path": "manufacturers/raspberry-pi/mcu.json",
           "category": "mcu",
           "count": 2,
-          "rev": "83934988824caeca"
+          "rev": "99c6203989d50140"
         }
       ]
     },
@@ -1092,13 +1092,13 @@
           "path": "manufacturers/stmicroelectronics/mcu.json",
           "category": "mcu",
           "count": 16,
-          "rev": "c94dddea39a13f97"
+          "rev": "b72a33674b26c1e6"
         },
         {
           "path": "manufacturers/stmicroelectronics/soc.json",
           "category": "soc",
           "count": 1,
-          "rev": "20329dc638ae9764"
+          "rev": "8d2fe9daa0ba5ae6"
         }
       ]
     },
