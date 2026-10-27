@@ -8,11 +8,33 @@
       "family": "Neuromorphic",
       "released": "2014-08",
       "specs": {
-        "foundry": "Samsung",
+        "microarchitecture": "TrueNorth (neurosynaptic)",
+        "market": "Professional",
         "process_nm": 28,
+        "foundry": "Samsung",
         "transistors": 5400000000,
-        "cores": 4096
-      }
+        "die_size_mm2": 430,
+        "cores": 4096,
+        "tdp_w": 0.07
+      },
+      "na": [
+        "codename",
+        "compute_units",
+        "tensor_cores",
+        "boost_clock_mhz",
+        "sram_kb",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops",
+        "interface"
+      ]
     },
     {
       "id": "ibm-northpole",
@@ -20,11 +42,33 @@
       "family": "Neuromorphic",
       "released": "2023-10",
       "specs": {
+        "microarchitecture": "NorthPole",
+        "market": "Data center",
         "process_nm": 12,
         "transistors": 22000000000,
         "die_size_mm2": 800,
-        "cores": 256
-      }
+        "cores": 256,
+        "boost_clock_mhz": 400,
+        "sram_kb": 229376,
+        "int8_tops": 200,
+        "tdp_w": 74,
+        "interface": "PCIe"
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "ibm-spyre",
@@ -33,15 +77,32 @@
       "released": "2025-10",
       "specs": {
         "codename": "AIU",
-        "foundry": "Samsung",
+        "microarchitecture": "Spyre (AIU)",
+        "market": "Data center",
         "process_nm": 5,
+        "foundry": "Samsung",
         "transistors": 25600000000,
         "cores": 32,
         "memory_type": "LPDDR5",
         "memory_size_mb": 131072,
+        "int8_tops": 300,
         "tdp_w": 75,
-        "interface": "PCIe"
-      }
+        "interface": "PCIe 5.0 x16"
+      },
+      "na": [
+        "die_size_mm2",
+        "compute_units",
+        "tensor_cores",
+        "boost_clock_mhz",
+        "sram_kb",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     }
   ]
 }

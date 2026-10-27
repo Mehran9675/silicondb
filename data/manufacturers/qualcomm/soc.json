@@ -8,14 +8,40 @@
       "family": "Snapdragon S1",
       "released": "2008-11",
       "specs": {
-        "process_nm": 65,
-        "cores": 1,
+        "codename": "QSD8250",
         "microarchitecture": "Scorpion",
-        "boost_clock_mhz": 1000,
-        "gpu": "Adreno 200",
         "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "market": "Mobile",
+        "process_nm": 65,
+        "foundry": "TSMC",
+        "cores": 1,
+        "core_config": "1x Scorpion @ 1.0 GHz",
+        "boost_clock_mhz": 1000,
+        "l2_cache_kb": 256,
+        "gpu": "Adreno 200",
+        "memory_type": "LPDDR1",
+        "max_memory_mb": 512,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 1.3,
+        "modem": "HSPA (7.2 Mbps down)",
+        "connectivity": [
+          "Bluetooth 2.1",
+          "GPS",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-msm7227",
@@ -23,14 +49,40 @@
       "family": "Snapdragon S1",
       "released": "2009",
       "specs": {
-        "process_nm": 65,
-        "cores": 1,
+        "codename": "MSM7227",
         "microarchitecture": "ARM11",
-        "boost_clock_mhz": 600,
-        "gpu": "Adreno 200",
         "isa": "ARMv6",
-        "market": "Mobile"
-      }
+        "market": "Mobile",
+        "process_nm": 65,
+        "foundry": "TSMC",
+        "cores": 1,
+        "core_config": "1x ARM1136EJ-S @ 600 MHz",
+        "boost_clock_mhz": 600,
+        "l2_cache_kb": 256,
+        "gpu": "Adreno 200",
+        "memory_type": "LPDDR1",
+        "max_memory_mb": 512,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 0.8,
+        "modem": "HSPA (7.2 Mbps down)",
+        "connectivity": [
+          "Bluetooth 2.1",
+          "GPS",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-msm8255",
@@ -38,14 +90,41 @@
       "family": "Snapdragon S2",
       "released": "2010",
       "specs": {
-        "process_nm": 45,
-        "cores": 1,
+        "codename": "MSM8255",
         "microarchitecture": "Scorpion",
-        "boost_clock_mhz": 1000,
-        "gpu": "Adreno 205",
         "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "market": "Mobile",
+        "process_nm": 45,
+        "foundry": "TSMC",
+        "cores": 1,
+        "core_config": "1x Scorpion @ 1.0 GHz",
+        "boost_clock_mhz": 1000,
+        "l2_cache_kb": 384,
+        "gpu": "Adreno 205",
+        "gpu_clock_mhz": 245,
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 2.7,
+        "modem": "HSPA+ (14.4 Mbps down)",
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 2.1",
+          "GPS",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-msm8260",
@@ -53,13 +132,41 @@
       "family": "Snapdragon S3",
       "released": "2011",
       "specs": {
-        "process_nm": 45,
-        "cores": 2,
+        "codename": "MSM8260",
         "microarchitecture": "Scorpion",
-        "gpu": "Adreno 220",
         "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "market": "Mobile",
+        "process_nm": 45,
+        "foundry": "TSMC",
+        "cores": 2,
+        "core_config": "2x Scorpion @ 1.5 GHz",
+        "boost_clock_mhz": 1500,
+        "l2_cache_kb": 512,
+        "gpu": "Adreno 220",
+        "gpu_clock_mhz": 266,
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 4.3,
+        "modem": "HSPA+ (14.4 Mbps down)",
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 3.0",
+          "GPS",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-apq8064",
@@ -67,15 +174,43 @@
       "family": "Snapdragon S4",
       "released": "2012",
       "specs": {
+        "codename": "APQ8064",
+        "microarchitecture": "Krait",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "TSMC",
         "cores": 4,
-        "microarchitecture": "Krait",
+        "core_config": "4x Krait @ 1.5 GHz",
         "boost_clock_mhz": 1500,
+        "l2_cache_kb": 2048,
         "gpu": "Adreno 320",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 400,
+        "memory_type": "LPDDR2 / DDR3L",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "fp32_tflops": 0.051,
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 4.0",
+          "GPS",
+          "USB 2.0",
+          "SATA",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "qualcomm-msm8960",
@@ -83,16 +218,41 @@
       "family": "Snapdragon S4",
       "released": "2012-04",
       "specs": {
+        "codename": "MSM8960",
+        "microarchitecture": "Krait",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "TSMC",
         "cores": 2,
-        "microarchitecture": "Krait",
+        "core_config": "2x Krait @ 1.5 GHz",
         "boost_clock_mhz": 1500,
+        "l2_cache_kb": 1024,
         "gpu": "Adreno 225",
-        "modem": "Integrated LTE",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 400,
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "fp32_tflops": 0.026,
+        "modem": "LTE Cat 3 (100 Mbps), HSPA+, CDMA2000 (integrated)",
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 4.0",
+          "GPS",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-600",
@@ -100,15 +260,41 @@
       "family": "Snapdragon 600",
       "released": "2013-03",
       "specs": {
+        "codename": "APQ8064T",
+        "microarchitecture": "Krait 300",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "TSMC",
         "cores": 4,
-        "microarchitecture": "Krait 300",
+        "core_config": "4x Krait 300 @ 1.9 GHz",
         "boost_clock_mhz": 1900,
+        "l2_cache_kb": 2048,
         "gpu": "Adreno 320",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 400,
+        "memory_type": "LPDDR3-1066",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "fp32_tflops": 0.051,
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 4.0",
+          "GPS",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-800",
@@ -116,18 +302,41 @@
       "family": "Snapdragon 800",
       "released": "2013-07",
       "specs": {
+        "codename": "MSM8974",
+        "microarchitecture": "Krait 400",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "TSMC",
         "cores": 4,
-        "microarchitecture": "Krait 400",
+        "core_config": "4x Krait 400 @ 2.26 GHz",
         "boost_clock_mhz": 2260,
+        "l2_cache_kb": 2048,
         "gpu": "Adreno 330",
+        "gpu_clock_mhz": 450,
         "memory_type": "LPDDR3-1600",
+        "max_memory_mb": 4096,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 12.8,
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "fp32_tflops": 0.13,
+        "modem": "LTE Cat 4 (150 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 4.0",
+          "GPS / GLONASS",
+          "USB 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-615",
@@ -135,14 +344,41 @@
       "family": "Snapdragon 600",
       "released": "2014",
       "specs": {
+        "codename": "MSM8939",
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "TSMC",
         "cores": 8,
-        "microarchitecture": "Cortex-A53",
+        "core_config": "4x Cortex-A53 @ 1.7 GHz + 4x Cortex-A53 @ 1.0 GHz",
+        "boost_clock_mhz": 1700,
+        "l2_cache_kb": 1536,
         "gpu": "Adreno 405",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 550,
+        "memory_type": "LPDDR3-1600",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 6.4,
+        "fp32_tflops": 0.059,
+        "modem": "LTE Cat 4 (150 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 4.1",
+          "GPS",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-801",
@@ -150,18 +386,41 @@
       "family": "Snapdragon 800",
       "released": "2014-02",
       "specs": {
+        "codename": "MSM8974AC",
+        "microarchitecture": "Krait 400",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "TSMC",
         "cores": 4,
-        "microarchitecture": "Krait 400",
+        "core_config": "4x Krait 400 @ 2.45 GHz",
         "boost_clock_mhz": 2450,
+        "l2_cache_kb": 2048,
         "gpu": "Adreno 330",
         "gpu_clock_mhz": 578,
-        "memory_type": "LPDDR3",
+        "memory_type": "LPDDR3-1866",
+        "max_memory_mb": 4096,
         "memory_bus_bits": 64,
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "memory_bandwidth_gbs": 14.9,
+        "fp32_tflops": 0.167,
+        "modem": "LTE Cat 4 (150 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 4.0",
+          "GPS / GLONASS",
+          "USB 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-805",
@@ -169,18 +428,41 @@
       "family": "Snapdragon 800",
       "released": "2014-07",
       "specs": {
+        "codename": "APQ8084",
+        "microarchitecture": "Krait 450",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "TSMC",
         "cores": 4,
-        "microarchitecture": "Krait 450",
+        "core_config": "4x Krait 450 @ 2.7 GHz",
         "boost_clock_mhz": 2700,
+        "l2_cache_kb": 2048,
         "gpu": "Adreno 420",
-        "memory_type": "LPDDR3",
+        "gpu_clock_mhz": 600,
+        "memory_type": "LPDDR3-1600",
+        "max_memory_mb": 4096,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 25.6,
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 4.1",
+          "GPS / GLONASS",
+          "USB 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-810",
@@ -188,17 +470,41 @@
       "family": "Snapdragon 800",
       "released": "2015-03",
       "specs": {
+        "codename": "MSM8994",
+        "microarchitecture": "Cortex-A57 / Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 20,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "4x Cortex-A57 @ 2.0 GHz + 4x Cortex-A53 @ 1.55 GHz",
-        "microarchitecture": "Cortex-A57 / Cortex-A53",
         "boost_clock_mhz": 2000,
+        "l2_cache_kb": 2560,
         "gpu": "Adreno 430",
-        "memory_type": "LPDDR4",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 600,
+        "memory_type": "LPDDR4-3200",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 25.6,
+        "modem": "LTE Cat 9 (450 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 4.1",
+          "GPS / GLONASS",
+          "USB 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-808",
@@ -206,17 +512,41 @@
       "family": "Snapdragon 800",
       "released": "2015-04",
       "specs": {
+        "codename": "MSM8992",
+        "microarchitecture": "Cortex-A57 / Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 20,
         "foundry": "TSMC",
         "cores": 6,
         "core_config": "2x Cortex-A57 @ 1.82 GHz + 4x Cortex-A53 @ 1.44 GHz",
-        "microarchitecture": "Cortex-A57 / Cortex-A53",
         "boost_clock_mhz": 1820,
+        "l2_cache_kb": 1536,
         "gpu": "Adreno 418",
-        "memory_type": "LPDDR3",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 600,
+        "memory_type": "LPDDR3-1866",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 14.9,
+        "modem": "LTE Cat 9 (450 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 4.1",
+          "GPS / GLONASS",
+          "USB 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-820",
@@ -224,18 +554,41 @@
       "family": "Snapdragon 800",
       "released": "2016-02",
       "specs": {
+        "codename": "MSM8996",
+        "microarchitecture": "Kryo",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 14,
         "foundry": "Samsung",
         "cores": 4,
         "core_config": "2x Kryo @ 2.15 GHz + 2x Kryo @ 1.59 GHz",
-        "microarchitecture": "Kryo",
         "boost_clock_mhz": 2150,
+        "l2_cache_kb": 1536,
         "gpu": "Adreno 530",
-        "modem": "Snapdragon X12 LTE",
-        "memory_type": "LPDDR4",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 624,
+        "memory_type": "LPDDR4-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 29.9,
+        "fp32_tflops": 0.407,
+        "modem": "Snapdragon X12 LTE (Cat 12/13, 600 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac 2x2 MU-MIMO)",
+          "Bluetooth 4.1",
+          "GPS / GLONASS",
+          "USB 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-625",
@@ -243,16 +596,41 @@
       "family": "Snapdragon 600",
       "released": "2016-02",
       "specs": {
+        "codename": "MSM8953",
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 14,
         "foundry": "Samsung",
         "cores": 8,
-        "microarchitecture": "Cortex-A53",
+        "core_config": "8x Cortex-A53 @ 2.0 GHz",
         "boost_clock_mhz": 2000,
+        "l2_cache_kb": 1024,
         "gpu": "Adreno 506",
-        "modem": "Snapdragon X9 LTE",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 650,
+        "memory_type": "LPDDR3-1866",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 7.5,
+        "fp32_tflops": 0.13,
+        "modem": "Snapdragon X9 LTE (Cat 7, 300 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 4.1",
+          "GPS / GLONASS",
+          "USB 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-821",
@@ -260,17 +638,41 @@
       "family": "Snapdragon 800",
       "released": "2016-07",
       "specs": {
+        "codename": "MSM8996 Pro",
+        "microarchitecture": "Kryo",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 14,
         "foundry": "Samsung",
         "cores": 4,
-        "microarchitecture": "Kryo",
+        "core_config": "2x Kryo @ 2.34 GHz + 2x Kryo @ 2.19 GHz",
         "boost_clock_mhz": 2340,
+        "l2_cache_kb": 1536,
         "gpu": "Adreno 530",
-        "modem": "Snapdragon X12 LTE",
-        "memory_type": "LPDDR4",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 653,
+        "memory_type": "LPDDR4-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 29.9,
+        "fp32_tflops": 0.426,
+        "modem": "Snapdragon X12 LTE (Cat 12/13, 600 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac 2x2 MU-MIMO)",
+          "Bluetooth 4.2",
+          "GPS / GLONASS",
+          "USB 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-835",
@@ -278,20 +680,41 @@
       "family": "Snapdragon 800",
       "released": "2017-03",
       "specs": {
+        "codename": "MSM8998",
+        "microarchitecture": "Kryo 280",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 10,
         "foundry": "Samsung",
         "transistors": 3000000000,
         "die_size_mm2": 72.3,
         "cores": 8,
         "core_config": "4x Kryo 280 Gold @ 2.45 GHz + 4x Kryo 280 Silver @ 1.9 GHz",
-        "microarchitecture": "Kryo 280",
         "boost_clock_mhz": 2450,
+        "l2_cache_kb": 3072,
         "gpu": "Adreno 540",
-        "modem": "Snapdragon X16 LTE",
-        "memory_type": "LPDDR4X",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 710,
+        "memory_type": "LPDDR4X-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 29.9,
+        "fp32_tflops": 0.567,
+        "modem": "Snapdragon X16 LTE (Cat 16, 1 Gbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac 2x2 MU-MIMO)",
+          "Bluetooth 5.0",
+          "GPS / GLONASS / Galileo",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-660",
@@ -299,17 +722,41 @@
       "family": "Snapdragon 600",
       "released": "2017-05",
       "specs": {
+        "codename": "SDM660",
+        "microarchitecture": "Kryo 260",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 14,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Kryo 260 @ 2.2 GHz + 4x Kryo 260 @ 1.8 GHz",
-        "microarchitecture": "Kryo 260",
         "boost_clock_mhz": 2200,
+        "l2_cache_kb": 2048,
         "gpu": "Adreno 512",
-        "modem": "Snapdragon X12 LTE",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 850,
+        "memory_type": "LPDDR4X-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 14.9,
+        "fp32_tflops": 0.218,
+        "modem": "Snapdragon X12 LTE (Cat 12/13, 600 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac 2x2 MU-MIMO)",
+          "Bluetooth 5.0",
+          "GPS / GLONASS / Galileo",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-845",
@@ -317,20 +764,42 @@
       "family": "Snapdragon 800",
       "released": "2018-02",
       "specs": {
+        "codename": "SDM845",
+        "microarchitecture": "Kryo 385",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 10,
         "foundry": "Samsung",
+        "die_size_mm2": 94,
         "cores": 8,
         "core_config": "4x Kryo 385 Gold @ 2.8 GHz + 4x Kryo 385 Silver @ 1.77 GHz",
-        "microarchitecture": "Kryo 385",
         "boost_clock_mhz": 2800,
+        "l2_cache_kb": 1536,
         "l3_cache_kb": 2048,
         "slc_kb": 3072,
         "gpu": "Adreno 630",
-        "modem": "Snapdragon X20 LTE",
-        "memory_type": "LPDDR4X",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 710,
+        "memory_type": "LPDDR4X-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 29.9,
+        "fp32_tflops": 0.727,
+        "modem": "Snapdragon X20 LTE (Cat 18, 1.2 Gbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac 2x2 MU-MIMO)",
+          "802.11ad",
+          "Bluetooth 5.0",
+          "GPS / GLONASS / Galileo",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-710",
@@ -338,17 +807,41 @@
       "family": "Snapdragon 700",
       "released": "2018-05",
       "specs": {
+        "codename": "SDM710",
+        "microarchitecture": "Kryo 360",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 10,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "2x Kryo 360 Gold @ 2.2 GHz + 6x Kryo 360 Silver @ 1.7 GHz",
-        "microarchitecture": "Kryo 360",
         "boost_clock_mhz": 2200,
+        "l2_cache_kb": 896,
+        "l3_cache_kb": 1024,
         "gpu": "Adreno 616",
-        "modem": "Snapdragon X15 LTE",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 750,
+        "memory_type": "LPDDR4X-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 14.9,
+        "fp32_tflops": 0.384,
+        "modem": "Snapdragon X15 LTE (Cat 15, 800 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac 2x2 MU-MIMO)",
+          "Bluetooth 5.0",
+          "GPS / GLONASS / Galileo",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-855",
@@ -356,20 +849,42 @@
       "family": "Snapdragon 800",
       "released": "2019-02",
       "specs": {
+        "codename": "SM8150 (Hana)",
+        "microarchitecture": "Kryo 485",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 6700000000,
+        "die_size_mm2": 73.3,
         "cores": 8,
         "core_config": "1x Kryo 485 Gold Prime @ 2.84 GHz + 3x Kryo 485 Gold @ 2.42 GHz + 4x Kryo 485 Silver @ 1.78 GHz",
-        "microarchitecture": "Kryo 485",
         "boost_clock_mhz": 2840,
+        "l2_cache_kb": 1792,
         "l3_cache_kb": 2048,
+        "slc_kb": 3072,
         "gpu": "Adreno 640",
-        "modem": "Snapdragon X24 LTE",
+        "gpu_clock_mhz": 585,
+        "memory_type": "LPDDR4X-4266",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "fp32_tflops": 0.899,
         "npu_tops": 7,
-        "memory_type": "LPDDR4X",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "modem": "Snapdragon X24 LTE (Cat 20, 2 Gbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax)",
+          "802.11ad",
+          "Bluetooth 5.0",
+          "GPS / GLONASS / Galileo / BeiDou",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "base_clock_mhz",
+        "gpu_cores",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-730g",
@@ -377,17 +892,41 @@
       "family": "Snapdragon 700",
       "released": "2019-04",
       "specs": {
+        "codename": "SM7150-AB",
+        "microarchitecture": "Kryo 470",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 8,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "2x Kryo 470 Gold @ 2.2 GHz + 6x Kryo 470 Silver @ 1.8 GHz",
-        "microarchitecture": "Kryo 470",
         "boost_clock_mhz": 2200,
+        "l2_cache_kb": 896,
+        "l3_cache_kb": 1024,
         "gpu": "Adreno 618",
-        "modem": "Snapdragon X15 LTE",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 825,
+        "memory_type": "LPDDR4X-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 14.9,
+        "fp32_tflops": 0.422,
+        "modem": "Snapdragon X15 LTE (Cat 15, 800 Mbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 6-ready (802.11ax)",
+          "Bluetooth 5.0",
+          "GPS / GLONASS / Galileo / BeiDou",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-855-plus",
@@ -395,17 +934,42 @@
       "family": "Snapdragon 800",
       "released": "2019-07",
       "specs": {
+        "codename": "SM8150-AC",
+        "microarchitecture": "Kryo 485",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 6700000000,
+        "die_size_mm2": 73.3,
         "cores": 8,
-        "microarchitecture": "Kryo 485",
+        "core_config": "1x Kryo 485 Gold Prime @ 2.96 GHz + 3x Kryo 485 Gold @ 2.42 GHz + 4x Kryo 485 Silver @ 1.78 GHz",
         "boost_clock_mhz": 2960,
+        "l2_cache_kb": 1792,
+        "l3_cache_kb": 2048,
+        "slc_kb": 3072,
         "gpu": "Adreno 640",
-        "modem": "Snapdragon X24 LTE",
-        "memory_type": "LPDDR4X",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 672,
+        "memory_type": "LPDDR4X-4266",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "fp32_tflops": 1.032,
+        "npu_tops": 7,
+        "modem": "Snapdragon X24 LTE (Cat 20, 2 Gbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax)",
+          "802.11ad",
+          "Bluetooth 5.0",
+          "GPS / GLONASS / Galileo / BeiDou",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "base_clock_mhz",
+        "gpu_cores",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-8cx",
@@ -413,18 +977,42 @@
       "family": "Snapdragon 8cx",
       "released": "2019-09",
       "specs": {
+        "codename": "SC8180X",
+        "microarchitecture": "Kryo 495",
+        "isa": "ARMv8.2-A",
+        "market": "Laptop",
         "process_nm": 7,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "4x Kryo 495 Gold @ 2.84 GHz + 4x Kryo 495 Silver @ 1.8 GHz",
-        "microarchitecture": "Kryo 495",
         "boost_clock_mhz": 2840,
+        "l2_cache_kb": 2560,
+        "l3_cache_kb": 2048,
+        "slc_kb": 8192,
         "gpu": "Adreno 680",
-        "memory_type": "LPDDR4X",
+        "gpu_clock_mhz": 585,
+        "memory_type": "LPDDR4X-4266",
+        "max_memory_mb": 16384,
         "memory_bus_bits": 128,
-        "isa": "ARMv8.2-A",
-        "market": "Laptop"
-      }
+        "memory_bandwidth_gbs": 68.3,
+        "fp32_tflops": 1.8,
+        "npu_tops": 9,
+        "tdp_w": 7,
+        "modem": "Snapdragon X24 LTE (Cat 20, 2 Gbps, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 5.0",
+          "USB 3.1",
+          "PCIe 3.0",
+          "NVMe / UFS 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "gpu_cores"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-765g",
@@ -432,17 +1020,41 @@
       "family": "Snapdragon 700",
       "released": "2020-02",
       "specs": {
+        "codename": "SM7250-AB",
+        "microarchitecture": "Kryo 475",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 7,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "1x Kryo 475 Prime @ 2.4 GHz + 1x Kryo 475 Gold @ 2.2 GHz + 6x Kryo 475 Silver @ 1.8 GHz",
-        "microarchitecture": "Kryo 475",
         "boost_clock_mhz": 2400,
+        "l2_cache_kb": 1280,
+        "l3_cache_kb": 1024,
         "gpu": "Adreno 620",
+        "gpu_clock_mhz": 750,
+        "memory_type": "LPDDR4X-4266",
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 17.1,
+        "npu_tops": 5.5,
         "modem": "Snapdragon X52 5G (integrated)",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "connectivity": [
+          "Wi-Fi 6-ready (802.11ax)",
+          "Bluetooth 5.0",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-865",
@@ -450,21 +1062,41 @@
       "family": "Snapdragon 800",
       "released": "2020-02",
       "specs": {
+        "codename": "SM8250 (Kona)",
+        "microarchitecture": "Kryo 585",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 10300000000,
+        "die_size_mm2": 83.5,
         "cores": 8,
         "core_config": "1x Kryo 585 Prime @ 2.84 GHz + 3x Kryo 585 Gold @ 2.42 GHz + 4x Kryo 585 Silver @ 1.8 GHz",
-        "microarchitecture": "Kryo 585",
         "boost_clock_mhz": 2840,
+        "l2_cache_kb": 1792,
         "l3_cache_kb": 4096,
         "slc_kb": 3072,
         "gpu": "Adreno 650",
-        "modem": "Snapdragon X55 5G (external)",
+        "gpu_clock_mhz": 587,
+        "memory_type": "LPDDR5-5500 / LPDDR4X-4266",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 44,
+        "fp32_tflops": 1.2,
         "npu_tops": 15,
-        "memory_type": "LPDDR5 / LPDDR4X",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "modem": "Snapdragon X55 5G (external)",
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax)",
+          "Bluetooth 5.1",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "base_clock_mhz",
+        "gpu_cores",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-888",
@@ -472,19 +1104,41 @@
       "family": "Snapdragon 800",
       "released": "2021-01",
       "specs": {
+        "codename": "SM8350 (Lahaina)",
+        "microarchitecture": "Kryo 680",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "1x Cortex-X1 @ 2.84 GHz + 3x Cortex-A78 @ 2.42 GHz + 4x Cortex-A55 @ 1.8 GHz",
-        "microarchitecture": "Kryo 680",
         "boost_clock_mhz": 2840,
+        "l2_cache_kb": 3072,
+        "l3_cache_kb": 4096,
+        "slc_kb": 3072,
         "gpu": "Adreno 660",
-        "modem": "Snapdragon X60 5G",
+        "gpu_clock_mhz": 840,
+        "memory_type": "LPDDR5-6400",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "fp32_tflops": 1.7,
         "npu_tops": 26,
-        "memory_type": "LPDDR5",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "modem": "Snapdragon X60 5G (integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.2",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "gpu_cores",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-778g",
@@ -492,17 +1146,41 @@
       "family": "Snapdragon 700",
       "released": "2021-05",
       "specs": {
+        "codename": "SM7325",
+        "microarchitecture": "Kryo 670",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 6,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "1x Kryo 670 Prime @ 2.4 GHz + 3x Kryo 670 Gold @ 2.2 GHz + 4x Kryo 670 Silver @ 1.9 GHz",
-        "microarchitecture": "Kryo 670",
         "boost_clock_mhz": 2400,
+        "l2_cache_kb": 1792,
+        "l3_cache_kb": 2048,
         "gpu": "Adreno 642L",
-        "modem": "Snapdragon X53 5G",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 550,
+        "memory_type": "LPDDR5-6400 / LPDDR4X-4266",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 25.6,
+        "npu_tops": 12,
+        "modem": "Snapdragon X53 5G (integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.2",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-8-gen-1",
@@ -510,18 +1188,41 @@
       "family": "Snapdragon 8",
       "released": "2022-01",
       "specs": {
+        "codename": "SM8450 (Waipio)",
+        "microarchitecture": "Kryo (Cortex-X2 / A710 / A510)",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "1x Cortex-X2 @ 3.0 GHz + 3x Cortex-A710 @ 2.5 GHz + 4x Cortex-A510 @ 1.8 GHz",
-        "microarchitecture": "Kryo",
         "boost_clock_mhz": 3000,
+        "l2_cache_kb": 3072,
+        "l3_cache_kb": 6144,
+        "slc_kb": 4096,
         "gpu": "Adreno 730",
-        "modem": "Snapdragon X65 5G",
+        "gpu_clock_mhz": 818,
         "memory_type": "LPDDR5-6400",
-        "isa": "ARMv9-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "fp32_tflops": 2.2,
+        "modem": "Snapdragon X65 5G (integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.3",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-8cx-gen-3",
@@ -529,16 +1230,42 @@
       "family": "Snapdragon 8cx",
       "released": "2022-03",
       "specs": {
+        "codename": "SC8280XP (Makena)",
+        "microarchitecture": "Kryo (Cortex-X1 / Cortex-A78)",
+        "isa": "ARMv8.2-A",
+        "market": "Laptop",
         "process_nm": 5,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Cortex-X1 @ 3.0 GHz + 4x Cortex-A78 @ 2.4 GHz",
         "boost_clock_mhz": 3000,
-        "gpu": "Adreno 8cx Gen 3",
-        "memory_type": "LPDDR4X",
-        "isa": "ARMv8.2-A",
-        "market": "Laptop"
-      }
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 6144,
+        "slc_kb": 8192,
+        "gpu": "Adreno 690",
+        "memory_type": "LPDDR4X-4266",
+        "max_memory_mb": 32768,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 68.3,
+        "npu_tops": 15,
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.1",
+          "USB 3.2 Gen 2",
+          "PCIe 3.0",
+          "NVMe"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-8-plus-gen-1",
@@ -546,18 +1273,41 @@
       "family": "Snapdragon 8",
       "released": "2022-05",
       "specs": {
+        "codename": "SM8475",
+        "microarchitecture": "Kryo (Cortex-X2 / A710 / A510)",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "1x Cortex-X2 @ 3.2 GHz + 3x Cortex-A710 @ 2.75 GHz + 4x Cortex-A510 @ 2.0 GHz",
-        "microarchitecture": "Kryo",
         "boost_clock_mhz": 3200,
+        "l2_cache_kb": 3072,
+        "l3_cache_kb": 6144,
+        "slc_kb": 4096,
         "gpu": "Adreno 730",
-        "modem": "Snapdragon X65 5G",
+        "gpu_clock_mhz": 900,
         "memory_type": "LPDDR5-6400",
-        "isa": "ARMv9-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "fp32_tflops": 2.4,
+        "modem": "Snapdragon X65 5G (integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.3",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-6-gen-1",
@@ -565,15 +1315,41 @@
       "family": "Snapdragon 6",
       "released": "2022-09",
       "specs": {
+        "codename": "SM6450",
+        "microarchitecture": "Kryo (Cortex-A78 / Cortex-A55)",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Cortex-A78 @ 2.2 GHz + 4x Cortex-A55 @ 1.8 GHz",
         "boost_clock_mhz": 2200,
+        "l2_cache_kb": 1536,
         "gpu": "Adreno 710",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "memory_type": "LPDDR5-5500 / LPDDR4X-4266",
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 22,
+        "modem": "Snapdragon X62 5G (integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.2",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-8-gen-2",
@@ -581,18 +1357,41 @@
       "family": "Snapdragon 8",
       "released": "2023-02",
       "specs": {
+        "codename": "SM8550 (Kalama)",
+        "microarchitecture": "Kryo (Cortex-X3 / A715 / A710 / A510)",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "1x Cortex-X3 @ 3.2 GHz + 2x Cortex-A715 @ 2.8 GHz + 2x Cortex-A710 @ 2.8 GHz + 3x Cortex-A510 @ 2.0 GHz",
-        "microarchitecture": "Kryo",
         "boost_clock_mhz": 3200,
+        "l2_cache_kb": 3584,
+        "l3_cache_kb": 8192,
+        "slc_kb": 6144,
         "gpu": "Adreno 740",
-        "modem": "Snapdragon X70 5G",
+        "gpu_clock_mhz": 680,
         "memory_type": "LPDDR5X-8400",
-        "isa": "ARMv9-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 67.2,
+        "modem": "Snapdragon X70 5G",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.3",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-7-plus-gen-2",
@@ -600,15 +1399,41 @@
       "family": "Snapdragon 7",
       "released": "2023-03",
       "specs": {
+        "codename": "SM7475",
+        "microarchitecture": "Kryo (Cortex-X2 / A710 / A510)",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "1x Cortex-X2 @ 2.91 GHz + 3x Cortex-A710 @ 2.49 GHz + 4x Cortex-A510 @ 1.8 GHz",
         "boost_clock_mhz": 2910,
+        "l2_cache_kb": 3072,
         "gpu": "Adreno 725",
-        "isa": "ARMv9-A",
-        "market": "Mobile"
-      }
+        "gpu_clock_mhz": 580,
+        "memory_type": "LPDDR5-6400",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "modem": "Snapdragon X62 5G (integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.3",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-8-gen-3",
@@ -616,18 +1441,41 @@
       "family": "Snapdragon 8",
       "released": "2024-01",
       "specs": {
+        "codename": "SM8650 (Pineapple)",
+        "microarchitecture": "Kryo (Cortex-X4 / A720 / A520)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "1x Cortex-X4 @ 3.3 GHz + 3x Cortex-A720 @ 3.15 GHz + 2x Cortex-A720 @ 2.96 GHz + 2x Cortex-A520 @ 2.27 GHz",
-        "microarchitecture": "Kryo",
         "boost_clock_mhz": 3300,
+        "l2_cache_kb": 4864,
+        "l3_cache_kb": 12288,
+        "slc_kb": 8192,
         "gpu": "Adreno 750",
-        "modem": "Snapdragon X75 5G",
+        "gpu_clock_mhz": 903,
         "memory_type": "LPDDR5X-9600",
-        "isa": "ARMv9.2-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 76.8,
+        "modem": "Snapdragon X75 5G",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-x1e-84-100",
@@ -635,23 +1483,43 @@
       "family": "Snapdragon X",
       "released": "2024-06",
       "specs": {
+        "codename": "X1E-84-100 (Hamoa)",
+        "microarchitecture": "Oryon",
+        "isa": "ARMv8.7-A",
+        "market": "Laptop",
         "process_nm": 4,
         "foundry": "TSMC",
         "cores": 12,
         "threads": 12,
-        "microarchitecture": "Oryon",
+        "core_config": "12x Oryon @ 3.8 GHz (all-core), 4.2 GHz dual-core boost",
         "base_clock_mhz": 3800,
         "boost_clock_mhz": 4200,
+        "l2_cache_kb": 36864,
+        "slc_kb": 6144,
         "gpu": "Adreno X1-85",
+        "gpu_cores": 6,
+        "gpu_clock_mhz": 1500,
+        "memory_type": "LPDDR5X-8448",
+        "max_memory_mb": 65536,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 135,
         "fp32_tflops": 4.6,
         "npu_tops": 45,
-        "memory_type": "LPDDR5X-8448",
-        "memory_bus_bits": 128,
-        "max_memory_mb": 65536,
-        "memory_bandwidth_gbs": 135,
-        "isa": "ARMv8.7-A",
-        "market": "Laptop"
-      }
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 4.0",
+          "NVMe / UFS 4.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "qualcomm-x1e-78-100",
@@ -659,22 +1527,43 @@
       "family": "Snapdragon X",
       "released": "2024-06",
       "specs": {
+        "codename": "X1E-78-100 (Hamoa)",
+        "microarchitecture": "Oryon",
+        "isa": "ARMv8.7-A",
+        "market": "Laptop",
         "process_nm": 4,
         "foundry": "TSMC",
         "cores": 12,
         "threads": 12,
-        "microarchitecture": "Oryon",
+        "core_config": "12x Oryon @ 3.4 GHz (no boost)",
         "base_clock_mhz": 3400,
-        "boost_clock_mhz": 3400,
+        "l2_cache_kb": 36864,
+        "slc_kb": 6144,
         "gpu": "Adreno X1-85",
-        "fp32_tflops": 3.8,
-        "npu_tops": 45,
+        "gpu_cores": 6,
+        "gpu_clock_mhz": 1250,
         "memory_type": "LPDDR5X-8448",
+        "max_memory_mb": 65536,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 135,
-        "isa": "ARMv8.7-A",
-        "market": "Laptop"
-      }
+        "fp32_tflops": 3.8,
+        "npu_tops": 45,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 4.0",
+          "NVMe / UFS 4.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "qualcomm-x1p-64-100",
@@ -682,21 +1571,43 @@
       "family": "Snapdragon X",
       "released": "2024-06",
       "specs": {
+        "codename": "X1P-64-100 (Hamoa)",
+        "microarchitecture": "Oryon",
+        "isa": "ARMv8.7-A",
+        "market": "Laptop",
         "process_nm": 4,
         "foundry": "TSMC",
         "cores": 10,
         "threads": 10,
-        "microarchitecture": "Oryon",
+        "core_config": "10x Oryon @ 3.4 GHz (all-core), 3.4 GHz dual-core boost",
         "base_clock_mhz": 3400,
+        "l2_cache_kb": 36864,
+        "slc_kb": 6144,
         "gpu": "Adreno X1-85",
-        "fp32_tflops": 3.8,
-        "npu_tops": 45,
+        "gpu_cores": 6,
+        "gpu_clock_mhz": 1250,
         "memory_type": "LPDDR5X-8448",
+        "max_memory_mb": 65536,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 135,
-        "isa": "ARMv8.7-A",
-        "market": "Laptop"
-      }
+        "fp32_tflops": 3.8,
+        "npu_tops": 45,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 4.0",
+          "NVMe / UFS 4.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-8-elite",
@@ -704,20 +1615,42 @@
       "family": "Snapdragon 8",
       "released": "2024-10",
       "specs": {
+        "codename": "SM8750 (Sun)",
+        "microarchitecture": "Oryon (2nd gen)",
+        "isa": "ARMv8.7-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 8,
         "performance_cores": 8,
         "core_config": "2x Oryon Prime @ 4.32 GHz + 6x Oryon Performance @ 3.53 GHz",
-        "microarchitecture": "Oryon (2nd gen)",
         "boost_clock_mhz": 4320,
         "l2_cache_kb": 24576,
+        "slc_kb": 8192,
         "gpu": "Adreno 830",
-        "modem": "Snapdragon X80 5G",
+        "gpu_clock_mhz": 1100,
         "memory_type": "LPDDR5X-10667",
-        "isa": "ARMv8.7-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 85.3,
+        "modem": "Snapdragon X80 5G",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 6.0",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-snapdragon-8-elite-gen-5",
@@ -725,17 +1658,41 @@
       "family": "Snapdragon 8",
       "released": "2025-09",
       "specs": {
+        "codename": "SM8850 (Canoe)",
+        "microarchitecture": "Oryon (3rd gen)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "2x Oryon Prime @ 4.6 GHz + 6x Oryon Performance @ 3.62 GHz",
-        "microarchitecture": "Oryon (3rd gen)",
         "boost_clock_mhz": 4600,
+        "l2_cache_kb": 24576,
+        "slc_kb": 8192,
         "gpu": "Adreno 840",
-        "modem": "Snapdragon X85 5G",
+        "gpu_clock_mhz": 1200,
         "memory_type": "LPDDR5X-10667",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 85.3,
+        "modem": "Snapdragon X85 5G",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 6.0",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "qualcomm-x2e-96-100",
@@ -743,19 +1700,43 @@
       "family": "Snapdragon X2",
       "released": "2026",
       "specs": {
+        "codename": "X2E-96-100 (Glymur)",
+        "microarchitecture": "Oryon (3rd gen)",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 18,
         "threads": 18,
         "core_config": "12x Oryon Prime + 6x Oryon Performance",
-        "microarchitecture": "Oryon (3rd gen)",
+        "base_clock_mhz": 4400,
         "boost_clock_mhz": 5000,
-        "npu_tops": 80,
+        "l2_cache_kb": 36864,
+        "slc_kb": 16384,
+        "gpu": "Adreno X2-90",
+        "gpu_clock_mhz": 1850,
         "memory_type": "LPDDR5X-9523",
+        "max_memory_mb": 131072,
         "memory_bus_bits": 192,
         "memory_bandwidth_gbs": 228,
-        "market": "Laptop"
-      }
+        "fp32_tflops": 5.7,
+        "npu_tops": 80,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 5.0",
+          "NVMe"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_cores",
+        "tdp_w",
+        "modem"
+      ]
     }
   ]
 }
