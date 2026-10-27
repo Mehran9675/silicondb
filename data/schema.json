@@ -1,134 +1,729 @@
 {
   "format": 1,
   "categories": [
-    { "id": "cpu",  "name": "CPU",  "title": "Central Processing Units",  "icon": "cpu",     "color": "#7C5CFF" },
-    { "id": "gpu",  "name": "GPU",  "title": "Graphics Processing Units", "icon": "gpu",     "color": "#22C55E" },
-    { "id": "apu",  "name": "APU",  "title": "Accelerated Processing Units", "icon": "apu", "color": "#F97316" },
-    { "id": "soc",  "name": "SoC",  "title": "Systems on Chip",           "icon": "soc",     "color": "#06B6D4" },
-    { "id": "ai",   "name": "TPU / NPU", "title": "AI Accelerators",       "icon": "ai",      "color": "#EC4899" },
-    { "id": "mcu",  "name": "MCU",  "title": "Microcontrollers",          "icon": "mcu",     "color": "#EAB308" },
-    { "id": "dsp",  "name": "DSP",  "title": "Digital Signal Processors", "icon": "dsp",     "color": "#3B82F6" },
-    { "id": "fpga", "name": "FPGA", "title": "Programmable Logic",        "icon": "fpga",    "color": "#A855F7" }
+    {
+      "id": "cpu",
+      "name": "CPU",
+      "title": "Central Processing Units",
+      "icon": "cpu",
+      "color": "#7C5CFF"
+    },
+    {
+      "id": "gpu",
+      "name": "GPU",
+      "title": "Graphics Processing Units",
+      "icon": "gpu",
+      "color": "#22C55E"
+    },
+    {
+      "id": "apu",
+      "name": "APU",
+      "title": "Accelerated Processing Units",
+      "icon": "apu",
+      "color": "#F97316"
+    },
+    {
+      "id": "soc",
+      "name": "SoC",
+      "title": "Systems on Chip",
+      "icon": "soc",
+      "color": "#06B6D4"
+    },
+    {
+      "id": "ai",
+      "name": "TPU / NPU",
+      "title": "AI Accelerators",
+      "icon": "ai",
+      "color": "#EC4899"
+    },
+    {
+      "id": "mcu",
+      "name": "MCU",
+      "title": "Microcontrollers",
+      "icon": "mcu",
+      "color": "#EAB308"
+    },
+    {
+      "id": "dsp",
+      "name": "DSP",
+      "title": "Digital Signal Processors",
+      "icon": "dsp",
+      "color": "#3B82F6"
+    },
+    {
+      "id": "fpga",
+      "name": "FPGA",
+      "title": "Programmable Logic",
+      "icon": "fpga",
+      "color": "#A855F7"
+    }
   ],
   "groups": [
     {
-      "id": "general", "label": "General",
+      "id": "general",
+      "label": "General",
       "fields": [
-        { "key": "codename",          "label": "Codename" },
-        { "key": "microarchitecture", "label": "Microarchitecture" },
-        { "key": "isa",               "label": "Instruction set" },
-        { "key": "market",            "label": "Market segment" },
-        { "key": "launch_price_usd",  "label": "Launch price", "format": "usd" }
+        {
+          "key": "codename",
+          "label": "Codename"
+        },
+        {
+          "key": "microarchitecture",
+          "label": "Microarchitecture"
+        },
+        {
+          "key": "isa",
+          "label": "Instruction set"
+        },
+        {
+          "key": "market",
+          "label": "Market segment"
+        },
+        {
+          "key": "launch_price_usd",
+          "label": "Launch price",
+          "format": "usd"
+        }
       ]
     },
     {
-      "id": "fabrication", "label": "Fabrication",
+      "id": "fabrication",
+      "label": "Fabrication",
       "fields": [
-        { "key": "process_nm",    "label": "Process",     "format": "nm" },
-        { "key": "foundry",       "label": "Foundry" },
-        { "key": "transistors",   "label": "Transistors", "format": "count" },
-        { "key": "die_size_mm2",  "label": "Die size",    "unit": "mm²" },
-        { "key": "package",       "label": "Package" },
-        { "key": "socket",        "label": "Socket" }
+        {
+          "key": "process_nm",
+          "label": "Process",
+          "format": "nm"
+        },
+        {
+          "key": "foundry",
+          "label": "Foundry"
+        },
+        {
+          "key": "transistors",
+          "label": "Transistors",
+          "format": "count"
+        },
+        {
+          "key": "die_size_mm2",
+          "label": "Die size",
+          "unit": "mm²"
+        },
+        {
+          "key": "package",
+          "label": "Package"
+        },
+        {
+          "key": "socket",
+          "label": "Socket"
+        }
       ]
     },
     {
-      "id": "cores", "label": "Cores & Clocks",
+      "id": "cores",
+      "label": "Cores & Clocks",
       "fields": [
-        { "key": "cores",               "label": "Cores",              "format": "count" },
-        { "key": "performance_cores",   "label": "Performance cores",  "format": "count" },
-        { "key": "efficiency_cores",    "label": "Efficiency cores",   "format": "count" },
-        { "key": "threads",             "label": "Threads",            "format": "count" },
-        { "key": "core_config",         "label": "Core configuration" },
-        { "key": "data_width_bits",     "label": "Data width",         "unit": "bit" },
-        { "key": "address_width_bits",  "label": "Address width",      "unit": "bit" },
-        { "key": "base_clock_mhz",      "label": "Base clock",         "format": "mhz" },
-        { "key": "boost_clock_mhz",     "label": "Boost clock",        "format": "mhz" }
+        {
+          "key": "cores",
+          "label": "Cores",
+          "format": "count"
+        },
+        {
+          "key": "performance_cores",
+          "label": "Performance cores",
+          "format": "count"
+        },
+        {
+          "key": "efficiency_cores",
+          "label": "Efficiency cores",
+          "format": "count"
+        },
+        {
+          "key": "threads",
+          "label": "Threads",
+          "format": "count"
+        },
+        {
+          "key": "core_config",
+          "label": "Core configuration"
+        },
+        {
+          "key": "data_width_bits",
+          "label": "Data width",
+          "unit": "bit"
+        },
+        {
+          "key": "address_width_bits",
+          "label": "Address width",
+          "unit": "bit"
+        },
+        {
+          "key": "base_clock_mhz",
+          "label": "Base clock",
+          "format": "mhz"
+        },
+        {
+          "key": "boost_clock_mhz",
+          "label": "Boost clock",
+          "format": "mhz"
+        }
       ]
     },
     {
-      "id": "cache", "label": "Cache",
+      "id": "cache",
+      "label": "Cache",
       "fields": [
-        { "key": "l1_cache_kb", "label": "L1 cache",  "format": "kb" },
-        { "key": "l2_cache_kb", "label": "L2 cache",  "format": "kb" },
-        { "key": "l3_cache_kb", "label": "L3 cache",  "format": "kb" },
-        { "key": "slc_kb",      "label": "System-level cache", "format": "kb" }
+        {
+          "key": "l1_cache_kb",
+          "label": "L1 cache",
+          "format": "kb"
+        },
+        {
+          "key": "l2_cache_kb",
+          "label": "L2 cache",
+          "format": "kb"
+        },
+        {
+          "key": "l3_cache_kb",
+          "label": "L3 cache",
+          "format": "kb"
+        },
+        {
+          "key": "slc_kb",
+          "label": "System-level cache",
+          "format": "kb"
+        }
       ]
     },
     {
-      "id": "graphics", "label": "Graphics",
+      "id": "graphics",
+      "label": "Graphics",
       "fields": [
-        { "key": "gpu",                 "label": "Graphics" },
-        { "key": "gpu_cores",           "label": "GPU cores",         "format": "count" },
-        { "key": "shading_units",       "label": "Shading units",     "format": "count" },
-        { "key": "compute_units",       "label": "Compute units",     "format": "count" },
-        { "key": "tmus",                "label": "TMUs",              "format": "count" },
-        { "key": "rops",                "label": "ROPs",              "format": "count" },
-        { "key": "tensor_cores",        "label": "Tensor / matrix cores", "format": "count" },
-        { "key": "rt_cores",            "label": "Ray-tracing cores", "format": "count" },
-        { "key": "gpu_clock_mhz",       "label": "GPU clock",         "format": "mhz" },
-        { "key": "gpu_boost_clock_mhz", "label": "GPU boost clock",   "format": "mhz" },
-        { "key": "graphics_api",        "label": "Graphics APIs" }
+        {
+          "key": "gpu",
+          "label": "Graphics"
+        },
+        {
+          "key": "gpu_cores",
+          "label": "GPU cores",
+          "format": "count"
+        },
+        {
+          "key": "shading_units",
+          "label": "Shading units",
+          "format": "count"
+        },
+        {
+          "key": "compute_units",
+          "label": "Compute units",
+          "format": "count"
+        },
+        {
+          "key": "tmus",
+          "label": "TMUs",
+          "format": "count"
+        },
+        {
+          "key": "rops",
+          "label": "ROPs",
+          "format": "count"
+        },
+        {
+          "key": "tensor_cores",
+          "label": "Tensor / matrix cores",
+          "format": "count"
+        },
+        {
+          "key": "rt_cores",
+          "label": "Ray-tracing cores",
+          "format": "count"
+        },
+        {
+          "key": "gpu_clock_mhz",
+          "label": "GPU clock",
+          "format": "mhz"
+        },
+        {
+          "key": "gpu_boost_clock_mhz",
+          "label": "GPU boost clock",
+          "format": "mhz"
+        },
+        {
+          "key": "graphics_api",
+          "label": "Graphics APIs"
+        },
+        {
+          "key": "pixel_rate_gpixels",
+          "label": "Pixel fill rate",
+          "unit": "GPixel/s"
+        },
+        {
+          "key": "texture_rate_gtexels",
+          "label": "Texture fill rate",
+          "unit": "GTexel/s"
+        }
       ]
     },
     {
-      "id": "memory", "label": "Memory",
+      "id": "memory",
+      "label": "Memory",
       "fields": [
-        { "key": "memory_type",          "label": "Memory type" },
-        { "key": "memory_size_mb",       "label": "Memory size",      "format": "mb" },
-        { "key": "max_memory_mb",        "label": "Max memory",       "format": "mb" },
-        { "key": "memory_bus_bits",      "label": "Memory bus",       "unit": "bit" },
-        { "key": "memory_channels",      "label": "Memory channels",  "format": "count" },
-        { "key": "memory_clock_mhz",     "label": "Memory clock",     "format": "mhz" },
-        { "key": "memory_bandwidth_gbs", "label": "Memory bandwidth", "unit": "GB/s" },
-        { "key": "flash_kb",             "label": "Flash",            "format": "kb" },
-        { "key": "sram_kb",              "label": "SRAM",             "format": "kb" }
+        {
+          "key": "memory_type",
+          "label": "Memory type"
+        },
+        {
+          "key": "memory_size_mb",
+          "label": "Memory size",
+          "format": "mb"
+        },
+        {
+          "key": "max_memory_mb",
+          "label": "Max memory",
+          "format": "mb"
+        },
+        {
+          "key": "memory_bus_bits",
+          "label": "Memory bus",
+          "unit": "bit"
+        },
+        {
+          "key": "memory_channels",
+          "label": "Memory channels",
+          "format": "count"
+        },
+        {
+          "key": "memory_clock_mhz",
+          "label": "Memory clock",
+          "format": "mhz"
+        },
+        {
+          "key": "memory_bandwidth_gbs",
+          "label": "Memory bandwidth",
+          "unit": "GB/s"
+        },
+        {
+          "key": "flash_kb",
+          "label": "Flash",
+          "format": "kb"
+        },
+        {
+          "key": "sram_kb",
+          "label": "SRAM",
+          "format": "kb"
+        },
+        {
+          "key": "eeprom_kb",
+          "label": "EEPROM",
+          "format": "kb"
+        }
       ]
     },
     {
-      "id": "performance", "label": "Performance",
+      "id": "performance",
+      "label": "Performance",
       "fields": [
-        { "key": "mips",          "label": "MIPS",          "unit": "MIPS" },
-        { "key": "fp64_tflops",   "label": "FP64",          "format": "tflops" },
-        { "key": "fp32_tflops",   "label": "FP32",          "format": "tflops" },
-        { "key": "fp16_tflops",   "label": "FP16",          "format": "tflops" },
-        { "key": "bf16_tflops",   "label": "BF16",          "format": "tflops" },
-        { "key": "fp8_tflops",    "label": "FP8",           "format": "tflops" },
-        { "key": "int8_tops",     "label": "INT8",          "unit": "TOPS" },
-        { "key": "npu_tops",      "label": "NPU",           "unit": "TOPS" }
+        {
+          "key": "mips",
+          "label": "MIPS",
+          "unit": "MIPS"
+        },
+        {
+          "key": "fp64_tflops",
+          "label": "FP64",
+          "format": "tflops"
+        },
+        {
+          "key": "fp32_tflops",
+          "label": "FP32",
+          "format": "tflops"
+        },
+        {
+          "key": "fp16_tflops",
+          "label": "FP16",
+          "format": "tflops"
+        },
+        {
+          "key": "bf16_tflops",
+          "label": "BF16",
+          "format": "tflops"
+        },
+        {
+          "key": "fp8_tflops",
+          "label": "FP8",
+          "format": "tflops"
+        },
+        {
+          "key": "int8_tops",
+          "label": "INT8",
+          "unit": "TOPS"
+        },
+        {
+          "key": "npu_tops",
+          "label": "NPU",
+          "unit": "TOPS"
+        },
+        {
+          "key": "mmacs",
+          "label": "MACs",
+          "unit": "MMAC/s"
+        },
+        {
+          "key": "mflops",
+          "label": "MFLOPS",
+          "unit": "MFLOPS"
+        }
       ]
     },
     {
-      "id": "fpga", "label": "Logic",
+      "id": "fpga",
+      "label": "Logic",
       "fields": [
-        { "key": "logic_elements", "label": "Logic elements / cells", "format": "count" },
-        { "key": "dsp_slices",     "label": "DSP slices",             "format": "count" },
-        { "key": "block_ram_kb",   "label": "Block RAM",              "format": "kb" },
-        { "key": "io_pins",        "label": "I/O pins",               "format": "count" },
-        { "key": "transceivers",   "label": "Transceivers",           "format": "count" }
+        {
+          "key": "logic_elements",
+          "label": "Logic elements / cells",
+          "format": "count"
+        },
+        {
+          "key": "dsp_slices",
+          "label": "DSP slices",
+          "format": "count"
+        },
+        {
+          "key": "block_ram_kb",
+          "label": "Block RAM",
+          "format": "kb"
+        },
+        {
+          "key": "io_pins",
+          "label": "I/O pins",
+          "format": "count"
+        },
+        {
+          "key": "transceivers",
+          "label": "Transceivers",
+          "format": "count"
+        },
+        {
+          "key": "transceiver_gbps",
+          "label": "Transceiver speed",
+          "unit": "Gb/s"
+        },
+        {
+          "key": "hard_processor",
+          "label": "Hard processor"
+        }
       ]
     },
     {
-      "id": "power", "label": "Power & I/O",
+      "id": "power",
+      "label": "Power & I/O",
       "fields": [
-        { "key": "tdp_w",           "label": "TDP",            "unit": "W" },
-        { "key": "voltage_v",       "label": "Voltage",        "unit": "V" },
-        { "key": "interface",       "label": "Interface" },
-        { "key": "pcie_lanes",      "label": "PCIe lanes",     "format": "count" },
-        { "key": "modem",           "label": "Modem" },
-        { "key": "connectivity",    "label": "Connectivity" },
-        { "key": "instruction_sets","label": "Extensions" }
+        {
+          "key": "tdp_w",
+          "label": "TDP",
+          "unit": "W"
+        },
+        {
+          "key": "voltage_v",
+          "label": "Voltage",
+          "unit": "V"
+        },
+        {
+          "key": "interface",
+          "label": "Interface"
+        },
+        {
+          "key": "pcie_lanes",
+          "label": "PCIe lanes",
+          "format": "count"
+        },
+        {
+          "key": "modem",
+          "label": "Modem"
+        },
+        {
+          "key": "connectivity",
+          "label": "Connectivity"
+        },
+        {
+          "key": "instruction_sets",
+          "label": "Extensions"
+        },
+        {
+          "key": "gpio_pins",
+          "label": "GPIO pins",
+          "format": "count"
+        },
+        {
+          "key": "adc",
+          "label": "ADC"
+        },
+        {
+          "key": "dac",
+          "label": "DAC"
+        },
+        {
+          "key": "timers",
+          "label": "Timers"
+        },
+        {
+          "key": "interfaces",
+          "label": "Interfaces"
+        }
       ]
     }
   ],
   "highlights": {
-    "cpu":  ["cores", "boost_clock_mhz", "process_nm", "tdp_w"],
-    "gpu":  ["shading_units", "memory_size_mb", "fp32_tflops", "tdp_w"],
-    "apu":  ["cores", "boost_clock_mhz", "gpu_cores", "process_nm"],
-    "soc":  ["cores", "boost_clock_mhz", "process_nm", "transistors"],
-    "ai":   ["bf16_tflops", "int8_tops", "memory_size_mb", "tdp_w"],
-    "mcu":  ["data_width_bits", "base_clock_mhz", "flash_kb", "sram_kb"],
-    "dsp":  ["data_width_bits", "base_clock_mhz", "mips", "process_nm"],
-    "fpga": ["logic_elements", "dsp_slices", "block_ram_kb", "process_nm"]
+    "cpu": [
+      "cores",
+      "boost_clock_mhz",
+      "process_nm",
+      "tdp_w"
+    ],
+    "gpu": [
+      "shading_units",
+      "memory_size_mb",
+      "fp32_tflops",
+      "tdp_w"
+    ],
+    "apu": [
+      "cores",
+      "boost_clock_mhz",
+      "gpu_cores",
+      "process_nm"
+    ],
+    "soc": [
+      "cores",
+      "boost_clock_mhz",
+      "process_nm",
+      "transistors"
+    ],
+    "ai": [
+      "bf16_tflops",
+      "int8_tops",
+      "memory_size_mb",
+      "tdp_w"
+    ],
+    "mcu": [
+      "data_width_bits",
+      "base_clock_mhz",
+      "flash_kb",
+      "sram_kb"
+    ],
+    "dsp": [
+      "data_width_bits",
+      "base_clock_mhz",
+      "mips",
+      "process_nm"
+    ],
+    "fpga": [
+      "logic_elements",
+      "dsp_slices",
+      "block_ram_kb",
+      "process_nm"
+    ]
+  },
+  "expected": {
+    "cpu": [
+      "codename",
+      "microarchitecture",
+      "isa",
+      "market",
+      "launch_price_usd",
+      "process_nm",
+      "foundry",
+      "transistors",
+      "die_size_mm2",
+      "socket",
+      "package",
+      "cores",
+      "threads",
+      "data_width_bits",
+      "address_width_bits",
+      "base_clock_mhz",
+      "boost_clock_mhz",
+      "l1_cache_kb",
+      "l2_cache_kb",
+      "l3_cache_kb",
+      "memory_type",
+      "max_memory_mb",
+      "tdp_w",
+      "voltage_v",
+      "interface",
+      "instruction_sets"
+    ],
+    "gpu": [
+      "codename",
+      "microarchitecture",
+      "market",
+      "launch_price_usd",
+      "process_nm",
+      "foundry",
+      "transistors",
+      "die_size_mm2",
+      "shading_units",
+      "tmus",
+      "rops",
+      "compute_units",
+      "tensor_cores",
+      "rt_cores",
+      "gpu_clock_mhz",
+      "gpu_boost_clock_mhz",
+      "l2_cache_kb",
+      "memory_type",
+      "memory_size_mb",
+      "memory_bus_bits",
+      "memory_clock_mhz",
+      "memory_bandwidth_gbs",
+      "pixel_rate_gpixels",
+      "texture_rate_gtexels",
+      "fp32_tflops",
+      "fp16_tflops",
+      "fp64_tflops",
+      "tdp_w",
+      "interface",
+      "graphics_api"
+    ],
+    "apu": [
+      "codename",
+      "microarchitecture",
+      "isa",
+      "market",
+      "launch_price_usd",
+      "process_nm",
+      "foundry",
+      "transistors",
+      "die_size_mm2",
+      "socket",
+      "cores",
+      "threads",
+      "base_clock_mhz",
+      "boost_clock_mhz",
+      "l1_cache_kb",
+      "l2_cache_kb",
+      "l3_cache_kb",
+      "gpu",
+      "gpu_cores",
+      "compute_units",
+      "gpu_clock_mhz",
+      "fp32_tflops",
+      "npu_tops",
+      "memory_type",
+      "max_memory_mb",
+      "memory_bandwidth_gbs",
+      "tdp_w",
+      "pcie_lanes",
+      "instruction_sets"
+    ],
+    "soc": [
+      "codename",
+      "microarchitecture",
+      "isa",
+      "market",
+      "process_nm",
+      "foundry",
+      "transistors",
+      "die_size_mm2",
+      "cores",
+      "core_config",
+      "base_clock_mhz",
+      "boost_clock_mhz",
+      "l2_cache_kb",
+      "l3_cache_kb",
+      "slc_kb",
+      "gpu",
+      "gpu_cores",
+      "gpu_clock_mhz",
+      "fp32_tflops",
+      "npu_tops",
+      "memory_type",
+      "memory_bus_bits",
+      "memory_bandwidth_gbs",
+      "max_memory_mb",
+      "modem",
+      "connectivity",
+      "tdp_w"
+    ],
+    "ai": [
+      "codename",
+      "microarchitecture",
+      "market",
+      "process_nm",
+      "foundry",
+      "transistors",
+      "die_size_mm2",
+      "cores",
+      "compute_units",
+      "tensor_cores",
+      "boost_clock_mhz",
+      "sram_kb",
+      "memory_type",
+      "memory_size_mb",
+      "memory_bus_bits",
+      "memory_bandwidth_gbs",
+      "fp64_tflops",
+      "fp32_tflops",
+      "fp16_tflops",
+      "bf16_tflops",
+      "fp8_tflops",
+      "int8_tops",
+      "tdp_w",
+      "interface"
+    ],
+    "mcu": [
+      "microarchitecture",
+      "isa",
+      "market",
+      "process_nm",
+      "package",
+      "cores",
+      "data_width_bits",
+      "base_clock_mhz",
+      "flash_kb",
+      "sram_kb",
+      "eeprom_kb",
+      "gpio_pins",
+      "adc",
+      "dac",
+      "timers",
+      "interfaces",
+      "voltage_v",
+      "mips"
+    ],
+    "dsp": [
+      "microarchitecture",
+      "isa",
+      "market",
+      "process_nm",
+      "transistors",
+      "package",
+      "cores",
+      "data_width_bits",
+      "address_width_bits",
+      "base_clock_mhz",
+      "mips",
+      "mmacs",
+      "mflops",
+      "sram_kb",
+      "interfaces",
+      "voltage_v",
+      "tdp_w"
+    ],
+    "fpga": [
+      "market",
+      "process_nm",
+      "foundry",
+      "logic_elements",
+      "dsp_slices",
+      "block_ram_kb",
+      "io_pins",
+      "transceivers",
+      "transceiver_gbps",
+      "hard_processor",
+      "memory_type",
+      "package",
+      "voltage_v"
+    ]
   }
 }

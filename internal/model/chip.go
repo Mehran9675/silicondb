@@ -10,6 +10,9 @@ type Chip struct {
 	Family   string         `json:"family"`
 	Released string         `json:"released"`
 	Specs    map[string]any `json:"specs"`
+	// NA lists expected specs that don't apply to this chip, such as
+	// a boost clock on a 1970s CPU. Only the data tools read it.
+	NA []string `json:"na,omitempty"`
 
 	// Filled in when the shard is loaded, not stored per chip.
 	Manufacturer string `json:"-"`

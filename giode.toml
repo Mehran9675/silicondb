@@ -9,7 +9,7 @@ build = 1
 icon = "assets/icon.png"
 package = "."
 publisher = "Silicon DB"
-description = "Specifications of every processor, GPU, SoC and AI accelerator since the Intel 8008."
+description = "Specifications of processors, GPUs, SoCs, AI accelerators and other chips."
 website = "https://github.com/Mehran9675/silicondb"
 
 [android]

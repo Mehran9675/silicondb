@@ -22,7 +22,7 @@ func searchShortcut(onClick func()) *giode.PressableElement {
 			BorderColor:  theme.Border,
 		},
 			theme.Icon("search", 18, theme.Muted),
-			giode.Text("Search 8008, Zen 5, H100, M4…", theme.Body().With(giode.Styles{Color: theme.Muted})),
+			giode.Text("Search chips, families, codenames…", theme.Body().With(giode.Styles{Color: theme.Muted})),
 		)
 	}).Label("Search").OnClick(func(giode.ClickEvent) { onClick() })
 }

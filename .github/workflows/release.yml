@@ -1,11 +1,15 @@
-# Builds Silicon DB when a release is published and attaches the builds
-# to it. Nothing runs on pushes or pull requests.
+# Builds Silicon DB for Android and iOS when a release is published and
+# attaches the builds to it. Nothing runs on pushes or pull requests.
 #
-# Optional repository secrets for a signed Android release (without them
-# the APK is signed with a throwaway debug key, which can't update a
-# previously installed copy):
-#   ANDROID_KEYSTORE_BASE64   base64 of the keystore made by `giode keystore`
-#   ANDROID_KEYSTORE_PASS     its password
+# Repository secrets:
+#   Android (optional; without them the APK is signed with a throwaway
+#   debug key, which can't update a previously installed copy):
+#     ANDROID_KEYSTORE_BASE64   base64 of the keystore made by `giode keystore`
+#     ANDROID_KEYSTORE_PASS     its password
+#   iOS (required for the iOS build; it is skipped with a warning without them):
+#     IOS_CERTIFICATE_BASE64    base64 of the signing certificate exported as .p12
+#     IOS_CERTIFICATE_PASS      the .p12 password
+#     IOS_PROFILE_BASE64        base64 of the .mobileprovision for com.mehran9675.silicondb
 name: Release build
 
 on:
@@ -15,17 +19,13 @@ on:
 permissions:
   contents: write
 
+env:
+  TAG: ${{ github.event.release.tag_name }}
+  GH_TOKEN: ${{ github.token }}
+
 jobs:
-  build:
-    name: ${{ matrix.target }}
+  android:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        target: [android, windows, web]
-    env:
-      GH_TOKEN: ${{ github.token }}
-      TAG: ${{ github.event.release.tag_name }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,7 +34,6 @@ jobs:
           go-version-file: go.mod
 
       - uses: actions/setup-java@v4
-        if: matrix.target == 'android'
         with:
           distribution: temurin
           java-version: '17'
@@ -43,44 +42,85 @@ jobs:
         run: go install github.com/mehran9675/giode-cli/cmd/giode@latest
 
       - name: Set the version from the release tag
-        run: |
-          version="${TAG#v}"
-          sed -i "s/^version = .*/version = \"${version}\"/" giode.toml
-          sed -i "s/^build = .*/build = ${{ github.run_number }}/" giode.toml
-          sed -i "s/^var Version = .*/var Version = \"${version}\"/" internal/config/config.go
+        run: .github/scripts/set-version.sh
 
       - name: Check the data
         run: go run ./cmd/indexgen -check
 
-      - name: Build Android
-        if: matrix.target == 'android'
+      - name: Build
         env:
           KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
           GIODE_KEYSTORE_PASS: ${{ secrets.ANDROID_KEYSTORE_PASS }}
         run: |
           if [ -n "$KEYSTORE" ]; then
             echo "$KEYSTORE" | base64 -d > release.keystore
-            sed -i 's/^\[android\]$/[android]\nkeystore = "release.keystore"/' giode.toml
+            .github/scripts/toml-set.py android keystore '"release.keystore"'
             giode build -release android
           else
+            echo "::warning::No Android keystore secrets; the APK is signed with a debug key."
             giode build android
           fi
           mkdir -p out
           cp dist/android/*.apk "out/SiliconDB-${TAG}.apk"
 
-      - name: Build Windows
-        if: matrix.target == 'windows'
-        run: |
-          giode build windows
-          mkdir -p out
-          cp dist/windows/*.exe "out/SiliconDB-${TAG}-windows.exe"
+      - name: Attach to the release
+        run: gh release upload "$TAG" out/* --clobber
 
-      - name: Build web
-        if: matrix.target == 'web'
+  ios:
+    runs-on: macos-latest
+    env:
+      CERTIFICATE: ${{ secrets.IOS_CERTIFICATE_BASE64 }}
+      CERTIFICATE_PASS: ${{ secrets.IOS_CERTIFICATE_PASS }}
+      PROFILE: ${{ secrets.IOS_PROFILE_BASE64 }}
+    steps:
+      - name: Check the signing secrets
+        id: secrets
         run: |
-          giode build web
+          if [ -z "$CERTIFICATE" ] || [ -z "$PROFILE" ]; then
+            echo "::warning::No iOS signing secrets; skipping the iOS build."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.secrets.outputs.ready == 'true'
+
+      - uses: actions/setup-go@v5
+        if: steps.secrets.outputs.ready == 'true'
+        with:
+          go-version-file: go.mod
+
+      - name: Install the giode CLI
+        if: steps.secrets.outputs.ready == 'true'
+        run: go install github.com/mehran9675/giode-cli/cmd/giode@latest
+
+      - name: Set the version from the release tag
+        if: steps.secrets.outputs.ready == 'true'
+        run: .github/scripts/set-version.sh
+
+      - name: Install the certificate and profile
+        if: steps.secrets.outputs.ready == 'true'
+        run: |
+          keychain="$RUNNER_TEMP/signing.keychain-db"
+          keychain_pass="$(openssl rand -hex 16)"
+          echo "$CERTIFICATE" | base64 -d > "$RUNNER_TEMP/cert.p12"
+          security create-keychain -p "$keychain_pass" "$keychain"
+          security set-keychain-settings -lut 3600 "$keychain"
+          security unlock-keychain -p "$keychain_pass" "$keychain"
+          security import "$RUNNER_TEMP/cert.p12" -P "$CERTIFICATE_PASS" -A -t cert -f pkcs12 -k "$keychain"
+          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$keychain_pass" "$keychain"
+          security list-keychains -d user -s "$keychain" $(security list-keychains -d user | tr -d '"')
+          echo "$PROFILE" | base64 -d > SiliconDB.mobileprovision
+          .github/scripts/toml-set.py ios profile '"SiliconDB.mobileprovision"'
+
+      - name: Build
+        if: steps.secrets.outputs.ready == 'true'
+        run: |
+          giode build -release ios
           mkdir -p out
-          (cd dist/web && zip -r "../../out/SiliconDB-${TAG}-web.zip" .)
+          cp dist/ios/*.ipa "out/SiliconDB-${TAG}.ipa"
 
       - name: Attach to the release
+        if: steps.secrets.outputs.ready == 'true'
         run: gh release upload "$TAG" out/* --clobber

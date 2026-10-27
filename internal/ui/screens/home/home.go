@@ -43,7 +43,7 @@ func (s *Screen) content() giode.Element {
 	}
 	return components.Column(18,
 		giode.Box(giode.Styles{Height: 10}),
-		components.HeroCard("Silicon DB", "Every processor since the Intel 8008", []components.HeroStat{
+		components.HeroCard("Silicon DB", "The processor encyclopedia", []components.HeroStat{
 			{Value: format.Number(float64(len(cat.Chips)), 0), Label: "chips"},
 			{Value: fmt.Sprint(len(cat.Manufacturers)), Label: "manufacturers"},
 			{Value: years, Label: "years"},
