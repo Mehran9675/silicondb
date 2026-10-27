@@ -8,16 +8,39 @@
       "family": "Exynos 3",
       "released": "2010-06",
       "specs": {
-        "codename": "Hummingbird",
+        "codename": "Hummingbird (S5PC110)",
+        "microarchitecture": "Cortex-A8",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 45,
         "foundry": "Samsung",
         "cores": 1,
-        "microarchitecture": "Cortex-A8",
+        "core_config": "1x Cortex-A8 @ 1.0 GHz",
         "boost_clock_mhz": 1000,
+        "l2_cache_kb": 512,
         "gpu": "PowerVR SGX540",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 200,
+        "memory_type": "LPDDR1 / LPDDR2 / DDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 3.2,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "TV out"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-4210",
@@ -25,15 +48,39 @@
       "family": "Exynos 4",
       "released": "2011-04",
       "specs": {
+        "codename": "Orion (S5PV310)",
+        "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 45,
         "foundry": "Samsung",
         "cores": 2,
-        "microarchitecture": "Cortex-A9",
+        "core_config": "2x Cortex-A9 @ 1.2 GHz",
         "boost_clock_mhz": 1200,
+        "l2_cache_kb": 1024,
         "gpu": "Mali-400 MP4",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 266,
+        "memory_type": "LPDDR2 / DDR2 / DDR3",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 6.4,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "HDMI 1.3a"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-4412",
@@ -41,15 +88,39 @@
       "family": "Exynos 4",
       "released": "2012-05",
       "specs": {
+        "codename": "Exynos 4 Quad",
+        "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 32,
         "foundry": "Samsung",
         "cores": 4,
-        "microarchitecture": "Cortex-A9",
+        "core_config": "4x Cortex-A9 @ 1.4 GHz",
         "boost_clock_mhz": 1400,
+        "l2_cache_kb": 1024,
         "gpu": "Mali-400 MP4",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 440,
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 6.4,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-5250",
@@ -57,16 +128,42 @@
       "family": "Exynos 5",
       "released": "2012-10",
       "specs": {
+        "codename": "Exynos 5 Dual",
+        "microarchitecture": "Cortex-A15",
+        "isa": "ARMv7-A",
+        "market": "Tablet",
         "process_nm": 32,
         "foundry": "Samsung",
         "cores": 2,
-        "microarchitecture": "Cortex-A15",
+        "core_config": "2x Cortex-A15 @ 1.7 GHz",
         "boost_clock_mhz": 1700,
+        "l2_cache_kb": 1024,
         "gpu": "Mali-T604 MP4",
-        "memory_type": "LPDDR3",
-        "isa": "ARMv7-A",
-        "market": "Tablet / Laptop"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 533,
+        "memory_type": "LPDDR3-1600 / DDR3",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 12.8,
+        "fp32_tflops": 0.068,
+        "connectivity": [
+          "USB 3.0",
+          "USB 2.0",
+          "HDMI 1.4",
+          "eDP",
+          "SATA 3.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-5410",
@@ -74,16 +171,39 @@
       "family": "Exynos 5 Octa",
       "released": "2013-04",
       "specs": {
+        "codename": "Exynos 5 Octa (5410)",
+        "microarchitecture": "Cortex-A15 / Cortex-A7",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Cortex-A15 @ 1.6 GHz + 4x Cortex-A7 @ 1.2 GHz",
-        "microarchitecture": "Cortex-A15 / Cortex-A7",
         "boost_clock_mhz": 1600,
+        "l2_cache_kb": 2560,
         "gpu": "PowerVR SGX544MP3",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 3,
+        "gpu_clock_mhz": 480,
+        "memory_type": "LPDDR3-1600",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 12.8,
+        "fp32_tflops": 0.046,
+        "connectivity": [
+          "USB 3.0",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-5420",
@@ -91,17 +211,39 @@
       "family": "Exynos 5 Octa",
       "released": "2013-09",
       "specs": {
+        "codename": "Exynos 5 Octa (5420)",
+        "microarchitecture": "Cortex-A15 / Cortex-A7",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Cortex-A15 @ 1.9 GHz + 4x Cortex-A7 @ 1.3 GHz",
-        "microarchitecture": "Cortex-A15 / Cortex-A7",
         "boost_clock_mhz": 1900,
+        "l2_cache_kb": 2560,
         "gpu": "Mali-T628 MP6",
-        "memory_type": "LPDDR3",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 6,
+        "gpu_clock_mhz": 533,
+        "memory_type": "LPDDR3-1866",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 14.9,
+        "fp32_tflops": 0.109,
+        "connectivity": [
+          "USB 3.0",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-5433",
@@ -109,16 +251,39 @@
       "family": "Exynos 5 Octa",
       "released": "2014-10",
       "specs": {
+        "codename": "Exynos 7 Octa (5433)",
+        "microarchitecture": "Cortex-A57 / Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 20,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Cortex-A57 @ 1.9 GHz + 4x Cortex-A53 @ 1.3 GHz",
-        "microarchitecture": "Cortex-A57 / Cortex-A53",
         "boost_clock_mhz": 1900,
+        "l2_cache_kb": 2304,
         "gpu": "Mali-T760 MP6",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 6,
+        "gpu_clock_mhz": 700,
+        "memory_type": "LPDDR3-1650",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 13.2,
+        "fp32_tflops": 0.143,
+        "connectivity": [
+          "USB 2.0",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-7420",
@@ -126,18 +291,39 @@
       "family": "Exynos 7 Octa",
       "released": "2015-04",
       "specs": {
+        "codename": "Exynos 7 Octa (7420)",
+        "microarchitecture": "Cortex-A57 / Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 14,
         "foundry": "Samsung",
         "die_size_mm2": 78,
         "cores": 8,
         "core_config": "4x Cortex-A57 @ 2.1 GHz + 4x Cortex-A53 @ 1.5 GHz",
-        "microarchitecture": "Cortex-A57 / Cortex-A53",
         "boost_clock_mhz": 2100,
+        "l2_cache_kb": 2304,
         "gpu": "Mali-T760 MP8",
-        "memory_type": "LPDDR4",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 8,
+        "gpu_clock_mhz": 772,
+        "memory_type": "LPDDR4-3104",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 24.9,
+        "fp32_tflops": 0.21,
+        "connectivity": [
+          "USB 3.0",
+          "UFS 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-8890",
@@ -145,17 +331,40 @@
       "family": "Exynos 8 Octa",
       "released": "2016-03",
       "specs": {
+        "codename": "Exynos 8 Octa (8890)",
+        "microarchitecture": "Mongoose (M1) / Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 14,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Exynos M1 @ 2.3 GHz + 4x Cortex-A53 @ 1.6 GHz",
-        "microarchitecture": "Mongoose (M1) / Cortex-A53",
         "boost_clock_mhz": 2600,
+        "l2_cache_kb": 2304,
         "gpu": "Mali-T880 MP12",
-        "memory_type": "LPDDR4",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 650,
+        "memory_type": "LPDDR4-3588",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 28.7,
+        "fp32_tflops": 0.265,
+        "modem": "Shannon LTE (Cat 12/13, 600 Mbps, integrated)",
+        "connectivity": [
+          "USB 3.0",
+          "UFS 2.0",
+          "GNSS"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-8895",
@@ -163,17 +372,40 @@
       "family": "Exynos 9",
       "released": "2017-04",
       "specs": {
+        "codename": "Exynos 9 Series (8895)",
+        "microarchitecture": "Mongoose (M2) / Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 10,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Exynos M2 @ 2.31 GHz + 4x Cortex-A53 @ 1.69 GHz",
-        "microarchitecture": "Mongoose (M2) / Cortex-A53",
         "boost_clock_mhz": 2314,
+        "l2_cache_kb": 2560,
         "gpu": "Mali-G71 MP20",
-        "memory_type": "LPDDR4X",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 20,
+        "gpu_clock_mhz": 546,
+        "memory_type": "LPDDR4X-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 29.9,
+        "fp32_tflops": 0.262,
+        "modem": "Shannon LTE (Cat 16, 1 Gbps, integrated)",
+        "connectivity": [
+          "USB 3.1",
+          "UFS 2.1",
+          "GNSS"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-9810",
@@ -181,17 +413,40 @@
       "family": "Exynos 9",
       "released": "2018-03",
       "specs": {
+        "codename": "Exynos 9 Series (9810)",
+        "microarchitecture": "Meerkat (M3) / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 10,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Exynos M3 @ 2.9 GHz + 4x Cortex-A55 @ 1.9 GHz",
-        "microarchitecture": "Meerkat (M3) / Cortex-A55",
         "boost_clock_mhz": 2900,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 4096,
         "gpu": "Mali-G72 MP18",
-        "memory_type": "LPDDR4X",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 18,
+        "gpu_clock_mhz": 572,
+        "memory_type": "LPDDR4X-3733",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 29.9,
+        "fp32_tflops": 0.247,
+        "modem": "Shannon LTE (Cat 18, 1.2 Gbps, integrated)",
+        "connectivity": [
+          "USB 3.1",
+          "UFS 2.1",
+          "GNSS"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-9820",
@@ -199,17 +454,40 @@
       "family": "Exynos 9",
       "released": "2019-03",
       "specs": {
+        "codename": "S5E9820",
+        "microarchitecture": "Cheetah (M4) / Cortex-A75 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 8,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "2x Exynos M4 @ 2.73 GHz + 2x Cortex-A75 @ 2.31 GHz + 4x Cortex-A55 @ 1.95 GHz",
-        "microarchitecture": "Cheetah (M4) / Cortex-A75 / Cortex-A55",
         "boost_clock_mhz": 2730,
+        "l2_cache_kb": 2816,
+        "l3_cache_kb": 4096,
         "gpu": "Mali-G76 MP12",
-        "memory_type": "LPDDR4X",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 702,
+        "memory_type": "LPDDR4X-4266",
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "fp32_tflops": 0.404,
+        "modem": "LTE Cat 20 (2 Gbps, integrated)",
+        "connectivity": [
+          "USB 3.1",
+          "UFS 3.0",
+          "GNSS"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-990",
@@ -217,17 +495,40 @@
       "family": "Exynos 9",
       "released": "2020-03",
       "specs": {
+        "codename": "S5E9830",
+        "microarchitecture": "Lion (M5) / Cortex-A76 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 7,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "2x Exynos M5 @ 2.73 GHz + 2x Cortex-A76 @ 2.5 GHz + 4x Cortex-A55 @ 2.0 GHz",
-        "microarchitecture": "Lion (M5) / Cortex-A76 / Cortex-A55",
         "boost_clock_mhz": 2730,
+        "l2_cache_kb": 2816,
+        "l3_cache_kb": 3072,
         "gpu": "Mali-G77 MP11",
-        "memory_type": "LPDDR5",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 11,
+        "gpu_clock_mhz": 800,
+        "memory_type": "LPDDR5-5500",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 44,
+        "fp32_tflops": 0.563,
+        "npu_tops": 10,
+        "connectivity": [
+          "USB 3.1",
+          "UFS 3.0",
+          "GNSS"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "samsung-exynos-1080",
@@ -235,15 +536,41 @@
       "family": "Exynos 1000",
       "released": "2020-11",
       "specs": {
+        "codename": "S5E9815",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "1x Cortex-A78 @ 2.8 GHz + 3x Cortex-A78 @ 2.6 GHz + 4x Cortex-A55 @ 2.0 GHz",
         "boost_clock_mhz": 2800,
         "gpu": "Mali-G78 MP10",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 10,
+        "gpu_clock_mhz": 800,
+        "memory_type": "LPDDR5-5500 / LPDDR4X",
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 44,
+        "fp32_tflops": 0.512,
+        "npu_tops": 5.7,
+        "modem": "Exynos 5G (sub-6 + mmWave, integrated)",
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax)",
+          "Bluetooth 5.2",
+          "USB 3.1",
+          "UFS 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-2100",
@@ -251,17 +578,41 @@
       "family": "Exynos 2000",
       "released": "2021-01",
       "specs": {
+        "codename": "S5E9840",
+        "microarchitecture": "Cortex-X1 / Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "1x Cortex-X1 @ 2.9 GHz + 3x Cortex-A78 @ 2.8 GHz + 4x Cortex-A55 @ 2.2 GHz",
         "boost_clock_mhz": 2900,
+        "l3_cache_kb": 4096,
         "gpu": "Mali-G78 MP14",
+        "gpu_cores": 14,
+        "gpu_clock_mhz": 854,
+        "memory_type": "LPDDR5-6400",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "fp32_tflops": 0.765,
         "npu_tops": 26,
-        "memory_type": "LPDDR5",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "modem": "Exynos 5G (sub-6 + mmWave, integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.2",
+          "USB 3.2",
+          "UFS 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "slc_kb",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-2200",
@@ -269,16 +620,41 @@
       "family": "Exynos 2000",
       "released": "2022-01",
       "specs": {
+        "codename": "S5E9925",
+        "microarchitecture": "Cortex-X2 / Cortex-A710 / Cortex-A510",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "1x Cortex-X2 @ 2.8 GHz + 3x Cortex-A710 @ 2.52 GHz + 4x Cortex-A510 @ 1.82 GHz",
         "boost_clock_mhz": 2800,
+        "l2_cache_kb": 3072,
+        "l3_cache_kb": 4096,
         "gpu": "Xclipse 920 (AMD RDNA 2)",
-        "memory_type": "LPDDR5",
-        "isa": "ARMv9-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 6,
+        "gpu_clock_mhz": 1306,
+        "memory_type": "LPDDR5-6400",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "fp32_tflops": 1.0,
+        "modem": "Exynos 5G (sub-6 + mmWave, integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.2",
+          "USB 3.2",
+          "UFS 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-1280",
@@ -286,15 +662,41 @@
       "family": "Exynos 1000",
       "released": "2022-03",
       "specs": {
+        "codename": "S5E8825",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "2x Cortex-A78 @ 2.4 GHz + 6x Cortex-A55 @ 2.0 GHz",
         "boost_clock_mhz": 2400,
         "gpu": "Mali-G68 MP4",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 1000,
+        "memory_type": "LPDDR4X-4266",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 17.1,
+        "fp32_tflops": 0.256,
+        "modem": "Exynos 5G (sub-6 + mmWave, integrated)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 5.2",
+          "USB 2.0",
+          "UFS 2.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-1380",
@@ -302,15 +704,41 @@
       "family": "Exynos 1000",
       "released": "2023-03",
       "specs": {
+        "codename": "S5E8835",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Cortex-A78 @ 2.4 GHz + 4x Cortex-A55 @ 2.0 GHz",
         "boost_clock_mhz": 2400,
         "gpu": "Mali-G68 MP5",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 5,
+        "gpu_clock_mhz": 950,
+        "memory_type": "LPDDR5-6400 / LPDDR4X",
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 25.6,
+        "fp32_tflops": 0.304,
+        "npu_tops": 4.9,
+        "modem": "Exynos 5G (sub-6, integrated)",
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax)",
+          "Bluetooth 5.3",
+          "USB 3.2",
+          "UFS 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-2400",
@@ -318,16 +746,41 @@
       "family": "Exynos 2000",
       "released": "2024-01",
       "specs": {
+        "codename": "S5E9945",
+        "microarchitecture": "Cortex-X4 / Cortex-A720 / Cortex-A520",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "Samsung",
         "cores": 10,
         "core_config": "1x Cortex-X4 @ 3.21 GHz + 2x Cortex-A720 @ 2.9 GHz + 3x Cortex-A720 @ 2.6 GHz + 4x Cortex-A520 @ 1.95 GHz",
         "boost_clock_mhz": 3210,
         "gpu": "Xclipse 940 (AMD RDNA 3)",
-        "memory_type": "LPDDR5X",
-        "isa": "ARMv9.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 1095,
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "modem": "Exynos 5G (sub-6 + mmWave, integrated)",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.3",
+          "USB 3.2",
+          "UFS 4.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-1480",
@@ -335,15 +788,41 @@
       "family": "Exynos 1000",
       "released": "2024-03",
       "specs": {
+        "codename": "S5E8845",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "4x Cortex-A78 @ 2.75 GHz + 4x Cortex-A55 @ 2.0 GHz",
         "boost_clock_mhz": 2750,
         "gpu": "Xclipse 530 (AMD RDNA 3)",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 1300,
+        "memory_type": "LPDDR5-6400 / LPDDR4X",
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 25.6,
+        "modem": "Exynos 5G (sub-6, integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.3",
+          "USB 3.2",
+          "UFS 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-1580",
@@ -351,15 +830,41 @@
       "family": "Exynos 1000",
       "released": "2025-03",
       "specs": {
+        "codename": "S5E8855",
+        "microarchitecture": "Cortex-A720 / Cortex-A520",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "1x Cortex-A720 @ 2.9 GHz + 3x Cortex-A720 @ 2.6 GHz + 4x Cortex-A520 @ 1.95 GHz",
         "boost_clock_mhz": 2900,
         "gpu": "Xclipse 540",
-        "isa": "ARMv9.2-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 1300,
+        "memory_type": "LPDDR5-6400",
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 25.6,
+        "npu_tops": 14.7,
+        "modem": "Exynos 5G (sub-6, integrated)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.3",
+          "USB 3.2",
+          "UFS 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-2500",
@@ -367,16 +872,41 @@
       "family": "Exynos 2000",
       "released": "2025-07",
       "specs": {
+        "codename": "S5E9955",
+        "microarchitecture": "Cortex-X925 / Cortex-A725 / Cortex-A520",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "Samsung",
         "cores": 10,
         "core_config": "1x Cortex-X925 @ 3.3 GHz + 2x Cortex-A725 @ 2.74 GHz + 5x Cortex-A725 @ 2.36 GHz + 2x Cortex-A520 @ 1.8 GHz",
         "boost_clock_mhz": 3300,
         "gpu": "Xclipse 950",
-        "memory_type": "LPDDR5X",
-        "isa": "ARMv9.2-A",
-        "market": "Mobile"
-      }
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "npu_tops": 59,
+        "modem": "Exynos 5G (sub-6 + mmWave, integrated)",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB 3.2",
+          "UFS 4.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "samsung-exynos-2600",
@@ -384,14 +914,41 @@
       "family": "Exynos 2000",
       "released": "2026-02",
       "specs": {
+        "codename": "S5E9965",
+        "microarchitecture": "Arm C1-Ultra / C1-Pro",
+        "isa": "ARMv9.3-A",
+        "market": "Mobile",
         "process_nm": 2,
         "foundry": "Samsung",
         "cores": 10,
+        "core_config": "1x C1-Ultra @ 3.8 GHz + 3x C1-Pro @ 3.25 GHz + 6x C1-Pro @ 2.75 GHz",
         "boost_clock_mhz": 3800,
         "gpu": "Xclipse 960",
-        "memory_type": "LPDDR5X",
-        "market": "Mobile"
-      }
+        "memory_type": "LPDDR5X-10700",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 85.6,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB 3.2",
+          "UFS 4.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     }
   ]
 }

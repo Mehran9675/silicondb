@@ -10,16 +10,33 @@
       "specs": {
         "microarchitecture": "Cortex-M3",
         "isa": "ARMv7-M",
+        "market": "Embedded",
+        "package": "LQFP100 / TFBGA100",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 100,
         "flash_kb": 512,
         "sram_kb": 64,
-        "connectivity": [
-          "Ethernet",
-          "USB 2.0 Full Speed",
-          "CAN"
+        "mips": 125,
+        "voltage_v": 3.3,
+        "gpio_pins": 70,
+        "adc": "12-bit, 8 channels",
+        "dac": "10-bit, 1 channel",
+        "timers": "4× 32-bit, RIT, motor-control PWM, 6-ch PWM",
+        "interfaces": [
+          "Ethernet MAC",
+          "USB 2.0 Full Speed (Device/Host/OTG)",
+          "2× CAN",
+          "4× UART",
+          "3× SPI/SSP",
+          "3× I2C",
+          "I2S"
         ]
-      }
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb"
+      ]
     },
     {
       "id": "nxp-lpc1114",
@@ -29,11 +46,29 @@
       "specs": {
         "microarchitecture": "Cortex-M0",
         "isa": "ARMv6-M",
+        "market": "Embedded",
+        "package": "LQFP48 / HVQFN33 / DIP28",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 50,
         "flash_kb": 32,
-        "sram_kb": 8
-      }
+        "sram_kb": 8,
+        "mips": 45,
+        "voltage_v": 3.3,
+        "gpio_pins": 42,
+        "adc": "10-bit, 8 channels",
+        "timers": "2× 16-bit, 2× 32-bit",
+        "interfaces": [
+          "UART",
+          "2× SPI/SSP",
+          "I2C"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "nxp-lpc810",
@@ -43,12 +78,29 @@
       "specs": {
         "microarchitecture": "Cortex-M0+",
         "isa": "ARMv6-M",
+        "market": "Embedded",
+        "package": "8-pin DIP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 30,
         "flash_kb": 4,
         "sram_kb": 1,
-        "package": "8-pin DIP"
-      }
+        "mips": 28,
+        "voltage_v": 3.3,
+        "gpio_pins": 6,
+        "timers": "SCTimer/PWM, 4-ch multi-rate timer, self-wake-up timer, WWDT",
+        "interfaces": [
+          "2× USART",
+          "SPI",
+          "I2C"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "adc",
+        "dac"
+      ]
     },
     {
       "id": "nxp-imxrt1062",
@@ -58,11 +110,35 @@
       "specs": {
         "microarchitecture": "Cortex-M7",
         "isa": "ARMv7E-M",
-        "data_width_bits": 32,
+        "market": "Embedded",
         "process_nm": 40,
+        "package": "MAPBGA196",
+        "cores": 1,
+        "data_width_bits": 32,
         "base_clock_mhz": 600,
-        "sram_kb": 1024
-      }
+        "sram_kb": 1024,
+        "mips": 1284,
+        "voltage_v": 1.15,
+        "gpio_pins": 127,
+        "adc": "2× 12-bit, 20 channels",
+        "timers": "4× GPT (32-bit), 4× PIT, 4× QuadTimer, 4× FlexPWM",
+        "interfaces": [
+          "2× USB 2.0 OTG High Speed",
+          "2× 10/100 Ethernet",
+          "3× CAN (1× CAN FD)",
+          "8× LPUART",
+          "4× LPSPI",
+          "4× LPI2C",
+          "3× SAI",
+          "2× uSDHC",
+          "FlexSPI"
+        ]
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "nxp-lpc55s69",
@@ -72,13 +148,31 @@
       "specs": {
         "microarchitecture": "Cortex-M33",
         "isa": "ARMv8-M",
-        "data_width_bits": 32,
+        "market": "Embedded",
         "process_nm": 40,
+        "package": "HLQFP100 / VFBGA98",
         "cores": 2,
+        "data_width_bits": 32,
         "base_clock_mhz": 150,
         "flash_kb": 640,
-        "sram_kb": 320
-      }
+        "sram_kb": 320,
+        "mips": 225,
+        "voltage_v": 3.3,
+        "gpio_pins": 64,
+        "adc": "16-bit, 10 channels",
+        "timers": "5× 32-bit, SCTimer/PWM, multi-rate timer, RTC",
+        "interfaces": [
+          "USB 2.0 High Speed",
+          "USB 2.0 Full Speed",
+          "9× Flexcomm (USART/SPI/I2C/I2S)",
+          "High-speed SPI",
+          "SDIO"
+        ]
+      },
+      "na": [
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "nxp-imxrt1176",
@@ -88,13 +182,38 @@
       "specs": {
         "microarchitecture": "Cortex-M7",
         "isa": "ARMv7E-M",
-        "data_width_bits": 32,
+        "market": "Embedded",
         "process_nm": 28,
+        "package": "MAPBGA289",
         "cores": 2,
         "core_config": "1x Cortex-M7 1 GHz + 1x Cortex-M4 400 MHz",
+        "data_width_bits": 32,
         "base_clock_mhz": 1000,
-        "sram_kb": 2048
-      }
+        "sram_kb": 2048,
+        "mips": 2140,
+        "voltage_v": 1.0,
+        "gpio_pins": 145,
+        "adc": "2× 12-bit, 20 channels",
+        "dac": "12-bit, 1 channel",
+        "timers": "6× GPT, 2× PIT, 4× QuadTimer, 4× FlexPWM",
+        "interfaces": [
+          "2× USB 2.0 OTG High Speed",
+          "Gigabit Ethernet",
+          "2× 10/100 Ethernet",
+          "3× CAN FD",
+          "12× LPUART",
+          "6× LPSPI",
+          "6× LPI2C",
+          "MIPI DSI",
+          "MIPI CSI-2",
+          "2× uSDHC",
+          "FlexSPI"
+        ]
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb"
+      ]
     }
   ]
 }

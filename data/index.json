@@ -66,7 +66,7 @@
           "path": "manufacturers/allwinner/soc.json",
           "category": "soc",
           "count": 7,
-          "rev": "d6087fa5c7855eb1"
+          "rev": "8a35ba5c8e59c6d4"
         }
       ]
     },
@@ -234,7 +234,7 @@
           "path": "manufacturers/broadcom/soc.json",
           "category": "soc",
           "count": 7,
-          "rev": "eb7830d393b67dcc"
+          "rev": "c954cc815cd30cd0"
         }
       ]
     },
@@ -652,7 +652,7 @@
           "path": "manufacturers/mediatek/soc.json",
           "category": "soc",
           "count": 19,
-          "rev": "f33841aa89adf681"
+          "rev": "387ec8b036194532"
         }
       ]
     },
@@ -876,13 +876,13 @@
           "path": "manufacturers/nxp/mcu.json",
           "category": "mcu",
           "count": 6,
-          "rev": "e9c19cf5e022d6cb"
+          "rev": "e559cff952fbb35f"
         },
         {
           "path": "manufacturers/nxp/soc.json",
           "category": "soc",
           "count": 9,
-          "rev": "55fa888dd1b3fe40"
+          "rev": "cce1c519729fe5e3"
         }
       ]
     },
@@ -914,13 +914,13 @@
           "path": "manufacturers/qualcomm/ai.json",
           "category": "ai",
           "count": 2,
-          "rev": "23c3de8a0da9cc41"
+          "rev": "e8ad7d16248fca48"
         },
         {
           "path": "manufacturers/qualcomm/soc.json",
           "category": "soc",
           "count": 41,
-          "rev": "b52f6ba7942a2276"
+          "rev": "3e07d8e47a5a4156"
         }
       ]
     },
@@ -968,13 +968,13 @@
           "path": "manufacturers/renesas/mcu.json",
           "category": "mcu",
           "count": 6,
-          "rev": "875a33a57a4d563e"
+          "rev": "bf0159d0b1259469"
         },
         {
           "path": "manufacturers/renesas/soc.json",
           "category": "soc",
           "count": 2,
-          "rev": "dd4006f25a7e2480"
+          "rev": "78f38ff9c055e42a"
         }
       ]
     },
@@ -990,7 +990,7 @@
           "path": "manufacturers/rockchip/soc.json",
           "category": "soc",
           "count": 8,
-          "rev": "6234b36f663c5469"
+          "rev": "a2d8132790ecbac4"
         }
       ]
     },
@@ -1038,7 +1038,7 @@
           "path": "manufacturers/samsung/soc.json",
           "category": "soc",
           "count": 23,
-          "rev": "9ec21f6f25049f36"
+          "rev": "54ea059cb91c9aff"
         }
       ]
     },
@@ -1146,13 +1146,13 @@
           "path": "manufacturers/tesla/ai.json",
           "category": "ai",
           "count": 1,
-          "rev": "8d9807da419c4701"
+          "rev": "7845fe410b9db0b4"
         },
         {
           "path": "manufacturers/tesla/soc.json",
           "category": "soc",
           "count": 2,
-          "rev": "1ea192dbe80adc5f"
+          "rev": "ae9a2204a29c83d4"
         }
       ]
     },

@@ -8,23 +8,40 @@
       "family": "Full Self-Driving",
       "released": "2019-04",
       "specs": {
+        "codename": "FSD Computer (HW3)",
+        "microarchitecture": "Cortex-A72",
+        "isa": "ARMv8-A",
         "market": "Automotive",
         "process_nm": 14,
         "foundry": "Samsung",
         "transistors": 6000000000,
         "die_size_mm2": 260,
-        "microarchitecture": "Cortex-A72",
-        "isa": "ARMv8-A",
         "cores": 12,
+        "core_config": "12x Cortex-A72 @ 2.2 GHz (3 clusters of 4)",
         "base_clock_mhz": 2200,
+        "l2_cache_kb": 3072,
         "gpu": "Mali-G71 MP12",
+        "gpu_cores": 12,
         "gpu_clock_mhz": 1000,
         "memory_type": "LPDDR4-4266",
+        "max_memory_mb": 8192,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 68,
+        "fp32_tflops": 0.6,
         "npu_tops": 73.7,
-        "tdp_w": 36
-      }
+        "tdp_w": 36,
+        "connectivity": [
+          "PCIe 3.0",
+          "Gigabit Ethernet",
+          "MIPI CSI-2 (camera, 2.5 Gpixel/s)"
+        ]
+      },
+      "na": [
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "modem"
+      ]
     },
     {
       "id": "tesla-ai4",
@@ -32,12 +49,40 @@
       "family": "Full Self-Driving",
       "released": "2023-02",
       "specs": {
+        "codename": "FSD Computer 2 (HW4)",
+        "microarchitecture": "Cortex-A72",
+        "isa": "ARMv8-A",
         "market": "Automotive",
         "process_nm": 7,
         "foundry": "Samsung",
         "cores": 20,
-        "memory_type": "GDDR6"
-      }
+        "core_config": "20x Cortex-A72 @ 2.35 GHz (5 clusters of 4)",
+        "base_clock_mhz": 2350,
+        "gpu": "Mali (integrated)",
+        "memory_type": "GDDR6",
+        "connectivity": [
+          "PCIe",
+          "Gigabit Ethernet",
+          "MIPI CSI-2 (camera)"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "max_memory_mb",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     }
   ]
 }

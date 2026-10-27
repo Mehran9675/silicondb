@@ -10,14 +10,42 @@
       "specs": {
         "microarchitecture": "Cortex-A9",
         "isa": "ARMv7-A",
-        "market": "Embedded / automotive",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 4,
+        "core_config": "4x Cortex-A9 @ 1.2 GHz",
         "base_clock_mhz": 1200,
         "l2_cache_kb": 1024,
         "gpu": "Vivante GC2000",
-        "memory_type": "DDR3/LPDDR2"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 528,
+        "memory_type": "DDR3 / LPDDR2",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "PCIe 2.0 x1",
+          "SATA 2.0",
+          "USB 2.0 OTG",
+          "3x USB 2.0 Host",
+          "2x CAN",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "nxp-imx7dual",
@@ -30,10 +58,37 @@
         "market": "Embedded",
         "process_nm": 28,
         "cores": 2,
-        "core_config": "2x Cortex-A7 + 1x Cortex-M4",
+        "core_config": "2x Cortex-A7 @ 1.0 GHz + 1x Cortex-M4 @ 200 MHz",
         "base_clock_mhz": 1000,
-        "memory_type": "DDR3L/LPDDR2/LPDDR3"
-      }
+        "l2_cache_kb": 512,
+        "memory_type": "DDR3L / LPDDR2 / LPDDR3",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 4.3,
+        "connectivity": [
+          "2x Gigabit Ethernet",
+          "PCIe 2.0 x1",
+          "2x USB 2.0 OTG",
+          "USB 2.0 HSIC",
+          "2x CAN"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "nxp-imx8quadmax",
@@ -41,14 +96,44 @@
       "family": "i.MX 8",
       "released": "2017",
       "specs": {
+        "microarchitecture": "Cortex-A72 / Cortex-A53",
         "isa": "ARMv8-A",
-        "market": "Automotive / embedded",
+        "market": "Automotive",
         "process_nm": 28,
+        "foundry": "Samsung",
         "cores": 6,
-        "core_config": "2x Cortex-A72 + 4x Cortex-A53 + 2x Cortex-M4F",
+        "core_config": "2x Cortex-A72 @ 1.6 GHz + 4x Cortex-A53 @ 1.2 GHz + 2x Cortex-M4F @ 266 MHz",
+        "base_clock_mhz": 1600,
+        "l2_cache_kb": 2048,
         "gpu": "2x Vivante GC7000XSVX",
-        "memory_type": "LPDDR4"
-      }
+        "gpu_clock_mhz": 800,
+        "memory_type": "LPDDR4",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 25.6,
+        "fp32_tflops": 0.128,
+        "connectivity": [
+          "2x Gigabit Ethernet",
+          "2x PCIe 3.0",
+          "USB 3.0",
+          "USB 2.0",
+          "SATA 3.0",
+          "3x CAN FD",
+          "HDMI 2.0"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "nxp-imx8mquad",
@@ -58,14 +143,41 @@
       "specs": {
         "microarchitecture": "Cortex-A53",
         "isa": "ARMv8-A",
-        "market": "Embedded / multimedia",
+        "market": "Embedded",
         "process_nm": 28,
+        "foundry": "TSMC",
         "cores": 4,
-        "core_config": "4x Cortex-A53 + 1x Cortex-M4",
+        "core_config": "4x Cortex-A53 @ 1.5 GHz + 1x Cortex-M4 @ 266 MHz",
         "base_clock_mhz": 1500,
+        "l2_cache_kb": 1024,
         "gpu": "Vivante GC7000Lite",
-        "memory_type": "LPDDR4/DDR4/DDR3L"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 800,
+        "memory_type": "LPDDR4 / DDR4 / DDR3L",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 12.8,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "2x PCIe 2.0 x1",
+          "2x USB 3.0",
+          "HDMI 2.0a",
+          "MIPI DSI",
+          "2x MIPI CSI-2"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "nxp-imx8mmini",
@@ -79,10 +191,36 @@
         "process_nm": 14,
         "foundry": "Samsung",
         "cores": 4,
-        "core_config": "4x Cortex-A53 + 1x Cortex-M4",
+        "core_config": "4x Cortex-A53 @ 1.8 GHz + 1x Cortex-M4 @ 400 MHz",
         "base_clock_mhz": 1800,
-        "memory_type": "LPDDR4/DDR4/DDR3L"
-      }
+        "l2_cache_kb": 512,
+        "gpu": "Vivante GCNanoUltra (3D) + GC320 (2D)",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 600,
+        "memory_type": "LPDDR4/DDR4/DDR3L",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 12.0,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "PCIe 2.0 x1",
+          "2x USB 2.0 OTG",
+          "MIPI DSI",
+          "MIPI CSI-2"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "nxp-imx8mnano",
@@ -96,10 +234,35 @@
         "process_nm": 14,
         "foundry": "Samsung",
         "cores": 4,
-        "core_config": "4x Cortex-A53 + 1x Cortex-M7",
+        "core_config": "4x Cortex-A53 @ 1.5 GHz + 1x Cortex-M7 @ 750 MHz",
         "base_clock_mhz": 1500,
-        "memory_type": "LPDDR4/DDR4/DDR3L"
-      }
+        "l2_cache_kb": 512,
+        "gpu": "Vivante GC7000UltraLite",
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 600,
+        "memory_type": "LPDDR4/DDR4/DDR3L",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 16,
+        "memory_bandwidth_gbs": 6.4,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "USB 2.0 OTG",
+          "MIPI DSI",
+          "MIPI CSI-2"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "nxp-imx8mplus",
@@ -109,15 +272,42 @@
       "specs": {
         "microarchitecture": "Cortex-A53",
         "isa": "ARMv8-A",
-        "market": "Embedded / edge AI",
+        "market": "Embedded",
         "process_nm": 14,
         "foundry": "Samsung",
         "cores": 4,
-        "core_config": "4x Cortex-A53 + 1x Cortex-M7",
+        "core_config": "4x Cortex-A53 @ 1.8 GHz + 1x Cortex-M7 @ 800 MHz",
         "base_clock_mhz": 1800,
+        "l2_cache_kb": 512,
+        "gpu": "Vivante GC7000UltraLite (3D) + GC520L (2D)",
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 1000,
+        "memory_type": "LPDDR4 / DDR4",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 16.0,
         "npu_tops": 2.3,
-        "memory_type": "LPDDR4/DDR4"
-      }
+        "connectivity": [
+          "2x Gigabit Ethernet (1 with TSN)",
+          "PCIe 3.0 x1",
+          "2x USB 3.0",
+          "2x CAN FD",
+          "HDMI 2.0a",
+          "MIPI DSI",
+          "LVDS"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "nxp-imx93",
@@ -127,14 +317,41 @@
       "specs": {
         "microarchitecture": "Cortex-A55",
         "isa": "ARMv8.2-A",
-        "market": "Embedded / edge AI",
+        "market": "Embedded",
         "process_nm": 16,
         "cores": 2,
-        "core_config": "2x Cortex-A55 + 1x Cortex-M33 + Ethos-U65",
+        "core_config": "2x Cortex-A55 @ 1.7 GHz + 1x Cortex-M33 @ 250 MHz + Ethos-U65 NPU",
         "base_clock_mhz": 1700,
+        "l2_cache_kb": 128,
+        "l3_cache_kb": 256,
+        "memory_type": "LPDDR4X / LPDDR4",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 16,
+        "memory_bandwidth_gbs": 7.5,
         "npu_tops": 0.5,
-        "memory_type": "LPDDR4X/LPDDR4"
-      }
+        "connectivity": [
+          "2x Gigabit Ethernet (1 with TSN)",
+          "2x USB 2.0",
+          "2x CAN FD",
+          "MIPI DSI",
+          "MIPI CSI-2",
+          "LVDS"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "nxp-imx95",
@@ -144,15 +361,41 @@
       "specs": {
         "microarchitecture": "Cortex-A55",
         "isa": "ARMv8.2-A",
-        "market": "Automotive / industrial",
+        "market": "Automotive",
         "process_nm": 16,
         "cores": 6,
-        "core_config": "6x Cortex-A55 + 1x Cortex-M7 + 1x Cortex-M33",
+        "core_config": "6x Cortex-A55 @ 2.0 GHz + 1x Cortex-M7 @ 800 MHz + 1x Cortex-M33 @ 333 MHz",
         "base_clock_mhz": 2000,
+        "l2_cache_kb": 384,
+        "l3_cache_kb": 512,
+        "gpu": "Arm Mali-G310 V2",
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 1000,
+        "memory_type": "LPDDR5/LPDDR4X",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 25.6,
         "npu_tops": 2,
-        "gpu": "Arm Mali-G310",
-        "memory_type": "LPDDR5/LPDDR4X"
-      }
+        "connectivity": [
+          "10 Gigabit Ethernet",
+          "2x Gigabit Ethernet (TSN)",
+          "2x PCIe 3.0",
+          "USB 3.0",
+          "USB 2.0",
+          "5x CAN FD"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "slc_kb",
+        "fp32_tflops",
+        "tdp_w",
+        "modem"
+      ]
     }
   ]
 }

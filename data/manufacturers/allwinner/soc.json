@@ -8,14 +8,42 @@
       "family": "A-series",
       "released": "2011",
       "specs": {
+        "codename": "sun4i",
+        "microarchitecture": "Cortex-A8",
+        "isa": "ARMv7-A",
+        "market": "Tablet",
         "process_nm": 55,
         "cores": 1,
-        "microarchitecture": "Cortex-A8",
+        "core_config": "1x Cortex-A8 @ 1.0 GHz",
         "boost_clock_mhz": 1000,
+        "l2_cache_kb": 256,
         "gpu": "Mali-400 MP1",
-        "isa": "ARMv7-A",
-        "market": "Tablet / SBC"
-      }
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 300,
+        "memory_type": "DDR2 / DDR3",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 3.8,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "USB 2.0 Host",
+          "10/100 Ethernet",
+          "SATA 2.0",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "allwinner-a31",
@@ -23,13 +51,41 @@
       "family": "A-series",
       "released": "2012-12",
       "specs": {
-        "process_nm": 40,
-        "cores": 4,
+        "codename": "sun6i",
         "microarchitecture": "Cortex-A7",
-        "gpu": "PowerVR SGX544MP2",
         "isa": "ARMv7-A",
-        "market": "Tablet"
-      }
+        "market": "Tablet",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "cores": 4,
+        "core_config": "4x Cortex-A7 @ 1.0 GHz",
+        "boost_clock_mhz": 1000,
+        "l2_cache_kb": 1024,
+        "gpu": "PowerVR SGX544MP2",
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 355,
+        "memory_type": "DDR3 / DDR3L / LPDDR2",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "2x USB 2.0 Host",
+          "Gigabit Ethernet",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "allwinner-a20",
@@ -37,14 +93,42 @@
       "family": "A-series",
       "released": "2013",
       "specs": {
+        "codename": "sun7i",
+        "microarchitecture": "Cortex-A7",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 40,
         "cores": 2,
-        "microarchitecture": "Cortex-A7",
+        "core_config": "2x Cortex-A7 @ 1.0 GHz",
         "boost_clock_mhz": 1000,
+        "l2_cache_kb": 256,
         "gpu": "Mali-400 MP2",
-        "isa": "ARMv7-A",
-        "market": "Tablet / SBC"
-      }
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 350,
+        "memory_type": "DDR3 / DDR3L",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 3.8,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "2x USB 2.0 Host",
+          "Gigabit Ethernet",
+          "SATA 2.0",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "allwinner-h3",
@@ -52,13 +136,42 @@
       "family": "H-series",
       "released": "2014-12",
       "specs": {
+        "codename": "sun8iw7p1",
+        "microarchitecture": "Cortex-A7",
+        "isa": "ARMv7-A",
+        "market": "Consumer",
         "process_nm": 40,
         "cores": 4,
-        "microarchitecture": "Cortex-A7",
+        "core_config": "4x Cortex-A7 @ 1.2 GHz",
+        "boost_clock_mhz": 1200,
+        "l2_cache_kb": 512,
         "gpu": "Mali-400 MP2",
-        "isa": "ARMv7-A",
-        "market": "TV box / SBC"
-      }
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 600,
+        "memory_type": "DDR3 / DDR3L / LPDDR3 / LPDDR2",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 5.3,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "3x USB 2.0 Host",
+          "10/100 Ethernet (integrated PHY)",
+          "Gigabit Ethernet (RGMII)",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "allwinner-a64",
@@ -66,14 +179,41 @@
       "family": "A-series",
       "released": "2015",
       "specs": {
+        "codename": "sun50iw1p1",
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Tablet",
         "process_nm": 40,
         "cores": 4,
-        "microarchitecture": "Cortex-A53",
+        "core_config": "4x Cortex-A53 @ 1.2 GHz",
         "boost_clock_mhz": 1200,
+        "l2_cache_kb": 512,
         "gpu": "Mali-400 MP2",
-        "isa": "ARMv8-A",
-        "market": "Tablet / SBC"
-      }
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 600,
+        "memory_type": "DDR3 / DDR3L / LPDDR3 / LPDDR2",
+        "max_memory_mb": 3072,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 5.3,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "USB 2.0 Host",
+          "Gigabit Ethernet (RGMII)",
+          "HDMI 1.4"
+        ]
+      },
+      "na": [
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "allwinner-h6",
@@ -81,14 +221,42 @@
       "family": "H-series",
       "released": "2017",
       "specs": {
+        "codename": "sun50iw6p1",
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Consumer",
         "process_nm": 28,
         "cores": 4,
-        "microarchitecture": "Cortex-A53",
+        "core_config": "4x Cortex-A53 @ 1.8 GHz",
         "boost_clock_mhz": 1800,
+        "l2_cache_kb": 512,
         "gpu": "Mali-T720 MP2",
-        "isa": "ARMv8-A",
-        "market": "TV box / SBC"
-      }
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 600,
+        "memory_type": "DDR4 / DDR3 / LPDDR3 / LPDDR4",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 11.6,
+        "connectivity": [
+          "USB 3.0",
+          "USB 2.0",
+          "PCIe 2.0 x1",
+          "Gigabit Ethernet",
+          "HDMI 2.0a"
+        ]
+      },
+      "na": [
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "allwinner-h616",
@@ -96,13 +264,41 @@
       "family": "H-series",
       "released": "2020",
       "specs": {
+        "codename": "sun50iw9p1",
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Consumer",
         "process_nm": 28,
         "cores": 4,
-        "microarchitecture": "Cortex-A53",
+        "core_config": "4x Cortex-A53 @ 1.5 GHz",
+        "boost_clock_mhz": 1500,
+        "l2_cache_kb": 256,
         "gpu": "Mali-G31 MP2",
-        "isa": "ARMv8-A",
-        "market": "TV box / SBC"
-      }
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 600,
+        "memory_type": "DDR4 / DDR3 / LPDDR4 / LPDDR3",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 11.6,
+        "connectivity": [
+          "4x USB 2.0",
+          "10/100 Ethernet (integrated PHY)",
+          "Gigabit Ethernet (RGMII)",
+          "HDMI 2.0a"
+        ]
+      },
+      "na": [
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     }
   ]
 }

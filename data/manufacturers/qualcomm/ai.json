@@ -8,14 +8,33 @@
       "family": "Cloud AI 100",
       "released": "2020-09",
       "specs": {
+        "codename": "AIC100",
+        "microarchitecture": "Qualcomm AI Core (Hexagon-derived)",
+        "market": "Data center",
         "process_nm": 7,
-        "int8_tops": 350,
+        "foundry": "TSMC",
+        "cores": 16,
         "memory_type": "LPDDR4X",
         "memory_size_mb": 16384,
+        "memory_bus_bits": 256,
+        "memory_bandwidth_gbs": 137,
+        "sram_kb": 147456,
+        "fp16_tflops": 175,
+        "int8_tops": 350,
         "tdp_w": 75,
-        "interface": "PCIe 4.0 x8",
-        "market": "Data center inference"
-      }
+        "interface": "PCIe 4.0 x8"
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "qualcomm-cloud-ai-100-ultra",
@@ -23,14 +42,33 @@
       "family": "Cloud AI 100",
       "released": "2023-11",
       "specs": {
+        "codename": "AIC100 (4 chips per card)",
+        "microarchitecture": "Qualcomm AI Core (Hexagon-derived)",
+        "market": "Data center",
         "process_nm": 7,
-        "int8_tops": 870,
+        "foundry": "TSMC",
+        "cores": 64,
         "memory_type": "LPDDR4X",
         "memory_size_mb": 131072,
+        "memory_bus_bits": 1024,
+        "memory_bandwidth_gbs": 548,
+        "sram_kb": 589824,
+        "fp16_tflops": 290,
+        "int8_tops": 870,
         "tdp_w": 150,
-        "interface": "PCIe 4.0 x16",
-        "market": "Data center inference"
-      }
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     }
   ]
 }

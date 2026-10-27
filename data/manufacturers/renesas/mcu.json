@@ -8,15 +8,30 @@
       "family": "RX600",
       "released": "2010",
       "specs": {
+        "microarchitecture": "RXv1",
         "isa": "RX",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "LQFP144 / LQFP100 / LFBGA176",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 100,
         "flash_kb": 512,
         "sram_kb": 96,
-        "connectivity": [
-          "Ethernet",
-          "USB 2.0 Full Speed",
-          "CAN"
+        "eeprom_kb": 32,
+        "mips": 165,
+        "voltage_v": 3.3,
+        "gpio_pins": 128,
+        "adc": "12-bit, 8 channels + 10-bit, 8 channels",
+        "dac": "10-bit, 2 channels",
+        "timers": "MTU2 (12-ch 16-bit), TPU (12-ch 16-bit), 4× 8-bit TMR, 4× 16-bit CMT",
+        "interfaces": [
+          "Ethernet MAC",
+          "2× USB 2.0 Full Speed",
+          "CAN",
+          "6× SCI (UART)",
+          "2× RSPI",
+          "2× I2C"
         ]
       }
     },
@@ -26,10 +41,31 @@
       "family": "RL78",
       "released": "2011",
       "specs": {
+        "microarchitecture": "RL78-S2",
         "isa": "RL78",
+        "market": "Embedded",
+        "process_nm": 130,
+        "package": "20- to 128-pin LQFP/LFQFP",
+        "cores": 1,
         "data_width_bits": 16,
-        "base_clock_mhz": 32
-      }
+        "base_clock_mhz": 32,
+        "flash_kb": 512,
+        "sram_kb": 32,
+        "eeprom_kb": 8,
+        "mips": 41,
+        "voltage_v": 3.3,
+        "gpio_pins": 120,
+        "adc": "10-bit, 26 channels",
+        "timers": "8× 16-bit (TAU), 12-bit interval timer, RTC, WDT",
+        "interfaces": [
+          "4× UART / CSI (SPI) / simplified I2C",
+          "I2C",
+          "LIN"
+        ]
+      },
+      "na": [
+        "dac"
+      ]
     },
     {
       "id": "renesas-rx65n",
@@ -37,11 +73,34 @@
       "family": "RX600",
       "released": "2017",
       "specs": {
+        "microarchitecture": "RXv2",
         "isa": "RXv2",
+        "market": "Embedded",
+        "process_nm": 40,
+        "package": "LQFP176 / LFBGA177 / LQFP144 / LQFP100",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 120,
         "flash_kb": 2048,
-        "sram_kb": 640
+        "sram_kb": 640,
+        "eeprom_kb": 32,
+        "mips": 240,
+        "voltage_v": 3.3,
+        "gpio_pins": 136,
+        "adc": "2× 12-bit, 29 channels",
+        "dac": "12-bit, 2 channels",
+        "timers": "MTU3 (9-ch), TPU (6-ch), 4× 8-bit TMR, 4× CMT, 2× 32-bit CMTW",
+        "interfaces": [
+          "Ethernet MAC",
+          "USB 2.0 Full Speed",
+          "3× CAN",
+          "13× SCI (UART)",
+          "3× RSPI",
+          "QSPI",
+          "3× I2C",
+          "SD host",
+          "Graphic LCD controller"
+        ]
       }
     },
     {
@@ -52,10 +111,30 @@
       "specs": {
         "microarchitecture": "Cortex-M4F",
         "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 40,
+        "package": "LQFP100 / LQFP64 / LQFP48 / QFN32",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 48,
         "flash_kb": 256,
-        "sram_kb": 32
+        "sram_kb": 32,
+        "eeprom_kb": 8,
+        "mips": 60,
+        "voltage_v": 3.3,
+        "gpio_pins": 84,
+        "adc": "14-bit, 25 channels",
+        "dac": "12-bit, 1 channel",
+        "timers": "2× 32-bit GPT, 6× 16-bit GPT, 2× AGT, RTC, WDT",
+        "interfaces": [
+          "USB 2.0 Full Speed",
+          "CAN",
+          "4× SCI (UART/SPI/I2C)",
+          "2× SPI",
+          "2× I2C",
+          "SSI (I2S)",
+          "Capacitive touch"
+        ]
       }
     },
     {
@@ -66,10 +145,34 @@
       "specs": {
         "microarchitecture": "Cortex-M33",
         "isa": "ARMv8-M",
+        "market": "Embedded",
+        "process_nm": 40,
+        "package": "LQFP176 / BGA176 / LQFP144 / LQFP100",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 200,
         "flash_kb": 2048,
-        "sram_kb": 512
+        "sram_kb": 512,
+        "eeprom_kb": 8,
+        "mips": 300,
+        "voltage_v": 3.3,
+        "gpio_pins": 133,
+        "adc": "2× 12-bit, 29 channels",
+        "dac": "12-bit, 2 channels",
+        "timers": "4× 32-bit GPT, 6× 16-bit GPT, 2× AGT, RTC, WDT",
+        "interfaces": [
+          "Ethernet MAC",
+          "USB 2.0 High Speed",
+          "USB 2.0 Full Speed",
+          "2× CAN",
+          "10× SCI (UART/SPI/I2C)",
+          "2× SPI",
+          "3× I2C",
+          "QSPI",
+          "OSPI",
+          "SD host",
+          "SSI (I2S)"
+        ]
       }
     },
     {
@@ -80,13 +183,35 @@
       "specs": {
         "microarchitecture": "Cortex-M85",
         "isa": "ARMv8.1-M",
-        "data_width_bits": 32,
+        "market": "Embedded",
         "process_nm": 22,
+        "package": "LQFP224 / BGA224 / LQFP176 / LQFP144",
+        "cores": 1,
+        "data_width_bits": 32,
         "base_clock_mhz": 480,
         "flash_kb": 2048,
         "sram_kb": 1024,
+        "eeprom_kb": 12,
+        "mips": 1500,
+        "voltage_v": 3.3,
         "instruction_sets": [
           "Helium (MVE)"
+        ],
+        "gpio_pins": 172,
+        "adc": "2× 12-bit, 22 channels",
+        "dac": "12-bit, 2 channels",
+        "timers": "10× GPT (32-bit), 6× ULPT, RTC, WDT",
+        "interfaces": [
+          "Ethernet MAC (TSN)",
+          "USB 2.0 High Speed",
+          "USB 2.0 Full Speed",
+          "2× CAN FD",
+          "10× SCI (UART/SPI/I2C)",
+          "2× SPI",
+          "2× I2C",
+          "I3C",
+          "OSPI",
+          "2× SD host"
         ]
       }
     }
