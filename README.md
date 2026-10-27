@@ -60,12 +60,23 @@ giode build web              # dist/web
 giode run                    # on this computer
 ```
 
+### Releases
+
+Publishing a GitHub release runs [`.github/workflows/release.yml`](.github/workflows/release.yml),
+which builds the Android APK, the Windows executable and the web build with the release's
+version and attaches them to the release. Nothing is built on ordinary pushes. To sign the
+APK with your own key, add the `ANDROID_KEYSTORE_BASE64` and `ANDROID_KEYSTORE_PASS`
+repository secrets (create the keystore with `giode keystore`).
+
+The app icon is drawn by `go run ./cmd/icongen`, which writes `assets/icon.png`.
+
 ## Project layout
 
 ```
 main.go                     entry point
 assets/                     embedded fonts (Inter), SVG icons and the app icon
 cmd/indexgen/               data validator and index generator
+cmd/icongen/                draws assets/icon.png
 data/                       the database (downloaded by the app, not embedded)
 internal/
   config/                   build-time settings (data URL, version)
