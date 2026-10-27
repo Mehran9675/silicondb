@@ -8,12 +8,41 @@
       "family": "OMAP 1",
       "released": "2001",
       "specs": {
-        "isa": "ARMv4T",
         "microarchitecture": "ARM925T",
+        "isa": "ARMv4T",
+        "market": "Mobile",
+        "process_nm": 160,
+        "foundry": "Texas Instruments",
         "cores": 1,
-        "boost_clock_mhz": 175,
-        "core_config": "ARM925T + TMS320C55x"
-      }
+        "core_config": "ARM925T + TMS320C55x DSP (200 MHz)",
+        "base_clock_mhz": 175,
+        "memory_type": "SDRAM",
+        "memory_bus_bits": 16,
+        "connectivity": [
+          "USB 1.1",
+          "UART",
+          "I2C",
+          "MMC/SD"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-omap1710",
@@ -21,12 +50,41 @@
       "family": "OMAP 1",
       "released": "2004",
       "specs": {
-        "isa": "ARMv5TEJ",
         "microarchitecture": "ARM926EJ-S",
+        "isa": "ARMv5TEJ",
+        "market": "Mobile",
         "process_nm": 90,
+        "foundry": "Texas Instruments",
         "cores": 1,
-        "boost_clock_mhz": 220
-      }
+        "core_config": "ARM926EJ-S + TMS320C55x DSP (200 MHz)",
+        "base_clock_mhz": 220,
+        "memory_type": "Mobile DDR, SDRAM",
+        "memory_bus_bits": 16,
+        "connectivity": [
+          "USB 1.1 OTG",
+          "UART",
+          "I2C",
+          "MMC/SD"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-omap2420",
@@ -34,13 +92,42 @@
       "family": "OMAP 2",
       "released": "2005",
       "specs": {
-        "isa": "ARMv6",
         "microarchitecture": "ARM1136J(F)-S",
+        "isa": "ARMv6",
+        "market": "Mobile",
         "process_nm": 90,
+        "foundry": "Texas Instruments",
         "cores": 1,
-        "boost_clock_mhz": 330,
-        "gpu": "PowerVR MBX"
-      }
+        "core_config": "ARM1136 + TMS320C55x DSP (220 MHz)",
+        "base_clock_mhz": 330,
+        "gpu": "PowerVR MBX",
+        "gpu_cores": 1,
+        "memory_type": "Mobile DDR",
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "UART",
+          "I2C",
+          "SPI",
+          "MMC/SD"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-dm6446",
@@ -48,13 +135,44 @@
       "family": "DaVinci",
       "released": "2005",
       "specs": {
-        "isa": "ARMv5TEJ",
         "microarchitecture": "ARM926EJ-S",
+        "isa": "ARMv5TEJ",
+        "market": "Embedded",
         "process_nm": 90,
+        "foundry": "Texas Instruments",
         "cores": 1,
-        "boost_clock_mhz": 297,
-        "core_config": "ARM926EJ-S + C64x+ DSP"
-      }
+        "core_config": "ARM926EJ-S + C64x+ DSP (594 MHz)",
+        "base_clock_mhz": 297,
+        "memory_type": "DDR2",
+        "max_memory_mb": 256,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 1.3,
+        "connectivity": [
+          "Fast Ethernet",
+          "USB 2.0",
+          "ATA",
+          "UART",
+          "I2C",
+          "SPI",
+          "MMC/SD"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-omap3430",
@@ -62,13 +180,42 @@
       "family": "OMAP 3",
       "released": "2008",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A8",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 65,
+        "foundry": "Texas Instruments",
         "cores": 1,
-        "boost_clock_mhz": 600,
-        "gpu": "PowerVR SGX530"
-      }
+        "core_config": "Cortex-A8 + C64x+ DSP (430 MHz)",
+        "base_clock_mhz": 600,
+        "l2_cache_kb": 256,
+        "gpu": "PowerVR SGX530",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 110,
+        "memory_type": "LPDDR",
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "UART",
+          "I2C",
+          "SPI",
+          "MMC/SD"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-omap3630",
@@ -76,13 +223,42 @@
       "family": "OMAP 3",
       "released": "2010",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A8",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 45,
+        "foundry": "Texas Instruments",
         "cores": 1,
-        "boost_clock_mhz": 1000,
-        "gpu": "PowerVR SGX530"
-      }
+        "core_config": "Cortex-A8 + C64x+ DSP (800 MHz)",
+        "base_clock_mhz": 1000,
+        "l2_cache_kb": 256,
+        "gpu": "PowerVR SGX530",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 200,
+        "memory_type": "LPDDR",
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "UART",
+          "I2C",
+          "SPI",
+          "MMC/SD"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-omap4430",
@@ -90,14 +266,43 @@
       "family": "OMAP 4",
       "released": "2011",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 45,
+        "foundry": "Texas Instruments",
         "cores": 2,
-        "boost_clock_mhz": 1000,
+        "core_config": "2× Cortex-A9 + 2× Cortex-M3 + C64x DSP",
+        "base_clock_mhz": 1000,
+        "l2_cache_kb": 1024,
         "gpu": "PowerVR SGX540",
-        "memory_type": "LPDDR2"
-      }
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 304,
+        "memory_type": "LPDDR2",
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 6.4,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "UART",
+          "I2C",
+          "SPI",
+          "MMC/SD",
+          "HDMI 1.3"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-am3358",
@@ -105,13 +310,44 @@
       "family": "Sitara AM335x",
       "released": "2011",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A8",
+        "isa": "ARMv7-A",
+        "market": "Industrial",
         "process_nm": 45,
+        "foundry": "Texas Instruments",
         "cores": 1,
-        "boost_clock_mhz": 1000,
-        "gpu": "PowerVR SGX530"
-      }
+        "core_config": "Cortex-A8 + 2× PRU",
+        "base_clock_mhz": 1000,
+        "l2_cache_kb": 256,
+        "gpu": "PowerVR SGX530",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 200,
+        "memory_type": "DDR3, DDR2, mDDR",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 16,
+        "memory_bandwidth_gbs": 1.6,
+        "connectivity": [
+          "2× Gigabit Ethernet",
+          "2× USB 2.0 OTG",
+          "2× CAN",
+          "6× UART",
+          "3× I2C",
+          "2× SPI",
+          "3× MMC/SD"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-omap4460",
@@ -119,14 +355,43 @@
       "family": "OMAP 4",
       "released": "2011-11",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 45,
+        "foundry": "Texas Instruments",
         "cores": 2,
+        "core_config": "2× Cortex-A9 + 2× Cortex-M3 + C64x DSP",
+        "base_clock_mhz": 1200,
         "boost_clock_mhz": 1500,
+        "l2_cache_kb": 1024,
         "gpu": "PowerVR SGX540",
-        "memory_type": "LPDDR2"
-      }
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 384,
+        "memory_type": "LPDDR2",
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 7.4,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "UART",
+          "I2C",
+          "SPI",
+          "MMC/SD",
+          "HDMI 1.4a"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-omap4470",
@@ -134,13 +399,43 @@
       "family": "OMAP 4",
       "released": "2012",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 45,
+        "foundry": "Texas Instruments",
         "cores": 2,
+        "core_config": "2× Cortex-A9 + 2× Cortex-M3 + C64x DSP",
+        "base_clock_mhz": 1300,
+        "boost_clock_mhz": 1500,
+        "l2_cache_kb": 1024,
         "gpu": "PowerVR SGX544",
-        "memory_type": "LPDDR2"
-      }
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 384,
+        "memory_type": "LPDDR2",
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 7.4,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "UART",
+          "I2C",
+          "SPI",
+          "MMC/SD",
+          "HDMI 1.4a"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-omap5432",
@@ -148,12 +443,45 @@
       "family": "OMAP 5",
       "released": "2013",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A15",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 28,
+        "foundry": "Texas Instruments",
         "cores": 2,
-        "gpu": "PowerVR SGX544-MP2"
-      }
+        "core_config": "2× Cortex-A15 + 2× Cortex-M4 + C64x DSP",
+        "base_clock_mhz": 1500,
+        "l2_cache_kb": 2048,
+        "gpu": "PowerVR SGX544-MP2",
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 532,
+        "memory_type": "DDR3, DDR3L",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "fp32_tflops": 0.034,
+        "connectivity": [
+          "USB 3.0",
+          "USB 2.0",
+          "SATA 2.0",
+          "HDMI 1.4a",
+          "UART",
+          "I2C",
+          "SPI",
+          "MMC/SD"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tda4vm",
@@ -161,13 +489,48 @@
       "family": "Jacinto 7",
       "released": "2020",
       "specs": {
-        "isa": "ARMv8-A",
+        "codename": "J721E",
         "microarchitecture": "Cortex-A72",
+        "isa": "ARMv8-A",
+        "market": "Automotive",
         "process_nm": 16,
+        "foundry": "TSMC",
         "cores": 2,
+        "core_config": "2× Cortex-A72 + 6× Cortex-R5F + C7x DSP/MMA + 2× C66x DSP",
+        "base_clock_mhz": 2000,
         "boost_clock_mhz": 2000,
-        "int8_tops": 8
-      }
+        "l2_cache_kb": 1024,
+        "slc_kb": 8192,
+        "gpu": "PowerVR Rogue 8XE GE8430",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 750,
+        "memory_type": "LPDDR4",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 14.9,
+        "fp32_tflops": 0.096,
+        "int8_tops": 8,
+        "npu_tops": 8,
+        "connectivity": [
+          "PCIe 3.0",
+          "USB 3.0",
+          "Gigabit Ethernet (8-port switch)",
+          "16× CAN-FD",
+          "CSI-2",
+          "DSI",
+          "eDP",
+          "UART",
+          "I2C",
+          "SPI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "modem",
+        "tdp_w"
+      ]
     }
   ]
 }

@@ -8,13 +8,31 @@
       "family": "MPC55xx",
       "released": "2004",
       "specs": {
-        "isa": "PowerPC",
         "microarchitecture": "e200z6",
+        "isa": "PowerPC",
+        "market": "Automotive",
+        "process_nm": 130,
+        "package": "416-pin PBGA",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 132,
         "flash_kb": 2048,
-        "sram_kb": 64
-      }
+        "sram_kb": 64,
+        "voltage_v": 1.5,
+        "adc": "12-bit, 40 channels (eQADC)",
+        "timers": "eTPU (32 channels), eMIOS (24 channels)",
+        "interfaces": [
+          "3× FlexCAN",
+          "4× DSPI",
+          "2× eSCI"
+        ]
+      },
+      "na": [
+        "eeprom_kb",
+        "gpio_pins",
+        "dac",
+        "mips"
+      ]
     },
     {
       "id": "freescale-mk60dn512",
@@ -22,13 +40,36 @@
       "family": "Kinetis K",
       "released": "2010",
       "specs": {
-        "isa": "ARMv7E-M",
         "microarchitecture": "Cortex-M4",
+        "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "144-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 100,
         "flash_kb": 512,
-        "sram_kb": 128
-      }
+        "sram_kb": 128,
+        "mips": 125,
+        "voltage_v": 3.3,
+        "gpio_pins": 100,
+        "adc": "2× 16-bit",
+        "dac": "2× 12-bit",
+        "timers": "3× FlexTimer, PIT, LPTMR, PDB, RTC",
+        "interfaces": [
+          "Ethernet (10/100)",
+          "USB 2.0 OTG FS",
+          "2× CAN",
+          "6× UART",
+          "3× SPI",
+          "2× I2C",
+          "SDHC",
+          "I2S"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "freescale-mk20dx256",
@@ -36,13 +77,34 @@
       "family": "Kinetis K",
       "released": "2012",
       "specs": {
-        "isa": "ARMv7E-M",
         "microarchitecture": "Cortex-M4",
+        "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "64-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 72,
         "flash_kb": 256,
-        "sram_kb": 64
-      }
+        "sram_kb": 64,
+        "eeprom_kb": 2,
+        "mips": 90,
+        "voltage_v": 3.3,
+        "adc": "2× 16-bit",
+        "dac": "1× 12-bit",
+        "timers": "3× FlexTimer, PIT, LPTMR, PDB, CMT, RTC",
+        "interfaces": [
+          "USB 2.0 FS",
+          "CAN",
+          "3× UART",
+          "SPI",
+          "2× I2C",
+          "I2S"
+        ]
+      },
+      "na": [
+        "gpio_pins"
+      ]
     },
     {
       "id": "freescale-mkl25z128",
@@ -50,13 +112,32 @@
       "family": "Kinetis L",
       "released": "2012",
       "specs": {
-        "isa": "ARMv6-M",
         "microarchitecture": "Cortex-M0+",
+        "isa": "ARMv6-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "80-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 48,
         "flash_kb": 128,
-        "sram_kb": 16
-      }
+        "sram_kb": 16,
+        "mips": 45,
+        "voltage_v": 3.3,
+        "gpio_pins": 66,
+        "adc": "16-bit, 24 channels",
+        "dac": "1× 12-bit",
+        "timers": "3× TPM, PIT, LPTMR, RTC",
+        "interfaces": [
+          "USB 2.0 OTG FS",
+          "3× UART",
+          "2× SPI",
+          "2× I2C"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     },
     {
       "id": "freescale-mk64fn1m0",
@@ -64,13 +145,36 @@
       "family": "Kinetis K",
       "released": "2014",
       "specs": {
-        "isa": "ARMv7E-M",
         "microarchitecture": "Cortex-M4F",
+        "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 90,
+        "package": "144-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 120,
         "flash_kb": 1024,
-        "sram_kb": 256
-      }
+        "sram_kb": 256,
+        "mips": 150,
+        "voltage_v": 3.3,
+        "gpio_pins": 100,
+        "adc": "2× 16-bit",
+        "dac": "2× 12-bit",
+        "timers": "4× FlexTimer, PIT, LPTMR, PDB, RTC",
+        "interfaces": [
+          "Ethernet (10/100)",
+          "USB 2.0 OTG FS",
+          "CAN",
+          "6× UART",
+          "3× SPI",
+          "3× I2C",
+          "SDHC",
+          "I2S"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
     }
   ]
 }

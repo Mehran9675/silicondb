@@ -8,11 +8,35 @@
       "family": "ROMP",
       "released": "1986-01",
       "specs": {
+        "microarchitecture": "ROMP",
         "isa": "ROMP",
+        "market": "Workstation",
+        "process_nm": 2000,
+        "foundry": "IBM",
+        "transistors": 45000,
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
+        "address_width_bits": 24,
         "base_clock_mhz": 5.88,
-        "cores": 1
-      }
+        "max_memory_mb": 16,
+        "voltage_v": 5,
+        "interface": "ROMP storage channel"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "package",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "ibm-power1",
@@ -21,10 +45,34 @@
       "released": "1990-02",
       "specs": {
         "codename": "RIOS-1",
+        "microarchitecture": "POWER1",
         "isa": "POWER",
+        "market": "Workstation",
+        "process_nm": 1000,
+        "foundry": "IBM",
+        "package": "Multi-chip (ceramic, 9–10 chips)",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
-        "cores": 1
-      }
+        "address_width_bits": 32,
+        "base_clock_mhz": 20,
+        "l1_cache_kb": 72,
+        "voltage_v": 5,
+        "interface": "Multi-chip processor bus"
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "ibm-power2",
@@ -32,10 +80,38 @@
       "family": "POWER",
       "released": "1993",
       "specs": {
+        "codename": "RIOS-2",
+        "microarchitecture": "POWER2",
         "isa": "POWER2",
+        "market": "Workstation",
+        "process_nm": 720,
+        "foundry": "IBM",
+        "transistors": 23000000,
+        "package": "8-chip MCM",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
-        "cores": 1
-      }
+        "address_width_bits": 32,
+        "base_clock_mhz": 55,
+        "l1_cache_kb": 288,
+        "interface": "Multi-chip processor bus",
+        "instruction_sets": [
+          "Quad-word FP load/store",
+          "Square root"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-p2sc",
@@ -43,12 +119,38 @@
       "family": "POWER",
       "released": "1996",
       "specs": {
+        "microarchitecture": "POWER2",
         "isa": "POWER2",
+        "market": "Workstation",
+        "process_nm": 290,
+        "foundry": "IBM",
         "transistors": 15000000,
         "die_size_mm2": 335,
+        "package": "Single-chip (CBGA)",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
-        "cores": 1
-      }
+        "address_width_bits": 32,
+        "base_clock_mhz": 120,
+        "l1_cache_kb": 160,
+        "interface": "Memory bus (256-bit)",
+        "instruction_sets": [
+          "Quad-word FP load/store",
+          "Square root"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-ppc750",
@@ -56,15 +158,35 @@
       "family": "PowerPC G3",
       "released": "1997-11",
       "specs": {
+        "codename": "Arthur",
+        "microarchitecture": "PowerPC 750 (G3)",
         "isa": "PowerPC",
+        "market": "Desktop",
         "process_nm": 260,
+        "foundry": "IBM, Motorola",
         "transistors": 6350000,
         "die_size_mm2": 67,
-        "data_width_bits": 32,
-        "base_clock_mhz": 266,
+        "package": "360-pin CBGA",
         "cores": 1,
-        "l1_cache_kb": 64
-      }
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 233,
+        "l1_cache_kb": 64,
+        "max_memory_mb": 4096,
+        "tdp_w": 5.7,
+        "voltage_v": 2.6,
+        "interface": "60x bus"
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "instruction_sets"
+      ]
     },
     {
       "id": "ibm-power3",
@@ -72,13 +194,35 @@
       "family": "POWER",
       "released": "1998",
       "specs": {
+        "microarchitecture": "POWER3",
         "isa": "PowerPC",
+        "market": "Workstation",
+        "process_nm": 250,
+        "foundry": "IBM",
         "transistors": 15000000,
-        "data_width_bits": 64,
-        "base_clock_mhz": 200,
+        "die_size_mm2": 270,
+        "package": "1088-pin CBGA",
         "cores": 1,
-        "l1_cache_kb": 96
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 200,
+        "l1_cache_kb": 96,
+        "interface": "6XX bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v",
+        "instruction_sets"
+      ]
     },
     {
       "id": "ibm-ppc750cx",
@@ -86,15 +230,35 @@
       "family": "PowerPC G3",
       "released": "2000",
       "specs": {
+        "codename": "Sidewinder",
+        "microarchitecture": "PowerPC 750 (G3)",
         "isa": "PowerPC",
+        "market": "Laptop",
         "process_nm": 180,
+        "foundry": "IBM",
         "transistors": 20000000,
         "die_size_mm2": 43,
-        "data_width_bits": 32,
+        "package": "256-pin PBGA",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 400,
         "l1_cache_kb": 64,
-        "l2_cache_kb": 256
-      }
+        "l2_cache_kb": 256,
+        "max_memory_mb": 4096,
+        "voltage_v": 1.8,
+        "interface": "60x bus"
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "ibm-gekko",
@@ -102,16 +266,38 @@
       "family": "PowerPC G3",
       "released": "2001-09",
       "specs": {
+        "microarchitecture": "PowerPC 750CXe",
         "isa": "PowerPC",
-        "microarchitecture": "PowerPC 750",
-        "market": "Console (Nintendo GameCube)",
+        "market": "Console",
         "process_nm": 180,
-        "data_width_bits": 32,
-        "base_clock_mhz": 485,
+        "foundry": "IBM",
+        "transistors": 21000000,
+        "die_size_mm2": 43,
+        "package": "Flip-chip BGA",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 485,
         "l1_cache_kb": 64,
-        "l2_cache_kb": 256
-      }
+        "l2_cache_kb": 256,
+        "memory_type": "1T-SRAM",
+        "max_memory_mb": 24,
+        "tdp_w": 4.9,
+        "voltage_v": 1.8,
+        "interface": "60x bus (to Flipper)",
+        "instruction_sets": [
+          "Paired singles (SIMD)",
+          "Write-gather pipe"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb"
+      ]
     },
     {
       "id": "ibm-power4",
@@ -119,15 +305,35 @@
       "family": "POWER",
       "released": "2001-10",
       "specs": {
+        "microarchitecture": "POWER4",
         "isa": "PowerPC",
+        "market": "Server",
         "process_nm": 180,
+        "foundry": "IBM",
         "transistors": 174000000,
         "die_size_mm2": 412,
-        "data_width_bits": 64,
-        "base_clock_mhz": 1300,
+        "package": "Multi-chip module (4 chips) / SCM",
         "cores": 2,
-        "l2_cache_kb": 1440
-      }
+        "threads": 2,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 1100,
+        "l1_cache_kb": 192,
+        "l2_cache_kb": 1440,
+        "memory_type": "DDR SDRAM",
+        "tdp_w": 115,
+        "interface": "GX bus, fabric bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "voltage_v",
+        "instruction_sets"
+      ]
     },
     {
       "id": "ibm-ppc970",
@@ -135,19 +341,37 @@
       "family": "PowerPC G5",
       "released": "2003-06",
       "specs": {
+        "microarchitecture": "PowerPC 970 (G5)",
         "isa": "PowerPC",
+        "market": "Desktop",
         "process_nm": 130,
+        "foundry": "IBM",
         "transistors": 58000000,
         "die_size_mm2": 118,
-        "data_width_bits": 64,
-        "base_clock_mhz": 2000,
+        "package": "576-pin CBGA",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 1600,
         "l1_cache_kb": 96,
         "l2_cache_kb": 512,
+        "max_memory_mb": 4194304,
+        "tdp_w": 51,
+        "voltage_v": 1.3,
+        "interface": "Elastic front-side bus",
         "instruction_sets": [
           "AltiVec"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "ibm-ppc970fx",
@@ -155,18 +379,37 @@
       "family": "PowerPC G5",
       "released": "2004",
       "specs": {
+        "microarchitecture": "PowerPC 970 (G5)",
         "isa": "PowerPC",
+        "market": "Desktop",
         "process_nm": 90,
+        "foundry": "IBM",
         "transistors": 58000000,
         "die_size_mm2": 66,
-        "data_width_bits": 64,
+        "package": "576-pin CBGA",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 1600,
         "l1_cache_kb": 96,
         "l2_cache_kb": 512,
+        "max_memory_mb": 4194304,
+        "tdp_w": 48,
+        "voltage_v": 1.2,
+        "interface": "Elastic front-side bus",
         "instruction_sets": [
           "AltiVec"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "ibm-power5",
@@ -174,16 +417,37 @@
       "family": "POWER",
       "released": "2004-05",
       "specs": {
+        "microarchitecture": "POWER5",
         "isa": "PowerPC",
+        "market": "Server",
         "process_nm": 130,
+        "foundry": "IBM",
         "transistors": 276000000,
         "die_size_mm2": 389,
-        "data_width_bits": 64,
-        "base_clock_mhz": 1900,
+        "package": "Multi-chip module / DCM",
         "cores": 2,
         "threads": 4,
-        "l2_cache_kb": 1920
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 1500,
+        "l1_cache_kb": 192,
+        "l2_cache_kb": 1920,
+        "memory_type": "DDR, DDR2",
+        "interface": "GX bus, fabric bus",
+        "instruction_sets": [
+          "SMT2"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-ppc970mp",
@@ -191,18 +455,37 @@
       "family": "PowerPC G5",
       "released": "2005-07",
       "specs": {
+        "microarchitecture": "PowerPC 970 (G5)",
         "isa": "PowerPC",
+        "market": "Desktop",
         "process_nm": 90,
+        "foundry": "IBM",
         "transistors": 183000000,
         "die_size_mm2": 154,
-        "data_width_bits": 64,
-        "base_clock_mhz": 2500,
+        "package": "575-pin CBGA",
         "cores": 2,
+        "threads": 2,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 1600,
+        "l1_cache_kb": 192,
         "l2_cache_kb": 2048,
+        "max_memory_mb": 4194304,
+        "tdp_w": 100,
+        "voltage_v": 1.3,
+        "interface": "Elastic front-side bus",
         "instruction_sets": [
           "AltiVec"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type"
+      ]
     },
     {
       "id": "ibm-xenon",
@@ -210,20 +493,37 @@
       "family": "Xenon",
       "released": "2005-11",
       "specs": {
+        "codename": "Waternoose",
+        "microarchitecture": "Xenon (PPE-derived)",
         "isa": "PowerPC",
-        "market": "Console (Xbox 360)",
+        "market": "Console",
         "process_nm": 90,
+        "foundry": "IBM, Chartered",
         "transistors": 165000000,
         "die_size_mm2": 168,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3200,
+        "package": "Flip-chip BGA",
         "cores": 3,
         "threads": 6,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "base_clock_mhz": 3200,
+        "l1_cache_kb": 192,
         "l2_cache_kb": 1024,
+        "memory_type": "GDDR3 (unified, via GPU)",
+        "max_memory_mb": 512,
+        "interface": "Front-side bus to Xenos (21.6 GB/s)",
         "instruction_sets": [
           "VMX128"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-cell-be",
@@ -231,16 +531,41 @@
       "family": "Cell",
       "released": "2006-11",
       "specs": {
+        "microarchitecture": "Cell (PPE + SPE)",
         "isa": "PowerPC",
+        "market": "Console",
         "process_nm": 90,
+        "foundry": "IBM, Sony, Toshiba",
+        "transistors": 241000000,
         "die_size_mm2": 221,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3200,
+        "package": "Flip-chip BGA",
         "cores": 9,
         "threads": 10,
         "core_config": "1 PPE + 8 SPE",
-        "l2_cache_kb": 512
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 3200,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 512,
+        "memory_type": "XDR DRAM",
+        "memory_bus_bits": 64,
+        "fp32_tflops": 0.2304,
+        "interface": "FlexIO",
+        "instruction_sets": [
+          "VMX (AltiVec)",
+          "SPU SIMD"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-broadway",
@@ -248,16 +573,37 @@
       "family": "PowerPC G3",
       "released": "2006-11",
       "specs": {
+        "microarchitecture": "PowerPC 750CL",
         "isa": "PowerPC",
-        "microarchitecture": "PowerPC 750",
-        "market": "Console (Nintendo Wii)",
+        "market": "Console",
         "process_nm": 90,
-        "data_width_bits": 32,
-        "base_clock_mhz": 729,
+        "foundry": "IBM",
+        "die_size_mm2": 18.9,
+        "package": "Flip-chip BGA",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 729,
         "l1_cache_kb": 64,
-        "l2_cache_kb": 256
-      }
+        "l2_cache_kb": 256,
+        "memory_type": "1T-SRAM, GDDR3",
+        "max_memory_mb": 88,
+        "interface": "60x bus (to Hollywood)",
+        "instruction_sets": [
+          "Paired singles (SIMD)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-power6",
@@ -265,16 +611,38 @@
       "family": "POWER",
       "released": "2007-05",
       "specs": {
+        "microarchitecture": "POWER6",
         "isa": "Power ISA v2.05",
+        "market": "Server",
         "process_nm": 65,
+        "foundry": "IBM",
         "transistors": 790000000,
         "die_size_mm2": 341,
-        "data_width_bits": 64,
-        "base_clock_mhz": 4700,
+        "package": "Single-chip / dual-chip module",
         "cores": 2,
         "threads": 4,
-        "l2_cache_kb": 8192
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 4700,
+        "l1_cache_kb": 256,
+        "l2_cache_kb": 8192,
+        "memory_type": "DDR2",
+        "interface": "GX+ bus, fabric bus",
+        "instruction_sets": [
+          "VMX (AltiVec)",
+          "Decimal FP"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-powerxcell-8i",
@@ -282,15 +650,40 @@
       "family": "Cell",
       "released": "2008",
       "specs": {
+        "microarchitecture": "Cell (PPE + eDP SPE)",
         "isa": "PowerPC",
+        "market": "Server",
         "process_nm": 65,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3200,
+        "foundry": "IBM",
+        "transistors": 250000000,
+        "die_size_mm2": 212,
+        "package": "Flip-chip BGA",
         "cores": 9,
+        "threads": 10,
         "core_config": "1 PPE + 8 SPE",
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 3200,
+        "l1_cache_kb": 64,
         "l2_cache_kb": 512,
-        "fp64_tflops": 0.1024
-      }
+        "memory_type": "DDR2",
+        "max_memory_mb": 32768,
+        "fp64_tflops": 0.1024,
+        "tdp_w": 92,
+        "interface": "FlexIO",
+        "instruction_sets": [
+          "VMX (AltiVec)",
+          "SPU SIMD (double precision)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-z10",
@@ -298,14 +691,38 @@
       "family": "IBM Z",
       "released": "2008-02",
       "specs": {
+        "microarchitecture": "z10",
         "isa": "z/Architecture",
+        "market": "Server",
         "process_nm": 65,
+        "foundry": "IBM",
         "transistors": 993000000,
         "die_size_mm2": 454,
+        "package": "Multi-chip module",
+        "cores": 4,
+        "threads": 4,
         "data_width_bits": 64,
+        "address_width_bits": 64,
         "base_clock_mhz": 4400,
-        "cores": 4
-      }
+        "l1_cache_kb": 768,
+        "l2_cache_kb": 12288,
+        "memory_type": "DDR2",
+        "interface": "System controller (SC) chip links",
+        "instruction_sets": [
+          "Decimal FP",
+          "CPACF crypto"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-power7",
@@ -313,16 +730,40 @@
       "family": "POWER",
       "released": "2010-02",
       "specs": {
+        "microarchitecture": "POWER7",
         "isa": "Power ISA v2.06",
+        "market": "Server",
         "process_nm": 45,
+        "foundry": "IBM",
         "transistors": 1200000000,
         "die_size_mm2": 567,
-        "data_width_bits": 64,
+        "package": "Single-chip / quad-chip module",
         "cores": 8,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 4250,
+        "l1_cache_kb": 512,
         "l2_cache_kb": 2048,
-        "l3_cache_kb": 32768
-      }
+        "l3_cache_kb": 32768,
+        "memory_type": "DDR3",
+        "interface": "GX++ bus, SMP fabric",
+        "instruction_sets": [
+          "VSX",
+          "VMX (AltiVec)",
+          "Decimal FP",
+          "SMT4"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-z196",
@@ -330,15 +771,38 @@
       "family": "IBM Z",
       "released": "2010-07",
       "specs": {
+        "microarchitecture": "z196",
         "isa": "z/Architecture",
+        "market": "Server",
         "process_nm": 45,
+        "foundry": "IBM",
         "transistors": 1400000000,
         "die_size_mm2": 512,
-        "data_width_bits": 64,
-        "base_clock_mhz": 5200,
+        "package": "Multi-chip module",
         "cores": 4,
-        "l3_cache_kb": 24576
-      }
+        "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 5200,
+        "l1_cache_kb": 768,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 24576,
+        "memory_type": "DDR3",
+        "interface": "System controller (SC) chip links",
+        "instruction_sets": [
+          "Decimal FP",
+          "CPACF crypto"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-zec12",
@@ -346,15 +810,39 @@
       "family": "IBM Z",
       "released": "2012-08",
       "specs": {
+        "microarchitecture": "zEC12",
         "isa": "z/Architecture",
+        "market": "Server",
         "process_nm": 32,
+        "foundry": "IBM",
         "transistors": 2750000000,
         "die_size_mm2": 597,
-        "data_width_bits": 64,
-        "base_clock_mhz": 5500,
+        "package": "Multi-chip module",
         "cores": 6,
-        "l3_cache_kb": 49152
-      }
+        "threads": 6,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 5500,
+        "l1_cache_kb": 960,
+        "l2_cache_kb": 12288,
+        "l3_cache_kb": 49152,
+        "memory_type": "DDR3",
+        "interface": "System controller (SC) chip links",
+        "instruction_sets": [
+          "Decimal FP",
+          "CPACF crypto",
+          "Transactional execution"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-power7-plus",
@@ -362,16 +850,41 @@
       "family": "POWER",
       "released": "2012-10",
       "specs": {
+        "microarchitecture": "POWER7+",
         "isa": "Power ISA v2.06",
+        "market": "Server",
         "process_nm": 32,
+        "foundry": "IBM",
         "transistors": 2100000000,
         "die_size_mm2": 567,
-        "data_width_bits": 64,
+        "package": "Single-chip / dual-chip module",
         "cores": 8,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 3100,
+        "boost_clock_mhz": 4400,
+        "l1_cache_kb": 512,
         "l2_cache_kb": 2048,
-        "l3_cache_kb": 81920
-      }
+        "l3_cache_kb": 81920,
+        "memory_type": "DDR3",
+        "interface": "GX++ bus, SMP fabric",
+        "instruction_sets": [
+          "VSX",
+          "VMX (AltiVec)",
+          "Decimal FP",
+          "SMT4",
+          "Crypto/compression accelerators"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-espresso",
@@ -379,15 +892,37 @@
       "family": "PowerPC G3",
       "released": "2012-11",
       "specs": {
+        "microarchitecture": "PowerPC 750 (enhanced)",
         "isa": "PowerPC",
-        "microarchitecture": "PowerPC 750",
-        "market": "Console (Nintendo Wii U)",
+        "market": "Console",
         "process_nm": 45,
-        "data_width_bits": 32,
-        "base_clock_mhz": 1243,
+        "foundry": "IBM",
+        "die_size_mm2": 27.7,
+        "package": "MCM (with Latte GPU)",
         "cores": 3,
-        "l2_cache_kb": 3072
-      }
+        "threads": 3,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 1243,
+        "l1_cache_kb": 192,
+        "l2_cache_kb": 3072,
+        "memory_type": "DDR3",
+        "max_memory_mb": 2048,
+        "interface": "On-package link to Latte",
+        "instruction_sets": [
+          "Paired singles (SIMD)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-power8",
@@ -395,16 +930,42 @@
       "family": "POWER",
       "released": "2014-06",
       "specs": {
+        "microarchitecture": "POWER8",
         "isa": "Power ISA v2.07",
+        "market": "Server",
         "process_nm": 22,
+        "foundry": "IBM",
         "transistors": 4200000000,
         "die_size_mm2": 649,
-        "data_width_bits": 64,
+        "package": "Single-chip / dual-chip module",
         "cores": 12,
         "threads": 96,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 3000,
+        "boost_clock_mhz": 4350,
+        "l1_cache_kb": 1152,
         "l2_cache_kb": 6144,
-        "l3_cache_kb": 98304
-      }
+        "l3_cache_kb": 98304,
+        "memory_type": "DDR3, DDR4 (via Centaur)",
+        "max_memory_mb": 1048576,
+        "tdp_w": 190,
+        "interface": "PCIe 3.0, CAPI, SMP fabric",
+        "instruction_sets": [
+          "VSX",
+          "VMX (AltiVec)",
+          "Decimal FP",
+          "SMT8",
+          "Hardware transactional memory",
+          "Crypto"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-z13",
@@ -412,15 +973,41 @@
       "family": "IBM Z",
       "released": "2015-01",
       "specs": {
+        "microarchitecture": "z13",
         "isa": "z/Architecture",
+        "market": "Server",
         "process_nm": 22,
+        "foundry": "IBM",
         "transistors": 3990000000,
         "die_size_mm2": 678,
-        "data_width_bits": 64,
-        "base_clock_mhz": 5000,
+        "package": "Single-chip module",
         "cores": 8,
-        "l3_cache_kb": 65536
-      }
+        "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 5000,
+        "l1_cache_kb": 1792,
+        "l2_cache_kb": 32768,
+        "l3_cache_kb": 65536,
+        "memory_type": "DDR3",
+        "interface": "SC chip links, PCIe 3.0",
+        "instruction_sets": [
+          "SIMD (vector facility)",
+          "SMT2",
+          "Decimal FP",
+          "CPACF crypto",
+          "Transactional execution"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-z14",
@@ -428,15 +1015,41 @@
       "family": "IBM Z",
       "released": "2017-07",
       "specs": {
+        "microarchitecture": "z14",
         "isa": "z/Architecture",
+        "market": "Server",
         "process_nm": 14,
+        "foundry": "GlobalFoundries",
         "transistors": 6100000000,
         "die_size_mm2": 696,
-        "data_width_bits": 64,
-        "base_clock_mhz": 5200,
+        "package": "Single-chip module",
         "cores": 10,
-        "l3_cache_kb": 131072
-      }
+        "threads": 20,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 5200,
+        "l1_cache_kb": 2560,
+        "l2_cache_kb": 61440,
+        "l3_cache_kb": 131072,
+        "memory_type": "DDR4",
+        "interface": "SC chip links, PCIe 3.0",
+        "instruction_sets": [
+          "SIMD (vector facility)",
+          "SMT2",
+          "Decimal FP",
+          "CPACF crypto",
+          "Guarded storage"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-power9",
@@ -444,17 +1057,41 @@
       "family": "POWER",
       "released": "2017-12",
       "specs": {
+        "codename": "Nimbus",
+        "microarchitecture": "POWER9",
         "isa": "Power ISA v3.0",
-        "foundry": "GlobalFoundries",
+        "market": "Server",
         "process_nm": 14,
+        "foundry": "GlobalFoundries",
         "transistors": 8000000000,
         "die_size_mm2": 695,
-        "data_width_bits": 64,
+        "package": "Single-chip module",
+        "socket": "LGA 2601",
         "cores": 24,
         "threads": 96,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 2750,
+        "boost_clock_mhz": 3800,
+        "l1_cache_kb": 1536,
         "l2_cache_kb": 6144,
-        "l3_cache_kb": 122880
-      }
+        "l3_cache_kb": 122880,
+        "memory_type": "DDR4",
+        "max_memory_mb": 4194304,
+        "tdp_w": 190,
+        "interface": "PCIe 4.0, NVLink 2.0, OpenCAPI",
+        "instruction_sets": [
+          "VSX",
+          "VMX (AltiVec)",
+          "Decimal FP",
+          "SMT4",
+          "Crypto"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-z15",
@@ -462,15 +1099,41 @@
       "family": "IBM Z",
       "released": "2019-09",
       "specs": {
+        "microarchitecture": "z15",
         "isa": "z/Architecture",
+        "market": "Server",
         "process_nm": 14,
+        "foundry": "GlobalFoundries",
         "transistors": 9200000000,
         "die_size_mm2": 696,
-        "data_width_bits": 64,
-        "base_clock_mhz": 5200,
+        "package": "Single-chip module",
         "cores": 12,
-        "l3_cache_kb": 262144
-      }
+        "threads": 24,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 5200,
+        "l1_cache_kb": 3072,
+        "l2_cache_kb": 98304,
+        "l3_cache_kb": 262144,
+        "memory_type": "DDR4",
+        "interface": "SC chip links, PCIe 3.0",
+        "instruction_sets": [
+          "SIMD (vector facility)",
+          "SMT2",
+          "Decimal FP",
+          "CPACF crypto",
+          "Integrated compression (NXU)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-power10",
@@ -478,17 +1141,40 @@
       "family": "POWER",
       "released": "2021-09",
       "specs": {
+        "microarchitecture": "POWER10",
         "isa": "Power ISA v3.1",
-        "foundry": "Samsung",
+        "market": "Server",
         "process_nm": 7,
+        "foundry": "Samsung",
         "transistors": 18000000000,
         "die_size_mm2": 602,
-        "data_width_bits": 64,
+        "package": "Single-chip / dual-chip module",
         "cores": 15,
         "threads": 120,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 4000,
+        "l1_cache_kb": 1200,
         "l2_cache_kb": 30720,
-        "l3_cache_kb": 122880
-      }
+        "l3_cache_kb": 122880,
+        "memory_type": "DDR4 (OMI)",
+        "interface": "PCIe 5.0, OMI, PowerAXON",
+        "instruction_sets": [
+          "VSX",
+          "MMA (matrix math)",
+          "SMT8",
+          "Crypto"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-telum",
@@ -496,17 +1182,41 @@
       "family": "IBM Z",
       "released": "2022-04",
       "specs": {
+        "microarchitecture": "Telum",
         "isa": "z/Architecture",
-        "market": "Mainframe (z16)",
-        "foundry": "Samsung",
+        "market": "Server",
         "process_nm": 7,
+        "foundry": "Samsung",
         "transistors": 22500000000,
         "die_size_mm2": 530,
-        "data_width_bits": 64,
-        "base_clock_mhz": 5200,
+        "package": "Dual-chip module",
         "cores": 8,
-        "l2_cache_kb": 262144
-      }
+        "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 5200,
+        "l1_cache_kb": 2048,
+        "l2_cache_kb": 262144,
+        "memory_type": "DDR4 (RAIM)",
+        "interface": "SMP fabric, PCIe 4.0",
+        "instruction_sets": [
+          "SIMD (vector facility)",
+          "SMT2",
+          "On-chip AI accelerator (6 TFLOPS)",
+          "CPACF crypto",
+          "Integrated compression"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-telum-ii",
@@ -514,17 +1224,41 @@
       "family": "IBM Z",
       "released": "2025-06",
       "specs": {
+        "microarchitecture": "Telum II",
         "isa": "z/Architecture",
-        "market": "Mainframe (z17)",
-        "foundry": "Samsung",
+        "market": "Server",
         "process_nm": 5,
+        "foundry": "Samsung",
         "transistors": 43000000000,
         "die_size_mm2": 600,
-        "data_width_bits": 64,
-        "base_clock_mhz": 5500,
+        "package": "Dual-chip module",
         "cores": 8,
-        "l2_cache_kb": 368640
-      }
+        "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 5500,
+        "l1_cache_kb": 2048,
+        "l2_cache_kb": 368640,
+        "memory_type": "DDR5 (RAIM)",
+        "interface": "SMP fabric, PCIe 5.0, on-chip DPU",
+        "instruction_sets": [
+          "SIMD (vector facility)",
+          "SMT2",
+          "On-chip AI accelerator (24 TOPS)",
+          "CPACF crypto",
+          "Integrated compression"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "ibm-power11",
@@ -532,11 +1266,40 @@
       "family": "POWER",
       "released": "2025-07",
       "specs": {
+        "microarchitecture": "Power11",
         "isa": "Power ISA v3.1",
-        "foundry": "Samsung",
+        "market": "Server",
         "process_nm": 7,
-        "data_width_bits": 64
-      }
+        "foundry": "Samsung",
+        "package": "Single-chip / dual-chip module",
+        "cores": 16,
+        "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 64,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 4200,
+        "l1_cache_kb": 1200,
+        "l2_cache_kb": 32768,
+        "l3_cache_kb": 131072,
+        "memory_type": "DDR5 (OMI)",
+        "interface": "PCIe 5.0, OMI, PowerAXON",
+        "instruction_sets": [
+          "VSX",
+          "MMA (matrix math)",
+          "SMT8",
+          "Crypto"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     }
   ]
 }

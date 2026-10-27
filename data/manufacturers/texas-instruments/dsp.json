@@ -8,10 +8,28 @@
       "family": "TMS320C1x",
       "released": "1983",
       "specs": {
+        "microarchitecture": "TMS320C1x",
+        "isa": "TMS320C1x",
+        "market": "Professional",
+        "process_nm": 2400,
+        "package": "40-pin DIP",
+        "cores": 1,
         "data_width_bits": 16,
+        "address_width_bits": 12,
         "base_clock_mhz": 20,
-        "mips": 5
-      }
+        "sram_kb": 0.28125,
+        "mips": 5,
+        "mmacs": 5,
+        "voltage_v": 5,
+        "interfaces": [
+          "8× 16-bit parallel I/O ports"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms32020",
@@ -19,10 +37,29 @@
       "family": "TMS320C2x",
       "released": "1985",
       "specs": {
+        "microarchitecture": "TMS320C2x",
+        "isa": "TMS320C2x",
+        "market": "Professional",
+        "process_nm": 2000,
+        "package": "68-pin PGA",
+        "cores": 1,
         "data_width_bits": 16,
+        "address_width_bits": 16,
         "base_clock_mhz": 20,
-        "mips": 5
-      }
+        "sram_kb": 1.0625,
+        "mips": 5,
+        "mmacs": 5,
+        "voltage_v": 5,
+        "interfaces": [
+          "Serial port",
+          "16× 16-bit I/O ports"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms320c25",
@@ -30,10 +67,29 @@
       "family": "TMS320C2x",
       "released": "1986",
       "specs": {
+        "microarchitecture": "TMS320C2x",
+        "isa": "TMS320C2x",
+        "market": "Professional",
+        "process_nm": 1800,
+        "package": "68-pin PLCC",
+        "cores": 1,
         "data_width_bits": 16,
+        "address_width_bits": 16,
         "base_clock_mhz": 40,
-        "mips": 10
-      }
+        "sram_kb": 1.0625,
+        "mips": 10,
+        "mmacs": 10,
+        "voltage_v": 5,
+        "interfaces": [
+          "Serial port",
+          "16× 16-bit I/O ports"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms320c30",
@@ -41,10 +97,30 @@
       "family": "TMS320C3x",
       "released": "1988",
       "specs": {
+        "microarchitecture": "TMS320C3x",
+        "isa": "TMS320C3x",
+        "market": "Professional",
+        "process_nm": 1000,
+        "transistors": 700000,
+        "package": "181-pin PGA",
+        "cores": 1,
         "data_width_bits": 32,
+        "address_width_bits": 24,
         "base_clock_mhz": 33,
-        "fp32_tflops": 3.3e-05
-      }
+        "sram_kb": 8,
+        "mips": 16.7,
+        "mmacs": 16.7,
+        "mflops": 33.3,
+        "voltage_v": 5,
+        "interfaces": [
+          "2× serial ports",
+          "DMA controller",
+          "Primary and expansion buses"
+        ]
+      },
+      "na": [
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms320c40",
@@ -52,8 +128,30 @@
       "family": "TMS320C4x",
       "released": "1991",
       "specs": {
-        "data_width_bits": 32
-      }
+        "microarchitecture": "TMS320C4x",
+        "isa": "TMS320C4x",
+        "market": "Professional",
+        "package": "325-pin PGA",
+        "cores": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 50,
+        "sram_kb": 8,
+        "mips": 25,
+        "mmacs": 25,
+        "mflops": 50,
+        "voltage_v": 5,
+        "interfaces": [
+          "6× communication ports",
+          "6-channel DMA",
+          "2× 32-bit external buses"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "transistors",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms320c6201",
@@ -61,10 +159,31 @@
       "family": "TMS320C62x",
       "released": "1997",
       "specs": {
+        "microarchitecture": "C62x (VelociTI VLIW)",
+        "isa": "TMS320C6000",
+        "market": "Professional",
+        "process_nm": 250,
+        "package": "352-pin BGA",
+        "cores": 1,
         "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 200,
-        "mips": 1600
-      }
+        "sram_kb": 128,
+        "mips": 1600,
+        "mmacs": 400,
+        "voltage_v": 2.5,
+        "interfaces": [
+          "EMIF",
+          "2× McBSP",
+          "HPI",
+          "4-channel DMA"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms320c6701",
@@ -72,10 +191,31 @@
       "family": "TMS320C67x",
       "released": "1998",
       "specs": {
+        "microarchitecture": "C67x (VelociTI VLIW)",
+        "isa": "TMS320C6000",
+        "market": "Professional",
+        "process_nm": 180,
+        "package": "352-pin BGA",
+        "cores": 1,
         "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 167,
-        "fp32_tflops": 0.001
-      }
+        "sram_kb": 128,
+        "mips": 1336,
+        "mmacs": 334,
+        "mflops": 1000,
+        "voltage_v": 1.8,
+        "interfaces": [
+          "EMIF",
+          "2× McBSP",
+          "HPI",
+          "4-channel DMA"
+        ]
+      },
+      "na": [
+        "transistors",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms320c6416",
@@ -83,11 +223,35 @@
       "family": "TMS320C64x",
       "released": "2001",
       "specs": {
+        "microarchitecture": "C64x (VelociTI.2 VLIW)",
+        "isa": "TMS320C6000",
+        "market": "Professional",
+        "process_nm": 130,
+        "package": "532-pin BGA",
+        "cores": 1,
         "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 600,
+        "l2_cache_kb": 1024,
+        "sram_kb": 1056,
         "mips": 4800,
-        "l2_cache_kb": 1024
-      }
+        "mmacs": 2400,
+        "voltage_v": 1.4,
+        "interfaces": [
+          "EMIF64",
+          "EMIF16",
+          "3× McBSP",
+          "UTOPIA",
+          "PCI",
+          "HPI",
+          "Viterbi/Turbo coprocessors"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms320c6455",
@@ -95,12 +259,34 @@
       "family": "TMS320C64x+",
       "released": "2005",
       "specs": {
-        "data_width_bits": 32,
+        "microarchitecture": "C64x+",
+        "isa": "TMS320C6000",
+        "market": "Professional",
         "process_nm": 90,
+        "package": "697-pin BGA",
+        "cores": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 1200,
+        "l2_cache_kb": 2048,
+        "sram_kb": 2112,
         "mips": 9600,
-        "l2_cache_kb": 2048
-      }
+        "mmacs": 4800,
+        "voltage_v": 1.25,
+        "interfaces": [
+          "DDR2",
+          "Serial RapidIO",
+          "Gigabit Ethernet",
+          "PCI",
+          "UTOPIA",
+          "2× McBSP"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms320c6678",
@@ -108,12 +294,37 @@
       "family": "TMS320C66x",
       "released": "2010-11",
       "specs": {
-        "data_width_bits": 32,
+        "microarchitecture": "C66x",
+        "isa": "TMS320C6000",
+        "market": "Professional",
         "process_nm": 40,
+        "package": "841-pin FC-BGA",
         "cores": 8,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 1250,
-        "l2_cache_kb": 4096
-      }
+        "l2_cache_kb": 4096,
+        "sram_kb": 8704,
+        "mips": 80000,
+        "mmacs": 320000,
+        "mflops": 160000,
+        "tdp_w": 10,
+        "voltage_v": 1.0,
+        "interfaces": [
+          "DDR3 (64-bit)",
+          "PCIe 2.0 x2",
+          "Serial RapidIO",
+          "2× Gigabit Ethernet",
+          "HyperLink",
+          "EMIF16",
+          "I2C",
+          "SPI",
+          "UART"
+        ]
+      },
+      "na": [
+        "transistors"
+      ]
     }
   ]
 }

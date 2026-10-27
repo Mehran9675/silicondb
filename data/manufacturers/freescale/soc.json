@@ -8,12 +8,42 @@
       "family": "i.MX",
       "released": "2005",
       "specs": {
-        "isa": "ARMv6",
         "microarchitecture": "ARM1136JF-S",
+        "isa": "ARMv6",
+        "market": "Embedded",
         "process_nm": 90,
+        "foundry": "Freescale",
         "cores": 1,
-        "boost_clock_mhz": 532
-      }
+        "core_config": "1× ARM1136JF-S",
+        "base_clock_mhz": 532,
+        "l2_cache_kb": 128,
+        "gpu": "PowerVR MBX Lite",
+        "gpu_cores": 1,
+        "memory_type": "Mobile DDR, SDRAM",
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "UART",
+          "SPI",
+          "I2C",
+          "SDIO"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "freescale-mpc8548e",
@@ -21,13 +51,41 @@
       "family": "PowerQUICC III",
       "released": "2005",
       "specs": {
-        "isa": "PowerPC",
         "microarchitecture": "e500",
+        "isa": "PowerPC",
+        "market": "Embedded",
         "process_nm": 90,
+        "foundry": "Freescale",
         "cores": 1,
-        "boost_clock_mhz": 1333,
-        "l2_cache_kb": 512
-      }
+        "core_config": "1× e500v2",
+        "base_clock_mhz": 1333,
+        "l2_cache_kb": 512,
+        "memory_type": "DDR, DDR2",
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 5.3,
+        "connectivity": [
+          "4× Gigabit Ethernet (eTSEC)",
+          "PCIe x8",
+          "Serial RapidIO",
+          "PCI/PCI-X"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "freescale-imx51",
@@ -35,12 +93,44 @@
       "family": "i.MX",
       "released": "2009",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A8",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 65,
+        "foundry": "TSMC",
         "cores": 1,
-        "boost_clock_mhz": 800
-      }
+        "core_config": "1× Cortex-A8",
+        "base_clock_mhz": 800,
+        "l2_cache_kb": 256,
+        "gpu": "AMD Z430",
+        "gpu_cores": 1,
+        "memory_type": "LPDDR, DDR2",
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "USB 2.0 Host",
+          "Fast Ethernet",
+          "UART",
+          "SPI",
+          "I2C",
+          "SDIO"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "freescale-p4080",
@@ -48,14 +138,41 @@
       "family": "QorIQ",
       "released": "2009",
       "specs": {
-        "isa": "PowerPC",
         "microarchitecture": "e500mc",
+        "isa": "PowerPC",
+        "market": "Embedded",
         "process_nm": 45,
+        "foundry": "Freescale",
         "cores": 8,
-        "boost_clock_mhz": 1500,
+        "core_config": "8× e500mc",
+        "base_clock_mhz": 1500,
         "l2_cache_kb": 1024,
-        "l3_cache_kb": 2048
-      }
+        "l3_cache_kb": 2048,
+        "memory_type": "DDR2, DDR3",
+        "max_memory_mb": 65536,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 21.3,
+        "tdp_w": 30,
+        "connectivity": [
+          "2× 10 Gigabit Ethernet",
+          "8× Gigabit Ethernet",
+          "3× PCIe 2.0",
+          "2× Serial RapidIO"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "modem"
+      ]
     },
     {
       "id": "freescale-imx53",
@@ -63,12 +180,46 @@
       "family": "i.MX",
       "released": "2011",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A8",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 45,
+        "foundry": "TSMC",
         "cores": 1,
-        "boost_clock_mhz": 1000
-      }
+        "core_config": "1× Cortex-A8",
+        "base_clock_mhz": 1000,
+        "l2_cache_kb": 256,
+        "gpu": "AMD Z430",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 200,
+        "memory_type": "DDR2, LPDDR2, DDR3",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 3.2,
+        "connectivity": [
+          "USB 2.0 OTG",
+          "USB 2.0 Host",
+          "Fast Ethernet",
+          "SATA",
+          "CAN",
+          "UART",
+          "SPI",
+          "I2C",
+          "SDIO"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "freescale-imx6solo",
@@ -76,14 +227,46 @@
       "family": "i.MX 6",
       "released": "2012",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 1,
-        "boost_clock_mhz": 1000,
+        "core_config": "1× Cortex-A9",
+        "base_clock_mhz": 1000,
         "l2_cache_kb": 512,
-        "gpu": "Vivante GC880"
-      }
+        "gpu": "Vivante GC880",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 533,
+        "memory_type": "DDR3, LPDDR2",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 4.3,
+        "fp32_tflops": 0.0043,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "USB 2.0 OTG",
+          "USB 2.0 Host",
+          "PCIe 2.0 x1",
+          "CAN",
+          "UART",
+          "SPI",
+          "I2C",
+          "SDIO"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "freescale-imx6duallite",
@@ -91,14 +274,46 @@
       "family": "i.MX 6",
       "released": "2012",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 2,
-        "boost_clock_mhz": 1000,
+        "core_config": "2× Cortex-A9",
+        "base_clock_mhz": 1000,
         "l2_cache_kb": 512,
-        "gpu": "Vivante GC880"
-      }
+        "gpu": "Vivante GC880",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 533,
+        "memory_type": "DDR3, LPDDR2",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "fp32_tflops": 0.0043,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "USB 2.0 OTG",
+          "USB 2.0 Host",
+          "PCIe 2.0 x1",
+          "CAN",
+          "UART",
+          "SPI",
+          "I2C",
+          "SDIO"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "freescale-imx6dual",
@@ -106,14 +321,47 @@
       "family": "i.MX 6",
       "released": "2012",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 2,
-        "boost_clock_mhz": 1200,
+        "core_config": "2× Cortex-A9",
+        "base_clock_mhz": 1200,
         "l2_cache_kb": 1024,
-        "gpu": "Vivante GC2000"
-      }
+        "gpu": "Vivante GC2000",
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 594,
+        "memory_type": "DDR3, LPDDR2",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "fp32_tflops": 0.019,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "USB 2.0 OTG",
+          "USB 2.0 Host",
+          "PCIe 2.0 x1",
+          "CAN",
+          "UART",
+          "SPI",
+          "I2C",
+          "SDIO",
+          "SATA"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "freescale-imx6quad",
@@ -121,14 +369,47 @@
       "family": "i.MX 6",
       "released": "2012",
       "specs": {
-        "isa": "ARMv7-A",
         "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 40,
+        "foundry": "TSMC",
         "cores": 4,
-        "boost_clock_mhz": 1200,
+        "core_config": "4× Cortex-A9",
+        "base_clock_mhz": 1200,
         "l2_cache_kb": 1024,
-        "gpu": "Vivante GC2000"
-      }
+        "gpu": "Vivante GC2000",
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 594,
+        "memory_type": "DDR3, LPDDR2",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "fp32_tflops": 0.019,
+        "connectivity": [
+          "Gigabit Ethernet",
+          "USB 2.0 OTG",
+          "USB 2.0 Host",
+          "PCIe 2.0 x1",
+          "CAN",
+          "UART",
+          "SPI",
+          "I2C",
+          "SDIO",
+          "SATA"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "modem",
+        "tdp_w"
+      ]
     },
     {
       "id": "freescale-t4240",
@@ -136,17 +417,46 @@
       "family": "QorIQ",
       "released": "2012",
       "specs": {
-        "isa": "Power ISA v2.06",
         "microarchitecture": "e6500",
+        "isa": "Power ISA v2.06",
+        "market": "Embedded",
         "process_nm": 28,
+        "foundry": "TSMC",
         "cores": 12,
         "threads": 24,
-        "boost_clock_mhz": 1800,
+        "core_config": "12× e6500 (3 clusters of 4)",
+        "base_clock_mhz": 1800,
         "l2_cache_kb": 6144,
+        "l3_cache_kb": 1536,
+        "memory_type": "DDR3, DDR3L",
+        "memory_bus_bits": 192,
+        "memory_bandwidth_gbs": 44.8,
+        "connectivity": [
+          "4× 10 Gigabit Ethernet",
+          "16× Gigabit Ethernet",
+          "4× PCIe 3.0",
+          "2× Serial RapidIO",
+          "Interlaken"
+        ],
         "instruction_sets": [
           "AltiVec"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "max_memory_mb",
+        "modem",
+        "tdp_w"
+      ]
     }
   ]
 }

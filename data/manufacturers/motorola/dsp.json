@@ -8,9 +8,30 @@
       "family": "DSP56000",
       "released": "1986",
       "specs": {
+        "microarchitecture": "DSP56000",
+        "isa": "DSP56K",
+        "market": "Professional",
+        "process_nm": 1500,
+        "package": "88-pin PGA",
+        "cores": 1,
         "data_width_bits": 24,
-        "cores": 1
-      }
+        "address_width_bits": 16,
+        "base_clock_mhz": 20.48,
+        "sram_kb": 1.5,
+        "mips": 10.24,
+        "mmacs": 10.24,
+        "voltage_v": 5,
+        "interfaces": [
+          "SCI",
+          "SSI",
+          "Host interface (8-bit)"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "motorola-dsp56001",
@@ -18,9 +39,30 @@
       "family": "DSP56000",
       "released": "1987",
       "specs": {
+        "microarchitecture": "DSP56000",
+        "isa": "DSP56K",
+        "market": "Professional",
+        "process_nm": 1500,
+        "package": "88-pin PGA",
+        "cores": 1,
         "data_width_bits": 24,
-        "cores": 1
-      }
+        "address_width_bits": 16,
+        "base_clock_mhz": 20.48,
+        "sram_kb": 3,
+        "mips": 10.24,
+        "mmacs": 10.24,
+        "voltage_v": 5,
+        "interfaces": [
+          "SCI",
+          "SSI",
+          "Host interface (8-bit)"
+        ]
+      },
+      "na": [
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "motorola-dsp96002",
@@ -28,9 +70,30 @@
       "family": "DSP96000",
       "released": "1989",
       "specs": {
+        "microarchitecture": "DSP96002",
+        "isa": "DSP96K",
+        "market": "Professional",
+        "process_nm": 1200,
+        "package": "223-pin PGA",
+        "cores": 1,
         "data_width_bits": 32,
-        "cores": 1
-      }
+        "address_width_bits": 32,
+        "base_clock_mhz": 33,
+        "sram_kb": 8,
+        "mips": 16.5,
+        "mmacs": 16.5,
+        "mflops": 49.5,
+        "voltage_v": 5,
+        "interfaces": [
+          "Dual 32-bit expansion ports",
+          "Host interfaces",
+          "DMA controller"
+        ]
+      },
+      "na": [
+        "transistors",
+        "tdp_w"
+      ]
     }
   ]
 }

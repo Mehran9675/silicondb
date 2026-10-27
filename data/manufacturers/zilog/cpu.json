@@ -8,15 +8,35 @@
       "family": "Z80",
       "released": "1976-07",
       "specs": {
+        "microarchitecture": "Z80",
         "isa": "Z80",
+        "market": "Desktop",
         "process_nm": 4000,
+        "foundry": "Zilog",
         "transistors": 8500,
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
         "base_clock_mhz": 2.5,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "Z80 bus (8-bit data, 16-bit address)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "zilog-z8001",
@@ -24,14 +44,35 @@
       "family": "Z8000",
       "released": "1979",
       "specs": {
+        "microarchitecture": "Z8000",
         "isa": "Z8000",
+        "market": "Workstation",
+        "process_nm": 4000,
+        "foundry": "Zilog",
         "transistors": 17500,
+        "package": "48-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
         "address_width_bits": 23,
         "base_clock_mhz": 4,
-        "cores": 1,
-        "package": "48-pin DIP"
-      }
+        "max_memory_mb": 8,
+        "voltage_v": 5,
+        "interface": "Z-Bus (16-bit multiplexed, segmented addressing)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "zilog-z8002",
@@ -39,14 +80,35 @@
       "family": "Z8000",
       "released": "1979",
       "specs": {
+        "microarchitecture": "Z8000",
         "isa": "Z8000",
+        "market": "Embedded",
+        "process_nm": 4000,
+        "foundry": "Zilog",
         "transistors": 17500,
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
         "address_width_bits": 16,
         "base_clock_mhz": 4,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "Z-Bus (16-bit multiplexed)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "zilog-z80000",
@@ -54,11 +116,37 @@
       "family": "Z80000",
       "released": "1986",
       "specs": {
+        "microarchitecture": "Z80000",
         "isa": "Z80000",
+        "market": "Workstation",
+        "foundry": "Zilog",
+        "transistors": 91000,
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
-        "cores": 1
-      }
+        "base_clock_mhz": 10,
+        "l1_cache_kb": 0.25,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "Z-Bus (32-bit multiplexed)",
+        "instruction_sets": [
+          "On-chip MMU"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "die_size_mm2",
+        "socket",
+        "package",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "zilog-z280",
@@ -66,11 +154,40 @@
       "family": "Z280",
       "released": "1987",
       "specs": {
+        "microarchitecture": "Z280",
         "isa": "Z80",
+        "market": "Embedded",
+        "process_nm": 2000,
+        "foundry": "Zilog",
+        "package": "68-pin PLCC",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
         "address_width_bits": 24,
-        "cores": 1
-      }
+        "base_clock_mhz": 10,
+        "l1_cache_kb": 0.25,
+        "max_memory_mb": 16,
+        "voltage_v": 5,
+        "interface": "Z-Bus / Z80 bus (8/16-bit)",
+        "instruction_sets": [
+          "On-chip MMU",
+          "DMA (4 channels)",
+          "UART",
+          "3× 16-bit counter/timers"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "zilog-ez80190",
@@ -78,12 +195,35 @@
       "family": "eZ80",
       "released": "2001",
       "specs": {
+        "microarchitecture": "eZ80",
         "isa": "eZ80",
+        "market": "Embedded",
+        "foundry": "Zilog",
+        "package": "100-pin LQFP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 24,
         "base_clock_mhz": 50,
-        "cores": 1
-      }
+        "max_memory_mb": 16,
+        "voltage_v": 3.3,
+        "interface": "eZ80 external bus (8-bit data, 24-bit address)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     }
   ]
 }

@@ -8,8 +8,42 @@
       "family": "TIGA",
       "released": "1986",
       "specs": {
-        "data_width_bits": 32
-      }
+        "microarchitecture": "TMS340",
+        "market": "Professional",
+        "process_nm": 2000,
+        "foundry": "Texas Instruments",
+        "data_width_bits": 32,
+        "gpu_clock_mhz": 50,
+        "graphics_api": [
+          "TIGA"
+        ],
+        "memory_type": "VRAM / DRAM",
+        "memory_bus_bits": 16,
+        "interface": "Host interface (16-bit)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "shading_units",
+        "tmus",
+        "rops",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "l2_cache_kb",
+        "memory_size_mb",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp64_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "texas-instruments-tms34020",
@@ -17,8 +51,42 @@
       "family": "TIGA",
       "released": "1988",
       "specs": {
-        "data_width_bits": 32
-      }
+        "microarchitecture": "TMS340",
+        "market": "Professional",
+        "process_nm": 1000,
+        "foundry": "Texas Instruments",
+        "data_width_bits": 32,
+        "gpu_clock_mhz": 40,
+        "graphics_api": [
+          "TIGA"
+        ],
+        "memory_type": "VRAM / DRAM",
+        "memory_bus_bits": 32,
+        "interface": "Host interface (16/32-bit)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "shading_units",
+        "tmus",
+        "rops",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "l2_cache_kb",
+        "memory_size_mb",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp64_tflops",
+        "tdp_w"
+      ]
     }
   ]
 }

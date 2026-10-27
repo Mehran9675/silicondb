@@ -336,25 +336,25 @@
           "path": "manufacturers/freescale/cpu.json",
           "category": "cpu",
           "count": 8,
-          "rev": "9b953e1dda067b78"
+          "rev": "0033beeff6fffab6"
         },
         {
           "path": "manufacturers/freescale/dsp.json",
           "category": "dsp",
           "count": 1,
-          "rev": "49a531267271475a"
+          "rev": "a2e11e399096d6ad"
         },
         {
           "path": "manufacturers/freescale/mcu.json",
           "category": "mcu",
           "count": 5,
-          "rev": "ac5dff68917841bf"
+          "rev": "987283933fba0d0d"
         },
         {
           "path": "manufacturers/freescale/soc.json",
           "category": "soc",
           "count": 10,
-          "rev": "f13239758c0c59ce"
+          "rev": "6cf6d9fa7e021666"
         }
       ]
     },
@@ -510,13 +510,13 @@
           "path": "manufacturers/ibm/ai.json",
           "category": "ai",
           "count": 3,
-          "rev": "69cd43a251400163"
+          "rev": "83fc08c649648fe4"
         },
         {
           "path": "manufacturers/ibm/cpu.json",
           "category": "cpu",
           "count": 33,
-          "rev": "3cf68f3955353139"
+          "rev": "688b3fe25fa01f4e"
         }
       ]
     },
@@ -738,7 +738,7 @@
           "path": "manufacturers/mos-technology/cpu.json",
           "category": "cpu",
           "count": 6,
-          "rev": "e83f534c18f7c312"
+          "rev": "5ec7516bc9e45e37"
         }
       ]
     },
@@ -754,19 +754,19 @@
           "path": "manufacturers/motorola/cpu.json",
           "category": "cpu",
           "count": 16,
-          "rev": "9b4af6641dce6559"
+          "rev": "32060a8be006e86a"
         },
         {
           "path": "manufacturers/motorola/dsp.json",
           "category": "dsp",
           "count": 3,
-          "rev": "b35df1865233ef93"
+          "rev": "43dffbdb07b65ec8"
         },
         {
           "path": "manufacturers/motorola/mcu.json",
           "category": "mcu",
           "count": 5,
-          "rev": "0f2e13a73b215676"
+          "rev": "884728d733111dd9"
         }
       ]
     },
@@ -1168,31 +1168,31 @@
           "path": "manufacturers/texas-instruments/cpu.json",
           "category": "cpu",
           "count": 4,
-          "rev": "8d4389da5aa1bbcc"
+          "rev": "983ddf4c2f48ab54"
         },
         {
           "path": "manufacturers/texas-instruments/dsp.json",
           "category": "dsp",
           "count": 10,
-          "rev": "aee74d7b5a025e43"
+          "rev": "fc31db7d249d04e1"
         },
         {
           "path": "manufacturers/texas-instruments/gpu.json",
           "category": "gpu",
           "count": 2,
-          "rev": "5f18ac8a9e251391"
+          "rev": "10c0b8a07e1f3c61"
         },
         {
           "path": "manufacturers/texas-instruments/mcu.json",
           "category": "mcu",
           "count": 6,
-          "rev": "74463e9207bf71a6"
+          "rev": "7da90a4cfea938eb"
         },
         {
           "path": "manufacturers/texas-instruments/soc.json",
           "category": "soc",
           "count": 12,
-          "rev": "c7b1da7968050ba4"
+          "rev": "9a3a24444bdb4031"
         }
       ]
     },
@@ -1240,7 +1240,7 @@
           "path": "manufacturers/wdc/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "dd44c1263d20022d"
+          "rev": "e87759eb4516b959"
         }
       ]
     },
@@ -1272,13 +1272,13 @@
           "path": "manufacturers/zilog/cpu.json",
           "category": "cpu",
           "count": 6,
-          "rev": "c3d9edb6939b5570"
+          "rev": "a69f92a59d2e3fb0"
         },
         {
           "path": "manufacturers/zilog/mcu.json",
           "category": "mcu",
           "count": 3,
-          "rev": "ac45b93a5e04418e"
+          "rev": "5d9d1decda21b231"
         }
       ]
     }
