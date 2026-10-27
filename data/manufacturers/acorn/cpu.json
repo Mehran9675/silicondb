@@ -8,15 +8,35 @@
       "family": "ARM",
       "released": "1985-04",
       "specs": {
+        "microarchitecture": "ARM1",
         "isa": "ARMv1",
-        "foundry": "VLSI Technology",
+        "market": "Desktop",
         "process_nm": 3000,
+        "foundry": "VLSI Technology",
         "transistors": 25000,
+        "die_size_mm2": 50,
+        "package": "84-pin JLCC",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 26,
         "base_clock_mhz": 6,
-        "cores": 1
-      }
+        "max_memory_mb": 64,
+        "tdp_w": 0.1,
+        "voltage_v": 5,
+        "interface": "26-bit address / 32-bit data bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "instruction_sets"
+      ]
     },
     {
       "id": "acorn-arm2",
@@ -24,15 +44,37 @@
       "family": "ARM",
       "released": "1986",
       "specs": {
+        "microarchitecture": "ARM2",
         "isa": "ARMv2",
-        "foundry": "VLSI Technology",
+        "market": "Desktop",
         "process_nm": 2000,
+        "foundry": "VLSI Technology",
         "transistors": 30000,
+        "package": "84-pin JLCC",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 26,
         "base_clock_mhz": 8,
-        "cores": 1
-      }
+        "max_memory_mb": 64,
+        "voltage_v": 5,
+        "interface": "26-bit address / 32-bit data bus",
+        "instruction_sets": [
+          "MUL/MLA multiply"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "acorn-arm3",
@@ -40,15 +82,37 @@
       "family": "ARM",
       "released": "1989",
       "specs": {
+        "microarchitecture": "ARM3",
         "isa": "ARMv2a",
+        "market": "Desktop",
+        "process_nm": 1500,
         "foundry": "VLSI Technology",
         "transistors": 310000,
+        "package": "100-pin PQFP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 26,
         "base_clock_mhz": 25,
-        "cores": 1,
-        "l1_cache_kb": 4
-      }
+        "l1_cache_kb": 4,
+        "max_memory_mb": 64,
+        "voltage_v": 5,
+        "interface": "26-bit address / 32-bit data bus",
+        "instruction_sets": [
+          "SWP"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     }
   ]
 }

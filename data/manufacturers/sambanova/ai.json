@@ -9,13 +9,32 @@
       "released": "2020-11",
       "specs": {
         "codename": "Cardinal",
-        "market": "Datacenter",
+        "microarchitecture": "RDU",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 40000000000,
+        "cores": 640,
+        "memory_type": "DDR4",
+        "memory_size_mb": 1572864,
         "sram_kb": 327680,
-        "memory_type": "DDR4"
-      }
+        "bf16_tflops": 325,
+        "interface": "PCIe 4.0"
+      },
+      "na": [
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "int8_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "sambanova-sn30",
@@ -23,14 +42,33 @@
       "family": "Reconfigurable Dataflow Unit",
       "released": "2022-09",
       "specs": {
-        "market": "Datacenter",
+        "microarchitecture": "RDU",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 86000000000,
+        "cores": 1280,
+        "memory_type": "DDR4",
+        "memory_size_mb": 1048576,
         "sram_kb": 655360,
         "bf16_tflops": 688,
-        "memory_type": "DDR4"
-      }
+        "interface": "PCIe 4.0"
+      },
+      "na": [
+        "codename",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "int8_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "sambanova-sn40l",
@@ -38,17 +76,34 @@
       "family": "Reconfigurable Dataflow Unit",
       "released": "2023-09",
       "specs": {
-        "market": "Datacenter",
+        "microarchitecture": "RDU",
+        "market": "Data center",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 102000000000,
         "package": "2 dies (CoWoS)",
         "cores": 1040,
-        "sram_kb": 532480,
         "memory_type": "HBM + DDR5",
         "memory_size_mb": 65536,
-        "bf16_tflops": 638
-      }
+        "sram_kb": 532480,
+        "bf16_tflops": 638,
+        "interface": "PCIe 5.0"
+      },
+      "na": [
+        "codename",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "int8_tops",
+        "tdp_w"
+      ]
     }
   ]
 }

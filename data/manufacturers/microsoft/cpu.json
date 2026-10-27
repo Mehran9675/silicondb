@@ -10,12 +10,39 @@
       "specs": {
         "microarchitecture": "Neoverse N2",
         "isa": "ARMv9.0-A",
-        "market": "Datacenter",
+        "market": "Server",
         "process_nm": 5,
         "foundry": "TSMC",
+        "package": "Multi-chiplet",
         "cores": 128,
-        "threads": 128
-      }
+        "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3400,
+        "l1_cache_kb": 16384,
+        "l2_cache_kb": 131072,
+        "memory_type": "DDR5",
+        "memory_channels": 12,
+        "interface": "PCIe 5.0",
+        "instruction_sets": [
+          "NEON",
+          "SVE2 (128-bit)",
+          "bfloat16",
+          "Crypto"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "microsoft-cobalt-200",
@@ -25,12 +52,39 @@
       "specs": {
         "microarchitecture": "Neoverse V3",
         "isa": "ARMv9.2-A",
-        "market": "Datacenter",
+        "market": "Server",
         "process_nm": 3,
         "foundry": "TSMC",
+        "package": "2 chiplets",
         "cores": 132,
-        "threads": 132
-      }
+        "threads": 132,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "l1_cache_kb": 16896,
+        "l2_cache_kb": 270336,
+        "l3_cache_kb": 196608,
+        "memory_type": "DDR5",
+        "memory_channels": 12,
+        "interface": "PCIe 6.0",
+        "instruction_sets": [
+          "NEON",
+          "SVE2 (128-bit)",
+          "bfloat16",
+          "Crypto"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     }
   ]
 }

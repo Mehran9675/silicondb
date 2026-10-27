@@ -8,11 +8,36 @@
       "family": "COSMAC",
       "released": "1975",
       "specs": {
+        "microarchitecture": "COSMAC",
         "isa": "COSMAC",
+        "market": "Embedded",
+        "foundry": "RCA",
+        "package": "2x 28-pin DIP",
+        "cores": 1,
+        "threads": 1,
+        "core_config": "Two-chip",
         "data_width_bits": 8,
         "address_width_bits": 16,
-        "core_config": "Two-chip"
-      }
+        "base_clock_mhz": 2,
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "8-bit data / multiplexed 16-bit address bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "rca-cdp1802",
@@ -20,12 +45,35 @@
       "family": "COSMAC",
       "released": "1976",
       "specs": {
+        "microarchitecture": "COSMAC",
         "isa": "COSMAC",
+        "market": "Embedded",
+        "process_nm": 5000,
+        "foundry": "RCA",
+        "transistors": 5000,
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "base_clock_mhz": 3.2,
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "8-bit data / multiplexed 16-bit address bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     }
   ]
 }

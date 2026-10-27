@@ -8,12 +8,35 @@
       "family": "2650",
       "released": "1975-07",
       "specs": {
+        "microarchitecture": "2650",
         "isa": "2650",
+        "market": "Embedded",
+        "foundry": "Signetics",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 15,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "base_clock_mhz": 1.25,
+        "max_memory_mb": 0.03125,
+        "voltage_v": 5,
+        "interface": "8-bit data / 15-bit address bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     }
   ]
 }

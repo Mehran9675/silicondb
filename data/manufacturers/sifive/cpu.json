@@ -10,30 +10,71 @@
       "specs": {
         "microarchitecture": "U54",
         "isa": "RISC-V (RV64GC)",
-        "data_width_bits": 64,
+        "market": "Embedded",
         "process_nm": 28,
         "foundry": "TSMC",
+        "package": "FCBGA",
         "cores": 5,
+        "threads": 5,
         "core_config": "4x U54 + 1x E51",
+        "data_width_bits": 64,
+        "address_width_bits": 38,
         "base_clock_mhz": 1500,
-        "l2_cache_kb": 2048
-      }
+        "l1_cache_kb": 280,
+        "l2_cache_kb": 2048,
+        "memory_type": "DDR3 / DDR4",
+        "interface": "ChipLink, Gigabit Ethernet, SPI, UART, I2C"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v",
+        "instruction_sets"
+      ]
     },
     {
       "id": "sifive-fu740-c000",
       "name": "FU740-C000",
       "family": "Freedom U700",
-      "released": "2021",
+      "released": "2021-04",
       "specs": {
         "microarchitecture": "U74",
         "isa": "RISC-V (RV64GC)",
-        "data_width_bits": 64,
+        "market": "Embedded",
         "process_nm": 28,
         "foundry": "TSMC",
+        "package": "FCBGA",
         "cores": 5,
+        "threads": 5,
         "core_config": "4x U74 + 1x S7",
-        "l2_cache_kb": 2048
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 38,
+        "base_clock_mhz": 1200,
+        "l1_cache_kb": 288,
+        "l2_cache_kb": 2048,
+        "memory_type": "DDR4",
+        "interface": "PCIe 3.0 x8, Gigabit Ethernet, SPI, UART, I2C"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v",
+        "instruction_sets"
+      ]
     }
   ]
 }

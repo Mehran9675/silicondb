@@ -8,12 +8,35 @@
       "family": "Godson",
       "released": "2002-08",
       "specs": {
+        "microarchitecture": "GS132",
         "isa": "MIPS-compatible",
-        "data_width_bits": 32,
+        "market": "Embedded",
         "process_nm": 180,
+        "foundry": "SMIC",
+        "package": "BGA",
         "cores": 1,
-        "base_clock_mhz": 266
-      }
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 266,
+        "l1_cache_kb": 16,
+        "memory_type": "SDRAM",
+        "interface": "PCI"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v",
+        "instruction_sets"
+      ]
     },
     {
       "id": "loongson-godson-2e",
@@ -21,14 +44,35 @@
       "family": "Godson-2",
       "released": "2006",
       "specs": {
+        "microarchitecture": "GS464",
         "isa": "MIPS III",
-        "data_width_bits": 64,
+        "market": "Desktop",
         "process_nm": 90,
         "foundry": "STMicroelectronics",
         "transistors": 47000000,
+        "die_size_mm2": 36,
+        "package": "BGA",
         "cores": 1,
-        "base_clock_mhz": 1000
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
+        "base_clock_mhz": 1000,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 512,
+        "memory_type": "DDR",
+        "tdp_w": 7,
+        "interface": "PCI"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "voltage_v",
+        "instruction_sets"
+      ]
     },
     {
       "id": "loongson-godson-2f",
@@ -36,12 +80,35 @@
       "family": "Godson-2",
       "released": "2007",
       "specs": {
+        "microarchitecture": "GS464",
         "isa": "MIPS III",
-        "data_width_bits": 64,
+        "market": "Laptop",
         "process_nm": 90,
         "foundry": "STMicroelectronics",
-        "cores": 1
-      }
+        "transistors": 51000000,
+        "die_size_mm2": 43,
+        "package": "BGA",
+        "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
+        "base_clock_mhz": 800,
+        "l1_cache_kb": 128,
+        "l2_cache_kb": 512,
+        "memory_type": "DDR2",
+        "tdp_w": 4,
+        "interface": "PCI / PCI-X, LPC"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "voltage_v",
+        "instruction_sets"
+      ]
     },
     {
       "id": "loongson-godson-3a",
@@ -51,15 +118,35 @@
       "specs": {
         "microarchitecture": "GS464",
         "isa": "MIPS64",
-        "data_width_bits": 64,
+        "market": "Desktop",
         "process_nm": 65,
         "foundry": "STMicroelectronics",
         "transistors": 425000000,
+        "die_size_mm2": 174.5,
+        "package": "FCBGA",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 1000,
-        "tdp_w": 15
-      }
+        "l1_cache_kb": 512,
+        "l2_cache_kb": 4096,
+        "memory_type": "DDR2 / DDR3",
+        "tdp_w": 15,
+        "interface": "HyperTransport 1.0",
+        "instruction_sets": [
+          "LoongISA"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "loongson-3a3000",
@@ -69,13 +156,36 @@
       "specs": {
         "microarchitecture": "GS464E",
         "isa": "MIPS64",
-        "data_width_bits": 64,
+        "market": "Desktop",
         "process_nm": 28,
+        "package": "FCBGA",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 1500,
-        "l3_cache_kb": 8192
-      }
+        "l1_cache_kb": 512,
+        "l2_cache_kb": 1024,
+        "l3_cache_kb": 8192,
+        "memory_type": "DDR3",
+        "tdp_w": 30,
+        "interface": "HyperTransport 3.0",
+        "instruction_sets": [
+          "LoongISA",
+          "MSA"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "loongson-3a4000",
@@ -85,14 +195,36 @@
       "specs": {
         "microarchitecture": "GS464V",
         "isa": "MIPS64",
-        "data_width_bits": 64,
+        "market": "Desktop",
         "process_nm": 28,
+        "package": "FCBGA",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 1800,
         "boost_clock_mhz": 2000,
-        "l3_cache_kb": 8192
-      }
+        "l1_cache_kb": 512,
+        "l2_cache_kb": 1024,
+        "l3_cache_kb": 8192,
+        "memory_type": "DDR4-2400",
+        "tdp_w": 40,
+        "interface": "HyperTransport 3.0",
+        "instruction_sets": [
+          "LoongISA 2.0",
+          "LASX (256-bit)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "loongson-3a5000",
@@ -102,17 +234,37 @@
       "specs": {
         "microarchitecture": "LA464",
         "isa": "LoongArch",
-        "data_width_bits": 64,
+        "market": "Desktop",
         "process_nm": 12,
+        "package": "FCBGA",
         "cores": 4,
         "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2300,
         "boost_clock_mhz": 2500,
+        "l1_cache_kb": 512,
+        "l2_cache_kb": 1024,
         "l3_cache_kb": 16384,
         "memory_type": "DDR4-3200",
         "memory_channels": 2,
-        "tdp_w": 35
-      }
+        "tdp_w": 35,
+        "interface": "HyperTransport 3.0",
+        "instruction_sets": [
+          "LSX (128-bit)",
+          "LASX (256-bit)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "loongson-3c5000",
@@ -122,12 +274,37 @@
       "specs": {
         "microarchitecture": "LA464",
         "isa": "LoongArch",
-        "data_width_bits": 64,
-        "process_nm": 12,
         "market": "Server",
+        "process_nm": 12,
+        "package": "FCLGA",
         "cores": 16,
-        "threads": 16
-      }
+        "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 2200,
+        "l1_cache_kb": 2048,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 32768,
+        "memory_type": "DDR4-3200",
+        "memory_channels": 4,
+        "tdp_w": 150,
+        "interface": "HyperTransport 3.0",
+        "instruction_sets": [
+          "LSX (128-bit)",
+          "LASX (256-bit)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "loongson-3a6000",
@@ -137,15 +314,37 @@
       "specs": {
         "microarchitecture": "LA664",
         "isa": "LoongArch",
-        "data_width_bits": 64,
+        "market": "Desktop",
         "process_nm": 12,
+        "package": "FCBGA",
         "cores": 4,
         "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2500,
+        "l1_cache_kb": 512,
+        "l2_cache_kb": 1024,
         "l3_cache_kb": 16384,
         "memory_type": "DDR4-3200",
-        "memory_channels": 2
-      }
+        "memory_channels": 2,
+        "tdp_w": 38,
+        "interface": "HyperTransport 3.0",
+        "instruction_sets": [
+          "LSX (128-bit)",
+          "LASX (256-bit)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "loongson-3c6000",
@@ -155,11 +354,37 @@
       "specs": {
         "microarchitecture": "LA664",
         "isa": "LoongArch",
-        "data_width_bits": 64,
         "market": "Server",
+        "process_nm": 12,
+        "package": "FCLGA",
         "cores": 16,
-        "threads": 32
-      }
+        "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 2200,
+        "l1_cache_kb": 2048,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 32768,
+        "memory_type": "DDR4-3200",
+        "memory_channels": 4,
+        "interface": "PCIe 4.0 (64 lanes)",
+        "instruction_sets": [
+          "LSX (128-bit)",
+          "LASX (256-bit)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     }
   ]
 }

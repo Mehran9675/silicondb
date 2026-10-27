@@ -10,13 +10,30 @@
       "specs": {
         "microarchitecture": "E31",
         "isa": "RISC-V (RV32IMAC)",
-        "data_width_bits": 32,
+        "market": "Embedded",
         "process_nm": 180,
         "foundry": "TSMC",
+        "package": "48-pin QFN",
         "cores": 1,
+        "data_width_bits": 32,
         "base_clock_mhz": 320,
-        "sram_kb": 16
-      }
+        "sram_kb": 16,
+        "mips": 500,
+        "voltage_v": 1.8,
+        "gpio_pins": 19,
+        "timers": "3x PWM, RTC, watchdog",
+        "interfaces": [
+          "QSPI",
+          "SPI",
+          "UART"
+        ]
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "adc",
+        "dac"
+      ]
     }
   ]
 }

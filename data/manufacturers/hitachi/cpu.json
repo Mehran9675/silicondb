@@ -8,10 +8,38 @@
       "family": "HD64180",
       "released": "1985",
       "specs": {
+        "microarchitecture": "HD64180",
         "isa": "Z80",
+        "market": "Embedded",
+        "foundry": "Hitachi",
+        "package": "64-pin DIP / 68-pin PLCC",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
-        "cores": 1
-      }
+        "address_width_bits": 19,
+        "base_clock_mhz": 6,
+        "max_memory_mb": 0.5,
+        "voltage_v": 5,
+        "interface": "8-bit bus, 2x ASCI, CSI/O, 2x DMA",
+        "instruction_sets": [
+          "MLT",
+          "Z80 extensions (TST, IN0/OUT0, SLP)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "hitachi-sh7032",
@@ -19,12 +47,36 @@
       "family": "SuperH",
       "released": "1992",
       "specs": {
+        "microarchitecture": "SH-1",
         "isa": "SH-1",
-        "data_width_bits": 32,
-        "base_clock_mhz": 20,
+        "market": "Embedded",
+        "process_nm": 800,
+        "foundry": "Hitachi",
+        "package": "112-pin QFP",
         "cores": 1,
-        "sram_kb": 8
-      }
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 20,
+        "max_memory_mb": 4096,
+        "sram_kb": 8,
+        "voltage_v": 5,
+        "interface": "2x SCI, ITU, DMA, 10-bit ADC"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "hitachi-sh7604",
@@ -32,12 +84,35 @@
       "family": "SuperH",
       "released": "1994",
       "specs": {
+        "microarchitecture": "SH-2",
         "isa": "SH-2",
-        "data_width_bits": 32,
-        "base_clock_mhz": 28.6,
+        "market": "Embedded",
+        "process_nm": 800,
+        "foundry": "Hitachi",
+        "package": "144-pin QFP",
         "cores": 1,
-        "l1_cache_kb": 4
-      }
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 28.6,
+        "l1_cache_kb": 4,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "32-bit bus, SCI, FRT, DMA"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "hitachi-sh7708",
@@ -45,12 +120,37 @@
       "family": "SuperH",
       "released": "1995",
       "specs": {
+        "microarchitecture": "SH-3",
         "isa": "SH-3",
-        "data_width_bits": 32,
-        "base_clock_mhz": 60,
+        "market": "Embedded",
+        "process_nm": 500,
+        "foundry": "Hitachi",
+        "package": "144-pin QFP",
         "cores": 1,
-        "l1_cache_kb": 8
-      }
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 60,
+        "l1_cache_kb": 8,
+        "max_memory_mb": 4096,
+        "voltage_v": 3.3,
+        "interface": "32-bit bus, SCI, timers",
+        "instruction_sets": [
+          "MMU"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "hitachi-sh7750",
@@ -58,15 +158,39 @@
       "family": "SuperH",
       "released": "1998",
       "specs": {
+        "microarchitecture": "SH-4",
         "isa": "SH-4",
+        "market": "Embedded",
         "process_nm": 250,
-        "data_width_bits": 32,
-        "base_clock_mhz": 200,
+        "foundry": "Hitachi",
+        "transistors": 3200000,
+        "package": "208-pin QFP / 256-pin BGA",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 32,
+        "address_width_bits": 32,
+        "base_clock_mhz": 200,
         "l1_cache_kb": 24,
+        "memory_type": "SDRAM",
+        "max_memory_mb": 4096,
         "mips": 360,
-        "fp32_tflops": 0.0014
-      }
+        "fp32_tflops": 0.0014,
+        "tdp_w": 1.5,
+        "voltage_v": 1.8,
+        "interface": "64-bit external bus, SCI, SCIF, DMA",
+        "instruction_sets": [
+          "FPU (4D vector, FIPR/FTRV)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb"
+      ]
     }
   ]
 }

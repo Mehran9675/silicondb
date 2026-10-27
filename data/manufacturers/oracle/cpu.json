@@ -8,16 +8,38 @@
       "family": "SPARC T",
       "released": "2010-09",
       "specs": {
+        "codename": "Rainbow Falls",
+        "microarchitecture": "Niagara 2 (S2)",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 40,
+        "foundry": "TSMC",
         "transistors": 1000000000,
         "die_size_mm2": 371,
-        "data_width_bits": 64,
-        "base_clock_mhz": 1650,
+        "package": "1371-pin FCLGA",
         "cores": 16,
         "threads": 128,
-        "l2_cache_kb": 6144
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 1650,
+        "l1_cache_kb": 384,
+        "l2_cache_kb": 6144,
+        "memory_type": "DDR3",
+        "max_memory_mb": 262144,
+        "interface": "2x PCIe 2.0 x8, 2x 10 GbE, coherency links",
+        "instruction_sets": [
+          "VIS 2",
+          "Crypto acceleration"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "oracle-sparc-t4",
@@ -25,17 +47,38 @@
       "family": "SPARC T",
       "released": "2011-09",
       "specs": {
+        "codename": "Yosemite Falls",
+        "microarchitecture": "S3",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 40,
+        "foundry": "TSMC",
         "transistors": 855000000,
         "die_size_mm2": 403,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3000,
+        "package": "FCLGA",
         "cores": 8,
         "threads": 64,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2850,
+        "boost_clock_mhz": 3000,
+        "l1_cache_kb": 256,
         "l2_cache_kb": 1024,
-        "l3_cache_kb": 4096
-      }
+        "l3_cache_kb": 4096,
+        "memory_type": "DDR3",
+        "max_memory_mb": 524288,
+        "interface": "2x PCIe 2.0 x8, 2x 10 GbE, coherency links",
+        "instruction_sets": [
+          "VIS 3",
+          "Crypto instructions"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "oracle-sparc-t5",
@@ -43,16 +86,38 @@
       "family": "SPARC T",
       "released": "2013-03",
       "specs": {
+        "microarchitecture": "S3",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 28,
+        "foundry": "TSMC",
         "transistors": 1500000000,
         "die_size_mm2": 478,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3600,
+        "package": "FCLGA",
         "cores": 16,
         "threads": 128,
-        "l3_cache_kb": 8192
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3600,
+        "l1_cache_kb": 512,
+        "l2_cache_kb": 2048,
+        "memory_type": "DDR3",
+        "max_memory_mb": 524288,
+        "interface": "2x PCIe 3.0 x8, coherency links",
+        "instruction_sets": [
+          "VIS 3",
+          "Crypto instructions"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "oracle-sparc-m5",
@@ -60,14 +125,38 @@
       "family": "SPARC M",
       "released": "2013-03",
       "specs": {
+        "microarchitecture": "S3",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 28,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3600,
+        "foundry": "TSMC",
+        "transistors": 3900000000,
+        "die_size_mm2": 511,
+        "package": "FCLGA",
         "cores": 6,
         "threads": 48,
-        "l3_cache_kb": 49152
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3600,
+        "l1_cache_kb": 192,
+        "l2_cache_kb": 768,
+        "memory_type": "DDR3",
+        "max_memory_mb": 1048576,
+        "interface": "Coherency links, I/O links",
+        "instruction_sets": [
+          "VIS 3",
+          "Crypto instructions"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "oracle-sparc-m6",
@@ -75,16 +164,38 @@
       "family": "SPARC M",
       "released": "2013-09",
       "specs": {
+        "microarchitecture": "S3",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 28,
+        "foundry": "TSMC",
         "transistors": 4270000000,
         "die_size_mm2": 643,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3600,
+        "package": "FCLGA",
         "cores": 12,
         "threads": 96,
-        "l3_cache_kb": 49152
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3600,
+        "l1_cache_kb": 384,
+        "l2_cache_kb": 1536,
+        "memory_type": "DDR3",
+        "max_memory_mb": 1048576,
+        "interface": "Coherency links, I/O links",
+        "instruction_sets": [
+          "VIS 3",
+          "Crypto instructions"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "oracle-sparc-m7",
@@ -92,15 +203,40 @@
       "family": "SPARC M",
       "released": "2015-10",
       "specs": {
+        "microarchitecture": "S4",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 20,
+        "foundry": "TSMC",
         "transistors": 10000000000,
-        "data_width_bits": 64,
-        "base_clock_mhz": 4130,
+        "package": "FCLGA",
         "cores": 32,
         "threads": 256,
-        "l3_cache_kb": 65536
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 4130,
+        "l1_cache_kb": 1024,
+        "l2_cache_kb": 6144,
+        "memory_type": "DDR4",
+        "max_memory_mb": 2097152,
+        "interface": "4x PCIe 3.0 x16 (I/O links), coherency links",
+        "instruction_sets": [
+          "VIS 3",
+          "Crypto instructions",
+          "Data Analytics Accelerator",
+          "Silicon Secured Memory"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "oracle-sparc-s7",
@@ -108,14 +244,40 @@
       "family": "SPARC S",
       "released": "2016-06",
       "specs": {
+        "codename": "Sonoma",
+        "microarchitecture": "S4",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 20,
-        "data_width_bits": 64,
-        "base_clock_mhz": 4270,
+        "foundry": "TSMC",
+        "package": "FCLGA",
         "cores": 8,
         "threads": 64,
-        "l3_cache_kb": 16384
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 4270,
+        "l1_cache_kb": 256,
+        "l2_cache_kb": 1536,
+        "memory_type": "DDR4-2400",
+        "max_memory_mb": 524288,
+        "interface": "2x PCIe 3.0 x8, 10 GbE, InfiniBand",
+        "instruction_sets": [
+          "VIS 3",
+          "Crypto instructions",
+          "Data Analytics Accelerator",
+          "Silicon Secured Memory"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "oracle-sparc-m8",
@@ -123,14 +285,40 @@
       "family": "SPARC M",
       "released": "2017-09",
       "specs": {
+        "microarchitecture": "S5",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 20,
-        "data_width_bits": 64,
-        "base_clock_mhz": 5000,
+        "foundry": "TSMC",
+        "package": "FCLGA",
         "cores": 32,
         "threads": 256,
-        "l3_cache_kb": 65536
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 5000,
+        "l1_cache_kb": 1536,
+        "memory_type": "DDR4-2400",
+        "max_memory_mb": 2097152,
+        "interface": "PCIe 3.0, coherency links",
+        "instruction_sets": [
+          "VIS 3",
+          "Crypto instructions",
+          "Data Analytics Accelerator",
+          "Silicon Secured Memory"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     }
   ]
 }

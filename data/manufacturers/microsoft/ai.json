@@ -8,17 +8,33 @@
       "family": "Maia",
       "released": "2023-11",
       "specs": {
-        "market": "Datacenter",
+        "microarchitecture": "Maia",
+        "market": "Data center",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 105000000000,
         "die_size_mm2": 820,
+        "cores": 64,
         "memory_type": "HBM2e",
         "memory_size_mb": 65536,
+        "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 1800,
+        "sram_kb": 512000,
         "bf16_tflops": 800,
-        "tdp_w": 700
-      }
+        "tdp_w": 700,
+        "interface": "PCIe 5.0 x8, 12x 400 GbE"
+      },
+      "na": [
+        "codename",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     }
   ]
 }

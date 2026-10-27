@@ -8,12 +8,35 @@
       "family": "F8",
       "released": "1975",
       "specs": {
+        "microarchitecture": "F8",
         "isa": "F8",
-        "data_width_bits": 8,
-        "base_clock_mhz": 2,
+        "market": "Embedded",
+        "foundry": "Fairchild",
+        "package": "40-pin DIP",
         "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "threads": 1,
+        "data_width_bits": 8,
+        "address_width_bits": 16,
+        "base_clock_mhz": 2,
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "8-bit data bus (memory via 3851 PSU)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "fairchild-9440",
@@ -21,10 +44,35 @@
       "family": "9440",
       "released": "1979",
       "specs": {
+        "microarchitecture": "9440",
         "isa": "Data General Nova",
+        "market": "Embedded",
+        "foundry": "Fairchild",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
-        "cores": 1
-      }
+        "address_width_bits": 15,
+        "base_clock_mhz": 12,
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "16-bit multiplexed bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "fairchild-clipper-c100",
@@ -32,11 +80,37 @@
       "family": "Clipper",
       "released": "1986",
       "specs": {
+        "microarchitecture": "Clipper",
         "isa": "Clipper",
+        "market": "Workstation",
+        "process_nm": 2000,
+        "foundry": "Fairchild",
+        "package": "Multi-chip module (CPU + 2 CAMMU)",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
+        "address_width_bits": 32,
         "base_clock_mhz": 33,
-        "cores": 1
-      }
+        "l1_cache_kb": 8,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "Clipper bus",
+        "instruction_sets": [
+          "On-chip FPU"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     }
   ]
 }

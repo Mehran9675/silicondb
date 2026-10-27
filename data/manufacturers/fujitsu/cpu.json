@@ -8,15 +8,37 @@
       "family": "SPARC64",
       "released": "2001",
       "specs": {
+        "codename": "Zeus",
+        "microarchitecture": "SPARC64 V",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 130,
+        "foundry": "Fujitsu",
         "transistors": 191000000,
         "die_size_mm2": 290,
-        "data_width_bits": 64,
+        "package": "FCBGA",
         "cores": 1,
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 1300,
         "l1_cache_kb": 256,
-        "l2_cache_kb": 2048
-      }
+        "l2_cache_kb": 2048,
+        "interface": "Jupiter bus",
+        "instruction_sets": [
+          "VIS"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-sparc64-vi",
@@ -25,16 +47,36 @@
       "released": "2007-04",
       "specs": {
         "codename": "Olympus-C",
+        "microarchitecture": "SPARC64 VI",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 90,
+        "foundry": "Fujitsu",
         "transistors": 540000000,
         "die_size_mm2": 421,
-        "data_width_bits": 64,
-        "base_clock_mhz": 2400,
+        "package": "FCLGA",
         "cores": 2,
         "threads": 4,
-        "l2_cache_kb": 6144
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2150,
+        "l1_cache_kb": 512,
+        "l2_cache_kb": 6144,
+        "tdp_w": 120,
+        "interface": "Jupiter bus",
+        "instruction_sets": [
+          "VIS"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-sparc64-vii",
@@ -43,15 +85,36 @@
       "released": "2008-07",
       "specs": {
         "codename": "Jupiter",
+        "microarchitecture": "SPARC64 VI",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 65,
+        "foundry": "Fujitsu",
         "transistors": 600000000,
         "die_size_mm2": 445,
-        "data_width_bits": 64,
+        "package": "FCLGA",
         "cores": 4,
         "threads": 8,
-        "l2_cache_kb": 6144
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2400,
+        "l1_cache_kb": 1024,
+        "l2_cache_kb": 6144,
+        "tdp_w": 135,
+        "interface": "Jupiter bus",
+        "instruction_sets": [
+          "VIS"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-sparc64-viiifx",
@@ -60,20 +123,38 @@
       "released": "2009",
       "specs": {
         "codename": "Venus",
+        "microarchitecture": "SPARC64 VIIIfx",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 45,
+        "foundry": "Fujitsu",
         "transistors": 760000000,
         "die_size_mm2": 513,
-        "data_width_bits": 64,
-        "base_clock_mhz": 2000,
+        "package": "FCLGA",
         "cores": 8,
+        "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2000,
+        "l1_cache_kb": 512,
         "l2_cache_kb": 6144,
-        "tdp_w": 58,
+        "memory_type": "DDR3",
+        "memory_bandwidth_gbs": 64,
         "fp64_tflops": 0.128,
+        "tdp_w": 58,
+        "interface": "Tofu interconnect",
         "instruction_sets": [
           "HPC-ACE"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-sparc64-ixfx",
@@ -81,19 +162,39 @@
       "family": "SPARC64",
       "released": "2011-11",
       "specs": {
+        "microarchitecture": "SPARC64 IXfx",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 40,
+        "foundry": "Fujitsu",
         "transistors": 1870000000,
         "die_size_mm2": 484,
-        "data_width_bits": 64,
-        "base_clock_mhz": 1848,
+        "package": "FCLGA",
         "cores": 16,
+        "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 1848,
+        "l1_cache_kb": 1024,
         "l2_cache_kb": 12288,
+        "memory_type": "DDR3",
+        "memory_bandwidth_gbs": 85,
         "fp64_tflops": 0.2365,
+        "tdp_w": 110,
+        "interface": "Tofu interconnect",
         "instruction_sets": [
           "HPC-ACE"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-sparc64-x",
@@ -102,19 +203,38 @@
       "released": "2013-01",
       "specs": {
         "codename": "Athena",
+        "microarchitecture": "SPARC64 X",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 28,
+        "foundry": "Fujitsu",
         "transistors": 2950000000,
         "die_size_mm2": 588,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3000,
+        "package": "FCLGA",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2800,
+        "boost_clock_mhz": 3000,
+        "l1_cache_kb": 2048,
         "l2_cache_kb": 24576,
+        "memory_type": "DDR3",
+        "interface": "PCIe 3.0, CPU-to-CPU links",
         "instruction_sets": [
-          "HPC-ACE"
+          "VIS 3",
+          "HPC-ACE",
+          "SWoC (decimal, crypto)"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-sparc64-x-plus",
@@ -123,17 +243,38 @@
       "released": "2014",
       "specs": {
         "codename": "Athena+",
+        "microarchitecture": "SPARC64 X",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 28,
-        "data_width_bits": 64,
-        "base_clock_mhz": 3700,
+        "foundry": "Fujitsu",
+        "transistors": 2990000000,
+        "die_size_mm2": 600,
+        "package": "FCLGA",
         "cores": 16,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3200,
+        "boost_clock_mhz": 3700,
+        "l1_cache_kb": 2048,
         "l2_cache_kb": 24576,
+        "memory_type": "DDR3",
+        "interface": "PCIe 3.0, CPU-to-CPU links",
         "instruction_sets": [
-          "HPC-ACE"
+          "VIS 3",
+          "HPC-ACE",
+          "SWoC (decimal, crypto)"
         ]
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "socket",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-sparc64-xifx",
@@ -141,21 +282,41 @@
       "family": "SPARC64",
       "released": "2015",
       "specs": {
+        "microarchitecture": "SPARC64 XIfx",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 20,
+        "foundry": "Fujitsu",
         "transistors": 3750000000,
-        "data_width_bits": 64,
-        "base_clock_mhz": 2200,
+        "package": "FCLGA with 8 HMC links",
         "cores": 34,
+        "threads": 34,
         "core_config": "32 compute + 2 assistant",
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2200,
+        "l1_cache_kb": 4352,
         "l2_cache_kb": 24576,
         "memory_type": "HMC",
         "memory_size_mb": 32768,
+        "max_memory_mb": 32768,
+        "memory_bandwidth_gbs": 480,
         "fp64_tflops": 1.1,
+        "interface": "Tofu2 interconnect",
         "instruction_sets": [
           "HPC-ACE2"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-sparc64-xii",
@@ -163,16 +324,39 @@
       "family": "SPARC64",
       "released": "2017-04",
       "specs": {
+        "microarchitecture": "SPARC64 XII",
         "isa": "SPARC V9",
+        "market": "Server",
         "process_nm": 20,
+        "foundry": "Fujitsu",
         "transistors": 5450000000,
         "die_size_mm2": 795,
-        "data_width_bits": 64,
-        "base_clock_mhz": 4250,
+        "package": "FCLGA",
         "cores": 12,
         "threads": 96,
-        "l3_cache_kb": 32768
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 4250,
+        "l1_cache_kb": 1536,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 32768,
+        "memory_type": "DDR4",
+        "interface": "PCIe 3.0, CPU-to-CPU links",
+        "instruction_sets": [
+          "VIS 3",
+          "HPC-ACE",
+          "SWoC (decimal, crypto)"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "fujitsu-a64fx",
@@ -180,24 +364,41 @@
       "family": "A64FX",
       "released": "2019-11",
       "specs": {
+        "microarchitecture": "A64FX",
         "isa": "Armv8.2-A",
-        "foundry": "TSMC",
+        "market": "Server",
         "process_nm": 7,
+        "foundry": "TSMC",
         "transistors": 8786000000,
+        "package": "FCBGA with 4x HBM2",
+        "cores": 52,
+        "threads": 52,
+        "core_config": "48 compute + 4 assistant",
         "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2000,
         "boost_clock_mhz": 2200,
-        "cores": 52,
-        "core_config": "48 compute + 4 assistant",
+        "l1_cache_kb": 6656,
         "l2_cache_kb": 32768,
         "memory_type": "HBM2",
         "memory_size_mb": 32768,
+        "max_memory_mb": 32768,
         "memory_bandwidth_gbs": 1024,
         "fp64_tflops": 3.072,
+        "interface": "Tofu interconnect D, PCIe 3.0 x16",
         "instruction_sets": [
           "SVE (512-bit)"
         ]
-      }
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "l3_cache_kb",
+        "tdp_w",
+        "voltage_v"
+      ]
     }
   ]
 }

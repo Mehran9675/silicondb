@@ -8,8 +8,42 @@
       "family": "GDC",
       "released": "1982",
       "specs": {
-        "package": "40-pin DIP"
-      }
+        "microarchitecture": "GDC",
+        "market": "Professional",
+        "foundry": "NEC",
+        "package": "40-pin DIP",
+        "gpu_clock_mhz": 2.5,
+        "memory_type": "DRAM",
+        "max_memory_mb": 0.5,
+        "memory_bus_bits": 16,
+        "voltage_v": 5,
+        "interface": "8-bit microprocessor bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tmus",
+        "rops",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "graphics_api",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_size_mb",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     }
   ]
 }

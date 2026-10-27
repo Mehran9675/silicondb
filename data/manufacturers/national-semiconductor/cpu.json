@@ -8,10 +8,36 @@
       "family": "IMP",
       "released": "1973",
       "specs": {
+        "microarchitecture": "IMP-16",
         "isa": "IMP-16",
+        "market": "Embedded",
+        "foundry": "National Semiconductor",
+        "package": "Multi-chip (24-pin and 40-pin DIPs)",
+        "cores": 1,
+        "threads": 1,
+        "core_config": "Multi-chip (4-bit slices)",
         "data_width_bits": 16,
-        "core_config": "Multi-chip (4-bit slices)"
-      }
+        "address_width_bits": 16,
+        "max_memory_mb": 0.125,
+        "interface": "16-bit bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "voltage_v",
+        "instruction_sets"
+      ]
     },
     {
       "id": "national-semiconductor-pace",
@@ -20,10 +46,34 @@
       "released": "1975",
       "specs": {
         "codename": "IPC-16A",
+        "microarchitecture": "PACE",
         "isa": "PACE",
+        "market": "Embedded",
+        "foundry": "National Semiconductor",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
-        "cores": 1
-      }
+        "address_width_bits": 16,
+        "base_clock_mhz": 1.33,
+        "max_memory_mb": 0.125,
+        "voltage_v": 12,
+        "interface": "16-bit multiplexed bus"
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "national-semiconductor-scmp",
@@ -32,12 +82,34 @@
       "released": "1976",
       "specs": {
         "codename": "INS8060",
+        "microarchitecture": "SC/MP",
         "isa": "SC/MP",
+        "market": "Embedded",
+        "foundry": "National Semiconductor",
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 16,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "base_clock_mhz": 1,
+        "max_memory_mb": 0.0625,
+        "voltage_v": 5,
+        "interface": "8-bit data / 12-bit address bus"
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "national-semiconductor-ns32016",
@@ -45,12 +117,35 @@
       "family": "NS32000",
       "released": "1982",
       "specs": {
+        "microarchitecture": "NS32000",
         "isa": "NS32000",
+        "market": "Workstation",
+        "process_nm": 3500,
+        "foundry": "National Semiconductor",
         "transistors": 60000,
+        "package": "48-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
         "address_width_bits": 24,
-        "cores": 1
-      }
+        "base_clock_mhz": 10,
+        "max_memory_mb": 16,
+        "voltage_v": 5,
+        "interface": "16-bit multiplexed bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "national-semiconductor-ns32032",
@@ -58,11 +153,35 @@
       "family": "NS32000",
       "released": "1984",
       "specs": {
+        "microarchitecture": "NS32000",
         "isa": "NS32000",
+        "market": "Workstation",
+        "process_nm": 3500,
+        "foundry": "National Semiconductor",
+        "transistors": 70000,
+        "package": "68-pin LCC",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 24,
-        "cores": 1
-      }
+        "base_clock_mhz": 10,
+        "max_memory_mb": 16,
+        "voltage_v": 5,
+        "interface": "32-bit multiplexed bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "national-semiconductor-ns32332",
@@ -70,11 +189,35 @@
       "family": "NS32000",
       "released": "1985",
       "specs": {
+        "microarchitecture": "NS32000",
         "isa": "NS32000",
+        "market": "Workstation",
+        "foundry": "National Semiconductor",
+        "package": "84-pin CPGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
-        "cores": 1
-      }
+        "base_clock_mhz": 15,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "32-bit multiplexed bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "national-semiconductor-ns32532",
@@ -82,14 +225,37 @@
       "family": "NS32000",
       "released": "1987",
       "specs": {
+        "microarchitecture": "NS32532",
         "isa": "NS32000",
+        "market": "Workstation",
         "process_nm": 1250,
+        "foundry": "National Semiconductor",
         "transistors": 370000,
+        "package": "175-pin CPGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
-        "cores": 1,
-        "l1_cache_kb": 1.5
-      }
+        "base_clock_mhz": 25,
+        "l1_cache_kb": 1.5,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "32-bit bus",
+        "instruction_sets": [
+          "On-chip MMU"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     }
   ]
 }

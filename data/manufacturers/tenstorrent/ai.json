@@ -8,20 +8,34 @@
       "family": "Grayskull",
       "released": "2023-07",
       "specs": {
-        "market": "Developer / inference",
+        "codename": "Grayskull",
+        "microarchitecture": "Tensix",
+        "market": "Workstation",
         "process_nm": 12,
         "foundry": "GlobalFoundries",
         "cores": 120,
         "base_clock_mhz": 1200,
-        "sram_kb": 122880,
         "memory_type": "LPDDR4",
         "memory_size_mb": 8192,
+        "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 118.4,
+        "sram_kb": 122880,
         "fp16_tflops": 83,
         "fp8_tflops": 332,
         "tdp_w": 200,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "tenstorrent-grayskull-e75",
@@ -29,19 +43,34 @@
       "family": "Grayskull",
       "released": "2023-07",
       "specs": {
-        "market": "Developer / inference",
+        "codename": "Grayskull",
+        "microarchitecture": "Tensix",
+        "market": "Workstation",
         "process_nm": 12,
         "foundry": "GlobalFoundries",
         "cores": 96,
         "base_clock_mhz": 1000,
-        "sram_kb": 98304,
         "memory_type": "LPDDR4",
         "memory_size_mb": 8192,
+        "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 102.4,
+        "sram_kb": 98304,
+        "fp16_tflops": 55,
         "fp8_tflops": 221,
         "tdp_w": 75,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "tenstorrent-wormhole-n150",
@@ -49,20 +78,34 @@
       "family": "Wormhole",
       "released": "2024-07",
       "specs": {
-        "market": "Developer / inference",
+        "codename": "Wormhole",
+        "microarchitecture": "Tensix",
+        "market": "Workstation",
         "process_nm": 12,
         "foundry": "GlobalFoundries",
         "cores": 72,
         "base_clock_mhz": 1000,
-        "sram_kb": 110592,
         "memory_type": "GDDR6",
         "memory_size_mb": 12288,
+        "memory_bus_bits": 192,
         "memory_bandwidth_gbs": 288,
+        "sram_kb": 110592,
         "fp16_tflops": 74,
         "fp8_tflops": 262,
         "tdp_w": 160,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "tenstorrent-wormhole-n300",
@@ -70,20 +113,34 @@
       "family": "Wormhole",
       "released": "2024-07",
       "specs": {
-        "market": "Developer / inference",
+        "codename": "Wormhole",
+        "microarchitecture": "Tensix",
+        "market": "Workstation",
         "process_nm": 12,
         "foundry": "GlobalFoundries",
         "cores": 128,
         "base_clock_mhz": 1000,
-        "sram_kb": 196608,
         "memory_type": "GDDR6",
         "memory_size_mb": 24576,
+        "memory_bus_bits": 384,
         "memory_bandwidth_gbs": 576,
+        "sram_kb": 196608,
         "fp16_tflops": 131,
         "fp8_tflops": 466,
         "tdp_w": 300,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "tenstorrent-blackhole-p100a",
@@ -91,18 +148,35 @@
       "family": "Blackhole",
       "released": "2025-04",
       "specs": {
-        "market": "Developer / inference",
+        "codename": "Blackhole",
+        "microarchitecture": "Tensix",
+        "market": "Workstation",
         "process_nm": 6,
         "foundry": "TSMC",
         "cores": 120,
-        "sram_kb": 184320,
+        "core_config": "120 Tensix + 16 SiFive X280 RISC-V",
+        "base_clock_mhz": 1350,
         "memory_type": "GDDR6",
         "memory_size_mb": 28672,
+        "memory_bus_bits": 224,
         "memory_bandwidth_gbs": 448,
+        "sram_kb": 184320,
+        "fp16_tflops": 166,
         "fp8_tflops": 664,
         "tdp_w": 300,
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "tenstorrent-blackhole-p150a",
@@ -110,19 +184,35 @@
       "family": "Blackhole",
       "released": "2025-04",
       "specs": {
-        "market": "Developer / inference",
+        "codename": "Blackhole",
+        "microarchitecture": "Tensix",
+        "market": "Workstation",
         "process_nm": 6,
         "foundry": "TSMC",
         "cores": 140,
         "core_config": "140 Tensix + 16 SiFive X280 RISC-V",
-        "sram_kb": 215040,
+        "base_clock_mhz": 1350,
         "memory_type": "GDDR6",
         "memory_size_mb": 32768,
+        "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 512,
+        "sram_kb": 215040,
+        "fp16_tflops": 194,
         "fp8_tflops": 774,
         "tdp_w": 300,
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "int8_tops"
+      ]
     }
   ]
 }

@@ -8,15 +8,33 @@
       "family": "Wafer Scale Engine",
       "released": "2019-08",
       "specs": {
-        "market": "Datacenter training",
+        "microarchitecture": "WSE",
+        "market": "Data center",
         "process_nm": 16,
         "foundry": "TSMC",
         "transistors": 1200000000000,
         "die_size_mm2": 46225,
         "cores": 400000,
+        "memory_bandwidth_gbs": 9000000,
         "sram_kb": 18874368,
-        "memory_bandwidth_gbs": 9000000
-      }
+        "tdp_w": 15000,
+        "interface": "12x 100 GbE (CS-1 system)"
+      },
+      "na": [
+        "codename",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "cerebras-wse-2",
@@ -24,15 +42,33 @@
       "family": "Wafer Scale Engine",
       "released": "2021-04",
       "specs": {
-        "market": "Datacenter training",
+        "microarchitecture": "WSE",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 2600000000000,
         "die_size_mm2": 46225,
         "cores": 850000,
+        "memory_bandwidth_gbs": 20000000,
         "sram_kb": 41943040,
-        "memory_bandwidth_gbs": 20000000
-      }
+        "tdp_w": 15000,
+        "interface": "12x 100 GbE (CS-2 system)"
+      },
+      "na": [
+        "codename",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "cerebras-wse-3",
@@ -40,15 +76,33 @@
       "family": "Wafer Scale Engine",
       "released": "2024-03",
       "specs": {
-        "market": "Datacenter training",
+        "microarchitecture": "WSE",
+        "market": "Data center",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 4000000000000,
         "die_size_mm2": 46225,
         "cores": 900000,
+        "memory_bandwidth_gbs": 21000000,
         "sram_kb": 46137344,
-        "memory_bandwidth_gbs": 21000000
-      }
+        "interface": "12x 100 GbE (CS-3 system)"
+      },
+      "na": [
+        "codename",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops",
+        "tdp_w"
+      ]
     }
   ]
 }
