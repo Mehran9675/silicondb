@@ -9,13 +9,37 @@
       "released": "1984",
       "specs": {
         "codename": "μPD70108",
+        "microarchitecture": "V20",
         "isa": "x86",
+        "market": "Desktop",
+        "foundry": "NEC",
+        "transistors": 63000,
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 8,
         "address_width_bits": 20,
         "base_clock_mhz": 10,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "max_memory_mb": 1,
+        "voltage_v": 5,
+        "interface": "8-bit multiplexed bus (8088-compatible)",
+        "instruction_sets": [
+          "80186 instructions",
+          "8080 emulation mode"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "nec-v30",
@@ -24,13 +48,37 @@
       "released": "1984",
       "specs": {
         "codename": "μPD70116",
+        "microarchitecture": "V30",
         "isa": "x86",
+        "market": "Desktop",
+        "foundry": "NEC",
+        "transistors": 63000,
+        "package": "40-pin DIP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
         "address_width_bits": 20,
         "base_clock_mhz": 10,
-        "cores": 1,
-        "package": "40-pin DIP"
-      }
+        "max_memory_mb": 1,
+        "voltage_v": 5,
+        "interface": "16-bit multiplexed bus (8086-compatible)",
+        "instruction_sets": [
+          "80186 instructions",
+          "8080 emulation mode"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "nec-v60",
@@ -39,11 +87,36 @@
       "released": "1986",
       "specs": {
         "codename": "μPD70616",
+        "microarchitecture": "V60",
         "isa": "V60",
+        "market": "Workstation",
+        "process_nm": 1500,
+        "foundry": "NEC",
+        "transistors": 375000,
+        "package": "68-pin CPGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 24,
-        "cores": 1
-      }
+        "base_clock_mhz": 16,
+        "max_memory_mb": 16,
+        "voltage_v": 5,
+        "interface": "16-bit data / 24-bit address bus",
+        "instruction_sets": [
+          "On-chip FPU"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "nec-v70",
@@ -52,11 +125,37 @@
       "released": "1987",
       "specs": {
         "codename": "μPD70632",
+        "microarchitecture": "V60",
         "isa": "V60",
+        "market": "Workstation",
+        "process_nm": 1500,
+        "foundry": "NEC",
+        "transistors": 385000,
+        "package": "132-pin CPGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
-        "cores": 1
-      }
+        "base_clock_mhz": 20,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "32-bit data / 32-bit address bus",
+        "instruction_sets": [
+          "On-chip FPU",
+          "On-chip MMU"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "nec-v810",
@@ -64,10 +163,38 @@
       "family": "V800",
       "released": "1994",
       "specs": {
+        "microarchitecture": "V810",
         "isa": "V810",
+        "market": "Embedded",
+        "process_nm": 800,
+        "foundry": "NEC",
+        "transistors": 240000,
+        "package": "120-pin QFP",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
-        "cores": 1
-      }
+        "address_width_bits": 32,
+        "base_clock_mhz": 25,
+        "l1_cache_kb": 1,
+        "max_memory_mb": 4096,
+        "voltage_v": 3.3,
+        "interface": "32-bit bus",
+        "instruction_sets": [
+          "On-chip FPU",
+          "Bit-string instructions"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     },
     {
       "id": "nec-vr4300",
@@ -75,13 +202,35 @@
       "family": "VR",
       "released": "1995",
       "specs": {
+        "microarchitecture": "VR4300",
         "isa": "MIPS III",
+        "market": "Embedded",
         "process_nm": 350,
+        "foundry": "NEC",
         "die_size_mm2": 45,
-        "data_width_bits": 64,
+        "package": "120-pin PQFP",
         "cores": 1,
-        "l1_cache_kb": 24
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "base_clock_mhz": 100,
+        "l1_cache_kb": 24,
+        "max_memory_mb": 4096,
+        "tdp_w": 1.8,
+        "voltage_v": 3.3,
+        "interface": "SysAD (32-bit)"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "instruction_sets"
+      ]
     }
   ]
 }

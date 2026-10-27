@@ -8,10 +8,27 @@
       "family": "TMS1000",
       "released": "1974",
       "specs": {
+        "microarchitecture": "TMS1000",
+        "isa": "TMS1000",
+        "market": "Consumer",
+        "process_nm": 8000,
+        "package": "28-pin DIP",
+        "cores": 1,
         "data_width_bits": 4,
+        "base_clock_mhz": 0.4,
         "sram_kb": 0.03125,
-        "package": "28-pin DIP"
-      }
+        "voltage_v": -15,
+        "gpio_pins": 23
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "adc",
+        "dac",
+        "timers",
+        "interfaces",
+        "mips"
+      ]
     },
     {
       "id": "texas-instruments-tms320f28335",
@@ -19,12 +36,33 @@
       "family": "C2000 Delfino",
       "released": "2008",
       "specs": {
+        "microarchitecture": "C28x + FPU",
         "isa": "C28x",
+        "market": "Industrial",
+        "process_nm": 180,
+        "package": "176-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 150,
         "flash_kb": 512,
-        "sram_kb": 68
-      }
+        "sram_kb": 68,
+        "mips": 150,
+        "voltage_v": 1.9,
+        "gpio_pins": 88,
+        "adc": "12-bit, 16 channels",
+        "timers": "3× 32-bit CPU timers, 18 ePWM, 6 eCAP, 2 eQEP",
+        "interfaces": [
+          "3× SCI (UART)",
+          "SPI",
+          "2× McBSP",
+          "I2C",
+          "2× CAN"
+        ]
+      },
+      "na": [
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "texas-instruments-msp430g2553",
@@ -32,12 +70,30 @@
       "family": "MSP430",
       "released": "2011",
       "specs": {
+        "microarchitecture": "MSP430 CPU",
         "isa": "MSP430",
+        "market": "Embedded",
+        "package": "20-pin PDIP",
+        "cores": 1,
         "data_width_bits": 16,
         "base_clock_mhz": 16,
         "flash_kb": 16,
-        "sram_kb": 0.5
-      }
+        "sram_kb": 0.5,
+        "mips": 16,
+        "voltage_v": 3.3,
+        "gpio_pins": 16,
+        "adc": "10-bit, 8 channels",
+        "timers": "2× 16-bit Timer_A (3 CC each)",
+        "interfaces": [
+          "USCI_A0 (UART/LIN/IrDA/SPI)",
+          "USCI_B0 (I2C/SPI)"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "texas-instruments-tm4c123gh6pm",
@@ -45,13 +101,33 @@
       "family": "Tiva C",
       "released": "2013",
       "specs": {
-        "isa": "ARMv7E-M",
         "microarchitecture": "Cortex-M4F",
+        "isa": "ARMv7E-M",
+        "market": "Embedded",
+        "process_nm": 65,
+        "package": "64-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 80,
         "flash_kb": 256,
-        "sram_kb": 32
-      }
+        "sram_kb": 32,
+        "eeprom_kb": 2,
+        "mips": 100,
+        "voltage_v": 3.3,
+        "gpio_pins": 43,
+        "adc": "2× 12-bit, 12 channels",
+        "timers": "6× 16/32-bit, 6× 32/64-bit, 2 watchdogs, 16 PWM outputs",
+        "interfaces": [
+          "USB 2.0 OTG FS",
+          "2× CAN",
+          "8× UART",
+          "4× SSI (SPI)",
+          "4× I2C"
+        ]
+      },
+      "na": [
+        "dac"
+      ]
     },
     {
       "id": "texas-instruments-msp430fr5969",
@@ -59,12 +135,31 @@
       "family": "MSP430 FRAM",
       "released": "2014",
       "specs": {
+        "microarchitecture": "MSP430X CPU",
         "isa": "MSP430X",
+        "market": "Embedded",
+        "process_nm": 130,
+        "package": "48-pin VQFN",
+        "cores": 1,
         "data_width_bits": 16,
         "base_clock_mhz": 16,
         "flash_kb": 64,
-        "sram_kb": 2
-      }
+        "sram_kb": 2,
+        "mips": 16,
+        "voltage_v": 3.0,
+        "gpio_pins": 40,
+        "adc": "12-bit, 16 channels",
+        "timers": "5× 16-bit (4 Timer_A, 1 Timer_B)",
+        "interfaces": [
+          "2× eUSCI_A (UART/SPI)",
+          "eUSCI_B (I2C/SPI)",
+          "AES256"
+        ]
+      },
+      "na": [
+        "eeprom_kb",
+        "dac"
+      ]
     },
     {
       "id": "texas-instruments-mspm0g3507",
@@ -72,13 +167,32 @@
       "family": "MSPM0",
       "released": "2023",
       "specs": {
-        "isa": "ARMv6-M",
         "microarchitecture": "Cortex-M0+",
+        "isa": "ARMv6-M",
+        "market": "Embedded",
+        "package": "64-pin LQFP",
+        "cores": 1,
         "data_width_bits": 32,
         "base_clock_mhz": 80,
         "flash_kb": 128,
-        "sram_kb": 32
-      }
+        "sram_kb": 32,
+        "mips": 76,
+        "voltage_v": 3.3,
+        "gpio_pins": 60,
+        "adc": "2× 12-bit, 17 channels",
+        "dac": "1× 12-bit",
+        "timers": "7 timers (up to 22 PWM channels)",
+        "interfaces": [
+          "CAN-FD",
+          "4× UART",
+          "2× I2C",
+          "2× SPI"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb"
+      ]
     }
   ]
 }

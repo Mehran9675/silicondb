@@ -13,10 +13,33 @@
         "market": "Server",
         "process_nm": 16,
         "foundry": "TSMC",
+        "package": "FCBGA",
         "cores": 32,
         "threads": 32,
-        "base_clock_mhz": 2100
-      }
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2100,
+        "l1_cache_kb": 2560,
+        "l2_cache_kb": 8192,
+        "l3_cache_kb": 32768,
+        "memory_type": "DDR4",
+        "interface": "PCIe 3.0",
+        "instruction_sets": [
+          "NEON",
+          "Crypto"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v"
+      ]
     },
     {
       "id": "huawei-kunpeng-916",
@@ -30,12 +53,34 @@
         "market": "Server",
         "process_nm": 16,
         "foundry": "TSMC",
+        "package": "FCBGA",
         "cores": 32,
         "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2400,
-        "memory_type": "DDR4",
-        "memory_channels": 4
-      }
+        "l1_cache_kb": 2560,
+        "l2_cache_kb": 8192,
+        "l3_cache_kb": 32768,
+        "memory_type": "DDR4-2400",
+        "memory_channels": 4,
+        "tdp_w": 85,
+        "interface": "PCIe 3.0 (46 lanes)",
+        "pcie_lanes": 46,
+        "instruction_sets": [
+          "NEON",
+          "Crypto"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "max_memory_mb",
+        "voltage_v"
+      ]
     },
     {
       "id": "huawei-kunpeng-920",
@@ -49,14 +94,36 @@
         "market": "Server",
         "process_nm": 7,
         "foundry": "TSMC",
+        "package": "Multi-chiplet FCLGA",
         "cores": 64,
         "threads": 64,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
         "base_clock_mhz": 2600,
+        "l1_cache_kb": 8192,
         "l2_cache_kb": 32768,
+        "l3_cache_kb": 65536,
         "memory_type": "DDR4-2933",
+        "max_memory_mb": 2097152,
         "memory_channels": 8,
-        "pcie_lanes": 40
-      }
+        "tdp_w": 180,
+        "interface": "PCIe 4.0 (40 lanes), CCIX",
+        "pcie_lanes": 40,
+        "instruction_sets": [
+          "NEON",
+          "Crypto",
+          "FP16",
+          "Dot product"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "voltage_v"
+      ]
     }
   ]
 }

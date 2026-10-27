@@ -8,13 +8,36 @@
       "family": "Transputer",
       "released": "1985-09",
       "specs": {
+        "microarchitecture": "Transputer",
         "isa": "Transputer",
+        "market": "Embedded",
+        "process_nm": 1500,
+        "foundry": "Inmos",
+        "transistors": 200000,
+        "package": "84-pin CPGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 20,
-        "cores": 1,
-        "sram_kb": 2
-      }
+        "max_memory_mb": 4096,
+        "sram_kb": 2,
+        "voltage_v": 5,
+        "interface": "4x serial links (10/20 Mbit/s), 32-bit memory interface"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "inmos-t212",
@@ -22,13 +45,36 @@
       "family": "Transputer",
       "released": "1986",
       "specs": {
+        "microarchitecture": "Transputer",
         "isa": "Transputer",
+        "market": "Embedded",
+        "process_nm": 1500,
+        "foundry": "Inmos",
+        "package": "68-pin CPGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 16,
         "address_width_bits": 16,
         "base_clock_mhz": 20,
-        "cores": 1,
-        "sram_kb": 2
-      }
+        "max_memory_mb": 0.0625,
+        "sram_kb": 2,
+        "voltage_v": 5,
+        "interface": "4x serial links (10/20 Mbit/s), 16-bit memory interface"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "inmos-t800",
@@ -36,13 +82,39 @@
       "family": "Transputer",
       "released": "1987",
       "specs": {
+        "microarchitecture": "Transputer",
         "isa": "Transputer",
+        "market": "Embedded",
+        "process_nm": 1500,
+        "foundry": "Inmos",
+        "transistors": 300000,
+        "package": "84-pin CPGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 20,
-        "cores": 1,
-        "sram_kb": 4
-      }
+        "max_memory_mb": 4096,
+        "sram_kb": 4,
+        "mflops": 1.5,
+        "voltage_v": 5,
+        "interface": "4x serial links (10/20 Mbit/s), 32-bit memory interface",
+        "instruction_sets": [
+          "64-bit FPU"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w"
+      ]
     }
   ]
 }

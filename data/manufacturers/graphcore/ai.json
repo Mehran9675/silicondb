@@ -8,15 +8,34 @@
       "family": "IPU Mk1",
       "released": "2018",
       "specs": {
-        "market": "Datacenter",
+        "codename": "Colossus",
+        "microarchitecture": "IPU",
+        "market": "Data center",
         "process_nm": 16,
         "foundry": "TSMC",
         "transistors": 23600000000,
         "cores": 1216,
         "threads": 7296,
+        "boost_clock_mhz": 1600,
+        "memory_bandwidth_gbs": 45000,
         "sram_kb": 307200,
-        "fp16_tflops": 125
-      }
+        "fp16_tflops": 125,
+        "tdp_w": 150,
+        "interface": "PCIe 4.0 x16, 80x IPU-Links"
+      },
+      "na": [
+        "die_size_mm2",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "graphcore-gc200",
@@ -24,7 +43,9 @@
       "family": "IPU Mk2",
       "released": "2020-07",
       "specs": {
-        "market": "Datacenter",
+        "codename": "Colossus",
+        "microarchitecture": "IPU",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 59400000000,
@@ -32,11 +53,25 @@
         "cores": 1472,
         "threads": 8832,
         "base_clock_mhz": 1330,
-        "sram_kb": 921600,
         "memory_bandwidth_gbs": 47500,
+        "sram_kb": 921600,
         "fp32_tflops": 62.5,
-        "fp16_tflops": 250
-      }
+        "fp16_tflops": 250,
+        "interface": "PCIe 4.0 x16, 10x IPU-Links"
+      },
+      "na": [
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops",
+        "tdp_w"
+      ]
     },
     {
       "id": "graphcore-bow-ipu",
@@ -44,18 +79,36 @@
       "family": "IPU Mk2",
       "released": "2022-03",
       "specs": {
-        "market": "Datacenter",
+        "codename": "Colossus",
+        "microarchitecture": "IPU",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 60000000000,
         "package": "Wafer-on-Wafer (SoIC-WoW)",
         "cores": 1472,
         "threads": 8832,
         "base_clock_mhz": 1850,
-        "sram_kb": 921600,
         "memory_bandwidth_gbs": 65000,
+        "sram_kb": 921600,
         "fp32_tflops": 87.5,
-        "fp16_tflops": 350
-      }
+        "fp16_tflops": 350,
+        "interface": "PCIe 4.0 x16, 10x IPU-Links"
+      },
+      "na": [
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops",
+        "tdp_w"
+      ]
     }
   ]
 }

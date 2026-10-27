@@ -8,14 +8,35 @@
       "family": "Nx586",
       "released": "1994-03",
       "specs": {
+        "microarchitecture": "Nx586 (RISC86)",
         "isa": "x86",
-        "foundry": "IBM",
+        "market": "Desktop",
         "process_nm": 500,
+        "foundry": "IBM",
         "transistors": 3500000,
-        "data_width_bits": 64,
+        "package": "463-pin CPGA",
+        "socket": "NexGen 463-pin",
         "cores": 1,
-        "l1_cache_kb": 32
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 32,
+        "base_clock_mhz": 93,
+        "l1_cache_kb": 32,
+        "max_memory_mb": 4096,
+        "voltage_v": 4,
+        "interface": "NexBus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     }
   ]
 }

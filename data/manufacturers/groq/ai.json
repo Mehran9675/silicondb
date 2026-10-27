@@ -9,18 +9,33 @@
       "released": "2020",
       "specs": {
         "codename": "TSP",
-        "market": "Datacenter inference",
+        "microarchitecture": "TSP",
+        "market": "Data center",
         "process_nm": 14,
         "foundry": "GlobalFoundries",
         "transistors": 26800000000,
         "die_size_mm2": 725,
         "base_clock_mhz": 900,
-        "sram_kb": 235520,
         "memory_bandwidth_gbs": 80000,
+        "sram_kb": 235520,
         "fp16_tflops": 188,
         "int8_tops": 750,
+        "tdp_w": 300,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "cores",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     }
   ]
 }

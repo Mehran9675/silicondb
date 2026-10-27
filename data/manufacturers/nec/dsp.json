@@ -8,8 +8,29 @@
       "family": "μPD77xx",
       "released": "1980",
       "specs": {
-        "data_width_bits": 16
-      }
+        "microarchitecture": "μPD77xx",
+        "isa": "μPD7720",
+        "market": "Embedded",
+        "package": "28-pin DIP",
+        "cores": 1,
+        "data_width_bits": 16,
+        "address_width_bits": 9,
+        "base_clock_mhz": 8,
+        "sram_kb": 0.25,
+        "mips": 4,
+        "mmacs": 4,
+        "voltage_v": 5,
+        "interfaces": [
+          "8-bit parallel host port",
+          "Serial I/O"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "transistors",
+        "mflops",
+        "tdp_w"
+      ]
     }
   ]
 }

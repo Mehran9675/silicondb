@@ -8,24 +8,34 @@
       "family": "Radeon Instinct",
       "released": "2017-06-20",
       "specs": {
-        "market": "Data center",
         "codename": "Polaris 10",
         "microarchitecture": "GCN 4.0",
+        "market": "Data center",
         "process_nm": 14,
         "foundry": "GlobalFoundries",
+        "transistors": 5700000000,
+        "die_size_mm2": 232,
+        "boost_clock_mhz": 1233,
         "shading_units": 2304,
         "compute_units": 36,
-        "gpu_boost_clock_mhz": 1233,
         "memory_type": "GDDR5",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 224,
+        "sram_kb": 2048,
         "fp64_tflops": 0.358,
         "fp32_tflops": 5.7,
         "fp16_tflops": 5.7,
         "tdp_w": 150,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "cores",
+        "tensor_cores",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "amd-radeon-instinct-mi8",
@@ -33,26 +43,34 @@
       "family": "Radeon Instinct",
       "released": "2017-06-20",
       "specs": {
-        "market": "Data center",
         "codename": "Fiji",
         "microarchitecture": "GCN 3.0",
+        "market": "Data center",
         "process_nm": 28,
         "foundry": "TSMC",
         "transistors": 8900000000,
         "die_size_mm2": 596,
+        "boost_clock_mhz": 1000,
         "shading_units": 4096,
         "compute_units": 64,
-        "gpu_boost_clock_mhz": 1000,
         "memory_type": "HBM",
         "memory_size_mb": 4096,
         "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 512,
+        "sram_kb": 2048,
         "fp64_tflops": 0.512,
         "fp32_tflops": 8.2,
         "fp16_tflops": 8.2,
         "tdp_w": 175,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "cores",
+        "tensor_cores",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "amd-radeon-instinct-mi25",
@@ -60,26 +78,34 @@
       "family": "Radeon Instinct",
       "released": "2017-06-20",
       "specs": {
-        "market": "Data center",
         "codename": "Vega 10",
         "microarchitecture": "GCN 5.0",
+        "market": "Data center",
         "process_nm": 14,
         "foundry": "GlobalFoundries",
         "transistors": 12500000000,
         "die_size_mm2": 486,
+        "boost_clock_mhz": 1500,
         "shading_units": 4096,
         "compute_units": 64,
-        "gpu_boost_clock_mhz": 1500,
         "memory_type": "HBM2",
         "memory_size_mb": 16384,
         "memory_bus_bits": 2048,
         "memory_bandwidth_gbs": 484,
+        "sram_kb": 4096,
         "fp64_tflops": 0.768,
         "fp32_tflops": 12.3,
         "fp16_tflops": 24.6,
         "tdp_w": 300,
         "interface": "PCIe 3.0 x16"
-      }
+      },
+      "na": [
+        "cores",
+        "tensor_cores",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "amd-radeon-instinct-mi50",
@@ -87,27 +113,34 @@
       "family": "Radeon Instinct",
       "released": "2018-11",
       "specs": {
-        "market": "Data center",
         "codename": "Vega 20",
         "microarchitecture": "GCN 5.0",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 13230000000,
         "die_size_mm2": 331,
+        "boost_clock_mhz": 1725,
         "shading_units": 3840,
         "compute_units": 60,
-        "gpu_boost_clock_mhz": 1725,
         "memory_type": "HBM2",
         "memory_size_mb": 16384,
         "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 1024,
+        "sram_kb": 4096,
         "fp64_tflops": 6.6,
         "fp32_tflops": 13.3,
         "fp16_tflops": 26.5,
         "int8_tops": 53,
         "tdp_w": 300,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "cores",
+        "tensor_cores",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "amd-radeon-instinct-mi60",
@@ -115,27 +148,34 @@
       "family": "Radeon Instinct",
       "released": "2018-11",
       "specs": {
-        "market": "Data center",
         "codename": "Vega 20",
         "microarchitecture": "GCN 5.0",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 13230000000,
         "die_size_mm2": 331,
+        "boost_clock_mhz": 1800,
         "shading_units": 4096,
         "compute_units": 64,
-        "gpu_boost_clock_mhz": 1800,
         "memory_type": "HBM2",
         "memory_size_mb": 32768,
         "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 1024,
+        "sram_kb": 4096,
         "fp64_tflops": 7.4,
         "fp32_tflops": 14.7,
         "fp16_tflops": 29.5,
         "int8_tops": 59,
         "tdp_w": 300,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "cores",
+        "tensor_cores",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "amd-instinct-mi100",
@@ -143,21 +183,22 @@
       "family": "Instinct MI100",
       "released": "2020-11-16",
       "specs": {
-        "market": "Data center",
         "codename": "Arcturus",
         "microarchitecture": "CDNA",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 25600000000,
         "die_size_mm2": 750,
+        "boost_clock_mhz": 1502,
         "shading_units": 7680,
         "compute_units": 120,
         "tensor_cores": 480,
-        "gpu_boost_clock_mhz": 1502,
         "memory_type": "HBM2",
         "memory_size_mb": 32768,
         "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 1228.8,
+        "sram_kb": 8192,
         "fp64_tflops": 11.5,
         "fp32_tflops": 23.1,
         "fp16_tflops": 184.6,
@@ -165,7 +206,11 @@
         "int8_tops": 184.6,
         "tdp_w": 300,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "cores",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "amd-instinct-mi250x",
@@ -173,20 +218,21 @@
       "family": "Instinct MI200",
       "released": "2021-11-08",
       "specs": {
-        "market": "Data center",
         "codename": "Aldebaran",
         "microarchitecture": "CDNA 2",
+        "market": "Data center",
         "process_nm": 6,
         "foundry": "TSMC",
         "transistors": 58200000000,
+        "boost_clock_mhz": 1700,
         "shading_units": 14080,
         "compute_units": 220,
         "tensor_cores": 880,
-        "gpu_boost_clock_mhz": 1700,
         "memory_type": "HBM2e",
         "memory_size_mb": 131072,
         "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 3276.8,
+        "sram_kb": 16384,
         "fp64_tflops": 47.9,
         "fp32_tflops": 47.9,
         "fp16_tflops": 383,
@@ -194,7 +240,12 @@
         "int8_tops": 383,
         "tdp_w": 560,
         "interface": "OAM"
-      }
+      },
+      "na": [
+        "die_size_mm2",
+        "cores",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "amd-instinct-mi250",
@@ -202,27 +253,34 @@
       "family": "Instinct MI200",
       "released": "2021-11-08",
       "specs": {
-        "market": "Data center",
         "codename": "Aldebaran",
         "microarchitecture": "CDNA 2",
+        "market": "Data center",
         "process_nm": 6,
         "foundry": "TSMC",
         "transistors": 58200000000,
+        "boost_clock_mhz": 1700,
         "shading_units": 13312,
         "compute_units": 208,
         "tensor_cores": 832,
-        "gpu_boost_clock_mhz": 1700,
         "memory_type": "HBM2e",
         "memory_size_mb": 131072,
         "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 3276.8,
+        "sram_kb": 16384,
         "fp64_tflops": 45.3,
         "fp32_tflops": 45.3,
         "fp16_tflops": 362.1,
         "bf16_tflops": 362.1,
         "int8_tops": 362.1,
+        "tdp_w": 500,
         "interface": "OAM"
-      }
+      },
+      "na": [
+        "die_size_mm2",
+        "cores",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "amd-instinct-mi210",
@@ -230,19 +288,22 @@
       "family": "Instinct MI200",
       "released": "2022-03-22",
       "specs": {
-        "market": "Data center",
         "codename": "Aldebaran",
         "microarchitecture": "CDNA 2",
+        "market": "Data center",
         "process_nm": 6,
         "foundry": "TSMC",
+        "transistors": 29100000000,
+        "die_size_mm2": 724,
+        "boost_clock_mhz": 1700,
         "shading_units": 6656,
         "compute_units": 104,
         "tensor_cores": 416,
-        "gpu_boost_clock_mhz": 1700,
         "memory_type": "HBM2e",
         "memory_size_mb": 65536,
         "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 1638.4,
+        "sram_kb": 8192,
         "fp64_tflops": 22.6,
         "fp32_tflops": 22.6,
         "fp16_tflops": 181,
@@ -250,7 +311,11 @@
         "int8_tops": 181,
         "tdp_w": 300,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "cores",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "amd-instinct-mi300a",
@@ -258,22 +323,25 @@
       "family": "Instinct MI300",
       "released": "2023-12-06",
       "specs": {
-        "market": "Data center",
+        "codename": "Aqua Vanjaram",
         "microarchitecture": "CDNA 3 + Zen 4",
         "isa": "x86-64",
+        "market": "Data center",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 146000000000,
+        "socket": "SH5",
         "cores": 24,
         "threads": 48,
+        "boost_clock_mhz": 2100,
         "shading_units": 14592,
         "compute_units": 228,
         "tensor_cores": 912,
-        "gpu_boost_clock_mhz": 2100,
         "memory_type": "HBM3",
         "memory_size_mb": 131072,
         "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 5300,
+        "sram_kb": 262144,
         "fp64_tflops": 61.3,
         "fp32_tflops": 122.6,
         "fp16_tflops": 980.6,
@@ -281,8 +349,11 @@
         "fp8_tflops": 1961.2,
         "int8_tops": 1961.2,
         "tdp_w": 550,
-        "socket": "SH5"
-      }
+        "interface": "Socket SH5 (PCIe 5.0 / Infinity Fabric)"
+      },
+      "na": [
+        "die_size_mm2"
+      ]
     },
     {
       "id": "amd-instinct-mi300x",
@@ -290,20 +361,21 @@
       "family": "Instinct MI300",
       "released": "2023-12-06",
       "specs": {
-        "market": "Data center",
         "codename": "Aqua Vanjaram",
         "microarchitecture": "CDNA 3",
+        "market": "Data center",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 153000000000,
+        "boost_clock_mhz": 2100,
         "shading_units": 19456,
         "compute_units": 304,
         "tensor_cores": 1216,
-        "gpu_boost_clock_mhz": 2100,
         "memory_type": "HBM3",
         "memory_size_mb": 196608,
         "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 5300,
+        "sram_kb": 262144,
         "fp64_tflops": 81.7,
         "fp32_tflops": 163.4,
         "fp16_tflops": 1307.4,
@@ -312,7 +384,11 @@
         "int8_tops": 2614.9,
         "tdp_w": 750,
         "interface": "OAM"
-      }
+      },
+      "na": [
+        "die_size_mm2",
+        "cores"
+      ]
     },
     {
       "id": "amd-instinct-mi325x",
@@ -320,19 +396,21 @@
       "family": "Instinct MI300",
       "released": "2024-10-10",
       "specs": {
-        "market": "Data center",
+        "codename": "Aqua Vanjaram",
         "microarchitecture": "CDNA 3",
+        "market": "Data center",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 153000000000,
+        "boost_clock_mhz": 2100,
         "shading_units": 19456,
         "compute_units": 304,
         "tensor_cores": 1216,
-        "gpu_boost_clock_mhz": 2100,
         "memory_type": "HBM3E",
         "memory_size_mb": 262144,
         "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 6000,
+        "sram_kb": 262144,
         "fp64_tflops": 81.7,
         "fp32_tflops": 163.4,
         "fp16_tflops": 1307.4,
@@ -341,7 +419,11 @@
         "int8_tops": 2614.9,
         "tdp_w": 1000,
         "interface": "OAM"
-      }
+      },
+      "na": [
+        "die_size_mm2",
+        "cores"
+      ]
     },
     {
       "id": "amd-instinct-mi350x",
@@ -349,27 +431,34 @@
       "family": "Instinct MI350",
       "released": "2025-06-12",
       "specs": {
-        "market": "Data center",
         "microarchitecture": "CDNA 4",
+        "market": "Data center",
         "process_nm": 3,
         "foundry": "TSMC",
         "transistors": 185000000000,
+        "boost_clock_mhz": 2200,
         "shading_units": 16384,
         "compute_units": 256,
         "tensor_cores": 1024,
-        "gpu_boost_clock_mhz": 2200,
         "memory_type": "HBM3E",
         "memory_size_mb": 294912,
         "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 8000,
+        "sram_kb": 262144,
         "fp64_tflops": 72.1,
         "fp32_tflops": 144.2,
         "fp16_tflops": 2306.9,
         "bf16_tflops": 2306.9,
         "fp8_tflops": 4613.7,
+        "int8_tops": 4613.7,
         "tdp_w": 1000,
         "interface": "OAM"
-      }
+      },
+      "na": [
+        "codename",
+        "die_size_mm2",
+        "cores"
+      ]
     },
     {
       "id": "amd-instinct-mi355x",
@@ -377,27 +466,34 @@
       "family": "Instinct MI350",
       "released": "2025-06-12",
       "specs": {
-        "market": "Data center",
         "microarchitecture": "CDNA 4",
+        "market": "Data center",
         "process_nm": 3,
         "foundry": "TSMC",
         "transistors": 185000000000,
+        "boost_clock_mhz": 2400,
         "shading_units": 16384,
         "compute_units": 256,
         "tensor_cores": 1024,
-        "gpu_boost_clock_mhz": 2400,
         "memory_type": "HBM3E",
         "memory_size_mb": 294912,
         "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 8000,
+        "sram_kb": 262144,
         "fp64_tflops": 78.6,
         "fp32_tflops": 157.3,
         "fp16_tflops": 2516.6,
         "bf16_tflops": 2516.6,
         "fp8_tflops": 5033.2,
+        "int8_tops": 5033.2,
         "tdp_w": 1400,
         "interface": "OAM"
-      }
+      },
+      "na": [
+        "codename",
+        "die_size_mm2",
+        "cores"
+      ]
     }
   ]
 }

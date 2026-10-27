@@ -8,14 +8,35 @@
       "family": "R2000",
       "released": "1986-01",
       "specs": {
+        "microarchitecture": "R2000",
         "isa": "MIPS I",
+        "market": "Workstation",
         "process_nm": 2000,
+        "foundry": "Sierra, IDT, LSI Logic, Performance Semiconductor",
         "transistors": 110000,
+        "package": "144-pin CPGA",
+        "socket": "144-pin PGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
         "base_clock_mhz": 16.67,
-        "cores": 1
-      }
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "External cache / memory bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mips-r3000",
@@ -23,13 +44,35 @@
       "family": "R3000",
       "released": "1988-06",
       "specs": {
+        "microarchitecture": "R3000",
         "isa": "MIPS I",
+        "market": "Workstation",
         "process_nm": 1200,
+        "foundry": "IDT, LSI Logic, NEC, Performance Semiconductor",
         "transistors": 115000,
+        "package": "144-pin CPGA",
+        "socket": "144-pin PGA",
+        "cores": 1,
+        "threads": 1,
         "data_width_bits": 32,
         "address_width_bits": 32,
-        "cores": 1
-      }
+        "base_clock_mhz": 25,
+        "max_memory_mb": 4096,
+        "voltage_v": 5,
+        "interface": "External cache / memory bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mips-r4000",
@@ -37,15 +80,35 @@
       "family": "R4000",
       "released": "1991-10",
       "specs": {
+        "microarchitecture": "R4000",
         "isa": "MIPS III",
+        "market": "Workstation",
         "process_nm": 1000,
+        "foundry": "NEC, Toshiba, IDT",
         "transistors": 1350000,
         "die_size_mm2": 213,
-        "data_width_bits": 64,
-        "base_clock_mhz": 100,
+        "package": "179-pin PGA (PC) / 447-pin PGA (SC, MC)",
+        "socket": "447-pin PGA",
         "cores": 1,
-        "l1_cache_kb": 16
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 36,
+        "base_clock_mhz": 100,
+        "l1_cache_kb": 16,
+        "l2_cache_kb": 1024,
+        "max_memory_mb": 65536,
+        "voltage_v": 5,
+        "interface": "SysAD"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mips-r4400",
@@ -53,14 +116,35 @@
       "family": "R4000",
       "released": "1992-11",
       "specs": {
+        "microarchitecture": "R4000",
         "isa": "MIPS III",
+        "market": "Workstation",
         "process_nm": 600,
+        "foundry": "NEC, Toshiba, IDT",
         "transistors": 2300000,
         "die_size_mm2": 186,
-        "data_width_bits": 64,
+        "package": "179-pin PGA (PC) / 447-pin PGA (SC, MC)",
+        "socket": "447-pin PGA",
         "cores": 1,
-        "l1_cache_kb": 32
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 36,
+        "base_clock_mhz": 150,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 1024,
+        "max_memory_mb": 65536,
+        "voltage_v": 5,
+        "interface": "SysAD"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mips-r8000",
@@ -68,11 +152,35 @@
       "family": "R8000",
       "released": "1994-06",
       "specs": {
+        "codename": "TFP",
+        "microarchitecture": "R8000",
         "isa": "MIPS IV",
-        "data_width_bits": 64,
+        "market": "Workstation",
+        "process_nm": 500,
+        "foundry": "Toshiba",
+        "transistors": 2600000,
+        "package": "591-pin CPGA",
         "cores": 1,
-        "l1_cache_kb": 32
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
+        "base_clock_mhz": 75,
+        "l1_cache_kb": 32,
+        "l2_cache_kb": 4096,
+        "max_memory_mb": 1048576,
+        "voltage_v": 3.3,
+        "interface": "Streaming cache bus"
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "socket",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mips-r10000",
@@ -81,14 +189,34 @@
       "released": "1996-01",
       "specs": {
         "codename": "T5",
+        "microarchitecture": "R10000",
         "isa": "MIPS IV",
+        "market": "Workstation",
         "process_nm": 350,
+        "foundry": "NEC, Toshiba",
         "transistors": 6800000,
         "die_size_mm2": 298,
-        "data_width_bits": 64,
+        "package": "599-pin CLGA",
+        "socket": "599-pin LGA",
         "cores": 1,
-        "l1_cache_kb": 64
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
+        "base_clock_mhz": 195,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 1024,
+        "max_memory_mb": 1048576,
+        "tdp_w": 30,
+        "voltage_v": 3.3,
+        "interface": "Avalanche bus"
+      },
+      "na": [
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mips-r12000",
@@ -96,14 +224,35 @@
       "family": "R10000",
       "released": "1998-11",
       "specs": {
+        "microarchitecture": "R10000",
         "isa": "MIPS IV",
+        "market": "Workstation",
         "process_nm": 250,
+        "foundry": "NEC, Toshiba",
         "transistors": 7150000,
         "die_size_mm2": 204,
-        "data_width_bits": 64,
+        "package": "600-pin CLGA",
+        "socket": "600-pin LGA",
         "cores": 1,
-        "l1_cache_kb": 64
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
+        "base_clock_mhz": 300,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 8192,
+        "max_memory_mb": 1048576,
+        "voltage_v": 2.6,
+        "interface": "Avalanche bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     },
     {
       "id": "mips-r14000",
@@ -111,11 +260,35 @@
       "family": "R10000",
       "released": "2001-07",
       "specs": {
+        "microarchitecture": "R10000",
         "isa": "MIPS IV",
-        "data_width_bits": 64,
+        "market": "Workstation",
+        "process_nm": 130,
+        "foundry": "NEC",
+        "transistors": 7200000,
+        "die_size_mm2": 204,
+        "package": "600-pin CLGA",
+        "socket": "600-pin LGA",
         "cores": 1,
-        "l1_cache_kb": 64
-      }
+        "threads": 1,
+        "data_width_bits": 64,
+        "address_width_bits": 40,
+        "base_clock_mhz": 500,
+        "l1_cache_kb": 64,
+        "l2_cache_kb": 8192,
+        "max_memory_mb": 1048576,
+        "voltage_v": 1.6,
+        "interface": "Avalanche bus"
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "memory_type",
+        "tdp_w",
+        "instruction_sets"
+      ]
     }
   ]
 }

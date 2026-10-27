@@ -8,10 +8,27 @@
       "family": "F8",
       "released": "1977",
       "specs": {
+        "microarchitecture": "F8",
         "isa": "F8",
+        "market": "Embedded",
+        "package": "40-pin DIP",
+        "cores": 1,
         "data_width_bits": 8,
-        "sram_kb": 0.0625
-      }
+        "base_clock_mhz": 4,
+        "sram_kb": 0.0625,
+        "mips": 0.5,
+        "voltage_v": 5,
+        "gpio_pins": 32,
+        "timers": "1x 8-bit"
+      },
+      "na": [
+        "process_nm",
+        "flash_kb",
+        "eeprom_kb",
+        "adc",
+        "dac",
+        "interfaces"
+      ]
     }
   ]
 }
