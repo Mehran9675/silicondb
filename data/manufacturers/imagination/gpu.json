@@ -13,9 +13,37 @@
         "market": "Consumer",
         "process_nm": 500,
         "foundry": "NEC",
+        "tmus": 1,
+        "rops": 1,
         "gpu_clock_mhz": 60,
+        "graphics_api": [
+          "PowerSGL",
+          "Direct3D"
+        ],
+        "pixel_rate_gpixels": 0.06,
+        "texture_rate_gtexels": 0.06,
+        "memory_type": "SDRAM",
+        "memory_size_mb": 4,
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "memory_bus_bits",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "imagination-powervr-pcx2",
@@ -28,9 +56,38 @@
         "market": "Consumer",
         "process_nm": 350,
         "foundry": "NEC",
+        "tmus": 1,
+        "rops": 1,
         "gpu_clock_mhz": 66,
+        "graphics_api": [
+          "PowerSGL",
+          "Direct3D",
+          "MiniGL"
+        ],
+        "pixel_rate_gpixels": 0.066,
+        "texture_rate_gtexels": 0.066,
+        "memory_type": "SDRAM",
+        "memory_size_mb": 4,
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "memory_bus_bits",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "imagination-powervr-clx2",
@@ -43,8 +100,37 @@
         "market": "Console",
         "process_nm": 250,
         "foundry": "NEC",
-        "gpu_clock_mhz": 100
-      }
+        "tmus": 1,
+        "rops": 1,
+        "gpu_clock_mhz": 100,
+        "graphics_api": [
+          "PowerVR Kamui",
+          "Direct3D (Windows CE)"
+        ],
+        "pixel_rate_gpixels": 0.1,
+        "texture_rate_gtexels": 0.1,
+        "memory_type": "SDRAM",
+        "memory_size_mb": 8,
+        "memory_bus_bits": 64,
+        "memory_clock_mhz": 100,
+        "memory_bandwidth_gbs": 0.8
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w",
+        "interface"
+      ]
     },
     {
       "id": "imagination-neon-250",
@@ -57,32 +143,80 @@
         "market": "Consumer",
         "process_nm": 250,
         "foundry": "NEC",
+        "tmus": 1,
+        "rops": 1,
         "gpu_clock_mhz": 125,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.1"
+        ],
+        "pixel_rate_gpixels": 0.125,
+        "texture_rate_gtexels": 0.125,
         "memory_type": "SDRAM",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 125,
+        "memory_bandwidth_gbs": 2.0,
         "interface": "AGP 2x / PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "imagination-kyro",
       "name": "Kyro",
       "family": "Kyro",
-      "released": "2000",
+      "released": "2000-11",
       "specs": {
         "codename": "STG4000",
         "microarchitecture": "PowerVR Series3",
         "market": "Consumer",
         "process_nm": 250,
         "foundry": "STMicroelectronics",
+        "transistors": 12000000,
         "tmus": 2,
         "rops": 2,
         "gpu_clock_mhz": 115,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ],
+        "pixel_rate_gpixels": 0.23,
+        "texture_rate_gtexels": 0.23,
         "memory_type": "SDRAM",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 115,
+        "memory_bandwidth_gbs": 1.84,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "imagination-kyro-ii",
@@ -93,18 +227,39 @@
         "codename": "STG4500",
         "microarchitecture": "PowerVR Series3",
         "market": "Consumer",
+        "launch_price_usd": 149,
         "process_nm": 180,
         "foundry": "STMicroelectronics",
         "transistors": 15000000,
         "tmus": 2,
         "rops": 2,
         "gpu_clock_mhz": 175,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.2"
+        ],
+        "pixel_rate_gpixels": 0.35,
+        "texture_rate_gtexels": 0.35,
         "memory_type": "SDRAM",
         "memory_size_mb": 64,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 175,
         "memory_bandwidth_gbs": 2.8,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     }
   ]
 }

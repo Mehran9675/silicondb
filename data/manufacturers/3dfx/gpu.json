@@ -9,8 +9,13 @@
       "released": "1996-10",
       "specs": {
         "codename": "SST-1",
+        "microarchitecture": "SST-1",
         "market": "Consumer",
+        "launch_price_usd": 299,
         "process_nm": 500,
+        "foundry": "TSMC",
+        "transistors": 1000000,
+        "die_size_mm2": 135,
         "tmus": 1,
         "rops": 1,
         "gpu_clock_mhz": 50,
@@ -19,10 +24,27 @@
           "Direct3D",
           "OpenGL"
         ],
+        "pixel_rate_gpixels": 0.05,
+        "texture_rate_gtexels": 0.05,
         "memory_type": "EDO DRAM",
         "memory_size_mb": 4,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 50,
+        "memory_bandwidth_gbs": 0.8,
+        "tdp_w": 15,
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "3dfx-voodoo-rush",
@@ -31,8 +53,12 @@
       "released": "1997-08",
       "specs": {
         "codename": "SST-96",
+        "microarchitecture": "SST-1",
         "market": "Consumer",
         "process_nm": 500,
+        "foundry": "TSMC",
+        "transistors": 1000000,
+        "die_size_mm2": 135,
         "tmus": 1,
         "rops": 1,
         "gpu_clock_mhz": 50,
@@ -41,9 +67,28 @@
           "Direct3D",
           "OpenGL"
         ],
+        "pixel_rate_gpixels": 0.05,
+        "texture_rate_gtexels": 0.05,
         "memory_type": "EDO DRAM",
+        "memory_size_mb": 6,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 50,
+        "memory_bandwidth_gbs": 0.8,
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dfx-voodoo2",
@@ -52,8 +97,13 @@
       "released": "1998-02",
       "specs": {
         "codename": "SST-2",
+        "microarchitecture": "SST-2",
         "market": "Consumer",
+        "launch_price_usd": 299,
         "process_nm": 350,
+        "foundry": "TSMC",
+        "transistors": 4000000,
+        "die_size_mm2": 119,
         "tmus": 2,
         "rops": 1,
         "gpu_clock_mhz": 90,
@@ -62,10 +112,27 @@
           "Direct3D",
           "OpenGL"
         ],
+        "pixel_rate_gpixels": 0.09,
+        "texture_rate_gtexels": 0.18,
         "memory_type": "EDO DRAM",
         "memory_size_mb": 12,
+        "memory_bus_bits": 192,
+        "memory_clock_mhz": 90,
+        "memory_bandwidth_gbs": 2.16,
+        "tdp_w": 15,
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "3dfx-voodoo-banshee",
@@ -74,8 +141,12 @@
       "released": "1998-06",
       "specs": {
         "codename": "Banshee",
+        "microarchitecture": "Banshee",
         "market": "Consumer",
         "process_nm": 350,
+        "foundry": "TSMC",
+        "transistors": 4000000,
+        "die_size_mm2": 137,
         "tmus": 1,
         "rops": 1,
         "gpu_clock_mhz": 100,
@@ -84,11 +155,28 @@
           "Direct3D",
           "OpenGL"
         ],
+        "pixel_rate_gpixels": 0.1,
+        "texture_rate_gtexels": 0.1,
         "memory_type": "SDRAM / SGRAM",
         "memory_size_mb": 16,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 100,
+        "memory_bandwidth_gbs": 1.6,
         "interface": "AGP 2x / PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dfx-voodoo3-2000",
@@ -97,22 +185,42 @@
       "released": "1999-04",
       "specs": {
         "codename": "Avenger",
+        "microarchitecture": "Avenger",
         "market": "Consumer",
+        "launch_price_usd": 129,
         "process_nm": 250,
+        "foundry": "TSMC",
         "transistors": 8200000,
+        "die_size_mm2": 74,
         "tmus": 2,
         "rops": 1,
         "gpu_clock_mhz": 143,
         "graphics_api": [
-          "Glide",
-          "Direct3D",
-          "OpenGL"
+          "Glide 3",
+          "DirectX 6.0",
+          "OpenGL 1.1"
         ],
+        "pixel_rate_gpixels": 0.143,
+        "texture_rate_gtexels": 0.286,
         "memory_type": "SDRAM",
         "memory_size_mb": 16,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 143,
+        "memory_bandwidth_gbs": 2.29,
+        "tdp_w": 15,
         "interface": "AGP 2x / PCI"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "3dfx-voodoo3-3000",
@@ -121,22 +229,42 @@
       "released": "1999-04",
       "specs": {
         "codename": "Avenger",
+        "microarchitecture": "Avenger",
         "market": "Consumer",
+        "launch_price_usd": 179,
         "process_nm": 250,
+        "foundry": "TSMC",
         "transistors": 8200000,
+        "die_size_mm2": 74,
         "tmus": 2,
         "rops": 1,
         "gpu_clock_mhz": 166,
         "graphics_api": [
-          "Glide",
-          "Direct3D",
-          "OpenGL"
+          "Glide 3",
+          "DirectX 6.0",
+          "OpenGL 1.1"
         ],
+        "pixel_rate_gpixels": 0.166,
+        "texture_rate_gtexels": 0.332,
         "memory_type": "SDRAM",
         "memory_size_mb": 16,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 166,
+        "memory_bandwidth_gbs": 2.66,
+        "tdp_w": 15,
         "interface": "AGP 2x / PCI"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "3dfx-voodoo3-3500-tv",
@@ -145,22 +273,42 @@
       "released": "1999-06",
       "specs": {
         "codename": "Avenger",
+        "microarchitecture": "Avenger",
         "market": "Consumer",
+        "launch_price_usd": 249,
         "process_nm": 250,
+        "foundry": "TSMC",
         "transistors": 8200000,
+        "die_size_mm2": 74,
         "tmus": 2,
         "rops": 1,
         "gpu_clock_mhz": 183,
         "graphics_api": [
-          "Glide",
-          "Direct3D",
-          "OpenGL"
+          "Glide 3",
+          "DirectX 6.0",
+          "OpenGL 1.1"
         ],
+        "pixel_rate_gpixels": 0.183,
+        "texture_rate_gtexels": 0.366,
         "memory_type": "SDRAM",
         "memory_size_mb": 16,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 183,
+        "memory_bandwidth_gbs": 2.93,
+        "tdp_w": 15,
         "interface": "AGP 2x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "3dfx-voodoo5-5500",
@@ -169,21 +317,42 @@
       "released": "2000-06",
       "specs": {
         "codename": "2x VSA-100",
+        "microarchitecture": "Napalm",
         "market": "Consumer",
+        "launch_price_usd": 299,
         "process_nm": 250,
+        "foundry": "TSMC",
         "transistors": 28000000,
+        "die_size_mm2": 224,
         "tmus": 4,
         "rops": 4,
         "gpu_clock_mhz": 166,
         "graphics_api": [
-          "Glide",
-          "Direct3D",
-          "OpenGL"
+          "Glide 3",
+          "DirectX 6.0",
+          "OpenGL 1.1"
         ],
+        "pixel_rate_gpixels": 0.664,
+        "texture_rate_gtexels": 0.664,
         "memory_type": "SDRAM",
         "memory_size_mb": 64,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 166,
+        "memory_bandwidth_gbs": 5.31,
+        "tdp_w": 30,
         "interface": "AGP 2x / PCI"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "3dfx-voodoo4-4500",
@@ -192,23 +361,42 @@
       "released": "2000-10",
       "specs": {
         "codename": "VSA-100",
+        "microarchitecture": "Napalm",
         "market": "Consumer",
+        "launch_price_usd": 179,
         "process_nm": 250,
+        "foundry": "TSMC",
         "transistors": 14000000,
+        "die_size_mm2": 112,
         "tmus": 2,
         "rops": 2,
         "gpu_clock_mhz": 166,
         "graphics_api": [
-          "Glide",
-          "Direct3D",
-          "OpenGL"
+          "Glide 3",
+          "DirectX 6.0",
+          "OpenGL 1.1"
         ],
+        "pixel_rate_gpixels": 0.332,
+        "texture_rate_gtexels": 0.332,
         "memory_type": "SDRAM",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
-        "memory_bandwidth_gbs": 2.7,
+        "memory_clock_mhz": 166,
+        "memory_bandwidth_gbs": 2.66,
+        "tdp_w": 15,
         "interface": "AGP 2x / PCI"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     }
   ]
 }

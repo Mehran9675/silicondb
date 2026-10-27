@@ -8,15 +8,36 @@
       "family": "Apple A",
       "released": "2010-04",
       "specs": {
+        "codename": "S5L8930X",
+        "microarchitecture": "Cortex-A8",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 45,
         "foundry": "Samsung",
+        "die_size_mm2": 53.3,
         "cores": 1,
-        "microarchitecture": "Cortex-A8",
+        "core_config": "1x Cortex-A8 @ 1.0 GHz",
+        "base_clock_mhz": 800,
         "boost_clock_mhz": 1000,
+        "l2_cache_kb": 512,
         "gpu": "PowerVR SGX535",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 200,
+        "memory_type": "LPDDR",
+        "max_memory_mb": 512,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 3.2,
+        "fp32_tflops": 0.0016
+      },
+      "na": [
+        "transistors",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a5",
@@ -24,16 +45,36 @@
       "family": "Apple A",
       "released": "2011-03",
       "specs": {
+        "codename": "S5L8940X",
+        "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 45,
         "foundry": "Samsung",
         "die_size_mm2": 122,
         "cores": 2,
-        "microarchitecture": "Cortex-A9",
+        "core_config": "2x Cortex-A9 @ 1.0 GHz",
+        "base_clock_mhz": 800,
         "boost_clock_mhz": 1000,
+        "l2_cache_kb": 1024,
         "gpu": "PowerVR SGX543MP2",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 2,
+        "gpu_clock_mhz": 200,
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 512,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 6.4,
+        "fp32_tflops": 0.0128
+      },
+      "na": [
+        "transistors",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a5x",
@@ -41,16 +82,36 @@
       "family": "Apple A",
       "released": "2012-03",
       "specs": {
+        "codename": "S5L8945X",
+        "microarchitecture": "Cortex-A9",
+        "isa": "ARMv7-A",
+        "market": "Tablet",
         "process_nm": 45,
         "foundry": "Samsung",
         "die_size_mm2": 165,
         "cores": 2,
-        "microarchitecture": "Cortex-A9",
+        "core_config": "2x Cortex-A9 @ 1.0 GHz",
         "boost_clock_mhz": 1000,
+        "l2_cache_kb": 1024,
         "gpu": "PowerVR SGX543MP4",
-        "isa": "ARMv7-A",
-        "market": "Tablet"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 250,
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 12.8,
+        "fp32_tflops": 0.032
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a6",
@@ -58,16 +119,36 @@
       "family": "Apple A",
       "released": "2012-09",
       "specs": {
+        "codename": "S5L8950X",
+        "microarchitecture": "Swift",
+        "isa": "ARMv7-A",
+        "market": "Mobile",
         "process_nm": 32,
         "foundry": "Samsung",
         "die_size_mm2": 97,
         "cores": 2,
-        "microarchitecture": "Swift",
+        "core_config": "2x Swift @ 1.3 GHz",
         "boost_clock_mhz": 1300,
+        "l2_cache_kb": 1024,
         "gpu": "PowerVR SGX543MP3",
-        "isa": "ARMv7-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 3,
+        "gpu_clock_mhz": 266,
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 8.5,
+        "fp32_tflops": 0.0255
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a6x",
@@ -75,16 +156,36 @@
       "family": "Apple A",
       "released": "2012-10",
       "specs": {
+        "codename": "S5L8955X",
+        "microarchitecture": "Swift",
+        "isa": "ARMv7-A",
+        "market": "Tablet",
         "process_nm": 32,
         "foundry": "Samsung",
         "die_size_mm2": 123,
         "cores": 2,
-        "microarchitecture": "Swift",
+        "core_config": "2x Swift @ 1.4 GHz",
         "boost_clock_mhz": 1400,
+        "l2_cache_kb": 1024,
         "gpu": "PowerVR SGX554MP4",
-        "isa": "ARMv7-A",
-        "market": "Tablet"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 300,
+        "memory_type": "LPDDR2",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 17.0,
+        "fp32_tflops": 0.0768
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a7",
@@ -92,17 +193,36 @@
       "family": "Apple A",
       "released": "2013-09",
       "specs": {
+        "codename": "S5L8960X",
+        "microarchitecture": "Cyclone",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 28,
         "foundry": "Samsung",
         "transistors": 1000000000,
         "die_size_mm2": 102,
         "cores": 2,
-        "microarchitecture": "Cyclone",
+        "core_config": "2x Cyclone @ 1.3-1.4 GHz",
+        "base_clock_mhz": 1300,
         "boost_clock_mhz": 1400,
+        "l2_cache_kb": 1024,
+        "slc_kb": 4096,
         "gpu": "PowerVR G6430",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 450,
+        "memory_type": "LPDDR3",
+        "max_memory_mb": 1024,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 12.8,
+        "fp32_tflops": 0.1152
+      },
+      "na": [
+        "l3_cache_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a8",
@@ -110,17 +230,36 @@
       "family": "Apple A",
       "released": "2014-09",
       "specs": {
+        "codename": "T7000",
+        "microarchitecture": "Typhoon",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 20,
         "foundry": "TSMC",
         "transistors": 2000000000,
         "die_size_mm2": 89,
         "cores": 2,
-        "microarchitecture": "Typhoon",
+        "core_config": "2x Typhoon @ 1.4 GHz",
         "boost_clock_mhz": 1400,
+        "l2_cache_kb": 1024,
+        "slc_kb": 4096,
         "gpu": "PowerVR GX6450",
-        "isa": "ARMv8-A",
-        "market": "Mobile"
-      }
+        "gpu_cores": 4,
+        "gpu_clock_mhz": 533,
+        "memory_type": "LPDDR3",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 12.8,
+        "fp32_tflops": 0.1364
+      },
+      "na": [
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a8x",
@@ -128,17 +267,36 @@
       "family": "Apple A",
       "released": "2014-10",
       "specs": {
+        "codename": "T7001",
+        "microarchitecture": "Typhoon",
+        "isa": "ARMv8-A",
+        "market": "Tablet",
         "process_nm": 20,
         "foundry": "TSMC",
         "transistors": 3000000000,
         "die_size_mm2": 128,
         "cores": 3,
-        "microarchitecture": "Typhoon",
+        "core_config": "3x Typhoon @ 1.5 GHz",
         "boost_clock_mhz": 1500,
+        "l2_cache_kb": 2048,
+        "slc_kb": 4096,
         "gpu": "PowerVR GXA6850",
-        "isa": "ARMv8-A",
-        "market": "Tablet"
-      }
+        "gpu_cores": 8,
+        "gpu_clock_mhz": 450,
+        "memory_type": "LPDDR3",
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 25.6,
+        "fp32_tflops": 0.2304
+      },
+      "na": [
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-s1",
@@ -146,15 +304,41 @@
       "family": "Apple S",
       "released": "2015-04",
       "specs": {
-        "process_nm": 28,
-        "cores": 1,
+        "codename": "S7002",
         "microarchitecture": "Cortex-A7",
+        "isa": "ARMv7-A",
+        "market": "Wearable",
+        "process_nm": 28,
+        "foundry": "Samsung",
+        "package": "System in Package",
+        "cores": 1,
+        "core_config": "1x Cortex-A7 @ 520 MHz",
         "boost_clock_mhz": 520,
         "gpu": "PowerVR SGX543",
-        "isa": "ARMv7-A",
-        "package": "System in Package",
-        "market": "Wearable"
-      }
+        "gpu_cores": 1,
+        "memory_type": "LPDDR3",
+        "max_memory_mb": 512,
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 4.0",
+          "NFC"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "apple-a9",
@@ -162,17 +346,36 @@
       "family": "Apple A",
       "released": "2015-09",
       "specs": {
+        "codename": "S8000 / S8003",
+        "microarchitecture": "Twister",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 14,
         "foundry": "Samsung (14 nm), TSMC (16 nm)",
+        "die_size_mm2": 96,
         "cores": 2,
-        "microarchitecture": "Twister",
+        "core_config": "2x Twister @ 1.85 GHz",
         "boost_clock_mhz": 1850,
-        "l3_cache_kb": 4096,
+        "l2_cache_kb": 3072,
+        "slc_kb": 4096,
         "gpu": "PowerVR GT7600",
-        "isa": "ARMv8-A",
+        "gpu_cores": 6,
         "memory_type": "LPDDR4",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 2048,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 25.6
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a9x",
@@ -180,18 +383,36 @@
       "family": "Apple A",
       "released": "2015-11",
       "specs": {
+        "codename": "S8001",
+        "microarchitecture": "Twister",
+        "isa": "ARMv8-A",
+        "market": "Tablet",
         "process_nm": 16,
         "foundry": "TSMC",
         "die_size_mm2": 147,
         "cores": 2,
-        "microarchitecture": "Twister",
+        "core_config": "2x Twister @ 2.16-2.26 GHz",
+        "base_clock_mhz": 2160,
         "boost_clock_mhz": 2260,
-        "gpu": "PowerVR Series 7XT (12-cluster)",
+        "l2_cache_kb": 3072,
+        "gpu": "PowerVR Series7XT (12-cluster)",
         "gpu_cores": 12,
-        "isa": "ARMv8-A",
         "memory_type": "LPDDR4",
-        "market": "Tablet"
-      }
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 51.2
+      },
+      "na": [
+        "transistors",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a10-fusion",
@@ -199,6 +420,10 @@
       "family": "Apple A",
       "released": "2016-09",
       "specs": {
+        "codename": "T8010",
+        "microarchitecture": "Hurricane / Zephyr",
+        "isa": "ARMv8-A",
+        "market": "Mobile",
         "process_nm": 16,
         "foundry": "TSMC",
         "transistors": 3300000000,
@@ -206,14 +431,27 @@
         "cores": 4,
         "performance_cores": 2,
         "efficiency_cores": 2,
-        "microarchitecture": "Hurricane / Zephyr",
+        "core_config": "2x Hurricane @ 2.34 GHz + 2x Zephyr @ 1.09 GHz",
+        "base_clock_mhz": 1090,
         "boost_clock_mhz": 2340,
+        "l2_cache_kb": 3072,
+        "slc_kb": 4096,
         "gpu": "6-core PowerVR-based GPU",
         "gpu_cores": 6,
-        "isa": "ARMv8-A",
         "memory_type": "LPDDR4",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 3072,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 25.6
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a10x-fusion",
@@ -221,18 +459,38 @@
       "family": "Apple A",
       "released": "2017-06",
       "specs": {
+        "codename": "T8011",
+        "microarchitecture": "Hurricane / Zephyr",
+        "isa": "ARMv8-A",
+        "market": "Tablet",
         "process_nm": 10,
         "foundry": "TSMC",
+        "die_size_mm2": 96.4,
         "cores": 6,
         "performance_cores": 3,
         "efficiency_cores": 3,
-        "microarchitecture": "Hurricane / Zephyr",
+        "core_config": "3x Hurricane @ 2.38 GHz + 3x Zephyr",
         "boost_clock_mhz": 2380,
+        "l2_cache_kb": 8192,
+        "gpu": "12-core PowerVR-based GPU",
         "gpu_cores": 12,
-        "isa": "ARMv8-A",
         "memory_type": "LPDDR4",
-        "market": "Tablet"
-      }
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 51.2
+      },
+      "na": [
+        "transistors",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a11-bionic",
@@ -240,6 +498,10 @@
       "family": "Apple A",
       "released": "2017-09",
       "specs": {
+        "codename": "T8015",
+        "microarchitecture": "Monsoon / Mistral",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 10,
         "foundry": "TSMC",
         "transistors": 4300000000,
@@ -247,15 +509,27 @@
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
-        "microarchitecture": "Monsoon / Mistral",
+        "core_config": "2x Monsoon @ 2.39 GHz + 4x Mistral @ 1.42 GHz",
+        "base_clock_mhz": 1420,
         "boost_clock_mhz": 2390,
+        "l2_cache_kb": 8192,
+        "slc_kb": 4096,
         "gpu": "Apple-designed 3-core GPU",
         "gpu_cores": 3,
-        "npu_tops": 0.6,
-        "isa": "ARMv8.2-A",
         "memory_type": "LPDDR4X",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 3072,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "npu_tops": 0.6
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-s3",
@@ -263,10 +537,41 @@
       "family": "Apple S",
       "released": "2017-09",
       "specs": {
-        "cores": 2,
+        "codename": "T8004",
+        "microarchitecture": "Apple custom (dual-core)",
+        "isa": "ARMv7-A",
+        "market": "Wearable",
         "package": "System in Package",
-        "market": "Wearable"
-      }
+        "cores": 2,
+        "gpu": "PowerVR-based GPU",
+        "memory_type": "LPDDR4",
+        "max_memory_mb": 768,
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 4.2",
+          "NFC"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "core_config",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "apple-a12-bionic",
@@ -274,6 +579,10 @@
       "family": "Apple A",
       "released": "2018-09",
       "specs": {
+        "codename": "T8020",
+        "microarchitecture": "Vortex / Tempest",
+        "isa": "ARMv8.3-A",
+        "market": "Mobile",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 6900000000,
@@ -281,15 +590,27 @@
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
-        "microarchitecture": "Vortex / Tempest",
+        "core_config": "2x Vortex @ 2.49 GHz + 4x Tempest @ 1.59 GHz",
+        "base_clock_mhz": 1590,
         "boost_clock_mhz": 2490,
+        "l2_cache_kb": 10240,
+        "slc_kb": 8192,
         "gpu": "Apple-designed 4-core GPU",
         "gpu_cores": 4,
-        "npu_tops": 5,
-        "isa": "ARMv8.3-A",
         "memory_type": "LPDDR4X",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "npu_tops": 5
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-s4",
@@ -297,12 +618,42 @@
       "family": "Apple S",
       "released": "2018-09",
       "specs": {
-        "cores": 2,
-        "isa": "ARMv8-A",
-        "data_width_bits": 64,
+        "codename": "T8006",
+        "microarchitecture": "Tempest",
+        "isa": "ARMv8.3-A",
+        "market": "Wearable",
+        "process_nm": 7,
+        "foundry": "TSMC",
         "package": "System in Package",
-        "market": "Wearable"
-      }
+        "cores": 2,
+        "core_config": "2x Tempest @ 1.59 GHz",
+        "data_width_bits": 64,
+        "boost_clock_mhz": 1590,
+        "gpu": "Apple G11M",
+        "memory_type": "LPDDR4X",
+        "max_memory_mb": 1024,
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 5.0",
+          "NFC"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "apple-a12x-bionic",
@@ -310,6 +661,10 @@
       "family": "Apple A",
       "released": "2018-10",
       "specs": {
+        "codename": "T8027",
+        "microarchitecture": "Vortex / Tempest",
+        "isa": "ARMv8.3-A",
+        "market": "Tablet",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 10000000000,
@@ -317,14 +672,27 @@
         "cores": 8,
         "performance_cores": 4,
         "efficiency_cores": 4,
-        "microarchitecture": "Vortex / Tempest",
+        "core_config": "4x Vortex @ 2.49 GHz + 4x Tempest @ 1.59 GHz",
+        "base_clock_mhz": 1590,
         "boost_clock_mhz": 2490,
+        "l2_cache_kb": 10240,
+        "slc_kb": 8192,
         "gpu": "Apple-designed 7-core GPU",
         "gpu_cores": 7,
-        "isa": "ARMv8.3-A",
         "memory_type": "LPDDR4X",
-        "market": "Tablet"
-      }
+        "max_memory_mb": 6144,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 68.2,
+        "npu_tops": 5
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a13-bionic",
@@ -332,6 +700,10 @@
       "family": "Apple A",
       "released": "2019-09",
       "specs": {
+        "codename": "T8030",
+        "microarchitecture": "Lightning / Thunder",
+        "isa": "ARMv8.4-A",
+        "market": "Mobile",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 8500000000,
@@ -339,14 +711,27 @@
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
-        "microarchitecture": "Lightning / Thunder",
+        "core_config": "2x Lightning @ 2.65 GHz + 4x Thunder @ 1.8 GHz",
+        "base_clock_mhz": 1800,
         "boost_clock_mhz": 2650,
+        "l2_cache_kb": 12288,
+        "slc_kb": 16384,
         "gpu": "Apple-designed 4-core GPU",
         "gpu_cores": 4,
-        "isa": "ARMv8.4-A",
         "memory_type": "LPDDR4X",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "npu_tops": 5.5
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a12z-bionic",
@@ -354,19 +739,38 @@
       "family": "Apple A",
       "released": "2020-03",
       "specs": {
+        "codename": "T8027",
+        "microarchitecture": "Vortex / Tempest",
+        "isa": "ARMv8.3-A",
+        "market": "Tablet",
         "process_nm": 7,
         "foundry": "TSMC",
+        "transistors": 10000000000,
+        "die_size_mm2": 122,
         "cores": 8,
         "performance_cores": 4,
         "efficiency_cores": 4,
-        "microarchitecture": "Vortex / Tempest",
+        "core_config": "4x Vortex @ 2.49 GHz + 4x Tempest @ 1.59 GHz",
+        "base_clock_mhz": 1590,
         "boost_clock_mhz": 2490,
+        "l2_cache_kb": 10240,
+        "slc_kb": 8192,
         "gpu": "Apple-designed 8-core GPU",
         "gpu_cores": 8,
-        "isa": "ARMv8.3-A",
         "memory_type": "LPDDR4X",
-        "market": "Tablet"
-      }
+        "max_memory_mb": 6144,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 68.2,
+        "npu_tops": 5
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a14-bionic",
@@ -374,6 +778,10 @@
       "family": "Apple A",
       "released": "2020-10",
       "specs": {
+        "codename": "T8101",
+        "microarchitecture": "Firestorm / Icestorm",
+        "isa": "ARMv8.5-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 11800000000,
@@ -381,15 +789,27 @@
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
-        "microarchitecture": "Firestorm / Icestorm",
+        "core_config": "2x Firestorm @ 2.99 GHz + 4x Icestorm @ 1.82 GHz",
+        "base_clock_mhz": 1820,
         "boost_clock_mhz": 2990,
+        "l2_cache_kb": 12288,
+        "slc_kb": 16384,
         "gpu": "Apple-designed 4-core GPU",
         "gpu_cores": 4,
-        "npu_tops": 11,
-        "isa": "ARMv8.5-A",
         "memory_type": "LPDDR4X",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 6144,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "npu_tops": 11
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m1",
@@ -397,6 +817,10 @@
       "family": "Apple M1",
       "released": "2020-11",
       "specs": {
+        "codename": "T8103",
+        "microarchitecture": "Firestorm / Icestorm",
+        "isa": "ARMv8.5-A",
+        "market": "Laptop",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 16000000000,
@@ -404,18 +828,27 @@
         "cores": 8,
         "performance_cores": 4,
         "efficiency_cores": 4,
-        "microarchitecture": "Firestorm / Icestorm",
+        "core_config": "4x Firestorm @ 3.2 GHz + 4x Icestorm @ 2.06 GHz",
+        "base_clock_mhz": 2064,
         "boost_clock_mhz": 3200,
+        "l2_cache_kb": 16384,
+        "slc_kb": 8192,
         "gpu": "Apple-designed 8-core GPU",
         "gpu_cores": 8,
-        "fp32_tflops": 2.6,
-        "npu_tops": 11,
+        "gpu_clock_mhz": 1278,
         "memory_type": "LPDDR4X-4266",
         "max_memory_mb": 16384,
+        "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 68.25,
-        "isa": "ARMv8.5-A",
-        "market": "Laptop / Desktop"
-      }
+        "fp32_tflops": 2.6,
+        "npu_tops": 11
+      },
+      "na": [
+        "l3_cache_kb",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a15-bionic",
@@ -423,6 +856,10 @@
       "family": "Apple A",
       "released": "2021-09",
       "specs": {
+        "codename": "T8110",
+        "microarchitecture": "Avalanche / Blizzard",
+        "isa": "ARMv8.6-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 15000000000,
@@ -430,15 +867,27 @@
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
-        "microarchitecture": "Avalanche / Blizzard",
+        "core_config": "2x Avalanche @ 3.23 GHz + 4x Blizzard @ 2.02 GHz",
+        "base_clock_mhz": 2020,
         "boost_clock_mhz": 3230,
+        "l2_cache_kb": 16384,
+        "slc_kb": 32768,
         "gpu": "Apple-designed 5-core GPU",
         "gpu_cores": 5,
-        "npu_tops": 15.8,
-        "isa": "ARMv8.6-A",
         "memory_type": "LPDDR4X",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 6144,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 34.1,
+        "npu_tops": 15.8
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m1-pro",
@@ -446,24 +895,38 @@
       "family": "Apple M1",
       "released": "2021-10",
       "specs": {
+        "codename": "T6000",
+        "microarchitecture": "Firestorm / Icestorm",
+        "isa": "ARMv8.5-A",
+        "market": "Laptop",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 33700000000,
+        "die_size_mm2": 245,
         "cores": 10,
         "performance_cores": 8,
         "efficiency_cores": 2,
-        "microarchitecture": "Firestorm / Icestorm",
+        "core_config": "8x Firestorm @ 3.23 GHz + 2x Icestorm @ 2.06 GHz",
+        "base_clock_mhz": 2064,
         "boost_clock_mhz": 3228,
+        "l2_cache_kb": 28672,
+        "slc_kb": 24576,
         "gpu": "Apple-designed 16-core GPU",
         "gpu_cores": 16,
-        "fp32_tflops": 5.2,
-        "npu_tops": 11,
+        "gpu_clock_mhz": 1296,
         "memory_type": "LPDDR5",
         "max_memory_mb": 32768,
+        "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 200,
-        "isa": "ARMv8.5-A",
-        "market": "Laptop / Desktop"
-      }
+        "fp32_tflops": 5.2,
+        "npu_tops": 11
+      },
+      "na": [
+        "l3_cache_kb",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m1-max",
@@ -471,24 +934,38 @@
       "family": "Apple M1",
       "released": "2021-10",
       "specs": {
+        "codename": "T6001",
+        "microarchitecture": "Firestorm / Icestorm",
+        "isa": "ARMv8.5-A",
+        "market": "Laptop",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 57000000000,
+        "die_size_mm2": 432,
         "cores": 10,
         "performance_cores": 8,
         "efficiency_cores": 2,
-        "microarchitecture": "Firestorm / Icestorm",
+        "core_config": "8x Firestorm @ 3.23 GHz + 2x Icestorm @ 2.06 GHz",
+        "base_clock_mhz": 2064,
         "boost_clock_mhz": 3228,
+        "l2_cache_kb": 28672,
+        "slc_kb": 49152,
         "gpu": "Apple-designed 32-core GPU",
         "gpu_cores": 32,
-        "fp32_tflops": 10.4,
-        "npu_tops": 11,
+        "gpu_clock_mhz": 1296,
         "memory_type": "LPDDR5",
         "max_memory_mb": 65536,
+        "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 400,
-        "isa": "ARMv8.5-A",
-        "market": "Laptop / Desktop"
-      }
+        "fp32_tflops": 10.4,
+        "npu_tops": 11
+      },
+      "na": [
+        "l3_cache_kb",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m1-ultra",
@@ -496,24 +973,38 @@
       "family": "Apple M1",
       "released": "2022-03",
       "specs": {
+        "codename": "T6002",
+        "microarchitecture": "Firestorm / Icestorm",
+        "isa": "ARMv8.5-A",
+        "market": "Desktop",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 114000000000,
+        "die_size_mm2": 864,
         "cores": 20,
         "performance_cores": 16,
         "efficiency_cores": 4,
-        "microarchitecture": "Firestorm / Icestorm",
+        "core_config": "16x Firestorm @ 3.23 GHz + 4x Icestorm @ 2.06 GHz",
+        "base_clock_mhz": 2064,
         "boost_clock_mhz": 3228,
+        "l2_cache_kb": 57344,
+        "slc_kb": 98304,
         "gpu": "Apple-designed 64-core GPU",
         "gpu_cores": 64,
-        "fp32_tflops": 21,
-        "npu_tops": 22,
+        "gpu_clock_mhz": 1296,
         "memory_type": "LPDDR5",
         "max_memory_mb": 131072,
+        "memory_bus_bits": 1024,
         "memory_bandwidth_gbs": 800,
-        "isa": "ARMv8.5-A",
-        "market": "Desktop"
-      }
+        "fp32_tflops": 21,
+        "npu_tops": 22
+      },
+      "na": [
+        "l3_cache_kb",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m2",
@@ -521,24 +1012,38 @@
       "family": "Apple M2",
       "released": "2022-06",
       "specs": {
+        "codename": "T8112",
+        "microarchitecture": "Avalanche / Blizzard",
+        "isa": "ARMv8.6-A",
+        "market": "Laptop",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 20000000000,
+        "die_size_mm2": 155.25,
         "cores": 8,
         "performance_cores": 4,
         "efficiency_cores": 4,
-        "microarchitecture": "Avalanche / Blizzard",
+        "core_config": "4x Avalanche @ 3.49 GHz + 4x Blizzard @ 2.42 GHz",
+        "base_clock_mhz": 2420,
         "boost_clock_mhz": 3490,
+        "l2_cache_kb": 20480,
+        "slc_kb": 8192,
         "gpu": "Apple-designed 10-core GPU",
         "gpu_cores": 10,
-        "fp32_tflops": 3.6,
-        "npu_tops": 15.8,
+        "gpu_clock_mhz": 1398,
         "memory_type": "LPDDR5",
         "max_memory_mb": 24576,
+        "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 100,
-        "isa": "ARMv8.6-A",
-        "market": "Laptop / Desktop"
-      }
+        "fp32_tflops": 3.6,
+        "npu_tops": 15.8
+      },
+      "na": [
+        "l3_cache_kb",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a16-bionic",
@@ -546,21 +1051,38 @@
       "family": "Apple A",
       "released": "2022-09",
       "specs": {
+        "codename": "T8120",
+        "microarchitecture": "Everest / Sawtooth",
+        "isa": "ARMv8.6-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "TSMC",
         "transistors": 16000000000,
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
-        "microarchitecture": "Everest / Sawtooth",
+        "core_config": "2x Everest @ 3.46 GHz + 4x Sawtooth @ 2.02 GHz",
+        "base_clock_mhz": 2020,
         "boost_clock_mhz": 3460,
+        "l2_cache_kb": 20480,
+        "slc_kb": 24576,
         "gpu": "Apple-designed 5-core GPU",
         "gpu_cores": 5,
-        "npu_tops": 17,
-        "isa": "ARMv8.6-A",
         "memory_type": "LPDDR5",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 6144,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "npu_tops": 17
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m2-pro",
@@ -568,24 +1090,38 @@
       "family": "Apple M2",
       "released": "2023-01",
       "specs": {
+        "codename": "T6020",
+        "microarchitecture": "Avalanche / Blizzard",
+        "isa": "ARMv8.6-A",
+        "market": "Laptop",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 40000000000,
         "cores": 12,
         "performance_cores": 8,
         "efficiency_cores": 4,
-        "microarchitecture": "Avalanche / Blizzard",
+        "core_config": "8x Avalanche @ 3.49 GHz + 4x Blizzard @ 2.42 GHz",
+        "base_clock_mhz": 2420,
         "boost_clock_mhz": 3490,
+        "l2_cache_kb": 36864,
+        "slc_kb": 24576,
         "gpu": "Apple-designed 19-core GPU",
         "gpu_cores": 19,
-        "fp32_tflops": 6.8,
-        "npu_tops": 15.8,
+        "gpu_clock_mhz": 1398,
         "memory_type": "LPDDR5",
         "max_memory_mb": 32768,
+        "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 200,
-        "isa": "ARMv8.6-A",
-        "market": "Laptop / Desktop"
-      }
+        "fp32_tflops": 6.8,
+        "npu_tops": 15.8
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m2-max",
@@ -593,24 +1129,38 @@
       "family": "Apple M2",
       "released": "2023-01",
       "specs": {
+        "codename": "T6021",
+        "microarchitecture": "Avalanche / Blizzard",
+        "isa": "ARMv8.6-A",
+        "market": "Laptop",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 67000000000,
         "cores": 12,
         "performance_cores": 8,
         "efficiency_cores": 4,
-        "microarchitecture": "Avalanche / Blizzard",
+        "core_config": "8x Avalanche @ 3.49 GHz + 4x Blizzard @ 2.42 GHz",
+        "base_clock_mhz": 2420,
         "boost_clock_mhz": 3490,
+        "l2_cache_kb": 36864,
+        "slc_kb": 49152,
         "gpu": "Apple-designed 38-core GPU",
         "gpu_cores": 38,
-        "fp32_tflops": 13.6,
-        "npu_tops": 15.8,
+        "gpu_clock_mhz": 1398,
         "memory_type": "LPDDR5",
         "max_memory_mb": 98304,
+        "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 400,
-        "isa": "ARMv8.6-A",
-        "market": "Laptop / Desktop"
-      }
+        "fp32_tflops": 13.6,
+        "npu_tops": 15.8
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m2-ultra",
@@ -618,24 +1168,38 @@
       "family": "Apple M2",
       "released": "2023-06",
       "specs": {
+        "codename": "T6022",
+        "microarchitecture": "Avalanche / Blizzard",
+        "isa": "ARMv8.6-A",
+        "market": "Desktop",
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 134000000000,
         "cores": 24,
         "performance_cores": 16,
         "efficiency_cores": 8,
-        "microarchitecture": "Avalanche / Blizzard",
+        "core_config": "16x Avalanche @ 3.49 GHz + 8x Blizzard @ 2.42 GHz",
+        "base_clock_mhz": 2420,
         "boost_clock_mhz": 3490,
+        "l2_cache_kb": 73728,
+        "slc_kb": 98304,
         "gpu": "Apple-designed 76-core GPU",
         "gpu_cores": 76,
-        "fp32_tflops": 27.2,
-        "npu_tops": 31.6,
+        "gpu_clock_mhz": 1398,
         "memory_type": "LPDDR5",
         "max_memory_mb": 196608,
+        "memory_bus_bits": 1024,
         "memory_bandwidth_gbs": 800,
-        "isa": "ARMv8.6-A",
-        "market": "Desktop"
-      }
+        "fp32_tflops": 27.2,
+        "npu_tops": 31.6
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a17-pro",
@@ -643,19 +1207,38 @@
       "family": "Apple A",
       "released": "2023-09",
       "specs": {
+        "codename": "T8130",
+        "microarchitecture": "Apple A17 Pro P-core / E-core",
+        "isa": "ARMv8.6-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "TSMC",
         "transistors": 19000000000,
+        "die_size_mm2": 103.8,
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
+        "core_config": "2x P-core @ 3.78 GHz + 4x E-core @ 2.11 GHz",
+        "base_clock_mhz": 2110,
         "boost_clock_mhz": 3780,
+        "l2_cache_kb": 20480,
+        "slc_kb": 24576,
         "gpu": "Apple-designed 6-core GPU",
         "gpu_cores": 6,
-        "npu_tops": 35,
         "memory_type": "LPDDR5",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "npu_tops": 35
+      },
+      "na": [
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-s9",
@@ -663,11 +1246,42 @@
       "family": "Apple S",
       "released": "2023-09",
       "specs": {
+        "codename": "T8310",
+        "microarchitecture": "Sawtooth",
+        "isa": "ARMv8.6-A",
+        "market": "Wearable",
+        "process_nm": 4,
+        "foundry": "TSMC",
         "transistors": 5600000000,
-        "cores": 2,
         "package": "System in Package",
-        "market": "Wearable"
-      }
+        "cores": 2,
+        "core_config": "2x Sawtooth-derived cores",
+        "gpu": "Apple-designed GPU",
+        "memory_type": "LPDDR5",
+        "max_memory_mb": 2048,
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 5.3",
+          "Ultra Wideband (2nd gen)",
+          "NFC"
+        ]
+      },
+      "na": [
+        "die_size_mm2",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem"
+      ]
     },
     {
       "id": "apple-m3",
@@ -675,21 +1289,38 @@
       "family": "Apple M3",
       "released": "2023-10",
       "specs": {
+        "codename": "T8122",
+        "microarchitecture": "Apple M3 P-core / E-core",
+        "isa": "ARMv8.6-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "transistors": 25000000000,
         "cores": 8,
         "performance_cores": 4,
         "efficiency_cores": 4,
+        "core_config": "4x P-core @ 4.05 GHz + 4x E-core @ 2.75 GHz",
+        "base_clock_mhz": 2750,
         "boost_clock_mhz": 4050,
+        "l2_cache_kb": 20480,
+        "slc_kb": 8192,
         "gpu": "Apple-designed 10-core GPU",
         "gpu_cores": 10,
-        "npu_tops": 18,
         "memory_type": "LPDDR5",
         "max_memory_mb": 24576,
+        "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 100,
-        "market": "Laptop / Desktop"
-      }
+        "npu_tops": 18
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m3-pro",
@@ -697,21 +1328,38 @@
       "family": "Apple M3",
       "released": "2023-10",
       "specs": {
+        "codename": "T6030",
+        "microarchitecture": "Apple M3 P-core / E-core",
+        "isa": "ARMv8.6-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "transistors": 37000000000,
         "cores": 12,
         "performance_cores": 6,
         "efficiency_cores": 6,
+        "core_config": "6x P-core @ 4.05 GHz + 6x E-core @ 2.75 GHz",
+        "base_clock_mhz": 2750,
         "boost_clock_mhz": 4050,
+        "l2_cache_kb": 20480,
+        "slc_kb": 12288,
         "gpu": "Apple-designed 18-core GPU",
         "gpu_cores": 18,
-        "npu_tops": 18,
         "memory_type": "LPDDR5",
         "max_memory_mb": 36864,
+        "memory_bus_bits": 192,
         "memory_bandwidth_gbs": 150,
-        "market": "Laptop"
-      }
+        "npu_tops": 18
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m3-max",
@@ -719,21 +1367,38 @@
       "family": "Apple M3",
       "released": "2023-10",
       "specs": {
+        "codename": "T6034",
+        "microarchitecture": "Apple M3 P-core / E-core",
+        "isa": "ARMv8.6-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "transistors": 92000000000,
         "cores": 16,
         "performance_cores": 12,
         "efficiency_cores": 4,
+        "core_config": "12x P-core @ 4.05 GHz + 4x E-core @ 2.75 GHz",
+        "base_clock_mhz": 2750,
         "boost_clock_mhz": 4050,
+        "l2_cache_kb": 36864,
+        "slc_kb": 49152,
         "gpu": "Apple-designed 40-core GPU",
         "gpu_cores": 40,
-        "npu_tops": 18,
         "memory_type": "LPDDR5",
         "max_memory_mb": 131072,
+        "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 400,
-        "market": "Laptop / Desktop"
-      }
+        "npu_tops": 18
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-r1",
@@ -741,9 +1406,36 @@
       "family": "Apple R",
       "released": "2024-02",
       "specs": {
-        "memory_bandwidth_gbs": 256,
-        "market": "Headset (sensor processing)"
-      }
+        "market": "Wearable",
+        "memory_type": "Low-latency DRAM",
+        "memory_bandwidth_gbs": 256
+      },
+      "na": [
+        "codename",
+        "microarchitecture",
+        "isa",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "cores",
+        "core_config",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "max_memory_mb",
+        "memory_bus_bits",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m4",
@@ -751,22 +1443,38 @@
       "family": "Apple M4",
       "released": "2024-05",
       "specs": {
+        "codename": "T8132",
+        "microarchitecture": "Apple M4 P-core / E-core",
+        "isa": "ARMv9.2-A",
+        "market": "Tablet",
         "process_nm": 3,
         "foundry": "TSMC",
         "transistors": 28000000000,
         "cores": 10,
         "performance_cores": 4,
         "efficiency_cores": 6,
+        "core_config": "4x P-core @ 4.4 GHz + 6x E-core @ 2.89 GHz",
+        "base_clock_mhz": 2890,
         "boost_clock_mhz": 4400,
+        "l2_cache_kb": 20480,
+        "slc_kb": 8192,
         "gpu": "Apple-designed 10-core GPU",
         "gpu_cores": 10,
-        "npu_tops": 38,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 32768,
+        "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 120,
-        "isa": "ARMv9.2-A",
-        "market": "Tablet / Laptop / Desktop"
-      }
+        "npu_tops": 38
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a18",
@@ -774,19 +1482,38 @@
       "family": "Apple A",
       "released": "2024-09",
       "specs": {
+        "codename": "T8140",
+        "microarchitecture": "Apple M4 P-core / E-core",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
+        "core_config": "2x P-core @ 4.04 GHz + 4x E-core @ 2.2 GHz",
+        "base_clock_mhz": 2200,
         "boost_clock_mhz": 4040,
+        "l2_cache_kb": 20480,
+        "slc_kb": 12288,
         "gpu": "Apple-designed 5-core GPU",
         "gpu_cores": 5,
-        "npu_tops": 35,
-        "isa": "ARMv9.2-A",
         "memory_type": "LPDDR5X",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 60,
+        "npu_tops": 35
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a18-pro",
@@ -794,19 +1521,38 @@
       "family": "Apple A",
       "released": "2024-09",
       "specs": {
+        "codename": "T8140",
+        "microarchitecture": "Apple M4 P-core / E-core",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
+        "core_config": "2x P-core @ 4.04 GHz + 4x E-core @ 2.2 GHz",
+        "base_clock_mhz": 2200,
         "boost_clock_mhz": 4040,
+        "l2_cache_kb": 20480,
+        "slc_kb": 24576,
         "gpu": "Apple-designed 6-core GPU",
         "gpu_cores": 6,
-        "npu_tops": 35,
-        "isa": "ARMv9.2-A",
         "memory_type": "LPDDR5X",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 60,
+        "npu_tops": 35
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m4-pro",
@@ -814,21 +1560,38 @@
       "family": "Apple M4",
       "released": "2024-10",
       "specs": {
+        "codename": "T6040",
+        "microarchitecture": "Apple M4 P-core / E-core",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 14,
         "performance_cores": 10,
         "efficiency_cores": 4,
+        "core_config": "10x P-core @ 4.51 GHz + 4x E-core @ 2.59 GHz",
+        "base_clock_mhz": 2590,
         "boost_clock_mhz": 4510,
+        "l2_cache_kb": 36864,
         "gpu": "Apple-designed 20-core GPU",
         "gpu_cores": 20,
-        "npu_tops": 38,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 65536,
+        "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 273,
-        "isa": "ARMv9.2-A",
-        "market": "Laptop / Desktop"
-      }
+        "npu_tops": 38
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m4-max",
@@ -836,21 +1599,38 @@
       "family": "Apple M4",
       "released": "2024-10",
       "specs": {
+        "codename": "T6041",
+        "microarchitecture": "Apple M4 P-core / E-core",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 16,
         "performance_cores": 12,
         "efficiency_cores": 4,
+        "core_config": "12x P-core @ 4.51 GHz + 4x E-core @ 2.59 GHz",
+        "base_clock_mhz": 2590,
         "boost_clock_mhz": 4510,
+        "l2_cache_kb": 36864,
         "gpu": "Apple-designed 40-core GPU",
         "gpu_cores": 40,
-        "npu_tops": 38,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 131072,
+        "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 546,
-        "isa": "ARMv9.2-A",
-        "market": "Laptop / Desktop"
-      }
+        "npu_tops": 38
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m3-ultra",
@@ -858,19 +1638,38 @@
       "family": "Apple M3",
       "released": "2025-03",
       "specs": {
+        "codename": "T6032",
+        "microarchitecture": "Apple M3 P-core / E-core",
+        "isa": "ARMv8.6-A",
+        "market": "Desktop",
         "process_nm": 3,
         "foundry": "TSMC",
         "transistors": 184000000000,
         "cores": 32,
         "performance_cores": 24,
         "efficiency_cores": 8,
+        "core_config": "24x P-core @ 4.05 GHz + 8x E-core @ 2.75 GHz",
+        "base_clock_mhz": 2750,
+        "boost_clock_mhz": 4050,
+        "l2_cache_kb": 73728,
+        "slc_kb": 98304,
         "gpu": "Apple-designed 80-core GPU",
         "gpu_cores": 80,
         "memory_type": "LPDDR5",
         "max_memory_mb": 524288,
+        "memory_bus_bits": 1024,
         "memory_bandwidth_gbs": 819,
-        "market": "Desktop"
-      }
+        "npu_tops": 36
+      },
+      "na": [
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a19",
@@ -878,16 +1677,38 @@
       "family": "Apple A",
       "released": "2025-09",
       "specs": {
+        "microarchitecture": "Apple A19 P-core / E-core",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
+        "core_config": "2x P-core @ 4.26 GHz + 4x E-core",
+        "boost_clock_mhz": 4260,
         "gpu": "Apple-designed 5-core GPU",
         "gpu_cores": 5,
-        "isa": "ARMv9.2-A",
-        "market": "Mobile"
-      }
+        "memory_type": "LPDDR5X",
+        "max_memory_mb": 8192,
+        "memory_bus_bits": 64
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-a19-pro",
@@ -895,18 +1716,38 @@
       "family": "Apple A",
       "released": "2025-09",
       "specs": {
+        "microarchitecture": "Apple A19 P-core / E-core",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 6,
         "performance_cores": 2,
         "efficiency_cores": 4,
+        "core_config": "2x P-core @ 4.26 GHz + 4x E-core",
         "boost_clock_mhz": 4260,
         "gpu": "Apple-designed 6-core GPU",
         "gpu_cores": 6,
-        "isa": "ARMv9.2-A",
         "memory_type": "LPDDR5X",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 64
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m5",
@@ -914,19 +1755,38 @@
       "family": "Apple M5",
       "released": "2025-10",
       "specs": {
+        "microarchitecture": "Apple M5 P-core / E-core",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 10,
         "performance_cores": 4,
         "efficiency_cores": 6,
+        "core_config": "4x P-core @ 4.61 GHz + 6x E-core",
+        "boost_clock_mhz": 4610,
         "gpu": "Apple-designed 10-core GPU with Neural Accelerators",
         "gpu_cores": 10,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 32768,
-        "memory_bandwidth_gbs": 153,
-        "isa": "ARMv9.2-A",
-        "market": "Tablet / Laptop / Headset"
-      }
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 153
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m5-pro",
@@ -934,14 +1794,36 @@
       "family": "Apple M5",
       "released": "2026-03",
       "specs": {
+        "microarchitecture": "Apple M5 super core / performance core",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 18,
+        "core_config": "6x super core + 12x performance core",
+        "gpu": "Apple-designed 20-core GPU with Neural Accelerators",
         "gpu_cores": 20,
         "memory_type": "LPDDR5X",
-        "memory_bandwidth_gbs": 307,
-        "market": "Laptop"
-      }
+        "max_memory_mb": 65536,
+        "memory_bus_bits": 256,
+        "memory_bandwidth_gbs": 307
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "apple-m5-max",
@@ -949,14 +1831,36 @@
       "family": "Apple M5",
       "released": "2026-03",
       "specs": {
+        "microarchitecture": "Apple M5 super core / performance core",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 18,
+        "core_config": "6x super core + 12x performance core",
+        "gpu": "Apple-designed 40-core GPU with Neural Accelerators",
         "gpu_cores": 40,
         "memory_type": "LPDDR5X",
-        "memory_bandwidth_gbs": 614,
-        "market": "Laptop"
-      }
+        "max_memory_mb": 131072,
+        "memory_bus_bits": 512,
+        "memory_bandwidth_gbs": 614
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     }
   ]
 }

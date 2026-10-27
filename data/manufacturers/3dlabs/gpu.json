@@ -8,13 +8,41 @@
       "family": "GLINT",
       "released": "1994",
       "specs": {
+        "codename": "GLINT 300SX",
+        "microarchitecture": "GLINT",
         "market": "Workstation",
+        "launch_price_usd": 150,
+        "process_nm": 500,
+        "foundry": "IBM",
+        "rops": 1,
+        "gpu_clock_mhz": 40,
         "graphics_api": [
           "OpenGL"
         ],
         "memory_type": "VRAM",
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tmus",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dlabs-glint-500tx",
@@ -22,13 +50,41 @@
       "family": "GLINT",
       "released": "1995",
       "specs": {
+        "codename": "GLINT 500TX",
+        "microarchitecture": "GLINT",
         "market": "Workstation",
+        "foundry": "IBM",
+        "tmus": 1,
+        "rops": 1,
+        "gpu_clock_mhz": 40,
         "graphics_api": [
           "OpenGL"
         ],
         "memory_type": "VRAM",
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dlabs-permedia",
@@ -36,13 +92,42 @@
       "family": "Permedia",
       "released": "1996",
       "specs": {
+        "codename": "Permedia",
+        "microarchitecture": "Permedia",
         "market": "Consumer",
+        "foundry": "Texas Instruments",
+        "tmus": 1,
+        "rops": 1,
         "graphics_api": [
           "Direct3D",
           "OpenGL"
         ],
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dlabs-glint-mx",
@@ -50,12 +135,41 @@
       "family": "GLINT",
       "released": "1997",
       "specs": {
+        "codename": "GLINT MX",
+        "microarchitecture": "GLINT",
         "market": "Workstation",
+        "tmus": 1,
+        "rops": 1,
         "graphics_api": [
           "OpenGL"
         ],
         "interface": "PCI / AGP"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dlabs-permedia-2",
@@ -63,18 +177,42 @@
       "family": "Permedia",
       "released": "1997",
       "specs": {
+        "codename": "Permedia 2",
+        "microarchitecture": "Permedia",
         "market": "Consumer",
         "process_nm": 350,
+        "foundry": "Texas Instruments",
+        "tmus": 1,
+        "rops": 1,
         "gpu_clock_mhz": 83,
         "graphics_api": [
           "DirectX 5.0",
           "OpenGL 1.1"
         ],
+        "pixel_rate_gpixels": 0.083,
+        "texture_rate_gtexels": 0.083,
         "memory_type": "SGRAM",
         "memory_size_mb": 8,
         "memory_bus_bits": 64,
+        "memory_clock_mhz": 83,
+        "memory_bandwidth_gbs": 0.66,
         "interface": "AGP 1x / PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dlabs-permedia-3",
@@ -82,17 +220,42 @@
       "family": "Permedia",
       "released": "1999",
       "specs": {
+        "codename": "Permedia 3",
+        "microarchitecture": "Permedia",
         "market": "Consumer",
+        "process_nm": 250,
+        "tmus": 2,
+        "rops": 1,
         "gpu_clock_mhz": 110,
         "graphics_api": [
           "DirectX 6.0",
           "OpenGL 1.2"
         ],
+        "pixel_rate_gpixels": 0.11,
+        "texture_rate_gtexels": 0.22,
         "memory_type": "SGRAM",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 110,
+        "memory_bandwidth_gbs": 1.76,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dlabs-wildcat-vp970",
@@ -101,7 +264,9 @@
       "released": "2002-05",
       "specs": {
         "codename": "P10",
+        "microarchitecture": "P10",
         "market": "Workstation",
+        "launch_price_usd": 1199,
         "process_nm": 130,
         "transistors": 76000000,
         "graphics_api": [
@@ -112,25 +277,70 @@
         "memory_size_mb": 128,
         "memory_bus_bits": 256,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "foundry",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tmus",
+        "rops",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "3dlabs-wildcat-realizm-200",
       "name": "Wildcat Realizm 200",
       "family": "Wildcat Realizm",
-      "released": "2004",
+      "released": "2004-08",
       "specs": {
         "codename": "P20",
+        "microarchitecture": "P20",
         "market": "Workstation",
+        "launch_price_usd": 1599,
         "process_nm": 130,
+        "rops": 12,
         "graphics_api": [
           "OpenGL 2.0"
         ],
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 500,
+        "memory_bandwidth_gbs": 32.0,
+        "tdp_w": 85,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tmus",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     }
   ]
 }

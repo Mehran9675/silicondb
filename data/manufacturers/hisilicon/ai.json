@@ -9,13 +9,32 @@
       "released": "2018-10",
       "specs": {
         "codename": "Ascend-Mini",
-        "process_nm": 12,
         "microarchitecture": "Da Vinci",
+        "market": "Embedded",
+        "process_nm": 12,
+        "foundry": "TSMC",
+        "cores": 2,
+        "tensor_cores": 2,
+        "memory_type": "LPDDR4X",
+        "memory_bus_bits": 128,
         "fp16_tflops": 8,
         "int8_tops": 16,
         "tdp_w": 8,
-        "market": "Edge inference"
-      }
+        "interface": "PCIe 3.0 x4"
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "memory_size_mb",
+        "memory_bandwidth_gbs",
+        "sram_kb",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "hisilicon-ascend-910",
@@ -24,16 +43,32 @@
       "released": "2019-08",
       "specs": {
         "codename": "Ascend-Max",
+        "microarchitecture": "Da Vinci",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
-        "microarchitecture": "Da Vinci",
-        "fp16_tflops": 256,
-        "int8_tops": 512,
+        "die_size_mm2": 456,
+        "cores": 32,
+        "boost_clock_mhz": 1000,
+        "tensor_cores": 32,
         "memory_type": "HBM2",
         "memory_size_mb": 32768,
+        "memory_bus_bits": 4096,
+        "memory_bandwidth_gbs": 1200,
+        "fp16_tflops": 256,
+        "int8_tops": 512,
         "tdp_w": 310,
-        "market": "Data center training"
-      }
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "transistors",
+        "compute_units",
+        "sram_kb",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "hisilicon-ascend-910b",
@@ -41,13 +76,33 @@
       "family": "Ascend",
       "released": "2023",
       "specs": {
+        "codename": "Ascend 910B",
+        "microarchitecture": "Da Vinci",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "SMIC",
-        "microarchitecture": "Da Vinci",
         "memory_type": "HBM2e",
         "memory_size_mb": 65536,
-        "market": "Data center training"
-      }
+        "memory_bus_bits": 4096,
+        "memory_bandwidth_gbs": 1600,
+        "fp16_tflops": 320,
+        "int8_tops": 640,
+        "tdp_w": 400,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "cores",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "sram_kb",
+        "fp64_tflops",
+        "fp32_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     }
   ]
 }
