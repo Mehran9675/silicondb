@@ -8,18 +8,33 @@
       "family": "TPU",
       "released": "2015",
       "specs": {
+        "microarchitecture": "TPU v1 (256x256 systolic array)",
+        "market": "Data center",
         "process_nm": 28,
         "die_size_mm2": 331,
-        "base_clock_mhz": 700,
-        "int8_tops": 92,
+        "cores": 1,
+        "boost_clock_mhz": 700,
+        "tensor_cores": 1,
         "memory_type": "DDR3",
         "memory_size_mb": 8192,
+        "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 34,
         "sram_kb": 28672,
+        "int8_tops": 92,
         "tdp_w": 75,
-        "interface": "PCIe 3.0 x16",
-        "market": "Data center inference"
-      }
+        "interface": "PCIe 3.0 x16"
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "compute_units",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "google-tpu-v2",
@@ -27,14 +42,33 @@
       "family": "TPU",
       "released": "2017-05",
       "specs": {
+        "microarchitecture": "TPU v2 (128x128 MXU)",
+        "market": "Data center",
         "process_nm": 16,
-        "base_clock_mhz": 700,
-        "bf16_tflops": 45,
+        "foundry": "TSMC",
+        "die_size_mm2": 611,
+        "cores": 2,
+        "boost_clock_mhz": 700,
+        "tensor_cores": 2,
         "memory_type": "HBM",
         "memory_size_mb": 16384,
-        "memory_bandwidth_gbs": 600,
-        "market": "Data center training"
-      }
+        "memory_bus_bits": 2048,
+        "memory_bandwidth_gbs": 700,
+        "sram_kb": 32768,
+        "bf16_tflops": 45,
+        "tdp_w": 280,
+        "interface": "ICI / PCIe 3.0"
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "compute_units",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "google-tpu-v3",
@@ -42,14 +76,33 @@
       "family": "TPU",
       "released": "2018-05",
       "specs": {
+        "microarchitecture": "TPU v3 (128x128 MXU)",
+        "market": "Data center",
         "process_nm": 16,
-        "base_clock_mhz": 940,
-        "bf16_tflops": 123,
+        "foundry": "TSMC",
+        "die_size_mm2": 648,
+        "cores": 2,
+        "boost_clock_mhz": 940,
+        "tensor_cores": 4,
         "memory_type": "HBM",
         "memory_size_mb": 32768,
+        "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 900,
-        "market": "Data center training"
-      }
+        "sram_kb": 32768,
+        "bf16_tflops": 123,
+        "tdp_w": 450,
+        "interface": "ICI / PCIe 3.0"
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "compute_units",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "google-edge-tpu",
@@ -57,10 +110,33 @@
       "family": "Edge TPU",
       "released": "2019-03",
       "specs": {
+        "microarchitecture": "Edge TPU",
+        "market": "Embedded",
+        "cores": 1,
+        "sram_kb": 8192,
         "int8_tops": 4,
         "tdp_w": 2,
-        "market": "Edge inference"
-      }
+        "interface": "PCIe 2.0 x1 / USB 2.0"
+      },
+      "na": [
+        "codename",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "memory_type",
+        "memory_size_mb",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "google-tpu-v4",
@@ -68,15 +144,33 @@
       "family": "TPU",
       "released": "2021-05",
       "specs": {
+        "microarchitecture": "TPU v4 (128x128 MXU)",
+        "market": "Data center",
         "process_nm": 7,
-        "base_clock_mhz": 1050,
-        "bf16_tflops": 275,
-        "int8_tops": 275,
+        "foundry": "TSMC",
+        "transistors": 22000000000,
+        "die_size_mm2": 400,
+        "cores": 2,
+        "boost_clock_mhz": 1050,
+        "tensor_cores": 8,
         "memory_type": "HBM2",
         "memory_size_mb": 32768,
+        "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 1200,
-        "market": "Data center training"
-      }
+        "sram_kb": 163840,
+        "bf16_tflops": 275,
+        "int8_tops": 275,
+        "tdp_w": 192,
+        "interface": "ICI / PCIe 3.0"
+      },
+      "na": [
+        "codename",
+        "compute_units",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "google-tpu-v5e",
@@ -84,13 +178,33 @@
       "family": "TPU",
       "released": "2023-08",
       "specs": {
-        "bf16_tflops": 197,
-        "int8_tops": 394,
+        "microarchitecture": "TPU v5e",
+        "market": "Data center",
+        "cores": 1,
+        "tensor_cores": 4,
         "memory_type": "HBM2",
         "memory_size_mb": 16384,
+        "memory_bus_bits": 2048,
         "memory_bandwidth_gbs": 819,
-        "market": "Data center inference / training"
-      }
+        "bf16_tflops": 197,
+        "int8_tops": 394,
+        "interface": "ICI"
+      },
+      "na": [
+        "codename",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "sram_kb",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "google-tpu-v5p",
@@ -98,13 +212,33 @@
       "family": "TPU",
       "released": "2023-12",
       "specs": {
-        "bf16_tflops": 459,
-        "int8_tops": 918,
+        "microarchitecture": "TPU v5p",
+        "market": "Data center",
+        "cores": 2,
+        "tensor_cores": 8,
         "memory_type": "HBM2e",
         "memory_size_mb": 97280,
+        "memory_bus_bits": 6144,
         "memory_bandwidth_gbs": 2765,
-        "market": "Data center training"
-      }
+        "bf16_tflops": 459,
+        "int8_tops": 918,
+        "interface": "ICI"
+      },
+      "na": [
+        "codename",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "sram_kb",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "google-tpu-v6e",
@@ -113,13 +247,32 @@
       "released": "2024-12",
       "specs": {
         "codename": "Trillium",
-        "bf16_tflops": 918,
-        "int8_tops": 1836,
+        "microarchitecture": "TPU v6e (256x256 MXU)",
+        "market": "Data center",
+        "cores": 1,
+        "tensor_cores": 2,
         "memory_type": "HBM",
         "memory_size_mb": 32768,
+        "memory_bus_bits": 2048,
         "memory_bandwidth_gbs": 1640,
-        "market": "Data center inference / training"
-      }
+        "bf16_tflops": 918,
+        "int8_tops": 1836,
+        "interface": "ICI"
+      },
+      "na": [
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "sram_kb",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "google-tpu-v7",
@@ -128,12 +281,32 @@
       "released": "2025-11",
       "specs": {
         "codename": "Ironwood",
-        "fp8_tflops": 4614,
+        "microarchitecture": "TPU v7 (dual-chiplet)",
+        "market": "Data center",
+        "cores": 2,
         "memory_type": "HBM3E",
         "memory_size_mb": 196608,
+        "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 7370,
-        "market": "Data center inference / training"
-      }
+        "bf16_tflops": 2307,
+        "fp8_tflops": 4614,
+        "interface": "ICI"
+      },
+      "na": [
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "compute_units",
+        "tensor_cores",
+        "sram_kb",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "int8_tops",
+        "tdp_w"
+      ]
     }
   ]
 }

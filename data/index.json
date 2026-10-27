@@ -18,7 +18,7 @@
           "path": "manufacturers/3dfx/gpu.json",
           "category": "gpu",
           "count": 9,
-          "rev": "83d4c31bd925eef4"
+          "rev": "0c5b946328527898"
         }
       ]
     },
@@ -34,7 +34,7 @@
           "path": "manufacturers/3dlabs/gpu.json",
           "category": "gpu",
           "count": 8,
-          "rev": "c2eb1a4bb1b1cc37"
+          "rev": "8530b9b97684f583"
         }
       ]
     },
@@ -186,7 +186,7 @@
           "path": "manufacturers/apple/soc.json",
           "category": "soc",
           "count": 48,
-          "rev": "7fb39bc3a2cd90ba"
+          "rev": "77e62688a19d27b5"
         }
       ]
     },
@@ -386,13 +386,13 @@
           "path": "manufacturers/google/ai.json",
           "category": "ai",
           "count": 9,
-          "rev": "67313b305b48275c"
+          "rev": "15f73811b8da2006"
         },
         {
           "path": "manufacturers/google/soc.json",
           "category": "soc",
           "count": 5,
-          "rev": "48fac7a034b0d12f"
+          "rev": "e06accd6da08bc4e"
         }
       ]
     },
@@ -456,13 +456,13 @@
           "path": "manufacturers/hisilicon/ai.json",
           "category": "ai",
           "count": 3,
-          "rev": "d16eb0636d26eb01"
+          "rev": "b4932fed0c9427c9"
         },
         {
           "path": "manufacturers/hisilicon/soc.json",
           "category": "soc",
           "count": 11,
-          "rev": "980ee959318b5218"
+          "rev": "96561f8479d8b8d8"
         }
       ]
     },
@@ -532,7 +532,7 @@
           "path": "manufacturers/imagination/gpu.json",
           "category": "gpu",
           "count": 6,
-          "rev": "bc36360ad468d315"
+          "rev": "8ac58fd893855f44"
         }
       ]
     },
@@ -636,7 +636,7 @@
           "path": "manufacturers/matrox/gpu.json",
           "category": "gpu",
           "count": 9,
-          "rev": "ae44a8ccfb859d7b"
+          "rev": "36e570ee1cdf7db2"
         }
       ]
     },
@@ -722,7 +722,7 @@
           "path": "manufacturers/moore-threads/gpu.json",
           "category": "gpu",
           "count": 3,
-          "rev": "470abe2ec5419d02"
+          "rev": "aa20dd076e02d9fd"
         }
       ]
     },
@@ -1006,7 +1006,7 @@
           "path": "manufacturers/s3/gpu.json",
           "category": "gpu",
           "count": 14,
-          "rev": "dd6d433031b40b9e"
+          "rev": "e72db81618838ed0"
         }
       ]
     },

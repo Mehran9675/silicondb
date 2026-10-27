@@ -8,14 +8,44 @@
       "family": "MTT S",
       "released": "2022-11",
       "specs": {
+        "codename": "Chunxiao",
         "microarchitecture": "MUSA Chunxiao",
         "market": "Data center",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "transistors": 22000000000,
         "shading_units": 4096,
+        "gpu_clock_mhz": 1900,
+        "graphics_api": [
+          "DirectX 11",
+          "OpenGL 4.1",
+          "Vulkan 1.2",
+          "OpenCL 1.2"
+        ],
         "memory_type": "GDDR6",
         "memory_size_mb": 32768,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
+        "memory_bandwidth_gbs": 448.0,
         "fp32_tflops": 15.2,
+        "tdp_w": 250,
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "compute_units",
+        "tmus",
+        "rops",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "moore-threads-mtt-s80",
@@ -23,23 +53,44 @@
       "family": "MTT S",
       "released": "2022-11",
       "specs": {
+        "codename": "Chunxiao",
         "microarchitecture": "MUSA Chunxiao",
         "market": "Consumer",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "transistors": 22000000000,
         "shading_units": 4096,
         "gpu_clock_mhz": 1800,
         "graphics_api": [
           "DirectX 11",
           "OpenGL 4.1",
-          "Vulkan 1.2"
+          "Vulkan 1.2",
+          "OpenCL 1.2"
         ],
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
         "memory_bus_bits": 256,
+        "memory_clock_mhz": 1750,
         "memory_bandwidth_gbs": 448.0,
         "fp32_tflops": 14.4,
         "tdp_w": 255,
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "compute_units",
+        "tmus",
+        "rops",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "fp64_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "moore-threads-mtt-s4000",
@@ -47,11 +98,15 @@
       "family": "MTT S",
       "released": "2023-12",
       "specs": {
+        "codename": "Quyuan",
         "microarchitecture": "MUSA Quyuan",
         "market": "Data center",
         "shading_units": 8192,
+        "tensor_cores": 128,
         "memory_type": "GDDR6",
         "memory_size_mb": 49152,
+        "memory_bus_bits": 384,
+        "memory_clock_mhz": 2000,
         "memory_bandwidth_gbs": 768.0,
         "fp32_tflops": 25.0,
         "fp16_tflops": 100.0,
@@ -59,7 +114,25 @@
         "int8_tops": 200.0,
         "tdp_w": 450,
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "compute_units",
+        "tmus",
+        "rops",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "graphics_api",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "fp64_tflops"
+      ]
     }
   ]
 }

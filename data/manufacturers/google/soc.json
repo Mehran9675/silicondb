@@ -8,16 +8,36 @@
       "family": "Tensor",
       "released": "2021-10",
       "specs": {
+        "codename": "GS101 (Whitechapel)",
+        "microarchitecture": "Cortex-X1 / Cortex-A76 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "2x Cortex-X1 @ 2.8 GHz + 2x Cortex-A76 @ 2.25 GHz + 4x Cortex-A55 @ 1.8 GHz",
+        "base_clock_mhz": 1800,
         "boost_clock_mhz": 2800,
+        "l2_cache_kb": 3072,
+        "l3_cache_kb": 4096,
+        "slc_kb": 8192,
         "gpu": "Mali-G78 MP20",
+        "gpu_cores": 20,
+        "gpu_clock_mhz": 848,
         "memory_type": "LPDDR5",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "google-tensor-g2",
@@ -25,16 +45,36 @@
       "family": "Tensor",
       "released": "2022-10",
       "specs": {
+        "codename": "GS201",
+        "microarchitecture": "Cortex-X1 / Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
         "process_nm": 5,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "2x Cortex-X1 @ 2.85 GHz + 2x Cortex-A78 @ 2.35 GHz + 4x Cortex-A55 @ 1.8 GHz",
+        "base_clock_mhz": 1800,
         "boost_clock_mhz": 2850,
+        "l2_cache_kb": 3072,
+        "l3_cache_kb": 4096,
+        "slc_kb": 8192,
         "gpu": "Mali-G710 MP7",
+        "gpu_cores": 7,
+        "gpu_clock_mhz": 848,
         "memory_type": "LPDDR5",
-        "isa": "ARMv8.2-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "google-tensor-g3",
@@ -42,16 +82,36 @@
       "family": "Tensor",
       "released": "2023-10",
       "specs": {
+        "codename": "Zuma",
+        "microarchitecture": "Cortex-X3 / Cortex-A715 / Cortex-A510",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "Samsung",
         "cores": 9,
         "core_config": "1x Cortex-X3 @ 2.91 GHz + 4x Cortex-A715 @ 2.37 GHz + 4x Cortex-A510 @ 1.7 GHz",
+        "base_clock_mhz": 1700,
         "boost_clock_mhz": 2910,
         "gpu": "Mali-G715 MC7",
+        "gpu_cores": 7,
+        "gpu_clock_mhz": 890,
         "memory_type": "LPDDR5X",
-        "isa": "ARMv9-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 12288,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.2
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "google-tensor-g4",
@@ -59,16 +119,36 @@
       "family": "Tensor",
       "released": "2024-08",
       "specs": {
+        "codename": "Zuma Pro",
+        "microarchitecture": "Cortex-X4 / Cortex-A720 / Cortex-A520",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 4,
         "foundry": "Samsung",
         "cores": 8,
         "core_config": "1x Cortex-X4 @ 3.1 GHz + 3x Cortex-A720 @ 2.6 GHz + 4x Cortex-A520 @ 1.92 GHz",
+        "base_clock_mhz": 1920,
         "boost_clock_mhz": 3100,
         "gpu": "Mali-G715 MC7",
+        "gpu_cores": 7,
+        "gpu_clock_mhz": 940,
         "memory_type": "LPDDR5X",
-        "isa": "ARMv9.2-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.2
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     },
     {
       "id": "google-tensor-g5",
@@ -76,16 +156,36 @@
       "family": "Tensor",
       "released": "2025-08",
       "specs": {
+        "codename": "Laguna",
+        "microarchitecture": "Cortex-X4 / Cortex-A725 / Cortex-A520",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
         "process_nm": 3,
         "foundry": "TSMC",
         "cores": 8,
         "core_config": "1x Cortex-X4 @ 3.78 GHz + 5x Cortex-A725 @ 3.05 GHz + 2x Cortex-A520 @ 2.25 GHz",
+        "base_clock_mhz": 2250,
         "boost_clock_mhz": 3780,
         "gpu": "PowerVR DXT-48-1536",
+        "gpu_cores": 1,
+        "gpu_clock_mhz": 1100,
         "memory_type": "LPDDR5X",
-        "isa": "ARMv9.2-A",
-        "market": "Mobile"
-      }
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "memory_bandwidth_gbs",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity"
+      ]
     }
   ]
 }
