@@ -82,7 +82,7 @@
           "path": "manufacturers/altera/fpga.json",
           "category": "fpga",
           "count": 26,
-          "rev": "d07f38c66872d4c4"
+          "rev": "058eb4c161659e92"
         }
       ]
     },
@@ -120,7 +120,7 @@
           "path": "manufacturers/amd/ai.json",
           "category": "ai",
           "count": 14,
-          "rev": "da531bf63195aa0e"
+          "rev": "157724573eba5b5f"
         },
         {
           "path": "manufacturers/amd/apu.json",
@@ -138,7 +138,7 @@
           "path": "manufacturers/amd/gpu.json",
           "category": "gpu",
           "count": 32,
-          "rev": "0b05afb908cd7952"
+          "rev": "b7cd9a1e352efb6f"
         }
       ]
     },
@@ -202,7 +202,7 @@
           "path": "manufacturers/ati/gpu.json",
           "category": "gpu",
           "count": 21,
-          "rev": "2f0617aa19a8dac8"
+          "rev": "9701e9314d33f02f"
         }
       ]
     },
@@ -564,7 +564,7 @@
           "path": "manufacturers/intel/ai.json",
           "category": "ai",
           "count": 5,
-          "rev": "08f4853045f45b30"
+          "rev": "ba04394eb7367285"
         },
         {
           "path": "manufacturers/intel/cpu.json",
@@ -576,19 +576,19 @@
           "path": "manufacturers/intel/gpu.json",
           "category": "gpu",
           "count": 11,
-          "rev": "7fd268a8260677e2"
+          "rev": "4605a957a65e0056"
         },
         {
           "path": "manufacturers/intel/mcu.json",
           "category": "mcu",
           "count": 3,
-          "rev": "a77ccc166b296129"
+          "rev": "7e54e86cc966b0b9"
         },
         {
           "path": "manufacturers/intel/soc.json",
           "category": "soc",
           "count": 4,
-          "rev": "bda54abf7836ee73"
+          "rev": "dbac3ae44a583785"
         }
       ]
     },
@@ -1256,7 +1256,7 @@
           "path": "manufacturers/xilinx/fpga.json",
           "category": "fpga",
           "count": 26,
-          "rev": "77d270de5221468b"
+          "rev": "22b0f6c8b94be0cf"
         }
       ]
     },

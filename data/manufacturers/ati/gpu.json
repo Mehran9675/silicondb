@@ -8,9 +8,41 @@
       "family": "Mach",
       "released": "1991",
       "specs": {
+        "codename": "38800",
+        "microarchitecture": "Mach8",
         "market": "Desktop",
+        "graphics_api": [
+          "IBM 8514/A"
+        ],
+        "memory_type": "VRAM",
+        "memory_size_mb": 1,
         "interface": "ISA / MCA"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tmus",
+        "rops",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_bus_bits",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-mach32",
@@ -18,9 +50,42 @@
       "family": "Mach",
       "released": "1992",
       "specs": {
+        "codename": "68800",
+        "microarchitecture": "Mach32",
         "market": "Desktop",
+        "graphics_api": [
+          "IBM 8514/A",
+          "VGA"
+        ],
+        "memory_type": "VRAM / DRAM",
+        "memory_size_mb": 2,
+        "memory_bus_bits": 64,
         "interface": "ISA / EISA / VLB / PCI / MCA"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tmus",
+        "rops",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-mach64",
@@ -28,10 +93,42 @@
       "family": "Mach",
       "released": "1994",
       "specs": {
+        "codename": "88800",
+        "microarchitecture": "Mach64",
         "market": "Desktop",
+        "graphics_api": [
+          "VGA",
+          "VESA VBE"
+        ],
+        "memory_type": "DRAM / VRAM",
+        "memory_size_mb": 4,
         "memory_bus_bits": 64,
         "interface": "ISA / VLB / PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tmus",
+        "rops",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_clock_mhz",
+        "gpu_boost_clock_mhz",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels",
+        "memory_clock_mhz",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-3d-rage",
@@ -40,9 +137,40 @@
       "released": "1996-04",
       "specs": {
         "codename": "Mach64 GT",
+        "microarchitecture": "Rage",
         "market": "Desktop",
+        "process_nm": 500,
+        "tmus": 1,
+        "rops": 1,
+        "gpu_clock_mhz": 40,
+        "graphics_api": [
+          "DirectX 3.0"
+        ],
+        "pixel_rate_gpixels": 0.04,
+        "texture_rate_gtexels": 0.04,
+        "memory_type": "EDO DRAM",
+        "memory_size_mb": 2,
+        "memory_bus_bits": 64,
+        "memory_clock_mhz": 40,
+        "memory_bandwidth_gbs": 0.32,
         "interface": "PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-rage-pro",
@@ -50,10 +178,42 @@
       "family": "Rage",
       "released": "1997",
       "specs": {
+        "codename": "Rage Pro (Mach64 GT-C)",
+        "microarchitecture": "Rage",
         "market": "Desktop",
+        "process_nm": 350,
+        "tmus": 1,
+        "rops": 1,
+        "gpu_clock_mhz": 75,
+        "graphics_api": [
+          "DirectX 6.0",
+          "OpenGL 1.1"
+        ],
+        "pixel_rate_gpixels": 0.075,
+        "texture_rate_gtexels": 0.075,
+        "memory_type": "SGRAM",
+        "memory_size_mb": 4,
         "memory_bus_bits": 64,
+        "memory_clock_mhz": 75,
+        "memory_bandwidth_gbs": 0.6,
         "interface": "AGP / PCI"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-rage-128-gl",
@@ -61,17 +221,42 @@
       "family": "Rage 128",
       "released": "1998-08",
       "specs": {
+        "codename": "Rage 128",
+        "microarchitecture": "Rage 128",
         "market": "Desktop",
         "process_nm": 250,
+        "transistors": 8000000,
         "tmus": 2,
         "rops": 2,
-        "memory_bus_bits": 128,
-        "interface": "AGP 2x / PCI",
+        "gpu_clock_mhz": 103,
         "graphics_api": [
           "DirectX 6.0",
           "OpenGL 1.2"
-        ]
-      }
+        ],
+        "pixel_rate_gpixels": 0.206,
+        "texture_rate_gtexels": 0.206,
+        "memory_type": "SDR / SGRAM",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 103,
+        "memory_bandwidth_gbs": 1.65,
+        "interface": "AGP 2x / PCI"
+      },
+      "na": [
+        "launch_price_usd",
+        "foundry",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-rage-128-pro",
@@ -79,17 +264,42 @@
       "family": "Rage 128",
       "released": "1999-08",
       "specs": {
+        "codename": "Rage 128 Pro",
+        "microarchitecture": "Rage 128",
         "market": "Desktop",
         "process_nm": 250,
+        "transistors": 8000000,
         "tmus": 2,
         "rops": 2,
-        "memory_bus_bits": 128,
-        "interface": "AGP 4x / PCI",
+        "gpu_clock_mhz": 125,
         "graphics_api": [
           "DirectX 6.0",
           "OpenGL 1.2"
-        ]
-      }
+        ],
+        "pixel_rate_gpixels": 0.25,
+        "texture_rate_gtexels": 0.25,
+        "memory_type": "SDR",
+        "memory_size_mb": 32,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 143,
+        "memory_bandwidth_gbs": 2.29,
+        "interface": "AGP 4x / PCI"
+      },
+      "na": [
+        "launch_price_usd",
+        "foundry",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-radeon-ddr",
@@ -98,8 +308,11 @@
       "released": "2000-04",
       "specs": {
         "codename": "R100",
+        "microarchitecture": "R100 (Rage 7)",
         "market": "Desktop",
+        "launch_price_usd": 279,
         "process_nm": 180,
+        "foundry": "TSMC",
         "transistors": 30000000,
         "tmus": 6,
         "rops": 2,
@@ -108,13 +321,28 @@
           "DirectX 7.0",
           "OpenGL 1.3"
         ],
+        "pixel_rate_gpixels": 0.366,
+        "texture_rate_gtexels": 1.098,
         "memory_type": "DDR",
         "memory_size_mb": 32,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 183,
         "memory_bandwidth_gbs": 5.86,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-radeon-8500",
@@ -123,10 +351,13 @@
       "released": "2001-08-14",
       "specs": {
         "codename": "R200",
+        "microarchitecture": "R200",
         "market": "Desktop",
         "launch_price_usd": 299,
         "process_nm": 150,
+        "foundry": "TSMC",
         "transistors": 60000000,
+        "shading_units": 4,
         "tmus": 8,
         "rops": 4,
         "gpu_clock_mhz": 275,
@@ -134,13 +365,27 @@
           "DirectX 8.1",
           "OpenGL 1.4"
         ],
+        "pixel_rate_gpixels": 1.1,
+        "texture_rate_gtexels": 2.2,
         "memory_type": "DDR",
         "memory_size_mb": 64,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 275,
         "memory_bandwidth_gbs": 8.8,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "die_size_mm2",
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-radeon-7500",
@@ -149,8 +394,11 @@
       "released": "2001-08-14",
       "specs": {
         "codename": "RV200",
+        "microarchitecture": "R100 (Rage 7)",
         "market": "Desktop",
         "process_nm": 150,
+        "foundry": "TSMC",
+        "transistors": 30000000,
         "tmus": 6,
         "rops": 2,
         "gpu_clock_mhz": 290,
@@ -158,13 +406,29 @@
           "DirectX 7.0",
           "OpenGL 1.3"
         ],
+        "pixel_rate_gpixels": 0.58,
+        "texture_rate_gtexels": 1.74,
         "memory_type": "DDR",
         "memory_size_mb": 64,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 230,
         "memory_bandwidth_gbs": 7.36,
         "interface": "AGP 4x"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-flipper-gamecube",
@@ -172,16 +436,42 @@
       "family": "Console",
       "released": "2001-09-14",
       "specs": {
+        "codename": "Flipper",
+        "microarchitecture": "Flipper (ArtX)",
         "market": "Console",
         "process_nm": 180,
         "foundry": "NEC",
         "transistors": 51000000,
+        "die_size_mm2": 106,
         "tmus": 4,
         "rops": 4,
         "gpu_clock_mhz": 162,
-        "sram_kb": 3072,
-        "memory_type": "1T-SRAM"
-      }
+        "graphics_api": [
+          "GX"
+        ],
+        "pixel_rate_gpixels": 0.648,
+        "texture_rate_gtexels": 0.648,
+        "memory_type": "1T-SRAM",
+        "memory_size_mb": 24,
+        "memory_bus_bits": 64,
+        "memory_clock_mhz": 324,
+        "memory_bandwidth_gbs": 2.6,
+        "sram_kb": 3072
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w",
+        "interface"
+      ]
     },
     {
       "id": "ati-radeon-9700-pro",
@@ -190,12 +480,14 @@
       "released": "2002-08",
       "specs": {
         "codename": "R300",
+        "microarchitecture": "R300",
         "market": "Desktop",
         "launch_price_usd": 399,
         "process_nm": 150,
         "foundry": "TSMC",
         "transistors": 107000000,
         "die_size_mm2": 215,
+        "shading_units": 8,
         "tmus": 8,
         "rops": 8,
         "gpu_clock_mhz": 325,
@@ -203,13 +495,26 @@
           "DirectX 9.0",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 2.6,
+        "texture_rate_gtexels": 2.6,
         "memory_type": "DDR",
         "memory_size_mb": 128,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 310,
         "memory_bandwidth_gbs": 19.8,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-radeon-9800-pro",
@@ -218,10 +523,14 @@
       "released": "2003-03",
       "specs": {
         "codename": "R350",
+        "microarchitecture": "R300",
         "market": "Desktop",
         "launch_price_usd": 399,
         "process_nm": 150,
         "foundry": "TSMC",
+        "transistors": 107000000,
+        "die_size_mm2": 218,
+        "shading_units": 8,
         "tmus": 8,
         "rops": 8,
         "gpu_clock_mhz": 380,
@@ -229,13 +538,26 @@
           "DirectX 9.0",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 3.04,
+        "texture_rate_gtexels": 3.04,
         "memory_type": "DDR",
         "memory_size_mb": 128,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 340,
         "memory_bandwidth_gbs": 21.8,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-radeon-9600-xt",
@@ -244,10 +566,13 @@
       "released": "2003-10",
       "specs": {
         "codename": "RV360",
+        "microarchitecture": "R300",
         "market": "Desktop",
+        "launch_price_usd": 199,
         "process_nm": 130,
         "foundry": "TSMC",
         "transistors": 75000000,
+        "shading_units": 4,
         "tmus": 4,
         "rops": 4,
         "gpu_clock_mhz": 500,
@@ -255,13 +580,27 @@
           "DirectX 9.0",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 2.0,
+        "texture_rate_gtexels": 2.0,
         "memory_type": "DDR",
         "memory_size_mb": 128,
         "memory_bus_bits": 128,
         "memory_clock_mhz": 300,
         "memory_bandwidth_gbs": 9.6,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "die_size_mm2",
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-radeon-x800-xt-platinum-edition",
@@ -270,12 +609,14 @@
       "released": "2004-05-04",
       "specs": {
         "codename": "R420",
+        "microarchitecture": "R400",
         "market": "Desktop",
         "launch_price_usd": 499,
         "process_nm": 130,
         "foundry": "TSMC",
         "transistors": 160000000,
         "die_size_mm2": 281,
+        "shading_units": 16,
         "tmus": 16,
         "rops": 16,
         "gpu_clock_mhz": 520,
@@ -283,13 +624,26 @@
           "DirectX 9.0b",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 8.32,
+        "texture_rate_gtexels": 8.32,
         "memory_type": "GDDR3",
         "memory_size_mb": 256,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 560,
         "memory_bandwidth_gbs": 35.84,
         "interface": "AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-radeon-x850-xt-platinum-edition",
@@ -298,10 +652,14 @@
       "released": "2004-12-01",
       "specs": {
         "codename": "R480",
+        "microarchitecture": "R400",
         "market": "Desktop",
         "launch_price_usd": 549,
         "process_nm": 130,
         "foundry": "TSMC",
+        "transistors": 160000000,
+        "die_size_mm2": 297,
+        "shading_units": 16,
         "tmus": 16,
         "rops": 16,
         "gpu_clock_mhz": 540,
@@ -309,13 +667,26 @@
           "DirectX 9.0b",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 8.64,
+        "texture_rate_gtexels": 8.64,
         "memory_type": "GDDR3",
         "memory_size_mb": 256,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 590,
         "memory_bandwidth_gbs": 37.76,
         "interface": "PCIe x16"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "ati-radeon-x1800-xt",
@@ -324,12 +695,14 @@
       "released": "2005-10-05",
       "specs": {
         "codename": "R520",
+        "microarchitecture": "R500",
         "market": "Desktop",
         "launch_price_usd": 549,
         "process_nm": 90,
         "foundry": "TSMC",
         "transistors": 321000000,
         "die_size_mm2": 288,
+        "shading_units": 16,
         "tmus": 16,
         "rops": 16,
         "gpu_clock_mhz": 625,
@@ -337,13 +710,26 @@
           "DirectX 9.0c",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 10.0,
+        "texture_rate_gtexels": 10.0,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 750,
         "memory_bandwidth_gbs": 48,
+        "tdp_w": 113,
         "interface": "PCIe x16"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "ati-xenos-xbox-360",
@@ -352,21 +738,41 @@
       "released": "2005-11-22",
       "specs": {
         "codename": "C1",
+        "microarchitecture": "Xenos (unified shader)",
         "market": "Console",
         "process_nm": 90,
         "foundry": "TSMC",
         "transistors": 232000000,
+        "die_size_mm2": 182,
         "shading_units": 48,
         "tmus": 16,
         "rops": 8,
         "gpu_clock_mhz": 500,
-        "sram_kb": 10240,
+        "graphics_api": [
+          "DirectX 9.0c (Xbox 360)"
+        ],
+        "pixel_rate_gpixels": 4.0,
+        "texture_rate_gtexels": 8.0,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 700,
         "memory_bandwidth_gbs": 22.4,
+        "sram_kb": 10240,
         "fp32_tflops": 0.24
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp16_tflops",
+        "tdp_w",
+        "interface"
+      ]
     },
     {
       "id": "ati-radeon-x1900-xtx",
@@ -375,6 +781,7 @@
       "released": "2006-01-24",
       "specs": {
         "codename": "R580",
+        "microarchitecture": "R500",
         "market": "Desktop",
         "launch_price_usd": 649,
         "process_nm": 90,
@@ -389,13 +796,26 @@
           "DirectX 9.0c",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 10.4,
+        "texture_rate_gtexels": 10.4,
         "memory_type": "GDDR3",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 775,
         "memory_bandwidth_gbs": 49.6,
+        "tdp_w": 135,
         "interface": "PCIe x16"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "ati-radeon-x1950-xtx",
@@ -404,11 +824,13 @@
       "released": "2006-08-23",
       "specs": {
         "codename": "R580+",
+        "microarchitecture": "R500",
         "market": "Desktop",
         "launch_price_usd": 449,
         "process_nm": 90,
         "foundry": "TSMC",
         "transistors": 384000000,
+        "die_size_mm2": 352,
         "shading_units": 48,
         "tmus": 16,
         "rops": 16,
@@ -417,13 +839,26 @@
           "DirectX 9.0c",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 10.4,
+        "texture_rate_gtexels": 10.4,
         "memory_type": "GDDR4",
         "memory_size_mb": 512,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 1000,
         "memory_bandwidth_gbs": 64,
+        "tdp_w": 125,
         "interface": "PCIe x16"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     },
     {
       "id": "ati-radeon-x1950-pro",
@@ -432,6 +867,7 @@
       "released": "2006-10-17",
       "specs": {
         "codename": "RV570",
+        "microarchitecture": "R500",
         "market": "Desktop",
         "launch_price_usd": 199,
         "process_nm": 80,
@@ -446,13 +882,26 @@
           "DirectX 9.0c",
           "OpenGL 2.0"
         ],
+        "pixel_rate_gpixels": 6.9,
+        "texture_rate_gtexels": 6.9,
         "memory_type": "GDDR3",
         "memory_size_mb": 256,
         "memory_bus_bits": 256,
         "memory_clock_mhz": 690,
         "memory_bandwidth_gbs": 44.2,
+        "tdp_w": 66,
         "interface": "PCIe x16 / AGP 8x"
-      }
+      },
+      "na": [
+        "l2_cache_kb",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops"
+      ]
     }
   ]
 }

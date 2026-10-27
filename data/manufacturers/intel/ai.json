@@ -8,16 +8,36 @@
       "family": "Gaudi",
       "released": "2019-06",
       "specs": {
+        "codename": "Gaudi",
+        "microarchitecture": "Gaudi (TPC 1.0 + MME)",
+        "market": "Data center",
         "process_nm": 16,
         "foundry": "TSMC",
+        "cores": 8,
+        "compute_units": 8,
+        "tensor_cores": 1,
         "memory_type": "HBM2",
         "memory_size_mb": 32768,
+        "memory_bus_bits": 4096,
         "memory_bandwidth_gbs": 1000,
+        "sram_kb": 24576,
+        "tdp_w": 350,
+        "interface": "OAM",
         "connectivity": [
           "10x 100GbE RoCE v2"
-        ],
-        "interface": "OAM"
-      }
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "intel-nervana-nnp-t-1000",
@@ -26,14 +46,32 @@
       "released": "2019-11-12",
       "specs": {
         "codename": "Spring Crest",
+        "microarchitecture": "Spring Crest (TPC)",
+        "market": "Data center",
         "process_nm": 16,
         "foundry": "TSMC",
         "transistors": 27000000000,
+        "die_size_mm2": 680,
+        "cores": 24,
+        "boost_clock_mhz": 1100,
+        "compute_units": 24,
         "tensor_cores": 24,
         "memory_type": "HBM2",
         "memory_size_mb": 32768,
-        "market": "Training"
-      }
+        "memory_bus_bits": 4096,
+        "memory_bandwidth_gbs": 1228.8,
+        "sram_kb": 61440,
+        "bf16_tflops": 119,
+        "tdp_w": 375,
+        "interface": "PCIe 4.0 x16 (OAM mezzanine / PCIe card)"
+      },
+      "na": [
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "fp8_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "intel-nervana-nnp-i-1000",
@@ -42,11 +80,32 @@
       "released": "2019-11-12",
       "specs": {
         "codename": "Spring Hill",
+        "microarchitecture": "Sunny Cove + ICE",
+        "market": "Data center",
         "process_nm": 10,
         "foundry": "Intel",
         "cores": 2,
-        "market": "Inference"
-      }
+        "compute_units": 12,
+        "tensor_cores": 12,
+        "memory_type": "LPDDR4X",
+        "memory_size_mb": 32768,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 68,
+        "sram_kb": 76800,
+        "int8_tops": 92,
+        "tdp_w": 50,
+        "interface": "PCIe 3.0 x4 (M.2 / EDSFF)"
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops"
+      ]
     },
     {
       "id": "intel-gaudi-2",
@@ -54,18 +113,36 @@
       "family": "Gaudi",
       "released": "2022-05-10",
       "specs": {
+        "codename": "Gaudi2",
+        "microarchitecture": "Gaudi 2 (TPC + MME)",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
+        "cores": 24,
+        "compute_units": 24,
+        "tensor_cores": 2,
         "memory_type": "HBM2e",
         "memory_size_mb": 98304,
+        "memory_bus_bits": 6144,
         "memory_bandwidth_gbs": 2450,
         "sram_kb": 49152,
+        "fp16_tflops": 432,
+        "bf16_tflops": 432,
+        "fp8_tflops": 865,
         "tdp_w": 600,
+        "interface": "OAM",
         "connectivity": [
           "24x 100GbE RoCE v2"
-        ],
-        "interface": "OAM"
-      }
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "int8_tops"
+      ]
     },
     {
       "id": "intel-gaudi-3",
@@ -73,20 +150,36 @@
       "family": "Gaudi",
       "released": "2024-04-09",
       "specs": {
+        "codename": "Gaudi3",
+        "microarchitecture": "Gaudi 3 (TPC + MME)",
+        "market": "Data center",
         "process_nm": 5,
         "foundry": "TSMC",
+        "cores": 64,
+        "compute_units": 64,
+        "tensor_cores": 8,
         "memory_type": "HBM2e",
         "memory_size_mb": 131072,
+        "memory_bus_bits": 8192,
         "memory_bandwidth_gbs": 3700,
         "sram_kb": 98304,
+        "fp32_tflops": 229,
+        "fp16_tflops": 1835,
         "bf16_tflops": 1835,
         "fp8_tflops": 1835,
         "tdp_w": 900,
+        "interface": "OAM",
         "connectivity": [
           "24x 200GbE RoCE v2"
-        ],
-        "interface": "OAM"
-      }
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "fp64_tflops",
+        "int8_tops"
+      ]
     }
   ]
 }

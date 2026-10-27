@@ -8,10 +8,23 @@
       "family": "XC2000",
       "released": "1985-11",
       "specs": {
-        "logic_elements": 64,
+        "market": "Industrial",
+        "process_nm": 2500,
+        "foundry": "Seiko Epson",
+        "package": "68-pin PLCC / 48-pin DIP",
         "core_config": "64 CLBs",
-        "io_pins": 58
-      }
+        "logic_elements": 64,
+        "io_pins": 58,
+        "voltage_v": 5
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "block_ram_kb",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc3090",
@@ -19,10 +32,23 @@
       "family": "XC3000",
       "released": "1987",
       "specs": {
-        "logic_elements": 320,
+        "market": "Industrial",
+        "process_nm": 1200,
+        "foundry": "Seiko Epson",
+        "package": "175-pin PGA",
         "core_config": "320 CLBs",
-        "io_pins": 144
-      }
+        "logic_elements": 320,
+        "io_pins": 144,
+        "voltage_v": 5
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "block_ram_kb",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc4010",
@@ -30,10 +56,23 @@
       "family": "XC4000",
       "released": "1991",
       "specs": {
-        "logic_elements": 950,
+        "market": "Industrial",
+        "process_nm": 800,
+        "foundry": "Seiko Epson",
+        "package": "191-pin PGA",
         "core_config": "400 CLBs",
-        "io_pins": 160
-      }
+        "logic_elements": 950,
+        "io_pins": 160,
+        "voltage_v": 5
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "block_ram_kb",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xcs40",
@@ -41,10 +80,23 @@
       "family": "Spartan",
       "released": "1998-01",
       "specs": {
-        "logic_elements": 1862,
+        "market": "Embedded",
+        "process_nm": 500,
+        "foundry": "UMC",
+        "package": "240-pin PQFP",
         "core_config": "784 CLBs",
-        "io_pins": 205
-      }
+        "logic_elements": 1862,
+        "io_pins": 205,
+        "voltage_v": 5
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "block_ram_kb",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xcv1000",
@@ -52,12 +104,22 @@
       "family": "Virtex",
       "released": "1998-10",
       "specs": {
+        "market": "Professional",
         "process_nm": 220,
+        "foundry": "UMC",
+        "package": "680-pin FineLine BGA",
         "logic_elements": 27648,
         "block_ram_kb": 16,
         "io_pins": 512,
         "voltage_v": 2.5
-      }
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xcv3200e",
@@ -65,12 +127,22 @@
       "family": "Virtex-E",
       "released": "2000",
       "specs": {
+        "market": "Professional",
         "process_nm": 180,
+        "foundry": "UMC",
+        "package": "1156-pin FineLine BGA",
         "logic_elements": 73008,
         "block_ram_kb": 104,
         "io_pins": 804,
         "voltage_v": 1.8
-      }
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc2s200",
@@ -78,12 +150,22 @@
       "family": "Spartan-II",
       "released": "2000-01",
       "specs": {
+        "market": "Embedded",
         "process_nm": 180,
+        "foundry": "UMC",
+        "package": "456-pin FineLine BGA",
         "logic_elements": 5292,
         "block_ram_kb": 7,
         "io_pins": 284,
         "voltage_v": 2.5
-      }
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc2v8000",
@@ -91,11 +173,22 @@
       "family": "Virtex-II",
       "released": "2001",
       "specs": {
+        "market": "Professional",
         "process_nm": 150,
+        "foundry": "UMC",
+        "package": "1517-pin Flip-chip BGA",
         "logic_elements": 104832,
+        "dsp_slices": 168,
         "block_ram_kb": 378,
-        "io_pins": 1108
-      }
+        "io_pins": 1108,
+        "voltage_v": 1.5
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc2vp100",
@@ -103,15 +196,25 @@
       "family": "Virtex-II Pro",
       "released": "2002",
       "specs": {
+        "isa": "PowerPC",
+        "market": "Professional",
         "process_nm": 130,
+        "foundry": "UMC",
+        "package": "1696-pin Flip-chip BGA",
+        "cores": 2,
+        "core_config": "2x PowerPC 405",
         "logic_elements": 99216,
+        "dsp_slices": 444,
         "block_ram_kb": 999,
         "io_pins": 1164,
         "transceivers": 20,
-        "cores": 2,
-        "core_config": "2x PowerPC 405",
-        "isa": "PowerPC"
-      }
+        "transceiver_gbps": 3.125,
+        "hard_processor": "2x PowerPC 405",
+        "voltage_v": 1.5
+      },
+      "na": [
+        "memory_type"
+      ]
     },
     {
       "id": "xilinx-xc3s5000",
@@ -119,11 +222,22 @@
       "family": "Spartan-3",
       "released": "2003",
       "specs": {
+        "market": "Embedded",
         "process_nm": 90,
+        "foundry": "UMC",
+        "package": "1156-pin FineLine BGA",
         "logic_elements": 74880,
+        "dsp_slices": 104,
         "block_ram_kb": 234,
-        "io_pins": 784
-      }
+        "io_pins": 784,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc4vlx200",
@@ -131,12 +245,22 @@
       "family": "Virtex-4",
       "released": "2004",
       "specs": {
+        "market": "Professional",
         "process_nm": 90,
+        "foundry": "UMC",
+        "package": "1513-pin Flip-chip BGA",
         "logic_elements": 200448,
         "dsp_slices": 96,
         "block_ram_kb": 756,
-        "io_pins": 960
-      }
+        "io_pins": 960,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc4vfx140",
@@ -144,16 +268,25 @@
       "family": "Virtex-4",
       "released": "2005",
       "specs": {
+        "isa": "PowerPC",
+        "market": "Professional",
         "process_nm": 90,
+        "foundry": "UMC",
+        "package": "1517-pin Flip-chip BGA",
+        "cores": 2,
+        "core_config": "2x PowerPC 405",
         "logic_elements": 142128,
         "dsp_slices": 192,
         "block_ram_kb": 1242,
         "io_pins": 896,
         "transceivers": 24,
-        "cores": 2,
-        "core_config": "2x PowerPC 405",
-        "isa": "PowerPC"
-      }
+        "transceiver_gbps": 6.5,
+        "hard_processor": "2x PowerPC 405",
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type"
+      ]
     },
     {
       "id": "xilinx-xc5vlx330t",
@@ -161,13 +294,22 @@
       "family": "Virtex-5",
       "released": "2007",
       "specs": {
+        "market": "Professional",
         "process_nm": 65,
+        "foundry": "UMC",
+        "package": "1738-pin Flip-chip BGA",
         "logic_elements": 331776,
         "dsp_slices": 192,
         "block_ram_kb": 1458,
         "io_pins": 960,
-        "transceivers": 24
-      }
+        "transceivers": 24,
+        "transceiver_gbps": 3.75,
+        "voltage_v": 1.0
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc6slx150t",
@@ -175,13 +317,22 @@
       "family": "Spartan-6",
       "released": "2009",
       "specs": {
+        "market": "Embedded",
         "process_nm": 45,
+        "foundry": "Samsung",
+        "package": "900-pin FineLine BGA",
+        "memory_type": "DDR3 / DDR2 / LPDDR (hard MCB)",
         "logic_elements": 147443,
         "dsp_slices": 180,
         "block_ram_kb": 603,
         "io_pins": 540,
-        "transceivers": 8
-      }
+        "transceivers": 8,
+        "transceiver_gbps": 3.2,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc6vlx760",
@@ -189,12 +340,22 @@
       "family": "Virtex-6",
       "released": "2009",
       "specs": {
+        "market": "Professional",
         "process_nm": 40,
+        "foundry": "UMC",
+        "package": "1760-pin Flip-chip BGA",
         "logic_elements": 758784,
         "dsp_slices": 864,
         "block_ram_kb": 3240,
-        "io_pins": 1200
-      }
+        "io_pins": 1200,
+        "voltage_v": 1.0
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc7k325t",
@@ -202,14 +363,22 @@
       "family": "Kintex-7",
       "released": "2011",
       "specs": {
+        "market": "Professional",
         "process_nm": 28,
         "foundry": "TSMC",
+        "package": "900-pin Flip-chip BGA",
         "logic_elements": 326080,
         "dsp_slices": 840,
         "block_ram_kb": 2002.5,
         "io_pins": 500,
-        "transceivers": 16
-      }
+        "transceivers": 16,
+        "transceiver_gbps": 12.5,
+        "voltage_v": 1.0
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc7v2000t",
@@ -217,15 +386,23 @@
       "family": "Virtex-7",
       "released": "2011-10",
       "specs": {
+        "market": "Professional",
         "process_nm": 28,
         "foundry": "TSMC",
         "transistors": 6800000000,
+        "package": "1925-pin Flip-chip BGA",
         "logic_elements": 1954560,
         "dsp_slices": 2160,
         "block_ram_kb": 5814,
         "io_pins": 1200,
-        "transceivers": 36
-      }
+        "transceivers": 36,
+        "transceiver_gbps": 12.5,
+        "voltage_v": 1.0
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xc7z020",
@@ -233,16 +410,26 @@
       "family": "Zynq-7000",
       "released": "2011-12",
       "specs": {
+        "isa": "ARMv7-A",
+        "market": "Embedded",
         "process_nm": 28,
         "foundry": "TSMC",
-        "isa": "ARMv7-A",
+        "package": "484-pin CSP BGA",
         "cores": 2,
         "core_config": "2x Cortex-A9",
         "boost_clock_mhz": 866,
+        "memory_type": "DDR3 / DDR3L / DDR2 / LPDDR2 (PS controller)",
         "logic_elements": 85000,
         "dsp_slices": 220,
-        "block_ram_kb": 630
-      }
+        "block_ram_kb": 630,
+        "io_pins": 200,
+        "hard_processor": "Dual-core Arm Cortex-A9 @ 866 MHz",
+        "voltage_v": 1.0
+      },
+      "na": [
+        "transceivers",
+        "transceiver_gbps"
+      ]
     },
     {
       "id": "xilinx-xc7a200t",
@@ -250,14 +437,22 @@
       "family": "Artix-7",
       "released": "2012",
       "specs": {
+        "market": "Embedded",
         "process_nm": 28,
         "foundry": "TSMC",
+        "package": "676-pin FineLine BGA",
         "logic_elements": 215360,
         "dsp_slices": 740,
         "block_ram_kb": 1642.5,
         "io_pins": 500,
-        "transceivers": 16
-      }
+        "transceivers": 16,
+        "transceiver_gbps": 6.6,
+        "voltage_v": 1.0
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xcku115",
@@ -265,14 +460,22 @@
       "family": "Kintex UltraScale",
       "released": "2014",
       "specs": {
+        "market": "Professional",
         "process_nm": 20,
         "foundry": "TSMC",
+        "package": "2104-pin Flip-chip BGA",
         "logic_elements": 1451100,
         "dsp_slices": 5520,
         "block_ram_kb": 9720,
         "io_pins": 832,
-        "transceivers": 64
-      }
+        "transceivers": 64,
+        "transceiver_gbps": 16.3,
+        "voltage_v": 0.95
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xcvu440",
@@ -280,14 +483,22 @@
       "family": "Virtex UltraScale",
       "released": "2015",
       "specs": {
+        "market": "Professional",
         "process_nm": 20,
         "foundry": "TSMC",
+        "package": "2892-pin Flip-chip BGA",
         "logic_elements": 5540850,
         "dsp_slices": 2880,
         "block_ram_kb": 11340,
         "io_pins": 1456,
-        "transceivers": 48
-      }
+        "transceivers": 48,
+        "transceiver_gbps": 16.3,
+        "voltage_v": 0.95
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xcvu9p",
@@ -295,14 +506,22 @@
       "family": "Virtex UltraScale+",
       "released": "2016",
       "specs": {
+        "market": "Data center",
         "process_nm": 16,
         "foundry": "TSMC",
+        "package": "2104-pin Flip-chip BGA",
         "logic_elements": 2586150,
         "dsp_slices": 6840,
         "block_ram_kb": 9720,
         "io_pins": 832,
-        "transceivers": 120
-      }
+        "transceivers": 120,
+        "transceiver_gbps": 32.75,
+        "voltage_v": 0.85
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xczu9eg",
@@ -310,16 +529,24 @@
       "family": "Zynq UltraScale+ MPSoC",
       "released": "2016",
       "specs": {
+        "isa": "ARMv8-A",
+        "market": "Embedded",
         "process_nm": 16,
         "foundry": "TSMC",
-        "isa": "ARMv8-A",
+        "package": "1156-pin Flip-chip BGA",
         "cores": 4,
         "core_config": "4x Cortex-A53 + 2x Cortex-R5F",
         "boost_clock_mhz": 1500,
         "gpu": "Mali-400 MP2",
+        "memory_type": "DDR4 / LPDDR4 / DDR3 / LPDDR3 (PS controller)",
         "logic_elements": 599550,
         "dsp_slices": 2520,
-        "block_ram_kb": 4104
+        "block_ram_kb": 4104,
+        "io_pins": 328,
+        "transceivers": 24,
+        "transceiver_gbps": 16.3,
+        "hard_processor": "Quad-core Arm Cortex-A53 + dual Cortex-R5F + Mali-400 MP2",
+        "voltage_v": 0.85
       }
     },
     {
@@ -328,13 +555,22 @@
       "family": "Spartan-7",
       "released": "2017",
       "specs": {
+        "market": "Embedded",
         "process_nm": 28,
         "foundry": "TSMC",
+        "package": "676-pin FineLine BGA",
         "logic_elements": 102400,
         "dsp_slices": 160,
         "block_ram_kb": 540,
-        "io_pins": 400
-      }
+        "io_pins": 400,
+        "voltage_v": 1.0
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "xilinx-xcvc1902",
@@ -342,15 +578,24 @@
       "family": "Versal AI Core",
       "released": "2019-06",
       "specs": {
+        "isa": "ARMv8-A",
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "TSMC",
         "transistors": 37000000000,
-        "isa": "ARMv8-A",
+        "package": "2197-pin Flip-chip BGA",
         "cores": 2,
         "core_config": "2x Cortex-A72 + 2x Cortex-R5F + 400 AI Engines",
+        "memory_type": "DDR4 / LPDDR4 (hard controller)",
+        "int8_tops": 133,
         "logic_elements": 1968400,
         "dsp_slices": 1968,
-        "int8_tops": 133
+        "block_ram_kb": 4351.5,
+        "io_pins": 770,
+        "transceivers": 44,
+        "transceiver_gbps": 32.75,
+        "hard_processor": "Dual Cortex-A72 + dual Cortex-R5F + 400 AI Engines",
+        "voltage_v": 0.8
       }
     },
     {
@@ -359,14 +604,23 @@
       "family": "Virtex UltraScale+",
       "released": "2019-08",
       "specs": {
+        "market": "Professional",
         "process_nm": 16,
         "foundry": "TSMC",
         "transistors": 35000000000,
+        "package": "3824-pin Flip-chip BGA",
         "logic_elements": 8938000,
         "dsp_slices": 3840,
+        "block_ram_kb": 9720,
         "io_pins": 2072,
-        "transceivers": 80
-      }
+        "transceivers": 80,
+        "transceiver_gbps": 28.21,
+        "voltage_v": 0.85
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     }
   ]
 }

@@ -8,8 +8,22 @@
       "family": "FLEX 8000",
       "released": "1992",
       "specs": {
-        "logic_elements": 1296
-      }
+        "market": "Embedded",
+        "process_nm": 800,
+        "foundry": "Sharp",
+        "package": "304-pin RQFP",
+        "logic_elements": 1296,
+        "io_pins": 208,
+        "voltage_v": 5
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "block_ram_kb",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-epf10k100",
@@ -17,9 +31,22 @@
       "family": "FLEX 10K",
       "released": "1995",
       "specs": {
+        "market": "Professional",
+        "process_nm": 500,
+        "foundry": "TSMC",
+        "package": "503-pin PGA",
         "logic_elements": 4992,
-        "block_ram_kb": 3
-      }
+        "block_ram_kb": 3,
+        "io_pins": 406,
+        "voltage_v": 5
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep20k1500e",
@@ -27,10 +54,22 @@
       "family": "APEX 20KE",
       "released": "1999",
       "specs": {
+        "market": "Professional",
         "process_nm": 180,
+        "foundry": "TSMC",
+        "package": "652-pin BGA / 1020-pin FineLine BGA",
         "logic_elements": 51840,
-        "block_ram_kb": 54
-      }
+        "block_ram_kb": 54,
+        "io_pins": 808,
+        "voltage_v": 1.8
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep1s80",
@@ -38,12 +77,22 @@
       "family": "Stratix",
       "released": "2002",
       "specs": {
+        "market": "Professional",
         "process_nm": 130,
+        "foundry": "TSMC",
+        "package": "1508-pin FineLine BGA",
         "logic_elements": 79040,
         "dsp_slices": 22,
         "block_ram_kb": 906,
-        "io_pins": 1238
-      }
+        "io_pins": 1238,
+        "voltage_v": 1.5
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep1c20",
@@ -51,11 +100,22 @@
       "family": "Cyclone",
       "released": "2002",
       "specs": {
+        "market": "Embedded",
         "process_nm": 130,
+        "foundry": "TSMC",
+        "package": "400-pin FineLine BGA",
         "logic_elements": 20060,
         "block_ram_kb": 36,
-        "io_pins": 301
-      }
+        "io_pins": 301,
+        "voltage_v": 1.5
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep2s180",
@@ -63,12 +123,22 @@
       "family": "Stratix II",
       "released": "2004",
       "specs": {
+        "market": "Professional",
         "process_nm": 90,
+        "foundry": "TSMC",
+        "package": "1508-pin FineLine BGA",
         "logic_elements": 179400,
         "dsp_slices": 96,
         "block_ram_kb": 1145,
-        "io_pins": 1170
-      }
+        "io_pins": 1170,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep2c70",
@@ -76,11 +146,22 @@
       "family": "Cyclone II",
       "released": "2004",
       "specs": {
+        "market": "Embedded",
         "process_nm": 90,
+        "foundry": "TSMC",
+        "package": "896-pin FineLine BGA",
         "logic_elements": 68416,
-        "block_ram_kb": 140,
-        "io_pins": 622
-      }
+        "dsp_slices": 150,
+        "block_ram_kb": 140.625,
+        "io_pins": 622,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-max-ii-epm2210",
@@ -88,9 +169,22 @@
       "family": "MAX II",
       "released": "2004",
       "specs": {
+        "market": "Embedded",
         "process_nm": 180,
-        "logic_elements": 2210
-      }
+        "foundry": "TSMC",
+        "package": "324-pin FineLine BGA",
+        "logic_elements": 2210,
+        "io_pins": 272,
+        "voltage_v": 3.3
+      },
+      "na": [
+        "memory_type",
+        "dsp_slices",
+        "block_ram_kb",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep3sl340",
@@ -98,9 +192,22 @@
       "family": "Stratix III",
       "released": "2006",
       "specs": {
+        "market": "Professional",
         "process_nm": 65,
-        "logic_elements": 337500
-      }
+        "foundry": "TSMC",
+        "package": "1760-pin FineLine BGA",
+        "logic_elements": 337500,
+        "dsp_slices": 72,
+        "block_ram_kb": 2034,
+        "io_pins": 1104,
+        "voltage_v": 1.1
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep3c120",
@@ -108,11 +215,22 @@
       "family": "Cyclone III",
       "released": "2007",
       "specs": {
+        "market": "Embedded",
         "process_nm": 65,
+        "foundry": "TSMC",
+        "package": "780-pin FineLine BGA",
         "logic_elements": 119088,
+        "dsp_slices": 288,
         "block_ram_kb": 486,
-        "io_pins": 531
-      }
+        "io_pins": 531,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep1agx90",
@@ -120,9 +238,22 @@
       "family": "Arria GX",
       "released": "2007",
       "specs": {
+        "market": "Professional",
         "process_nm": 90,
-        "logic_elements": 90220
-      }
+        "foundry": "TSMC",
+        "package": "1152-pin FineLine BGA",
+        "logic_elements": 90220,
+        "dsp_slices": 176,
+        "block_ram_kb": 546.6,
+        "io_pins": 478,
+        "transceivers": 12,
+        "transceiver_gbps": 3.125,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep4se820",
@@ -130,10 +261,22 @@
       "family": "Stratix IV",
       "released": "2008",
       "specs": {
+        "market": "Professional",
         "process_nm": 40,
         "foundry": "TSMC",
-        "logic_elements": 813050
-      }
+        "package": "1760-pin FineLine BGA",
+        "logic_elements": 813050,
+        "dsp_slices": 960,
+        "block_ram_kb": 4161.75,
+        "io_pins": 1104,
+        "voltage_v": 0.9
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep4ce115",
@@ -141,12 +284,22 @@
       "family": "Cyclone IV E",
       "released": "2009",
       "specs": {
+        "market": "Embedded",
         "process_nm": 60,
         "foundry": "TSMC",
+        "package": "780-pin FineLine BGA",
         "logic_elements": 114480,
+        "dsp_slices": 266,
         "block_ram_kb": 486,
-        "io_pins": 528
-      }
+        "io_pins": 528,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-ep2agx260",
@@ -154,10 +307,22 @@
       "family": "Arria II GX",
       "released": "2009",
       "specs": {
+        "market": "Professional",
         "process_nm": 40,
         "foundry": "TSMC",
-        "logic_elements": 256500
-      }
+        "package": "1152-pin FineLine BGA",
+        "logic_elements": 256500,
+        "dsp_slices": 736,
+        "block_ram_kb": 1469.5,
+        "io_pins": 612,
+        "transceivers": 16,
+        "transceiver_gbps": 6.375,
+        "voltage_v": 0.9
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-5sgxab",
@@ -165,10 +330,22 @@
       "family": "Stratix V",
       "released": "2010",
       "specs": {
+        "market": "Professional",
         "process_nm": 28,
         "foundry": "TSMC",
-        "logic_elements": 952000
-      }
+        "package": "1517-pin FineLine BGA",
+        "logic_elements": 952000,
+        "dsp_slices": 352,
+        "block_ram_kb": 6600,
+        "io_pins": 840,
+        "transceivers": 48,
+        "transceiver_gbps": 14.1,
+        "voltage_v": 0.85
+      },
+      "na": [
+        "memory_type",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-5csema5",
@@ -176,14 +353,24 @@
       "family": "Cyclone V SoC",
       "released": "2011",
       "specs": {
+        "microarchitecture": "Arm Cortex-A9 (HPS)",
+        "market": "Embedded",
         "process_nm": 28,
         "foundry": "TSMC",
+        "package": "896-pin FineLine BGA",
+        "cores": 2,
+        "memory_type": "DDR3 / DDR2 / LPDDR2 (hard controller)",
         "logic_elements": 85000,
         "dsp_slices": 87,
         "block_ram_kb": 556,
-        "cores": 2,
-        "microarchitecture": "Arm Cortex-A9 (HPS)"
-      }
+        "io_pins": 288,
+        "hard_processor": "Dual-core Arm Cortex-A9 @ 925 MHz",
+        "voltage_v": 1.1
+      },
+      "na": [
+        "transceivers",
+        "transceiver_gbps"
+      ]
     },
     {
       "id": "altera-10m50",
@@ -191,11 +378,22 @@
       "family": "MAX 10",
       "released": "2014",
       "specs": {
+        "market": "Embedded",
         "process_nm": 55,
         "foundry": "TSMC",
+        "package": "484-pin FineLine BGA",
         "logic_elements": 50000,
-        "block_ram_kb": 204
-      }
+        "dsp_slices": 144,
+        "block_ram_kb": 204,
+        "io_pins": 360,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-10ax115",
@@ -203,13 +401,22 @@
       "family": "Arria 10 GX",
       "released": "2014",
       "specs": {
+        "market": "Professional",
         "process_nm": 20,
         "foundry": "TSMC",
+        "package": "1932-pin FineLine BGA",
+        "memory_type": "DDR4 / DDR3 / LPDDR3 / QDR IV (hard controller)",
         "logic_elements": 1150000,
         "dsp_slices": 1518,
         "block_ram_kb": 6782,
-        "transceivers": 96
-      }
+        "io_pins": 768,
+        "transceivers": 96,
+        "transceiver_gbps": 17.4,
+        "voltage_v": 0.9
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-1sg280",
@@ -217,12 +424,22 @@
       "family": "Stratix 10 GX",
       "released": "2016",
       "specs": {
+        "market": "Professional",
         "process_nm": 14,
         "foundry": "Intel",
+        "package": "2912-pin FineLine BGA",
+        "memory_type": "DDR4 / DDR3 / QDR IV (hard controller)",
         "logic_elements": 2753000,
         "dsp_slices": 5760,
-        "transceivers": 96
-      }
+        "block_ram_kb": 29312,
+        "io_pins": 1160,
+        "transceivers": 96,
+        "transceiver_gbps": 28.3,
+        "voltage_v": 0.9
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-10cx220",
@@ -230,12 +447,22 @@
       "family": "Cyclone 10 GX",
       "released": "2017",
       "specs": {
+        "market": "Embedded",
         "process_nm": 20,
         "foundry": "TSMC",
+        "package": "780-pin FineLine BGA",
+        "memory_type": "DDR3 / DDR3L / LPDDR3 (hard controller)",
         "logic_elements": 220000,
         "dsp_slices": 192,
-        "transceivers": 12
-      }
+        "block_ram_kb": 1467.5,
+        "io_pins": 284,
+        "transceivers": 12,
+        "transceiver_gbps": 12.5,
+        "voltage_v": 0.9
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-10cl120",
@@ -243,10 +470,22 @@
       "family": "Cyclone 10 LP",
       "released": "2017",
       "specs": {
+        "market": "Embedded",
         "process_nm": 60,
         "foundry": "TSMC",
-        "logic_elements": 120000
-      }
+        "package": "780-pin FineLine BGA",
+        "logic_elements": 119088,
+        "dsp_slices": 288,
+        "block_ram_kb": 486,
+        "io_pins": 525,
+        "voltage_v": 1.2
+      },
+      "na": [
+        "memory_type",
+        "transceivers",
+        "transceiver_gbps",
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-agilex-7-f",
@@ -254,8 +493,19 @@
       "family": "Agilex 7",
       "released": "2019",
       "specs": {
+        "market": "Professional",
         "process_nm": 10,
-        "foundry": "Intel"
+        "foundry": "Intel",
+        "package": "2957-pin FBGA",
+        "memory_type": "DDR4 / QDR IV (hard controller)",
+        "logic_elements": 2692760,
+        "dsp_slices": 8528,
+        "block_ram_kb": 33152,
+        "io_pins": 720,
+        "transceivers": 96,
+        "transceiver_gbps": 58,
+        "hard_processor": "Quad-core Arm Cortex-A53 (SoC variants)",
+        "voltage_v": 0.8
       }
     },
     {
@@ -264,10 +514,22 @@
       "family": "Stratix 10 GX",
       "released": "2019-11",
       "specs": {
+        "market": "Professional",
         "process_nm": 14,
         "foundry": "Intel",
-        "logic_elements": 10200000
-      }
+        "package": "4938-pin FBGA",
+        "memory_type": "DDR4 / DDR3 (hard controller)",
+        "logic_elements": 10200000,
+        "dsp_slices": 6912,
+        "block_ram_kb": 32384,
+        "io_pins": 2304,
+        "transceivers": 48,
+        "transceiver_gbps": 17.4,
+        "voltage_v": 0.9
+      },
+      "na": [
+        "hard_processor"
+      ]
     },
     {
       "id": "altera-agilex-7-m",
@@ -275,9 +537,19 @@
       "family": "Agilex 7",
       "released": "2022",
       "specs": {
+        "market": "Data center",
         "process_nm": 7,
         "foundry": "Intel",
-        "memory_type": "HBM2e"
+        "package": "4072-pin FBGA",
+        "memory_type": "HBM2e (32 GB in-package) / DDR5 / LPDDR5",
+        "logic_elements": 3851520,
+        "dsp_slices": 12300,
+        "block_ram_kb": 46080,
+        "io_pins": 744,
+        "transceivers": 72,
+        "transceiver_gbps": 116,
+        "hard_processor": "Quad-core Arm Cortex-A53",
+        "voltage_v": 0.8
       }
     },
     {
@@ -286,9 +558,20 @@
       "family": "Agilex 5",
       "released": "2024",
       "specs": {
+        "microarchitecture": "Arm Cortex-A76 + Cortex-A55 (HPS)",
+        "market": "Embedded",
         "process_nm": 7,
         "foundry": "Intel",
-        "microarchitecture": "Arm Cortex-A76 + Cortex-A55 (HPS)"
+        "package": "2397-pin FBGA",
+        "memory_type": "DDR5 / DDR4 / LPDDR5 / LPDDR4 (hard controller)",
+        "logic_elements": 656080,
+        "dsp_slices": 1840,
+        "block_ram_kb": 5560,
+        "io_pins": 512,
+        "transceivers": 24,
+        "transceiver_gbps": 17.16,
+        "hard_processor": "Dual Cortex-A76 + dual Cortex-A55",
+        "voltage_v": 0.8
       }
     },
     {
@@ -297,8 +580,19 @@
       "family": "Agilex 3",
       "released": "2025",
       "specs": {
+        "market": "Embedded",
         "process_nm": 7,
-        "foundry": "Intel"
+        "foundry": "Intel",
+        "package": "484-pin VPBGA",
+        "memory_type": "LPDDR4 / LPDDR4X / DDR4 (hard controller)",
+        "logic_elements": 135000,
+        "dsp_slices": 184,
+        "block_ram_kb": 1280,
+        "io_pins": 380,
+        "transceivers": 4,
+        "transceiver_gbps": 12.5,
+        "hard_processor": "Dual Cortex-A55",
+        "voltage_v": 0.8
       }
     }
   ]

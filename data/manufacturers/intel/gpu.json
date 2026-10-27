@@ -9,16 +9,41 @@
       "released": "1998-02",
       "specs": {
         "codename": "Auburn",
+        "microarchitecture": "Intel740",
+        "market": "Desktop",
         "process_nm": 350,
+        "foundry": "Intel",
+        "transistors": 3500000,
+        "tmus": 1,
+        "rops": 1,
         "gpu_clock_mhz": 66,
-        "memory_type": "SDRAM",
-        "memory_clock_mhz": 100,
-        "interface": "AGP 2x",
         "graphics_api": [
-          "Direct3D 5",
-          "OpenGL"
-        ]
-      }
+          "DirectX 6.0",
+          "OpenGL 1.1"
+        ],
+        "pixel_rate_gpixels": 0.066,
+        "texture_rate_gtexels": 0.066,
+        "memory_type": "SDRAM",
+        "memory_size_mb": 8,
+        "memory_bus_bits": 64,
+        "memory_clock_mhz": 100,
+        "memory_bandwidth_gbs": 0.8,
+        "interface": "AGP 2x"
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "shading_units",
+        "compute_units",
+        "tensor_cores",
+        "rt_cores",
+        "gpu_boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "tdp_w"
+      ]
     },
     {
       "id": "intel-iris-xe-max",
@@ -28,17 +53,41 @@
       "specs": {
         "codename": "DG1",
         "microarchitecture": "Xe-LP",
+        "market": "Laptop",
         "process_nm": 10,
         "foundry": "Intel",
-        "compute_units": 96,
+        "die_size_mm2": 95,
+        "l2_cache_kb": 16384,
         "shading_units": 768,
+        "compute_units": 96,
+        "tmus": 48,
+        "rops": 24,
+        "gpu_clock_mhz": 300,
         "gpu_boost_clock_mhz": 1650,
+        "graphics_api": [
+          "DirectX 12",
+          "Vulkan 1.3",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 39.6,
+        "texture_rate_gtexels": 79.2,
         "memory_type": "LPDDR4X",
         "memory_size_mb": 4096,
         "memory_bus_bits": 128,
+        "memory_clock_mhz": 2133,
+        "memory_bandwidth_gbs": 68.3,
+        "fp32_tflops": 2.534,
+        "fp16_tflops": 5.069,
         "tdp_w": 25,
-        "market": "Mobile"
-      }
+        "interface": "PCIe 4.0 x4"
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "tensor_cores",
+        "rt_cores",
+        "fp64_tflops"
+      ]
     },
     {
       "id": "intel-arc-a380",
@@ -48,30 +97,42 @@
       "specs": {
         "codename": "Alchemist ACM-G11",
         "microarchitecture": "Xe-HPG",
+        "market": "Desktop",
+        "launch_price_usd": 139,
         "process_nm": 6,
         "foundry": "TSMC",
         "transistors": 7200000000,
         "die_size_mm2": 157,
+        "l2_cache_kb": 6144,
         "gpu_cores": 8,
         "shading_units": 1024,
+        "compute_units": 8,
         "tmus": 64,
         "rops": 32,
-        "rt_cores": 8,
         "tensor_cores": 128,
+        "rt_cores": 8,
         "gpu_clock_mhz": 2000,
-        "memory_type": "GDDR6",
-        "memory_size_mb": 6144,
-        "memory_bus_bits": 96,
-        "memory_bandwidth_gbs": 186,
-        "tdp_w": 75,
-        "launch_price_usd": 139,
-        "interface": "PCIe 4.0 x8",
+        "gpu_boost_clock_mhz": 2050,
         "graphics_api": [
           "DirectX 12 Ultimate",
           "Vulkan 1.3",
           "OpenGL 4.6"
-        ]
-      }
+        ],
+        "pixel_rate_gpixels": 65.6,
+        "texture_rate_gtexels": 131.2,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 6144,
+        "memory_bus_bits": 96,
+        "memory_clock_mhz": 1937,
+        "memory_bandwidth_gbs": 186,
+        "fp32_tflops": 4.198,
+        "fp16_tflops": 8.397,
+        "tdp_w": 75,
+        "interface": "PCIe 4.0 x8"
+      },
+      "na": [
+        "fp64_tflops"
+      ]
     },
     {
       "id": "intel-data-center-gpu-flex-170",
@@ -81,17 +142,42 @@
       "specs": {
         "codename": "Arctic Sound-M",
         "microarchitecture": "Xe-HPG",
+        "market": "Data center",
         "process_nm": 6,
         "foundry": "TSMC",
+        "transistors": 21700000000,
+        "die_size_mm2": 406,
+        "l2_cache_kb": 16384,
         "gpu_cores": 32,
         "shading_units": 4096,
+        "compute_units": 32,
+        "tmus": 256,
+        "rops": 128,
+        "tensor_cores": 512,
         "rt_cores": 32,
+        "gpu_clock_mhz": 1650,
+        "gpu_boost_clock_mhz": 2050,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan 1.3",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 262.4,
+        "texture_rate_gtexels": 524.8,
         "memory_type": "GDDR6",
         "memory_size_mb": 16384,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 2000,
+        "memory_bandwidth_gbs": 512,
+        "fp32_tflops": 16.79,
+        "fp16_tflops": 33.59,
         "tdp_w": 150,
-        "market": "Data center",
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "fp64_tflops"
+      ]
     },
     {
       "id": "intel-arc-a750",
@@ -101,30 +187,42 @@
       "specs": {
         "codename": "Alchemist ACM-G10",
         "microarchitecture": "Xe-HPG",
+        "market": "Desktop",
+        "launch_price_usd": 289,
         "process_nm": 6,
         "foundry": "TSMC",
         "transistors": 21700000000,
         "die_size_mm2": 406,
+        "l2_cache_kb": 16384,
         "gpu_cores": 28,
         "shading_units": 3584,
+        "compute_units": 28,
         "tmus": 224,
         "rops": 112,
-        "rt_cores": 28,
         "tensor_cores": 448,
+        "rt_cores": 28,
         "gpu_clock_mhz": 2050,
-        "memory_type": "GDDR6",
-        "memory_size_mb": 8192,
-        "memory_bus_bits": 256,
-        "memory_bandwidth_gbs": 512,
-        "tdp_w": 225,
-        "launch_price_usd": 289,
-        "interface": "PCIe 4.0 x16",
+        "gpu_boost_clock_mhz": 2400,
         "graphics_api": [
           "DirectX 12 Ultimate",
           "Vulkan 1.3",
           "OpenGL 4.6"
-        ]
-      }
+        ],
+        "pixel_rate_gpixels": 268.8,
+        "texture_rate_gtexels": 537.6,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 8192,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 2000,
+        "memory_bandwidth_gbs": 512,
+        "fp32_tflops": 17.2,
+        "fp16_tflops": 34.41,
+        "tdp_w": 225,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "fp64_tflops"
+      ]
     },
     {
       "id": "intel-arc-a770",
@@ -134,31 +232,42 @@
       "specs": {
         "codename": "Alchemist ACM-G10",
         "microarchitecture": "Xe-HPG",
+        "market": "Desktop",
+        "launch_price_usd": 349,
         "process_nm": 6,
         "foundry": "TSMC",
         "transistors": 21700000000,
         "die_size_mm2": 406,
+        "l2_cache_kb": 16384,
         "gpu_cores": 32,
         "shading_units": 4096,
+        "compute_units": 32,
         "tmus": 256,
         "rops": 128,
-        "rt_cores": 32,
         "tensor_cores": 512,
+        "rt_cores": 32,
         "gpu_clock_mhz": 2100,
-        "memory_type": "GDDR6",
-        "memory_size_mb": 16384,
-        "memory_bus_bits": 256,
-        "memory_bandwidth_gbs": 560,
-        "fp32_tflops": 17.2,
-        "tdp_w": 225,
-        "launch_price_usd": 349,
-        "interface": "PCIe 4.0 x16",
+        "gpu_boost_clock_mhz": 2400,
         "graphics_api": [
           "DirectX 12 Ultimate",
           "Vulkan 1.3",
           "OpenGL 4.6"
-        ]
-      }
+        ],
+        "pixel_rate_gpixels": 307.2,
+        "texture_rate_gtexels": 614.4,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 16384,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 2187,
+        "memory_bandwidth_gbs": 560,
+        "fp32_tflops": 19.66,
+        "fp16_tflops": 39.32,
+        "tdp_w": 225,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "fp64_tflops"
+      ]
     },
     {
       "id": "intel-data-center-gpu-max-1100",
@@ -168,15 +277,40 @@
       "specs": {
         "codename": "Ponte Vecchio",
         "microarchitecture": "Xe-HPC",
+        "market": "Data center",
+        "process_nm": 5,
+        "foundry": "TSMC / Intel",
+        "l2_cache_kb": 110592,
         "gpu_cores": 56,
+        "shading_units": 7168,
+        "compute_units": 56,
+        "tensor_cores": 448,
+        "rt_cores": 56,
+        "gpu_boost_clock_mhz": 1550,
         "memory_type": "HBM2e",
         "memory_size_mb": 49152,
+        "memory_bus_bits": 4096,
+        "memory_clock_mhz": 1200,
         "memory_bandwidth_gbs": 1228.8,
         "fp64_tflops": 22.2,
+        "fp32_tflops": 22.2,
+        "fp16_tflops": 355.0,
+        "bf16_tflops": 355.0,
+        "int8_tops": 710.0,
         "tdp_w": 300,
-        "market": "Data center",
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "tmus",
+        "rops",
+        "gpu_clock_mhz",
+        "graphics_api",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels"
+      ]
     },
     {
       "id": "intel-data-center-gpu-max-1550",
@@ -186,18 +320,40 @@
       "specs": {
         "codename": "Ponte Vecchio",
         "microarchitecture": "Xe-HPC",
+        "market": "Data center",
+        "process_nm": 5,
+        "foundry": "TSMC / Intel",
+        "transistors": 100000000000,
+        "l2_cache_kb": 417792,
         "gpu_cores": 128,
         "shading_units": 16384,
+        "compute_units": 128,
+        "tensor_cores": 1024,
         "rt_cores": 128,
         "gpu_boost_clock_mhz": 1600,
         "memory_type": "HBM2e",
         "memory_size_mb": 131072,
+        "memory_bus_bits": 8192,
+        "memory_clock_mhz": 1600,
         "memory_bandwidth_gbs": 3276.8,
         "fp64_tflops": 52.4,
+        "fp32_tflops": 52.4,
+        "fp16_tflops": 838.9,
+        "bf16_tflops": 838.9,
+        "int8_tops": 1677.7,
         "tdp_w": 600,
-        "market": "Data center",
         "interface": "OAM"
-      }
+      },
+      "na": [
+        "launch_price_usd",
+        "die_size_mm2",
+        "tmus",
+        "rops",
+        "gpu_clock_mhz",
+        "graphics_api",
+        "pixel_rate_gpixels",
+        "texture_rate_gtexels"
+      ]
     },
     {
       "id": "intel-arc-b580",
@@ -207,46 +363,42 @@
       "specs": {
         "codename": "Battlemage BMG-G21",
         "microarchitecture": "Xe2-HPG",
+        "market": "Desktop",
+        "launch_price_usd": 249,
         "process_nm": 5,
         "foundry": "TSMC",
         "transistors": 19600000000,
         "die_size_mm2": 272,
+        "l2_cache_kb": 18432,
         "gpu_cores": 20,
         "shading_units": 2560,
-        "rt_cores": 20,
+        "compute_units": 20,
+        "tmus": 160,
+        "rops": 80,
         "tensor_cores": 160,
+        "rt_cores": 20,
         "gpu_clock_mhz": 2670,
-        "memory_type": "GDDR6",
-        "memory_size_mb": 12288,
-        "memory_bus_bits": 192,
-        "memory_bandwidth_gbs": 456,
-        "tdp_w": 190,
-        "launch_price_usd": 249,
-        "interface": "PCIe 4.0 x8",
+        "gpu_boost_clock_mhz": 2850,
         "graphics_api": [
           "DirectX 12 Ultimate",
           "Vulkan 1.3",
           "OpenGL 4.6"
-        ]
-      }
-    },
-    {
-      "id": "intel-arc-pro-b60",
-      "name": "Arc Pro B60",
-      "family": "Arc Pro B",
-      "released": "2025",
-      "specs": {
-        "codename": "Battlemage BMG-G21",
-        "microarchitecture": "Xe2-HPG",
-        "process_nm": 5,
-        "foundry": "TSMC",
-        "gpu_cores": 20,
-        "shading_units": 2560,
+        ],
+        "pixel_rate_gpixels": 228.0,
+        "texture_rate_gtexels": 456.0,
         "memory_type": "GDDR6",
-        "memory_size_mb": 24576,
+        "memory_size_mb": 12288,
         "memory_bus_bits": 192,
-        "market": "Workstation"
-      }
+        "memory_clock_mhz": 2375,
+        "memory_bandwidth_gbs": 456,
+        "fp32_tflops": 14.59,
+        "fp16_tflops": 29.18,
+        "tdp_w": 190,
+        "interface": "PCIe 4.0 x8"
+      },
+      "na": [
+        "fp64_tflops"
+      ]
     },
     {
       "id": "intel-arc-b570",
@@ -256,26 +408,88 @@
       "specs": {
         "codename": "Battlemage BMG-G21",
         "microarchitecture": "Xe2-HPG",
+        "market": "Desktop",
+        "launch_price_usd": 219,
         "process_nm": 5,
         "foundry": "TSMC",
+        "transistors": 19600000000,
+        "die_size_mm2": 272,
+        "l2_cache_kb": 18432,
         "gpu_cores": 18,
         "shading_units": 2304,
-        "rt_cores": 18,
+        "compute_units": 18,
+        "tmus": 144,
+        "rops": 80,
         "tensor_cores": 144,
+        "rt_cores": 18,
         "gpu_clock_mhz": 2500,
-        "memory_type": "GDDR6",
-        "memory_size_mb": 10240,
-        "memory_bus_bits": 160,
-        "memory_bandwidth_gbs": 380,
-        "tdp_w": 150,
-        "launch_price_usd": 219,
-        "interface": "PCIe 4.0 x8",
+        "gpu_boost_clock_mhz": 2750,
         "graphics_api": [
           "DirectX 12 Ultimate",
           "Vulkan 1.3",
           "OpenGL 4.6"
-        ]
-      }
+        ],
+        "pixel_rate_gpixels": 220.0,
+        "texture_rate_gtexels": 396.0,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 10240,
+        "memory_bus_bits": 160,
+        "memory_clock_mhz": 2375,
+        "memory_bandwidth_gbs": 380,
+        "fp32_tflops": 12.67,
+        "fp16_tflops": 25.34,
+        "tdp_w": 150,
+        "interface": "PCIe 4.0 x8"
+      },
+      "na": [
+        "fp64_tflops"
+      ]
+    },
+    {
+      "id": "intel-arc-pro-b60",
+      "name": "Arc Pro B60",
+      "family": "Arc Pro B",
+      "released": "2025-05",
+      "specs": {
+        "codename": "Battlemage BMG-G21",
+        "microarchitecture": "Xe2-HPG",
+        "market": "Workstation",
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "transistors": 19600000000,
+        "die_size_mm2": 272,
+        "l2_cache_kb": 18432,
+        "gpu_cores": 20,
+        "shading_units": 2560,
+        "compute_units": 20,
+        "tmus": 160,
+        "rops": 80,
+        "tensor_cores": 160,
+        "rt_cores": 20,
+        "gpu_clock_mhz": 2400,
+        "gpu_boost_clock_mhz": 2400,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan 1.3",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 192.0,
+        "texture_rate_gtexels": 384.0,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 24576,
+        "memory_bus_bits": 192,
+        "memory_clock_mhz": 2375,
+        "memory_bandwidth_gbs": 456,
+        "fp32_tflops": 12.29,
+        "fp16_tflops": 24.58,
+        "int8_tops": 197,
+        "tdp_w": 200,
+        "interface": "PCIe 5.0 x8"
+      },
+      "na": [
+        "launch_price_usd",
+        "fp64_tflops"
+      ]
     }
   ]
 }
