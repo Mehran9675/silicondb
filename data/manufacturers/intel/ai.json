@@ -180,6 +180,43 @@
         "fp64_tflops",
         "int8_tops"
       ]
+    },
+    {
+      "id": "intel-gaudi-3-pcie",
+      "name": "Gaudi 3 PCIe (HL-338)",
+      "family": "Gaudi",
+      "released": "2024-10",
+      "specs": {
+        "codename": "Gaudi3",
+        "microarchitecture": "Gaudi 3 (TPC + MME)",
+        "market": "Data center",
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "cores": 64,
+        "compute_units": 64,
+        "tensor_cores": 8,
+        "memory_type": "HBM2e",
+        "memory_size_mb": 131072,
+        "memory_bus_bits": 8192,
+        "memory_bandwidth_gbs": 3700,
+        "sram_kb": 98304,
+        "fp32_tflops": 229,
+        "fp16_tflops": 1835,
+        "bf16_tflops": 1835,
+        "fp8_tflops": 1835,
+        "tdp_w": 600,
+        "interface": "PCIe 5.0 x16",
+        "connectivity": [
+          "22x 200GbE RoCE v2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "fp64_tflops",
+        "int8_tops"
+      ]
     }
   ]
 }

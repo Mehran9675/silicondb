@@ -43,7 +43,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_metal",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -87,7 +94,8 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "modem"
+        "modem",
+        "geekbench6_metal"
       ]
     },
     {
@@ -135,7 +143,14 @@
         "gpu_clock_mhz",
         "fp32_tflops",
         "npu_tops",
-        "modem"
+        "modem",
+        "geekbench6_metal",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -180,7 +195,8 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "modem"
+        "modem",
+        "geekbench6_metal"
       ]
     }
   ]

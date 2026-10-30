@@ -579,20 +579,20 @@
         {
           "path": "manufacturers/intel/ai.json",
           "category": "ai",
-          "count": 5,
-          "rev": "ba04394eb7367285"
+          "count": 6,
+          "rev": "a7b290e78e3ab600"
         },
         {
           "path": "manufacturers/intel/cpu.json",
           "category": "cpu",
-          "count": 155,
-          "rev": "ce935273e93effd4"
+          "count": 193,
+          "rev": "a6115db0ac52a7f7"
         },
         {
           "path": "manufacturers/intel/gpu.json",
           "category": "gpu",
-          "count": 11,
-          "rev": "4605a957a65e0056"
+          "count": 12,
+          "rev": "9e6fdf525fa5daa2"
         },
         {
           "path": "manufacturers/intel/mcu.json",
@@ -604,7 +604,7 @@
           "path": "manufacturers/intel/soc.json",
           "category": "soc",
           "count": 4,
-          "rev": "dbac3ae44a583785"
+          "rev": "f37f46cb625e1b4a"
         }
       ]
     },

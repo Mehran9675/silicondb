@@ -2692,7 +2692,11 @@
           "Intel 64",
           "AES-NI",
           "AVX"
-        ]
+        ],
+        "geekbench6_single": 784,
+        "geekbench6_multi": 2663,
+        "cinebench_r15_single": 128,
+        "cinebench_r15_multi": 612
       },
       "na": [
         "voltage_v"
@@ -2741,7 +2745,12 @@
           "Intel 64",
           "AES-NI",
           "AVX"
-        ]
+        ],
+        "geekbench6_single": 651,
+        "geekbench6_multi": 1948,
+        "cinebench_r23_single": 697,
+        "cinebench_r23_multi": 2450,
+        "cinebench_r15_single": 127
       },
       "na": [
         "voltage_v"
@@ -2790,7 +2799,13 @@
           "Intel 64",
           "AES-NI",
           "AVX"
-        ]
+        ],
+        "geekbench6_single": 598,
+        "geekbench6_multi": 1778,
+        "cinebench_r23_single": 615,
+        "cinebench_r23_multi": 2011,
+        "cinebench_r15_single": 114,
+        "cinebench_r15_multi": 355
       },
       "na": [
         "voltage_v"
@@ -2837,7 +2852,11 @@
           "SSE4.2",
           "Intel 64",
           "AVX"
-        ]
+        ],
+        "geekbench6_single": 515,
+        "geekbench6_multi": 1082,
+        "cinebench_r15_single": 93,
+        "cinebench_r15_multi": 263
       },
       "na": [
         "boost_clock_mhz",
@@ -2933,7 +2952,11 @@
           "Intel 64",
           "AES-NI",
           "AVX"
-        ]
+        ],
+        "geekbench6_single": 661,
+        "geekbench6_multi": 3209,
+        "cinebench_r15_single": 159,
+        "cinebench_r15_multi": 1158
       },
       "na": [
         "voltage_v"
@@ -3031,7 +3054,11 @@
           "AES-NI",
           "AVX",
           "F16C"
-        ]
+        ],
+        "geekbench6_single": 843,
+        "geekbench6_multi": 2997,
+        "cinebench_r15_single": 137,
+        "cinebench_r15_multi": 672
       },
       "na": [
         "voltage_v"
@@ -3081,7 +3108,13 @@
           "AES-NI",
           "AVX",
           "F16C"
-        ]
+        ],
+        "geekbench6_single": 755,
+        "geekbench6_multi": 2286,
+        "cinebench_r23_single": 731,
+        "cinebench_r23_multi": 2808,
+        "cinebench_r15_single": 132,
+        "cinebench_r15_multi": 510
       },
       "na": [
         "voltage_v"
@@ -3121,7 +3154,15 @@
       "na": [
         "boost_clock_mhz",
         "voltage_v",
-        "instruction_sets"
+        "instruction_sets",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -3162,7 +3203,15 @@
         "socket",
         "boost_clock_mhz",
         "l3_cache_kb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -3210,7 +3259,13 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1165,
+        "geekbench6_multi": 3946,
+        "cinebench_r23_single": 961,
+        "cinebench_r23_multi": 4593,
+        "cinebench_r15_single": 141,
+        "cinebench_r15_multi": 709
       },
       "na": [
         "voltage_v"
@@ -3261,7 +3316,13 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 975,
+        "geekbench6_multi": 3545,
+        "cinebench_r23_single": 908,
+        "cinebench_r23_multi": 3829,
+        "cinebench_r15_single": 148,
+        "cinebench_r15_multi": 520
       },
       "na": [
         "voltage_v"
@@ -3310,7 +3371,11 @@
           "AES-NI",
           "AVX",
           "F16C"
-        ]
+        ],
+        "geekbench6_single": 757,
+        "geekbench6_multi": 3062,
+        "cinebench_r15_single": 151,
+        "cinebench_r15_multi": 1092
       },
       "na": [
         "voltage_v"
@@ -3410,7 +3475,13 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1387,
+        "geekbench6_multi": 4674,
+        "cinebench_r23_single": 1069,
+        "cinebench_r23_multi": 4936,
+        "cinebench_2024_single": 64,
+        "cinebench_2024_multi": 262
       },
       "na": [
         "voltage_v"
@@ -3456,7 +3527,11 @@
           "SSE4.1",
           "SSE4.2",
           "Intel 64"
-        ]
+        ],
+        "geekbench6_single": 667,
+        "geekbench6_multi": 1396,
+        "cinebench_r15_single": 129,
+        "cinebench_r15_multi": 242
       },
       "na": [
         "boost_clock_mhz",
@@ -3507,7 +3582,8 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1298
       },
       "na": [
         "voltage_v"
@@ -3557,7 +3633,13 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1086,
+        "geekbench6_multi": 5763,
+        "cinebench_r23_single": 795,
+        "cinebench_r23_multi": 5700,
+        "cinebench_r15_single": 139,
+        "cinebench_r15_multi": 1085
       },
       "na": [
         "voltage_v"
@@ -3657,7 +3739,12 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1230,
+        "geekbench6_multi": 4309,
+        "cinebench_r23_multi": 4601,
+        "cinebench_r15_single": 150,
+        "cinebench_r15_multi": 774
       },
       "na": [
         "transistors",
@@ -3708,7 +3795,13 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1347,
+        "geekbench6_multi": 4665,
+        "cinebench_r23_single": 1124,
+        "cinebench_r23_multi": 5640,
+        "cinebench_r15_single": 180,
+        "cinebench_r15_multi": 888
       },
       "na": [
         "transistors",
@@ -3759,7 +3852,13 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1359,
+        "geekbench6_multi": 3985,
+        "cinebench_r23_single": 1041,
+        "cinebench_r23_multi": 3965,
+        "cinebench_r15_single": 166,
+        "cinebench_r15_multi": 600
       },
       "na": [
         "transistors",
@@ -3860,7 +3959,11 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "cinebench_r23_single": 1091,
+        "cinebench_r23_multi": 12713,
+        "cinebench_r15_single": 152,
+        "cinebench_r15_multi": 1819
       },
       "na": [
         "voltage_v"
@@ -3953,7 +4056,12 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1463,
+        "cinebench_r23_single": 1216,
+        "cinebench_r23_multi": 6055,
+        "cinebench_r15_single": 200,
+        "cinebench_r15_multi": 995
       },
       "na": [
         "transistors",
@@ -4004,7 +4112,8 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1526
       },
       "na": [
         "transistors",
@@ -4045,7 +4154,15 @@
       "na": [
         "boost_clock_mhz",
         "voltage_v",
-        "instruction_sets"
+        "instruction_sets",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -4092,7 +4209,12 @@
           "AVX2",
           "FMA3",
           "AVX-512"
-        ]
+        ],
+        "geekbench6_single": 1410,
+        "cinebench_r23_single": 1222,
+        "cinebench_r23_multi": 14998,
+        "cinebench_r15_single": 188,
+        "cinebench_r15_multi": 2194
       },
       "na": [
         "transistors",
@@ -4194,7 +4316,12 @@
           "AVX2",
           "FMA3",
           "AVX-512"
-        ]
+        ],
+        "geekbench6_single": 1404,
+        "cinebench_r23_single": 1281,
+        "cinebench_r23_multi": 28196,
+        "cinebench_r15_single": 184,
+        "cinebench_r15_multi": 3455
       },
       "na": [
         "transistors",
@@ -4245,7 +4372,13 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1486,
+        "geekbench6_multi": 6750,
+        "cinebench_r23_single": 1209,
+        "cinebench_r23_multi": 8960,
+        "cinebench_r15_single": 208,
+        "cinebench_r15_multi": 1447
       },
       "na": [
         "transistors",
@@ -4296,7 +4429,11 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1381,
+        "geekbench6_multi": 4814,
+        "cinebench_r15_single": 163,
+        "cinebench_r15_multi": 925
       },
       "na": [
         "transistors",
@@ -4346,7 +4483,13 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1265,
+        "geekbench6_multi": 3627,
+        "cinebench_r23_single": 912,
+        "cinebench_r23_multi": 3618,
+        "cinebench_r15_single": 154,
+        "cinebench_r15_multi": 616
       },
       "na": [
         "transistors",
@@ -4393,7 +4536,10 @@
           "SSE4.2",
           "Intel 64",
           "AES-NI"
-        ]
+        ],
+        "geekbench6_single": 780,
+        "geekbench6_multi": 1690,
+        "cinebench_r15_single": 152
       },
       "na": [
         "transistors",
@@ -4445,7 +4591,9 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1422,
+        "geekbench6_multi": 5219
       },
       "na": [
         "transistors",
@@ -4497,7 +4645,11 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "cinebench_r23_single": 1321,
+        "cinebench_r23_multi": 10209,
+        "cinebench_r15_single": 219,
+        "cinebench_r15_multi": 1448
       },
       "na": [
         "transistors",
@@ -4548,7 +4700,12 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1650,
+        "cinebench_r23_single": 1294,
+        "cinebench_r23_multi": 12812,
+        "cinebench_r15_single": 219,
+        "cinebench_r15_multi": 2245
       },
       "na": [
         "transistors",
@@ -4599,7 +4756,15 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_single": 1589,
+        "geekbench6_multi": 7361,
+        "cinebench_r23_single": 1336,
+        "cinebench_r23_multi": 10326,
+        "cinebench_2024_single": 74,
+        "cinebench_2024_multi": 532,
+        "cinebench_r15_single": 214,
+        "cinebench_r15_multi": 1520
       },
       "na": [
         "transistors",
@@ -4650,7 +4815,14 @@
           "AVX",
           "AVX2",
           "FMA3"
-        ]
+        ],
+        "geekbench6_multi": 6071,
+        "cinebench_r23_single": 1276,
+        "cinebench_r23_multi": 7301,
+        "cinebench_2024_single": 73,
+        "cinebench_2024_multi": 355,
+        "cinebench_r15_single": 204,
+        "cinebench_r15_multi": 1165
       },
       "na": [
         "transistors",
@@ -4701,7 +4873,11 @@
           "AVX2",
           "FMA3",
           "AVX-512"
-        ]
+        ],
+        "geekbench6_single": 1459,
+        "geekbench6_multi": 12177,
+        "cinebench_r15_single": 201,
+        "cinebench_r15_multi": 3240
       },
       "na": [
         "transistors",
@@ -5658,7 +5834,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -5712,7 +5890,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -5767,7 +5947,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -5822,7 +6004,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -5877,7 +6061,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -5932,7 +6118,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -5987,7 +6175,9 @@
         "launch_price_usd",
         "transistors",
         "socket",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6041,7 +6231,236 @@
         "die_size_mm2",
         "socket",
         "base_clock_mhz",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i7-13700h",
+      "name": "Core i7-13700H",
+      "family": "Core i7",
+      "released": "2023-01-03",
+      "specs": {
+        "codename": "Raptor Lake-H",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCBGA1744",
+        "data_width_bits": 64,
+        "address_width_bits": 39,
+        "memory_type": "DDR5-5200 / LPDDR5-6400 / DDR4-3200 / LPDDR4x-4267",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "interface": "PCIe 4.0 / 3.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "cores": 14,
+        "performance_cores": 6,
+        "efficiency_cores": 8,
+        "threads": 20,
+        "base_clock_mhz": 2400,
+        "boost_clock_mhz": 5000,
+        "l1_cache_kb": 1248,
+        "l2_cache_kb": 11776,
+        "l3_cache_kb": 24576,
+        "gpu": "Iris Xe Graphics (96 EU)",
+        "tdp_w": 45
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i7-1360p",
+      "name": "Core i7-1360P",
+      "family": "Core i7",
+      "released": "2023-01-03",
+      "specs": {
+        "codename": "Raptor Lake-P",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCBGA1744",
+        "data_width_bits": 64,
+        "address_width_bits": 39,
+        "memory_type": "DDR5-5200 / LPDDR5-6400 / DDR4-3200 / LPDDR4x-4267",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "interface": "PCIe 4.0 / 3.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "cores": 12,
+        "performance_cores": 4,
+        "efficiency_cores": 8,
+        "threads": 16,
+        "base_clock_mhz": 2200,
+        "boost_clock_mhz": 5000,
+        "l1_cache_kb": 1088,
+        "l2_cache_kb": 9216,
+        "l3_cache_kb": 18432,
+        "gpu": "Iris Xe Graphics (96 EU)",
+        "tdp_w": 28
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i5-1335u",
+      "name": "Core i5-1335U",
+      "family": "Core i5",
+      "released": "2023-01-03",
+      "specs": {
+        "codename": "Raptor Lake-U",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCBGA1744",
+        "data_width_bits": 64,
+        "address_width_bits": 39,
+        "memory_type": "DDR5-5200 / LPDDR5-6400 / DDR4-3200 / LPDDR4x-4267",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "interface": "PCIe 4.0 / 3.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "cores": 10,
+        "performance_cores": 2,
+        "efficiency_cores": 8,
+        "threads": 12,
+        "base_clock_mhz": 1300,
+        "boost_clock_mhz": 4600,
+        "l1_cache_kb": 928,
+        "l2_cache_kb": 6656,
+        "l3_cache_kb": 12288,
+        "gpu": "Iris Xe Graphics (80 EU)",
+        "tdp_w": 15
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i3-n305",
+      "name": "Core i3-N305",
+      "family": "Core i3",
+      "released": "2023-01-03",
+      "specs": {
+        "codename": "Alder Lake-N",
+        "microarchitecture": "Gracemont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCBGA1264",
+        "cores": 8,
+        "efficiency_cores": 8,
+        "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 39,
+        "boost_clock_mhz": 3800,
+        "l1_cache_kb": 768,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 6144,
+        "gpu": "UHD Graphics (32 EU)",
+        "memory_type": "DDR5-4800 / DDR4-3200 / LPDDR5-4800",
+        "max_memory_mb": 16384,
+        "memory_channels": 1,
+        "tdp_w": 15,
+        "interface": "PCIe 3.0 (9 lanes)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "base_clock_mhz",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6096,7 +6515,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6151,7 +6572,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6207,7 +6630,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6262,7 +6687,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6317,7 +6744,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6372,7 +6801,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6427,7 +6858,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6482,7 +6915,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6538,7 +6973,9 @@
         "transistors",
         "die_size_mm2",
         "socket",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6594,7 +7031,9 @@
         "transistors",
         "die_size_mm2",
         "socket",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6649,7 +7088,241 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-7-165h",
+      "name": "Core Ultra 7 165H",
+      "family": "Core Ultra 7",
+      "released": "2023-12-14",
+      "specs": {
+        "codename": "Meteor Lake",
+        "microarchitecture": "Redwood Cove + Crestmont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 4,
+        "foundry": "Intel",
+        "package": "FCBGA2049",
+        "cores": 16,
+        "performance_cores": 6,
+        "efficiency_cores": 10,
+        "threads": 22,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 1400,
+        "boost_clock_mhz": 5000,
+        "l1_cache_kb": 1632,
+        "l2_cache_kb": 18432,
+        "l3_cache_kb": 24576,
+        "gpu": "Arc Graphics (8 Xe cores)",
+        "memory_type": "DDR5-5600 / LPDDR5X-7467",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "npu_tops": 11,
+        "tdp_w": 28,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-5-125h",
+      "name": "Core Ultra 5 125H",
+      "family": "Core Ultra 5",
+      "released": "2023-12-14",
+      "specs": {
+        "codename": "Meteor Lake",
+        "microarchitecture": "Redwood Cove + Crestmont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 4,
+        "foundry": "Intel",
+        "package": "FCBGA2049",
+        "cores": 14,
+        "performance_cores": 4,
+        "efficiency_cores": 10,
+        "threads": 18,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 1200,
+        "boost_clock_mhz": 4500,
+        "l1_cache_kb": 1408,
+        "l2_cache_kb": 14336,
+        "l3_cache_kb": 18432,
+        "gpu": "Arc Graphics (7 Xe cores)",
+        "memory_type": "DDR5-5600 / LPDDR5X-7467",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "npu_tops": 11,
+        "tdp_w": 28,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-7-155u",
+      "name": "Core Ultra 7 155U",
+      "family": "Core Ultra 7",
+      "released": "2023-12-14",
+      "specs": {
+        "codename": "Meteor Lake-U",
+        "microarchitecture": "Redwood Cove + Crestmont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 4,
+        "foundry": "Intel",
+        "package": "FCBGA2049",
+        "cores": 12,
+        "performance_cores": 2,
+        "efficiency_cores": 10,
+        "threads": 14,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 1700,
+        "boost_clock_mhz": 4800,
+        "l1_cache_kb": 1184,
+        "l2_cache_kb": 10240,
+        "l3_cache_kb": 12288,
+        "gpu": "Intel Graphics (4 Xe cores)",
+        "memory_type": "DDR5-5600 / LPDDR5X-7467",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "npu_tops": 11,
+        "tdp_w": 15,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-5-125u",
+      "name": "Core Ultra 5 125U",
+      "family": "Core Ultra 5",
+      "released": "2023-12-14",
+      "specs": {
+        "codename": "Meteor Lake-U",
+        "microarchitecture": "Redwood Cove + Crestmont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 4,
+        "foundry": "Intel",
+        "package": "FCBGA2049",
+        "cores": 12,
+        "performance_cores": 2,
+        "efficiency_cores": 10,
+        "threads": 14,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 1300,
+        "boost_clock_mhz": 4300,
+        "l1_cache_kb": 1184,
+        "l2_cache_kb": 10240,
+        "l3_cache_kb": 12288,
+        "gpu": "Intel Graphics (4 Xe cores)",
+        "memory_type": "DDR5-5600 / LPDDR5X-7467",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "npu_tops": 11,
+        "tdp_w": 15,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6704,7 +7377,350 @@
         "launch_price_usd",
         "transistors",
         "socket",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i9-14900",
+      "name": "Core i9-14900",
+      "family": "Core i9",
+      "released": "2024-01-08",
+      "specs": {
+        "codename": "Raptor Lake Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCLGA1700",
+        "socket": "LGA 1700",
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "gpu": "UHD Graphics 770",
+        "memory_type": "DDR5-5600 / DDR4-3200",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "tdp_w": 65,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "launch_price_usd": 549,
+        "die_size_mm2": 257,
+        "cores": 24,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "threads": 32,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 5800,
+        "l1_cache_kb": 2176,
+        "l2_cache_kb": 32768,
+        "l3_cache_kb": 36864
+      },
+      "na": [
+        "transistors",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i7-14700",
+      "name": "Core i7-14700",
+      "family": "Core i7",
+      "released": "2024-01-08",
+      "specs": {
+        "codename": "Raptor Lake Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCLGA1700",
+        "socket": "LGA 1700",
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "gpu": "UHD Graphics 770",
+        "memory_type": "DDR5-5600 / DDR4-3200",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "tdp_w": 65,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "launch_price_usd": 384,
+        "die_size_mm2": 257,
+        "cores": 20,
+        "performance_cores": 8,
+        "efficiency_cores": 12,
+        "threads": 28,
+        "base_clock_mhz": 2100,
+        "boost_clock_mhz": 5400,
+        "l1_cache_kb": 1792,
+        "l2_cache_kb": 28672,
+        "l3_cache_kb": 33792
+      },
+      "na": [
+        "transistors",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i5-14400",
+      "name": "Core i5-14400",
+      "family": "Core i5",
+      "released": "2024-01-08",
+      "specs": {
+        "codename": "Raptor Lake Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCLGA1700",
+        "socket": "LGA 1700",
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "gpu": "UHD Graphics 770",
+        "memory_type": "DDR5-5600 / DDR4-3200",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "tdp_w": 65,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "launch_price_usd": 221,
+        "cores": 10,
+        "performance_cores": 6,
+        "efficiency_cores": 4,
+        "threads": 16,
+        "base_clock_mhz": 2500,
+        "boost_clock_mhz": 4700,
+        "l1_cache_kb": 864,
+        "l2_cache_kb": 9728,
+        "l3_cache_kb": 20480
+      },
+      "na": [
+        "transistors",
+        "voltage_v",
+        "die_size_mm2",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i3-14100",
+      "name": "Core i3-14100",
+      "family": "Core i3",
+      "released": "2024-01-08",
+      "specs": {
+        "codename": "Raptor Lake Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCLGA1700",
+        "socket": "LGA 1700",
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "gpu": "UHD Graphics 730",
+        "memory_type": "DDR5-5600 / DDR4-3200",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "tdp_w": 60,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "launch_price_usd": 134,
+        "cores": 4,
+        "performance_cores": 4,
+        "threads": 8,
+        "base_clock_mhz": 3500,
+        "boost_clock_mhz": 4700,
+        "l1_cache_kb": 320,
+        "l2_cache_kb": 5120,
+        "l3_cache_kb": 12288
+      },
+      "na": [
+        "transistors",
+        "voltage_v",
+        "die_size_mm2",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-i7-14700hx",
+      "name": "Core i7-14700HX",
+      "family": "Core i7",
+      "released": "2024-01-08",
+      "specs": {
+        "codename": "Raptor Lake-HX Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "die_size_mm2": 257,
+        "package": "FCBGA1964",
+        "cores": 20,
+        "performance_cores": 8,
+        "efficiency_cores": 12,
+        "threads": 28,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 2100,
+        "boost_clock_mhz": 5500,
+        "l1_cache_kb": 1792,
+        "l2_cache_kb": 28672,
+        "l3_cache_kb": 33792,
+        "gpu": "UHD Graphics (32 EU)",
+        "memory_type": "DDR5-5600 / DDR4-3200",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "tdp_w": 55,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-7-150u",
+      "name": "Core 7 150U",
+      "family": "Core 7",
+      "released": "2024-01-08",
+      "specs": {
+        "codename": "Raptor Lake-U Refresh",
+        "microarchitecture": "Raptor Cove + Gracemont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCBGA1744",
+        "data_width_bits": 64,
+        "address_width_bits": 39,
+        "memory_type": "DDR5-5200 / LPDDR5-6400 / DDR4-3200 / LPDDR4x-4267",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "interface": "PCIe 4.0 / 3.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "cores": 10,
+        "performance_cores": 2,
+        "efficiency_cores": 8,
+        "threads": 12,
+        "base_clock_mhz": 1800,
+        "boost_clock_mhz": 5400,
+        "l1_cache_kb": 928,
+        "l2_cache_kb": 6656,
+        "l3_cache_kb": 12288,
+        "gpu": "Intel Graphics (96 EU)",
+        "tdp_w": 15
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6759,7 +7775,9 @@
       },
       "na": [
         "transistors",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6812,7 +7830,231 @@
       "na": [
         "transistors",
         "die_size_mm2",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-xeon-6766e",
+      "name": "Xeon 6766E",
+      "family": "Xeon 6",
+      "released": "2024-06-04",
+      "specs": {
+        "codename": "Sierra Forest",
+        "microarchitecture": "Crestmont",
+        "isa": "x86-64",
+        "market": "Server",
+        "process_nm": 3,
+        "foundry": "Intel",
+        "package": "FCLGA4710",
+        "socket": "LGA 4710",
+        "cores": 144,
+        "efficiency_cores": 144,
+        "threads": 144,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 1900,
+        "boost_clock_mhz": 2700,
+        "l1_cache_kb": 13824,
+        "l2_cache_kb": 147456,
+        "l3_cache_kb": 110592,
+        "memory_type": "DDR5-6400",
+        "max_memory_mb": 4194304,
+        "memory_channels": 8,
+        "tdp_w": 250,
+        "interface": "UPI 2.0 24 GT/s (4 links)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-xeon-6740e",
+      "name": "Xeon 6740E",
+      "family": "Xeon 6",
+      "released": "2024-06-04",
+      "specs": {
+        "codename": "Sierra Forest",
+        "microarchitecture": "Crestmont",
+        "isa": "x86-64",
+        "market": "Server",
+        "process_nm": 3,
+        "foundry": "Intel",
+        "package": "FCLGA4710",
+        "socket": "LGA 4710",
+        "cores": 92,
+        "efficiency_cores": 92,
+        "threads": 92,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 2400,
+        "boost_clock_mhz": 3200,
+        "l1_cache_kb": 8832,
+        "l2_cache_kb": 94208,
+        "l3_cache_kb": 98304,
+        "memory_type": "DDR5-6400",
+        "max_memory_mb": 4194304,
+        "memory_channels": 8,
+        "tdp_w": 250,
+        "interface": "UPI 2.0 24 GT/s (4 links)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-xeon-6710e",
+      "name": "Xeon 6710E",
+      "family": "Xeon 6",
+      "released": "2024-06-04",
+      "specs": {
+        "codename": "Sierra Forest",
+        "microarchitecture": "Crestmont",
+        "isa": "x86-64",
+        "market": "Server",
+        "process_nm": 3,
+        "foundry": "Intel",
+        "package": "FCLGA4710",
+        "socket": "LGA 4710",
+        "cores": 64,
+        "efficiency_cores": 64,
+        "threads": 64,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 2400,
+        "boost_clock_mhz": 3200,
+        "l1_cache_kb": 6144,
+        "l2_cache_kb": 65536,
+        "l3_cache_kb": 98304,
+        "memory_type": "DDR5-5600",
+        "max_memory_mb": 4194304,
+        "memory_channels": 8,
+        "tdp_w": 205,
+        "interface": "UPI 2.0 24 GT/s (4 links)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-xeon-w9-3595x",
+      "name": "Xeon w9-3595X",
+      "family": "Xeon W",
+      "released": "2024-08-26",
+      "specs": {
+        "codename": "Sapphire Rapids Refresh",
+        "microarchitecture": "Golden Cove",
+        "isa": "x86-64",
+        "market": "Workstation",
+        "launch_price_usd": 5889,
+        "process_nm": 7,
+        "foundry": "Intel",
+        "die_size_mm2": 1600,
+        "package": "FCLGA4677",
+        "socket": "LGA 4677",
+        "cores": 60,
+        "threads": 120,
+        "data_width_bits": 64,
+        "address_width_bits": 46,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 4800,
+        "l1_cache_kb": 4800,
+        "l2_cache_kb": 122880,
+        "l3_cache_kb": 115200,
+        "memory_type": "DDR5-4800",
+        "max_memory_mb": 4194304,
+        "memory_channels": 8,
+        "tdp_w": 385,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "AVX-512",
+          "SHA",
+          "AVX-512 VNNI",
+          "AVX-VNNI",
+          "AMX"
+        ]
+      },
+      "na": [
+        "transistors",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6869,7 +8111,9 @@
         "launch_price_usd",
         "transistors",
         "socket",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6926,7 +8170,9 @@
         "launch_price_usd",
         "transistors",
         "socket",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -6981,7 +8227,473 @@
       "na": [
         "transistors",
         "die_size_mm2",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-7-268v",
+      "name": "Core Ultra 7 268V",
+      "family": "Core Ultra 7",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Lunar Lake",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "die_size_mm2": 186,
+        "package": "FCBGA2833",
+        "cores": 8,
+        "performance_cores": 4,
+        "efficiency_cores": 4,
+        "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 2200,
+        "boost_clock_mhz": 5000,
+        "l1_cache_kb": 1600,
+        "l2_cache_kb": 14336,
+        "l3_cache_kb": 12288,
+        "slc_kb": 8192,
+        "gpu": "Arc 140V (8 Xe2 cores)",
+        "memory_type": "LPDDR5X-8533 (on-package)",
+        "memory_size_mb": 32768,
+        "max_memory_mb": 32768,
+        "npu_tops": 48,
+        "tdp_w": 17,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-7-256v",
+      "name": "Core Ultra 7 256V",
+      "family": "Core Ultra 7",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Lunar Lake",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "die_size_mm2": 186,
+        "package": "FCBGA2833",
+        "cores": 8,
+        "performance_cores": 4,
+        "efficiency_cores": 4,
+        "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 2200,
+        "boost_clock_mhz": 4800,
+        "l1_cache_kb": 1600,
+        "l2_cache_kb": 14336,
+        "l3_cache_kb": 12288,
+        "slc_kb": 8192,
+        "gpu": "Arc 140V (8 Xe2 cores)",
+        "memory_type": "LPDDR5X-8533 (on-package)",
+        "memory_size_mb": 16384,
+        "max_memory_mb": 16384,
+        "npu_tops": 47,
+        "tdp_w": 17,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-5-236v",
+      "name": "Core Ultra 5 236V",
+      "family": "Core Ultra 5",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Lunar Lake",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "die_size_mm2": 186,
+        "package": "FCBGA2833",
+        "cores": 8,
+        "performance_cores": 4,
+        "efficiency_cores": 4,
+        "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 2100,
+        "boost_clock_mhz": 4700,
+        "l1_cache_kb": 1600,
+        "l2_cache_kb": 14336,
+        "l3_cache_kb": 8192,
+        "slc_kb": 8192,
+        "gpu": "Arc 130V (7 Xe2 cores)",
+        "memory_type": "LPDDR5X-8533 (on-package)",
+        "memory_size_mb": 16384,
+        "max_memory_mb": 16384,
+        "npu_tops": 40,
+        "tdp_w": 17,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-5-226v",
+      "name": "Core Ultra 5 226V",
+      "family": "Core Ultra 5",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Lunar Lake",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "die_size_mm2": 186,
+        "package": "FCBGA2833",
+        "cores": 8,
+        "performance_cores": 4,
+        "efficiency_cores": 4,
+        "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 2100,
+        "boost_clock_mhz": 4500,
+        "l1_cache_kb": 1600,
+        "l2_cache_kb": 14336,
+        "l3_cache_kb": 8192,
+        "slc_kb": 8192,
+        "gpu": "Arc 130V (7 Xe2 cores)",
+        "memory_type": "LPDDR5X-8533 (on-package)",
+        "memory_size_mb": 16384,
+        "max_memory_mb": 16384,
+        "npu_tops": 40,
+        "tdp_w": 17,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-xeon-6979p",
+      "name": "Xeon 6979P",
+      "family": "Xeon 6",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Granite Rapids",
+        "microarchitecture": "Redwood Cove",
+        "isa": "x86-64",
+        "market": "Server",
+        "launch_price_usd": 15750,
+        "process_nm": 3,
+        "foundry": "Intel",
+        "package": "FCLGA7529",
+        "socket": "LGA 7529",
+        "cores": 120,
+        "threads": 240,
+        "data_width_bits": 64,
+        "address_width_bits": 52,
+        "base_clock_mhz": 2100,
+        "boost_clock_mhz": 3900,
+        "l1_cache_kb": 13440,
+        "l2_cache_kb": 245760,
+        "l3_cache_kb": 516096,
+        "memory_type": "DDR5 / MRDIMM",
+        "max_memory_mb": 3145728,
+        "memory_channels": 12,
+        "tdp_w": 500,
+        "interface": "UPI 2.0 24 GT/s (6 links)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "AVX-512",
+          "SHA",
+          "AVX-512 VNNI",
+          "AVX-VNNI",
+          "AMX"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-xeon-6972p",
+      "name": "Xeon 6972P",
+      "family": "Xeon 6",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Granite Rapids",
+        "microarchitecture": "Redwood Cove",
+        "isa": "x86-64",
+        "market": "Server",
+        "launch_price_usd": 14600,
+        "process_nm": 3,
+        "foundry": "Intel",
+        "package": "FCLGA7529",
+        "socket": "LGA 7529",
+        "cores": 96,
+        "threads": 192,
+        "data_width_bits": 64,
+        "address_width_bits": 52,
+        "base_clock_mhz": 2400,
+        "boost_clock_mhz": 3900,
+        "l1_cache_kb": 10752,
+        "l2_cache_kb": 196608,
+        "l3_cache_kb": 491520,
+        "memory_type": "DDR5 / MRDIMM",
+        "max_memory_mb": 3145728,
+        "memory_channels": 12,
+        "tdp_w": 500,
+        "interface": "UPI 2.0 24 GT/s (6 links)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "AVX-512",
+          "SHA",
+          "AVX-512 VNNI",
+          "AVX-VNNI",
+          "AMX"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-xeon-6960p",
+      "name": "Xeon 6960P",
+      "family": "Xeon 6",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Granite Rapids",
+        "microarchitecture": "Redwood Cove",
+        "isa": "x86-64",
+        "market": "Server",
+        "launch_price_usd": 13750,
+        "process_nm": 3,
+        "foundry": "Intel",
+        "package": "FCLGA7529",
+        "socket": "LGA 7529",
+        "cores": 72,
+        "threads": 144,
+        "data_width_bits": 64,
+        "address_width_bits": 52,
+        "base_clock_mhz": 2700,
+        "boost_clock_mhz": 3900,
+        "l1_cache_kb": 8064,
+        "l2_cache_kb": 147456,
+        "l3_cache_kb": 442368,
+        "memory_type": "DDR5 / MRDIMM",
+        "max_memory_mb": 3145728,
+        "memory_channels": 12,
+        "tdp_w": 500,
+        "interface": "UPI 2.0 24 GT/s (6 links)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "AVX-512",
+          "SHA",
+          "AVX-512 VNNI",
+          "AVX-VNNI",
+          "AMX"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-xeon-6952p",
+      "name": "Xeon 6952P",
+      "family": "Xeon 6",
+      "released": "2024-09-24",
+      "specs": {
+        "codename": "Granite Rapids",
+        "microarchitecture": "Redwood Cove",
+        "isa": "x86-64",
+        "market": "Server",
+        "launch_price_usd": 11400,
+        "process_nm": 3,
+        "foundry": "Intel",
+        "package": "FCLGA7529",
+        "socket": "LGA 7529",
+        "cores": 96,
+        "threads": 192,
+        "data_width_bits": 64,
+        "address_width_bits": 52,
+        "base_clock_mhz": 2100,
+        "boost_clock_mhz": 3900,
+        "l1_cache_kb": 10752,
+        "l2_cache_kb": 196608,
+        "l3_cache_kb": 491520,
+        "memory_type": "DDR5 / MRDIMM",
+        "max_memory_mb": 3145728,
+        "memory_channels": 12,
+        "tdp_w": 400,
+        "interface": "UPI 2.0 24 GT/s (6 links)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "AVX-512",
+          "SHA",
+          "AVX-512 VNNI",
+          "AVX-VNNI",
+          "AMX"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -7037,7 +8749,9 @@
       "na": [
         "transistors",
         "die_size_mm2",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -7093,7 +8807,9 @@
       "na": [
         "transistors",
         "die_size_mm2",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -7149,7 +8865,9 @@
       "na": [
         "transistors",
         "die_size_mm2",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -7205,7 +8923,471 @@
         "transistors",
         "die_size_mm2",
         "socket",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-9-285h",
+      "name": "Core Ultra 9 285H",
+      "family": "Core Ultra 9",
+      "released": "2025-01-06",
+      "specs": {
+        "codename": "Arrow Lake-H",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCBGA2049",
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "memory_type": "DDR5-5600 / LPDDR5X-8400",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 28,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "cores": 16,
+        "performance_cores": 6,
+        "efficiency_cores": 10,
+        "threads": 16,
+        "base_clock_mhz": 2900,
+        "boost_clock_mhz": 5400,
+        "l3_cache_kb": 24576,
+        "gpu": "Arc 140T (8 Xe cores)"
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-7-255h",
+      "name": "Core Ultra 7 255H",
+      "family": "Core Ultra 7",
+      "released": "2025-01-06",
+      "specs": {
+        "codename": "Arrow Lake-H",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCBGA2049",
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "memory_type": "DDR5-5600 / LPDDR5X-8400",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 28,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "cores": 16,
+        "performance_cores": 6,
+        "efficiency_cores": 10,
+        "threads": 16,
+        "base_clock_mhz": 2000,
+        "boost_clock_mhz": 5100,
+        "l3_cache_kb": 24576,
+        "gpu": "Arc 140T (8 Xe cores)"
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-5-225h",
+      "name": "Core Ultra 5 225H",
+      "family": "Core Ultra 5",
+      "released": "2025-01-06",
+      "specs": {
+        "codename": "Arrow Lake-H",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCBGA2049",
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "memory_type": "DDR5-5600 / LPDDR5X-8400",
+        "max_memory_mb": 98304,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 28,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ],
+        "cores": 14,
+        "performance_cores": 4,
+        "efficiency_cores": 10,
+        "threads": 14,
+        "base_clock_mhz": 1700,
+        "boost_clock_mhz": 4900,
+        "l3_cache_kb": 18432,
+        "gpu": "Arc 130T (7 Xe cores)"
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-7-255hx",
+      "name": "Core Ultra 7 255HX",
+      "family": "Core Ultra 7",
+      "released": "2025-01-06",
+      "specs": {
+        "codename": "Arrow Lake-HX",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCBGA2114",
+        "cores": 20,
+        "performance_cores": 8,
+        "efficiency_cores": 12,
+        "threads": 20,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 2400,
+        "boost_clock_mhz": 5200,
+        "l1_cache_kb": 3584,
+        "l2_cache_kb": 36864,
+        "l3_cache_kb": 30720,
+        "gpu": "Arc Graphics (4 Xe cores)",
+        "memory_type": "DDR5-6400",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 55,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-5-245hx",
+      "name": "Core Ultra 5 245HX",
+      "family": "Core Ultra 5",
+      "released": "2025-01-06",
+      "specs": {
+        "codename": "Arrow Lake-HX",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCBGA2114",
+        "cores": 14,
+        "performance_cores": 6,
+        "efficiency_cores": 8,
+        "threads": 14,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 3100,
+        "boost_clock_mhz": 5100,
+        "l1_cache_kb": 2592,
+        "l2_cache_kb": 26624,
+        "l3_cache_kb": 24576,
+        "gpu": "Arc Graphics (4 Xe cores)",
+        "memory_type": "DDR5-6400",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 55,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-n150",
+      "name": "N150",
+      "family": "Intel Processor N",
+      "released": "2025-01-06",
+      "specs": {
+        "codename": "Twin Lake",
+        "microarchitecture": "Gracemont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 7,
+        "foundry": "Intel",
+        "package": "FCBGA1264",
+        "cores": 4,
+        "efficiency_cores": 4,
+        "threads": 4,
+        "data_width_bits": 64,
+        "address_width_bits": 39,
+        "boost_clock_mhz": 3600,
+        "l1_cache_kb": 384,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 6144,
+        "gpu": "UHD Graphics (24 EU)",
+        "memory_type": "DDR5-4800 / DDR4-3200 / LPDDR5-4800",
+        "max_memory_mb": 16384,
+        "memory_channels": 1,
+        "tdp_w": 6,
+        "interface": "PCIe 3.0 (9 lanes)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "base_clock_mhz",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-9-285",
+      "name": "Core Ultra 9 285",
+      "family": "Core Ultra 9",
+      "released": "2025-01-07",
+      "specs": {
+        "codename": "Arrow Lake-S",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 549,
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCLGA1851",
+        "socket": "LGA 1851",
+        "cores": 24,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "threads": 24,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 2500,
+        "boost_clock_mhz": 5600,
+        "l1_cache_kb": 3968,
+        "l2_cache_kb": 40960,
+        "l3_cache_kb": 36864,
+        "gpu": "Arc Graphics (4 Xe cores)",
+        "memory_type": "DDR5-6400",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 65,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-7-265",
+      "name": "Core Ultra 7 265",
+      "family": "Core Ultra 7",
+      "released": "2025-01-07",
+      "specs": {
+        "codename": "Arrow Lake-S",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 384,
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCLGA1851",
+        "socket": "LGA 1851",
+        "cores": 20,
+        "performance_cores": 8,
+        "efficiency_cores": 12,
+        "threads": 20,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 2400,
+        "boost_clock_mhz": 5300,
+        "l1_cache_kb": 3584,
+        "l2_cache_kb": 36864,
+        "l3_cache_kb": 30720,
+        "gpu": "Arc Graphics (4 Xe cores)",
+        "memory_type": "DDR5-6400",
+        "max_memory_mb": 196608,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 65,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -7260,7 +9442,9 @@
         "launch_price_usd",
         "transistors",
         "die_size_mm2",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -7315,7 +9499,239 @@
         "socket",
         "base_clock_mhz",
         "max_memory_mb",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-x7-368h",
+      "name": "Core Ultra X7 368H",
+      "family": "Core Ultra X7",
+      "released": "2026-01-05",
+      "specs": {
+        "codename": "Panther Lake",
+        "microarchitecture": "Cougar Cove + Darkmont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 1.8,
+        "foundry": "Intel",
+        "package": "FCBGA2540",
+        "cores": 16,
+        "performance_cores": 4,
+        "efficiency_cores": 12,
+        "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "boost_clock_mhz": 5000,
+        "l1_cache_kb": 2368,
+        "l2_cache_kb": 20480,
+        "l3_cache_kb": 18432,
+        "gpu": "Arc B390 (12 Xe3 cores)",
+        "memory_type": "LPDDR5X-9600",
+        "npu_tops": 50,
+        "tdp_w": 25,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "base_clock_mhz",
+        "max_memory_mb",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-x7-358h",
+      "name": "Core Ultra X7 358H",
+      "family": "Core Ultra X7",
+      "released": "2026-01-05",
+      "specs": {
+        "codename": "Panther Lake",
+        "microarchitecture": "Cougar Cove + Darkmont",
+        "isa": "x86-64",
+        "market": "Laptop",
+        "process_nm": 1.8,
+        "foundry": "Intel",
+        "package": "FCBGA2540",
+        "cores": 16,
+        "performance_cores": 4,
+        "efficiency_cores": 12,
+        "threads": 16,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "boost_clock_mhz": 4800,
+        "l1_cache_kb": 2368,
+        "l2_cache_kb": 20480,
+        "l3_cache_kb": 18432,
+        "gpu": "Arc B390 (12 Xe3 cores)",
+        "memory_type": "LPDDR5X-9600",
+        "npu_tops": 50,
+        "tdp_w": 25,
+        "interface": "PCIe 5.0 / 4.0, Thunderbolt 4 (integrated)",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "base_clock_mhz",
+        "max_memory_mb",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-7-270k-plus",
+      "name": "Core Ultra 7 270K Plus",
+      "family": "Core Ultra 7",
+      "released": "2026-03-26",
+      "specs": {
+        "codename": "Arrow Lake-S Refresh",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 299,
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCLGA1851",
+        "socket": "LGA 1851",
+        "cores": 24,
+        "performance_cores": 8,
+        "efficiency_cores": 16,
+        "threads": 24,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 3700,
+        "boost_clock_mhz": 5500,
+        "l1_cache_kb": 3968,
+        "l2_cache_kb": 40960,
+        "l3_cache_kb": 36864,
+        "gpu": "Arc Graphics (4 Xe cores)",
+        "memory_type": "DDR5-6400",
+        "max_memory_mb": 262144,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 125,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "intel-core-ultra-5-250k-plus",
+      "name": "Core Ultra 5 250K Plus",
+      "family": "Core Ultra 5",
+      "released": "2026-03-26",
+      "specs": {
+        "codename": "Arrow Lake-S Refresh",
+        "microarchitecture": "Lion Cove + Skymont",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "launch_price_usd": 199,
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "package": "FCLGA1851",
+        "socket": "LGA 1851",
+        "cores": 18,
+        "performance_cores": 6,
+        "efficiency_cores": 12,
+        "threads": 18,
+        "data_width_bits": 64,
+        "address_width_bits": 42,
+        "base_clock_mhz": 3700,
+        "boost_clock_mhz": 5300,
+        "l1_cache_kb": 2976,
+        "l2_cache_kb": 30720,
+        "l3_cache_kb": 30720,
+        "gpu": "Arc Graphics (4 Xe cores)",
+        "memory_type": "DDR5-6400",
+        "max_memory_mb": 262144,
+        "memory_channels": 2,
+        "npu_tops": 13,
+        "tdp_w": 125,
+        "interface": "DMI 4.0 x8",
+        "instruction_sets": [
+          "MMX",
+          "SSE",
+          "SSE2",
+          "SSE3",
+          "SSSE3",
+          "SSE4.1",
+          "SSE4.2",
+          "Intel 64",
+          "AES-NI",
+          "AVX",
+          "AVX2",
+          "FMA3",
+          "SHA",
+          "AVX-VNNI"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "voltage_v",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     }
   ]

@@ -86,7 +86,9 @@
         "transistors",
         "tensor_cores",
         "rt_cores",
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -131,7 +133,9 @@
         "interface": "PCIe 4.0 x8"
       },
       "na": [
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -176,7 +180,9 @@
       },
       "na": [
         "launch_price_usd",
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -221,7 +227,9 @@
         "interface": "PCIe 4.0 x16"
       },
       "na": [
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -266,7 +274,9 @@
         "interface": "PCIe 4.0 x16"
       },
       "na": [
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -309,7 +319,9 @@
         "gpu_clock_mhz",
         "graphics_api",
         "pixel_rate_gpixels",
-        "texture_rate_gtexels"
+        "texture_rate_gtexels",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -352,7 +364,56 @@
         "gpu_clock_mhz",
         "graphics_api",
         "pixel_rate_gpixels",
-        "texture_rate_gtexels"
+        "texture_rate_gtexels",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "intel-arc-a580",
+      "name": "Arc A580",
+      "family": "Arc A",
+      "released": "2023-10-10",
+      "specs": {
+        "codename": "Alchemist ACM-G10",
+        "microarchitecture": "Xe-HPG",
+        "market": "Desktop",
+        "launch_price_usd": 179,
+        "process_nm": 6,
+        "foundry": "TSMC",
+        "transistors": 21700000000,
+        "die_size_mm2": 406,
+        "l2_cache_kb": 16384,
+        "gpu_cores": 24,
+        "shading_units": 3072,
+        "compute_units": 24,
+        "tmus": 192,
+        "rops": 96,
+        "tensor_cores": 384,
+        "rt_cores": 24,
+        "gpu_clock_mhz": 1700,
+        "gpu_boost_clock_mhz": 2000,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan 1.3",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 192.0,
+        "texture_rate_gtexels": 384.0,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 8192,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 2000,
+        "memory_bandwidth_gbs": 512,
+        "fp32_tflops": 12.29,
+        "fp16_tflops": 24.58,
+        "tdp_w": 185,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -397,7 +458,9 @@
         "interface": "PCIe 4.0 x8"
       },
       "na": [
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -442,7 +505,9 @@
         "interface": "PCIe 4.0 x8"
       },
       "na": [
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -488,7 +553,9 @@
       },
       "na": [
         "launch_price_usd",
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     }
   ]
