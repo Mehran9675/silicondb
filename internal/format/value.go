@@ -19,9 +19,9 @@ func Value(field *model.Field, v any) string {
 		return v
 	case bool:
 		if v {
-			return "Yes"
+			return text("common.yes", "Yes")
 		}
-		return "No"
+		return text("common.no", "No")
 	case []any:
 		parts := make([]string, 0, len(v))
 		for _, e := range v {
@@ -55,6 +55,8 @@ func withUnit(f *model.Field, v float64) string {
 		return Number(v, 1) + " nm"
 	case "count":
 		return Count(v)
+	case "score":
+		return Number(v, 0)
 	case "usd":
 		return "$" + Number(v, 0)
 	case "tflops":

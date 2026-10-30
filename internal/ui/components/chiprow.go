@@ -6,6 +6,7 @@ import (
 	"github.com/mehran9675/silicondb/internal/format"
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // ChipRow is a list row for a chip: its category icon, name, maker and
@@ -36,11 +37,11 @@ func chipRowContent(cat *model.Catalog, chip *model.Chip, s giode.PressState) gi
 	if keys := cat.Schema.HighlightsFor(chip, 1); len(keys) > 0 {
 		f := cat.Schema.Field(keys[0])
 		trailing = giode.Stack(giode.Styles{Align: giode.AlignEnd, Gap: 2},
-			giode.Text(format.Value(f, chip.Specs[keys[0]]), giode.Styles{
+			giode.Text(tr.Value(f, keys[0], chip.Specs[keys[0]]), giode.Styles{
 				FontFamily: theme.Family, FontSize: 13.5, FontWeight: giode.FontWeightSemiBold, Color: theme.Text,
 				MaxLines: 1, TextOverflow: giode.TextOverflowEllipsis,
 			}),
-			giode.Text(format.Label(f, keys[0]), giode.Styles{FontFamily: theme.Family, FontSize: 11, Color: theme.Muted, MaxLines: 1}),
+			giode.Text(tr.Label(f, keys[0]), giode.Styles{FontFamily: theme.Family, FontSize: 11, Color: theme.Muted, MaxLines: 1}),
 		)
 	}
 

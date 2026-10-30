@@ -16,6 +16,8 @@ type Routes interface {
 	OpenMaker(id string)
 	// Explore switches to the Explore tab with q applied.
 	Explore(q store.Query)
+	// OpenLicenses shows the open-source licenses.
+	OpenLicenses()
 	// Makers switches to the Manufacturers tab.
 	Makers()
 	// Back leaves the current screen.

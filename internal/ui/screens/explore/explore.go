@@ -4,12 +4,12 @@ package explore
 import (
 	"github.com/mehran9675/giode"
 	"github.com/mehran9675/giode/components/lazylist"
-	"github.com/mehran9675/giode/components/segmented"
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/store"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // headerKey identifies the filter header, the list's first row.
@@ -19,7 +19,7 @@ const headerKey = "explore-header"
 type Screen struct {
 	env    *env.Env
 	search *components.SearchBar
-	sort   *segmented.Control
+	sort   *components.Segmented
 	list   *lazylist.List
 
 	query   store.Query
@@ -31,9 +31,8 @@ type Screen struct {
 // New returns the Explore screen.
 func New(e *env.Env) *Screen {
 	s := &Screen{env: e}
-	s.search = components.NewSearchBar("Search name, family, codename…", func(string) {})
-	s.sort = giode.Input.Segmented(store.SortLabels...).OnChange(func(i int) { s.query.Sort = store.SortOrder(i) })
-	s.sort.Styles(giode.Styles{Width: -1})
+	s.search = components.NewSearchBar("explore.search_hint", func(string) {})
+	s.sort = components.NewSegmented(func(i int) { s.query.Sort = store.SortOrder(i) }, store.SortKeys...)
 	s.list = giode.LazyList(
 		func() int { return len(s.results) + 2 },
 		s.key,
@@ -83,7 +82,7 @@ func (s *Screen) row(i int) giode.Element {
 		return pad(s.header(cat))
 	case i > len(s.results):
 		if len(s.results) == 0 {
-			return pad(components.EmptyState("search", "No chips found", "Try a different name or remove a filter.", nil))
+			return pad(components.EmptyState("search", tr.T("explore.empty.title"), tr.T("explore.empty.message"), nil))
 		}
 		return giode.Box(giode.Styles{Height: 24})
 	}

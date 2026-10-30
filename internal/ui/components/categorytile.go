@@ -7,6 +7,7 @@ import (
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // CategoryTile is a tappable tile for a category with its chip count.
@@ -32,10 +33,10 @@ func CategoryTile(c model.Category, count int, onClick func()) giode.Element {
 					giode.Text(fmt.Sprint(count), giode.Styles{FontFamily: theme.Family, FontSize: 13, FontWeight: giode.FontWeightSemiBold, Color: theme.Muted}),
 				),
 				giode.Stack(giode.Styles{Gap: 2},
-					giode.Text(c.Name, theme.Strong().With(giode.Styles{FontSize: 16})),
-					giode.Text(c.Title, theme.Caption().With(giode.Styles{MaxLines: 1, TextOverflow: giode.TextOverflowEllipsis})),
+					giode.Text(tr.CategoryName(c), theme.Strong().With(giode.Styles{FontSize: 16})),
+					giode.Text(tr.CategoryTitle(c), theme.Caption().With(giode.Styles{MaxLines: 1, TextOverflow: giode.TextOverflowEllipsis})),
 				),
 			)
-		}).Label(c.Name).OnClick(func(giode.ClickEvent) { onClick() })
+		}).Label(tr.CategoryName(c)).OnClick(func(giode.ClickEvent) { onClick() })
 	})
 }

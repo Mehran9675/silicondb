@@ -8,6 +8,7 @@ import (
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // Screen is a manufacturer's page.
@@ -23,7 +24,7 @@ type Screen struct {
 // New returns the page of the manufacturer with id.
 func New(e *env.Env, id string) *Screen {
 	s := &Screen{env: e, id: id}
-	s.back = components.NewRoundButton("chevron-left", "Back", e.Routes.Back)
+	s.back = components.NewRoundButton("chevron-left", tr.T("common.back"), e.Routes.Back)
 	s.list = giode.LazyList(
 		func() int { return len(s.chips) + 1 },
 		func(i int) any {
@@ -60,8 +61,8 @@ func (s *Screen) row(i int) giode.Element {
 		m := cat.Manufacturer(s.id)
 		if m == nil {
 			return pad(giode.Stack(giode.Styles{Width: -1},
-				components.AppBar(s.back, "Not found", ""),
-				components.EmptyState("factory", "Manufacturer not found", "It may have been removed in the latest update.", nil)))
+				components.AppBar(s.back, tr.T("common.not_found"), ""),
+				components.EmptyState("factory", tr.T("maker.missing.title"), tr.T("maker.missing.message"), nil)))
 		}
 		return pad(s.header(cat, m))
 	}

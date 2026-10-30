@@ -8,6 +8,7 @@ import (
 
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // MakerRow is a list row for a manufacturer with its chip count.
@@ -46,14 +47,14 @@ func MakerRow(m *model.Manufacturer, count int, onClick func()) giode.Element {
 func MakerSubtitle(m *model.Manufacturer) string {
 	s := m.Country
 	if m.Founded != 0 {
-		end := "today"
+		end := tr.T("makers.today")
 		if m.Defunct != 0 {
 			end = strconv.Itoa(m.Defunct)
 		}
 		if s != "" {
 			s += " · "
 		}
-		s += strconv.Itoa(m.Founded) + "–" + end
+		s += tr.T("makers.founded", "from", strconv.Itoa(m.Founded), "to", end)
 	}
 	return s
 }

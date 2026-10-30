@@ -8,6 +8,7 @@ import (
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 const (
@@ -29,10 +30,11 @@ func (s *Screen) tableView() giode.Element {
 	cat := s.env.Store.Catalog.Get()
 	chips := s.chips()
 	rows := []giode.Element{s.headerRow(cat, chips)}
-	rows = append(rows, s.textRow("Category", chips, func(c *model.Chip) string { return cat.Schema.Category(c.Category).Name }))
-	rows = append(rows, s.textRow("Manufacturer", chips, func(c *model.Chip) string { return cat.MakerName(c.Manufacturer) }))
-	rows = append(rows, s.textRow("Released", chips, func(c *model.Chip) string { return format.Date(c.Released) }))
-	for _, g := range cat.Schema.Groups {
+	rows = append(rows, s.textRow(tr.T("compare.category"), chips, func(c *model.Chip) string { return tr.CategoryName(cat.Schema.Category(c.Category)) }))
+	rows = append(rows, s.textRow(tr.T("compare.manufacturer"), chips, func(c *model.Chip) string { return cat.MakerName(c.Manufacturer) }))
+	rows = append(rows, s.textRow(tr.T("compare.released"), chips, func(c *model.Chip) string { return format.Date(c.Released) }))
+	for gi := range cat.Schema.Groups {
+		g := &cat.Schema.Groups[gi]
 		var groupRows []giode.Element
 		for i := range g.Fields {
 			f := &g.Fields[i]
@@ -42,7 +44,7 @@ func (s *Screen) tableView() giode.Element {
 		}
 		if len(groupRows) > 0 {
 			rows = append(rows, giode.Box(giode.Styles{Padding: giode.Inset{Top: 18, Bottom: 6}},
-				giode.Text(g.Label, theme.Overline().With(giode.Styles{Color: theme.Primary}))))
+				giode.Text(tr.Group(g), theme.Overline().With(giode.Styles{Color: theme.Primary}))))
 			rows = append(rows, groupRows...)
 		}
 	}
@@ -57,7 +59,7 @@ func (s *Screen) headerRow(cat *model.Catalog, chips []*model.Chip) giode.Elemen
 		remove := giode.Keyed("compare-remove", id, func() *giode.PressableElement {
 			return giode.Pressable(func(p giode.PressState) giode.Element {
 				return giode.Box(giode.Styles{Padding: giode.UniformInset(4)}, theme.Icon("close", 16, theme.Muted))
-			}).Label("Remove").OnClick(func(giode.ClickEvent) { s.env.Store.ToggleCompare(id) })
+			}).Label(tr.T("common.remove")).OnClick(func(giode.ClickEvent) { s.env.Store.ToggleCompare(id) })
 		})
 		open := giode.Keyed("compare-open", c, func() *giode.PressableElement {
 			return giode.Pressable(func(p giode.PressState) giode.Element {
@@ -95,7 +97,7 @@ func (s *Screen) specRow(f *model.Field, chips []*model.Chip) giode.Element {
 			continue
 		}
 		found = true
-		vals[i] = format.Value(f, v)
+		vals[i] = tr.Value(f, f.Key, v)
 		if n, ok := v.(float64); ok && !neutral[f.Key] {
 			numbers++
 			better := n > bestVal
@@ -113,7 +115,7 @@ func (s *Screen) specRow(f *model.Field, chips []*model.Chip) giode.Element {
 	if numbers < 2 {
 		best = -1
 	}
-	return row(format.Label(f, f.Key), vals, best)
+	return row(tr.Label(f, f.Key), vals, best)
 }
 
 // row draws a label and one cell per chip; the cell at best is

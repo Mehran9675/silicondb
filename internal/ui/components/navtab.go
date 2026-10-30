@@ -4,9 +4,11 @@ import (
 	"github.com/mehran9675/giode"
 
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
-// NavTab is one destination of the bottom navigation bar.
+// NavTab is one destination of the bottom navigation bar; Label is a
+// message key.
 type NavTab struct {
 	Icon, Label string
 }
@@ -30,6 +32,6 @@ func navTabItem(t NavTab, selected bool, s giode.PressState) giode.Element {
 			Width: 56, Height: 30, Align: giode.AlignCenter, Justify: giode.JustifyCenter,
 			Background: pill, BorderRadius: theme.RadiusPill,
 		}, theme.Icon(t.Icon, 21, color)),
-		giode.Text(t.Label, giode.Styles{FontFamily: theme.Family, FontSize: 11.5, FontWeight: weight, Color: color}),
+		giode.Text(tr.T(t.Label), giode.Styles{FontFamily: theme.Family, FontSize: 11.5, FontWeight: weight, Color: color}),
 	)
 }

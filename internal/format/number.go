@@ -16,18 +16,19 @@ func Number(v float64, decimals int) string {
 	neg := strings.HasPrefix(s, "-")
 	s = strings.TrimPrefix(s, "-")
 	whole, frac, hasFrac := strings.Cut(s, ".")
+	group, decimal := separators()
 	var b strings.Builder
 	if neg {
 		b.WriteByte('-')
 	}
 	for i, r := range whole {
 		if i > 0 && (len(whole)-i)%3 == 0 {
-			b.WriteByte(',')
+			b.WriteString(group)
 		}
 		b.WriteRune(r)
 	}
 	if hasFrac {
-		b.WriteByte('.')
+		b.WriteString(decimal)
 		b.WriteString(frac)
 	}
 	return b.String()
@@ -38,11 +39,11 @@ func Number(v float64, decimals int) string {
 func Count(v float64) string {
 	switch {
 	case v >= 1e12:
-		return Number(v/1e12, 2) + " trillion"
+		return Number(v/1e12, 2) + " " + text("number.trillion", "trillion")
 	case v >= 1e9:
-		return Number(v/1e9, 2) + " billion"
+		return Number(v/1e9, 2) + " " + text("number.billion", "billion")
 	case v >= 1e6:
-		return Number(v/1e6, 2) + " million"
+		return Number(v/1e6, 2) + " " + text("number.million", "million")
 	}
 	return Number(v, 2)
 }

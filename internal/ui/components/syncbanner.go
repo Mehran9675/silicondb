@@ -7,6 +7,7 @@ import (
 
 	"github.com/mehran9675/silicondb/internal/store"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // SyncBanner reports a running or failed sync above content that is
@@ -14,9 +15,9 @@ import (
 func SyncBanner(st store.SyncStatus) giode.Element {
 	switch st.Phase {
 	case store.Syncing:
-		label := "Checking for updates…"
+		label := tr.T("sync.checking")
 		if st.Total > 0 {
-			label = fmt.Sprintf("Updating database · %d of %d files", st.Done, st.Total)
+			label = tr.T("sync.updating", "done", fmt.Sprint(st.Done), "total", fmt.Sprint(st.Total))
 		}
 		children := []giode.Element{
 			giode.Row(giode.Styles{Gap: 10, Align: giode.AlignCenter, Wrap: giode.WrapNoWrap},
@@ -34,8 +35,8 @@ func SyncBanner(st store.SyncStatus) giode.Element {
 			giode.Row(giode.Styles{Gap: 10, Align: giode.AlignCenter, Wrap: giode.WrapNoWrap},
 				theme.Icon("alert", 18, theme.Danger),
 				giode.Stack(giode.Styles{FlexGrow: 1, Gap: 2},
-					giode.Text("Couldn't update the database", theme.Strong().With(giode.Styles{FontSize: 14})),
-					giode.Text("Showing the offline copy. "+st.Err, theme.Caption().With(giode.Styles{MaxLines: 2, TextOverflow: giode.TextOverflowEllipsis})),
+					giode.Text(tr.T("sync.failed"), theme.Strong().With(giode.Styles{FontSize: 14})),
+					giode.Text(tr.T("sync.offline_copy", "error", st.Err), theme.Caption().With(giode.Styles{MaxLines: 2, TextOverflow: giode.TextOverflowEllipsis})),
 				),
 			))
 	}

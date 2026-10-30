@@ -14,6 +14,7 @@ import (
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // Screen is the home tab.
@@ -43,18 +44,19 @@ func (s *Screen) content() giode.Element {
 	}
 	return components.Column(18,
 		giode.Box(giode.Styles{Height: 10}),
-		components.HeroCard("Silicon DB", "The processor encyclopedia", []components.HeroStat{
-			{Value: format.Number(float64(len(cat.Chips)), 0), Label: "chips"},
-			{Value: fmt.Sprint(len(cat.Manufacturers)), Label: "manufacturers"},
-			{Value: years, Label: "years"},
+		components.HeroCard(tr.T("app.name"), tr.T("app.tagline"), []components.HeroStat{
+			{Value: format.Number(float64(len(cat.Chips)), 0), Label: tr.T("home.stat.chips")},
+			{Value: fmt.Sprint(len(cat.Manufacturers)), Label: tr.T("home.stat.makers")},
+			{Value: years, Label: tr.T("home.stat.years")},
 		}),
 		s.search,
 		components.SyncBanner(s.env.Store.Status.Get()),
 		categories(s.env, cat),
 		recent(s.env, cat),
 		latest(s.env, cat),
+		fastest(s.env, cat),
 		pioneers(s.env, cat),
 		topMakers(s.env, cat),
-		giode.Text("Data updated "+format.Date(cat.Updated), theme.Caption().With(giode.Styles{TextAlign: giode.TextAlignCenter, Width: -1})),
+		giode.Text(tr.T("home.data_updated", "date", format.Date(cat.Updated)), theme.Caption().With(giode.Styles{TextAlign: giode.TextAlignCenter, Width: -1})),
 	)
 }

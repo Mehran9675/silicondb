@@ -9,6 +9,7 @@ import (
 	"github.com/mehran9675/silicondb/internal/store"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 const sectionSize = 5
@@ -21,14 +22,28 @@ func recent(e *env.Env, cat *model.Catalog) giode.Element {
 			chips = append(chips, c)
 		}
 	}
-	return chipList(e, "recent", "Recently viewed", cat, chips, nil)
+	return chipList(e, "recent", tr.T("home.recent"), cat, chips, nil)
 }
 
 // latest lists the newest chips.
 func latest(e *env.Env, cat *model.Catalog) giode.Element {
 	chips := cat.Chips[:min(sectionSize, len(cat.Chips))]
-	return chipList(e, "latest", "Latest releases", cat, chips,
-		components.TextLink("home-latest", "See all", func() { e.Routes.Explore(store.Query{}) }))
+	return chipList(e, "latest", tr.T("home.latest"), cat, chips,
+		components.TextLink("home-latest", tr.T("common.see_all"), func() { e.Routes.Explore(store.Query{}) }))
+}
+
+// fastest lists the processors with the highest benchmark score.
+func fastest(e *env.Env, cat *model.Catalog) giode.Element {
+	chips := store.Query{Sort: store.Fastest}.Run(cat)
+	var top []*model.Chip
+	for _, c := range chips {
+		if _, ok := c.Number(store.SpeedKey); !ok || len(top) == sectionSize {
+			break
+		}
+		top = append(top, c)
+	}
+	return chipList(e, "fastest", tr.T("home.fastest"), cat, top,
+		components.TextLink("home-fastest", tr.T("common.see_all"), func() { e.Routes.Explore(store.Query{Sort: store.Fastest}) }))
 }
 
 // pioneers lists the oldest chips: where it all began.
@@ -38,8 +53,8 @@ func pioneers(e *env.Env, cat *model.Catalog) giode.Element {
 	for i := n - 1; i >= 0 && len(chips) < sectionSize; i-- {
 		chips = append(chips, cat.Chips[i])
 	}
-	return chipList(e, "pioneers", "Where it began", cat, chips,
-		components.TextLink("home-pioneers", "See all", func() { e.Routes.Explore(store.Query{Sort: store.OldestFirst}) }))
+	return chipList(e, "pioneers", tr.T("home.pioneers"), cat, chips,
+		components.TextLink("home-pioneers", tr.T("common.see_all"), func() { e.Routes.Explore(store.Query{Sort: store.OldestFirst}) }))
 }
 
 // topMakers lists the manufacturers with the most chips.
@@ -49,8 +64,8 @@ func topMakers(e *env.Env, cat *model.Catalog) giode.Element {
 		return len(cat.ChipsBy(makers[i].ID)) > len(cat.ChipsBy(makers[j].ID))
 	})
 	makers = makers[:min(sectionSize, len(makers))]
-	rows := []giode.Element{components.SectionHeader("Top manufacturers",
-		components.TextLink("home-makers", "See all", func() { e.Routes.Makers() }))}
+	rows := []giode.Element{components.SectionHeader(tr.T("home.top_makers"),
+		components.TextLink("home-makers", tr.T("common.see_all"), func() { e.Routes.Makers() }))}
 	for _, m := range makers {
 		id := m.ID
 		rows = append(rows, components.MakerRow(m, len(cat.ChipsBy(id)), func() { e.Routes.OpenMaker(id) }))

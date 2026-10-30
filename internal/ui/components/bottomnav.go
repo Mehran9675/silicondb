@@ -4,6 +4,7 @@ import (
 	"github.com/mehran9675/giode"
 
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // BottomNav is the tab bar along the bottom of the screen. Create it once.
@@ -20,7 +21,7 @@ func NewBottomNav(tabs []NavTab, selected func() int, onSelect func(i int)) *Bot
 	for i, t := range tabs {
 		n.items = append(n.items, giode.Pressable(func(s giode.PressState) giode.Element {
 			return navTabItem(t, n.selected() == i, s)
-		}).Label(t.Label).OnClick(func(giode.ClickEvent) { onSelect(i) }))
+		}).Label(tr.T(t.Label)).OnClick(func(giode.ClickEvent) { onSelect(i) }))
 	}
 	return n
 }

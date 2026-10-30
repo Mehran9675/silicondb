@@ -18,3 +18,14 @@ var Icons embed.FS
 //
 //go:embed icon.png
 var AppIcon []byte
+
+// Locales holds the UI translations, one message file per language.
+//
+//go:embed locales/*.json
+var Locales embed.FS
+
+// Licenses lists the open-source licenses of the app's modules, written
+// by `giode licenses`.
+//
+//go:embed licenses.json
+var Licenses []byte

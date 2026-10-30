@@ -7,6 +7,7 @@ import (
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/env"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // hero is the chip's banner in its category color: icon, name, maker,
@@ -31,9 +32,9 @@ func hero(e *env.Env, cat *model.Catalog, chip *model.Chip) giode.Element {
 		}).Label(cat.MakerName(id)).OnClick(func(giode.ClickEvent) { e.Routes.OpenMaker(id) })
 	})
 
-	meta := c.Title
+	meta := tr.CategoryTitle(c)
 	if chip.Family != "" {
-		meta = chip.Family + " · " + c.Name
+		meta = chip.Family + " · " + tr.CategoryName(c)
 	}
 	return giode.Box(giode.Styles{
 		FlexDirection:      giode.FlexDirectionColumn,

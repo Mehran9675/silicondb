@@ -2,3 +2,4 @@
 *.keystore
 *.jks
 *.syso
+release.keystore

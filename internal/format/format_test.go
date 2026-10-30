@@ -3,6 +3,8 @@ package format
 import (
 	"testing"
 
+	"github.com/mehran9675/giode/i18n"
+
 	"github.com/mehran9675/silicondb/internal/model"
 )
 
@@ -39,6 +41,25 @@ func TestDate(t *testing.T) {
 	for in, want := range map[string]string{"1972": "1972", "1972-04": "Apr 1972", "2024-10-24": "Oct 24, 2024"} {
 		if got := Date(in); got != want {
 			t.Errorf("Date(%q) = %q, want %q", in, got, want)
+		}
+	}
+}
+
+func TestGerman(t *testing.T) {
+	i18n.Add("de", map[string]any{"month.4": "Apr.", "date.month_year": "{month} {year}", "number.billion": "Milliarden"})
+	i18n.SetLocale("de")
+	defer i18n.SetLocale("en")
+	cases := []struct {
+		got, want string
+	}{
+		{Value(&model.Field{Format: "mhz"}, 3200.0), "3,2 GHz"},
+		{Value(&model.Field{Format: "count"}, 16384.0), "16.384"},
+		{Value(&model.Field{Format: "count"}, 92e9), "92 Milliarden"},
+		{Date("1972-04"), "Apr. 1972"},
+	}
+	for _, c := range cases {
+		if c.got != c.want {
+			t.Errorf("got %q, want %q", c.got, c.want)
 		}
 	}
 }

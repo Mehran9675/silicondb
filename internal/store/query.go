@@ -14,10 +14,16 @@ const (
 	NewestFirst SortOrder = iota
 	OldestFirst
 	ByName
+	// Fastest orders by benchmark score; chips without one follow,
+	// newest first.
+	Fastest
 )
 
-// SortLabels names the sort orders, in order.
-var SortLabels = []string{"Newest", "Oldest", "A–Z"}
+// SortKeys are the message keys naming the sort orders, in order.
+var SortKeys = []string{"sort.newest", "sort.oldest", "sort.name", "sort.fastest"}
+
+// SpeedKey is the benchmark Fastest sorts by.
+const SpeedKey = "geekbench6_multi"
 
 // Query selects chips from the catalog. Zero fields match everything.
 type Query struct {
@@ -59,6 +65,15 @@ func (q Query) Run(c *model.Catalog) []*model.Chip {
 		sort.SliceStable(out, func(i, j int) bool { return out[i].Released < out[j].Released })
 	case ByName:
 		sort.SliceStable(out, func(i, j int) bool { return strings.ToLower(out[i].Name) < strings.ToLower(out[j].Name) })
+	case Fastest:
+		sort.SliceStable(out, func(i, j int) bool {
+			a, okA := out[i].Number(SpeedKey)
+			b, okB := out[j].Number(SpeedKey)
+			if okA != okB {
+				return okA
+			}
+			return a > b
+		})
 	}
 	return out
 }

@@ -8,6 +8,7 @@ import (
 	"github.com/mehran9675/silicondb/internal/model"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // header is the company card, its numbers and the category filter.
@@ -28,15 +29,15 @@ func (s *Screen) header(cat *model.Catalog, m *model.Manufacturer) giode.Element
 	if first != 0 {
 		span = strconv.Itoa(first) + "–" + strconv.Itoa(last)
 	}
-	status := "Active"
+	status := tr.T("maker.active")
 	if !m.Active() {
-		status = "Until " + strconv.Itoa(m.Defunct)
+		status = tr.T("maker.until", "year", strconv.Itoa(m.Defunct))
 	}
 
-	chips := []giode.Element{s.filterChip("", "All", len(all))}
+	chips := []giode.Element{s.filterChip("", tr.T("common.all"), len(all))}
 	for _, c := range cat.Schema.Categories {
 		if counts[c.ID] > 0 {
-			chips = append(chips, s.filterChip(c.ID, c.Name, counts[c.ID]))
+			chips = append(chips, s.filterChip(c.ID, tr.CategoryName(c), counts[c.ID]))
 		}
 	}
 
@@ -51,9 +52,9 @@ func (s *Screen) header(cat *model.Catalog, m *model.Manufacturer) giode.Element
 				),
 			),
 			components.Grid(3, 10,
-				components.StatTile("Chips", strconv.Itoa(len(all)), theme.Primary),
-				components.StatTile("Releases", span, theme.Accent),
-				components.StatTile("Status", status, theme.Success),
+				components.StatTile(tr.T("maker.chips"), strconv.Itoa(len(all)), theme.Primary),
+				components.StatTile(tr.T("maker.releases"), span, theme.Accent),
+				components.StatTile(tr.T("maker.status"), status, theme.Success),
 			),
 		),
 		giode.Row(giode.Styles{Width: -1, Gap: 8}, chips...),

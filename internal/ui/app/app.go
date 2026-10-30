@@ -19,10 +19,12 @@ import (
 	"github.com/mehran9675/silicondb/internal/ui/screens/detail"
 	"github.com/mehran9675/silicondb/internal/ui/screens/explore"
 	"github.com/mehran9675/silicondb/internal/ui/screens/home"
+	"github.com/mehran9675/silicondb/internal/ui/screens/licenses"
 	"github.com/mehran9675/silicondb/internal/ui/screens/maker"
 	"github.com/mehran9675/silicondb/internal/ui/screens/makers"
 	"github.com/mehran9675/silicondb/internal/ui/screens/settings"
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // Tab indexes.
@@ -65,13 +67,13 @@ func New() *App {
 	a.explore = explore.New(a.env)
 	a.nav = nav.New(home.New(a.env), a.explore, makers.New(a.env), compare.New(a.env), settings.New(a.env))
 	a.bar = components.NewBottomNav([]components.NavTab{
-		{Icon: "home", Label: "Home"},
-		{Icon: "explore", Label: "Explore"},
-		{Icon: "factory", Label: "Makers"},
-		{Icon: "compare", Label: "Compare"},
-		{Icon: "settings", Label: "Settings"},
+		{Icon: "home", Label: "tab.home"},
+		{Icon: "explore", Label: "tab.explore"},
+		{Icon: "factory", Label: "tab.makers"},
+		{Icon: "compare", Label: "tab.compare"},
+		{Icon: "settings", Label: "tab.settings"},
 	}, a.nav.Tab, a.nav.SetTab)
-	a.retry = giode.Button("Try again", giode.Styles{BorderRadius: 14, Padding: giode.SymmetricInset(20, 12)}).OnClick(st.Refresh)
+	a.retry = giode.Button("", giode.Styles{BorderRadius: 14, Padding: giode.SymmetricInset(20, 12)}).OnClick(st.Refresh)
 
 	a.window = giode.New(giode.Config{
 		Title:        "Silicon DB",
@@ -83,6 +85,8 @@ func New() *App {
 		Icon:         assets.AppIcon,
 		OnBackground: st.Save,
 		OnStartup:    st.Start,
+		Intl:         &giode.IntlOptions{FS: assets.Locales, Dir: "locales", Fallback: "en"},
+		Locale:       st.Locale(),
 	})
 	return a
 }
@@ -106,8 +110,8 @@ func (a *App) page() giode.Element {
 	st := a.env.Store.Status.Get()
 	if a.env.Store.Catalog.Get() == nil {
 		if st.Phase == store.Failed {
-			return components.EmptyState("cloud", "Can't reach the database",
-				"Silicon DB needs a connection the first time it starts to download the chip data. "+st.Err, a.retry)
+			a.retry.Label(tr.T("common.try_again"))
+			return components.EmptyState("cloud", tr.T("offline.title"), tr.T("offline.message", "error", st.Err), a.retry)
 		}
 		return components.Splash(st)
 	}
@@ -128,6 +132,9 @@ func (a *App) Explore(q store.Query) {
 	a.explore.Apply(q)
 	a.nav.SetTab(tabExplore)
 }
+
+// OpenLicenses implements env.Routes.
+func (a *App) OpenLicenses() { a.nav.Push(licenses.New(a.env)) }
 
 // Makers implements env.Routes.
 func (a *App) Makers() { a.nav.SetTab(tabMakers) }

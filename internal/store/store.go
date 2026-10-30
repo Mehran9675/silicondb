@@ -140,6 +140,16 @@ func (s *Store) Dark() bool {
 // SetDark switches dark mode on or off.
 func (s *Store) SetDark(on bool) { s.updatePrefs(func(p *Prefs) { p.Dark = on }) }
 
+// Locale returns the chosen UI language, or "" to follow the system.
+func (s *Store) Locale() string {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+	return s.prefs.Locale
+}
+
+// SetLocale chooses the UI language ("" follows the system).
+func (s *Store) SetLocale(code string) { s.updatePrefs(func(p *Prefs) { p.Locale = code }) }
+
 // Compare returns the ids of the chips in the comparison.
 func (s *Store) Compare() []string {
 	s.mu.Lock()

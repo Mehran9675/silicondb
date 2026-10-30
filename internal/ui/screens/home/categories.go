@@ -7,6 +7,7 @@ import (
 	"github.com/mehran9675/silicondb/internal/store"
 	"github.com/mehran9675/silicondb/internal/ui/components"
 	"github.com/mehran9675/silicondb/internal/ui/env"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // categories is the grid of chip categories with their counts.
@@ -27,7 +28,7 @@ func categories(e *env.Env, cat *model.Catalog) giode.Element {
 		cols = 4
 	}
 	return giode.Stack(giode.Styles{Width: -1, Gap: 10},
-		components.SectionHeader("Categories", nil),
+		components.SectionHeader(tr.T("home.categories"), nil),
 		components.Grid(cols, 12, tiles...),
 	)
 }

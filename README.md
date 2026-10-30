@@ -18,7 +18,11 @@ manufacturer and every era. Built in Go with
 - **Compare**: up to four chips side by side, with the best value in each row highlighted.
 - **Offline first**: the last download is kept on the device, and updates fetch only the
   files that changed.
-- Dark and light themes, phone and tablet layouts.
+- **Benchmarks**: Geekbench 6 (CPU and GPU compute) and Cinebench 2024, R23 and R15 scores,
+  shown as bars against the fastest chip in the database, and a "Fastest" sort.
+- **25 languages**: English and 24 other European languages, following the system language
+  or chosen in Settings, with localized numbers and dates.
+- Dark and light themes, phone and tablet layouts, open-source licenses screen.
 
 ## Data
 
@@ -61,15 +65,16 @@ giode run                    # on this computer
 
 ### Releases
 
-Publishing a GitHub release runs [`.github/workflows/release.yml`](.github/workflows/release.yml),
-which builds the Android APK and the iOS IPA with the release's version and attaches them to
-the release. Nothing is built on ordinary pushes. Signing uses repository secrets:
+`.github/workflows/release.yml` is written by `giode ci` from `giode.toml` (`app.platforms`
+and `[ci]`); rerun `giode ci -f` after changing those rather than editing it. Publishing a
+GitHub release builds the Android APK and AAB and the iOS IPA, with the release tag as the
+version and the run number as the build number, and attaches them to the release. Nothing is
+built on ordinary pushes. Signing uses repository secrets:
 
 | Secret | For |
 | --- | --- |
-| `ANDROID_KEYSTORE_BASE64`, `ANDROID_KEYSTORE_PASS` | A release-signed APK (create the keystore with `giode keystore`). Without them the APK uses a debug key and can't update an earlier install. |
-| `IOS_CERTIFICATE_BASE64`, `IOS_CERTIFICATE_PASS` | The Apple distribution certificate, exported as .p12. |
-| `IOS_PROFILE_BASE64` | The provisioning profile for `com.mehran9675.silicondb`. Without these the iOS build is skipped. |
+| `ANDROID_KEYSTORE_BASE64`, `GIODE_KEYSTORE_PASS` | A release-signed Android build (create the keystore with `giode keystore`). Without them the APK uses a debug key and can't update an earlier install. |
+| `IOS_CERT_BASE64`, `IOS_CERT_PASS`, `IOS_PROFILE_BASE64` (and optionally `IOS_TEAM_ID`) | The Apple distribution certificate as .p12, its password, and the provisioning profile for `com.mehran9675.silicondb`. Without them the workflow only checks the simulator build. |
 
 Encode a file for a secret with `base64 -i file | pbcopy` (macOS) or `base64 -w0 file` (Linux).
 
@@ -79,7 +84,8 @@ The app icon is drawn by `go run ./cmd/icongen`, which writes `assets/icon.png`.
 
 ```
 main.go                     entry point
-assets/                     embedded fonts (Inter), SVG icons and the app icon
+assets/                     embedded fonts (Inter), SVG icons, app icon, translations
+                            (locales/) and open-source licenses (licenses.json)
 cmd/indexgen/               data validator and index generator
 cmd/icongen/                draws assets/icon.png
 data/                       the database (downloaded by the app, not embedded)
@@ -91,12 +97,22 @@ internal/
   store/                    app state: catalog, sync status, queries, preferences
   ui/
     theme/                  palettes, type scale, fonts, icons
+    tr/                     translation helpers and the language list
     nav/                    tab and stack navigation
     env/                    what screens share
     components/             reusable widgets, one per file
-    screens/                home, explore, detail, makers, maker, compare, settings
+    screens/                home, explore, detail, makers, maker, compare, settings, licenses
     app/                    assembles the screens into the app
 ```
+
+## Translations
+
+UI text lives in `assets/locales/<language>.json`, one file per language, read with giode's
+`Intl`. Spec, group and category labels come from `data/schema.json` in English and are
+translated under `spec.<key>`, `group.<id>` and `category.<id>.name`/`.title`; a field added
+to the schema later shows its English label until a translation is added. To add a language,
+copy `en.json`, translate it (plus those schema keys) and add it to
+`internal/ui/tr/languages.go`.
 
 ## Tests
 

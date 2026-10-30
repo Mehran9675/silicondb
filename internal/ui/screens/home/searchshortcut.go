@@ -4,6 +4,7 @@ import (
 	"github.com/mehran9675/giode"
 
 	"github.com/mehran9675/silicondb/internal/ui/theme"
+	"github.com/mehran9675/silicondb/internal/ui/tr"
 )
 
 // searchShortcut looks like a search field and opens Explore.
@@ -22,7 +23,7 @@ func searchShortcut(onClick func()) *giode.PressableElement {
 			BorderColor:  theme.Border,
 		},
 			theme.Icon("search", 18, theme.Muted),
-			giode.Text("Search chips, families, codenames…", theme.Body().With(giode.Styles{Color: theme.Muted})),
+			giode.Text(tr.T("home.search_hint"), theme.Body().With(giode.Styles{Color: theme.Muted})),
 		)
-	}).Label("Search").OnClick(func(giode.ClickEvent) { onClick() })
+	}).Label(tr.T("common.search")).OnClick(func(giode.ClickEvent) { onClick() })
 }

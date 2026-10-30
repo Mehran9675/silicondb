@@ -88,7 +88,22 @@ arrays of strings. Use the unit the key names:
   sparsity), `*_tops` in TOPS, `launch_price_usd` in US dollars.
 - `l1_cache_kb`, `l2_cache_kb`, `l3_cache_kb` are totals for the chip.
 - `instruction_sets`, `graphics_api` and `connectivity` are arrays of strings.
+- Benchmark keys (`geekbench6_*`, `cinebench_*`) hold the typical stock score as the
+  benchmark reports it.
 - Leave a spec out rather than guess. Omitted specs simply aren't shown.
+
+### Completeness
+
+`schema.json`'s `expected` lists, per category, the specs a complete entry has, and
+`expected_since` adds specs (benchmarks) for chips released in or after a year. Each chip
+lists, under `"na"`, the expected keys that don't apply to it or were never published:
+
+```json
+{ "id": "intel-80486dx", "specs": { ... }, "na": ["l3_cache_kb", "boost_clock_mhz"] }
+```
+
+`go run ./cmd/indexgen -report` lists every chip's missing specs; `-only <id prefix>` narrows
+it to one manufacturer.
 
 Keys not in `schema.json` are still shown, under "Other", with a label derived from the key;
 adding them to `schema.json` later gives them a proper label, unit and group without an app

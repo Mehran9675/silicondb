@@ -11,19 +11,17 @@ package = "."
 publisher = "Silicon DB"
 description = "Specifications of processors, GPUs, SoCs, AI accelerators and other chips."
 website = "https://github.com/Mehran9675/silicondb"
+platforms = ["android", "ios"]
+licenses = "assets/licenses.json"
 
 [android]
 min_sdk = 24
+keystore = "release.keystore"      # written by the release workflow from ANDROID_KEYSTORE_BASE64
 permissions = ["network"]
 
 [ios]
 min_os = 15
 
-[windows]
-arch = "amd64"
-
-[linux]
-categories = ["Education", "Science"]
-
-[web]
-port = 8080
+[ci]
+trigger = "release"
+test = "go run ./cmd/indexgen -check && go test ./internal/model/... ./internal/data/... ./internal/format/... ./internal/store/..."

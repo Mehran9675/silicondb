@@ -9,6 +9,7 @@ import (
 // Prefs are the user's settings, saved between runs.
 type Prefs struct {
 	Dark       bool     `json:"dark"`
+	Locale     string   `json:"locale,omitempty"`
 	DataURL    string   `json:"dataURL,omitempty"`
 	Compare    []string `json:"compare,omitempty"`
 	Recent     []string `json:"recent,omitempty"`

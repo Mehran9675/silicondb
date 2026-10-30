@@ -1,126 +1,132 @@
-# Builds Silicon DB for Android and iOS when a release is published and
-# attaches the builds to it. Nothing runs on pushes or pull requests.
-#
-# Repository secrets:
-#   Android (optional; without them the APK is signed with a throwaway
-#   debug key, which can't update a previously installed copy):
-#     ANDROID_KEYSTORE_BASE64   base64 of the keystore made by `giode keystore`
-#     ANDROID_KEYSTORE_PASS     its password
-#   iOS (required for the iOS build; it is skipped with a warning without them):
-#     IOS_CERTIFICATE_BASE64    base64 of the signing certificate exported as .p12
-#     IOS_CERTIFICATE_PASS      the .p12 password
-#     IOS_PROFILE_BASE64        base64 of the .mobileprovision for com.mehran9675.silicondb
-name: Release build
+# Written by giode ci from giode.toml; rerun giode ci -f after changing
+# [ci] there rather than editing this file.
+# Builds when a GitHub release is published and adds the files to it.
+name: release
 
 on:
   release:
     types: [published]
+  workflow_dispatch:
 
 permissions:
   contents: write
 
 env:
-  TAG: ${{ github.event.release.tag_name }}
-  GH_TOKEN: ${{ github.token }}
+  GIODE_VERSION: ${{ github.ref_type == 'tag' && github.ref_name || '' }}
+  GIODE_BUILD: ${{ github.run_number }}
 
 jobs:
-  android:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-go@v5
         with:
-          go-version-file: go.mod
-
-      - uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-
-      - name: Install the giode CLI
-        run: go install github.com/mehran9675/giode-cli/cmd/giode@latest
-
-      - name: Set the version from the release tag
-        run: .github/scripts/set-version.sh
-
-      - name: Check the data
-        run: go run ./cmd/indexgen -check
-
-      - name: Build
-        env:
-          KEYSTORE: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
-          GIODE_KEYSTORE_PASS: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          go-version: stable
+      - name: Install build dependencies
         run: |
-          if [ -n "$KEYSTORE" ]; then
-            echo "$KEYSTORE" | base64 -d > release.keystore
-            .github/scripts/toml-set.py android keystore '"release.keystore"'
-            giode build -release android
-          else
-            echo "::warning::No Android keystore secrets; the APK is signed with a debug key."
-            giode build android
-          fi
-          mkdir -p out
-          cp dist/android/*.apk "out/SiliconDB-${TAG}.apk"
+          sudo apt-get update
+          sudo apt-get install -y gcc pkg-config libwayland-dev libx11-dev libx11-xcb-dev libxkbcommon-x11-dev libgles2-mesa-dev libegl1-mesa-dev libffi-dev libxcursor-dev libvulkan-dev
+      - name: Test (giode.toml ci.test)
+        run: |
+          go run ./cmd/indexgen -check && go test ./internal/model/... ./internal/data/... ./internal/format/... ./internal/store/...
 
-      - name: Attach to the release
-        run: gh release upload "$TAG" out/* --clobber
+  linux:
+    needs: test
+    strategy:
+      matrix:
+        include:
+          - arch: amd64
+            runner: ubuntu-latest
+            primary: true
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc pkg-config libwayland-dev libx11-dev libx11-xcb-dev libxkbcommon-x11-dev libgles2-mesa-dev libegl1-mesa-dev libffi-dev libxcursor-dev libvulkan-dev nsis osslsigncode
+          go install github.com/mehran9675/giode-cli/cmd/giode@latest
+      - name: Signing keys
+        env:
+          ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          WINDOWS_CERT_BASE64: ${{ secrets.WINDOWS_CERT_BASE64 }}
+        run: |
+          if [ -n "$ANDROID_KEYSTORE_BASE64" ]; then echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > release.keystore; fi
+          if [ -n "$WINDOWS_CERT_BASE64" ]; then echo "$WINDOWS_CERT_BASE64" | base64 -d > codesign.pfx; fi
+      - name: Build Android
+        if: matrix.primary
+        env:
+          GIODE_KEYSTORE_PASS: ${{ secrets.GIODE_KEYSTORE_PASS }}
+          GIODE_WINDOWS_CERT_PASS: ${{ secrets.GIODE_WINDOWS_CERT_PASS }}
+        run: |
+          apk=""; if [ -n "$GIODE_KEYSTORE_PASS" ]; then apk="-release"; fi
+          giode build $apk android aab
+      - uses: actions/upload-artifact@v4
+        with:
+          name: linux-${{ matrix.arch }}
+          if-no-files-found: ignore
+          path: |
+            dist/linux/*.deb
+            dist/linux/*.rpm
+            dist/windows/*.exe
+            dist/windows/*.msix
+            dist/android/*.apk
+            dist/android/*.aab
+            dist/android/native-debug-symbols.zip
 
   ios:
+    needs: test
     runs-on: macos-latest
     env:
-      CERTIFICATE: ${{ secrets.IOS_CERTIFICATE_BASE64 }}
-      CERTIFICATE_PASS: ${{ secrets.IOS_CERTIFICATE_PASS }}
-      PROFILE: ${{ secrets.IOS_PROFILE_BASE64 }}
+      IOS_CERT_BASE64: ${{ secrets.IOS_CERT_BASE64 }}
+      IOS_PROFILE_BASE64: ${{ secrets.IOS_PROFILE_BASE64 }}
     steps:
-      - name: Check the signing secrets
-        id: secrets
-        run: |
-          if [ -z "$CERTIFICATE" ] || [ -z "$PROFILE" ]; then
-            echo "::warning::No iOS signing secrets; skipping the iOS build."
-            echo "ready=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "ready=true" >> "$GITHUB_OUTPUT"
-          fi
-
       - uses: actions/checkout@v4
-        if: steps.secrets.outputs.ready == 'true'
-
       - uses: actions/setup-go@v5
-        if: steps.secrets.outputs.ready == 'true'
         with:
-          go-version-file: go.mod
-
-      - name: Install the giode CLI
-        if: steps.secrets.outputs.ready == 'true'
-        run: go install github.com/mehran9675/giode-cli/cmd/giode@latest
-
-      - name: Set the version from the release tag
-        if: steps.secrets.outputs.ready == 'true'
-        run: .github/scripts/set-version.sh
-
-      - name: Install the certificate and profile
-        if: steps.secrets.outputs.ready == 'true'
+          go-version: stable
+      - run: go install github.com/mehran9675/giode-cli/cmd/giode@latest
+      - name: Signing certificate and profile
+        if: env.IOS_CERT_BASE64 != '' && env.IOS_PROFILE_BASE64 != ''
+        env:
+          IOS_CERT_PASS: ${{ secrets.IOS_CERT_PASS }}
         run: |
-          keychain="$RUNNER_TEMP/signing.keychain-db"
-          keychain_pass="$(openssl rand -hex 16)"
-          echo "$CERTIFICATE" | base64 -d > "$RUNNER_TEMP/cert.p12"
-          security create-keychain -p "$keychain_pass" "$keychain"
-          security set-keychain-settings -lut 3600 "$keychain"
-          security unlock-keychain -p "$keychain_pass" "$keychain"
-          security import "$RUNNER_TEMP/cert.p12" -P "$CERTIFICATE_PASS" -A -t cert -f pkcs12 -k "$keychain"
-          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$keychain_pass" "$keychain"
-          security list-keychains -d user -s "$keychain" $(security list-keychains -d user | tr -d '"')
-          echo "$PROFILE" | base64 -d > SiliconDB.mobileprovision
-          .github/scripts/toml-set.py ios profile '"SiliconDB.mobileprovision"'
-
+          echo "$IOS_CERT_BASE64" | base64 -d > cert.p12
+          security create-keychain -p ci build.keychain
+          security default-keychain -s build.keychain
+          security unlock-keychain -p ci build.keychain
+          security import cert.p12 -k build.keychain -P "$IOS_CERT_PASS" -T /usr/bin/codesign
+          security set-key-partition-list -S apple-tool:,apple: -s -k ci build.keychain
+          rm cert.p12
+          echo "$IOS_PROFILE_BASE64" | base64 -d > "$RUNNER_TEMP/app.mobileprovision"
+          echo "GIODE_IOS_PROFILE=$RUNNER_TEMP/app.mobileprovision" >> "$GITHUB_ENV"
       - name: Build
-        if: steps.secrets.outputs.ready == 'true'
+        env:
+          GIODE_IOS_TEAM_ID: ${{ secrets.IOS_TEAM_ID }}
         run: |
-          giode build -release ios
-          mkdir -p out
-          cp dist/ios/*.ipa "out/SiliconDB-${TAG}.ipa"
+          # A device build needs the certificate and profile; without
+          # them, check that the app builds for the simulator.
+          if [ -n "$GIODE_IOS_PROFILE" ]; then giode build ios; else giode build ios-sim; fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ios
+          if-no-files-found: ignore
+          path: dist/ios/*.ipa
 
-      - name: Attach to the release
-        if: steps.secrets.outputs.ready == 'true'
-        run: gh release upload "$TAG" out/* --clobber
+  publish:
+    needs: [linux, ios]
+    if: github.ref_type == 'tag'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: artifacts/**/*
+          tag_name: ${{ github.ref_name }}
