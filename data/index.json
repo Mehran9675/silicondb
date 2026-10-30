@@ -125,20 +125,20 @@
         {
           "path": "manufacturers/amd/apu.json",
           "category": "apu",
-          "count": 26,
-          "rev": "541dadd9a5ad7a86"
+          "count": 48,
+          "rev": "ab5f9d0aedba158b"
         },
         {
           "path": "manufacturers/amd/cpu.json",
           "category": "cpu",
-          "count": 75,
-          "rev": "d91aba74012f8fa8"
+          "count": 109,
+          "rev": "405258fbd1477b87"
         },
         {
           "path": "manufacturers/amd/gpu.json",
           "category": "gpu",
-          "count": 32,
-          "rev": "b7cd9a1e352efb6f"
+          "count": 40,
+          "rev": "fbff98f75911c384"
         }
       ]
     },

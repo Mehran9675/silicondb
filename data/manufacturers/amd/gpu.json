@@ -296,6 +296,10 @@
         "interface": "PCIe 2.1 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores",
         "gpu_boost_clock_mhz",
@@ -340,6 +344,10 @@
         "interface": "PCIe 2.1 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores",
         "gpu_boost_clock_mhz",
@@ -385,6 +393,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores",
         "gpu_boost_clock_mhz"
@@ -429,6 +441,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores",
         "gpu_boost_clock_mhz"
@@ -474,6 +490,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores"
       ]
@@ -517,6 +537,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores",
         "gpu_boost_clock_mhz"
@@ -561,6 +585,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores",
         "gpu_boost_clock_mhz"
@@ -605,6 +633,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores",
         "gpu_boost_clock_mhz"
@@ -650,6 +682,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores"
       ]
@@ -694,6 +730,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores"
       ]
@@ -738,6 +778,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores"
       ]
@@ -782,6 +826,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores"
       ]
@@ -826,6 +874,10 @@
         "interface": "PCIe 3.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores"
       ]
@@ -870,6 +922,10 @@
         "interface": "PCIe 4.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores"
       ]
@@ -914,6 +970,10 @@
         "interface": "PCIe 4.0 x8"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores",
         "rt_cores"
       ]
@@ -957,9 +1017,13 @@
         "fp32_tflops": 20.74,
         "fp16_tflops": 41.47,
         "tdp_w": 300,
-        "interface": "PCIe 4.0 x16"
+        "interface": "PCIe 4.0 x16",
+        "geekbench6_opencl": 133000,
+        "geekbench6_vulkan": 152000
       },
       "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores"
       ]
     },
@@ -1005,6 +1069,10 @@
         "interface": "PCIe 4.0 x16"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores"
       ]
     },
@@ -1047,9 +1115,13 @@
         "fp32_tflops": 13.21,
         "fp16_tflops": 26.43,
         "tdp_w": 230,
-        "interface": "PCIe 4.0 x16"
+        "interface": "PCIe 4.0 x16",
+        "geekbench6_vulkan": 115600
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores"
       ]
     },
@@ -1095,6 +1167,10 @@
         "interface": "PCIe 4.0 x8"
       },
       "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu",
         "tensor_cores"
       ]
     },
@@ -1138,8 +1214,14 @@
         "fp32_tflops": 61.4,
         "fp16_tflops": 122.8,
         "tdp_w": 355,
-        "interface": "PCIe 4.0 x16"
-      }
+        "interface": "PCIe 4.0 x16",
+        "geekbench6_opencl": 212081,
+        "geekbench6_vulkan": 235279
+      },
+      "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
     },
     {
       "id": "amd-radeon-rx-7900-xt",
@@ -1181,8 +1263,112 @@
         "fp32_tflops": 51.6,
         "fp16_tflops": 103.2,
         "tdp_w": 315,
+        "interface": "PCIe 4.0 x16",
+        "geekbench6_opencl": 186399,
+        "geekbench6_vulkan": 206494
+      },
+      "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "amd-radeon-pro-w7900",
+      "name": "Radeon PRO W7900",
+      "family": "Radeon PRO W7000",
+      "released": "2023-04-13",
+      "specs": {
+        "codename": "Navi 31",
+        "microarchitecture": "RDNA 3",
+        "market": "Workstation",
+        "launch_price_usd": 3999,
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "transistors": 57700000000,
+        "die_size_mm2": 529,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 98304,
+        "shading_units": 6144,
+        "compute_units": 96,
+        "tmus": 384,
+        "rops": 192,
+        "tensor_cores": 192,
+        "rt_cores": 96,
+        "gpu_clock_mhz": 1855,
+        "gpu_boost_clock_mhz": 2495,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 479.0,
+        "texture_rate_gtexels": 958.1,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 49152,
+        "memory_bus_bits": 384,
+        "memory_clock_mhz": 2250,
+        "memory_bandwidth_gbs": 864,
+        "fp64_tflops": 1.916,
+        "fp32_tflops": 61.32,
+        "fp16_tflops": 122.64,
+        "tdp_w": 295,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "amd-radeon-pro-w7800",
+      "name": "Radeon PRO W7800",
+      "family": "Radeon PRO W7000",
+      "released": "2023-04-13",
+      "specs": {
+        "codename": "Navi 31",
+        "microarchitecture": "RDNA 3",
+        "market": "Workstation",
+        "launch_price_usd": 2499,
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "transistors": 57700000000,
+        "die_size_mm2": 529,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 65536,
+        "shading_units": 4480,
+        "compute_units": 70,
+        "tmus": 280,
+        "rops": 128,
+        "tensor_cores": 140,
+        "rt_cores": 70,
+        "gpu_clock_mhz": 1895,
+        "gpu_boost_clock_mhz": 2520,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 322.6,
+        "texture_rate_gtexels": 705.6,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 32768,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 2250,
+        "memory_bandwidth_gbs": 576,
+        "fp64_tflops": 1.411,
+        "fp32_tflops": 45.16,
+        "fp16_tflops": 90.32,
+        "tdp_w": 260,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
     },
     {
       "id": "amd-radeon-rx-7600",
@@ -1225,7 +1411,62 @@
         "fp16_tflops": 43.5,
         "tdp_w": 165,
         "interface": "PCIe 4.0 x8"
-      }
+      },
+      "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "amd-radeon-rx-7900-gre",
+      "name": "Radeon RX 7900 GRE",
+      "family": "Radeon RX 7000",
+      "released": "2023-07-27",
+      "specs": {
+        "codename": "Navi 31",
+        "microarchitecture": "RDNA 3",
+        "market": "Desktop",
+        "launch_price_usd": 549,
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "transistors": 57700000000,
+        "die_size_mm2": 529,
+        "l2_cache_kb": 6144,
+        "l3_cache_kb": 65536,
+        "shading_units": 5120,
+        "compute_units": 80,
+        "tmus": 320,
+        "rops": 192,
+        "tensor_cores": 160,
+        "rt_cores": 80,
+        "gpu_clock_mhz": 1880,
+        "gpu_boost_clock_mhz": 2245,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 431.0,
+        "texture_rate_gtexels": 718.4,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 16384,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 2250,
+        "memory_bandwidth_gbs": 576,
+        "fp64_tflops": 1.437,
+        "fp32_tflops": 45.98,
+        "fp16_tflops": 91.96,
+        "tdp_w": 260,
+        "interface": "PCIe 4.0 x16"
+      },
+      "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
     },
     {
       "id": "amd-radeon-rx-7800-xt",
@@ -1267,8 +1508,161 @@
         "fp32_tflops": 37.3,
         "fp16_tflops": 74.65,
         "tdp_w": 263,
+        "interface": "PCIe 4.0 x16",
+        "geekbench6_opencl": 132588,
+        "geekbench6_vulkan": 146797
+      },
+      "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "amd-radeon-rx-7700-xt",
+      "name": "Radeon RX 7700 XT",
+      "family": "Radeon RX 7000",
+      "released": "2023-09-06",
+      "specs": {
+        "codename": "Navi 32",
+        "microarchitecture": "RDNA 3",
+        "market": "Desktop",
+        "launch_price_usd": 449,
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "transistors": 28100000000,
+        "die_size_mm2": 346,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 49152,
+        "shading_units": 3456,
+        "compute_units": 54,
+        "tmus": 216,
+        "rops": 96,
+        "tensor_cores": 108,
+        "rt_cores": 54,
+        "gpu_clock_mhz": 2171,
+        "gpu_boost_clock_mhz": 2544,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 244.2,
+        "texture_rate_gtexels": 549.5,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 12288,
+        "memory_bus_bits": 192,
+        "memory_clock_mhz": 2250,
+        "memory_bandwidth_gbs": 432,
+        "fp64_tflops": 1.099,
+        "fp32_tflops": 35.17,
+        "fp16_tflops": 70.34,
+        "tdp_w": 245,
+        "interface": "PCIe 4.0 x16",
+        "geekbench6_opencl": 122276,
+        "geekbench6_vulkan": 141288
+      },
+      "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "amd-radeon-pro-w7700",
+      "name": "Radeon PRO W7700",
+      "family": "Radeon PRO W7000",
+      "released": "2023-11-13",
+      "specs": {
+        "codename": "Navi 32",
+        "microarchitecture": "RDNA 3",
+        "market": "Workstation",
+        "launch_price_usd": 999,
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "transistors": 28100000000,
+        "die_size_mm2": 346,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 65536,
+        "shading_units": 3072,
+        "compute_units": 48,
+        "tmus": 192,
+        "rops": 96,
+        "tensor_cores": 96,
+        "rt_cores": 48,
+        "gpu_clock_mhz": 1900,
+        "gpu_boost_clock_mhz": 2600,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 249.6,
+        "texture_rate_gtexels": 499.2,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 16384,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 2250,
+        "memory_bandwidth_gbs": 576,
+        "fp64_tflops": 0.998,
+        "fp32_tflops": 31.95,
+        "fp16_tflops": 63.9,
+        "tdp_w": 190,
         "interface": "PCIe 4.0 x16"
-      }
+      },
+      "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "amd-radeon-rx-7600-xt",
+      "name": "Radeon RX 7600 XT",
+      "family": "Radeon RX 7000",
+      "released": "2024-01-24",
+      "specs": {
+        "codename": "Navi 33",
+        "microarchitecture": "RDNA 3",
+        "market": "Desktop",
+        "launch_price_usd": 329,
+        "process_nm": 6,
+        "foundry": "TSMC",
+        "transistors": 13300000000,
+        "die_size_mm2": 204,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 32768,
+        "shading_units": 2048,
+        "compute_units": 32,
+        "tmus": 128,
+        "rops": 64,
+        "tensor_cores": 64,
+        "rt_cores": 32,
+        "gpu_clock_mhz": 2470,
+        "gpu_boost_clock_mhz": 2755,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 176.3,
+        "texture_rate_gtexels": 352.6,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 16384,
+        "memory_bus_bits": 128,
+        "memory_clock_mhz": 2250,
+        "memory_bandwidth_gbs": 288,
+        "fp64_tflops": 0.705,
+        "fp32_tflops": 22.57,
+        "fp16_tflops": 45.14,
+        "tdp_w": 190,
+        "interface": "PCIe 4.0 x8",
+        "geekbench6_opencl": 83313,
+        "geekbench6_vulkan": 99223
+      },
+      "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
     },
     {
       "id": "amd-radeon-rx-9070-xt",
@@ -1310,8 +1704,14 @@
         "fp32_tflops": 48.66,
         "fp16_tflops": 97.32,
         "tdp_w": 304,
-        "interface": "PCIe 5.0 x16"
-      }
+        "interface": "PCIe 5.0 x16",
+        "geekbench6_opencl": 158990,
+        "geekbench6_vulkan": 181320
+      },
+      "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
     },
     {
       "id": "amd-radeon-rx-9070",
@@ -1353,8 +1753,63 @@
         "fp32_tflops": 36.13,
         "fp16_tflops": 72.26,
         "tdp_w": 220,
+        "interface": "PCIe 5.0 x16",
+        "geekbench6_opencl": 134163,
+        "geekbench6_vulkan": 164347
+      },
+      "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "amd-radeon-rx-9070-gre",
+      "name": "Radeon RX 9070 GRE",
+      "family": "Radeon RX 9000",
+      "released": "2025-05-08",
+      "specs": {
+        "codename": "Navi 48",
+        "microarchitecture": "RDNA 4",
+        "market": "Desktop",
+        "launch_price_usd": 549,
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "transistors": 53900000000,
+        "die_size_mm2": 357,
+        "l2_cache_kb": 8192,
+        "l3_cache_kb": 49152,
+        "shading_units": 3072,
+        "compute_units": 48,
+        "tmus": 192,
+        "rops": 96,
+        "tensor_cores": 96,
+        "rt_cores": 48,
+        "gpu_clock_mhz": 2220,
+        "gpu_boost_clock_mhz": 2790,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 267.8,
+        "texture_rate_gtexels": 535.7,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 12288,
+        "memory_bus_bits": 192,
+        "memory_clock_mhz": 2250,
+        "memory_bandwidth_gbs": 432,
+        "fp64_tflops": 1.071,
+        "fp32_tflops": 34.28,
+        "fp16_tflops": 68.56,
+        "tdp_w": 220,
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
     },
     {
       "id": "amd-radeon-rx-9060-xt",
@@ -1396,8 +1851,63 @@
         "fp32_tflops": 25.6,
         "fp16_tflops": 51.28,
         "tdp_w": 160,
+        "interface": "PCIe 5.0 x16",
+        "geekbench6_opencl": 109315,
+        "geekbench6_vulkan": 124251
+      },
+      "na": [
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    },
+    {
+      "id": "amd-radeon-ai-pro-r9700",
+      "name": "Radeon AI PRO R9700",
+      "family": "Radeon AI PRO",
+      "released": "2025-07-23",
+      "specs": {
+        "codename": "Navi 48",
+        "microarchitecture": "RDNA 4",
+        "market": "Workstation",
+        "launch_price_usd": 1299,
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "transistors": 53900000000,
+        "die_size_mm2": 357,
+        "l2_cache_kb": 8192,
+        "l3_cache_kb": 65536,
+        "shading_units": 4096,
+        "compute_units": 64,
+        "tmus": 256,
+        "rops": 128,
+        "tensor_cores": 128,
+        "rt_cores": 64,
+        "gpu_clock_mhz": 2350,
+        "gpu_boost_clock_mhz": 2920,
+        "graphics_api": [
+          "DirectX 12 Ultimate",
+          "Vulkan",
+          "OpenGL 4.6"
+        ],
+        "pixel_rate_gpixels": 373.8,
+        "texture_rate_gtexels": 747.5,
+        "memory_type": "GDDR6",
+        "memory_size_mb": 32768,
+        "memory_bus_bits": 256,
+        "memory_clock_mhz": 2500,
+        "memory_bandwidth_gbs": 640,
+        "fp64_tflops": 1.495,
+        "fp32_tflops": 47.84,
+        "fp16_tflops": 95.68,
+        "tdp_w": 300,
         "interface": "PCIe 5.0 x16"
-      }
+      },
+      "na": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
     }
   ]
 }
