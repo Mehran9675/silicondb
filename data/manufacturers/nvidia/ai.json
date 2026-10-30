@@ -551,6 +551,38 @@
       ]
     },
     {
+      "id": "nvidia-h100-nvl",
+      "name": "H100 NVL",
+      "family": "H100",
+      "released": "2023",
+      "specs": {
+        "codename": "GH100",
+        "microarchitecture": "Hopper",
+        "market": "Data center",
+        "process_nm": 4,
+        "foundry": "TSMC (4N)",
+        "transistors": 80000000000,
+        "die_size_mm2": 814,
+        "cores": 16896,
+        "compute_units": 132,
+        "tensor_cores": 528,
+        "boost_clock_mhz": 1785,
+        "sram_kb": 51200,
+        "memory_type": "HBM3",
+        "memory_size_mb": 96256,
+        "memory_bus_bits": 6144,
+        "memory_bandwidth_gbs": 3900.0,
+        "fp64_tflops": 30.0,
+        "fp32_tflops": 60.0,
+        "fp16_tflops": 835.0,
+        "bf16_tflops": 835.0,
+        "fp8_tflops": 1670.0,
+        "int8_tops": 1670.0,
+        "tdp_w": 400,
+        "interface": "PCIe 5.0 x16 (NVLink bridge)"
+      }
+    },
+    {
       "id": "nvidia-l4",
       "name": "L4",
       "family": "L4",
@@ -658,6 +690,40 @@
       }
     },
     {
+      "id": "nvidia-h20",
+      "name": "H20",
+      "family": "H100",
+      "released": "2024",
+      "specs": {
+        "codename": "GH100",
+        "microarchitecture": "Hopper",
+        "market": "Data center",
+        "process_nm": 4,
+        "foundry": "TSMC (4N)",
+        "transistors": 80000000000,
+        "die_size_mm2": 814,
+        "sram_kb": 61440,
+        "memory_type": "HBM3",
+        "memory_size_mb": 98304,
+        "memory_bandwidth_gbs": 4000.0,
+        "fp64_tflops": 1.0,
+        "fp32_tflops": 44.0,
+        "fp16_tflops": 148.0,
+        "bf16_tflops": 148.0,
+        "fp8_tflops": 296.0,
+        "int8_tops": 296.0,
+        "tdp_w": 400,
+        "interface": "SXM5 (NVLink 4)"
+      },
+      "na": [
+        "cores",
+        "compute_units",
+        "tensor_cores",
+        "boost_clock_mhz",
+        "memory_bus_bits"
+      ]
+    },
+    {
       "id": "nvidia-b200",
       "name": "B200",
       "family": "Blackwell",
@@ -760,6 +826,40 @@
         "codename",
         "die_size_mm2",
         "boost_clock_mhz"
+      ]
+    },
+    {
+      "id": "nvidia-gb300",
+      "name": "GB300 Grace Blackwell Ultra Superchip",
+      "family": "Grace Blackwell",
+      "released": "2025-07",
+      "specs": {
+        "codename": "Grace + 2x B300",
+        "microarchitecture": "Blackwell Ultra + Neoverse V2",
+        "market": "Data center",
+        "process_nm": 4,
+        "foundry": "TSMC (4NP)",
+        "cores": 72,
+        "compute_units": 320,
+        "tensor_cores": 1280,
+        "sram_kb": 258048,
+        "memory_type": "HBM3e",
+        "memory_size_mb": 589824,
+        "memory_bus_bits": 16384,
+        "memory_bandwidth_gbs": 16000.0,
+        "fp64_tflops": 2.5,
+        "fp32_tflops": 150.0,
+        "fp16_tflops": 4500.0,
+        "bf16_tflops": 4500.0,
+        "fp8_tflops": 9000.0,
+        "int8_tops": 375.0,
+        "interface": "NVLink-C2C / NVLink 5"
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "tdp_w"
       ]
     }
   ]

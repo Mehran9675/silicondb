@@ -44,7 +44,11 @@
         "pixel_rate_gpixels",
         "texture_rate_gtexels",
         "fp64_tflops",
-        "fp16_tflops"
+        "fp16_tflops",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -89,7 +93,11 @@
         "pixel_rate_gpixels",
         "texture_rate_gtexels",
         "fp64_tflops",
-        "fp16_tflops"
+        "fp16_tflops",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     },
     {
@@ -131,7 +139,11 @@
         "graphics_api",
         "pixel_rate_gpixels",
         "texture_rate_gtexels",
-        "fp64_tflops"
+        "fp64_tflops",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
       ]
     }
   ]

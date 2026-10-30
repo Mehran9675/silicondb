@@ -754,7 +754,7 @@
           "path": "manufacturers/moore-threads/gpu.json",
           "category": "gpu",
           "count": 3,
-          "rev": "aa20dd076e02d9fd"
+          "rev": "264e4dd91841f173"
         }
       ]
     },
@@ -873,26 +873,26 @@
         {
           "path": "manufacturers/nvidia/ai.json",
           "category": "ai",
-          "count": 21,
-          "rev": "6d18f1e52a3928ca"
+          "count": 24,
+          "rev": "e5edbf29c454a429"
         },
         {
           "path": "manufacturers/nvidia/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "9cdcd03aec5444a3"
+          "rev": "8e04c20addd2b5a5"
         },
         {
           "path": "manufacturers/nvidia/gpu.json",
           "category": "gpu",
-          "count": 104,
-          "rev": "3cc3144877ddccfa"
+          "count": 111,
+          "rev": "fe24febb85c0d627"
         },
         {
           "path": "manufacturers/nvidia/soc.json",
           "category": "soc",
-          "count": 11,
-          "rev": "8455962409b4c415"
+          "count": 13,
+          "rev": "1558e9374d71d724"
         }
       ]
     },

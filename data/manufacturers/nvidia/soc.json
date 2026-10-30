@@ -147,7 +147,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -184,7 +191,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -221,7 +235,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -259,7 +280,14 @@
         "slc_kb",
         "npu_tops",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -297,7 +325,14 @@
         "slc_kb",
         "npu_tops",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -338,7 +373,14 @@
       "na": [
         "base_clock_mhz",
         "slc_kb",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -379,7 +421,58 @@
       "na": [
         "die_size_mm2",
         "base_clock_mhz",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "nvidia-t239",
+      "name": "T239",
+      "family": "Tegra",
+      "released": "2025-06-05",
+      "specs": {
+        "codename": "T239",
+        "microarchitecture": "Cortex-A78C",
+        "isa": "ARMv8.2-A",
+        "market": "Console",
+        "process_nm": 8,
+        "foundry": "Samsung (8N)",
+        "cores": 8,
+        "core_config": "8x Cortex-A78C",
+        "boost_clock_mhz": 998,
+        "gpu": "Ampere",
+        "gpu_cores": 1536,
+        "gpu_clock_mhz": 1007,
+        "fp32_tflops": 3.09,
+        "memory_type": "LPDDR5X",
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 102.4,
+        "max_memory_mb": 12288
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "npu_tops",
+        "modem",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -420,7 +513,58 @@
         "base_clock_mhz",
         "slc_kb",
         "npu_tops",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "nvidia-gb10",
+      "name": "GB10 Grace Blackwell Superchip",
+      "family": "Grace Blackwell",
+      "released": "2025-10-15",
+      "specs": {
+        "codename": "GB10",
+        "microarchitecture": "Cortex-X925 + Cortex-A725",
+        "isa": "ARMv9.2-A",
+        "market": "Workstation",
+        "process_nm": 3,
+        "foundry": "TSMC (N3)",
+        "cores": 20,
+        "core_config": "10x Cortex-X925 + 10x Cortex-A725",
+        "gpu": "Blackwell",
+        "gpu_cores": 6144,
+        "fp32_tflops": 31.0,
+        "memory_type": "LPDDR5X",
+        "memory_bus_bits": 256,
+        "memory_bandwidth_gbs": 273.0,
+        "max_memory_mb": 131072,
+        "tdp_w": 140
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "npu_tops",
+        "modem",
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]
