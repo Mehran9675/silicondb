@@ -25,3 +25,12 @@ min_os = 15
 [ci]
 trigger = "release"
 test = "go run ./cmd/indexgen -check && go test ./internal/model/... ./internal/data/... ./internal/format/... ./internal/store/..."
+
+[ci.setup]
+# GitHub's Ubuntu runners have the Android SDK but not bundletool, which
+# building the Play Store bundle (aab) needs; put it in the newest build-tools.
+linux = '''
+bt="$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -n 1)"
+curl -fsSL -o "$RUNNER_TEMP/bundletool.jar" https://github.com/google/bundletool/releases/download/1.18.1/bundletool-all-1.18.1.jar
+sudo cp "$RUNNER_TEMP/bundletool.jar" "$bt/bundletool.jar"
+'''
