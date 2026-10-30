@@ -1,6 +1,9 @@
 package model
 
-import "sort"
+import (
+	"sort"
+	"sync"
+)
 
 // Catalog is the whole database in memory, assembled from the cached and
 // downloaded files.
@@ -13,6 +16,9 @@ type Catalog struct {
 	byID      map[string]*Chip
 	makerByID map[string]*Manufacturer
 	makerOf   map[string][]*Chip
+
+	maxMu sync.Mutex
+	max   map[string]float64
 }
 
 // NewCatalog builds a catalog from the schema, the manufacturers and their
@@ -109,4 +115,25 @@ func (c *Catalog) YearSpan() (first, last int) {
 		}
 	}
 	return first, last
+}
+
+// Max returns the highest numeric value of a spec across the catalog, for
+// scaling benchmark bars.
+func (c *Catalog) Max(key string) float64 {
+	c.maxMu.Lock()
+	defer c.maxMu.Unlock()
+	if v, ok := c.max[key]; ok {
+		return v
+	}
+	if c.max == nil {
+		c.max = map[string]float64{}
+	}
+	m := 0.0
+	for _, chip := range c.Chips {
+		if v, ok := chip.Number(key); ok && v > m {
+			m = v
+		}
+	}
+	c.max[key] = m
+	return m
 }

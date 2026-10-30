@@ -11,8 +11,17 @@ type Schema struct {
 	// Expected lists, per category, the specs a complete entry has
 	// where they apply. Only the data tools use it.
 	Expected map[string][]string `json:"expected,omitempty"`
+	// ExpectedSince adds specs expected only of chips released in or
+	// after a year, such as benchmarks that older chips can't run.
+	ExpectedSince map[string]ExpectedSince `json:"expected_since,omitempty"`
 
 	fields map[string]*Field
+}
+
+// ExpectedSince is a set of specs expected from a release year on.
+type ExpectedSince struct {
+	Year int      `json:"year"`
+	Keys []string `json:"keys"`
 }
 
 // Category is a kind of chip: CPU, GPU, SoC and so on.

@@ -45,7 +45,14 @@
         "fp32_tflops",
         "npu_tops",
         "modem",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

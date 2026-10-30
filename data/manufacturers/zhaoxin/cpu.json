@@ -1,0 +1,56 @@
+{
+  "manufacturer": "zhaoxin",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "zhaoxin-kx-7000",
+      "name": "KX-7000",
+      "family": "KaiXian KX-7000",
+      "released": "2023-12",
+      "specs": {
+        "microarchitecture": "Century Avenue (Shijidadao)",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "package": "Chiplet (CPU die + I/O die)",
+        "cores": 8,
+        "threads": 8,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3200,
+        "boost_clock_mhz": 3700,
+        "l2_cache_kb": 4096,
+        "l3_cache_kb": 32768,
+        "memory_type": "DDR5-4800 / DDR4-3200",
+        "interface": "PCIe 4.0 (24 lanes)",
+        "pcie_lanes": 24,
+        "instruction_sets": [
+          "SSE4.2",
+          "AVX",
+          "AVX2",
+          "SM2/SM3/SM4"
+        ],
+        "geekbench6_single": 824,
+        "geekbench6_multi": 3813,
+        "cinebench_r23_single": 584,
+        "cinebench_r23_multi": 3595
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "l1_cache_kb",
+        "max_memory_mb",
+        "tdp_w",
+        "voltage_v",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    }
+  ]
+}

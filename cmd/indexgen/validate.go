@@ -19,7 +19,7 @@ type report struct {
 	shards, chips    int
 	// gaps, when set, is called for every chip so -report can list
 	// missing specs.
-	gaps     func(id, category string, specs map[string]json.RawMessage, na []string)
+	gaps     func(id, category string, year int, specs map[string]json.RawMessage, na []string)
 	complete *completeness
 }
 
@@ -89,7 +89,7 @@ func validateShard(rel string, b []byte, maker, cat string, schema *model.Schema
 			}
 		}
 		if rep.gaps != nil {
-			rep.gaps(c.ID, cat, c.Specs, c.NA)
+			rep.gaps(c.ID, cat, year(c.Released), c.Specs, c.NA)
 		}
 		for k, v := range c.Specs {
 			if schema.Field(k) == nil {
@@ -120,4 +120,13 @@ func validValue(raw json.RawMessage) bool {
 		return true
 	}
 	return false
+}
+
+// year returns the year of a YYYY[-MM[-DD]] date, or 0.
+func year(date string) int {
+	y := 0
+	for i := 0; i < len(date) && i < 4; i++ {
+		y = y*10 + int(date[i]-'0')
+	}
+	return y
 }

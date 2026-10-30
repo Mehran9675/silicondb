@@ -76,6 +76,44 @@
         "dac",
         "mips"
       ]
+    },
+    {
+      "id": "raspberry-pi-rp2354b",
+      "name": "RP2354B",
+      "family": "RP2",
+      "released": "2024-08",
+      "specs": {
+        "microarchitecture": "Cortex-M33 / Hazard3 RISC-V",
+        "isa": "ARMv8-M / RV32IMAC",
+        "market": "Embedded",
+        "process_nm": 40,
+        "foundry": "TSMC",
+        "package": "QFN80 (RP2350B die + 2 MB stacked flash)",
+        "cores": 2,
+        "core_config": "2x Cortex-M33 or 2x Hazard3 RISC-V (selectable)",
+        "data_width_bits": 32,
+        "base_clock_mhz": 150,
+        "sram_kb": 520,
+        "voltage_v": 3.3,
+        "gpio_pins": 48,
+        "adc": "12-bit, 8 channels, 500 ksps",
+        "timers": "2× 64-bit µs timers (4 alarms each), 12× PWM slices (24 channels), AON timer, watchdog",
+        "interfaces": [
+          "USB 1.1 host/device",
+          "2× UART",
+          "2× SPI",
+          "2× I²C",
+          "12× PIO state machines",
+          "HSTX",
+          "QSPI (XIP, 2 chip selects)"
+        ],
+        "flash_kb": 2048
+      },
+      "na": [
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     }
   ]
 }

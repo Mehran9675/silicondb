@@ -1,9 +1,9 @@
 {
   "format": 1,
-  "updated": "2026-10-27",
+  "updated": "2026-10-30",
   "schema": {
     "path": "schema.json",
-    "rev": "e0995b7fe43ef6e0"
+    "rev": "61ccd654a387a0d3"
   },
   "manufacturers": [
     {
@@ -104,7 +104,7 @@
           "path": "manufacturers/amazon/cpu.json",
           "category": "cpu",
           "count": 5,
-          "rev": "84e341f303581c5d"
+          "rev": "5c56826ed5bcf4e6"
         }
       ]
     },
@@ -153,8 +153,8 @@
         {
           "path": "manufacturers/ampere/cpu.json",
           "category": "cpu",
-          "count": 5,
-          "rev": "d4067c222671422d"
+          "count": 6,
+          "rev": "eb02683427feea75"
         }
       ]
     },
@@ -297,8 +297,8 @@
         {
           "path": "manufacturers/espressif/mcu.json",
           "category": "mcu",
-          "count": 10,
-          "rev": "d226878312a700a4"
+          "count": 12,
+          "rev": "acb856d06c5d5806"
         }
       ]
     },
@@ -354,7 +354,7 @@
           "path": "manufacturers/freescale/soc.json",
           "category": "soc",
           "count": 10,
-          "rev": "6cf6d9fa7e021666"
+          "rev": "76ef98193cfadbb5"
         }
       ]
     },
@@ -370,7 +370,7 @@
           "path": "manufacturers/fujitsu/cpu.json",
           "category": "cpu",
           "count": 10,
-          "rev": "56063512ce1fbf0c"
+          "rev": "1afcf14794b430c9"
         }
       ]
     },
@@ -494,7 +494,23 @@
           "path": "manufacturers/huawei/cpu.json",
           "category": "cpu",
           "count": 3,
-          "rev": "1a4406adf1d77398"
+          "rev": "064982b7b856af6c"
+        }
+      ]
+    },
+    {
+      "id": "hygon",
+      "name": "Hygon",
+      "country": "China",
+      "founded": 2014,
+      "defunct": 0,
+      "website": "https://www.hygon.cn",
+      "shards": [
+        {
+          "path": "manufacturers/hygon/cpu.json",
+          "category": "cpu",
+          "count": 2,
+          "rev": "325a40c7951d1dc3"
         }
       ]
     },
@@ -516,7 +532,7 @@
           "path": "manufacturers/ibm/cpu.json",
           "category": "cpu",
           "count": 33,
-          "rev": "688b3fe25fa01f4e"
+          "rev": "ed9665304f7d79aa"
         }
       ]
     },
@@ -620,7 +636,7 @@
           "path": "manufacturers/loongson/cpu.json",
           "category": "cpu",
           "count": 10,
-          "rev": "6d45307106865a92"
+          "rev": "96853d480086ec13"
         }
       ]
     },
@@ -657,6 +673,22 @@
       ]
     },
     {
+      "id": "meta",
+      "name": "Meta",
+      "country": "United States",
+      "founded": 2004,
+      "defunct": 0,
+      "website": "https://about.meta.com",
+      "shards": [
+        {
+          "path": "manufacturers/meta/ai.json",
+          "category": "ai",
+          "count": 2,
+          "rev": "2a1029ef3b651fe0"
+        }
+      ]
+    },
+    {
       "id": "microchip",
       "name": "Microchip Technology",
       "country": "United States",
@@ -683,14 +715,14 @@
         {
           "path": "manufacturers/microsoft/ai.json",
           "category": "ai",
-          "count": 1,
-          "rev": "bf76606281b93e75"
+          "count": 2,
+          "rev": "90368735a916e5be"
         },
         {
           "path": "manufacturers/microsoft/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "8a1093f2404006a6"
+          "rev": "a2f2f36e1efb8c6a"
         }
       ]
     },
@@ -898,7 +930,7 @@
           "path": "manufacturers/oracle/cpu.json",
           "category": "cpu",
           "count": 8,
-          "rev": "a38b907f66282381"
+          "rev": "653e244c06219517"
         }
       ]
     },
@@ -935,8 +967,8 @@
         {
           "path": "manufacturers/raspberry-pi/mcu.json",
           "category": "mcu",
-          "count": 2,
-          "rev": "99c6203989d50140"
+          "count": 3,
+          "rev": "491f5f56ba5f75fc"
         }
       ]
     },
@@ -1054,7 +1086,7 @@
           "path": "manufacturers/sifive/cpu.json",
           "category": "cpu",
           "count": 2,
-          "rev": "cf232c8695512952"
+          "rev": "139f969027b6f745"
         },
         {
           "path": "manufacturers/sifive/mcu.json",
@@ -1091,14 +1123,14 @@
         {
           "path": "manufacturers/stmicroelectronics/mcu.json",
           "category": "mcu",
-          "count": 16,
-          "rev": "b72a33674b26c1e6"
+          "count": 17,
+          "rev": "51163657eb633504"
         },
         {
           "path": "manufacturers/stmicroelectronics/soc.json",
           "category": "soc",
           "count": 1,
-          "rev": "8d2fe9daa0ba5ae6"
+          "rev": "213fcf9bc4af95df"
         }
       ]
     },
@@ -1224,7 +1256,7 @@
           "path": "manufacturers/via/cpu.json",
           "category": "cpu",
           "count": 7,
-          "rev": "dcf9a228e3491ce9"
+          "rev": "b63eb7bb8e270c00"
         }
       ]
     },
@@ -1257,6 +1289,22 @@
           "category": "fpga",
           "count": 26,
           "rev": "22b0f6c8b94be0cf"
+        }
+      ]
+    },
+    {
+      "id": "zhaoxin",
+      "name": "Zhaoxin",
+      "country": "China",
+      "founded": 2013,
+      "defunct": 0,
+      "website": "https://www.zhaoxin.com",
+      "shards": [
+        {
+          "path": "manufacturers/zhaoxin/cpu.json",
+          "category": "cpu",
+          "count": 1,
+          "rev": "3301640bb00c50a2"
         }
       ]
     },

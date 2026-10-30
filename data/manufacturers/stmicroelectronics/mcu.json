@@ -576,6 +576,50 @@
       ]
     },
     {
+      "id": "stmicroelectronics-stm32h563zi",
+      "name": "STM32H563ZI",
+      "family": "STM32H5",
+      "released": "2023-03",
+      "specs": {
+        "microarchitecture": "Cortex-M33",
+        "isa": "ARMv8-M",
+        "market": "Embedded",
+        "process_nm": 40,
+        "package": "LQFP144",
+        "cores": 1,
+        "data_width_bits": 32,
+        "base_clock_mhz": 250,
+        "flash_kb": 2048,
+        "sram_kb": 640,
+        "mips": 375,
+        "voltage_v": 3.3,
+        "gpio_pins": 114,
+        "adc": "2× 12-bit, 5 Msps",
+        "dac": "1× 12-bit (2 channels)",
+        "timers": "16/32-bit general-purpose, 2× advanced-control, low-power timers, 2× watchdog, SysTick",
+        "interfaces": [
+          "USB 2.0 FS",
+          "USB Type-C PD (UCPD)",
+          "10/100 Ethernet",
+          "2× FDCAN",
+          "USART",
+          "UART",
+          "LPUART",
+          "SPI",
+          "I²C",
+          "I3C",
+          "SAI",
+          "SDMMC",
+          "OCTOSPI",
+          "FMC",
+          "DCMI (camera)"
+        ]
+      },
+      "na": [
+        "eeprom_kb"
+      ]
+    },
+    {
       "id": "stmicroelectronics-stm32n657",
       "name": "STM32N657",
       "family": "STM32N6",

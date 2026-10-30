@@ -1,0 +1,76 @@
+{
+  "manufacturer": "meta",
+  "category": "ai",
+  "chips": [
+    {
+      "id": "meta-mtia-v1",
+      "name": "MTIA v1",
+      "family": "MTIA",
+      "released": "2023-05",
+      "specs": {
+        "microarchitecture": "MTIA",
+        "market": "Data center",
+        "process_nm": 7,
+        "foundry": "TSMC",
+        "die_size_mm2": 373,
+        "cores": 64,
+        "core_config": "8x8 grid of processing elements (2 RISC-V cores each)",
+        "boost_clock_mhz": 800,
+        "sram_kb": 131072,
+        "memory_type": "LPDDR5",
+        "memory_size_mb": 65536,
+        "memory_bandwidth_gbs": 176,
+        "fp16_tflops": 51.2,
+        "bf16_tflops": 51.2,
+        "int8_tops": 102.4,
+        "tdp_w": 25,
+        "interface": "PCIe 4.0 x8"
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "compute_units",
+        "tensor_cores",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp8_tflops"
+      ]
+    },
+    {
+      "id": "meta-mtia-v2",
+      "name": "MTIA v2",
+      "family": "MTIA",
+      "released": "2024-04",
+      "specs": {
+        "codename": "Artemis",
+        "microarchitecture": "MTIA",
+        "market": "Data center",
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "die_size_mm2": 421,
+        "cores": 64,
+        "core_config": "8x8 grid of processing elements (2 RISC-V cores each)",
+        "boost_clock_mhz": 1350,
+        "sram_kb": 262144,
+        "memory_type": "LPDDR5",
+        "memory_size_mb": 131072,
+        "memory_bandwidth_gbs": 204.8,
+        "fp16_tflops": 177,
+        "bf16_tflops": 177,
+        "int8_tops": 354,
+        "tdp_w": 90,
+        "interface": "PCIe 5.0 x8"
+      },
+      "na": [
+        "transistors",
+        "compute_units",
+        "tensor_cores",
+        "memory_bus_bits",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp8_tflops"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "manufacturer": "hygon",
+  "category": "cpu",
+  "chips": [
+    {
+      "id": "hygon-c86-7490",
+      "name": "C86-7490",
+      "family": "C86-4G",
+      "released": "2024-08",
+      "specs": {
+        "microarchitecture": "Dhyana (Zen-derived)",
+        "isa": "x86-64",
+        "market": "Server",
+        "package": "Multi-chiplet (dual I/O die)",
+        "socket": "SP5",
+        "cores": 64,
+        "threads": 128,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2700,
+        "l3_cache_kb": 262144,
+        "memory_type": "DDR5",
+        "memory_channels": 12,
+        "tdp_w": 400,
+        "instruction_sets": [
+          "SSE4.2",
+          "AVX",
+          "AVX2"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "max_memory_mb",
+        "voltage_v",
+        "interface",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "hygon-c86-4g-3490",
+      "name": "C86-4G 3490",
+      "family": "C86-4G",
+      "released": "2025",
+      "specs": {
+        "microarchitecture": "Dhyana (Zen-derived)",
+        "isa": "x86-64",
+        "market": "Desktop",
+        "cores": 16,
+        "threads": 32,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 2800,
+        "boost_clock_mhz": 3000,
+        "l3_cache_kb": 32768,
+        "tdp_w": 95,
+        "instruction_sets": [
+          "SSE4.2",
+          "AVX",
+          "AVX2"
+        ],
+        "geekbench6_single": 1073,
+        "geekbench6_multi": 8811
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "socket",
+        "package",
+        "l1_cache_kb",
+        "l2_cache_kb",
+        "memory_type",
+        "max_memory_mb",
+        "voltage_v",
+        "interface",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    }
+  ]
+}

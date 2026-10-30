@@ -184,7 +184,15 @@
         "socket",
         "boost_clock_mhz",
         "max_memory_mb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -223,7 +231,15 @@
         "die_size_mm2",
         "socket",
         "max_memory_mb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -263,7 +279,15 @@
         "die_size_mm2",
         "socket",
         "max_memory_mb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -303,7 +327,15 @@
         "die_size_mm2",
         "socket",
         "max_memory_mb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -343,7 +375,15 @@
         "socket",
         "boost_clock_mhz",
         "max_memory_mb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -383,7 +423,15 @@
         "socket",
         "max_memory_mb",
         "tdp_w",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     }
   ]

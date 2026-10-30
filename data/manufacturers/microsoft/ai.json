@@ -35,6 +35,40 @@
         "fp8_tflops",
         "int8_tops"
       ]
+    },
+    {
+      "id": "microsoft-maia-200",
+      "name": "Maia 200",
+      "family": "Maia",
+      "released": "2026-01",
+      "specs": {
+        "microarchitecture": "Maia",
+        "market": "Data center",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "transistors": 140000000000,
+        "memory_type": "HBM3e",
+        "memory_size_mb": 221184,
+        "memory_bus_bits": 6144,
+        "memory_bandwidth_gbs": 7000,
+        "sram_kb": 278528,
+        "fp8_tflops": 5000,
+        "tdp_w": 750,
+        "interface": "Integrated Ethernet scale-up (2.8 TB/s bidirectional)"
+      },
+      "na": [
+        "codename",
+        "die_size_mm2",
+        "cores",
+        "compute_units",
+        "tensor_cores",
+        "boost_clock_mhz",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "int8_tops"
+      ]
     }
   ]
 }

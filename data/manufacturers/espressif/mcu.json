@@ -442,6 +442,85 @@
         "dac",
         "mips"
       ]
+    },
+    {
+      "id": "espressif-esp32-c61",
+      "name": "ESP32-C61",
+      "family": "ESP32-C",
+      "released": "2025",
+      "specs": {
+        "microarchitecture": "Espressif RISC-V (single-issue, 4-stage)",
+        "isa": "RISC-V (RV32IMAC)",
+        "market": "Consumer",
+        "package": "QFN (5×5 mm)",
+        "cores": 1,
+        "data_width_bits": 32,
+        "base_clock_mhz": 160,
+        "sram_kb": 320,
+        "voltage_v": 3.3,
+        "gpio_pins": 30,
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax, 2.4 GHz)",
+          "Bluetooth 5 LE (Mesh 1.1)"
+        ],
+        "adc": "12-bit SAR",
+        "timers": "General-purpose timers, watchdogs, systimer",
+        "interfaces": [
+          "USB Serial/JTAG",
+          "UART",
+          "SPI",
+          "I²C",
+          "I²S",
+          "LED PWM",
+          "Quad SPI PSRAM"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
+    },
+    {
+      "id": "espressif-esp32-h4",
+      "name": "ESP32-H4",
+      "family": "ESP32-H",
+      "released": "2025",
+      "specs": {
+        "microarchitecture": "Espressif RISC-V",
+        "isa": "RISC-V (RV32IMAC)",
+        "market": "Consumer",
+        "package": "QFN (6×6 mm)",
+        "cores": 2,
+        "data_width_bits": 32,
+        "base_clock_mhz": 96,
+        "sram_kb": 384,
+        "voltage_v": 3.3,
+        "gpio_pins": 40,
+        "connectivity": [
+          "Bluetooth 5.4 LE",
+          "IEEE 802.15.4 (Thread/Zigbee)"
+        ],
+        "adc": "12-bit SAR",
+        "timers": "General-purpose timers, watchdogs, systimer",
+        "interfaces": [
+          "USB Serial/JTAG",
+          "UART",
+          "SPI",
+          "I²C",
+          "I²S",
+          "LED PWM"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "flash_kb",
+        "eeprom_kb",
+        "dac",
+        "mips"
+      ]
     }
   ]
 }

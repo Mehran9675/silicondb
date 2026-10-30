@@ -23,12 +23,16 @@ func newCompleteness(schema *model.Schema, prefix string) *completeness {
 	return &completeness{schema: schema, prefix: prefix, missing: map[string][]string{}, filled: map[string][2]int{}}
 }
 
-func (c *completeness) add(id, category string, specs map[string]json.RawMessage, na []string) {
+func (c *completeness) add(id, category string, year int, specs map[string]json.RawMessage, na []string) {
 	if c.prefix != "" && !strings.HasPrefix(id, c.prefix) {
 		return
 	}
 	n := c.filled[category]
-	for _, k := range c.schema.Expected[category] {
+	keys := c.schema.Expected[category]
+	if since, ok := c.schema.ExpectedSince[category]; ok && year >= since.Year {
+		keys = append(slices.Clone(keys), since.Keys...)
+	}
+	for _, k := range keys {
 		n[1]++
 		if _, ok := specs[k]; ok || slices.Contains(na, k) {
 			n[0]++

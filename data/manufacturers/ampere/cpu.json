@@ -40,7 +40,15 @@
         "transistors",
         "die_size_mm2",
         "socket",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -77,7 +85,8 @@
           "LSE",
           "FP16",
           "Dot product"
-        ]
+        ],
+        "geekbench6_single": 1105
       },
       "na": [
         "launch_price_usd",
@@ -85,7 +94,14 @@
         "die_size_mm2",
         "boost_clock_mhz",
         "l3_cache_kb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -130,7 +146,15 @@
         "die_size_mm2",
         "boost_clock_mhz",
         "l3_cache_kb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -168,14 +192,22 @@
           "LSE",
           "FP16",
           "Dot product"
-        ]
+        ],
+        "cinebench_2024_multi": 5003
       },
       "na": [
         "transistors",
         "die_size_mm2",
         "boost_clock_mhz",
         "l3_cache_kb",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -212,14 +244,74 @@
           "Crypto",
           "bfloat16",
           "Memory tagging"
-        ]
+        ],
+        "geekbench6_single": 1309,
+        "geekbench6_multi": 15160
       },
       "na": [
         "transistors",
         "die_size_mm2",
         "boost_clock_mhz",
         "l3_cache_kb",
-        "voltage_v"
+        "voltage_v",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    {
+      "id": "ampere-ampereone-a192-32m",
+      "name": "AmpereOne M A192-32M",
+      "family": "AmpereOne M",
+      "released": "2025-05",
+      "specs": {
+        "microarchitecture": "AmpereOne",
+        "isa": "ARMv8.6-A",
+        "market": "Server",
+        "process_nm": 5,
+        "foundry": "TSMC",
+        "package": "Multi-chiplet FCLGA",
+        "socket": "LGA 7228",
+        "cores": 192,
+        "threads": 192,
+        "data_width_bits": 64,
+        "address_width_bits": 48,
+        "base_clock_mhz": 3200,
+        "l1_cache_kb": 15360,
+        "l2_cache_kb": 393216,
+        "slc_kb": 65536,
+        "memory_type": "DDR5-5600",
+        "memory_channels": 12,
+        "tdp_w": 348,
+        "interface": "PCIe 5.0 (96 lanes)",
+        "pcie_lanes": 96,
+        "instruction_sets": [
+          "NEON",
+          "Crypto",
+          "bfloat16",
+          "Memory tagging"
+        ]
+      },
+      "na": [
+        "codename",
+        "launch_price_usd",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "l3_cache_kb",
+        "max_memory_mb",
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     }
   ]

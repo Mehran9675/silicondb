@@ -77,7 +77,15 @@
         "launch_price_usd",
         "socket",
         "tdp_w",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -116,7 +124,15 @@
         "boost_clock_mhz",
         "l3_cache_kb",
         "tdp_w",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -155,7 +171,15 @@
         "boost_clock_mhz",
         "l3_cache_kb",
         "tdp_w",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -194,7 +218,15 @@
         "boost_clock_mhz",
         "l3_cache_kb",
         "tdp_w",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -235,7 +267,15 @@
         "boost_clock_mhz",
         "l3_cache_kb",
         "tdp_w",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -276,7 +316,15 @@
         "boost_clock_mhz",
         "l3_cache_kb",
         "tdp_w",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     },
     {
@@ -317,7 +365,15 @@
         "l2_cache_kb",
         "l3_cache_kb",
         "tdp_w",
-        "voltage_v"
+        "voltage_v",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
       ]
     }
   ]

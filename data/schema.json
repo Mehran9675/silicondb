@@ -87,6 +87,72 @@
       ]
     },
     {
+      "id": "benchmarks",
+      "label": "Benchmarks",
+      "fields": [
+        {
+          "key": "geekbench6_single",
+          "label": "Geekbench 6 single-core",
+          "format": "score"
+        },
+        {
+          "key": "geekbench6_multi",
+          "label": "Geekbench 6 multi-core",
+          "format": "score"
+        },
+        {
+          "key": "geekbench6_opencl",
+          "label": "Geekbench 6 OpenCL",
+          "format": "score"
+        },
+        {
+          "key": "geekbench6_vulkan",
+          "label": "Geekbench 6 Vulkan",
+          "format": "score"
+        },
+        {
+          "key": "geekbench6_metal",
+          "label": "Geekbench 6 Metal",
+          "format": "score"
+        },
+        {
+          "key": "cinebench_2024_single",
+          "label": "Cinebench 2024 single-core",
+          "format": "score"
+        },
+        {
+          "key": "cinebench_2024_multi",
+          "label": "Cinebench 2024 multi-core",
+          "format": "score"
+        },
+        {
+          "key": "cinebench_2024_gpu",
+          "label": "Cinebench 2024 GPU",
+          "format": "score"
+        },
+        {
+          "key": "cinebench_r23_single",
+          "label": "Cinebench R23 single-core",
+          "format": "score"
+        },
+        {
+          "key": "cinebench_r23_multi",
+          "label": "Cinebench R23 multi-core",
+          "format": "score"
+        },
+        {
+          "key": "cinebench_r15_single",
+          "label": "Cinebench R15 single-core",
+          "format": "score"
+        },
+        {
+          "key": "cinebench_r15_multi",
+          "label": "Cinebench R15 multi-core",
+          "format": "score"
+        }
+      ]
+    },
+    {
       "id": "fabrication",
       "label": "Fabrication",
       "fields": [
@@ -725,5 +791,53 @@
       "package",
       "voltage_v"
     ]
+  },
+  "expected_since": {
+    "cpu": {
+      "year": 2011,
+      "keys": [
+        "geekbench6_single",
+        "geekbench6_multi",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi",
+        "cinebench_r15_single",
+        "cinebench_r15_multi"
+      ]
+    },
+    "apu": {
+      "year": 2011,
+      "keys": [
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "cinebench_r23_single",
+        "cinebench_r23_multi",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    "soc": {
+      "year": 2012,
+      "keys": [
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    "gpu": {
+      "year": 2010,
+      "keys": [
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_gpu"
+      ]
+    }
   }
 }
