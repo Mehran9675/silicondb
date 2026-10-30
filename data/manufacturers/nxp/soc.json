@@ -44,7 +44,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -87,7 +94,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -132,7 +146,14 @@
         "gpu_cores",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -176,7 +197,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -219,7 +247,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -261,7 +296,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -306,7 +348,14 @@
         "slc_kb",
         "fp32_tflops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -350,7 +399,14 @@
         "gpu_clock_mhz",
         "fp32_tflops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -394,7 +450,112 @@
         "slc_kb",
         "fp32_tflops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "nxp-imx91",
+      "name": "i.MX 91",
+      "family": "i.MX 9",
+      "released": "2024",
+      "specs": {
+        "microarchitecture": "Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Industrial",
+        "process_nm": 16,
+        "cores": 1,
+        "core_config": "1x Cortex-A55 @ 1.4 GHz",
+        "boost_clock_mhz": 1400,
+        "memory_type": "LPDDR4 / DDR4",
+        "memory_bus_bits": 16,
+        "connectivity": [
+          "2x Gigabit Ethernet",
+          "2x USB 2.0",
+          "2x CAN FD",
+          "Parallel display"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "nxp-imx943",
+      "name": "i.MX 943",
+      "family": "i.MX 94",
+      "released": "2025",
+      "specs": {
+        "microarchitecture": "Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Industrial",
+        "process_nm": 16,
+        "cores": 4,
+        "core_config": "4x Cortex-A55 @ 1.7 GHz + 2x Cortex-M7 + 2x Cortex-M33",
+        "boost_clock_mhz": 1700,
+        "npu_tops": 0.5,
+        "memory_type": "LPDDR5 / LPDDR4X / DDR4",
+        "connectivity": [
+          "Gigabit Ethernet TSN switch",
+          "PCIe 3.0",
+          "USB 3.0",
+          "CAN FD"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

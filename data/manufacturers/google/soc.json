@@ -36,7 +36,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -64,7 +71,10 @@
         "memory_type": "LPDDR5",
         "max_memory_mb": 12288,
         "memory_bus_bits": 64,
-        "memory_bandwidth_gbs": 51.2
+        "memory_bandwidth_gbs": 51.2,
+        "geekbench6_single": 1407,
+        "geekbench6_multi": 3385,
+        "geekbench6_vulkan": 4617
       },
       "na": [
         "transistors",
@@ -73,7 +83,11 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -98,7 +112,11 @@
         "memory_type": "LPDDR5X",
         "max_memory_mb": 12288,
         "memory_bus_bits": 64,
-        "memory_bandwidth_gbs": 68.2
+        "memory_bandwidth_gbs": 68.2,
+        "geekbench6_single": 1760,
+        "geekbench6_multi": 4442,
+        "geekbench6_opencl": 6648,
+        "geekbench6_vulkan": 7332
       },
       "na": [
         "transistors",
@@ -110,7 +128,10 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -135,7 +156,11 @@
         "memory_type": "LPDDR5X",
         "max_memory_mb": 16384,
         "memory_bus_bits": 64,
-        "memory_bandwidth_gbs": 68.2
+        "memory_bandwidth_gbs": 68.2,
+        "geekbench6_single": 1921,
+        "geekbench6_multi": 4500,
+        "geekbench6_opencl": 6648,
+        "geekbench6_vulkan": 7332
       },
       "na": [
         "transistors",
@@ -147,7 +172,10 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -171,7 +199,11 @@
         "gpu_clock_mhz": 1100,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 16384,
-        "memory_bus_bits": 64
+        "memory_bus_bits": 64,
+        "geekbench6_single": 2300,
+        "geekbench6_multi": 6150,
+        "geekbench6_opencl": 3549,
+        "geekbench6_vulkan": 3795
       },
       "na": [
         "transistors",
@@ -184,7 +216,54 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "google-tensor-g6",
+      "name": "Tensor G6",
+      "family": "Tensor",
+      "released": "2026-08",
+      "specs": {
+        "codename": "Malibu",
+        "microarchitecture": "Arm C1-Ultra / C1-Pro",
+        "isa": "ARMv9.3-A",
+        "market": "Mobile",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 7,
+        "core_config": "1x C1-Ultra @ 4.11 GHz + 4x C1-Pro @ 3.38 GHz + 2x C1-Pro @ 2.65 GHz",
+        "base_clock_mhz": 2650,
+        "boost_clock_mhz": 4110,
+        "gpu": "PowerVR CXTP-48-1536",
+        "memory_type": "LPDDR5X",
+        "geekbench6_single": 2677,
+        "geekbench6_multi": 7321
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

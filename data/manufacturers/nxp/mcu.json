@@ -214,6 +214,82 @@
         "flash_kb",
         "eeprom_kb"
       ]
+    },
+    {
+      "id": "nxp-imxrt1189",
+      "name": "i.MX RT1189",
+      "family": "i.MX RT1180",
+      "released": "2023",
+      "specs": {
+        "microarchitecture": "Cortex-M7 / Cortex-M33",
+        "isa": "ARMv7E-M / ARMv8-M",
+        "market": "Industrial",
+        "process_nm": 28,
+        "cores": 2,
+        "core_config": "1x Cortex-M7 @ 800 MHz + 1x Cortex-M33 @ 240 MHz",
+        "data_width_bits": 32,
+        "base_clock_mhz": 800,
+        "sram_kb": 1536,
+        "interfaces": [
+          "Gigabit TSN Ethernet switch",
+          "EtherCAT",
+          "USB 2.0 High Speed",
+          "CAN FD",
+          "LPUART",
+          "LPSPI",
+          "LPI2C",
+          "FlexSPI"
+        ]
+      },
+      "na": [
+        "flash_kb",
+        "eeprom_kb",
+        "package",
+        "gpio_pins",
+        "adc",
+        "dac",
+        "timers",
+        "voltage_v",
+        "mips"
+      ]
+    },
+    {
+      "id": "nxp-mcxn947",
+      "name": "MCX N947",
+      "family": "MCX N",
+      "released": "2024",
+      "specs": {
+        "microarchitecture": "Cortex-M33",
+        "isa": "ARMv8-M",
+        "market": "Embedded",
+        "process_nm": 40,
+        "cores": 2,
+        "core_config": "2x Cortex-M33 @ 150 MHz + eIQ Neutron NPU",
+        "data_width_bits": 32,
+        "base_clock_mhz": 150,
+        "flash_kb": 2048,
+        "sram_kb": 512,
+        "interfaces": [
+          "10/100 Ethernet",
+          "USB 2.0 High Speed",
+          "USB 2.0 Full Speed",
+          "2x CAN FD",
+          "10x LP_FlexComm (UART/SPI/I2C)",
+          "I3C",
+          "FlexSPI",
+          "SDHC"
+        ]
+      },
+      "na": [
+        "eeprom_kb",
+        "package",
+        "gpio_pins",
+        "adc",
+        "dac",
+        "timers",
+        "voltage_v",
+        "mips"
+      ]
     }
   ]
 }

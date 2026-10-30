@@ -209,7 +209,14 @@
         "gpu_cores",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -251,7 +258,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -293,7 +307,14 @@
         "gpu_cores",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -335,7 +356,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -377,7 +405,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -419,7 +454,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -461,7 +503,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -503,7 +552,14 @@
         "gpu_cores",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -545,7 +601,14 @@
         "gpu_cores",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -587,7 +650,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -629,7 +699,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -671,7 +748,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -713,7 +797,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -755,7 +846,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -798,7 +896,14 @@
         "base_clock_mhz",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -840,7 +945,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -878,12 +990,19 @@
           "Bluetooth 5.0",
           "GPS / GLONASS / Galileo / BeiDou",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 950,
+        "geekbench6_multi": 2750
       },
       "na": [
         "base_clock_mhz",
         "gpu_cores",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -925,7 +1044,14 @@
         "slc_kb",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -963,12 +1089,19 @@
           "Bluetooth 5.0",
           "GPS / GLONASS / Galileo / BeiDou",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 1050,
+        "geekbench6_multi": 2950
       },
       "na": [
         "base_clock_mhz",
         "gpu_cores",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1011,7 +1144,14 @@
         "transistors",
         "die_size_mm2",
         "base_clock_mhz",
-        "gpu_cores"
+        "gpu_cores",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1053,7 +1193,14 @@
         "slc_kb",
         "gpu_cores",
         "fp32_tflops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1090,12 +1237,19 @@
           "Bluetooth 5.1",
           "GPS / GLONASS / Galileo / BeiDou / NavIC",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 1150,
+        "geekbench6_multi": 3250
       },
       "na": [
         "base_clock_mhz",
         "gpu_cores",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1130,14 +1284,21 @@
           "Bluetooth 5.2",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 1350,
+        "geekbench6_multi": 3550
       },
       "na": [
         "transistors",
         "die_size_mm2",
         "base_clock_mhz",
         "gpu_cores",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1170,7 +1331,9 @@
           "Bluetooth 5.2",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 1000,
+        "geekbench6_multi": 2850
       },
       "na": [
         "transistors",
@@ -1179,7 +1342,12 @@
         "slc_kb",
         "gpu_cores",
         "fp32_tflops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1213,7 +1381,9 @@
           "Bluetooth 5.3",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 1600,
+        "geekbench6_multi": 4000
       },
       "na": [
         "transistors",
@@ -1221,7 +1391,12 @@
         "base_clock_mhz",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1264,7 +1439,14 @@
         "gpu_clock_mhz",
         "fp32_tflops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1298,7 +1480,9 @@
           "Bluetooth 5.3",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 1700,
+        "geekbench6_multi": 4500
       },
       "na": [
         "transistors",
@@ -1306,7 +1490,12 @@
         "base_clock_mhz",
         "gpu_cores",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1348,7 +1537,14 @@
         "gpu_clock_mhz",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1381,7 +1577,9 @@
           "Bluetooth 5.3",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 1950,
+        "geekbench6_multi": 5150
       },
       "na": [
         "transistors",
@@ -1390,7 +1588,12 @@
         "gpu_cores",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1421,7 +1624,9 @@
           "Bluetooth 5.3",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 1700,
+        "geekbench6_multi": 4450
       },
       "na": [
         "transistors",
@@ -1432,7 +1637,110 @@
         "gpu_cores",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-4-gen-2",
+      "name": "Snapdragon 4 Gen 2",
+      "family": "Snapdragon 4",
+      "released": "2023-06",
+      "specs": {
+        "codename": "SM4450",
+        "microarchitecture": "Kryo (Cortex-A78 / A55)",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "2x Cortex-A78 @ 2.2 GHz + 6x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2200,
+        "base_clock_mhz": 2000,
+        "gpu": "Adreno 613",
+        "memory_type": "LPDDR5-6400 / LPDDR4X",
+        "modem": "Snapdragon X61 5G",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 5.1",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-7-gen-3",
+      "name": "Snapdragon 7 Gen 3",
+      "family": "Snapdragon 7",
+      "released": "2023-11",
+      "specs": {
+        "codename": "SM7550",
+        "microarchitecture": "Kryo (Cortex-A715 / A510)",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-A715 @ 2.63 GHz + 3x Cortex-A715 @ 2.4 GHz + 4x Cortex-A510 @ 1.8 GHz",
+        "boost_clock_mhz": 2630,
+        "gpu": "Adreno 720",
+        "memory_type": "LPDDR5-6400",
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "max_memory_mb": 16384,
+        "modem": "Snapdragon X63 5G",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.3",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.1"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1465,7 +1773,9 @@
           "Bluetooth 5.4",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 2150,
+        "geekbench6_multi": 6750
       },
       "na": [
         "transistors",
@@ -1474,7 +1784,159 @@
         "gpu_cores",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-8-gen-3-for-galaxy",
+      "name": "Snapdragon 8 Gen 3 for Galaxy",
+      "family": "Snapdragon 8",
+      "released": "2024-01",
+      "specs": {
+        "codename": "SM8650-AC (Pineapple)",
+        "microarchitecture": "Kryo (Cortex-X4 / A720 / A520)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X4 @ 3.39 GHz + 3x Cortex-A720 @ 3.1 GHz + 2x Cortex-A720 @ 2.9 GHz + 2x Cortex-A520 @ 2.2 GHz",
+        "boost_clock_mhz": 3390,
+        "l2_cache_kb": 4864,
+        "l3_cache_kb": 12288,
+        "slc_kb": 8192,
+        "gpu": "Adreno 750",
+        "gpu_clock_mhz": 1000,
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "modem": "Snapdragon X75 5G",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.3",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.2"
+        ],
+        "geekbench6_single": 2200,
+        "geekbench6_multi": 6900
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "gpu_cores",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-8s-gen-3",
+      "name": "Snapdragon 8s Gen 3",
+      "family": "Snapdragon 8",
+      "released": "2024-03",
+      "specs": {
+        "codename": "SM8635",
+        "microarchitecture": "Kryo (Cortex-X4 / A720 / A520)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X4 @ 3.0 GHz + 4x Cortex-A720 @ 2.8 GHz + 3x Cortex-A520 @ 2.0 GHz",
+        "boost_clock_mhz": 3000,
+        "gpu": "Adreno 735",
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "modem": "Snapdragon X70 5G",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-7-plus-gen-3",
+      "name": "Snapdragon 7+ Gen 3",
+      "family": "Snapdragon 7",
+      "released": "2024-03",
+      "specs": {
+        "codename": "SM7675",
+        "microarchitecture": "Kryo (Cortex-X4 / A720 / A520)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X4 @ 2.8 GHz + 4x Cortex-A720 @ 2.6 GHz + 3x Cortex-A520 @ 1.9 GHz",
+        "boost_clock_mhz": 2800,
+        "gpu": "Adreno 732",
+        "memory_type": "LPDDR5X-8400",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 67.2,
+        "modem": "Snapdragon X63 5G",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1511,14 +1973,21 @@
           "USB4 (40 Gbps)",
           "PCIe 4.0",
           "NVMe / UFS 4.0"
-        ]
+        ],
+        "geekbench6_single": 2850,
+        "geekbench6_multi": 14800,
+        "cinebench_2024_single": 124,
+        "cinebench_2024_multi": 1200
       },
       "na": [
         "transistors",
         "die_size_mm2",
         "l3_cache_kb",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal"
       ]
     },
     {
@@ -1554,7 +2023,11 @@
           "USB4 (40 Gbps)",
           "PCIe 4.0",
           "NVMe / UFS 4.0"
-        ]
+        ],
+        "geekbench6_single": 2430,
+        "geekbench6_multi": 14000,
+        "cinebench_2024_single": 106,
+        "cinebench_2024_multi": 1000
       },
       "na": [
         "transistors",
@@ -1562,7 +2035,10 @@
         "boost_clock_mhz",
         "l3_cache_kb",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal"
       ]
     },
     {
@@ -1598,7 +2074,11 @@
           "USB4 (40 Gbps)",
           "PCIe 4.0",
           "NVMe / UFS 4.0"
-        ]
+        ],
+        "geekbench6_single": 2400,
+        "geekbench6_multi": 12300,
+        "cinebench_2024_single": 104,
+        "cinebench_2024_multi": 840
       },
       "na": [
         "transistors",
@@ -1606,7 +2086,112 @@
         "boost_clock_mhz",
         "l3_cache_kb",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal"
+      ]
+    },
+    {
+      "id": "qualcomm-x1e-80-100",
+      "name": "Snapdragon X Elite X1E-80-100",
+      "family": "Snapdragon X",
+      "released": "2024-06",
+      "specs": {
+        "codename": "X1E-80-100 (Hamoa)",
+        "microarchitecture": "Oryon",
+        "isa": "ARMv8.7-A",
+        "market": "Laptop",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 12,
+        "threads": 12,
+        "core_config": "12x Oryon @ 3.4 GHz (all-core), 4.0 GHz dual-core boost",
+        "base_clock_mhz": 3400,
+        "boost_clock_mhz": 4000,
+        "l2_cache_kb": 36864,
+        "slc_kb": 6144,
+        "gpu": "Adreno X1-85",
+        "gpu_cores": 6,
+        "gpu_clock_mhz": 1250,
+        "memory_type": "LPDDR5X-8448",
+        "max_memory_mb": 65536,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 135,
+        "fp32_tflops": 3.8,
+        "npu_tops": 45,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 4.0",
+          "NVMe / UFS 4.0"
+        ],
+        "geekbench6_single": 2750,
+        "geekbench6_multi": 14400,
+        "cinebench_2024_single": 122,
+        "cinebench_2024_multi": 1050
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "modem",
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal"
+      ]
+    },
+    {
+      "id": "qualcomm-x1p-42-100",
+      "name": "Snapdragon X Plus X1P-42-100",
+      "family": "Snapdragon X",
+      "released": "2024-09",
+      "specs": {
+        "codename": "X1P-42-100 (Purwa)",
+        "microarchitecture": "Oryon",
+        "isa": "ARMv8.7-A",
+        "market": "Laptop",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "threads": 8,
+        "core_config": "8x Oryon @ 3.2 GHz (all-core), 3.4 GHz boost",
+        "base_clock_mhz": 3200,
+        "boost_clock_mhz": 3400,
+        "l2_cache_kb": 24576,
+        "slc_kb": 6144,
+        "gpu": "Adreno X1-45",
+        "fp32_tflops": 1.7,
+        "memory_type": "LPDDR5X-8448",
+        "max_memory_mb": 65536,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 135,
+        "npu_tops": 45,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 4.0",
+          "NVMe / UFS 4.0"
+        ],
+        "geekbench6_single": 2420,
+        "geekbench6_multi": 10800
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l3_cache_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "modem",
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1639,7 +2224,9 @@
           "Bluetooth 6.0",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.1"
-        ]
+        ],
+        "geekbench6_single": 2950,
+        "geekbench6_multi": 9300
       },
       "na": [
         "transistors",
@@ -1649,7 +2236,210 @@
         "gpu_cores",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-x1-26-100",
+      "name": "Snapdragon X X1-26-100",
+      "family": "Snapdragon X",
+      "released": "2025-01",
+      "specs": {
+        "codename": "X1-26-100 (Purwa)",
+        "microarchitecture": "Oryon",
+        "isa": "ARMv8.7-A",
+        "market": "Laptop",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "threads": 8,
+        "core_config": "8x Oryon @ 2.97 GHz",
+        "boost_clock_mhz": 2970,
+        "gpu": "Adreno X1-45",
+        "fp32_tflops": 1.7,
+        "memory_type": "LPDDR5X",
+        "npu_tops": 45,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 4.0",
+          "NVMe / UFS 4.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-6-gen-4",
+      "name": "Snapdragon 6 Gen 4",
+      "family": "Snapdragon 6",
+      "released": "2025-02",
+      "specs": {
+        "codename": "SM6475",
+        "microarchitecture": "Kryo (Cortex-A720 / A520)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-A720 @ 2.3 GHz + 3x Cortex-A720 @ 2.2 GHz + 4x Cortex-A520 @ 1.8 GHz",
+        "boost_clock_mhz": 2300,
+        "gpu": "Adreno 810",
+        "memory_type": "LPDDR5-6400 / LPDDR4X",
+        "max_memory_mb": 16384,
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 6.0",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-8s-gen-4",
+      "name": "Snapdragon 8s Gen 4",
+      "family": "Snapdragon 8",
+      "released": "2025-04",
+      "specs": {
+        "codename": "SM8735",
+        "microarchitecture": "Kryo (Cortex-X4 / A720)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X4 @ 3.21 GHz + 3x Cortex-A720 @ 3.0 GHz + 2x Cortex-A720 @ 2.8 GHz + 2x Cortex-A720 @ 2.0 GHz",
+        "boost_clock_mhz": 3210,
+        "gpu": "Adreno 825",
+        "memory_type": "LPDDR5X",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "modem": "Snapdragon X80 5G",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 6.0",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-7-gen-4",
+      "name": "Snapdragon 7 Gen 4",
+      "family": "Snapdragon 7",
+      "released": "2025-05",
+      "specs": {
+        "codename": "SM7750",
+        "microarchitecture": "Kryo (Cortex-A720 / A520)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-A720 @ 2.8 GHz + 4x Cortex-A720 @ 2.4 GHz + 3x Cortex-A520 @ 1.8 GHz",
+        "boost_clock_mhz": 2800,
+        "gpu": "Adreno 722",
+        "memory_type": "LPDDR5X",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 6.0",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1681,7 +2471,9 @@
           "Bluetooth 6.0",
           "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS",
           "USB 3.2"
-        ]
+        ],
+        "geekbench6_single": 3700,
+        "geekbench6_multi": 11000
       },
       "na": [
         "transistors",
@@ -1691,7 +2483,12 @@
         "gpu_cores",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1727,7 +2524,9 @@
           "USB4 (40 Gbps)",
           "PCIe 5.0",
           "NVMe"
-        ]
+        ],
+        "geekbench6_single": 4000,
+        "geekbench6_multi": 22500
       },
       "na": [
         "transistors",
@@ -1735,7 +2534,261 @@
         "l3_cache_kb",
         "gpu_cores",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-x2e-80-100",
+      "name": "Snapdragon X2 Elite X2E-80-100",
+      "family": "Snapdragon X2",
+      "released": "2026",
+      "specs": {
+        "codename": "X2E-80-100 (Glymur)",
+        "microarchitecture": "Oryon (3rd gen)",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 12,
+        "threads": 12,
+        "core_config": "6x Oryon Prime @ up to 4.7 GHz + 6x Oryon Performance @ up to 3.4 GHz",
+        "boost_clock_mhz": 4700,
+        "gpu": "Adreno X2-85",
+        "gpu_clock_mhz": 1700,
+        "memory_type": "LPDDR5X-9523",
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 152,
+        "npu_tops": 80,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 5.0",
+          "NVMe"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-x2e-88-100",
+      "name": "Snapdragon X2 Elite X2E-88-100",
+      "family": "Snapdragon X2",
+      "released": "2026",
+      "specs": {
+        "codename": "X2E-88-100 (Glymur)",
+        "microarchitecture": "Oryon (3rd gen)",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 18,
+        "threads": 18,
+        "core_config": "12x Oryon Prime @ up to 4.7 GHz + 6x Oryon Performance @ up to 3.4 GHz",
+        "base_clock_mhz": 4000,
+        "boost_clock_mhz": 4700,
+        "gpu": "Adreno X2-90",
+        "gpu_clock_mhz": 1700,
+        "memory_type": "LPDDR5X-9523",
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 152,
+        "npu_tops": 80,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 5.0",
+          "NVMe"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "fp32_tflops",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-x2p-64-100",
+      "name": "Snapdragon X2 Plus X2P-64-100",
+      "family": "Snapdragon X2",
+      "released": "2026-01",
+      "specs": {
+        "codename": "X2P-64-100",
+        "microarchitecture": "Oryon (3rd gen)",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 10,
+        "threads": 10,
+        "boost_clock_mhz": 4040,
+        "core_config": "10x Oryon (Prime + Performance) @ up to 4.04 GHz",
+        "gpu": "Adreno X2-45",
+        "memory_type": "LPDDR5X-9523",
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 152,
+        "npu_tops": 80,
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4 (40 Gbps)",
+          "PCIe 5.0",
+          "NVMe"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-8-elite-gen-6",
+      "name": "Snapdragon 8 Elite Gen 6",
+      "family": "Snapdragon 8",
+      "released": "2026-09",
+      "specs": {
+        "microarchitecture": "Oryon (4th gen)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 2,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x Oryon Prime @ 5.0 GHz + 6x Oryon Performance @ up to 4.0 GHz",
+        "boost_clock_mhz": 5000,
+        "l2_cache_kb": 16384,
+        "gpu": "Adreno 845",
+        "memory_type": "LPDDR5X",
+        "modem": "Snapdragon X105 5G",
+        "connectivity": [
+          "Wi-Fi 8 (802.11bn)",
+          "Bluetooth 6.0",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "qualcomm-snapdragon-8-elite-extreme-gen-6",
+      "name": "Snapdragon 8 Elite Extreme Gen 6",
+      "family": "Snapdragon 8",
+      "released": "2026-09",
+      "specs": {
+        "codename": "SM8975",
+        "microarchitecture": "Oryon (4th gen)",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 2,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x Oryon Prime @ 5.0 GHz + 6x Oryon Performance @ up to 4.0 GHz",
+        "boost_clock_mhz": 5000,
+        "l2_cache_kb": 16384,
+        "gpu": "Adreno 850 (18 MB HPM)",
+        "memory_type": "LPDDR6",
+        "modem": "Snapdragon X105 5G",
+        "connectivity": [
+          "Wi-Fi 8 (802.11bn)",
+          "Bluetooth 6.0",
+          "GPS / GLONASS / Galileo / BeiDou / NavIC / QZSS"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

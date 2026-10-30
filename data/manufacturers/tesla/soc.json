@@ -40,7 +40,14 @@
         "boost_clock_mhz",
         "l3_cache_kb",
         "slc_kb",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -81,7 +88,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

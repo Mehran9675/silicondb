@@ -43,7 +43,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -85,7 +92,109 @@
         "slc_kb",
         "gpu_cores",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "renesas-rz-v2h",
+      "name": "RZ/V2H",
+      "family": "RZ/V",
+      "released": "2024-02",
+      "specs": {
+        "codename": "R9A09G057",
+        "microarchitecture": "Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Industrial",
+        "cores": 4,
+        "core_config": "4x Cortex-A55 @ 1.8 GHz + 2x Cortex-R8 @ 800 MHz + 1x Cortex-M33 @ 200 MHz + DRP-AI3",
+        "boost_clock_mhz": 1800,
+        "gpu": "Mali-G31",
+        "npu_tops": 8,
+        "memory_type": "LPDDR4X / LPDDR4",
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "2x PCIe 3.0",
+          "2x USB 3.2 Gen 2",
+          "2x USB 2.0",
+          "2x Gigabit Ethernet",
+          "MIPI CSI-2",
+          "MIPI DSI"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "renesas-r-car-x5h",
+      "name": "R-Car X5H",
+      "family": "R-Car Gen5",
+      "released": "2024-11",
+      "specs": {
+        "microarchitecture": "Cortex-A720AE",
+        "isa": "ARMv9.2-A",
+        "market": "Automotive",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 32,
+        "core_config": "32x Cortex-A720AE + 6x Cortex-R52 (lockstep)",
+        "npu_tops": 400,
+        "fp32_tflops": 4
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "memory_type",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

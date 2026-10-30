@@ -84,7 +84,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -127,7 +134,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -170,7 +184,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -212,7 +233,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -255,7 +283,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -297,7 +332,220 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "allwinner-h618",
+      "name": "H618",
+      "family": "H-series",
+      "released": "2022",
+      "specs": {
+        "microarchitecture": "Cortex-A53",
+        "isa": "ARMv8-A",
+        "market": "Consumer",
+        "process_nm": 28,
+        "cores": 4,
+        "core_config": "4x Cortex-A53 @ 1.5 GHz",
+        "boost_clock_mhz": 1500,
+        "l2_cache_kb": 1024,
+        "gpu": "Mali-G31 MP2",
+        "gpu_cores": 2,
+        "memory_type": "DDR4 / DDR3 / LPDDR4 / LPDDR3",
+        "max_memory_mb": 4096,
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "4x USB 2.0",
+          "10/100 Ethernet (integrated PHY)",
+          "Gigabit Ethernet (RGMII)",
+          "HDMI 2.0a"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "allwinner-a523",
+      "name": "A523",
+      "family": "A-series",
+      "released": "2023",
+      "specs": {
+        "microarchitecture": "Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Tablet",
+        "process_nm": 22,
+        "cores": 8,
+        "core_config": "4x Cortex-A55 @ 2.0 GHz + 4x Cortex-A55 @ 1.42 GHz",
+        "boost_clock_mhz": 2000,
+        "gpu": "Mali-G57 MC1",
+        "gpu_cores": 1,
+        "memory_type": "LPDDR4X / LPDDR4 / DDR4 / LPDDR3 / DDR3",
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "USB 3.1",
+          "USB 2.0",
+          "PCIe 2.1 x1",
+          "Gigabit Ethernet",
+          "MIPI CSI-2",
+          "MIPI DSI",
+          "HDMI 2.0"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "allwinner-t527",
+      "name": "T527",
+      "family": "T-series",
+      "released": "2023",
+      "specs": {
+        "microarchitecture": "Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Industrial",
+        "process_nm": 22,
+        "cores": 8,
+        "core_config": "4x Cortex-A55 @ 1.8 GHz + 4x Cortex-A55 @ 1.42 GHz + 1x XuanTie E906 RISC-V",
+        "boost_clock_mhz": 1800,
+        "gpu": "Mali-G57 MC1",
+        "gpu_cores": 1,
+        "npu_tops": 2,
+        "memory_type": "LPDDR4X / LPDDR4 / DDR4 / LPDDR3 / DDR3",
+        "memory_bus_bits": 32,
+        "connectivity": [
+          "USB 3.1",
+          "USB 2.0",
+          "PCIe 2.1 x1",
+          "2x Gigabit Ethernet",
+          "CAN",
+          "MIPI CSI-2",
+          "MIPI DSI",
+          "HDMI 2.0"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "allwinner-a733",
+      "name": "A733",
+      "family": "A-series",
+      "released": "2025",
+      "specs": {
+        "microarchitecture": "Cortex-A76 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Tablet",
+        "process_nm": 12,
+        "cores": 8,
+        "core_config": "2x Cortex-A76 @ 2.0 GHz + 6x Cortex-A55 @ 1.8 GHz",
+        "boost_clock_mhz": 2000,
+        "gpu": "PowerVR BXM-4-64",
+        "npu_tops": 3,
+        "memory_type": "LPDDR5 / LPDDR4X / LPDDR4",
+        "max_memory_mb": 16384,
+        "connectivity": [
+          "USB 3.1",
+          "PCIe 3.0",
+          "Gigabit Ethernet",
+          "MIPI CSI-2",
+          "MIPI DSI",
+          "HDMI 2.0",
+          "eDP"
+        ]
+      },
+      "na": [
+        "codename",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

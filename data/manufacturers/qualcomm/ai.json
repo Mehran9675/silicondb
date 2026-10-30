@@ -69,6 +69,40 @@
         "bf16_tflops",
         "fp8_tflops"
       ]
+    },
+    {
+      "id": "qualcomm-ai200",
+      "name": "AI200",
+      "family": "Cloud AI 200",
+      "released": "2026",
+      "specs": {
+        "microarchitecture": "Qualcomm Hexagon NPU",
+        "market": "Data center",
+        "memory_type": "LPDDR",
+        "memory_size_mb": 786432,
+        "interface": "PCIe"
+      },
+      "na": [
+        "codename",
+        "process_nm",
+        "foundry",
+        "transistors",
+        "die_size_mm2",
+        "cores",
+        "compute_units",
+        "tensor_cores",
+        "boost_clock_mhz",
+        "sram_kb",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "fp64_tflops",
+        "fp32_tflops",
+        "fp16_tflops",
+        "bf16_tflops",
+        "fp8_tflops",
+        "int8_tops",
+        "tdp_w"
+      ]
     }
   ]
 }

@@ -43,7 +43,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -87,7 +94,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -131,7 +145,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -175,7 +196,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -221,7 +249,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -265,7 +300,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -310,7 +352,66 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "broadcom-bcm2712-d0",
+      "name": "BCM2712 D0",
+      "family": "BCM27xx",
+      "released": "2024-08",
+      "specs": {
+        "microarchitecture": "Cortex-A76",
+        "isa": "ARMv8.2-A",
+        "market": "Embedded",
+        "process_nm": 16,
+        "foundry": "TSMC",
+        "cores": 4,
+        "core_config": "4x Cortex-A76 @ 2.4 GHz",
+        "base_clock_mhz": 2400,
+        "l1_cache_kb": 512,
+        "l2_cache_kb": 2048,
+        "l3_cache_kb": 2048,
+        "gpu": "VideoCore VII",
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 800,
+        "graphics_api": [
+          "OpenGL ES 3.1",
+          "Vulkan 1.3"
+        ],
+        "memory_type": "LPDDR4X-4267",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 32,
+        "memory_bandwidth_gbs": 17.1,
+        "fp32_tflops": 0.0768,
+        "connectivity": [
+          "PCIe 2.0 x4 (to RP1 I/O chip)",
+          "PCIe 2.0 x1"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "boost_clock_mhz",
+        "slc_kb",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

@@ -119,7 +119,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -162,7 +169,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -202,7 +216,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -242,7 +263,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -282,7 +310,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -322,7 +357,14 @@
         "slc_kb",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -363,7 +405,14 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -404,7 +453,14 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -437,7 +493,9 @@
           "USB 3.1",
           "UFS 2.1",
           "GNSS"
-        ]
+        ],
+        "geekbench6_single": 769,
+        "geekbench6_multi": 2000
       },
       "na": [
         "transistors",
@@ -445,7 +503,12 @@
         "base_clock_mhz",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -478,7 +541,9 @@
           "USB 3.1",
           "UFS 3.0",
           "GNSS"
-        ]
+        ],
+        "geekbench6_single": 1030,
+        "geekbench6_multi": 2557
       },
       "na": [
         "transistors",
@@ -486,7 +551,12 @@
         "base_clock_mhz",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -519,7 +589,9 @@
           "USB 3.1",
           "UFS 3.0",
           "GNSS"
-        ]
+        ],
+        "geekbench6_single": 1222,
+        "geekbench6_multi": 3131
       },
       "na": [
         "transistors",
@@ -527,7 +599,12 @@
         "base_clock_mhz",
         "slc_kb",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -569,7 +646,14 @@
         "l2_cache_kb",
         "l3_cache_kb",
         "slc_kb",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -603,7 +687,11 @@
           "Bluetooth 5.2",
           "USB 3.2",
           "UFS 3.1"
-        ]
+        ],
+        "geekbench6_single": 1423,
+        "geekbench6_multi": 3636,
+        "geekbench6_opencl": 4299,
+        "geekbench6_vulkan": 4760
       },
       "na": [
         "transistors",
@@ -611,7 +699,10 @@
         "base_clock_mhz",
         "l2_cache_kb",
         "slc_kb",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -645,7 +736,11 @@
           "Bluetooth 5.2",
           "USB 3.2",
           "UFS 3.1"
-        ]
+        ],
+        "geekbench6_single": 1588,
+        "geekbench6_multi": 3958,
+        "geekbench6_opencl": 8042,
+        "geekbench6_vulkan": 8695
       },
       "na": [
         "transistors",
@@ -653,7 +748,10 @@
         "base_clock_mhz",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -685,7 +783,11 @@
           "Bluetooth 5.2",
           "USB 2.0",
           "UFS 2.2"
-        ]
+        ],
+        "geekbench6_single": 952,
+        "geekbench6_multi": 2057,
+        "geekbench6_opencl": 2305,
+        "geekbench6_vulkan": 2329
       },
       "na": [
         "transistors",
@@ -695,7 +797,10 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -728,7 +833,11 @@
           "Bluetooth 5.3",
           "USB 3.2",
           "UFS 3.1"
-        ]
+        ],
+        "geekbench6_single": 1108,
+        "geekbench6_multi": 2797,
+        "geekbench6_opencl": 3047,
+        "geekbench6_vulkan": 3092
       },
       "na": [
         "transistors",
@@ -737,7 +846,59 @@
         "l2_cache_kb",
         "l3_cache_kb",
         "slc_kb",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "samsung-exynos-w930",
+      "name": "Exynos W930",
+      "family": "Exynos W",
+      "released": "2023-07",
+      "specs": {
+        "microarchitecture": "Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Wearable",
+        "process_nm": 5,
+        "foundry": "Samsung",
+        "cores": 2,
+        "core_config": "2x Cortex-A55 @ 1.4 GHz",
+        "boost_clock_mhz": 1400,
+        "gpu": "Mali-G68 MP2",
+        "gpu_cores": 2,
+        "memory_type": "LPDDR4",
+        "modem": "LTE Cat.4 (integrated)",
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 5.3",
+          "GNSS",
+          "NFC"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -768,7 +929,11 @@
           "Bluetooth 5.3",
           "USB 3.2",
           "UFS 4.0"
-        ]
+        ],
+        "geekbench6_single": 2147,
+        "geekbench6_multi": 6738,
+        "geekbench6_opencl": 16104,
+        "geekbench6_vulkan": 16689
       },
       "na": [
         "transistors",
@@ -779,7 +944,10 @@
         "slc_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -810,6 +978,102 @@
           "Bluetooth 5.3",
           "USB 3.2",
           "UFS 3.1"
+        ],
+        "geekbench6_single": 1155,
+        "geekbench6_multi": 3468
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "samsung-exynos-w1000",
+      "name": "Exynos W1000",
+      "family": "Exynos W",
+      "released": "2024-07",
+      "specs": {
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Wearable",
+        "process_nm": 3,
+        "foundry": "Samsung",
+        "cores": 5,
+        "core_config": "1x Cortex-A78 @ 1.6 GHz + 4x Cortex-A55 @ 1.5 GHz",
+        "boost_clock_mhz": 1600,
+        "gpu": "Mali-G68 MP2",
+        "gpu_cores": 2,
+        "memory_type": "LPDDR5",
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 5.3",
+          "GNSS",
+          "NFC"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "samsung-exynos-2400e",
+      "name": "Exynos 2400e",
+      "family": "Exynos 2000",
+      "released": "2024-09",
+      "specs": {
+        "microarchitecture": "Cortex-X4 / Cortex-A720 / Cortex-A520",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 10,
+        "core_config": "1x Cortex-X4 @ 3.1 GHz + 2x Cortex-A720 @ 2.9 GHz + 3x Cortex-A720 @ 2.6 GHz + 4x Cortex-A520 @ 1.96 GHz",
+        "boost_clock_mhz": 3100,
+        "gpu": "Xclipse 940 (AMD RDNA 3)",
+        "gpu_cores": 12,
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "modem": "Exynos 5G (sub-6 + mmWave, integrated)",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.3",
+          "USB 3.2",
+          "UFS 4.0"
         ]
       },
       "na": [
@@ -821,7 +1085,16 @@
         "slc_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "codename",
+        "gpu_clock_mhz",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -853,7 +1126,11 @@
           "Bluetooth 5.3",
           "USB 3.2",
           "UFS 3.1"
-        ]
+        ],
+        "geekbench6_single": 1330,
+        "geekbench6_multi": 3759,
+        "geekbench6_opencl": 6660,
+        "geekbench6_vulkan": 6783
       },
       "na": [
         "transistors",
@@ -863,7 +1140,10 @@
         "l3_cache_kb",
         "slc_kb",
         "fp32_tflops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -893,7 +1173,11 @@
           "Bluetooth 5.4",
           "USB 3.2",
           "UFS 4.0"
-        ]
+        ],
+        "geekbench6_single": 2374,
+        "geekbench6_multi": 8129,
+        "geekbench6_opencl": 19473,
+        "geekbench6_vulkan": 19956
       },
       "na": [
         "transistors",
@@ -905,7 +1189,54 @@
         "gpu_cores",
         "gpu_clock_mhz",
         "fp32_tflops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "samsung-exynos-1680",
+      "name": "Exynos 1680",
+      "family": "Exynos 1000",
+      "released": "2026",
+      "specs": {
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "Samsung",
+        "cores": 8,
+        "core_config": "1x @ 2.91 GHz + 4x @ 2.6 GHz + 3x @ 1.95 GHz",
+        "boost_clock_mhz": 2910,
+        "gpu": "Xclipse 550",
+        "modem": "Exynos 5G (sub-6, integrated)"
+      },
+      "na": [
+        "codename",
+        "microarchitecture",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_type",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -933,7 +1264,11 @@
           "Bluetooth 5.4",
           "USB 3.2",
           "UFS 4.1"
-        ]
+        ],
+        "geekbench6_single": 3105,
+        "geekbench6_multi": 10444,
+        "geekbench6_opencl": 24240,
+        "geekbench6_vulkan": 24726
       },
       "na": [
         "transistors",
@@ -947,7 +1282,10 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

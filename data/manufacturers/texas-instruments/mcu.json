@@ -193,6 +193,38 @@
         "process_nm",
         "eeprom_kb"
       ]
+    },
+    {
+      "id": "texas-instruments-mspm0c1104",
+      "name": "MSPM0C1104",
+      "family": "MSPM0",
+      "released": "2024-03",
+      "specs": {
+        "microarchitecture": "Cortex-M0+",
+        "isa": "ARMv6-M",
+        "market": "Embedded",
+        "package": "8-pin WCSP (1.38 mm²)",
+        "cores": 1,
+        "data_width_bits": 32,
+        "base_clock_mhz": 24,
+        "flash_kb": 16,
+        "sram_kb": 1,
+        "voltage_v": 3.3,
+        "gpio_pins": 6,
+        "adc": "12-bit, 10 channels",
+        "timers": "3 timers",
+        "interfaces": [
+          "UART",
+          "I2C",
+          "SPI"
+        ]
+      },
+      "na": [
+        "process_nm",
+        "eeprom_kb",
+        "mips",
+        "dac"
+      ]
     }
   ]
 }

@@ -65,8 +65,8 @@
         {
           "path": "manufacturers/allwinner/soc.json",
           "category": "soc",
-          "count": 7,
-          "rev": "8a35ba5c8e59c6d4"
+          "count": 11,
+          "rev": "45bd490eafde146a"
         }
       ]
     },
@@ -185,8 +185,8 @@
         {
           "path": "manufacturers/apple/soc.json",
           "category": "soc",
-          "count": 48,
-          "rev": "77e62688a19d27b5"
+          "count": 52,
+          "rev": "05d99b5d7f9fd08b"
         }
       ]
     },
@@ -233,8 +233,8 @@
         {
           "path": "manufacturers/broadcom/soc.json",
           "category": "soc",
-          "count": 7,
-          "rev": "c954cc815cd30cd0"
+          "count": 8,
+          "rev": "0c293a71db870fd4"
         }
       ]
     },
@@ -391,8 +391,8 @@
         {
           "path": "manufacturers/google/soc.json",
           "category": "soc",
-          "count": 5,
-          "rev": "e06accd6da08bc4e"
+          "count": 6,
+          "rev": "e94ff5416493a33b"
         }
       ]
     },
@@ -455,14 +455,14 @@
         {
           "path": "manufacturers/hisilicon/ai.json",
           "category": "ai",
-          "count": 3,
-          "rev": "b4932fed0c9427c9"
+          "count": 5,
+          "rev": "3bbfb90c8b1e115d"
         },
         {
           "path": "manufacturers/hisilicon/soc.json",
           "category": "soc",
-          "count": 11,
-          "rev": "96561f8479d8b8d8"
+          "count": 12,
+          "rev": "444a20e5ecd0b3e2"
         }
       ]
     },
@@ -667,8 +667,8 @@
         {
           "path": "manufacturers/mediatek/soc.json",
           "category": "soc",
-          "count": 19,
-          "rev": "387ec8b036194532"
+          "count": 34,
+          "rev": "6f53fa5d5c3f5f93"
         }
       ]
     },
@@ -907,14 +907,14 @@
         {
           "path": "manufacturers/nxp/mcu.json",
           "category": "mcu",
-          "count": 6,
-          "rev": "e559cff952fbb35f"
+          "count": 8,
+          "rev": "93c6cfa2300ec315"
         },
         {
           "path": "manufacturers/nxp/soc.json",
           "category": "soc",
-          "count": 9,
-          "rev": "cce1c519729fe5e3"
+          "count": 11,
+          "rev": "39f273b5634845cc"
         }
       ]
     },
@@ -945,14 +945,14 @@
         {
           "path": "manufacturers/qualcomm/ai.json",
           "category": "ai",
-          "count": 2,
-          "rev": "e8ad7d16248fca48"
+          "count": 3,
+          "rev": "cf0277fa43e4357f"
         },
         {
           "path": "manufacturers/qualcomm/soc.json",
           "category": "soc",
-          "count": 41,
-          "rev": "3e07d8e47a5a4156"
+          "count": 57,
+          "rev": "c054146f7888a6ad"
         }
       ]
     },
@@ -999,14 +999,14 @@
         {
           "path": "manufacturers/renesas/mcu.json",
           "category": "mcu",
-          "count": 6,
-          "rev": "bf0159d0b1259469"
+          "count": 7,
+          "rev": "27ee9be5d123bc5b"
         },
         {
           "path": "manufacturers/renesas/soc.json",
           "category": "soc",
-          "count": 2,
-          "rev": "78f38ff9c055e42a"
+          "count": 4,
+          "rev": "ce3912b6af411c9e"
         }
       ]
     },
@@ -1021,8 +1021,8 @@
         {
           "path": "manufacturers/rockchip/soc.json",
           "category": "soc",
-          "count": 8,
-          "rev": "a2d8132790ecbac4"
+          "count": 9,
+          "rev": "dcd09618c4f5c56a"
         }
       ]
     },
@@ -1069,8 +1069,8 @@
         {
           "path": "manufacturers/samsung/soc.json",
           "category": "soc",
-          "count": 23,
-          "rev": "54ea059cb91c9aff"
+          "count": 27,
+          "rev": "b3121c66373a7822"
         }
       ]
     },
@@ -1184,7 +1184,7 @@
           "path": "manufacturers/tesla/soc.json",
           "category": "soc",
           "count": 2,
-          "rev": "ae9a2204a29c83d4"
+          "rev": "e5ec035463189857"
         }
       ]
     },
@@ -1217,14 +1217,14 @@
         {
           "path": "manufacturers/texas-instruments/mcu.json",
           "category": "mcu",
-          "count": 6,
-          "rev": "7da90a4cfea938eb"
+          "count": 7,
+          "rev": "cf6d8eefa16ac42e"
         },
         {
           "path": "manufacturers/texas-instruments/soc.json",
           "category": "soc",
-          "count": 12,
-          "rev": "9a3a24444bdb4031"
+          "count": 16,
+          "rev": "9c41842355a958ed"
         }
       ]
     },
@@ -1241,6 +1241,22 @@
           "category": "cpu",
           "count": 6,
           "rev": "1395d6df3de5d3f4"
+        }
+      ]
+    },
+    {
+      "id": "unisoc",
+      "name": "UNISOC",
+      "country": "China",
+      "founded": 2001,
+      "defunct": 0,
+      "website": "https://www.unisoc.com",
+      "shards": [
+        {
+          "path": "manufacturers/unisoc/soc.json",
+          "category": "soc",
+          "count": 5,
+          "rev": "b39bb86b04a5af6d"
         }
       ]
     },
@@ -1273,6 +1289,22 @@
           "category": "cpu",
           "count": 2,
           "rev": "e87759eb4516b959"
+        }
+      ]
+    },
+    {
+      "id": "xiaomi",
+      "name": "Xiaomi",
+      "country": "China",
+      "founded": 2010,
+      "defunct": 0,
+      "website": "https://www.mi.com",
+      "shards": [
+        {
+          "path": "manufacturers/xiaomi/soc.json",
+          "category": "soc",
+          "count": 1,
+          "rev": "2b7280cee8da5462"
         }
       ]
     },

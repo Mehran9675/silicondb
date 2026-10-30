@@ -1,0 +1,50 @@
+{
+  "manufacturer": "xiaomi",
+  "category": "soc",
+  "chips": [
+    {
+      "id": "xiaomi-xring-o1",
+      "name": "XRING O1",
+      "family": "XRING",
+      "released": "2025-05",
+      "specs": {
+        "microarchitecture": "Cortex-X925 / Cortex-A725 / Cortex-A520",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "transistors": 19000000000,
+        "die_size_mm2": 109,
+        "cores": 10,
+        "core_config": "2x Cortex-X925 @ 3.9 GHz + 4x Cortex-A725 @ 3.4 GHz + 2x Cortex-A725 @ 1.89 GHz + 2x Cortex-A520 @ 1.8 GHz",
+        "boost_clock_mhz": 3900,
+        "gpu": "Immortalis-G925 MC16",
+        "gpu_cores": 16,
+        "npu_tops": 44,
+        "memory_type": "LPDDR5T",
+        "modem": "External (MediaTek)"
+      },
+      "na": [
+        "codename",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    }
+  ]
+}

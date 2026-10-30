@@ -85,7 +85,14 @@
         "slc_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -128,7 +135,14 @@
         "slc_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -171,7 +185,14 @@
         "slc_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -213,7 +234,14 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -255,7 +283,14 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -297,7 +332,14 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -339,7 +381,14 @@
         "slc_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -381,7 +430,14 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -423,7 +479,14 @@
         "l3_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -464,7 +527,14 @@
         "base_clock_mhz",
         "l2_cache_kb",
         "slc_kb",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -505,7 +575,14 @@
         "l2_cache_kb",
         "slc_kb",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -546,7 +623,14 @@
         "base_clock_mhz",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -587,7 +671,14 @@
         "slc_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -628,7 +719,14 @@
         "slc_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -669,7 +767,258 @@
         "l2_cache_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-8200",
+      "name": "Dimensity 8200",
+      "family": "Dimensity 8000",
+      "released": "2022-12",
+      "specs": {
+        "codename": "MT6896",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-A78 @ 3.1 GHz + 3x Cortex-A78 @ 3.0 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 3100,
+        "gpu": "Mali-G610 MC6",
+        "gpu_cores": 6,
+        "memory_type": "LPDDR5-6400",
+        "max_memory_mb": 16384,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 51.2,
+        "modem": "Integrated 5G (sub-6, 4.7 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.3",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-genio-700",
+      "name": "Genio 700",
+      "family": "Genio",
+      "released": "2023",
+      "specs": {
+        "codename": "MT8390",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Industrial",
+        "process_nm": 6,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x Cortex-A78 @ 2.2 GHz + 6x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2200,
+        "gpu": "Mali-G57 MC3",
+        "gpu_cores": 3,
+        "npu_tops": 4,
+        "memory_type": "LPDDR4X / LPDDR5",
+        "connectivity": [
+          "PCIe 2.0",
+          "USB 3.2",
+          "Gigabit Ethernet",
+          "MIPI CSI-2",
+          "MIPI DSI",
+          "HDMI 2.0",
+          "eDP"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-7200",
+      "name": "Dimensity 7200",
+      "family": "Dimensity 7000",
+      "released": "2023-02",
+      "specs": {
+        "codename": "MT6886",
+        "microarchitecture": "Cortex-A715 / Cortex-A510",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x Cortex-A715 @ 2.8 GHz + 6x Cortex-A510 @ 2.0 GHz",
+        "boost_clock_mhz": 2800,
+        "gpu": "Mali-G610 MC4",
+        "gpu_cores": 4,
+        "memory_type": "LPDDR5-6400 / LPDDR4X",
+        "max_memory_mb": 16384,
+        "modem": "Integrated 5G (sub-6, 4.7 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.3",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-7050",
+      "name": "Dimensity 7050",
+      "family": "Dimensity 7000",
+      "released": "2023-05",
+      "specs": {
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
+        "process_nm": 6,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x Cortex-A78 @ 2.6 GHz + 6x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2600,
+        "gpu": "Mali-G68 MC4",
+        "gpu_cores": 4,
+        "memory_type": "LPDDR5 / LPDDR4X",
+        "max_memory_mb": 16384,
+        "modem": "Integrated 5G (sub-6)",
+        "connectivity": [
+          "Wi-Fi 6 (802.11ax)",
+          "Bluetooth 5.2",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-9200-plus",
+      "name": "Dimensity 9200+",
+      "family": "Dimensity 9000",
+      "released": "2023-05",
+      "specs": {
+        "microarchitecture": "Cortex-X3 / Cortex-A715 / Cortex-A510",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X3 @ 3.35 GHz + 3x Cortex-A715 @ 3.0 GHz + 4x Cortex-A510 @ 2.0 GHz",
+        "boost_clock_mhz": 3350,
+        "l3_cache_kb": 8192,
+        "slc_kb": 6144,
+        "gpu": "Immortalis-G715 MC11",
+        "gpu_cores": 11,
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "modem": "Integrated 5G (sub-6 + mmWave, 7.9 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.3",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "codename",
+        "gpu_clock_mhz",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -702,6 +1051,195 @@
           "Wi-Fi 7 (802.11be)",
           "Bluetooth 5.4",
           "USB 3.2"
+        ],
+        "geekbench6_single": 2253,
+        "geekbench6_multi": 7343,
+        "geekbench6_opencl": 13923,
+        "geekbench6_vulkan": 15144
+      },
+      "na": [
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-8300",
+      "name": "Dimensity 8300",
+      "family": "Dimensity 8000",
+      "released": "2023-11",
+      "specs": {
+        "codename": "MT6897",
+        "microarchitecture": "Cortex-A715 / Cortex-A510",
+        "isa": "ARMv9-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-A715 @ 3.35 GHz + 3x Cortex-A715 @ 3.2 GHz + 4x Cortex-A510 @ 2.2 GHz",
+        "boost_clock_mhz": 3350,
+        "gpu": "Mali-G615 MC6",
+        "gpu_cores": 6,
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "modem": "Integrated 5G (sub-6, 5.17 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.4",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-6300",
+      "name": "Dimensity 6300",
+      "family": "Dimensity 6000",
+      "released": "2024-04",
+      "specs": {
+        "codename": "MT6835",
+        "microarchitecture": "Cortex-A76 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
+        "process_nm": 6,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x Cortex-A76 @ 2.4 GHz + 6x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2400,
+        "gpu": "Mali-G57 MC2",
+        "gpu_cores": 2,
+        "memory_type": "LPDDR4X",
+        "max_memory_mb": 12288,
+        "modem": "Integrated 5G (sub-6)",
+        "connectivity": [
+          "Wi-Fi 5 (802.11ac)",
+          "Bluetooth 5.3",
+          "USB 2.0"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-7300",
+      "name": "Dimensity 7300",
+      "family": "Dimensity 7000",
+      "released": "2024-05",
+      "specs": {
+        "codename": "MT6878",
+        "microarchitecture": "Cortex-A78 / Cortex-A55",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "4x Cortex-A78 @ 2.5 GHz + 4x Cortex-A55 @ 2.0 GHz",
+        "boost_clock_mhz": 2500,
+        "gpu": "Mali-G615 MC2",
+        "gpu_cores": 2,
+        "memory_type": "LPDDR5-6400 / LPDDR4X",
+        "max_memory_mb": 16384,
+        "modem": "Integrated 5G (sub-6)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.4",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-9300-plus",
+      "name": "Dimensity 9300+",
+      "family": "Dimensity 9000",
+      "released": "2024-05",
+      "specs": {
+        "microarchitecture": "Cortex-X4 / Cortex-A720",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X4 @ 3.4 GHz + 3x Cortex-X4 @ 2.85 GHz + 4x Cortex-A720 @ 2.0 GHz",
+        "boost_clock_mhz": 3400,
+        "l3_cache_kb": 8192,
+        "slc_kb": 10240,
+        "gpu": "Immortalis-G720 MC12",
+        "gpu_cores": 12,
+        "memory_type": "LPDDR5T-9600",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 76.8,
+        "modem": "Integrated 5G (sub-6, 7 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB 3.2"
         ]
       },
       "na": [
@@ -710,7 +1248,17 @@
         "l2_cache_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "codename",
+        "transistors",
+        "gpu_clock_mhz",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -742,6 +1290,101 @@
           "Wi-Fi 7 (802.11be)",
           "Bluetooth 5.4",
           "USB 3.2"
+        ],
+        "geekbench6_single": 2605,
+        "geekbench6_multi": 8078,
+        "geekbench6_opencl": 20918,
+        "geekbench6_vulkan": 22484
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-8400",
+      "name": "Dimensity 8400",
+      "family": "Dimensity 8000",
+      "released": "2024-12",
+      "specs": {
+        "codename": "MT6899",
+        "microarchitecture": "Cortex-A725",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-A725 @ 3.25 GHz + 3x Cortex-A725 @ 3.0 GHz + 4x Cortex-A725 @ 2.1 GHz",
+        "boost_clock_mhz": 3250,
+        "gpu": "Mali-G720 MC7",
+        "gpu_cores": 7,
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "modem": "Integrated 5G (sub-6, 5.17 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.4",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-9400-plus",
+      "name": "Dimensity 9400+",
+      "family": "Dimensity 9000",
+      "released": "2025-04",
+      "specs": {
+        "microarchitecture": "Cortex-X925 / Cortex-X4 / Cortex-A720",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X925 @ 3.73 GHz + 3x Cortex-X4 @ 3.3 GHz + 4x Cortex-A720 @ 2.4 GHz",
+        "boost_clock_mhz": 3730,
+        "l3_cache_kb": 12288,
+        "slc_kb": 10240,
+        "gpu": "Immortalis-G925 MC12",
+        "gpu_cores": 12,
+        "gpu_clock_mhz": 1612,
+        "memory_type": "LPDDR5X-10667",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 85.3,
+        "modem": "Integrated 5G (sub-6, 7 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB 3.2"
         ]
       },
       "na": [
@@ -751,7 +1394,111 @@
         "l2_cache_kb",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "codename",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-kompanio-ultra-910",
+      "name": "Kompanio Ultra 910",
+      "family": "Kompanio",
+      "released": "2025-04",
+      "specs": {
+        "codename": "MT8196",
+        "microarchitecture": "Cortex-X925 / Cortex-X4 / Cortex-A720",
+        "isa": "ARMv9.2-A",
+        "market": "Laptop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-X925 @ 3.62 GHz + 3x Cortex-X4 @ 3.3 GHz + 4x Cortex-A720 @ 2.4 GHz",
+        "boost_clock_mhz": 3620,
+        "gpu": "Immortalis-G925 MC11",
+        "gpu_cores": 11,
+        "npu_tops": 50,
+        "memory_type": "LPDDR5X-8533",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 5.4",
+          "USB4"
+        ]
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-8450",
+      "name": "Dimensity 8450",
+      "family": "Dimensity 8000",
+      "released": "2025-05",
+      "specs": {
+        "microarchitecture": "Cortex-A725",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x Cortex-A725 @ 3.25 GHz + 3x Cortex-A725 @ 3.0 GHz + 4x Cortex-A725 @ 2.1 GHz",
+        "boost_clock_mhz": 3250,
+        "gpu": "Mali-G720 MC7",
+        "gpu_cores": 7,
+        "memory_type": "LPDDR5X-8533",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 68.3,
+        "modem": "Integrated 5G (sub-6, 5.17 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 6E (802.11ax)",
+          "Bluetooth 5.4",
+          "USB 3.2"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -761,6 +1508,53 @@
       "released": "2025-09",
       "specs": {
         "codename": "MT6993",
+        "microarchitecture": "C1-Ultra / C1-Premium / C1-Pro",
+        "isa": "ARMv9.3-A",
+        "market": "Mobile",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "1x C1-Ultra @ 4.21 GHz + 3x C1-Premium @ 3.5 GHz + 4x C1-Pro @ 2.7 GHz",
+        "boost_clock_mhz": 4210,
+        "gpu": "Mali-G1-Ultra MC12",
+        "gpu_cores": 12,
+        "memory_type": "LPDDR5X-10667",
+        "max_memory_mb": 24576,
+        "memory_bus_bits": 64,
+        "memory_bandwidth_gbs": 85.3,
+        "modem": "Integrated 5G (sub-6, 7.4 Gbps down)",
+        "connectivity": [
+          "Wi-Fi 7 (802.11be)",
+          "Bluetooth 6.0",
+          "USB 3.2"
+        ],
+        "geekbench6_single": 3228,
+        "geekbench6_multi": 10467,
+        "geekbench6_opencl": 23142,
+        "geekbench6_vulkan": 28189
+      },
+      "na": [
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-9600m",
+      "name": "Dimensity 9600M",
+      "family": "Dimensity 9000",
+      "released": "2026-09",
+      "specs": {
         "microarchitecture": "C1-Ultra / C1-Premium / C1-Pro",
         "isa": "ARMv9.3-A",
         "market": "Mobile",
@@ -792,7 +1586,59 @@
         "gpu_clock_mhz",
         "fp32_tflops",
         "npu_tops",
-        "tdp_w"
+        "tdp_w",
+        "codename",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "mediatek-dimensity-9600-pro",
+      "name": "Dimensity 9600 Pro",
+      "family": "Dimensity 9000",
+      "released": "2026-09",
+      "specs": {
+        "microarchitecture": "Arm C2 series",
+        "isa": "ARMv9.3-A",
+        "market": "Mobile",
+        "process_nm": 2,
+        "foundry": "TSMC",
+        "cores": 8,
+        "core_config": "2x C2 prime @ up to 4.55 GHz + 3x C2 + 3x C2",
+        "boost_clock_mhz": 4550,
+        "l3_cache_kb": 16384,
+        "slc_kb": 10240,
+        "memory_type": "LPDDR6 / LPDDR5X",
+        "modem": "Integrated 5G"
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "gpu",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

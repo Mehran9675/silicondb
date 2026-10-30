@@ -36,7 +36,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -73,7 +80,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -110,7 +124,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -147,7 +168,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -184,7 +212,14 @@
         "slc_kb",
         "fp32_tflops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -221,7 +256,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -258,7 +300,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -295,7 +344,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -333,7 +389,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -371,7 +434,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -409,7 +479,58 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "hisilicon-kirin-9030",
+      "name": "Kirin 9030",
+      "family": "Kirin 9000",
+      "released": "2025-11",
+      "specs": {
+        "microarchitecture": "TaiShan",
+        "isa": "ARMv8.2-A",
+        "market": "Mobile",
+        "process_nm": 5,
+        "foundry": "SMIC",
+        "cores": 9,
+        "core_config": "1x @ 2.75 GHz + 4x @ 2.27 GHz + 4x @ 1.72 GHz",
+        "base_clock_mhz": 1720,
+        "boost_clock_mhz": 2750,
+        "gpu": "Maleoon 935",
+        "memory_type": "LPDDR5X",
+        "modem": "Integrated 5G"
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]

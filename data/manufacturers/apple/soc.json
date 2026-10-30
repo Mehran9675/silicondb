@@ -110,7 +110,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -147,7 +154,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -184,7 +198,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -221,7 +242,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -258,7 +286,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -295,7 +330,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -337,7 +379,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -363,7 +412,10 @@
         "memory_type": "LPDDR4",
         "max_memory_mb": 2048,
         "memory_bus_bits": 64,
-        "memory_bandwidth_gbs": 25.6
+        "memory_bandwidth_gbs": 25.6,
+        "geekbench6_single": 605,
+        "geekbench6_multi": 878,
+        "geekbench6_metal": 3180
       },
       "na": [
         "transistors",
@@ -374,7 +426,11 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -400,7 +456,10 @@
         "memory_type": "LPDDR4",
         "max_memory_mb": 4096,
         "memory_bus_bits": 128,
-        "memory_bandwidth_gbs": 51.2
+        "memory_bandwidth_gbs": 51.2,
+        "geekbench6_single": 749,
+        "geekbench6_multi": 1247,
+        "geekbench6_metal": 5835
       },
       "na": [
         "transistors",
@@ -411,7 +470,11 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -441,7 +504,9 @@
         "memory_type": "LPDDR4",
         "max_memory_mb": 3072,
         "memory_bus_bits": 64,
-        "memory_bandwidth_gbs": 25.6
+        "memory_bandwidth_gbs": 25.6,
+        "geekbench6_single": 785,
+        "geekbench6_multi": 969
       },
       "na": [
         "l3_cache_kb",
@@ -450,7 +515,12 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -477,7 +547,10 @@
         "memory_type": "LPDDR4",
         "max_memory_mb": 4096,
         "memory_bus_bits": 128,
-        "memory_bandwidth_gbs": 51.2
+        "memory_bandwidth_gbs": 51.2,
+        "geekbench6_single": 940,
+        "geekbench6_multi": 2210,
+        "geekbench6_metal": 8346
       },
       "na": [
         "transistors",
@@ -489,7 +562,11 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -520,7 +597,10 @@
         "max_memory_mb": 3072,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 34.1,
-        "npu_tops": 0.6
+        "npu_tops": 0.6,
+        "geekbench6_single": 1052,
+        "geekbench6_multi": 2058,
+        "geekbench6_metal": 5530
       },
       "na": [
         "l3_cache_kb",
@@ -528,7 +608,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -570,7 +654,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -601,7 +692,10 @@
         "max_memory_mb": 4096,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 34.1,
-        "npu_tops": 5
+        "npu_tops": 5,
+        "geekbench6_single": 1284,
+        "geekbench6_multi": 2756,
+        "geekbench6_metal": 6400
       },
       "na": [
         "l3_cache_kb",
@@ -609,7 +703,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -652,7 +750,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -683,7 +788,10 @@
         "max_memory_mb": 6144,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 68.2,
-        "npu_tops": 5
+        "npu_tops": 5,
+        "geekbench6_single": 1342,
+        "geekbench6_multi": 4853,
+        "geekbench6_metal": 14258
       },
       "na": [
         "l3_cache_kb",
@@ -691,7 +799,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -722,7 +834,10 @@
         "max_memory_mb": 4096,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 34.1,
-        "npu_tops": 5.5
+        "npu_tops": 5.5,
+        "geekbench6_single": 1516,
+        "geekbench6_multi": 3351,
+        "geekbench6_metal": 7400
       },
       "na": [
         "l3_cache_kb",
@@ -730,7 +845,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -761,7 +880,10 @@
         "max_memory_mb": 6144,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 68.2,
-        "npu_tops": 5
+        "npu_tops": 5,
+        "geekbench6_single": 1374,
+        "geekbench6_multi": 4665,
+        "geekbench6_metal": 18477
       },
       "na": [
         "l3_cache_kb",
@@ -769,7 +891,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -800,7 +926,10 @@
         "max_memory_mb": 6144,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 34.1,
-        "npu_tops": 11
+        "npu_tops": 11,
+        "geekbench6_single": 1814,
+        "geekbench6_multi": 4296,
+        "geekbench6_metal": 12533
       },
       "na": [
         "l3_cache_kb",
@@ -808,7 +937,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -841,13 +974,20 @@
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 68.25,
         "fp32_tflops": 2.6,
-        "npu_tops": 11
+        "npu_tops": 11,
+        "geekbench6_single": 2340,
+        "geekbench6_multi": 8350,
+        "geekbench6_metal": 32800,
+        "cinebench_2024_single": 114,
+        "cinebench_2024_multi": 530
       },
       "na": [
         "l3_cache_kb",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -878,7 +1018,10 @@
         "max_memory_mb": 6144,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 34.1,
-        "npu_tops": 15.8
+        "npu_tops": 15.8,
+        "geekbench6_single": 1956,
+        "geekbench6_multi": 4982,
+        "geekbench6_metal": 15500
       },
       "na": [
         "l3_cache_kb",
@@ -886,7 +1029,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -919,13 +1066,20 @@
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 200,
         "fp32_tflops": 5.2,
-        "npu_tops": 11
+        "npu_tops": 11,
+        "geekbench6_single": 2380,
+        "geekbench6_multi": 12300,
+        "geekbench6_metal": 61000,
+        "cinebench_2024_single": 114,
+        "cinebench_2024_multi": 815
       },
       "na": [
         "l3_cache_kb",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -958,13 +1112,20 @@
         "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 400,
         "fp32_tflops": 10.4,
-        "npu_tops": 11
+        "npu_tops": 11,
+        "geekbench6_single": 2390,
+        "geekbench6_multi": 12400,
+        "geekbench6_metal": 105000,
+        "cinebench_2024_single": 114,
+        "cinebench_2024_multi": 830
       },
       "na": [
         "l3_cache_kb",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -997,13 +1158,20 @@
         "memory_bus_bits": 1024,
         "memory_bandwidth_gbs": 800,
         "fp32_tflops": 21,
-        "npu_tops": 22
+        "npu_tops": 22,
+        "geekbench6_single": 2390,
+        "geekbench6_multi": 18300,
+        "geekbench6_metal": 153000,
+        "cinebench_2024_single": 115,
+        "cinebench_2024_multi": 1550
       },
       "na": [
         "l3_cache_kb",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1036,13 +1204,20 @@
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 100,
         "fp32_tflops": 3.6,
-        "npu_tops": 15.8
+        "npu_tops": 15.8,
+        "geekbench6_single": 2595,
+        "geekbench6_multi": 9700,
+        "geekbench6_metal": 45500,
+        "cinebench_2024_single": 121,
+        "cinebench_2024_multi": 570
       },
       "na": [
         "l3_cache_kb",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1072,7 +1247,10 @@
         "max_memory_mb": 6144,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 51.2,
-        "npu_tops": 17
+        "npu_tops": 17,
+        "geekbench6_single": 2519,
+        "geekbench6_multi": 6367,
+        "geekbench6_metal": 22609
       },
       "na": [
         "die_size_mm2",
@@ -1081,7 +1259,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1113,14 +1295,21 @@
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 200,
         "fp32_tflops": 6.8,
-        "npu_tops": 15.8
+        "npu_tops": 15.8,
+        "geekbench6_single": 2650,
+        "geekbench6_multi": 14400,
+        "geekbench6_metal": 76000,
+        "cinebench_2024_single": 121,
+        "cinebench_2024_multi": 970
       },
       "na": [
         "die_size_mm2",
         "l3_cache_kb",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1152,14 +1341,21 @@
         "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 400,
         "fp32_tflops": 13.6,
-        "npu_tops": 15.8
+        "npu_tops": 15.8,
+        "geekbench6_single": 2720,
+        "geekbench6_multi": 14750,
+        "geekbench6_metal": 135000,
+        "cinebench_2024_single": 123,
+        "cinebench_2024_multi": 1030
       },
       "na": [
         "die_size_mm2",
         "l3_cache_kb",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1191,14 +1387,21 @@
         "memory_bus_bits": 1024,
         "memory_bandwidth_gbs": 800,
         "fp32_tflops": 27.2,
-        "npu_tops": 31.6
+        "npu_tops": 31.6,
+        "geekbench6_single": 2760,
+        "geekbench6_multi": 21300,
+        "geekbench6_metal": 220000,
+        "cinebench_2024_single": 127,
+        "cinebench_2024_multi": 1918
       },
       "na": [
         "die_size_mm2",
         "l3_cache_kb",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1229,7 +1432,10 @@
         "max_memory_mb": 8192,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 51.2,
-        "npu_tops": 35
+        "npu_tops": 35,
+        "geekbench6_single": 2896,
+        "geekbench6_multi": 7192,
+        "geekbench6_metal": 28000
       },
       "na": [
         "l3_cache_kb",
@@ -1237,7 +1443,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1280,7 +1490,14 @@
         "fp32_tflops",
         "npu_tops",
         "tdp_w",
-        "modem"
+        "modem",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1310,7 +1527,12 @@
         "max_memory_mb": 24576,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 100,
-        "npu_tops": 18
+        "npu_tops": 18,
+        "geekbench6_single": 3075,
+        "geekbench6_multi": 11900,
+        "geekbench6_metal": 47500,
+        "cinebench_2024_single": 141,
+        "cinebench_2024_multi": 721
       },
       "na": [
         "die_size_mm2",
@@ -1319,7 +1541,9 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1349,7 +1573,12 @@
         "max_memory_mb": 36864,
         "memory_bus_bits": 192,
         "memory_bandwidth_gbs": 150,
-        "npu_tops": 18
+        "npu_tops": 18,
+        "geekbench6_single": 3090,
+        "geekbench6_multi": 15200,
+        "geekbench6_metal": 73000,
+        "cinebench_2024_single": 141,
+        "cinebench_2024_multi": 1060
       },
       "na": [
         "die_size_mm2",
@@ -1358,7 +1587,9 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1388,7 +1619,12 @@
         "max_memory_mb": 131072,
         "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 400,
-        "npu_tops": 18
+        "npu_tops": 18,
+        "geekbench6_single": 3125,
+        "geekbench6_multi": 20900,
+        "geekbench6_metal": 154000,
+        "cinebench_2024_single": 143,
+        "cinebench_2024_multi": 1690
       },
       "na": [
         "die_size_mm2",
@@ -1397,7 +1633,9 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1434,7 +1672,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1464,7 +1709,12 @@
         "max_memory_mb": 32768,
         "memory_bus_bits": 128,
         "memory_bandwidth_gbs": 120,
-        "npu_tops": 38
+        "npu_tops": 38,
+        "geekbench6_single": 3700,
+        "geekbench6_multi": 14600,
+        "geekbench6_metal": 57000,
+        "cinebench_2024_single": 172,
+        "cinebench_2024_multi": 990
       },
       "na": [
         "die_size_mm2",
@@ -1473,7 +1723,9 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1502,7 +1754,10 @@
         "max_memory_mb": 8192,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 60,
-        "npu_tops": 35
+        "npu_tops": 35,
+        "geekbench6_single": 3300,
+        "geekbench6_multi": 8000,
+        "geekbench6_metal": 29017
       },
       "na": [
         "transistors",
@@ -1512,7 +1767,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1541,7 +1800,10 @@
         "max_memory_mb": 8192,
         "memory_bus_bits": 64,
         "memory_bandwidth_gbs": 60,
-        "npu_tops": 35
+        "npu_tops": 35,
+        "geekbench6_single": 3400,
+        "geekbench6_multi": 8500,
+        "geekbench6_metal": 32673
       },
       "na": [
         "transistors",
@@ -1551,7 +1813,61 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "apple-s10",
+      "name": "S10",
+      "family": "Apple S",
+      "released": "2024-09",
+      "specs": {
+        "microarchitecture": "Sawtooth-derived",
+        "isa": "ARMv8.6-A",
+        "market": "Wearable",
+        "process_nm": 4,
+        "foundry": "TSMC",
+        "package": "System in Package",
+        "cores": 2,
+        "core_config": "2x Sawtooth-derived cores",
+        "gpu": "Apple-designed GPU",
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 5.3",
+          "Ultra Wideband (2nd gen)",
+          "NFC"
+        ]
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_type",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1579,7 +1895,12 @@
         "max_memory_mb": 65536,
         "memory_bus_bits": 256,
         "memory_bandwidth_gbs": 273,
-        "npu_tops": 38
+        "npu_tops": 38,
+        "geekbench6_single": 3880,
+        "geekbench6_multi": 22600,
+        "geekbench6_metal": 112000,
+        "cinebench_2024_single": 178,
+        "cinebench_2024_multi": 1725
       },
       "na": [
         "transistors",
@@ -1590,7 +1911,9 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1618,7 +1941,12 @@
         "max_memory_mb": 131072,
         "memory_bus_bits": 512,
         "memory_bandwidth_gbs": 546,
-        "npu_tops": 38
+        "npu_tops": 38,
+        "geekbench6_single": 3950,
+        "geekbench6_multi": 25800,
+        "geekbench6_metal": 190000,
+        "cinebench_2024_single": 179,
+        "cinebench_2024_multi": 2060
       },
       "na": [
         "transistors",
@@ -1629,7 +1957,9 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1659,7 +1989,10 @@
         "max_memory_mb": 524288,
         "memory_bus_bits": 1024,
         "memory_bandwidth_gbs": 819,
-        "npu_tops": 36
+        "npu_tops": 36,
+        "geekbench6_single": 3200,
+        "geekbench6_multi": 27600,
+        "geekbench6_metal": 260000
       },
       "na": [
         "die_size_mm2",
@@ -1668,7 +2001,11 @@
         "fp32_tflops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1691,7 +2028,10 @@
         "gpu_cores": 5,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 8192,
-        "memory_bus_bits": 64
+        "memory_bus_bits": 64,
+        "geekbench6_single": 3600,
+        "geekbench6_multi": 9000,
+        "geekbench6_metal": 35347
       },
       "na": [
         "codename",
@@ -1707,7 +2047,11 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1730,7 +2074,10 @@
         "gpu_cores": 6,
         "memory_type": "LPDDR5X",
         "max_memory_mb": 12288,
-        "memory_bus_bits": 64
+        "memory_bus_bits": 64,
+        "geekbench6_single": 3834,
+        "geekbench6_multi": 9988,
+        "geekbench6_metal": 42604
       },
       "na": [
         "codename",
@@ -1746,7 +2093,61 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "apple-s11",
+      "name": "S11",
+      "family": "Apple S",
+      "released": "2025-09",
+      "specs": {
+        "microarchitecture": "Sawtooth-derived",
+        "isa": "ARMv8.6-A",
+        "market": "Wearable",
+        "foundry": "TSMC",
+        "package": "System in Package",
+        "cores": 2,
+        "core_config": "2x Sawtooth-derived cores",
+        "gpu": "Apple-designed GPU",
+        "connectivity": [
+          "Wi-Fi 4 (802.11n)",
+          "Bluetooth 5.3",
+          "Ultra Wideband (2nd gen)",
+          "NFC"
+        ]
+      },
+      "na": [
+        "codename",
+        "process_nm",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_cores",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_type",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1770,7 +2171,12 @@
         "memory_type": "LPDDR5X",
         "max_memory_mb": 32768,
         "memory_bus_bits": 128,
-        "memory_bandwidth_gbs": 153
+        "memory_bandwidth_gbs": 153,
+        "geekbench6_single": 4200,
+        "geekbench6_multi": 16800,
+        "geekbench6_metal": 74000,
+        "cinebench_2024_single": 200,
+        "cinebench_2024_multi": 1150
       },
       "na": [
         "codename",
@@ -1785,7 +2191,9 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
       ]
     },
     {
@@ -1822,7 +2230,14 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     },
     {
@@ -1859,7 +2274,105 @@
         "npu_tops",
         "tdp_w",
         "modem",
-        "connectivity"
+        "connectivity",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "apple-a20-pro",
+      "name": "A20 Pro",
+      "family": "Apple A",
+      "released": "2026-09",
+      "specs": {
+        "microarchitecture": "Apple A20 super core / efficiency core",
+        "isa": "ARMv9.2-A",
+        "market": "Mobile",
+        "process_nm": 2,
+        "foundry": "TSMC",
+        "package": "WMCM (wafer-level multi-chip module)",
+        "cores": 6,
+        "performance_cores": 2,
+        "efficiency_cores": 4,
+        "core_config": "2x super core @ 4.93 GHz + 4x efficiency core @ 2.64 GHz",
+        "base_clock_mhz": 2640,
+        "boost_clock_mhz": 4930,
+        "gpu": "Apple-designed 7-core GPU with Neural Accelerators",
+        "gpu_cores": 7,
+        "gpu_clock_mhz": 1620,
+        "memory_type": "LPDDR5X",
+        "geekbench6_single": 4710,
+        "geekbench6_multi": 12650
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "fp32_tflops",
+        "npu_tops",
+        "memory_bus_bits",
+        "memory_bandwidth_gbs",
+        "max_memory_mb",
+        "modem",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
+      ]
+    },
+    {
+      "id": "apple-m5-ultra",
+      "name": "M5 Ultra",
+      "family": "Apple M5",
+      "released": "2026-09",
+      "specs": {
+        "microarchitecture": "Apple M5 super core / performance core",
+        "isa": "ARMv9.2-A",
+        "market": "Desktop",
+        "process_nm": 3,
+        "foundry": "TSMC",
+        "cores": 36,
+        "core_config": "12x super core + 24x performance core (2x M5 Max via UltraFusion)",
+        "gpu": "Apple-designed 80-core GPU with Neural Accelerators",
+        "gpu_cores": 80,
+        "memory_type": "LPDDR5X",
+        "max_memory_mb": 524288,
+        "memory_bus_bits": 1024,
+        "memory_bandwidth_gbs": 1228
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "boost_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "modem",
+        "connectivity",
+        "tdp_w",
+        "geekbench6_single",
+        "geekbench6_multi",
+        "geekbench6_opencl",
+        "geekbench6_vulkan",
+        "geekbench6_metal",
+        "cinebench_2024_single",
+        "cinebench_2024_multi"
       ]
     }
   ]
