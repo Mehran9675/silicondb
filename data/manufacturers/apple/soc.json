@@ -2374,6 +2374,48 @@
         "cinebench_2024_single",
         "cinebench_2024_multi"
       ]
+    },
+    {
+      "id": "apple-m6",
+      "name": "M6",
+      "family": "Apple M6",
+      "released": "2026-09",
+      "specs": {
+        "microarchitecture": "Apple M6 super core / performance core / efficiency core",
+        "isa": "ARMv9.2-A",
+        "market": "Desktop",
+        "process_nm": 2,
+        "foundry": "TSMC",
+        "cores": 12,
+        "performance_cores": 6,
+        "efficiency_cores": 6,
+        "core_config": "2x super core + 4x performance core + 6x efficiency core",
+        "gpu": "Apple-designed 12-core GPU with Neural Accelerators",
+        "gpu_cores": 12,
+        "memory_type": "LPDDR5X",
+        "max_memory_mb": 32768,
+        "memory_bus_bits": 128,
+        "memory_bandwidth_gbs": 170,
+        "geekbench6_single": 4610,
+        "geekbench6_multi": 20676
+      },
+      "na": [
+        "codename",
+        "transistors",
+        "die_size_mm2",
+        "base_clock_mhz",
+        "l2_cache_kb",
+        "l3_cache_kb",
+        "slc_kb",
+        "gpu_clock_mhz",
+        "fp32_tflops",
+        "npu_tops",
+        "tdp_w",
+        "modem",
+        "connectivity",
+        "geekbench6_opencl",
+        "geekbench6_vulkan"
+      ]
     }
   ]
 }

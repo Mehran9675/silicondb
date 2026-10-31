@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "schema": {
     "path": "schema.json",
     "rev": "61ccd654a387a0d3"
@@ -185,8 +185,8 @@
         {
           "path": "manufacturers/apple/soc.json",
           "category": "soc",
-          "count": 52,
-          "rev": "05d99b5d7f9fd08b"
+          "count": 53,
+          "rev": "3a72b065544e752b"
         }
       ]
     },
