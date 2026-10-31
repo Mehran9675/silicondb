@@ -7,7 +7,7 @@ package config
 //	-ldflags "-X github.com/mehran9675/silicondb/internal/config.DataURL=https://example.com/data/"
 //
 // or at runtime in Settings.
-var DataURL = "https://raw.githubusercontent.com/Mehran9675/silicondb/main/data/"
+var DataURL = "https://raw.githubusercontent.com/xmhrnx/silicondb/main/data/"
 
 // Version is the app version shown in Settings.
 var Version = "1.0.0"

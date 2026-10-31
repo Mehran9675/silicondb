@@ -10,7 +10,7 @@ icon = "assets/icon.png"
 package = "."
 publisher = "Silicon DB"
 description = "Specifications of processors, GPUs, SoCs, AI accelerators and other chips."
-website = "https://github.com/Mehran9675/silicondb"
+website = "https://github.com/xmhrnx/silicondb"
 platforms = ["android", "ios"]
 licenses = "assets/licenses.json"
 

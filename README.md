@@ -45,7 +45,7 @@ edit it; after editing, run:
 go run ./cmd/indexgen        # validates everything and rewrites data/index.json
 ```
 
-By default the app reads `https://raw.githubusercontent.com/Mehran9675/silicondb/main/data/`.
+By default the app reads `https://raw.githubusercontent.com/xmhrnx/silicondb/main/data/`.
 Change it at build time with
 `-ldflags "-X github.com/mehran9675/silicondb/internal/config.DataURL=<url>"` (or
 `app.ldflags` in `giode.toml`), or at runtime in Settings → Data source.
